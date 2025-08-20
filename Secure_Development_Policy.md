@@ -89,6 +89,12 @@ This policy establishes the comprehensive framework for developing secure softwa
 - **⚡ Dynamic Application Security Testing (DAST):** OWASP ZAP scanning in staging environments based on classification levels
 - **🔍 Secret Scanning:** Continuous monitoring for exposed credentials and keys with classification-based remediation SLAs
 
+#### **🔒 Protection of Test Data**
+- **🚫 Prohibition on Production Data:** The use of personal or sensitive production data in development or test environments is strictly prohibited.
+- **🎭 Data Anonymization & Masking:** Where data structurally similar to production data is required for testing, it MUST be anonymized, pseudonymized, or masked to remove all sensitive elements.
+- **🗑️ Secure Deletion:** Test data MUST be securely deleted from test environments upon completion of testing.
+- **🔐 Access Control:** Access to test environments and data is restricted based on the principle of least privilege.
+
 ### **🚀 Phase 4: Deployment**
 - **🤖 Automated CI/CD Pipelines:** Security gates preventing vulnerable code promotion with classification-driven thresholds
 - **✅ Manual Approval Gates:** Risk-based approval for production deployments aligned with RTO/RPO requirements
@@ -634,6 +640,20 @@ Aligned with [ISMS Transparency Plan](./ISMS_Transparency_Plan.md), each project
 
 ---
 
+---
+
+## 🤝 **Third-Party & Outsourced Development**
+
+When development activities are outsourced to third parties or utilize external developers, Hack23 AB enforces security requirements equivalent to those applied to internal development.
+
+### **🛡️ Outsourced Development Security Requirements**
+- **📝 Contractual Agreements:** All contracts with third-party developers MUST include binding clauses requiring adherence to this Secure Development Policy and other relevant ISMS policies.
+- **✅ Security Vetting:** Third-party suppliers undergo a security assessment as part of the vendor selection process, managed through our [Third Party Management](./Third_Party_Management.md) procedures.
+- **🔍 Code Review & Scanning:** Code submitted by third parties is subject to the same mandatory code review, SAST, SCA, and DAST scanning requirements as internally developed code.
+- **🔐 Access Control:** Third-party developers are granted least-privilege access to development environments and source code repositories for the duration of their engagement only.
+- **🎓 Secure Coding Training:** Evidence of secure development training for third-party developers may be required based on the classification of the project.
+
+---
 
 ## 🎯 **AWS Control Tower Objective Mapping**
 
