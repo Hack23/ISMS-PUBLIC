@@ -116,7 +116,8 @@ All projects must maintain comprehensive unit testing plan with public coverage 
 ### **📊 Reference Implementation** 
 
 **🏛️ Citizen Intelligence Agency:**
-[![Coverage](https://hack23.github.io/cia/badges/jacoco.svg)](https://hack23.github.io/cia/jacoco/) [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square)](https://hack23.github.io/cia/surefire.html) [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/UnitTestPlan.md)
+[![Unit Test Coverage](https://img.shields.io/badge/Unit%20Test%20Coverage-JaCoCo%20Results-brightgreen?style=flat-square&logo=java)]
+ [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square)](https://hack23.github.io/cia/surefire.html) [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/UnitTestPlan.md)
 
 **🎮 Black Trigram:**
 [![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square)](https://blacktrigram.com/test-results/) [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square)](https://blacktrigram.com/test-results/) [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/UnitTestPlan.md)
@@ -138,7 +139,7 @@ Comprehensive E2E testing ensures **🔄 operational excellence** across all use
 
 ### **📊 Reference Implementation**
 **🏛️ Citizen Intelligence Agency:**
-[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Coverage%20Results-brightgreen?style=flat-square&logo=cypress)](https://hack23.github.io/cia/jacoco/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/E2ETestPlan.md)
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-JaCoCo%20Coverage-brightgreen?style=flat-square&logo=java)](https://hack23.github.io/cia/jacoco/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/E2ETestPlan.md)
 
 **🎮 Black Trigram:**
 [![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://blacktrigram.com/cypress/mochawesome/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/E2ETestPlan.md)
@@ -236,102 +237,6 @@ All projects must maintain comprehensive workflow documentation demonstrating **
 ---
 
 
-## 🏗️ **Complete Architecture Documentation Matrix**
-
-### **📄 Enhanced Documentation Requirements**
-Every Hack23 AB repository **MUST** maintain comprehensive architectural documentation:
-
-#### **📋 Complete Architecture Documentation Set**
-Beyond the existing SECURITY_ARCHITECTURE.md requirements:
-
-- **🏛️ ARCHITECTURE.md** — Current C4 model with container and component views
-- **🚀 FUTURE_ARCHITECTURE.md** — Planned architectural evolution and roadmap
-- **🧠 MINDMAP.md** — System component relationships and conceptual architecture
-- **🧠 FUTURE_MINDMAP.md** — Evolution roadmap and capability expansion
-- **💼 SWOT.md** — Strategic assessment of platform positioning
-- **💼 FUTURE_SWOT.md** — Future strategic analysis and opportunities
-
-#### **🔄 Process & Behavior Documentation**
-- **🔄 FLOWCHART.md** — Current data processing workflows and business processes
-- **🔄 FUTURE_FLOWCHART.md** — Enhanced workflows for future development
-- **🔄 STATEDIAGRAM.md** — System state transitions and behavioral models
-- **🔄 FUTURE_STATEDIAGRAM.md** — Future adaptive state transitions
-
-#### **📊 Data & Technical Documentation**
-- **📊 DATA_MODEL.md** — Current data structures and entity relationships
-- **📊 FUTURE_DATA_MODEL.md** — Enhanced data architecture vision
-- **🔧 WORKFLOWS.md** — CI/CD automation processes and pipelines
-- **🔧 FUTURE_WORKFLOWS.md** — Advanced automation with ML capabilities
-
-#### **📋 Operational & Lifecycle Documentation**
-- **📅 End-of-Life-Strategy.md** — Technology lifecycle management
-- **💰 FinancialSecurityPlan.md** — Cost and security implementation guidelines
-- **🔄 BCPPlan.md** — Business continuity planning and recovery strategies
-- **⚡ performance-testing.md** — Performance benchmarks and analysis
-
-### **📄 Required Documentation Files**
-- **🏛️ SECURITY_ARCHITECTURE.md** — Current implemented security design and controls
-- **🚀 FUTURE_SECURITY_ARCHITECTURE.md** — Planned security improvements and roadmap
-- **🛡️ Security Implementation Evidence** — Diagrams, configurations, and validation results
-
-### **📋 Mandatory Security Architecture Content**
-- **🔑 Authentication & Authorization:** Identity management and access control patterns
-- **📊 Session & Action Tracking:** User activity monitoring and audit capabilities  
-- **📜 Data Integrity & Auditing:** Change tracking and tamper-evident logging
-- **🔒 Data Protection & Key Management:** Encryption implementation and key lifecycle
-- **🌐 Network Security & Perimeter Protection:** Segmentation and traffic control
-- **🔌 VPC Endpoints & Private Access:** Secure cloud service connectivity
-- **🏗️ High Availability & Resilience:** Multi-zone deployment and failover capabilities
-- **⚡ Threat Detection & Investigation:** Security monitoring and incident response
-- **🔍 Vulnerability Management:** Scanning, assessment, and remediation processes
-- **⚙️ Configuration & Compliance Management:** Infrastructure as code and drift detection
-- **📈 Security Monitoring & Analytics:** Metrics collection and threat intelligence
-- **🤖 Automated Security Operations:** Self-healing and response automation
-- **🛡️ Application Security Controls:** Input validation and output encoding
-- **🏆 Defense-in-Depth Strategy:** Layered security architecture approach
-- **📋 Compliance Framework Mapping:** Regulatory alignment documentation
-
-### **📊 Reference Implementation**
-
-**🏛️ Citizen Intelligence Agency Security Architecture:**
-- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md)
-- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
-
-**🎮 Black Trigram Security Architecture:**
-(https://bestpractices.coreinfrastructure.org/projects/10777)
-- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
-- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
-
-**📊 CIA Compliance Manager Security Architecture:**
-- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
-- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md)
-
-
----
-
-## 🏛️ **Architecture Governance & Quality Gates**
-
-### **✅ Definition of Done Requirements**
-Any feature impacting authentication, data handling, network access, or recovery **MUST**:
-- **📝 Update SECURITY_ARCHITECTURE.md** with detailed impact analysis
-- **🎨 Include Updated Mermaid Diagrams** showing architectural changes  
-- **🔗 Map Security Controls** to specific implementation details
-- **📋 Document Risk Assessment** and mitigation strategies
-
-### **👥 Pull Request Security Requirements**
-- **🛡️ Security Architecture Impact Section:** Mandatory for security-relevant changes
-- **🔍 Automated Security Scanning:** SAST/SCA/secret scanning must pass
-- **👨‍💻 Security-Focused Code Review:** Required for sensitive components per [Change Management](./Change_Management.md)
-- **📊 Risk Documentation:** Updates to [Risk Register](./Risk_Register.md) when applicable
-
-### **🚀 Release Security Checklist**
-- **✅ Security Architecture Documentation Updated:** Current and future state aligned
-- **📉 Risk Register Updated:** New risks identified and existing risks reassessed  
-- **🎖️ Security Controls Verified:** All badges green and evidence documented
-- **🔍 Vulnerability Scan Clean:** No critical/high issues or documented risk acceptance
-
----
-
 ## 🤖 **Automated Security Integration**
 
 ### **🔄 Continuous Integration Security Gates**
@@ -370,22 +275,34 @@ Any feature impacting authentication, data handling, network access, or recovery
 
 ---
 
-## 🧭 **Public Security Documentation Strategy**
 
-Aligned with [ISMS Transparency Plan](./ISMS_Transparency_Plan.md), each project maintains transparent security documentation:
+## 🏗️ **Architecture Documentation Matrix**
 
-### **📚 Documentation Accessibility**
-- **🏗️ Repository-based Documentation:** Direct access via GitHub repository security files
-- **🌐 Public Documentation Portals:** Non-technical audience access through dedicated websites
-- **🔗 Cross-Referenced Integration:** Security documentation linked across all project materials
-- **📋 Regular Content Updates:** Documentation maintained current with implementation changes
+### **📄 Documentation Requirements**
+Every Hack23 AB repository **MUST** maintain comprehensive architectural documentation:
 
-### **🎯 Strategic Documentation Examples**
-- **🏛️ Citizen Intelligence Agency:** [cia-docs.html](https://www.hack23.com/cia-docs.html) - Democratic transparency tools
-- **📊 CIA Compliance Manager:** [cia-compliance-manager-docs.html](https://www.hack23.com/cia-compliance-manager-docs.html) - Security management automation
-- **🎮 Black Trigram:** [black-trigram-docs.html](https://www.hack23.com/black-trigram-docs.html) - Educational gaming security
+### **📄 Required Documentation Files**
+- **🏛️ SECURITY_ARCHITECTURE.md** — Current implemented security design and controls
+- **🚀 FUTURE_SECURITY_ARCHITECTURE.md** — Planned security improvements and roadmap
+- **🛡️ Security Implementation Evidence** — Diagrams, configurations, and validation results
 
----
+### **📋 Mandatory Security Architecture Content**
+- **🔑 Authentication & Authorization:** Identity management and access control patterns
+- **📊 Session & Action Tracking:** User activity monitoring and audit capabilities  
+- **📜 Data Integrity & Auditing:** Change tracking and tamper-evident logging
+- **🔒 Data Protection & Key Management:** Encryption implementation and key lifecycle
+- **🌐 Network Security & Perimeter Protection:** Segmentation and traffic control
+- **🔌 VPC Endpoints & Private Access:** Secure cloud service connectivity
+- **🏗️ High Availability & Resilience:** Multi-zone deployment and failover capabilities
+- **⚡ Threat Detection & Investigation:** Security monitoring and incident response
+- **🔍 Vulnerability Management:** Scanning, assessment, and remediation processes
+- **⚙️ Configuration & Compliance Management:** Infrastructure as code and drift detection
+- **📈 Security Monitoring & Analytics:** Metrics collection and threat intelligence
+- **🤖 Automated Security Operations:** Self-healing and response automation
+- **🛡️ Application Security Controls:** Input validation and output encoding
+- **🏆 Defense-in-Depth Strategy:** Layered security architecture approach
+- **📋 Compliance Framework Mapping:** Regulatory alignment documentation
+
 
 ## 🔑 **Authentication & Identity Architecture**
 
@@ -627,6 +544,96 @@ Strategic AWS architecture example: [Lambda in Private VPC](https://github.com/H
 - **📊 Effectiveness Metrics:** Multi-layer security performance and improvement tracking
 
 ---
+
+
+### **📊 Reference Implementation**
+
+**🏛️ Citizen Intelligence Agency Security Architecture:**
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+
+**🎮 Black Trigram Security Architecture:**
+(https://bestpractices.coreinfrastructure.org/projects/10777)
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+
+**📊 CIA Compliance Manager Security Architecture:**
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md)
+
+
+#### **📋 Complete Architecture Documentation Set**
+Beyond the existing SECURITY_ARCHITECTURE.md requirements:
+
+- **🏛️ ARCHITECTURE.md** — Current C4 model with container and component views
+- **🚀 FUTURE_ARCHITECTURE.md** — Planned architectural evolution and roadmap
+- **🧠 MINDMAP.md** — System component relationships and conceptual architecture
+- **🧠 FUTURE_MINDMAP.md** — Evolution roadmap and capability expansion
+- **💼 SWOT.md** — Strategic assessment of platform positioning
+- **💼 FUTURE_SWOT.md** — Future strategic analysis and opportunities
+
+#### **🔄 Process & Behavior Documentation**
+- **🔄 FLOWCHART.md** — Current data processing workflows and business processes
+- **🔄 FUTURE_FLOWCHART.md** — Enhanced workflows for future development
+- **🔄 STATEDIAGRAM.md** — System state transitions and behavioral models
+- **🔄 FUTURE_STATEDIAGRAM.md** — Future adaptive state transitions
+
+#### **📊 Data & Technical Documentation**
+- **📊 DATA_MODEL.md** — Current data structures and entity relationships
+- **📊 FUTURE_DATA_MODEL.md** — Enhanced data architecture vision
+- **🔧 WORKFLOWS.md** — CI/CD automation processes and pipelines
+- **🔧 FUTURE_WORKFLOWS.md** — Advanced automation with ML capabilities
+
+#### **📋 Operational & Lifecycle Documentation**
+- **📅 End-of-Life-Strategy.md** — Technology lifecycle management
+- **💰 FinancialSecurityPlan.md** — Cost and security implementation guidelines
+- **🔄 BCPPlan.md** — Business continuity planning and recovery strategies
+- **⚡ performance-testing.md** — Performance benchmarks and analysis
+
+
+---
+
+## 🏛️ **Architecture Governance & Quality Gates**
+
+### **✅ Definition of Done Requirements**
+Any feature impacting authentication, data handling, network access, or recovery **MUST**:
+- **📝 Update SECURITY_ARCHITECTURE.md** with detailed impact analysis
+- **🎨 Include Updated Mermaid Diagrams** showing architectural changes  
+- **🔗 Map Security Controls** to specific implementation details
+- **📋 Document Risk Assessment** and mitigation strategies
+
+### **👥 Pull Request Security Requirements**
+- **🛡️ Security Architecture Impact Section:** Mandatory for security-relevant changes
+- **🔍 Automated Security Scanning:** SAST/SCA/secret scanning must pass
+- **👨‍💻 Security-Focused Code Review:** Required for sensitive components per [Change Management](./Change_Management.md)
+- **📊 Risk Documentation:** Updates to [Risk Register](./Risk_Register.md) when applicable
+
+### **🚀 Release Security Checklist**
+- **✅ Security Architecture Documentation Updated:** Current and future state aligned
+- **📉 Risk Register Updated:** New risks identified and existing risks reassessed  
+- **🎖️ Security Controls Verified:** All badges green and evidence documented
+- **🔍 Vulnerability Scan Clean:** No critical/high issues or documented risk acceptance
+
+---
+
+
+## 🧭 **Public Security Documentation Strategy**
+
+Aligned with [ISMS Transparency Plan](./ISMS_Transparency_Plan.md), each project maintains transparent security documentation:
+
+### **📚 Documentation Accessibility**
+- **🏗️ Repository-based Documentation:** Direct access via GitHub repository security files
+- **🌐 Public Documentation Portals:** Non-technical audience access through dedicated websites
+- **🔗 Cross-Referenced Integration:** Security documentation linked across all project materials
+- **📋 Regular Content Updates:** Documentation maintained current with implementation changes
+
+### **🎯 Strategic Documentation Examples**
+- **🏛️ Citizen Intelligence Agency:** [cia-docs.html](https://www.hack23.com/cia-docs.html) - Democratic transparency tools
+- **📊 CIA Compliance Manager:** [cia-compliance-manager-docs.html](https://www.hack23.com/cia-compliance-manager-docs.html) - Security management automation
+- **🎮 Black Trigram:** [black-trigram-docs.html](https://www.hack23.com/black-trigram-docs.html) - Educational gaming security
+
+---
+
 
 ## 🎯 **AWS Control Tower Objective Mapping**
 
