@@ -16,8 +16,8 @@
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 1.0 | **Last Updated:** 2025-08-14 (UTC)  
-**Review Cycle:** Annual | **Next Review:** 2026-08-14
+**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-14 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-14
 
 ---
 
@@ -41,7 +41,7 @@ This policy establishes the information security framework for Hack23 AB, ensuri
 ### Scope
 This policy applies to:
 - All information systems documented in [Asset Register](./Asset_Register.md)
-- All business processes and data classifications per [Classification Framework](./CLASSIFICATION.md)
+- All business processes and data classifications per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 - All third-party suppliers per [Supplier Management](./SUPPLIER.md)
 - All employees, contractors, and business partners
 
@@ -52,7 +52,7 @@ This policy applies to:
 Hack23 AB is a Swedish innovation hub specializing in:
 - **🎮 Gaming Innovation:** Black Trigram - immersive Korean martial arts educational game
 - **🔐 Cybersecurity Consulting:** Enterprise-grade security services
-- **🏛️ Democratic Transparency:** Open-source tools for civic engagement (CIA platform)
+- **🏛️ Democratic Transparency:** Open-source tools for civic engagement (Citizen Intelligence Agency)
 
 Our security approach reflects our business model: demonstrating security excellence through transparent implementation.
 
@@ -113,7 +113,7 @@ As the sole employee and decision-maker, the CEO maintains comprehensive respons
 #### 📊 **Monitoring and Measurement**
 - **Security Metrics:** Track KPIs and performance per [Security Metrics](./Security_Metrics.md)
 - **Transparency Management:** Maintain public documentation per [ISMS Transparency Plan](./ISMS_Transparency_Plan.md)
-- **Classification Framework:** Apply consistent impact analysis per [Classification Framework](./CLASSIFICATION.md)
+- **Classification Framework:** Apply consistent impact analysis per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 
 ### External Responsibilities
 While Hack23 AB operates as a single-person company, certain specialized responsibilities may be delegated to external parties:
@@ -154,7 +154,7 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 This Information Security Policy integrates with and references the complete ISMS documentation suite:
 
 ### 🏛️ Primary ISMS Framework
-- [🏷️ Classification Framework](./CLASSIFICATION.md) - Business impact and classification methodology
+- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Business impact and classification methodology
 - [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Public disclosure strategy
 - [📝 Style Guide](./STYLE_GUIDE.md) - Documentation standards
 - [📊 Security Metrics](./Security_Metrics.md) - Performance measurement framework
@@ -187,10 +187,10 @@ This Information Security Policy integrates with and references the complete ISM
 
 
 
-**Document Control:**  
-**Approved by:** James Pether Sörling, CEO  
-**Distribution:** Public  
-**Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**Effective Date:** 2025-08-14   
-**Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
-
+**📋 Document Control:**  
+**✅ Approved by:** James Pether Sörling, CEO  
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2025-08-14  
+**⏰ Next Review:** 2026-08-14   
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
