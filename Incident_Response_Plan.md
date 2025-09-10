@@ -11,13 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--31-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-31 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-11-30
+
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-09-10 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-12-10
 
 ---
 
@@ -588,6 +589,7 @@ graph LR
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Development-related incident response
 - [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance framework
 - [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Impact assessment methodology
+- [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) — Authority and community contact management
 
 ### **🔄 Operational Process Integration**
 - [📊 Security Metrics](./Security_Metrics.md) — Incident response performance tracking
@@ -613,6 +615,6 @@ graph LR
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-31  
-**⏰ Next Review:** 2025-11-30   
+**📅 Effective Date:** 2025-09-10  
+**⏰ Next Review:** 2025-12-10   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
