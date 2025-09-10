@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--14-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-14 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-14
+**Document Owner:** CEO | **Version:** 1.1 | **Last Updated:** 2025-09-10 (UTC)  
+**Review Cycle:** Annual | **Next Review:** 2026-08-14
 
 ---
 
@@ -97,6 +97,7 @@ As the sole employee and decision-maker, the CEO maintains comprehensive respons
 - **Regulatory Compliance:** Ensure adherence to GDPR, NIS2, and other regulations per [Compliance Checklist](./Compliance_Checklist.md)
 - **Asset Management:** Maintain accurate inventory in [Asset Register](./Asset_Register.md)
 - **Supplier Management:** Assess and monitor third parties per [Third Party Management](./Third_Party_Management.md) and [Supplier Security Posture](./SUPPLIER.md)
+- **Stakeholder Engagement:** Maintain regulatory and professional relationships per [External Stakeholder Registry](./External_Stakeholder_Registry.md)
 - **Data Classification:** Apply appropriate protections per [Data Classification Policy](./Data_Classification_Policy.md)
 
 #### 🔄 **Business Continuity**
