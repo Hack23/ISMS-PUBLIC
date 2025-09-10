@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--14-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 1.0 | **Last Updated:** 2025-08-14 (UTC)  
-**Review Cycle:** Annual | **Next Review:** 2026-08-14
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-09-10 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-10
 
 ---
 
@@ -48,7 +48,7 @@ This table defines the publication status of ISMS documents and the rationale.
 |-----------------------------|--------------------|-----------------------------|
 | **🔐 Core Policies & Frameworks** | | |
 | [🔐 Information Security Policy](./Information_Security_Policy.md) | ✅ **Public** | Demonstrates overall security posture. No sensitive details. |
-| [🏷️ Classification Framework](./CLASSIFICATION.md) | ✅ **Public** | Core to our methodology; showcases our approach to risk. |
+| [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ **Public** | Core to our methodology; showcases our approach to risk. |
 | [🔓 Open Source Policy](./Open_Source_Policy.md) | ✅ **Public** | Aligns with our open-source philosophy. |
 | [📐 Style Guide](./STYLE_GUIDE.md) | ✅ **Public** | Shows our commitment to quality and consistency. |
 | **🛠️ Operational Policies** | | |
@@ -64,12 +64,13 @@ This table defines the publication status of ISMS documents and the rationale.
 | [📉 Risk Register](./Risk_Register.md) | ⚠️ **Redacted** | The framework and risk categories are public. Specific risk details, financial impacts, and vulnerabilities are **CONFIDENTIAL**. |
 | [🔗 Third-Party Management](./Third_Party_Management.md) | ⚠️ **Redacted** | Policy framework is public. Specific supplier assessments confidential. |
 | [🏢 Supplier Security Posture](./SUPPLIER.md) | ⚠️ **Redacted** | Generic supplier examples and assessment methodology public. Specific supplier details and contracts are **CONFIDENTIAL**. |
+| [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | ✅ **Public** | Professional network and regulatory contacts demonstrate stakeholder engagement and compliance readiness. |
 | **🚨 Response & Recovery Plans** | | |
 | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ⚠️ **Redacted** | The process framework is public. Specific contact details, technical procedures, and escalation paths are **CONFIDENTIAL**. |
 | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ⚠️ **Redacted** | High-level strategies are public. Specific recovery steps, contact lists, and operational details are **CONFIDENTIAL**. |
 | [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ⚠️ **Redacted** | The architecture overview is public. Detailed recovery procedures, system configurations, and technical details are **CONFIDENTIAL**. |
 | **📊 Compliance & Legal** | | |
-| [✅ Compliance Checklist](./Compliance_Checklist.md) | ⚠️ **Redacted** | The frameworks we align with are public. The detailed status and compliance gaps are **CONFIDENTIAL** to prevent targeted attacks. |
+| [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ **Public** | Demonstrates our commitment to transparency and provides a clear, auditable trail of our compliance posture against key frameworks. |
 | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ **Public** | The classification levels and handling rules are public. The classification of specific datasets is confidential. |
 | **🏢 Company Documentation** | | |
 | [🏢 Company Information](./Hack23AB/README.md) | ❌ **Confidential** | Corporate structure and internal operations. |
@@ -113,7 +114,7 @@ This table defines the publication status of ISMS documents and the rationale.
 
 ### Documentation Mirrors
 - **Product Documentation:** Specific security architectures for each project
-  - CIA Platform: https://www.hack23.com/cia-docs.html
+  - Citizen Intelligence Agency: https://www.hack23.com/cia-docs.html
   - CIA Compliance Manager: https://www.hack23.com/cia-compliance-manager-docs.html
   - Black Trigram: https://www.hack23.com/black-trigram-docs.html
 
@@ -148,11 +149,10 @@ Our systematic approach includes:
 
 ---
 
-**Document Control:**  
-**Approved by:** James Pether Sörling, CEO  
-**Distribution:** Public  
-**Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**Effective Date:** 2025-08-14  
-**Next Review:** 2026-08-14   
-**Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
-
+**📋 Document Control:**  
+**✅ Approved by:** James Pether Sörling, CEO  
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2025-09-10  
+**⏰ Next Review:** 2026-09-10   
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
