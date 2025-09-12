@@ -16,8 +16,8 @@
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 2.0 | **Last Updated:** 2025-08-28 (UTC)  
-**Review Cycle:** Annual | **Next Review:** 2026-08-28
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-08-28 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-28
 
 ---
 
