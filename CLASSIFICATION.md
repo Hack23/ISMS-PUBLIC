@@ -251,42 +251,42 @@ Copy this template for each Hack23 project README:
 ## 🏆 Business Value & Strategic Impact
 
 ### 🎯 Project Classification
-[![Project Type](https://img.shields.io/badge/Type-[PROJECT_TYPE]-[COLOR]?style=for-the-badge&logo=[ICON]&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#project-type-classifications)
-[![Process Type](https://img.shields.io/badge/Process-[PROCESS_TYPE]-[COLOR]?style=for-the-badge&logo=[ICON]&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#project-type-classifications)
+[![Project Type](https://img.shields.io/badge/Type-[PROJECT_TYPE]-[COLOR]?style=for-the-badge&logo=[ICON]&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
+[![Process Type](https://img.shields.io/badge/Process-[PROCESS_TYPE]-[COLOR]?style=for-the-badge&logo=[ICON]&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
 
 ### 🔒 Security Classification
-[![Confidentiality](https://img.shields.io/badge/Confidentiality-[LEVEL]-[COLOR]?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#confidentiality-levels)
-[![Integrity](https://img.shields.io/badge/Integrity-[LEVEL]-[COLOR]?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#integrity-levels)
-[![Availability](https://img.shields.io/badge/Availability-[LEVEL]-[COLOR]?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#availability-levels)
+[![Confidentiality](https://img.shields.io/badge/Confidentiality-[LEVEL]-[COLOR]?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
+[![Integrity](https://img.shields.io/badge/Integrity-[LEVEL]-[COLOR]?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
+[![Availability](https://img.shields.io/badge/Availability-[LEVEL]-[COLOR]?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
 
 ### ⏱️ Business Continuity
-[![RTO](https://img.shields.io/badge/RTO-[TIME_WINDOW]-[COLOR]?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#rto-classifications)
-[![RPO](https://img.shields.io/badge/RPO-[DATA_LOSS_WINDOW]-[COLOR]?style=for-the-badge&logo=database&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#rpo-classifications)
+[![RTO](https://img.shields.io/badge/RTO-[TIME_WINDOW]-[COLOR]?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications)
+[![RPO](https://img.shields.io/badge/RPO-[DATA_LOSS_WINDOW]-[COLOR]?style=for-the-badge&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications)
 
 ### 💰 Business Impact Analysis Matrix
 
 | Impact Category | Financial | Operational | Reputational | Regulatory |
 |-----------------|-----------|-------------|--------------|------------|
-| **🔒 Confidentiality** | [![Financial Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#financial-impact-levels) | [![Operational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#operational-impact-levels) | [![Reputational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#reputational-impact-levels) | [![Regulatory Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#regulatory-impact-levels) |
-| **✅ Integrity** | [![Financial Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#financial-impact-levels) | [![Operational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=trending-down&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#operational-impact-levels) | [![Reputational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#reputational-impact-levels) | [![Regulatory Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#regulatory-impact-levels) |
-| **⏱️ Availability** | [![Financial Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#financial-impact-levels) | [![Operational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=stop-circle&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#operational-impact-levels) | [![Reputational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#reputational-impact-levels) | [![Regulatory Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#regulatory-impact-levels) |
+| **🔒 Confidentiality** | [![Financial Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![Operational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![Reputational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Regulatory Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
+| **✅ Integrity** | [![Financial Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![Operational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=trending-down&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![Reputational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Regulatory Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
+| **⏱️ Availability** | [![Financial Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![Operational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=stop-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![Reputational Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Regulatory Impact](https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
 
 ### 🛡️ Security Investment Returns
-[![ROI Level](https://img.shields.io/badge/ROI-[LEVEL]-[COLOR]?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#security-investment-returns)
-[![Risk Mitigation](https://img.shields.io/badge/Risk_Mitigation-[PERCENTAGE]_Reduction-green?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#security-investment-returns)
-[![Breach Prevention](https://img.shields.io/badge/Breach_Prevention-[AMOUNT]_Savings-darkgreen?style=for-the-badge&logo=lock&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#security-investment-returns)
+[![ROI Level](https://img.shields.io/badge/ROI-[LEVEL]-[COLOR]?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns)
+[![Risk Mitigation](https://img.shields.io/badge/Risk_Mitigation-[PERCENTAGE]_Reduction-green?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns)
+[![Breach Prevention](https://img.shields.io/badge/Breach_Prevention-[AMOUNT]_Savings-darkgreen?style=for-the-badge&logo=lock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns)
 
 ### 🎯 Competitive Differentiation
-[![Market Position](https://img.shields.io/badge/Position-[LEVEL]-[COLOR]?style=for-the-badge&logo=trending-up&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#competitive-differentiation)
-[![Customer Trust](https://img.shields.io/badge/Trust-[IMPACT]-lightblue?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#competitive-differentiation)
-[![Regulatory Access](https://img.shields.io/badge/Access-[LEVEL]-gold?style=for-the-badge&logo=key&logoColor=black)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#competitive-differentiation)
+[![Market Position](https://img.shields.io/badge/Position-[LEVEL]-[COLOR]?style=for-the-badge&logo=trending-up&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation)
+[![Customer Trust](https://img.shields.io/badge/Trust-[IMPACT]-lightblue?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation)
+[![Regulatory Access](https://img.shields.io/badge/Access-[LEVEL]-gold?style=for-the-badge&logo=key&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation)
 
 ### 📈 Porter's Five Forces Strategic Impact
-[![Buyer Power](https://img.shields.io/badge/Buyer_Power-[IMPACT]-success?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces)
-[![Supplier Power](https://img.shields.io/badge/Supplier_Power-[IMPACT]-info?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces)
-[![New Entrants](https://img.shields.io/badge/Entry_Barriers-[LEVEL]-warning?style=flat-square&logo=shield-alt&logoColor=black)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces)
-[![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-[LEVEL]-secondary?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces)
-[![Rivalry](https://img.shields.io/badge/Rivalry-[ADVANTAGE]-primary?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces)
+[![Buyer Power](https://img.shields.io/badge/Buyer_Power-[IMPACT]-success?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces)
+[![Supplier Power](https://img.shields.io/badge/Supplier_Power-[IMPACT]-info?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces)
+[![New Entrants](https://img.shields.io/badge/Entry_Barriers-[LEVEL]-warning?style=flat-square&logo=shield-alt&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces)
+[![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-[LEVEL]-secondary?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces)
+[![Rivalry](https://img.shields.io/badge/Rivalry-[ADVANTAGE]-primary?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces)
 ```
 
 ### 🎨 HTML Documentation Template
@@ -302,14 +302,14 @@ Copy this template for each Hack23 project HTML documentation:
   <div class="classification-section">
     <h3>🎯 Project Classification</h3>
     <div class="badge-group" role="group" aria-label="Project type classification badges">
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#project-type-classifications"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications"
          title="Project Type: [PROJECT_TYPE] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Type-[PROJECT_TYPE]-[COLOR]?style=for-the-badge&logo=[ICON]&logoColor=white" 
              alt="Project Type: [PROJECT_TYPE]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#project-type-classifications"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications"
          title="Business Process: [PROCESS_TYPE] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Process-[PROCESS_TYPE]-[COLOR]?style=for-the-badge&logo=[ICON]&logoColor=white" 
@@ -323,21 +323,21 @@ Copy this template for each Hack23 project HTML documentation:
   <div class="classification-section">
     <h3>🔒 Security Classification</h3>
     <div class="badge-group" role="group" aria-label="Security classification badges">
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#confidentiality-levels"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels"
          title="Confidentiality Level: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Confidentiality-[LEVEL]-[COLOR]?style=for-the-badge&logo=shield&logoColor=white" 
              alt="Confidentiality: [LEVEL]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#integrity-levels"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels"
          title="Integrity Level: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Integrity-[LEVEL]-[COLOR]?style=for-the-badge&logo=check-circle&logoColor=white" 
              alt="Integrity: [LEVEL]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#availability-levels"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels"
          title="Availability Level: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Availability-[LEVEL]-[COLOR]?style=for-the-badge&logo=server&logoColor=white" 
@@ -351,14 +351,14 @@ Copy this template for each Hack23 project HTML documentation:
   <div class="classification-section">
     <h3>⏱️ Business Continuity</h3>
     <div class="badge-group" role="group" aria-label="Business continuity badges">
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#rto-classifications"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications"
          title="Recovery Time Objective: [TIME_WINDOW]"
          class="badge-link">
         <img src="https://img.shields.io/badge/RTO-[TIME_WINDOW]-[COLOR]?style=for-the-badge&logo=clock&logoColor=white" 
              alt="RTO: [TIME_WINDOW]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#rpo-classifications"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications"
          title="Recovery Point Objective: [DATA_LOSS_WINDOW]"
          class="badge-link">
         <img src="https://img.shields.io/badge/RPO-[DATA_LOSS_WINDOW]-[COLOR]?style=for-the-badge&logo=database&logoColor=white" 
@@ -384,7 +384,7 @@ Copy this template for each Hack23 project HTML documentation:
       <div class="matrix-row" role="rowgroup">
         <div class="matrix-cell category" role="rowheader">🔒 Confidentiality</div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#financial-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels"
              title="Financial Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white" 
@@ -393,7 +393,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#operational-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels"
              title="Operational Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=exclamation-triangle&logoColor=white" 
@@ -402,7 +402,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#reputational-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels"
              title="Reputational Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white" 
@@ -411,7 +411,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#regulatory-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels"
              title="Regulatory Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white" 
@@ -425,7 +425,7 @@ Copy this template for each Hack23 project HTML documentation:
       <div class="matrix-row" role="rowgroup">
         <div class="matrix-cell category" role="rowheader">✅ Integrity</div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#financial-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels"
              title="Financial Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white" 
@@ -434,7 +434,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#operational-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels"
              title="Operational Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=trending-down&logoColor=white" 
@@ -443,7 +443,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#reputational-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels"
              title="Reputational Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white" 
@@ -452,7 +452,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#regulatory-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels"
              title="Regulatory Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white" 
@@ -466,7 +466,7 @@ Copy this template for each Hack23 project HTML documentation:
       <div class="matrix-row" role="rowgroup">
         <div class="matrix-cell category" role="rowheader">⏱️ Availability</div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#financial-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels"
              title="Financial Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=dollar-sign&logoColor=white" 
@@ -475,7 +475,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#operational-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels"
              title="Operational Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=stop-circle&logoColor=white" 
@@ -484,7 +484,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#reputational-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels"
              title="Reputational Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=newspaper&logoColor=white" 
@@ -493,7 +493,7 @@ Copy this template for each Hack23 project HTML documentation:
           </a>
         </div>
         <div class="matrix-cell" role="gridcell">
-          <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#regulatory-impact-levels"
+          <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels"
              title="Regulatory Impact: [LEVEL] - [DESCRIPTION]"
              class="badge-link">
             <img src="https://img.shields.io/badge/[LEVEL]-[DESCRIPTION]-[COLOR]?style=for-the-badge&logo=gavel&logoColor=white" 
@@ -509,21 +509,21 @@ Copy this template for each Hack23 project HTML documentation:
   <div class="classification-section">
     <h3>🛡️ Security Investment Returns</h3>
     <div class="badge-group" role="group" aria-label="Security investment return badges">
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#security-investment-returns"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns"
          title="ROI Level: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/ROI-[LEVEL]-[COLOR]?style=for-the-badge&logo=chart-line&logoColor=white" 
              alt="ROI: [LEVEL]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#security-investment-returns"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns"
          title="Risk Mitigation: [PERCENTAGE]% Reduction"
          class="badge-link">
         <img src="https://img.shields.io/badge/Risk_Mitigation-[PERCENTAGE]_Reduction-green?style=for-the-badge&logo=shield&logoColor=white" 
              alt="Risk Mitigation: [PERCENTAGE]% Reduction"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#security-investment-returns"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns"
          title="Breach Prevention: [AMOUNT] Savings"
          class="badge-link">
         <img src="https://img.shields.io/badge/Breach_Prevention-[AMOUNT]_Savings-darkgreen?style=for-the-badge&logo=lock&logoColor=white" 
@@ -537,21 +537,21 @@ Copy this template for each Hack23 project HTML documentation:
   <div class="classification-section">
     <h3>🎯 Competitive Differentiation</h3>
     <div class="badge-group" role="group" aria-label="Competitive differentiation badges">
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#competitive-differentiation"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation"
          title="Market Position: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Position-[LEVEL]-[COLOR]?style=for-the-badge&logo=trending-up&logoColor=white" 
              alt="Market Position: [LEVEL]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#competitive-differentiation"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation"
          title="Customer Trust: [IMPACT] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Trust-[IMPACT]-lightblue?style=for-the-badge&logo=handshake&logoColor=white" 
              alt="Customer Trust: [IMPACT]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#competitive-differentiation"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation"
          title="Regulatory Access: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Access-[LEVEL]-gold?style=for-the-badge&logo=key&logoColor=black" 
@@ -565,35 +565,35 @@ Copy this template for each Hack23 project HTML documentation:
   <div class="classification-section">
     <h3>📈 Porter's Five Forces Strategic Impact</h3>
     <div class="badge-group porters-forces" role="group" aria-label="Porter's Five Forces strategic impact badges">
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces"
          title="Buyer Power: [IMPACT] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Buyer_Power-[IMPACT]-success?style=flat-square&logo=users&logoColor=white" 
              alt="Buyer Power: [IMPACT]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces"
          title="Supplier Power: [IMPACT] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Supplier_Power-[IMPACT]-info?style=flat-square&logo=handshake&logoColor=white" 
              alt="Supplier Power: [IMPACT]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces"
          title="Entry Barriers: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Entry_Barriers-[LEVEL]-warning?style=flat-square&logo=shield-alt&logoColor=black" 
              alt="Entry Barriers: [LEVEL]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces"
          title="Substitute Threat: [LEVEL] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Substitute_Threat-[LEVEL]-secondary?style=flat-square&logo=shield&logoColor=white" 
              alt="Substitute Threat: [LEVEL]"
              loading="lazy">
       </a>
-      <a href="https://github.com/Hack23/homepage/blob/master/CLASSIFICATION.md#porters-five-forces"
+      <a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces"
          title="Competitive Rivalry: [ADVANTAGE] - [DESCRIPTION]"
          class="badge-link">
         <img src="https://img.shields.io/badge/Rivalry-[ADVANTAGE]-primary?style=flat-square&logo=trophy&logoColor=white" 
