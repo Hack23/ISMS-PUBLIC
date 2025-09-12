@@ -16,8 +16,10 @@
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 1.0 | **Last Updated:** 2025-08-14 (UTC)  
-**Review Cycle:** Quarterly | **Next Review:** 2025-11-14
+
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2025-08-14 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-11-14
+
 
 ---
 
@@ -43,43 +45,43 @@ This document outlines the classification framework and business impact analysis
 
 | Impact Category | Financial | Operational | Reputational | Regulatory |
 |-----------------|-----------|-------------|--------------|------------|
-| **🔒 Confidentiality** | [![Very High - $5K-10K daily](https://img.shields.io/badge/Very_High-$5K--10K_daily-darkred?style=for-the-badge&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) | [![Critical - Complete outage](https://img.shields.io/badge/Critical-Complete_outage-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) | [![High - National coverage](https://img.shields.io/badge/High-National_coverage-orange?style=for-the-badge&logo=newspaper&logoColor=white)](./CLASSIFICATION.md#reputational-impact-levels) | [![Critical - Criminal charges](https://img.shields.io/badge/Critical-Criminal_charges-red?style=for-the-badge&logo=gavel&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) |
-| **✅ Integrity** | [![High - $1K-5K daily](https://img.shields.io/badge/High-$1K--5K_daily-orange?style=for-the-badge&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) | [![High - Major degradation](https://img.shields.io/badge/High-Major_degradation-orange?style=for-the-badge&logo=trending-down&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) | [![Moderate - Industry attention](https://img.shields.io/badge/Moderate-Industry_attention-yellow?style=for-the-badge&logo=newspaper&logoColor=black)](./CLASSIFICATION.md#reputational-impact-levels) | [![High - Significant fines](https://img.shields.io/badge/High-Significant_fines-orange?style=for-the-badge&logo=gavel&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) |
-| **⏱️ Availability** | [![Moderate - $500-1K daily](https://img.shields.io/badge/Moderate-$500--1K_daily-yellow?style=for-the-badge&logo=dollar-sign&logoColor=black)](./CLASSIFICATION.md#financial-impact-levels) | [![Critical - Complete outage](https://img.shields.io/badge/Critical-Complete_outage-red?style=for-the-badge&logo=stop-circle&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) | [![High - National coverage](https://img.shields.io/badge/High-National_coverage-orange?style=for-the-badge&logo=newspaper&logoColor=white)](./CLASSIFICATION.md#reputational-impact-levels) | [![Critical - Criminal charges](https://img.shields.io/badge/Critical-Criminal_charges-red?style=for-the-badge&logo=gavel&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) |
+| **🔒 Confidentiality** | [![Very High - $5K-10K daily](https://img.shields.io/badge/Very_High-$5K--10K_daily-darkred?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![Critical - Complete outage](https://img.shields.io/badge/Critical-Complete_outage-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![High - National coverage](https://img.shields.io/badge/High-National_coverage-orange?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Critical - Criminal charges](https://img.shields.io/badge/Critical-Criminal_charges-red?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
+| **✅ Integrity** | [![High - $1K-5K daily](https://img.shields.io/badge/High-$1K--5K_daily-orange?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![High - Major degradation](https://img.shields.io/badge/High-Major_degradation-orange?style=for-the-badge&logo=trending-down&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![Moderate - Industry attention](https://img.shields.io/badge/Moderate-Industry_attention-yellow?style=for-the-badge&logo=newspaper&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![High - Significant fines](https://img.shields.io/badge/High-Significant_fines-orange?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
+| **⏱️ Availability** | [![Moderate - $500-1K daily](https://img.shields.io/badge/Moderate-$500--1K_daily-yellow?style=for-the-badge&logo=dollar-sign&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![Critical - Complete outage](https://img.shields.io/badge/Critical-Complete_outage-red?style=for-the-badge&logo=stop-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![High - National coverage](https://img.shields.io/badge/High-National_coverage-orange?style=for-the-badge&logo=newspaper&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Critical - Criminal charges](https://img.shields.io/badge/Critical-Criminal_charges-red?style=for-the-badge&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
 
 ---
 
 ## 📈 Impact Level Definitions
 
 ### 💸 Financial Impact Levels {#financial-impact-levels}
-- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) Major revenue impact, significant penalties (>$10K daily)
-- [![Very High](https://img.shields.io/badge/Very_High-darkred?style=flat-square&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) Substantial penalties, customer compensation ($5K-10K daily)
-- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) Regulatory fines, recovery costs ($1K-5K daily)
-- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](./CLASSIFICATION.md#financial-impact-levels) Incident response costs, efficiency losses ($500-1K daily)
-- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) Minimal financial impact (<$500 daily)
-- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](./CLASSIFICATION.md#financial-impact-levels) No financial consequences
+- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) Major revenue impact, significant penalties (>$10K daily)
+- [![Very High](https://img.shields.io/badge/Very_High-darkred?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) Substantial penalties, customer compensation ($5K-10K daily)
+- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) Regulatory fines, recovery costs ($1K-5K daily)
+- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) Incident response costs, efficiency losses ($500-1K daily)
+- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) Minimal financial impact (<$500 daily)
+- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) No financial consequences
 
 ### 🏢 Operational Impact Levels {#operational-impact-levels}
-- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) Complete service outage, emergency response
-- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) Major service degradation, 40-60% efficiency loss
-- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](./CLASSIFICATION.md#operational-impact-levels) Partial service impact, reduced productivity
-- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) Minor inconvenience, normal operations continue
-- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](./CLASSIFICATION.md#operational-impact-levels) No operational impact
+- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) Complete service outage, emergency response
+- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) Major service degradation, 40-60% efficiency loss
+- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) Partial service impact, reduced productivity
+- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) Minor inconvenience, normal operations continue
+- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) No operational impact
 
 ### 🤝 Reputational Impact Levels {#reputational-impact-levels}
-- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](./CLASSIFICATION.md#reputational-impact-levels) International media coverage, long-term brand damage
-- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](./CLASSIFICATION.md#reputational-impact-levels) National coverage, significant trust erosion
-- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](./CLASSIFICATION.md#reputational-impact-levels) Industry attention, temporary reputation impact
-- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](./CLASSIFICATION.md#reputational-impact-levels) Limited visibility, quick recovery
-- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](./CLASSIFICATION.md#reputational-impact-levels) No reputational impact
+- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) International media coverage, long-term brand damage
+- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) National coverage, significant trust erosion
+- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) Industry attention, temporary reputation impact
+- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) Limited visibility, quick recovery
+- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) No reputational impact
 
 ### 📜 Regulatory Impact Levels {#regulatory-impact-levels}
-- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) Criminal charges, license revocation
-- [![Very High](https://img.shields.io/badge/Very_High-darkred?style=flat-square&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) Major penalties, regulatory sanctions
-- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) Significant fines, compliance violations
-- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](./CLASSIFICATION.md#regulatory-impact-levels) Minor penalties, documentation gaps
-- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) Warnings, corrective actions
-- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](./CLASSIFICATION.md#regulatory-impact-levels) No regulatory implications
+- [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) Criminal charges, license revocation
+- [![Very High](https://img.shields.io/badge/Very_High-darkred?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) Major penalties, regulatory sanctions
+- [![High](https://img.shields.io/badge/High-orange?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) Significant fines, compliance violations
+- [![Moderate](https://img.shields.io/badge/Moderate-yellow?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) Minor penalties, documentation gaps
+- [![Low](https://img.shields.io/badge/Low-lightgreen?style=flat-square&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) Warnings, corrective actions
+- [![Negligible](https://img.shields.io/badge/Negligible-lightgrey?style=flat-square&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) No regulatory implications
 
 ---
 
@@ -88,30 +90,30 @@ This document outlines the classification framework and business impact analysis
 ### 🛡️ Confidentiality Levels {#confidentiality-levels}
 | Level | Badge | Description |
 |-------|-------|-------------|
-| **Extreme** | [![Extreme](https://img.shields.io/badge/Confidentiality-Extreme-black?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | National security level, quantum encryption |
-| **Very High** | [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Zero-trust, advanced threat protection |
-| **High** | [![High](https://img.shields.io/badge/Confidentiality-High-blue?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Strong encryption, MFA, monitoring |
-| **Moderate** | [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Standard encryption, role-based access |
-| **Low** | [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels) | Basic protection, standard auth |
-| **Public** | [![Public](https://img.shields.io/badge/Confidentiality-Public-lightgrey?style=for-the-badge&logo=shield&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels) | No confidentiality requirements |
+| **Extreme** | [![Extreme](https://img.shields.io/badge/Confidentiality-Extreme-black?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | National security level, quantum encryption |
+| **Very High** | [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Zero-trust, advanced threat protection |
+| **High** | [![High](https://img.shields.io/badge/Confidentiality-High-blue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Strong encryption, MFA, monitoring |
+| **Moderate** | [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Standard encryption, role-based access |
+| **Low** | [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Basic protection, standard auth |
+| **Public** | [![Public](https://img.shields.io/badge/Confidentiality-Public-lightgrey?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | No confidentiality requirements |
 
 ### ✅ Integrity Levels {#integrity-levels}
 | Level | Badge | Description |
 |-------|-------|-------------|
-| **Critical** | [![Critical](https://img.shields.io/badge/Integrity-Critical-red?style=for-the-badge&logo=check-circle&logoColor=white)](./CLASSIFICATION.md#integrity-levels) | Real-time validation, immutable logs |
-| **High** | [![High](https://img.shields.io/badge/Integrity-High-orange?style=for-the-badge&logo=check-circle&logoColor=white)](./CLASSIFICATION.md#integrity-levels) | Automated validation, digital signatures |
-| **Moderate** | [![Moderate](https://img.shields.io/badge/Integrity-Moderate-yellow?style=for-the-badge&logo=check-circle&logoColor=black)](./CLASSIFICATION.md#integrity-levels) | Standard validation, checksums |
-| **Low** | [![Low](https://img.shields.io/badge/Integrity-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./CLASSIFICATION.md#integrity-levels) | Basic validation, manual verification |
-| **Minimal** | [![Minimal](https://img.shields.io/badge/Integrity-Minimal-lightgrey?style=for-the-badge&logo=check-circle&logoColor=black)](./CLASSIFICATION.md#integrity-levels) | Best-effort basis only |
+| **Critical** | [![Critical](https://img.shields.io/badge/Integrity-Critical-red?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | Real-time validation, immutable logs |
+| **High** | [![High](https://img.shields.io/badge/Integrity-High-orange?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | Automated validation, digital signatures |
+| **Moderate** | [![Moderate](https://img.shields.io/badge/Integrity-Moderate-yellow?style=for-the-badge&logo=check-circle&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | Standard validation, checksums |
+| **Low** | [![Low](https://img.shields.io/badge/Integrity-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | Basic validation, manual verification |
+| **Minimal** | [![Minimal](https://img.shields.io/badge/Integrity-Minimal-lightgrey?style=for-the-badge&logo=check-circle&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | Best-effort basis only |
 
 ### ⏱️ Availability Levels {#availability-levels}
 | Level | Badge | Description |
 |-------|-------|-------------|
-| **Mission Critical** | [![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md#availability-levels) | 99.99% uptime, instant failover |
-| **High** | [![High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md#availability-levels) | 99.9% uptime, automated failover |
-| **Moderate** | [![Moderate](https://img.shields.io/badge/A-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md#availability-levels) | 99.5% uptime, manual failover |
-| **Standard** | [![Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](./CLASSIFICATION.md#availability-levels) | 99% uptime, basic redundancy |
-| **Best Effort** | [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](./CLASSIFICATION.md#availability-levels) | No uptime guarantees |
+| **Mission Critical** | [![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | 99.99% uptime, instant failover |
+| **High** | [![High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | 99.9% uptime, automated failover |
+| **Moderate** | [![Moderate](https://img.shields.io/badge/A-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | 99.5% uptime, manual failover |
+| **Standard** | [![Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | 99% uptime, basic redundancy |
+| **Best Effort** | [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | No uptime guarantees |
 
 ---
 
@@ -120,22 +122,22 @@ This document outlines the classification framework and business impact analysis
 ### 🚨 RTO (Recovery Time Objective) {#rto-classifications}
 | Level | Badge | Time Window |
 |-------|-------|-------------|
-| **Instant** | [![Instant](https://img.shields.io/badge/RTO-Instant_(<5min)-red?style=for-the-badge&logo=clock&logoColor=white)](./CLASSIFICATION.md#rto-classifications) | < 5 minutes |
-| **Critical** | [![Critical](https://img.shields.io/badge/RTO-Critical_(5--60min)-orange?style=for-the-badge&logo=clock&logoColor=white)](./CLASSIFICATION.md#rto-classifications) | 5-60 minutes |
-| **High** | [![High](https://img.shields.io/badge/RTO-High_(1--4hrs)-yellow?style=for-the-badge&logo=clock&logoColor=white)](./CLASSIFICATION.md#rto-classifications) | 1-4 hours |
-| **Medium** | [![Medium](https://img.shields.io/badge/RTO-Medium_(4--24hrs)-lightgreen?style=for-the-badge&logo=clock&logoColor=white)](./CLASSIFICATION.md#rto-classifications) | 4-24 hours |
-| **Low** | [![Low](https://img.shields.io/badge/RTO-Low_(24--72hrs)-lightblue?style=for-the-badge&logo=clock&logoColor=white)](./CLASSIFICATION.md#rto-classifications) | 24-72 hours |
-| **Standard** | [![Standard](https://img.shields.io/badge/RTO-Standard_(>72hrs)-lightgrey?style=for-the-badge&logo=clock&logoColor=black)](./CLASSIFICATION.md#rto-classifications) | > 72 hours |
+| **Instant** | [![Instant](https://img.shields.io/badge/RTO-Instant_(<5min)-red?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | < 5 minutes |
+| **Critical** | [![Critical](https://img.shields.io/badge/RTO-Critical_(5--60min)-orange?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | 5-60 minutes |
+| **High** | [![High](https://img.shields.io/badge/RTO-High_(1--4hrs)-yellow?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | 1-4 hours |
+| **Medium** | [![Medium](https://img.shields.io/badge/RTO-Medium_(4--24hrs)-lightgreen?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | 4-24 hours |
+| **Low** | [![Low](https://img.shields.io/badge/RTO-Low_(24--72hrs)-lightblue?style=for-the-badge&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | 24-72 hours |
+| **Standard** | [![Standard](https://img.shields.io/badge/RTO-Standard_(>72hrs)-lightgrey?style=for-the-badge&logo=clock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | > 72 hours |
 
 ### 🔄 RPO (Recovery Point Objective) {#rpo-classifications}
 | Level | Badge | Data Loss Window |
 |-------|-------|------------------|
-| **Zero Loss** | [![Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss_(<1min)-red?style=for-the-badge&logo=database&logoColor=white)](./CLASSIFICATION.md#rpo-classifications) | < 1 minute |
-| **Near Real-time** | [![Near Real-time](https://img.shields.io/badge/RPO-Near_Realtime_(1--15min)-orange?style=for-the-badge&logo=database&logoColor=white)](./CLASSIFICATION.md#rpo-classifications) | 1-15 minutes |
-| **Minimal** | [![Minimal](https://img.shields.io/badge/RPO-Minimal_(15--60min)-yellow?style=for-the-badge&logo=database&logoColor=black)](./CLASSIFICATION.md#rpo-classifications) | 15-60 minutes |
-| **Hourly** | [![Hourly](https://img.shields.io/badge/RPO-Hourly_(1--4hrs)-lightgreen?style=for-the-badge&logo=database&logoColor=white)](./CLASSIFICATION.md#rpo-classifications) | 1-4 hours |
-| **Daily** | [![Daily](https://img.shields.io/badge/RPO-Daily_(4--24hrs)-lightblue?style=for-the-badge&logo=database&logoColor=white)](./CLASSIFICATION.md#rpo-classifications) | 4-24 hours |
-| **Extended** | [![Extended](https://img.shields.io/badge/RPO-Extended_(>24hrs)-lightgrey?style=for-the-badge&logo=database&logoColor=black)](./CLASSIFICATION.md#rpo-classifications) | > 24 hours |
+| **Zero Loss** | [![Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss_(<1min)-red?style=for-the-badge&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | < 1 minute |
+| **Near Real-time** | [![Near Real-time](https://img.shields.io/badge/RPO-Near_Realtime_(1--15min)-orange?style=for-the-badge&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | 1-15 minutes |
+| **Minimal** | [![Minimal](https://img.shields.io/badge/RPO-Minimal_(15--60min)-yellow?style=for-the-badge&logo=database&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | 15-60 minutes |
+| **Hourly** | [![Hourly](https://img.shields.io/badge/RPO-Hourly_(1--4hrs)-lightgreen?style=for-the-badge&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | 1-4 hours |
+| **Daily** | [![Daily](https://img.shields.io/badge/RPO-Daily_(4--24hrs)-lightblue?style=for-the-badge&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | 4-24 hours |
+| **Extended** | [![Extended](https://img.shields.io/badge/RPO-Extended_(>24hrs)-lightgrey?style=for-the-badge&logo=database&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | > 24 hours |
 
 ---
 
@@ -144,24 +146,24 @@ This document outlines the classification framework and business impact analysis
 ### 🏗️ Technical Project Types
 | Project Type | Badge | Description | Typical Security Level |
 |--------------|-------|-------------|------------------------|
-| **Core Infrastructure** | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Critical systems supporting all services | High to Mission Critical |
-| **Security Tools** | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Security assessment and monitoring | Very High to Extreme |
-| **Compliance Platform** | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Regulatory compliance systems | High to Very High |
-| **Data Analytics** | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Data processing and analysis | Moderate to High |
-| **API Services** | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Backend services and APIs | Moderate to High |
-| **Frontend Apps** | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | User-facing applications | Low to Moderate |
-| **Development Tools** | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | Development utilities | Low to Moderate |
+| **Core Infrastructure** | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Critical systems supporting all services | High to Mission Critical |
+| **Security Tools** | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Security assessment and monitoring | Very High to Extreme |
+| **Compliance Platform** | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Regulatory compliance systems | High to Very High |
+| **Data Analytics** | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Data processing and analysis | Moderate to High |
+| **API Services** | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Backend services and APIs | Moderate to High |
+| **Frontend Apps** | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | User-facing applications | Low to Moderate |
+| **Development Tools** | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Development utilities | Low to Moderate |
 
 ### 🏢 Business Process Types
 | Process Type | Badge | Description | Typical Security Level |
 |--------------|-------|-------------|------------------------|
-| **Sales** | [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Customer relationships, sales pipeline | Moderate to High |
-| **Marketing** | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Brand management, campaigns | Low to Moderate |
-| **Finance** | [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Financial reporting, payments | High to Very High |
-| **Human Resources** | [![HR](https://img.shields.io/badge/Process-Human_Resources-teal?style=for-the-badge&logo=users&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Employee management, payroll | High to Very High |
-| **Legal** | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Contract management, compliance | Very High to Extreme |
-| **Operations** | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Business operations, logistics | Moderate to High |
-| **Executive** | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | Strategic planning, governance | Very High to Extreme |
+| **Sales** | [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Customer relationships, sales pipeline | Moderate to High |
+| **Marketing** | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Brand management, campaigns | Low to Moderate |
+| **Finance** | [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Financial reporting, payments | High to Very High |
+| **Human Resources** | [![HR](https://img.shields.io/badge/Process-Human_Resources-teal?style=for-the-badge&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Employee management, payroll | High to Very High |
+| **Legal** | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Contract management, compliance | Very High to Extreme |
+| **Operations** | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Business operations, logistics | Moderate to High |
+| **Executive** | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Strategic planning, governance | Very High to Extreme |
 
 ---
 
@@ -172,68 +174,68 @@ This document outlines the classification framework and business impact analysis
 
 | ROI Level | Badge | Risk Reduction | Breach Prevention | CAPEX ROI |
 |-----------|-------|----------------|------------------|-----------|
-| **Exceptional** | [![ROI Exceptional](https://img.shields.io/badge/ROI-Exceptional-darkgreen?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#security-investment-returns) | 90%+ | $10M+ savings | 500%+ |
-| **High** | [![ROI High](https://img.shields.io/badge/ROI-High-green?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#security-investment-returns) | 80-90% | $4-10M savings | 300-500% |
-| **Moderate** | [![ROI Moderate](https://img.shields.io/badge/ROI-Moderate-yellow?style=for-the-badge&logo=chart-line&logoColor=black)](./CLASSIFICATION.md#security-investment-returns) | 60-80% | $1-4M savings | 150-300% |
-| **Basic** | [![ROI Basic](https://img.shields.io/badge/ROI-Basic-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#security-investment-returns) | 40-60% | $0.5-1M savings | 50-150% |
-| **Minimal** | [![ROI Minimal](https://img.shields.io/badge/ROI-Minimal-lightgrey?style=for-the-badge&logo=chart-line&logoColor=black)](./CLASSIFICATION.md#security-investment-returns) | <40% | <$0.5M savings | <50% |
+| **Exceptional** | [![ROI Exceptional](https://img.shields.io/badge/ROI-Exceptional-darkgreen?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns) | 90%+ | $10M+ savings | 500%+ |
+| **High** | [![ROI High](https://img.shields.io/badge/ROI-High-green?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns) | 80-90% | $4-10M savings | 300-500% |
+| **Moderate** | [![ROI Moderate](https://img.shields.io/badge/ROI-Moderate-yellow?style=for-the-badge&logo=chart-line&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns) | 60-80% | $1-4M savings | 150-300% |
+| **Basic** | [![ROI Basic](https://img.shields.io/badge/ROI-Basic-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns) | 40-60% | $0.5-1M savings | 50-150% |
+| **Minimal** | [![ROI Minimal](https://img.shields.io/badge/ROI-Minimal-lightgrey?style=for-the-badge&logo=chart-line&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#security-investment-returns) | <40% | <$0.5M savings | <50% |
 
 ### 🎯 Competitive Differentiation {#competitive-differentiation}
 
 | Market Position | Badge | Customer Trust | Regulatory Access |
 |-----------------|-------|----------------|-------------------|
-| **Market Leader** | [![Leader](https://img.shields.io/badge/Position-Market_Leader-purple?style=for-the-badge&logo=crown&logoColor=white)](./CLASSIFICATION.md#competitive-differentiation) | Premium trust scores | Full regulatory access |
-| **Premium Provider** | [![Premium](https://img.shields.io/badge/Position-Premium_Provider-blue?style=for-the-badge&logo=trending-up&logoColor=white)](./CLASSIFICATION.md#competitive-differentiation) | High trust scores | Major regulatory access |
-| **Competitive** | [![Competitive](https://img.shields.io/badge/Position-Competitive-green?style=for-the-badge&logo=trophy&logoColor=white)](./CLASSIFICATION.md#competitive-differentiation) | Standard trust scores | Standard regulatory access |
-| **Follower** | [![Follower](https://img.shields.io/badge/Position-Follower-yellow?style=for-the-badge&logo=users&logoColor=black)](./CLASSIFICATION.md#competitive-differentiation) | Basic trust scores | Limited regulatory access |
-| **Laggard** | [![Laggard](https://img.shields.io/badge/Position-Laggard-red?style=for-the-badge&logo=warning&logoColor=white)](./CLASSIFICATION.md#competitive-differentiation) | Low trust scores | Restricted access |
+| **Market Leader** | [![Leader](https://img.shields.io/badge/Position-Market_Leader-purple?style=for-the-badge&logo=crown&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation) | Premium trust scores | Full regulatory access |
+| **Premium Provider** | [![Premium](https://img.shields.io/badge/Position-Premium_Provider-blue?style=for-the-badge&logo=trending-up&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation) | High trust scores | Major regulatory access |
+| **Competitive** | [![Competitive](https://img.shields.io/badge/Position-Competitive-green?style=for-the-badge&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation) | Standard trust scores | Standard regulatory access |
+| **Follower** | [![Follower](https://img.shields.io/badge/Position-Follower-yellow?style=for-the-badge&logo=users&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation) | Basic trust scores | Limited regulatory access |
+| **Laggard** | [![Laggard](https://img.shields.io/badge/Position-Laggard-red?style=for-the-badge&logo=warning&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#competitive-differentiation) | Low trust scores | Restricted access |
 
 ### 📈 Porter's Five Forces Strategic Impact {#porters-five-forces}
 
 #### 👥 Buyer Power Classification
 | Impact Level | Badge | Customer Retention |
 |--------------|-------|-------------------|
-| **Minimal** | [![Buyer Power Minimal](https://img.shields.io/badge/Buyer_Power-Minimal-success?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | 95%+ retention |
-| **Reduced** | [![Buyer Power Reduced](https://img.shields.io/badge/Buyer_Power-Reduced-lightgreen?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | 85-95% retention |
-| **Moderate** | [![Buyer Power Moderate](https://img.shields.io/badge/Buyer_Power-Moderate-yellow?style=flat-square&logo=users&logoColor=black)](./CLASSIFICATION.md#porters-five-forces) | 70-85% retention |
-| **High** | [![Buyer Power High](https://img.shields.io/badge/Buyer_Power-High-orange?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | 50-70% retention |
-| **Extreme** | [![Buyer Power Extreme](https://img.shields.io/badge/Buyer_Power-Extreme-red?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | <50% retention |
+| **Minimal** | [![Buyer Power Minimal](https://img.shields.io/badge/Buyer_Power-Minimal-success?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 95%+ retention |
+| **Reduced** | [![Buyer Power Reduced](https://img.shields.io/badge/Buyer_Power-Reduced-lightgreen?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 85-95% retention |
+| **Moderate** | [![Buyer Power Moderate](https://img.shields.io/badge/Buyer_Power-Moderate-yellow?style=flat-square&logo=users&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 70-85% retention |
+| **High** | [![Buyer Power High](https://img.shields.io/badge/Buyer_Power-High-orange?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 50-70% retention |
+| **Extreme** | [![Buyer Power Extreme](https://img.shields.io/badge/Buyer_Power-Extreme-red?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | <50% retention |
 
 #### 🏪 Supplier Power Classification
 | Impact Level | Badge | Vendor Relationship |
 |--------------|-------|-------------------|
-| **Minimal** | [![Supplier Power Minimal](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Strong negotiation position |
-| **Reduced** | [![Supplier Power Reduced](https://img.shields.io/badge/Supplier_Power-Reduced-lightgreen?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Good negotiation position |
-| **Moderate** | [![Supplier Power Moderate](https://img.shields.io/badge/Supplier_Power-Moderate-yellow?style=flat-square&logo=handshake&logoColor=black)](./CLASSIFICATION.md#porters-five-forces) | Balanced relationship |
-| **High** | [![Supplier Power High](https://img.shields.io/badge/Supplier_Power-High-orange?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Vendor dependency |
-| **Extreme** | [![Supplier Power Extreme](https://img.shields.io/badge/Supplier_Power-Extreme-red?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Critical dependency |
+| **Minimal** | [![Supplier Power Minimal](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Strong negotiation position |
+| **Reduced** | [![Supplier Power Reduced](https://img.shields.io/badge/Supplier_Power-Reduced-lightgreen?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Good negotiation position |
+| **Moderate** | [![Supplier Power Moderate](https://img.shields.io/badge/Supplier_Power-Moderate-yellow?style=flat-square&logo=handshake&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Balanced relationship |
+| **High** | [![Supplier Power High](https://img.shields.io/badge/Supplier_Power-High-orange?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Vendor dependency |
+| **Extreme** | [![Supplier Power Extreme](https://img.shields.io/badge/Supplier_Power-Extreme-red?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Critical dependency |
 
 #### 🚪 New Entrants Barriers
 | Barrier Level | Badge | Entry Prevention |
 |---------------|-------|------------------|
-| **Insurmountable** | [![Barriers Insurmountable](https://img.shields.io/badge/Entry_Barriers-Insurmountable-darkred?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | 99%+ prevention |
-| **Very High** | [![Barriers Very High](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | 90%+ prevention |
-| **High** | [![Barriers High](https://img.shields.io/badge/Entry_Barriers-High-orange?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | 70-90% prevention |
-| **Moderate** | [![Barriers Moderate](https://img.shields.io/badge/Entry_Barriers-Moderate-yellow?style=flat-square&logo=shield-alt&logoColor=black)](./CLASSIFICATION.md#porters-five-forces) | 40-70% prevention |
-| **Low** | [![Barriers Low](https://img.shields.io/badge/Entry_Barriers-Low-lightgreen?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | <40% prevention |
+| **Insurmountable** | [![Barriers Insurmountable](https://img.shields.io/badge/Entry_Barriers-Insurmountable-darkred?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 99%+ prevention |
+| **Very High** | [![Barriers Very High](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 90%+ prevention |
+| **High** | [![Barriers High](https://img.shields.io/badge/Entry_Barriers-High-orange?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 70-90% prevention |
+| **Moderate** | [![Barriers Moderate](https://img.shields.io/badge/Entry_Barriers-Moderate-yellow?style=flat-square&logo=shield-alt&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | 40-70% prevention |
+| **Low** | [![Barriers Low](https://img.shields.io/badge/Entry_Barriers-Low-lightgreen?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | <40% prevention |
 
 #### 🔄 Substitute Threats
 | Threat Level | Badge | Market Protection |
 |--------------|-------|------------------|
-| **Minimal** | [![Substitute Minimal](https://img.shields.io/badge/Substitute_Threat-Minimal-success?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Strong protection |
-| **Low** | [![Substitute Low](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Good protection |
-| **Moderate** | [![Substitute Moderate](https://img.shields.io/badge/Substitute_Threat-Moderate-yellow?style=flat-square&logo=shield&logoColor=black)](./CLASSIFICATION.md#porters-five-forces) | Some alternatives exist |
-| **High** | [![Substitute High](https://img.shields.io/badge/Substitute_Threat-High-orange?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Many alternatives |
-| **Critical** | [![Substitute Critical](https://img.shields.io/badge/Substitute_Threat-Critical-red?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Superior alternatives |
+| **Minimal** | [![Substitute Minimal](https://img.shields.io/badge/Substitute_Threat-Minimal-success?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Strong protection |
+| **Low** | [![Substitute Low](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Good protection |
+| **Moderate** | [![Substitute Moderate](https://img.shields.io/badge/Substitute_Threat-Moderate-yellow?style=flat-square&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Some alternatives exist |
+| **High** | [![Substitute High](https://img.shields.io/badge/Substitute_Threat-High-orange?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Many alternatives |
+| **Critical** | [![Substitute Critical](https://img.shields.io/badge/Substitute_Threat-Critical-red?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Superior alternatives |
 
 #### 🏆 Competitive Rivalry
 | Advantage Level | Badge | Market Position |
 |-----------------|-------|-----------------|
-| **Dominant** | [![Rivalry Dominant](https://img.shields.io/badge/Rivalry-Dominant_Advantage-darkblue?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Clear market leader |
-| **Strong** | [![Rivalry Strong](https://img.shields.io/badge/Rivalry-Strong_Advantage-blue?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Top tier competitor |
-| **Competitive** | [![Rivalry Competitive](https://img.shields.io/badge/Rivalry-Competitive_Advantage-green?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Competitive position |
-| **Parity** | [![Rivalry Parity](https://img.shields.io/badge/Rivalry-Parity-yellow?style=flat-square&logo=trophy&logoColor=black)](./CLASSIFICATION.md#porters-five-forces) | Level playing field |
-| **Disadvantage** | [![Rivalry Disadvantage](https://img.shields.io/badge/Rivalry-Disadvantage-red?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Market disadvantage |
+| **Dominant** | [![Rivalry Dominant](https://img.shields.io/badge/Rivalry-Dominant_Advantage-darkblue?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Clear market leader |
+| **Strong** | [![Rivalry Strong](https://img.shields.io/badge/Rivalry-Strong_Advantage-blue?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Top tier competitor |
+| **Competitive** | [![Rivalry Competitive](https://img.shields.io/badge/Rivalry-Competitive_Advantage-green?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Competitive position |
+| **Parity** | [![Rivalry Parity](https://img.shields.io/badge/Rivalry-Parity-yellow?style=flat-square&logo=trophy&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Level playing field |
+| **Disadvantage** | [![Rivalry Disadvantage](https://img.shields.io/badge/Rivalry-Disadvantage-red?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | Market disadvantage |
 
 ---
 
@@ -853,11 +855,10 @@ Use this checklist to ensure complete project template implementation:
 
 ---
 
-**Document Control:**  
-**Approved by:** James Pether Sörling, CEO  
-**Distribution:** Public  
-**Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**Effective Date:** 2025-08-14  
-**Next Review:** 2025-11-14   
-**Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
-
+**📋 Document Control:**  
+**✅ Approved by:** James Pether Sörling, CEO  
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2025-08-14  
+**⏰ Next Review:** 2025-11-14     
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
