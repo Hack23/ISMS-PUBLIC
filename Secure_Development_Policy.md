@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--20-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--19-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-08-20 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-20
+**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-09-19 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-19
 
 ---
 
@@ -157,6 +157,53 @@ Comprehensive E2E testing ensures **🔄 operational excellence** across all use
 ---
 
 ## 🕷️ **Advanced Security Testing Framework**
+
+### **🎯 Threat Modeling Requirements**
+All projects **MUST** implement comprehensive threat modeling aligned with [🎯 Threat Modeling Policy](./Threat_Modeling.md):
+
+#### **📋 Threat Modeling Standards**
+- **🎭 STRIDE Framework Application:** Systematic threat categorization for all system components
+- **🎖️ MITRE ATT&CK Integration:** Advanced threat intelligence and attack vector analysis
+- **🌳 Attack Tree Development:** Structured attack path analysis with business impact assessment
+- **👥 Threat Agent Classification:** External, internal, and supply chain threat actor evaluation
+- **📊 Risk-Based Prioritization:** Threat ranking aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+
+#### **📚 Required Threat Model Documentation**
+Every project repository **MUST** include:
+- **🎯 THREAT_MODEL.md** - Comprehensive threat analysis with STRIDE framework application
+- **🏗️ Architecture Overview** - System components, data flows, and trust boundaries
+- **⚔️ Attack Tree Analysis** - Detailed attack path modeling with probability/impact metrics
+- **📊 Quantitative Risk Assessment** - Business impact analysis and risk scoring
+- **🛡️ Security Control Mapping** - Implemented mitigations with effectiveness validation
+
+#### **🔄 Threat Model Integration Process**
+- **🚀 Design Phase Integration:** Threat modeling conducted during architecture design
+- **📝 Change Impact Assessment:** Threat model updates required for architectural changes
+- **🔍 Regular Review Cycle:** Annual comprehensive review with quarterly updates
+- **🚨 Incident-Driven Updates:** Threat model revision following security incidents
+
+### **📊 Threat Modeling Evidence Portfolio**
+
+Demonstrating our **🌟 transparency principle** through publicly accessible threat analysis:
+
+#### **🏛️ Reference Implementation Evidence**
+
+**🏛️ Citizen Intelligence Agency - Democratic Transparency Platform:**
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#stride-threat-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#attack-tree-analysis)
+
+**📊 CIA Compliance Manager - Security Assessment Platform:**
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) [![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#quantitative-risk-assessment) [![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#security-control-mapping)
+
+**🎮 Black Trigram - Educational Gaming Platform:**
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) [![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#gaming-specific-threats) [![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#cultural-sensitivity-analysis)
+
+#### **📈 Threat Modeling Maturity Evidence**
+
+| Application | STRIDE Coverage | Attack Trees | Risk Quantification | Control Mapping | Public Documentation |
+|-------------|-----------------|--------------|-------------------|-----------------|-------------------|
+| **🏛️ CIA** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
+| **📊 CIA Compliance** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
+| **🎮 Black Trigram** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) |
 
 ### **🛡️ OWASP ZAP Security Scanning Requirements**
 All projects **MUST** implement comprehensive dynamic security testing:
@@ -792,6 +839,6 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public    
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2025-08-20  
-**⏰ Next Review:** 2026-08-20  
+**📅 Effective Date:** 2025-09-19  
+**⏰ Next Review:** 2026-09-19  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
