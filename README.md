@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--14-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--22-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-09-10 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-10
+**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-09-22 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-22
 
 ---
 
@@ -59,6 +59,8 @@ This table defines the publication status of ISMS documents and the rationale.
 | [📝 Change Management](./Change_Management.md) | ✅ **Public** | Process framework public. Specific change details confidential. |
 | [🔍 Vulnerability Management](./Vulnerability_Management.md) | ✅ **Public** | Process public. Active vulnerabilities confidential. |
 | [💾 Backup & Recovery Policy](./Backup_Recovery_Policy.md) | ✅ **Public** | Policy framework public. Specific procedures confidential. |
+| [🤖 AI Governance Policy](./AI_Policy.md) | ✅ **Public** | AI governance framework and EU AI Act compliance public. AI vendor assessments confidential. |
+| [🎯 Threat Modeling Policy](./Threat_Modeling.md) | ✅ **Public** | STRIDE methodology and threat assessment framework public. Specific threat intelligence confidential. |
 | **📋 Management & Governance** | | |
 | [💻 Asset Register](./Asset_Register.md) | ⚠️ **Redacted** | Public version lists asset categories (e.g., "Cloud Services," "SaaS Platforms"). Specific account details, credentials, and configurations are **CONFIDENTIAL**. |
 | [📉 Risk Register](./Risk_Register.md) | ⚠️ **Redacted** | The framework and risk categories are public. Specific risk details, financial impacts, and vulnerabilities are **CONFIDENTIAL**. |
@@ -153,6 +155,6 @@ Our systematic approach includes:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-09-10  
-**⏰ Next Review:** 2026-09-10   
+**📅 Effective Date:** 2025-09-22  
+**⏰ Next Review:** 2026-09-22   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
