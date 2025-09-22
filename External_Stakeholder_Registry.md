@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--09-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--22-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-09-09 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-03-09
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-09-22 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-03-22
 
 ---
 
@@ -77,11 +77,19 @@ flowchart TD
         SKAT[💰 Skatteverket<br/>Swedish Tax Agency<br/>Business Registration]
     end
     
+    subgraph EU["🇪🇺 EU Authorities"]
+        ENISA[🏛️ ENISA<br/>EU Cybersecurity Agency<br/>Strategic Guidance]
+        EU_AI[🤖 EC DG CONNECT<br/>AI Governance<br/>EU AI Act Implementation]
+        AI_OFFICE[🇪🇺 EU AI Office<br/>AI Act Enforcement<br/>Cross-border Coordination]
+    end
+    
     subgraph SERVICES["📋 Services & Contact"]
         CYBER[🚨 Cybersecurity Incidents]
         PRIVACY[🔐 Data Breaches]
         TAX[💼 Business Reporting]
         TELECOM[📶 Telecom Incidents]
+        AI_INCIDENT[🤖 AI Incidents]
+        AI_COMPLIANCE[📋 AI Compliance]
     end
     
     subgraph RESPONSE["⚡ Response Times"]
@@ -94,16 +102,24 @@ flowchart TD
     IMY --> PRIVACY
     SKAT --> TAX
     PTS --> TELECOM
+    EU_AI --> AI_INCIDENT
+    AI_OFFICE --> AI_COMPLIANCE
+    ENISA --> CYBER
     
     CYBER --> IMMEDIATE
     PRIVACY --> URGENT
     TELECOM --> URGENT
     TAX --> STANDARD
+    AI_INCIDENT --> URGENT
+    AI_COMPLIANCE --> STANDARD
     
     style MSB fill:#ffcccb
     style IMY fill:#c8e6c9
     style PTS fill:#bbdefb
     style SKAT fill:#fff3e0
+    style EU_AI fill:#e1bee7
+    style AI_OFFICE fill:#d1c4e9
+    style ENISA fill:#f3e5f5
 ```
 
 #### **🛡️ Myndigheten för samhällsskydd och beredskap (MSB)**
@@ -172,6 +188,33 @@ flowchart TD
 - **EU Cybersecurity Strategy** implementation and best practices
 - **NIS2 Directive** guidance and harmonization across member states
 
+#### **🤖 European Commission DG CONNECT - AI Governance**
+**Primary Role:** EU AI Act implementation and oversight
+
+| Contact Type | Details | Usage Context | Response Time |
+|-------------|---------|---------------|---------------|
+| **📧 AI Act Queries** | [AI Act Implementation Portal](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence) | EU AI Act compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🚨 AI Incident Reporting** | Via national competent authorities | Serious AI system incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📋 Conformity Assessment** | [AI Office Portal](https://digital-strategy.ec.europa.eu/en/policies/ai-office) | High-risk AI system notifications | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+
+**Reporting Obligations:**
+- **AI Act Article 62:** Serious incident reporting for high-risk AI systems
+- **Database Registration:** High-risk AI system registration requirements
+- **Conformity Assessment:** CE marking and technical documentation compliance
+
+#### **🇪🇺 European Artificial Intelligence Office**
+**Primary Role:** AI Act enforcement and coordination across member states
+
+| Contact Type | Details | Usage Context | Response Time |
+|-------------|---------|---------------|---------------|
+| **📧 Technical Guidance** | Via EU AI Office channels | AI Act technical interpretation | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔍 Market Surveillance** | Coordination with national authorities | AI system compliance monitoring | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+
+**Engagement Areas:**
+- **AI Act Guidelines** and technical standards development
+- **Cross-border coordination** for AI system oversight
+- **AI governance best practices** sharing and harmonization
+
 ### 🌍 **International Authorities**
 
 #### **🇺🇸 Cybersecurity and Infrastructure Security Agency (CISA)**
@@ -185,6 +228,37 @@ flowchart TD
 **Engagement Areas:**
 - **International cybersecurity cooperation** and threat sharing
 - **Cloud security best practices** for AWS-based infrastructure
+
+---
+
+
+#### **🤖 Partnership on AI (PAI)**
+**Engagement Status:** Observer - Monitoring AI governance and ethics developments
+
+| Engagement Type | Details | Business Value | Frequency |
+|-----------------|---------|----------------|-----------|
+| **📋 Research Monitoring** | AI ethics guidelines and best practices publications | EU AI Act alignment and responsible AI development guidance | [![Quarterly](https://img.shields.io/badge/Monitoring-Quarterly-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔬 Publication Access** | AI safety and bias research publications | Evidence-based AI risk management insights | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🤝 Framework Monitoring** | AI accountability framework development tracking | Alignment with emerging AI regulations | [![Semi-Annual](https://img.shields.io/badge/Review-Semi--Annual-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+
+**Business Impact:**
+- **⚖️ Compliance Awareness:** Proactive awareness of evolving AI governance requirements
+- **🎯 Risk Management:** Evidence-based AI risk assessment insights
+- **🏆 Industry Knowledge:** Understanding of responsible AI development practices
+
+#### **🛡️ AI Security Alliance**
+**Engagement Status:** Observer - Monitoring AI security developments
+
+| Engagement Type | Details | Business Value | Frequency |
+|-----------------|---------|----------------|-----------|
+| **🔒 Framework Monitoring** | AI-specific security controls and standards tracking | Enhanced AI system security awareness | [![Quarterly](https://img.shields.io/badge/Review-Quarterly-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🚨 Publication Monitoring** | AI-specific attack vectors and mitigations research | Proactive AI security threat awareness | [![Continuous](https://img.shields.io/badge/Monitoring-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📊 Threat Intelligence Access** | AI system vulnerability information | Knowledge of emerging AI threats | [![Continuous](https://img.shields.io/badge/Access-Continuous-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+
+**Business Impact:**
+- **🛡️ Security Awareness:** AI-specific threat protection knowledge
+- **⚡ Early Warning:** Understanding of emerging AI security vulnerabilities  
+- **🎯 Industry Knowledge:** Advanced AI security insights for client consulting
 
 ---
 
@@ -207,13 +281,15 @@ flowchart TD
 }%%
 graph TD
     subgraph INTL["🌍 International Organizations"]
-        ISACA[🎓 ISACA<br/>Information Systems Audit<br/>CISM Certification]
-        ISC2[🛡️ ISC2<br/>Information Security<br/>CISSP Certification]
-        SIGSEC[🔐 Special Interest Group Security<br/>Academic Research Network]
+        ISACA[🎓 ISACA<br/>Information Systems Audit<br/>CISM Certification - MEMBER]
+        ISC2[🛡️ ISC2<br/>Information Security<br/>CISSP Certification - MEMBER]
+        SIGSEC[🔐 Special Interest Group Security<br/>Academic Research Network - MEMBER]
+        PAI[🤖 Partnership on AI<br/>AI Governance & Ethics<br/>Observer - Monitoring Only]
+        AI_SEC[🛡️ AI Security Alliance<br/>AI-Specific Security<br/>Observer - Monitoring Only]
     end
     
     subgraph NORDIC["🇸🇪 Nordic/Swedish Networks"]
-        CYBERNODE[🤝 Cybernode.se<br/>Swedish Cybersecurity Network<br/>AI & Cybersecurity Working Group]
+        CYBERNODE[🤝 Cybernode.se<br/>Swedish Cybersecurity Network<br/>AI & Cybersecurity Working Group - MEMBER]
         MSB_NET[📡 MSB External Network<br/>Government Cybersecurity Briefings]
     end
     
@@ -222,6 +298,7 @@ graph TD
         NETWORKING[🤝 Professional Network]
         INTELLIGENCE[📊 Threat Intelligence]
         COMPLIANCE[✅ Best Practices]
+        AI_MONITORING[🤖 AI Intelligence Monitoring]
     end
     
     ISACA --> EDUCATION
@@ -229,15 +306,20 @@ graph TD
     SIGSEC --> INTELLIGENCE
     CYBERNODE --> NETWORKING
     MSB_NET --> INTELLIGENCE
+    PAI -.-> AI_MONITORING
+    AI_SEC -.-> AI_MONITORING
     
     EDUCATION --> COMPLIANCE
     NETWORKING --> COMPLIANCE
     INTELLIGENCE --> COMPLIANCE
+    AI_MONITORING -.-> COMPLIANCE
     
     style ISACA fill:#bbdefb
     style ISC2 fill:#c8e6c9
     style CYBERNODE fill:#fff3e0
     style SIGSEC fill:#f8bbd9
+    style PAI fill:#f0f0f0
+    style AI_SEC fill:#f0f0f0
 ```
 
 #### **🎓 ISACA (Information Systems Audit and Control Association)**
@@ -262,7 +344,6 @@ graph TD
 | **🎖️ CISSP Certification** | Certified Information Systems Security Professional | Technical security expertise across all domains | [![Annual CPE](https://img.shields.io/badge/CPE-Annual_Requirements-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **📊 Research & Resources** | (ISC)² research papers, threat reports | Evidence-based security practices | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🌍 Global Community** | International cybersecurity professional network | Global threat intelligence and best practices | [![Active](https://img.shields.io/badge/Participation-Active-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-
 **Business Impact:**
 - **💡 Innovation Enablement:** Access to cutting-edge security research and methodologies
 - **🛡️ Risk Reduction:** Proven security expertise across all technical domains
@@ -333,6 +414,7 @@ flowchart TD
         HIGH[🟠 High<br/>Significant Business Impact]
         MEDIUM[🟡 Medium<br/>Moderate Impact]
         LOW[🟢 Low<br/>Minimal Impact]
+        AI_SERIOUS[🤖 AI Serious<br/>High-Risk AI System Incident]
     end
     
     subgraph AUTHORITIES["🏛️ Authority Notification"]
@@ -340,12 +422,18 @@ flowchart TD
         IMY_GDPR[🔒 IMY<br/>72 hours]
         PTS_NIS[📡 PTS<br/>24 hours]
         ENISA[🇪🇺 ENISA<br/>Coordination]
+        EU_AI_AUTH[🤖 EU AI Authorities<br/>Via National Competent Authority]
     end
     
     subgraph COMMUNITY["🤝 Community Notification"]
         CYBERNODE_ALERT[🤝 Cybernode<br/>Threat Sharing]
         ISACA_REPORT[🎓 ISACA<br/>Lessons Learned]
         ACADEMIC[🔐 Academic<br/>Research Share]
+    end
+    
+    subgraph MONITORING["📊 Intelligence Monitoring"]
+        AI_SEC_MONITOR[🛡️ AI Security Alliance<br/>Threat Intelligence Monitoring]
+        PAI_MONITOR[🤖 Partnership on AI<br/>Incident Pattern Analysis]
     end
     
     CRITICAL --> MSB_CERT
@@ -363,8 +451,14 @@ flowchart TD
     LOW --> ISACA_REPORT
     LOW --> ACADEMIC
     
+    AI_SERIOUS --> EU_AI_AUTH
+    AI_SERIOUS --> MSB_CERT
+    AI_SERIOUS -.-> AI_SEC_MONITOR
+    AI_SERIOUS -.-> PAI_MONITOR
+    
     style CRITICAL fill:#ffcccb
     style HIGH fill:#ffeb9c
+    style AI_SERIOUS fill:#e1bee7
     style MEDIUM fill:#fff9c4
     style LOW fill:#c8e6c9
 ```
@@ -408,10 +502,11 @@ sequenceDiagram
     participant SYSTEMS as 💻 Systems
     participant MSB as 🛡️ MSB/CERT-SE
     participant IMY as 🔒 IMY
+    participant EU_AI as 🤖 EU AI Authorities
     participant COMMUNITY as 🤝 Community
     
     SYSTEMS->>CEO: 🚨 Incident Detected
-    CEO->>CEO: 📊 Classify Incident Severity
+    CEO->>CEO: 📊 Classify Incident Severity & Type
     
     alt Critical/High Incident
         CEO->>MSB: 📞 Immediate Notification
@@ -419,6 +514,11 @@ sequenceDiagram
         
         CEO->>IMY: 📧 GDPR Assessment
         IMY-->>CEO: ✅ Compliance Confirmation
+        
+        alt AI System Incident
+            CEO->>EU_AI: 🤖 AI Act Article 62 Reporting
+            EU_AI-->>CEO: 📋 AI Incident Case Number
+        end
         
         CEO->>COMMUNITY: 📡 Threat Intelligence Sharing
         COMMUNITY-->>CEO: 🤝 Support Coordination
@@ -444,6 +544,7 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 | **🤝 Professional Organizations** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monthly engagement | Member portals, events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🇸🇪 National Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Bi-weekly + Monthly | Network communications | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🔐 Research Community** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Continuous access | Academic platforms | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🤖 AI Intelligence Sources** | [![Low](https://img.shields.io/badge/Influence-Low-lightgray?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monitoring only | Public publications, reports | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🌍 International Bodies** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Quarterly monitoring | Public resources | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 
 ### 📅 **Annual Engagement Calendar**
@@ -518,6 +619,6 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-09-09  
-**⏰ Next Review:** 2026-03-09   
+**📅 Effective Date:** 2025-09-22  
+**⏰ Next Review:** 2026-03-22   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
