@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--22-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-09-10 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-10
+**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-09-22 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-22
 
 ---
 
@@ -110,6 +110,8 @@ As the sole employee and decision-maker, the CEO maintains comprehensive respons
 - **Open Source Strategy:** Execute open source business model and governance per [Open Source Policy](./Open_Source_Policy.md)
 - **Network Security:** Configure and monitor per [Network Security Policy](./Network_Security_Policy.md)
 - **Change Management:** Control system changes per [Change Management](./Change_Management.md)
+- **AI Governance:** Implement responsible AI practices per [AI Governance Policy](./AI_Policy.md)
+- **Threat Modeling:** Execute systematic threat analysis per [Threat Modeling Policy](./Threat_Modeling.md)
 
 #### 📊 **Monitoring and Measurement**
 - **Security Metrics:** Track KPIs and performance per [Security Metrics](./Security_Metrics.md)
@@ -144,7 +146,8 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 | **🌐 Network Security** | [🌐 Network Security Policy](./Network_Security_Policy.md) | [🔑 Access Control Policy](./Access_Control_Policy.md) | [💻 Asset Register](./Asset_Register.md) | [📝 Change Management](./Change_Management.md) |
 | **🤝 Third-Party Risk** | [🤝 Third Party Management](./Third_Party_Management.md) | [🔗 Supplier Security Posture](./SUPPLIER.md) | [💻 Asset Register](./Asset_Register.md), [📉 Risk Register](./Risk_Register.md) | [🚨 Incident Response Plan](./Incident_Response_Plan.md) |
 | **🔄 Business Continuity** | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md), [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) | [💻 Asset Register](./Asset_Register.md) | [🚨 Incident Response Plan](./Incident_Response_Plan.md) |
-| **🛠️ Development Security** | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | [🔓 Open Source Policy](./Open_Source_Policy.md), [📝 Change Management](./Change_Management.md) | [💻 Asset Register](./Asset_Register.md) | [🔍 Vulnerability Management](./Vulnerability_Management.md) |
+| **🛠️ Development Security** | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | [🔓 Open Source Policy](./Open_Source_Policy.md), [📝 Change Management](./Change_Management.md), [🎯 Threat Modeling](./Threat_Modeling.md) | [💻 Asset Register](./Asset_Register.md) | [🔍 Vulnerability Management](./Vulnerability_Management.md) |
+| **🤖 AI Governance** | [🤖 AI Governance Policy](./AI_Policy.md) | [🔐 Information Security Policy](./Information_Security_Policy.md), [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) | [💻 Asset Register](./Asset_Register.md), [📉 Risk Register](./Risk_Register.md) | [🤝 Third Party Management](./Third_Party_Management.md) |
 | **✅ Compliance** | [✅ Compliance Checklist](./Compliance_Checklist.md) | All policies | [📉 Risk Register](./Risk_Register.md) | [🚨 Incident Response Plan](./Incident_Response_Plan.md) |
 
 ---
@@ -168,6 +171,8 @@ This Information Security Policy integrates with and references the complete ISM
 - [🌐 Network Security Policy](./Network_Security_Policy.md) - Cloud-native network protection and segmentation
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security-integrated SDLC practices
 - [🔓 Open Source Policy](./Open_Source_Policy.md) - Open source business strategy and IP governance
+- [🤖 AI Governance Policy](./AI_Policy.md) - Comprehensive AI risk management and EU AI Act compliance
+- [🎯 Threat Modeling Policy](./Threat_Modeling.md) - Systematic threat analysis using STRIDE and MITRE ATT&CK frameworks
 
 ### 🚨 Operational Plans and Procedures
 - [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Comprehensive security incident management
@@ -192,6 +197,6 @@ This Information Security Policy integrates with and references the complete ISM
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-09-10  
-**⏰ Next Review:** 2026-09-10   
+**📅 Effective Date:** 2025-09-22  
+**⏰ Next Review:** 2026-09-22   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
