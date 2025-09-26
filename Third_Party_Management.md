@@ -2,32 +2,32 @@
   <img src="https://hack23.github.io/cia-compliance-manager/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
-<h1 align="center">🤝 Hack23 AB — Third-Party Management Policy</h1>
+<h1 align="center">🤝 Hack23 AB — Third Party Management Policy</h1>
 
 <p align="center">
-  <strong>Extending Security Excellence to Our Supply Chain</strong><br>
-  <em>Demonstrating Rigorous Supplier Governance and Risk Management</em>
+  <strong>Evidence-Based Supplier Risk Management Through Systematic Governance</strong><br>
+  <em>Converting Supply Chain Transparency Into Demonstrable Business Intelligence</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--18-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--26-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 1.0 | **Last Updated:** 2025-08-18 (UTC)  
-**Review Cycle:** Annual | **Next Review:** 2026-08-18
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-09-26 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-01-26
 
 ---
 
 ## 🎯 **Purpose Statement**
 
-**Hack23 AB's** third-party management policy demonstrates how **rigorous supply chain security directly enables business resilience and protects our assets.** This framework serves as both an operational necessity and a client demonstration of our comprehensive approach to cybersecurity.
+**At Hack23 AB, our Third Party Management Policy transforms traditional vendor oversight into evidence-based competitive intelligence.** Our systematic supplier governance framework serves a dual purpose: protecting our operations while demonstrating to clients our professional approach to supply chain security through verifiable documentation.
 
-This policy outlines the systematic process for evaluating, classifying, onboarding, and managing third-party suppliers using our comprehensive [Classification Framework](./CLASSIFICATION.md). All suppliers undergo multi-dimensional assessment covering Porter's Five Forces analysis, CIA security classification, business continuity requirements, business impact analysis, and strategic value assessment before being documented in our [Asset Register](./Asset_Register.md).
+Every supplier assessment documented in [🔗 SUPPLIER.md](./SUPPLIER.md), every service cataloged in [💻 Asset Register](./Asset_Register.md), and every risk treatment decision showcases our cybersecurity consulting methodology in practice. Our transparency in third-party management creates unprecedented supply chain visibility that differentiates us in the cybersecurity consulting market.
 
-Our transparent classification approach showcases how methodical risk assessment and impact analysis create competitive advantages through informed decision-making and systematic security implementation.
+This evidence-based approach demonstrates that comprehensive third-party risk management enables rather than constrains business innovation and growth, transforming what is typically hidden compliance overhead into visible competitive advantage through documented excellence.
 
 *— James Pether Sörling, CEO/Founder*
 
@@ -35,17 +35,228 @@ Our transparent classification approach showcases how methodical risk assessment
 
 ## 🔍 **Purpose & Scope**
 
-This policy establishes the framework for systematically evaluating, classifying, and managing risks associated with third-party suppliers who provide services, access information, or support business operations.
+### Purpose
+This policy establishes the systematic framework for identifying, assessing, managing, and monitoring third-party risks across all supplier relationships, with all evidence documented in supporting registers to ensure business continuity while enabling strategic partnerships.
 
-**Scope:** This policy applies to all potential and existing suppliers, requiring comprehensive assessment using our [Classification Framework](./CLASSIFICATION.md) before onboarding and regular reassessment thereafter.
+### Scope
+This policy applies to:
+- All suppliers requiring comprehensive assessment per strategic classification tiers
+- All third-party services integrated during onboarding and operational phases  
+- All business relationships involving data sharing, system integration, or process dependencies
+- All outsourced functions supporting our four business lines: cybersecurity consulting, compliance management, civic engagement, and educational gaming
+
+### Evidence Documentation Framework
+- **[🔗 SUPPLIER.md](./SUPPLIER.md)** — Authoritative evidence of detailed supplier assessments, Porter's Five Forces analysis, and strategic classification implementation
+- **[💻 Asset Register](./Asset_Register.md)** — Evidence of supplier onboarding, service integration, and comprehensive classification badge application
+- **[📉 Risk Register](./Risk_Register.md)** — Evidence of third-party risk identification, assessment, and treatment effectiveness
+- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Methodology for business impact analysis driving all supplier management decisions
 
 ---
 
-## 📊 **Supplier Classification Assessment Framework**
+## 🏗️ **Evidence-Based Management Framework**
 
-All suppliers undergo systematic evaluation across five key dimensions before engagement:
+### 📊 **Strategic Classification Approach**
 
-### 🏗️ **1. Porter's Five Forces Strategic Analysis**
+Our third-party management operationalizes the [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) through systematic evidence collection documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e3f2fd',
+      'primaryTextColor': '#0d47a1',
+      'lineColor': '#42a5f5',
+      'secondaryColor': '#c8e6c9',
+      'tertiaryColor': '#fff3e0'
+    }
+  }
+}%%
+flowchart TD
+    subgraph EVIDENCE["📋 Evidence Sources"]
+        SUPPLIER_DOC[🔗 SUPPLIER.md<br/>Strategic Analysis<br/>Financial Assessment<br/>Security Posture]
+        ASSET_DOC[💻 Asset Register<br/>Service Integration<br/>Classification Badges<br/>Lifecycle Tracking]
+        RISK_DOC[📉 Risk Register<br/>Risk Assessment<br/>Treatment Plans<br/>Monitoring Results]
+    end
+    
+    subgraph TIERS["🎯 Strategic Tiers"]
+        TIER1[🔴 Tier 1: Mission Critical<br/>CEO Direct Oversight<br/>Quarterly Executive Review]
+        TIER2[🟠 Tier 2: Business Essential<br/>CEO Management Review<br/>Monthly Assessment]
+        TIER3[🟡 Tier 3: Operational Support<br/>CEO Operational Check<br/>Quarterly Review]
+        TIER4[🟢 Tier 4: Supporting Services<br/>Automated Monitoring<br/>Annual Review]
+    end
+    
+    subgraph PROCESS["⚙️ Evidence-Based Process"]
+        ASSESS[📊 Evidence Collection<br/>Document in SUPPLIER.md]
+        CLASSIFY[🏷️ Impact Analysis<br/>Apply Classification Framework]
+        REGISTER[💻 Asset Integration<br/>Update Asset Register]
+        MONITOR[📈 Continuous Evidence<br/>Update All Registers]
+    end
+    
+    EVIDENCE --> TIERS
+    TIERS --> PROCESS
+    PROCESS --> EVIDENCE
+    
+    style TIER1 fill:#ffcccb
+    style TIER2 fill:#ffeb9c
+    style TIER3 fill:#fff9c4
+    style TIER4 fill:#e8f5e9
+```
+
+### 🔗 **Evidence Collection Requirements**
+
+This policy mandates comprehensive evidence collection across three primary documentation sources:
+
+#### **📋 Strategic Analysis Evidence (SUPPLIER.md)**
+SHALL contain verified evidence of:
+- **💰 Financial and Commercial Analysis:** Contract terms, costs, payment structures with documented justification
+- **🏆 Porter's Five Forces Assessment:** Market position analysis with switching cost calculations and alternatives evaluation
+- **🔒 Security and Compliance Posture:** Current certifications, compliance status, incident history with validation evidence
+- **📞 Contact and Support Framework:** Escalation procedures, response capabilities, account management structure
+
+#### **💻 Operational Integration Evidence (Asset Register)**  
+SHALL document verified evidence of:
+- **🏷️ Service Classification:** Business process assignments using standardized classification badges
+- **🔐 Applied Security Controls:** Implemented security measures aligned with classification requirements
+- **📊 Performance Integration:** SLA tracking, availability monitoring, and operational metrics
+- **🔄 Lifecycle Documentation:** Onboarding evidence, renewal tracking, change history with business impact analysis
+
+#### **📉 Risk Management Evidence (Risk Register)**
+SHALL maintain verified evidence of:
+- **🔍 Risk Identification:** Systematic supplier risk assessment using classification framework
+- **📊 Impact Assessment:** Quantified business impact analysis with supporting calculations
+- **🎯 Treatment Implementation:** Risk mitigation strategies with effectiveness measurement
+- **📈 Monitoring Results:** Ongoing risk monitoring outcomes with trend analysis
+
+---
+
+## 📝 **Supplier Management Process Framework**
+
+### 🔍 **Phase 1: Supplier Identification & Assessment**
+
+Organizations SHALL execute systematic assessment with evidence documentation:
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f1f8e9',
+      'primaryTextColor': '#33691e',
+      'lineColor': '#8bc34a',
+      'secondaryColor': '#e8f5e9',
+      'tertiaryColor': '#fff8e1'
+    }
+  }
+}%%
+flowchart TD
+    A[Supplier Identified] --> B{Business Need Validation}
+    B -->|Valid Need| C[Initial Research]
+    B -->|No Need| D[Archive for Future]
+    
+    C --> E[Classification Assessment]
+    E --> F[Porter's Five Forces Analysis]
+    F --> G[CIA Security Analysis]
+    G --> H[Business Impact Assessment]
+    H --> I{Proceed with Evaluation?}
+    
+    I -->|Yes| J[Phase 2: Due Diligence]
+    I -->|No| K[Document Decision & Archive]
+    
+    subgraph ASSESS["📊 Assessment Framework"]
+        F1[Buyer Power Analysis]
+        F2[Supplier Power Analysis]  
+        F3[Entry Barriers Assessment]
+        F4[Substitute Threat Analysis]
+        F5[Competitive Rivalry Review]
+    end
+    
+    F --> ASSESS
+    
+    style A fill:#e3f2fd
+    style J fill:#e8f5e9
+    style K fill:#ffebee
+    style ASSESS fill:#fff3e0
+```
+
+**Evidence Collection Requirements:**
+1. **🔍 Business Need Documentation:** Justify supplier requirement with measurable business case
+2. **📊 Classification Application:** Apply [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) with documented impact analysis
+3. **🏆 Porter's Five Forces Analysis:** Systematic market power assessment with scoring methodology
+4. **🔒 Security Assessment:** Evaluate publicly available supplier security information and certifications
+5. **📉 Risk Analysis:** Document comprehensive risk assessment in [📉 Risk Register](./Risk_Register.md)
+6. **📄 Contract Acceptance:** Accept available standard terms or negotiate when supplier power allows
+
+### 🏆 **Porter's Five Forces Assessment Framework**
+
+Organizations SHALL conduct systematic market analysis for all suppliers:
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e1f5fe',
+      'primaryTextColor': '#01579b',
+      'lineColor': '#0288d1',
+      'secondaryColor': '#f1f8e9',
+      'tertiaryColor': '#fff8e1'
+    }
+  }
+}%%
+mindmap
+  root((Porter's Five Forces))
+    Buyer Power
+      Market Alternatives
+        Few options = Low power
+        Many options = High power
+      Switching Costs
+        High costs = Low power
+        Low costs = High power
+      Service Commodity
+        Unique service = Low power
+        Commodity = High power
+    Supplier Power
+      Market Dominance
+        Monopoly = High power
+        Competition = Low power
+      Unique Capabilities
+        Proprietary = High power
+        Standard = Low power
+      Dependency Creation
+        Lock-in = High power
+        Portable = Low power
+    Entry Barriers
+      Capital Requirements
+        High barriers = Stable
+        Low barriers = Competitive
+      Technical Complexity
+        Complex = High barriers
+        Simple = Low barriers
+      Regulatory Hurdles
+        Regulated = High barriers
+        Open = Low barriers
+    Substitute Threat
+      Alternative Solutions
+        Many options = High threat
+        Few options = Low threat
+      Technology Disruption
+        Emerging tech = High threat
+        Mature tech = Low threat
+      Internal Capability
+        Can build = High threat
+        Cannot build = Low threat
+    Competitive Rivalry
+      Market Competition
+        Intense = Advantage needed
+        Weak = Stable position
+      Feature Differentiation
+        Unique = Advantage
+        Parity = Commodity
+      Price Competition
+        Price wars = Disadvantage
+        Value focus = Advantage
+```
 
 #### Buyer Power Assessment
 ```mermaid
@@ -67,7 +278,9 @@ graph TD
     I --> N[Risk: Minimal dependency]
 ```
 
-#### Assessment Criteria by Force
+
+#### **🔍 Assessment Scoring Methodology**
+
 | Force | Evaluation Questions | Risk Indicators | Score Range |
 |-------|---------------------|-----------------|-------------|
 | **👥 Buyer Power** | • Market alternatives available?<br/>• Switching costs feasible?<br/>• Service commoditization level? | High switching costs<br/>Proprietary formats<br/>No viable alternatives | 1-5 |
@@ -76,511 +289,748 @@ graph TD
 | **🔄 Substitute Threat** | • Alternative solutions exist?<br/>• Technology disruption risk?<br/>• Internal capability building? | Superior alternatives emerging<br/>Disruptive technologies<br/>In-house options | 1-5 |
 | **🏆 Competitive Rivalry** | • Market competition level?<br/>• Feature differentiation?<br/>• Price competition intensity? | Weak competitive position<br/>Feature gaps<br/>Price disadvantage | 1-5 |
 
-### 🔒 **2. CIA Security Classification**
+### 🔒 **CIA Security Classification Assessment**
 
-#### Security Requirements Assessment
+Organizations SHALL apply systematic security classification using documented methodology:
+
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#ffebee',
+      'primaryTextColor': '#b71c1c',
+      'lineColor': '#f44336',
+      'secondaryColor': '#e8f5e9',
+      'tertiaryColor': '#fff3e0'
+    }
+  }
+}%%
 flowchart LR
-    A[Data Types] --> B{Confidentiality}
-    A --> C{Integrity}  
-    A --> D{Availability}
+    A[Data Types Assessment] --> B{Confidentiality Analysis}
+    A --> C{Integrity Analysis}  
+    A --> D{Availability Analysis}
     
-    B --> B1[Public: Score 1]
-    B --> B2[Low: Score 2]
-    B --> B3[Moderate: Score 3]
-    B --> B4[High: Score 4]
-    B --> B5[Very High: Score 5]
-    B --> B6[Extreme: Score 6]
+    B --> B1[📋 Public: Score 1]
+    B --> B2[🟡 Low: Score 2]
+    B --> B3[🟠 Moderate: Score 3]
+    B --> B4[🔵 High: Score 4]
+    B --> B5[🔷 Very High: Score 5]
+    B --> B6[⚫ Extreme: Score 6]
     
-    C --> C1[Minimal: Score 1]
-    C --> C2[Low: Score 2]
-    C --> C3[Moderate: Score 3]
-    C --> C4[High: Score 4]
-    C --> C5[Critical: Score 5]
+    C --> C1[📝 Minimal: Score 1]
+    C --> C2[🟡 Low: Score 2]
+    C --> C3[🟠 Moderate: Score 3]
+    C --> C4[🔵 High: Score 4]
+    C --> C5[🔴 Critical: Score 5]
     
-    D --> D1[Best Effort: Score 1]
-    D --> D2[Standard: Score 2]
-    D --> D3[Moderate: Score 3]
-    D --> D4[High: Score 4]
-    D --> D5[Mission Critical: Score 5]
+    D --> D1[📋 Best Effort: Score 1]
+    D --> D2[🟡 Standard: Score 2]
+    D --> D3[🟠 Moderate: Score 3]
+    D --> D4[🔵 High: Score 4]
+    D --> D5[🔴 Mission Critical: Score 5]
+    
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#f1f8e9
+    style D fill:#fce4ec
 ```
 
-#### Data Classification Matrix
-| Data Category | Examples | Confidentiality | Integrity | Availability | Justification |
-|---------------|----------|-----------------|-----------|--------------|---------------|
-| **Customer Data** | Client information, project details | Very High (5) | Critical (5) | High (4) | GDPR compliance, business reputation |
-| **Financial Data** | Banking, payments, accounting | Very High (5) | Critical (5) | High (4) | Regulatory compliance, business operations |
-| **Source Code** | Proprietary algorithms, IP | High (4) | Critical (5) | Moderate (3) | Competitive advantage, IP protection |
-| **Operational Data** | Logs, metrics, configurations | Moderate (3) | High (4) | High (4) | Security monitoring, troubleshooting |
-| **Marketing Data** | Public content, analytics | Low (2) | Low (2) | Standard (2) | Public information, minimal impact |
+#### **📊 Data Classification Matrix**
 
-### ⏱️ **3. Business Continuity Classification**
+| Data Category | Examples | Confidentiality | Integrity | Availability | Business Justification |
+|---------------|----------|-----------------|-----------|--------------|------------------------|
+| **🤝 Customer Data** | Client information, project details | Very High (5) | Critical (5) | High (4) | GDPR compliance, business reputation |
+| **💰 Financial Data** | Banking, payments, accounting | Very High (5) | Critical (5) | High (4) | Regulatory compliance, business operations |
+| **💻 Source Code** | Proprietary algorithms, IP | High (4) | Critical (5) | Moderate (3) | Competitive advantage, IP protection |
+| **⚙️ Operational Data** | Logs, metrics, configurations | Moderate (3) | High (4) | High (4) | Security monitoring, troubleshooting |
+| **📢 Marketing Data** | Public content, analytics | Low (2) | Low (2) | Standard (2) | Public information, minimal impact |
 
-#### RTO/RPO Requirements Assessment
+### ⏱️ **Business Continuity Classification Framework**
+
+Organizations SHALL define recovery requirements based on business impact analysis:
+
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#fff8e1',
+      'primaryTextColor': '#e65100',
+      'lineColor': '#ff9800',
+      'secondaryColor': '#f3e5f5',
+      'tertiaryColor': '#e8f5e9'
+    }
+  }
+}%%
 graph TB
-    A[Service Impact Analysis] --> B{Business Process Impact}
+    A[Service Impact Analysis] --> B{Business Process Impact Assessment}
     
-    B -->|Revenue Impact| C[Mission Critical<br/>RTO: <5min, RPO: <1min]
-    B -->|Operations Impact| D[High Priority<br/>RTO: 5-60min, RPO: 1-15min]
-    B -->|Support Process| E[Medium Priority<br/>RTO: 1-4hrs, RPO: 15-60min]
-    B -->|Administrative| F[Low Priority<br/>RTO: 4-24hrs, RPO: 1-4hrs]
-    B -->|Optional Service| G[Standard<br/>RTO: >24hrs, RPO: >4hrs]
+    B -->|Revenue Generating| C[🔴 Mission Critical<br/>RTO: <5min, RPO: <1min]
+    B -->|Operations Critical| D[🟠 High Priority<br/>RTO: 5-60min, RPO: 1-15min]
+    B -->|Support Process| E[🟡 Medium Priority<br/>RTO: 1-4hrs, RPO: 15-60min]
+    B -->|Administrative| F[🟢 Low Priority<br/>RTO: 4-24hrs, RPO: 1-4hrs]
+    B -->|Optional Service| G[🔵 Standard<br/>RTO: >24hrs, RPO: >4hrs]
     
-    C --> C1[Instant Recovery<br/>Zero Data Loss]
-    D --> D1[Critical Recovery<br/>Near Real-time]
-    E --> E1[High Recovery<br/>Minimal Data Loss]
-    F --> F1[Medium Recovery<br/>Hourly Backup]
-    G --> G1[Low Recovery<br/>Daily Backup]
+    C --> C1[⚡ Instant Recovery<br/>📦 Zero Data Loss<br/>💰 Maximum Investment]
+    D --> D1[🕐 Critical Recovery<br/>📦 Near Real-time<br/>💰 High Investment]
+    E --> E1[⏱️ High Recovery<br/>📦 Minimal Data Loss<br/>💰 Moderate Investment]
+    F --> F1[📅 Medium Recovery<br/>📦 Hourly Backup<br/>💰 Standard Investment]
+    G --> G1[📋 Low Recovery<br/>📦 Daily Backup<br/>💰 Basic Investment]
     
-    style C fill:#ff6b6b,stroke:#333,stroke-width:2px,color:#fff
-    style D fill:#ffa726,stroke:#333,stroke-width:2px,color:#fff
-    style E fill:#ffca28,stroke:#333,stroke-width:2px
-    style F fill:#66bb6a,stroke:#333,stroke-width:2px,color:#fff
-    style G fill:#42a5f5,stroke:#333,stroke-width:2px,color:#fff
+    style C fill:#ffcccb,stroke:#d32f2f,stroke-width:2px
+    style D fill:#ffeb9c,stroke:#ff9800,stroke-width:2px
+    style E fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
+    style F fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style G fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
 ```
 
-#### RTO/RPO Classification Badges
-- **Mission Critical:** [![Instant RTO](https://img.shields.io/badge/RTO-Instant-red?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Zero Loss RPO](https://img.shields.io/badge/RPO-Zero_Loss-red?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
-- **High Priority:** [![Critical RTO](https://img.shields.io/badge/RTO-Critical-orange?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Near RT RPO](https://img.shields.io/badge/RPO-Near_RT-orange?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
-- **Medium Priority:** [![High RTO](https://img.shields.io/badge/RTO-High-yellow?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Minimal RPO](https://img.shields.io/badge/RPO-Minimal-yellow?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
-- **Low Priority:** [![Medium RTO](https://img.shields.io/badge/RTO-Medium-lightgreen?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Hourly RPO](https://img.shields.io/badge/RPO-Hourly-lightgreen?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
-- **Standard:** [![Low RTO](https://img.shields.io/badge/RTO-Low-lightblue?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Daily RPO](https://img.shields.io/badge/RPO-Daily-lightblue?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
+### 💰 **Business Impact Analysis Framework**
 
-### 💰 **4. Business Impact Analysis**
+Organizations SHALL conduct multi-dimensional impact assessment:
 
-#### Multi-Dimensional Impact Assessment
 ```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#f3e5f5',
+      'primaryTextColor': '#4a148c',
+      'lineColor': '#7b1fa2',
+      'secondaryColor': '#e8f5e9',
+      'tertiaryColor': '#fff3e0'
+    }
+  }
+}%%
 mindmap
-  root((Business Impact))
+  root((💰 Business Impact))
     Financial Impact
       Direct Revenue Loss
         Payment processing halt
-        Service unavailability
-        Customer churn
-      Indirect Costs
+        Service unavailability  
+        Customer churn impact
+      Indirect Cost Impact
         Recovery expenses
         Regulatory fines
-        Reputation damage
+        Reputation damage costs
     Operational Impact
       Service Disruption
-        Complete outage
+        Complete system outage
         Performance degradation
         Feature unavailability
       Process Impact
-        Manual workarounds
+        Manual workarounds required
         Efficiency loss
         Quality degradation
     Reputational Impact
       Customer Trust
-        Service reliability
-        Data protection
-        Professional image
+        Service reliability perception
+        Data protection confidence
+        Professional image impact
       Market Position
         Competitive disadvantage
-        Media coverage
+        Media coverage impact
         Stakeholder confidence
     Regulatory Impact
       Compliance Violations
-        GDPR breaches
-        Financial regulations
-        Industry standards
+        GDPR breach consequences
+        Financial regulation violations
+        Industry standard failures
       Legal Consequences
         Penalties and fines
         License risks
-        Criminal liability
+        Criminal liability exposure
 ```
 
-#### Impact Scoring Matrix
+#### **📊 Impact Scoring Matrix**
+
 | Impact Category | Score 1 (Negligible) | Score 2 (Low) | Score 3 (Moderate) | Score 4 (High) | Score 5 (Critical) |
 |-----------------|---------------------|---------------|-------------------|----------------|-------------------|
-| **💸 Financial** | <€100/day | €100-500/day | €500-1K/day | €1-5K/day | >€5K/day |
+| **💸 Financial** | <€500/day | €500-1K/day | €1-5K/day | €5-10K/day | >€10K/day |
 | **🏢 Operational** | No impact | Minor inconvenience | Reduced productivity | Major degradation | Complete outage |
 | **🤝 Reputational** | No impact | Limited visibility | Industry attention | National coverage | International media |
-| **📜 Regulatory** | No implications | Warnings | Minor penalties | Significant fines | Criminal charges |
+| **⚖️ Regulatory** | No implications | Warnings | Minor penalties | Significant fines | Criminal charges |
 
-### 🎯 **5. Strategic Value Assessment**
+### 🚀 **Phase 2: Onboarding & Integration**
 
-#### ROI and Competitive Analysis
+Organizations SHALL execute systematic onboarding recognizing power dynamics with comprehensive evidence creation:
+
 ```mermaid
-graph LR
-    A[Strategic Assessment] --> B[ROI Analysis]
-    A --> C[Competitive Positioning]
-    A --> D[Innovation Value]
-    
-    B --> B1[Cost Optimization]
-    B --> B2[Risk Reduction]
-    B --> B3[Revenue Enablement]
-    
-    C --> C1[Market Leader]
-    C --> C2[Premium Provider]  
-    C --> C3[Competitive]
-    C --> C4[Follower]
-    C --> C5[Laggard]
-    
-    D --> D1[Core Infrastructure]
-    D --> D2[Security Tools]
-    D --> D3[Business Operations]
-    D --> D4[Innovation Enabler]
-    D --> D5[Support Service]
-```
-
-#### Strategic Value Scoring
-| Dimension | Assessment Questions | Scoring Criteria | Weight |
-|-----------|---------------------|------------------|---------|
-| **📈 ROI Analysis** | • Cost vs. value delivered?<br/>• Risk mitigation value?<br/>• Revenue enablement? | 1=Negative ROI, 5=Exceptional ROI | 40% |
-| **🏆 Market Position** | • Competitive advantage?<br/>• Market leadership?<br/>• Differentiation value? | 1=Laggard, 5=Market Leader | 30% |
-| **🚀 Innovation Value** | • Enables innovation?<br/>• Competitive differentiation?<br/>• Strategic alignment? | 1=Commodity, 5=Strategic enabler | 20% |
-| **🔄 Alternative Options** | • Switching feasibility?<br/>• Market alternatives?<br/>• Vendor lock-in risk? | 1=No alternatives, 5=Many options | 10% |
-
----
-
-## 🔄 **Supplier Onboarding Workflow**
-
-### **Phase 1: Initial Assessment & Classification**
-
-#### 1.1 Supplier Discovery & Qualification
-```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e8f5e9',
+      'primaryTextColor': '#2e7d32',
+      'lineColor': '#4caf50',
+      'secondaryColor': '#fff3e0',
+      'tertiaryColor': '#e3f2fd'
+    }
+  }
+}%%
 flowchart TD
-    A[Supplier Identified] --> B{Business Need Validation}
-    B -->|Valid Need| C[Initial Research]
-    B -->|No Need| D[Archive for Future]
+    A[Assessment Complete] --> B{Overall Risk Score Calculation}
     
-    C --> E[Gather Basic Information]
-    E --> F[Preliminary Risk Assessment]
-    F --> G{Proceed with Evaluation?}
+    B -->|Score: 20-25| C[🔴 Critical Risk Onboarding]
+    B -->|Score: 15-19| D[🟠 High Risk Onboarding]
+    B -->|Score: 10-14| E[🟡 Medium Risk Onboarding]
+    B -->|Score: 5-9| F[🟢 Low Risk Onboarding]
     
-    G -->|Yes| H[Phase 2: Detailed Assessment]
-    G -->|No| I[Document Decision & Archive]
+    C --> C1[📋 Comprehensive Security Audit<br/>💰 Financial Due Diligence<br/>⚖️ Legal Review<br/>📞 Reference Verification<br/>🛡️ Insurance Validation]
     
-    style H fill:#e8f5e9
-    style I fill:#ffebee
+    D --> D1[📝 Security Questionnaire<br/>💼 Financial Health Check<br/>📄 Contract Review<br/>📊 SLA Validation<br/>✅ Compliance Verification]
+    
+    E --> E1[🔍 Standard Security Review<br/>💰 Basic Financial Check<br/>📋 Terms Review<br/>📞 Support Verification]
+    
+    F --> F1[📝 Minimal Assessment<br/>✅ Terms Acceptance<br/>📋 Basic Validation]
+    
+    C1 --> G[Contract Execution & Asset Registration]
+    D1 --> G
+    E1 --> G
+    F1 --> G
+    
+    style C fill:#ffcccb
+    style D fill:#ffeb9c
+    style E fill:#fff9c4
+    style F fill:#e8f5e9
 ```
 
-#### 1.2 Classification Assessment Checklist
-- [ ] **Porter's Five Forces Analysis**
-  - [ ] Buyer power assessment (1-5 score)
-  - [ ] Supplier power evaluation (1-5 score)
-  - [ ] Entry barriers analysis (1-5 score)
-  - [ ] Substitute threat evaluation (1-5 score)
-  - [ ] Competitive rivalry assessment (1-5 score)
+**Evidence Generation Requirements:**
+1. **📋 Security Documentation:** Collect available security information, terms of service, and compliance certifications
+2. **📝 Contract Documentation:** Document accepted terms, SLAs, and available security provisions
+3. **💻 Asset Registration:** Create comprehensive [💻 Asset Register](./Asset_Register.md) entries with classification badges
+4. **🔗 Supplier Documentation:** Complete [🔗 SUPPLIER.md](./SUPPLIER.md) profile with strategic analysis and Porter's Five Forces assessment
+5. **📊 Baseline Monitoring:** Establish performance baselines and monitoring approach
+6. **🧪 Continuity Planning:** Identify alternatives and document backup procedures where feasible
 
-- [ ] **CIA Security Classification**
-  - [ ] Data types and sensitivity analysis
-  - [ ] Confidentiality requirements (1-6 score)
-  - [ ] Integrity requirements (1-5 score) 
-  - [ ] Availability requirements (1-5 score)
+### 🎯 **Streamlined CEO Management Process**
 
-- [ ] **Business Continuity Requirements**
-  - [ ] Business process mapping
-  - [ ] RTO requirements definition
-  - [ ] RPO requirements definition
-  - [ ] SLA expectations
+As the sole decision-maker, supplier management workflow is optimized for efficiency:
 
-- [ ] **Business Impact Analysis**
-  - [ ] Financial impact assessment (1-5 score)
-  - [ ] Operational impact assessment (1-5 score)
-  - [ ] Reputational impact assessment (1-5 score)
-  - [ ] Regulatory impact assessment (1-5 score)
-
-- [ ] **Strategic Value Assessment**
-  - [ ] ROI analysis and scoring (1-5 score)
-  - [ ] Competitive positioning (1-5 score)
-  - [ ] Innovation value assessment (1-5 score)
-  - [ ] Alternative options evaluation (1-5 score)
-
-### **Phase 2: Detailed Due Diligence**
-
-#### 2.1 Risk-Based Assessment Depth
 ```mermaid
-graph TD
-    A[Classification Results] --> B{Overall Risk Score}
-    
-    B -->|Score: 20-25| C[🔴 Critical Risk Assessment]
-    B -->|Score: 15-19| D[🟠 High Risk Assessment]
-    B -->|Score: 10-14| E[🟡 Medium Risk Assessment]
-    B -->|Score: 5-9| F[🟢 Low Risk Assessment]
-    
-    C --> C1[Comprehensive Security Audit<br/>Financial Due Diligence<br/>Legal Review<br/>Reference Verification<br/>Insurance Validation]
-    
-    D --> D1[Security Questionnaire<br/>Financial Health Check<br/>Contract Review<br/>SLA Validation<br/>Compliance Verification]
-    
-    E --> E1[Standard Security Review<br/>Basic Financial Check<br/>Terms Review<br/>Support Verification]
-    
-    F --> F1[Minimal Assessment<br/>Terms Acceptance<br/>Basic Validation]
-```
-
-#### 2.2 Assessment Documentation Requirements
-| Risk Level | Required Documentation | Assessment Depth | Review Frequency |
-|------------|----------------------|------------------|------------------|
-| **🔴 Critical** | Full security audit, financial statements, insurance proof, legal review, reference checks (3+) | Comprehensive on-site/virtual audit | Quarterly |
-| **🟠 High** | Security questionnaire, financial overview, compliance certificates, reference checks (2+) | Detailed document review + interviews | Semi-annual |
-| **🟡 Medium** | Standard security form, basic financial info, compliance alignment, reference check (1+) | Document review + validation calls | Annual |
-| **🟢 Low** | Basic information form, terms acceptance, support verification | Self-assessment + spot checks | Bi-annual |
-
-### **Phase 3: Contract Negotiation & SLA Definition**
-
-#### 3.1 Classification-Driven Contract Requirements
-```mermaid
-graph LR
-    A[Classification Results] --> B[Contract Template Selection]
-    
-    B --> C[🔴 Critical Supplier Contract]
-    B --> D[🟠 High Risk Contract]
-    B --> E[🟡 Standard Contract]
-    B --> F[🟢 Basic Agreement]
-    
-    C --> C1[Custom terms, strict SLAs,<br/>liability coverage, audit rights,<br/>termination clauses]
-    D --> D1[Enhanced terms, defined SLAs,<br/>insurance requirements,<br/>performance metrics]
-    E --> E1[Standard terms, basic SLAs,<br/>standard protections]
-    F --> F1[Simple agreement,<br/>basic terms]
-```
-
-#### 3.2 SLA Requirements by Classification
-| Classification | Uptime SLA | Response Time | Resolution Time | Support Level | Penalties |
-|----------------|------------|---------------|-----------------|---------------|-----------|
-| **Mission Critical (RTO <5min)** | 99.99% | <15 minutes | <1 hour | 24/7 Premium | Service credits + penalties |
-| **High Priority (RTO <60min)** | 99.9% | <60 minutes | <4 hours | 24/7 Standard | Service credits |
-| **Medium Priority (RTO <4hrs)** | 99.5% | <4 hours | <24 hours | Business hours | Credit adjustments |
-| **Low Priority (RTO <24hrs)** | 99% | <24 hours | <72 hours | Business hours | Best effort |
-| **Standard (RTO >24hrs)** | Best effort | <72 hours | <1 week | Email support | None |
-
-### **Phase 4: Asset Register Integration**
-
-#### 4.1 Supplier Asset Registration Workflow
-```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e8f5e9',
+      'primaryTextColor': '#2e7d32',
+      'lineColor': '#4caf50',
+      'secondaryColor': '#fff3e0',
+      'tertiaryColor': '#e3f2fd'
+    }
+  }
+}%%
 flowchart TD
-    A[Contract Signed] --> B[Create Asset Register Entry]
+    START[📋 Contract Review Trigger] --> ASSESS[📊 CEO Performance Assessment]
+    ASSESS --> MARKET[🏪 Market Analysis]
+    MARKET --> NEGOTIATE[🤝 CEO Negotiation Strategy]
     
-    B --> C[Basic Information]
-    C --> D[Classification Labels]
-    D --> E[Risk Assessment Results]
-    E --> F[Contract & SLA Details]
-    F --> G[Monitoring Configuration]
+    NEGOTIATE --> TERMS{💰 Terms Acceptable?}
+    TERMS -->|✅ Yes| EXECUTE[📄 Contract Execution]
+    TERMS -->|❌ No| ALTERNATIVE[🔄 Alternative Evaluation]
     
-    C --> C1[Company name and details<br/>Service description<br/>Contact information<br/>Contract dates]
+    ALTERNATIVE --> SWITCH{🔄 Switch Supplier?}
+    SWITCH -->|✅ Yes| TRANSITION[🚚 Migration Planning]
+    SWITCH -->|❌ No| NEGOTIATE
     
-    D --> D1[Risk tier assignment<br/>CIA classification<br/>RTO/RPO categories<br/>Business impact scores<br/>Strategic value rating]
+    EXECUTE --> MONITOR[📈 Performance Monitoring]
+    TRANSITION --> ONBOARD[📝 New Supplier Assessment]
+    ONBOARD --> SUPPLIER_UPDATE[🔗 Update SUPPLIER.md]
+    SUPPLIER_UPDATE --> ASSET_ADD[💻 Add to Asset Register]
+    ASSET_ADD --> MONITOR
     
-    E --> E1[Porter's Five Forces scores<br/>Risk mitigation strategies<br/>Alternative options<br/>Dependency level]
+    MONITOR --> REVIEW[📅 Periodic Review]
+    REVIEW --> START
     
-    F --> F1[SLA commitments<br/>Contract terms<br/>Renewal dates<br/>Pricing structure]
-    
-    G --> G1[KPI definitions<br/>Review schedules<br/>Alert thresholds<br/>Escalation procedures]
-    
-    G --> H[Asset Register Updated]
-    
-    style A fill:#e8f5e9
-    style H fill:#e8f5e9
+    style START fill:#e8f5e9
+    style EXECUTE fill:#c8e6c9
+    style TRANSITION fill:#fff3e0
+    style MONITOR fill:#e3f2fd
+    style SUPPLIER_UPDATE fill:#bbdefb
+    style ASSET_ADD fill:#ffecb3
 ```
 
-#### 4.2 Simplified CEO Process
+**CEO Management Evidence Requirements:**
+1. **📊 Performance Assessment Evidence:** Documented evaluation of supplier performance against strategic objectives
+2. **📈 Market Analysis Evidence:** Documented market position analysis and competitor benchmarking
+3. **🤝 Negotiation Evidence:** Documented negotiation strategies, outcomes, and contract terms acceptance
+4. **🔄 Alternative Evaluation Evidence:** Documented evaluation of alternative suppliers and services
+5. **🚚 Transition Evidence:** Documented migration planning and execution for new suppliers
+6. **📅 Review Evidence:** Documented periodic reviews and strategic assessments
 
-As the sole decision-maker, the supplier management workflow is streamlined:
+### 📊 **Generic Supplier Assessment Templates**
 
-1. **Assess Supplier** - Use classification framework for systematic evaluation
-2. **Document Assessment** - Update SUPPLIER.md with findings and rationale
-3. **Register Asset** - Add service details to Asset_Register.md
-4. **Set Review Schedule** - Based on risk tier (quarterly for critical, annual for others)
-5. **Monitor Performance** - Track key metrics and contract compliance
+Organizations SHALL utilize standardized templates for consistent supplier assessment documentation:
 
-#### 4.3 Generic Asset Register Entry Template
-```markdown
-## [Cloud Provider] - [Infrastructure Services]
+#### **🔴 Critical Supplier Assessment Template**
+- **📋 Comprehensive Security Audit**
+- **💰 Financial Due Diligence**
+- **⚖️ Legal Review**
+- **📞 Reference Verification**
+- **🛡️ Insurance Validation**
 
-### Classification & Risk Profile
-- **Risk Tier:** 🔴 Critical [Justification: Core infrastructure dependency]
-- **Security Classification:** 
-  - [![Confidentiality: Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)
-  - [![Integrity: Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md#integrity-levels)
-  - [![Availability: Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md#availability-levels)
-- **Business Continuity:** 
-  - [![RTO: Instant](https://img.shields.io/badge/RTO-Instant-red?style=flat-square)](./CLASSIFICATION.md#rto-classifications)
-  - [![RPO: Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss-red?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
+#### **🟠 High Risk Supplier Assessment Template**
+- **📝 Security Questionnaire**
+- **💼 Financial Health Check**
+- **📄 Contract Review**
+- **📊 SLA Validation**
+- **✅ Compliance Verification**
 
-### Porter's Five Forces Assessment
-- **Buyer Power:** 2/5 - Limited leverage due to company size
-- **Supplier Power:** 5/5 - Market dominance with proprietary services
-- **Entry Barriers:** 5/5 - Massive infrastructure investment required
-- **Substitute Threat:** 2/5 - Few viable alternatives at required scale
-- **Competitive Rivalry:** 5/5 - Clear market leadership position
+#### **🟡 Medium Risk Supplier Assessment Template**
+- **🔍 Standard Security Review**
+- **💰 Basic Financial Check**
+- **📋 Terms Review**
+- **📞 Support Verification**
 
-### Business Impact Analysis
-- **Financial Impact:** [![>$10K/day](https://img.shields.io/badge/Financial->$10K/day-red?style=flat-square)](./CLASSIFICATION.md#financial-impact-levels)
-- **Operational Impact:** [![Critical](https://img.shields.io/badge/Operational-Critical-red?style=flat-square)](./CLASSIFICATION.md#operational-impact-levels)
-- **Reputational Impact:** [![High](https://img.shields.io/badge/Reputational-High-orange?style=flat-square)](./CLASSIFICATION.md#reputational-impact-levels)
-- **Regulatory Impact:** [![High](https://img.shields.io/badge/Regulatory-High-orange?style=flat-square)](./CLASSIFICATION.md#regulatory-impact-levels)
+#### **🟢 Low Risk Supplier Assessment Template**
+- **📝 Minimal Assessment**
+- **✅ Terms Acceptance**
+- **📋 Basic Validation**
 
-### Strategic Value
-- **ROI Assessment:** [![Exceptional](https://img.shields.io/badge/ROI-Exceptional-darkgreen?style=flat-square)](./CLASSIFICATION.md#security-investment-returns)
-- **Market Position:** [![Market Leader](https://img.shields.io/badge/Position-Market_Leader-purple?style=flat-square)](./CLASSIFICATION.md#competitive-differentiation)
-- **Project Type:** [![Core Infrastructure](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=flat-square)](./CLASSIFICATION.md#project-type-classifications)
+### 📋 **Supplier Onboarding Checklist**
 
-### Service Level Agreement
-- **Uptime SLA:** 99.99%
-- **Support Level:** 24/7 Enterprise
-- **Response Time:** <15 minutes
-- **Resolution Time:** <1 hour
+Organizations SHALL follow a standardized checklist to ensure comprehensive supplier onboarding:
 
-### Contract Details
-- **Contract Type:** Pay-as-you-go
-- **Annual Value:** $30-50K estimated
-- **Renewal Date:** Ongoing
-- **Termination Notice:** 30 days
-
-### Monitoring & Review
-- **Review Frequency:** Quarterly
-- **Key Metrics:** Uptime, cost trends, security incidents
-- **Last Review:** [Date]
-- **Next Review:** [Date]
-```
+1. **📋 Security Documentation Collection**
+2. **📝 Contract Documentation Completion**
+3. **💻 Asset Registration Creation**
+4. **🔗 Supplier Documentation Finalization**
+5. **📊 Baseline Monitoring Establishment**
+6. **🧪 Continuity Planning Documentation**
 
 ---
 
-## 📊 **Simplified Ongoing Management**
+## 📈 **Phase 3: Ongoing Management & Monitoring**
 
-### **Single-Person Oversight Model**
-
-As CEO/Founder, supplier management focuses on essential activities:
-
-#### 🔴 Critical Suppliers
-- **Monthly Check:** Cost trends, security alerts, performance issues
-- **Quarterly Review:** Complete risk reassessment and alternative evaluation
-- **Immediate Response:** Security incidents or major service failures
-
-#### 🟠🟡 Medium/High Risk Suppliers
-- **Quarterly Check:** Performance and cost optimization opportunities
-- **Annual Review:** Strategic value assessment and contract evaluation
-- **Event Response:** Contract changes or significant issues
-
-#### 🟢 Low Risk Suppliers
-- **Annual Review:** Basic functionality and cost verification
-- **As-Needed:** Only when service issues occur or contracts change
-
-### **Streamlined Documentation Process**
+Organizations SHALL maintain continuous evidence collection through systematic monitoring:
 
 ```mermaid
-flowchart LR
-    A[Supplier Change] --> B{Assess Impact Level}
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e8f5e9',
+      'primaryTextColor': '#2e7d32',
+      'lineColor': '#4caf50',
+      'secondaryColor': '#fff3e0',
+      'tertiaryColor': '#e3f2fd'
+    }
+  }
+}%%
+flowchart TD
+    subgraph CONTINUOUS["🔄 Continuous Evidence Collection"]
+        PERFORMANCE[📈 Performance Evidence<br/>SLA Compliance Tracking<br/>Quality Metrics Documentation]
+        SECURITY[🔍 Security Evidence<br/>Periodic Security Reviews<br/>Compliance Validation]
+        FINANCIAL[💰 Financial Evidence<br/>Cost Monitoring<br/>Budget Variance Analysis]
+        RELATIONSHIP[🤝 Relationship Evidence<br/>Communication Records<br/>Issue Resolution Tracking]
+    end
     
-    B -->|High Impact| C[Update SUPPLIER.md<br/>Update Asset Register<br/>Review Risk Register]
-    B -->|Medium Impact| D[Update SUPPLIER.md<br/>Update Asset Register]
-    B -->|Low Impact| E[Update Asset Register Only]
+    subgraph DOCUMENTATION["📚 Evidence Documentation"]
+        UPDATE_SUPPLIER[🔗 Update SUPPLIER.md<br/>Strategic Analysis Refresh<br/>Market Position Review]
+        UPDATE_ASSETS[💻 Update Asset Register<br/>Service Classification<br/>Performance Metrics]
+        UPDATE_RISKS[📉 Update Risk Register<br/>Risk Status Assessment<br/>Treatment Effectiveness]
+    end
     
-    C --> F[CEO Review Complete]
-    D --> F
-    E --> F
+    subgraph REVIEW["🔍 Evidence Review Cycles"]
+        WEEKLY[📅 Weekly Evidence<br/>Critical Supplier Status<br/>Incident Documentation]
+        MONTHLY[📊 Monthly Evidence<br/>Performance Analysis<br/>Cost Review]
+        QUARTERLY[📋 Quarterly Evidence<br/>Strategic Assessment<br/>Contract Review]
+        ANNUAL[📈 Annual Evidence<br/>Comprehensive Review<br/>Contract Renewal]
+    end
     
-    style A fill:#fff3cd
-    style F fill:#d4edda
+    CONTINUOUS --> DOCUMENTATION
+    DOCUMENTATION --> REVIEW
+    REVIEW --> CONTINUOUS
+    
+    style PERFORMANCE fill:#e8f5e9
+    style SECURITY fill:#e3f2fd
+    style FINANCIAL fill:#fff3e0
+    style RELATIONSHIP fill:#f3e5f5
+    style UPDATE_SUPPLIER fill:#bbdefb
+    style WEEKLY fill:#c8e6c9
 ```
 
-### **Essential Risk Monitoring**
+**Continuous Evidence Requirements:**
+1. **📈 Performance Evidence:** Track and document SLA compliance, service quality metrics, availability data
+2. **🔍 Security Evidence:** Conduct and document periodic security reviews per classification requirements
+3. **💰 Financial Evidence:** Monitor and document spending, budget variance, cost optimization opportunities
+4. **🤝 Relationship Evidence:** Document regular communications, issue resolutions, strategic discussions
+5. **📋 Documentation Maintenance:** Keep [🔗 SUPPLIER.md](./SUPPLIER.md) and [💻 Asset Register](./Asset_Register.md) current with verified evidence
 
-| Risk Level | Monitoring Actions | Response Time | Documentation |
-|------------|-------------------|---------------|---------------|
-| **Critical Service Outage** | Check status pages, assess customer impact | <30 minutes | Update Risk Register |
-| **Security Incident** | Follow incident response plan | <1 hour | Incident documentation |
-| **Cost Overrun** | Review usage, optimize configuration | <24 hours | Budget adjustment notes |
-| **Contract Change** | Assess terms, update documentation | <1 week | Asset Register update |
+### 🔄 **Phase 4: Strategic Review & Optimization**
 
----
+Organizations SHALL conduct systematic strategic assessment and optimization:
 
-## 🎯 **Generic Supplier Examples**
-
-### Cloud Infrastructure Provider
-- **Risk Profile:** Critical - Complete dependency, high switching costs
-- **Assessment Focus:** Data sovereignty, disaster recovery, vendor lock-in
-- **Key Metrics:** Monthly spend, uptime, security incidents
-
-### Development Platform  
-- **Risk Profile:** High - Operations impact, switching complexity
-- **Assessment Focus:** Code security, data portability, platform stability
-- **Key Metrics:** Service availability, feature changes, pricing
-
-### Financial Services
-- **Risk Profile:** High - Regulatory requirements, operational necessity
-- **Assessment Focus:** Compliance alignment, service continuity, data protection
-- **Key Metrics:** Transaction success, regulatory changes, service fees
-
-### Business Applications
-- **Risk Profile:** Medium - Process impact, moderate switching effort
-- **Assessment Focus:** Data export capabilities, integration complexity
-- **Key Metrics:** Feature utilization, support quality, alternative costs
-
-### Content/Marketing Services
-- **Risk Profile:** Low - Minimal impact, easily replaceable
-- **Assessment Focus:** Output quality, cost effectiveness
-- **Key Metrics:** Usage patterns, cost per output, service reliability
+**Strategic Evidence Requirements:**
+1. **📅 Regular Review Evidence:** Document weekly, monthly, quarterly, and annual assessments per tier requirements
+2. **💰 Optimization Evidence:** Document contract renewal evaluations and alternative supplier assessments  
+3. **📊 Performance Evidence:** Document metrics analysis against targets with industry benchmark comparisons
+4. **🔄 Classification Evidence:** Document reassessment of business impact and adjustment justifications
 
 ---
 
-## 📋 **Essential Processes Only**
+## 🛡️ **Security Assessment & Evidence Framework**
 
-### New Supplier Evaluation
-1. **Business Need** - Validate requirement and explore alternatives
-2. **Classification** - Complete five-force assessment framework
-3. **Documentation** - Update SUPPLIER.md with evaluation results
-4. **Registration** - Add to Asset_Register.md with monitoring schedule
+Organizations SHALL maintain comprehensive security assessment evidence documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
 
-### Ongoing Supplier Management
-1. **Periodic Reviews** - Based on risk tier (quarterly/annual)
-2. **Issue Response** - When problems arise, update documentation
-3. **Contract Management** - Annual review of terms and alternatives
-4. **Cost Optimization** - Regular usage and pricing analysis
+### 📋 **Security Evidence Categories**
 
-### Supplier Transition
-1. **Data Export** - Secure all data and configurations
-2. **Service Migration** - Activate alternative or new provider
-3. **Documentation** - Remove from active registers, archive assessment
-4. **Process Improvement** - Update evaluation criteria based on experience
+| Evidence Category | Required Documentation | Validation Method | Evidence Location | Review Frequency |
+|------------------|----------------------|-------------------|-------------------|------------------|
+| **🎖️ Certifications** | Current certificates, expiry tracking | Independent validation | [🔗 SUPPLIER.md](./SUPPLIER.md) compliance matrix | Annual |
+| **🔒 Data Protection** | DPAs, encryption evidence, residency proof | Audit reports, attestations | [🔗 SUPPLIER.md](./SUPPLIER.md) security section | Quarterly |
+| **🚨 Incident Response** | Response procedures, communication protocols | Historical incident analysis | [🔗 SUPPLIER.md](./SUPPLIER.md) contact matrix | Semi-annual |
+| **💾 Business Continuity** | BCP documentation, RTO/RPO evidence | Recovery testing results | [🔗 SUPPLIER.md](./SUPPLIER.md) continuity analysis | Annual |
+| **👥 Access Management** | Access procedures, privilege documentation | Control testing evidence | [🔗 SUPPLIER.md](./SUPPLIER.md) security controls | Quarterly |
+| **🔍 Vulnerability Management** | Patch procedures, scanning evidence | Vulnerability reports, remediation tracking | [🔗 SUPPLIER.md](./SUPPLIER.md) security posture | Monthly |
+
+### 🎯 **Classification-Based Evidence Requirements**
+
+Evidence depth SHALL align with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) business impact analysis:
+
+**🔴 Mission Critical Supplier Evidence Requirements:**
+- **📋 Comprehensive Documentation:** Full supplier research, enterprise certifications review, service validation
+- **📊 Enhanced Monitoring:** Priority monitoring with immediate alerting for service degradation
+- **🔄 Strategic Reviews:** Quarterly strategic assessment and relationship optimization
+- **💰 Market Analysis:** Regular alternatives research and switching cost analysis  
+- **⚖️ Contract Optimization:** Annual contract review and optimization within available options
+
+**🟠 High Priority Supplier Evidence Requirements:**
+- **📝 Standard Documentation:** Security certification verification, service level documentation
+- **📈 Regular Monitoring:** Weekly metrics collection with monthly performance reporting
+- **📅 Periodic Reviews:** Quarterly operational assessment and relationship management
+- **💼 Alternative Research:** Annual alternatives evaluation and market assessment
+- **📄 Contract Management:** Standard terms documentation and renewal planning
+
+**🟡 Medium Priority Supplier Evidence Requirements:**
+- **📋 Basic Documentation:** Service validation, compliance confirmation where available
+- **📊 Standard Monitoring:** Monthly metrics collection with quarterly reporting
+- **📅 Regular Reviews:** Semi-annual operational assessment
+- **🔍 Market Monitoring:** Annual alternatives review and cost-benefit analysis
+- **📝 Standard Management:** Standard contract terms and basic renewal tracking
+
+**🟢 Low Risk Supplier Evidence Requirements:**
+- **✅ Minimal Documentation:** Basic service confirmation and standard terms acceptance
+- **📈 Basic Monitoring:** Quarterly performance assessment and service quality review
+- **📅 Annual Reviews:** Annual cost-benefit analysis and service evaluation
+- **🔄 Simplified Management:** Self-service management and community support utilization
 
 ---
 
-## 🔗 **Key Integration Points**
+## 📊 **Performance Metrics & KPI Framework**
 
-### With Risk Management
-- New suppliers trigger risk assessment updates
-- Service changes require risk impact analysis
-- Major incidents result in risk treatment adjustments
+Organizations SHALL maintain performance evidence through metrics documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
 
-### With Asset Management
-- All suppliers documented as managed services
-- Service changes update asset classifications
-- Decommissioned services properly archived
+### 🛡️ **Security Performance Evidence**
 
-### With Business Continuity
-- Supplier RTO/RPO requirements drive BCP planning
-- Alternative suppliers identified for critical services
-- Recovery procedures include supplier contact information
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#fff8e1',
+      'primaryTextColor': '#e65100',
+      'lineColor': '#ff9800',
+      'secondaryColor': '#f3e5f5',
+      'tertiaryColor': '#e8f5e9'
+    }
+  }
+}%%
+pie title 🛡️ Security Evidence Categories
+    "SLA Compliance Evidence" : 30
+    "Incident Response Evidence" : 25
+    "Vulnerability Management Evidence" : 20
+    "Compliance Maintenance Evidence" : 15
+    "Data Protection Evidence" : 10
+```
 
-### With Compliance
-- Supplier assessments support regulatory requirements
-- Data processing agreements maintained for GDPR compliance
-- Security standards verified for critical suppliers
+### 💰 **Business Performance Metrics Framework**
+
+| Evidence Category | Documentation Requirements | Evidence Standards | Measurement System | Review Frequency |
+|------------------|---------------------------|-------------------|-------------------|------------------|
+| **⏱️ Availability** | SLA compliance documentation | Monitoring system records | Per classification levels | Per documented schedules |
+| **🚨 Incident Response** | Response documentation | Incident tracking systems | Per-incident records | Per incident occurrence |
+| **💰 Cost Efficiency** | Budget tracking records | Financial reporting systems | Monthly reporting | Per documented cycles |
+| **🔒 Security Posture** | Assessment documentation | Third-party validation records | Assessment cycles | Per review schedules |
+| **🤝 Relationship Quality** | Communication records | Systematic feedback collection | Regular assessment cycles | Per documented frequency |
+
+### 📈 **Performance Dashboard Requirements**
+
+Organizations SHALL maintain comprehensive performance visibility through documented tracking:
+
+**🔴 Critical Evidence Thresholds:**
+- SLA breaches exceeding documented classification-based tolerances with immediate documentation
+- Security incidents affecting business operations with comprehensive incident reports per [🚨 Incident Response Plan](./Incident_Response_Plan.md)
+- Compliance failures requiring immediate attention with regulatory notification evidence per [✅ Compliance Checklist](./Compliance_Checklist.md)
+
+**🟡 Warning Evidence Indicators:**
+- Performance trends approaching documented threshold limits with trend analysis documentation
+- Cost variances requiring investigation with financial impact analysis per documented thresholds
+- Relationship issues requiring management attention with stakeholder communication records
+
+**🟢 Success Evidence Tracking:**
+- Performance improvements with quantified benefit documentation
+- Cost savings and efficiency gains with documented ROI calculations  
+- Enhanced security posture achievements with compliance validation evidence
+
+---
+
+## 🚨 **Incident Management & Communication Framework**
+
+Integration with [🚨 Incident Response Plan](./Incident_Response_Plan.md) SHALL produce comprehensive incident evidence:
+
+### 🔄 **Evidence-Based Incident Response**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#ffebee',
+      'primaryTextColor': '#b71c1c',
+      'lineColor': '#f44336',
+      'secondaryColor': '#fff3e0',
+      'tertiaryColor': '#e8f5e9'
+    }
+  }
+}%%
+sequenceDiagram
+    participant CEO as 👨‍💼 CEO
+    participant Supplier as 🏢 Supplier
+    participant Evidence as 📚 Evidence Systems
+    participant Stakeholders as 🤝 Stakeholders
+    
+    Evidence->>CEO: 🚨 Supplier Issue Detected
+    CEO->>CEO: 📊 Document Impact Assessment
+    
+    alt Critical Impact Evidence Required
+        CEO->>Supplier: 📞 Direct Contact - Log Communication
+        CEO->>Stakeholders: 📧 Immediate Notification - Document Outreach
+        CEO->>Evidence: 📝 Create Incident Record
+        
+        Supplier-->>CEO: 🔧 Resolution ETA - Document Response
+        CEO->>Evidence: 📊 Update Status Documentation
+        CEO->>Stakeholders: 📊 Status Update - Log Communication
+        
+        Supplier-->>CEO: ✅ Issue Resolved - Confirm Resolution
+        CEO->>Evidence: 📈 Document Resolution Evidence
+        CEO->>Stakeholders: 📈 Resolution Confirmation - Final Documentation
+        
+        CEO->>Evidence: 📝 Lessons Learned Documentation
+    else Standard Impact Evidence
+        CEO->>Supplier: 📧 Standard Communication - Log Interaction
+        CEO->>Evidence: 📋 Monitor and Document Progress
+    end
+```
+
+### 📞 **Supplier Communication Evidence Framework**
+
+Organizations SHALL maintain practical supplier communication evidence recognizing operational constraints:
+
+| Supplier Tier | Evidence Requirements | Documentation Approach | Communication Strategy | Escalation Reality |
+|---------------|--------------------|------------------------|----------------------|-------------------|
+| **🔴 Mission Critical** | Service availability logs, response documentation | Automated monitoring alerts per documented systems | Professional relationship management per documented processes | Standard support channels per documented agreements |
+| **🟠 High Priority** | Performance metrics, communication records | Regular status documentation per documented cycles | Standard engagement within available channels per documented processes | Account management where available per documented relationships |
+| **🟡 Moderate Priority** | Basic service logs, issue tracking | Status summaries per documented schedules | Standard support utilization per documented processes | Community and support channels per documented options |
+| **🟢 Low Risk** | Minimal service logs, cost tracking | Annual service evaluation per documented requirements | Self-service and community support per documented processes | Standard channels only per documented limitations |
+
+### 🎯 **Escalation Evidence & Response Framework**
+
+Organizations SHALL implement documented escalation with comprehensive evidence collection:
+
+**🔴 Critical Escalation Evidence Requirements:**
+- **⏱️ Response Evidence:** Immediate response logs within classification-based SLA requirements
+- **📞 Communication Evidence:** Direct communication channel usage logs with executive contact records
+- **👥 Stakeholder Evidence:** Comprehensive stakeholder notification logs and acknowledgment records
+- **📊 Impact Evidence:** Real-time updates with quantified business impact documentation
+
+**🟠 High Priority Escalation Evidence Requirements:**
+- **⏱️ Response Evidence:** Response time logs meeting contract terms with escalation timestamps
+- **📧 Communication Evidence:** Priority support channel usage with urgent flag documentation
+- **👥 Stakeholder Evidence:** Management and supplier account team engagement records
+- **📊 Communication Evidence:** Regular update logs maintained until complete resolution
+
+**🟡 Standard Escalation Evidence Requirements:**
+- **⏱️ Response Evidence:** Standard business hours response with timestamp documentation
+- **📝 Communication Evidence:** Standard support channel usage logs with ticket tracking
+- **👥 Stakeholder Evidence:** Operational contact engagement with service manager involvement
+- **📊 Status Evidence:** Daily update logs maintained during resolution process
+
+### 📋 **Comprehensive Incident Documentation**
+
+All supplier-related incidents SHALL produce comprehensive evidence documentation:
+1. **🕐 Timeline Evidence:** Complete incident detection, escalation, and resolution timestamps with supporting logs
+2. **📊 Impact Evidence:** Quantified business impact using [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) with supporting calculations
+3. **🔄 Response Evidence:** Documented supplier actions, internal responses, and coordination activities
+4. **📈 Improvement Evidence:** Process improvements and relationship adjustments with implementation tracking
+5. **📉 Risk Evidence:** Risk register updates based on incident findings with treatment effectiveness analysis
+
+---
+
+## 📋 **Compliance & Contract Management Framework**
+
+### ⚖️ **Regulatory Compliance Management**
+
+Organizations SHALL ensure supplier compliance through systematic validation documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
+
+#### **🇪🇺 GDPR Compliance Requirements**
+
+All data processing suppliers SHALL meet:
+- **📄 Data Processing Agreements (DPA):** Comprehensive DPAs meeting GDPR Article 28 requirements
+- **🌍 Data Residency:** EU data residency for personal data processing where required
+- **🔒 Data Protection Impact Assessments:** DPIA completion for high-risk processing activities
+- **📊 Regular Audits:** Annual compliance audits with documented results
+
+#### **🇸🇪 Swedish Regulatory Requirements**
+
+Suppliers operating in regulated sectors SHALL comply with:
+- **💰 Financial Services:** Swedish FSA regulations and PSD2 compliance for payment services  
+- **📊 Accounting Standards:** Swedish GAAP and K2/K3 compliance for accounting services
+- **⚖️ Data Protection:** Compliance with Swedish data protection authority requirements
+
+#### **🌐 Industry Standards Requirements**
+
+Organizations SHALL prioritize suppliers with relevant certifications:
+- **🎖️ ISO 27001:** Preferred certification for security-critical services
+- **🔒 SOC 2:** Required certification for data processing suppliers  
+- **💳 PCI DSS:** Mandatory for payment processing suppliers
+
+### 📄 **Contract Lifecycle Management Framework**
+
+Organizations SHALL manage supplier contracts through systematic processes documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
+
+#### **📋 Contract Categories**
+
+**🔴 Strategic Partnerships:**
+- **📝 Enterprise Agreements:** Custom terms, premium SLAs, dedicated support arrangements
+- **⏱️ Multi-year Terms:** Long-term commitments with volume discounts and strategic alignment
+- **⚖️ Enhanced Liability:** Comprehensive liability coverage and insurance requirements
+- **🔒 Advanced Security:** Detailed security specifications and compliance obligations
+
+**🟠 Operational Suppliers:**
+- **📄 Standard Agreements:** Industry-standard terms with security addendums
+- **📅 Annual Terms:** Flexible renewal cycles with performance reviews
+- **💰 Performance Incentives:** SLA credits and performance bonuses
+- **🔐 Standard Security:** Essential security requirements and audit rights
+
+**🟡 Supporting Suppliers:**
+- **📝 Standard Terms:** Vendor standard agreements with minimal customization
+- **🔄 Flexible Terms:** Monthly or quarterly renewal options
+- **💼 Basic Requirements:** Essential security and compliance clauses
+- **📊 Standard Monitoring:** Standard KPIs and service levels
+
+#### **🎯 Contract Optimization Process**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e8f5e9',
+      'primaryTextColor': '#2e7d32',
+      'lineColor': '#4caf50',
+      'secondaryColor': '#fff3e0',
+      'tertiaryColor': '#e3f2fd'
+    }
+  }
+}%%
+flowchart TD
+    START[📋 Contract Review Trigger] --> ASSESS[📊 CEO Performance Assessment]
+    ASSESS --> MARKET[🏪 Market Analysis]
+    MARKET --> NEGOTIATE[🤝 CEO Negotiation Strategy]
+    
+    NEGOTIATE --> TERMS{💰 Terms Acceptable?}
+    TERMS -->|✅ Yes| EXECUTE[📄 Contract Execution]
+    TERMS -->|❌ No| ALTERNATIVE[🔄 Alternative Evaluation]
+    
+    ALTERNATIVE --> SWITCH{🔄 Switch Supplier?}
+    SWITCH -->|✅ Yes| TRANSITION[🚚 Migration Planning]
+    SWITCH -->|❌ No| NEGOTIATE
+    
+    EXECUTE --> MONITOR[📈 Performance Monitoring]
+    TRANSITION --> ONBOARD[📝 New Supplier Assessment]
+    ONBOARD --> SUPPLIER_UPDATE[🔗 Update SUPPLIER.md]
+    SUPPLIER_UPDATE --> ASSET_ADD[💻 Add to Asset Register]
+    ASSET_ADD --> MONITOR
+    
+    MONITOR --> REVIEW[📅 Periodic Review]
+    REVIEW --> START
+    
+    style START fill:#e8f5e9
+    style EXECUTE fill:#c8e6c9
+    style TRANSITION fill:#fff3e0
+    style MONITOR fill:#e3f2fd
+    style SUPPLIER_UPDATE fill:#bbdefb
+    style ASSET_ADD fill:#ffecb3
+```
+
+### 💰 **Contract & Compliance Management Requirements**
+
+Organizations SHALL maintain comprehensive contract and compliance oversight:
+
+1. **📊 Contract Repository:** Centralized storage of all supplier contracts with compliance tracking
+2. **📅 Renewal Tracking:** Automated alerts for contract renewal dates and compliance reassessment schedules
+3. **💰 Cost Management:** Budget tracking and variance analysis with compliance cost allocation
+4. **📋 Performance Tracking:** SLA monitoring and penalty management with regulatory compliance validation
+5. **⚖️ Legal Review:** Regular legal assessment of contract terms and regulatory alignment
+6. **🇪🇺 GDPR Monitoring:** DPA validation and audit reports tracking in compliance matrix
+7. **🎖️ Certification Management:** Certificate validation and expiry tracking in certification database
+8. **⚖️ Regulatory Monitoring:** Ongoing regulatory change monitoring and impact assessment
+
+### 📊 **Compliance Monitoring Framework**
+
+| Compliance Area | Monitoring Method | Documentation Location | Review Frequency | Integration Point |
+|-----------------|-------------------|----------------------|------------------|-------------------|
+| **🇪🇺 GDPR** | DPA validation, audit reports | [🔗 SUPPLIER.md](./SUPPLIER.md) compliance matrix | Annual | Contract renewal |
+| **🎖️ Certifications** | Certificate validation, expiry tracking | Certification database | Quarterly | Risk assessment |
+| **📋 Contract Compliance** | SLA monitoring, penalty tracking | Contract management system | Monthly | Performance review |
+| **⚖️ Regulatory Changes** | Regulatory monitoring, impact assessment | Compliance register | Ongoing | Strategic planning |
+| **💰 Financial Compliance** | Payment terms, service level validation | Financial reporting systems | Monthly | Budget management |
+| **🔒 Security Standards** | Control effectiveness, audit requirements | Security control matrix | Quarterly | Risk register updates |
+
+### ✅ **Comprehensive Validation Process**
+
+Organizations SHALL execute compliance and contract validation:
+1. **📋 Initial Validation:** Verify certifications, compliance status, and contract terms during onboarding
+2. **🔄 Ongoing Monitoring:** Track compliance status and contract performance through assessments
+3. **📊 Audit Coordination:** Coordinate with supplier audits, assessments, and contract reviews
+4. **📈 Gap Remediation:** Work with suppliers to address compliance gaps and contract performance issues
+5. **📉 Risk Assessment:** Document compliance and contract risks in [📉 Risk Register](./Risk_Register.md)
+6. **💰 Cost Optimization:** Regular contract review for cost-effectiveness and compliance efficiency
+7. **⚖️ Legal Alignment:** Ensure all contract terms support regulatory compliance requirements
 
 ---
 
 ## 📚 **Related Documents**
-- [🏷️ Classification Framework](./CLASSIFICATION.md) - Assessment methodology and scoring
-- [💻 Asset Register](./Asset_Register.md) - Supplier inventory and tracking  
-- [🔗 Supplier Security Posture](./SUPPLIER.md) - Detailed supplier assessments
-- [📉 Risk Register](./Risk_Register.md) - Supplier-related risks
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Security governance framework- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Transparency commitments
-- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Continuity requirements
 
-- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Transparency commitments
-- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Continuity requirements
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Supplier incident procedures
+Our Third Party Management Policy integrates with the complete ISMS framework through evidence-based documentation:
+
+### 🏛️ **Core ISMS Framework**
+- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance framework defining third-party security requirements and standards
+- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Business impact analysis methodology for systematic supplier classification and evidence-based decision making
+- **[📊 Security Metrics](./Security_Metrics.md)** — Third-party performance measurement framework providing quantified evidence of supplier management effectiveness
+
+### 📊 **Evidence Documentation Sources**
+- **[💻 Asset Register](./Asset_Register.md)** — Primary evidence source for supplier service integration, asset dependencies, and classification badge application during onboarding
+- **[📉 Risk Register](./Risk_Register.md)** — Primary evidence source for third-party risk identification, assessment methodology, and systematic treatment tracking
+- **[🔗 Supplier Security Posture](./SUPPLIER.md)** — Authoritative evidence source for detailed supplier assessments, Porter's Five Forces analysis, and comprehensive strategic classification matrix
+
+### 🚨 **Operational Integration Framework**  
+- **[🚨 Incident Response Plan](./Incident_Response_Plan.md)** — Incident management framework for supplier-related incidents with comprehensive communication protocols and evidence collection
+- **[🔄 Business Continuity Plan](./Business_Continuity_Plan.md)** — Business resilience framework documenting supplier dependencies and comprehensive alternative arrangements
+- **[📝 Change Management](./Change_Management.md)** — Change control framework for supplier modifications with systematic approval processes and impact documentation
+
+### ✅ **Compliance & Governance Framework**
+- **[✅ Compliance Checklist](./Compliance_Checklist.md)** — Multi-framework compliance tracking system for third-party validation and systematic compliance evidence
+- **[🔑 Access Control Policy](./Access_Control_Policy.md)** — Identity and access management framework for supplier access controls and systematic privilege management
+- **[🏷️ Data Classification Policy](./Data_Classification_Policy.md)** — Data protection framework defining third-party data handling requirements and comprehensive protection standards
 
 ---
 
-**Document Control:**  
-**Approved by:** James Pether Sörling, CEO  
-**Distribution:** Public  
-**Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**Effective Date:** 2025-08-18  
-**Next Review:** 2026-08-18   
-**Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
-
-
+**📋 Document Control:**  
+**✅ Approved by:** James Pether Sörling, CEO  
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2025-09-26  
+**⏰ Next Review:** 2026-01-26  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
