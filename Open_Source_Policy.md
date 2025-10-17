@@ -29,7 +29,7 @@ This policy embodies our **🌟 transparency principle** - making security pract
 
 ### 📢 **Transparency Commitments**
 - **🎖️ Public Security Badges:** OpenSSF Scorecard, CII Best Practices, FOSSA license compliance demonstrate continuous validation
-- **🏗️ Architecture Documentation:** Every repository maintains SECURITY_ARCHITECTURE.md per [Secure Development Policy](./Secure_Development_Policy.md)
+- **🏗️ Architecture Documentation:** Every repository maintains SECURITY_ARCHITECTURE.md per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)
 - **📊 Compliance Evidence:** Real-time security posture through automated badge generation and public metrics
 - **🔍 Supply Chain Transparency:** SBOM generation, dependency tracking, and vulnerability disclosure
 
@@ -54,7 +54,7 @@ This policy establishes comprehensive governance for creating, maintaining, and 
 ## 🧭 **Core Principles**
 
 1. **🌟 Transparency:** Security posture and governance evidence publicly visible through badges and documentation
-2. **🔐 Security-by-default:** Preventive controls per [Secure Development Policy](./Secure_Development_Policy.md) with evidence-based validation
+2. **🔐 Security-by-default:** Preventive controls per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) with evidence-based validation
 3. **✅ Compliance-first:** License compliance via FOSSA, REUSE, and automated scanning
 4. **🤝 Community respect:** Follow upstream guidelines, maintain attribution, enforce code of conduct
 5. **📊 Evidence-based:** All security claims backed by public badges, reports, and metrics
@@ -70,7 +70,7 @@ This policy establishes comprehensive governance for creating, maintaining, and 
 
 ### **Repository Maintainer**
 - Ensures policy compliance through badge integration
-- Maintains security documentation per [Secure Development Policy](./Secure_Development_Policy.md#architecture-documentation-matrix)
+- Maintains security documentation per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#architecture-documentation-matrix)
 - Manages vulnerability disclosure and remediation
 
 ### **Contributors**
@@ -105,18 +105,33 @@ All repositories **MUST** demonstrate security excellence through public badges 
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia/attestations)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHack23%2Fcia.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia?ref=badge_shield)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)
+[![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#stride-threat-analysis)
+[![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#attack-tree-analysis)
 
 **🎮 Black Trigram:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777/badge)](https://bestpractices.coreinfrastructure.org/projects/10777)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/blacktrigram/attestations)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram?ref=badge_shield)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
+[![License](https://img.shields.io/github/license/Hack23/blacktrigram.svg)](https://github.com/Hack23/blacktrigram/blob/main/LICENSE)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md)
+[![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#gaming-specific-threats)
+[![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#cultural-sensitivity-analysis)
 
 **📊 CIA Compliance Manager:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365/badge)](https://bestpractices.coreinfrastructure.org/projects/10365)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia-compliance-manager/attestations)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager?ref=badge_shield)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
+[![License](https://img.shields.io/github/license/Hack23/cia-compliance-manager.svg)](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md)
+[![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#quantitative-risk-assessment)
+[![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#security-control-mapping)
 
 ---
 
@@ -125,7 +140,7 @@ All repositories **MUST** demonstrate security excellence through public badges 
 Every repository **MUST** maintain comprehensive governance documentation:
 
 #### **🔐 Security Documentation Requirements**
-Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-documentation-matrix):
+Per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#architecture-documentation-matrix):
 - **SECURITY_ARCHITECTURE.md:** Current security implementation with Mermaid diagrams
 - **FUTURE_SECURITY_ARCHITECTURE.md:** Planned security improvements roadmap
 - **SECURITY.md:** Coordinated vulnerability disclosure process
@@ -163,7 +178,7 @@ Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-docu
 ### 🔒 **3) Security Implementation Requirements**
 
 #### **🛡️ Supply Chain Security**
-Aligned with [Secure Development Policy](./Secure_Development_Policy.md#software-bill-of-materials-sbom-requirements):
+Aligned with [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#software-bill-of-materials-sbom-requirements):
 - **SBOM Generation:** CycloneDX or SPDX format for all releases
 - **Dependency Scanning:** Automated vulnerability detection via Dependabot/Renovate
 - **License Scanning:** FOSSA integration for continuous compliance monitoring
@@ -175,7 +190,7 @@ Aligned with [Secure Development Policy](./Secure_Development_Policy.md#software
 - **📊 CIA Compliance Manager:** [Dependabot Config](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/dependabot.yml) • [Security Workflow](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/workflows/ci.yml) • [Release Signing](https://github.com/Hack23/cia-compliance-manager/attestations)
 
 #### **🔍 Vulnerability Management**
-Per [Vulnerability Management](./Vulnerability_Management.md) SLAs:
+Per [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) SLAs:
 - **Critical:** Remediation within 24 hours
 - **High:** Remediation within 7 days  
 - **Medium:** Remediation within 30 days
@@ -187,7 +202,7 @@ Per [Vulnerability Management](./Vulnerability_Management.md) SLAs:
 - **📊 CIA Compliance Manager:** [Security Overview](https://github.com/Hack23/cia-compliance-manager/security) • [Code Scanning](https://github.com/Hack23/cia-compliance-manager/security/code-scanning) • [Dependabot Alerts](https://github.com/Hack23/cia-compliance-manager/security/dependabot)
 
 #### **📊 Security Testing Integration**
-As defined in [Secure Development Policy](./Secure_Development_Policy.md#automated-security-integration):
+As defined in [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#automated-security-integration):
 - **SAST:** SonarCloud or equivalent on every commit
 - **SCA:** Dependency vulnerability scanning
 - **Secret Scanning:** GitHub secret scanning or equivalent
@@ -225,8 +240,8 @@ As defined in [Secure Development Policy](./Secure_Development_Policy.md#automat
 
 **📊 FOSSA Integration Evidence:**
 - **🏛️ CIA:** [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHack23%2Fcia.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia?ref=badge_shield) • [License Report](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia/refs/branch/master)
-- **🎮 Black Trigram:** [FOSSA Integration](https://github.com/Hack23/blacktrigram/blob/main/.github/workflows/ci.yml) • License scanning in CI/CD
-- **📊 CIA Compliance Manager:** [FOSSA Integration](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/workflows/ci.yml) • License compliance checks
+- **🎮 Black Trigram:** [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram?ref=badge_shield) • [License Report](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram/refs/branch/main)
+- **📊 CIA Compliance Manager:** [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager?ref=badge_shield) • [License Report](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager/refs/branch/main)
 
 ---
 
@@ -250,7 +265,7 @@ Each project README **MUST** declare:
 
 ### 🔐 **6) Data Protection Requirements**
 
-Aligned with [Data Classification Policy](./Data_Classification_Policy.md):
+Aligned with [Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md):
 
 #### **🚫 Prohibited Data in Repositories**
 - Personal data (PII/GDPR regulated)
@@ -271,7 +286,7 @@ Aligned with [Data Classification Policy](./Data_Classification_Policy.md):
 #### **📥 Accepting External Contributions**
 - **CLA/DCO:** Developer Certificate of Origin required
 - **License Compatibility:** Verify contribution license alignment
-- **Security Review:** Code review per [Change Management](./Change_Management.md)
+- **Security Review:** Code review per [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md)
 - **Attribution:** Maintain CONTRIBUTORS file
 
 **📊 Contribution Evidence:**
@@ -281,20 +296,74 @@ Aligned with [Data Classification Policy](./Data_Classification_Policy.md):
 
 ---
 
+## 🛡️ **Security Evidence Framework**
+
+### **📊 CRA Conformity Assessment Evidence**
+
+Demonstrating **EU Cyber Resilience Act** compliance readiness through systematic self-assessment:
+
+**📊 CRA Assessment Portfolio:**
+- **🏛️ CIA:** [![CRA Assessment](https://img.shields.io/badge/CRA-Self_Assessment_Complete-green?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) • [📄 Full Assessment](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md)
+- **🎮 Black Trigram:** [![CRA Assessment](https://img.shields.io/badge/CRA-Self_Assessment_Complete-green?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) • [📄 Full Assessment](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md)
+- **📊 CIA Compliance Manager:** [![CRA Assessment](https://img.shields.io/badge/CRA-Self_Assessment_Complete-green?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) • [📄 Full Assessment](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md)
+
+**🔍 CRA Essential Requirements Coverage:**
+- **Annex I § 1.1:** Secure by Design architecture documentation
+- **Annex I § 2.2:** Coordinated vulnerability disclosure via SECURITY.md
+- **Annex I § 2.3:** SBOM generation for all releases
+- **Annex I § 2.4:** Signed updates with SLSA attestations
+- **Annex I § 2.5:** Comprehensive security monitoring and logging
+
+### **🏗️ Security Architecture Excellence**
+
+**📊 Architecture Documentation:**
+- **🏛️ CIA:** [Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md) • [Threat Model](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)
+- **🎮 Black Trigram:** [Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SECURITY_ARCHITECTURE.md) • [Threat Model](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md)
+- **📊 CIA Compliance Manager:** [Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md) • [Threat Model](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md)
+
+**🎯 Threat Modeling Maturity Matrix:**
+
+| Project | STRIDE Coverage | Attack Trees | Risk Quantification | Control Mapping | Public Documentation |
+|---------|----------------|--------------|-------------------|-----------------|-------------------|
+| **🏛️ CIA** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
+| **🎮 Black Trigram** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) |
+| **📊 CIA Compliance** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
+
+### **📊 Evidence Dashboard**
+
+**🏆 Security Excellence Metrics:**
+
+| Evidence Category | CIA | Black Trigram | CIA Compliance Manager |
+|-------------------|-----|---------------|----------------------|
+| **🛡️ Threat Models** | [THREAT_MODEL.md](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [THREAT_MODEL.md](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [THREAT_MODEL.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
+| **🏗️ Security Architecture** | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) |
+| **⚖️ CRA Assessment** | [CRA-ASSESSMENT.md](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) | [CRA-ASSESSMENT.md](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) | [CRA-ASSESSMENT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) |
+| **🔐 Security Policy** | [SECURITY.md](https://github.com/Hack23/cia/blob/master/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY.md) |
+| **🏷️ License** | [LICENSE](https://github.com/Hack23/cia/blob/master/LICENSE) | [LICENSE](https://github.com/Hack23/blacktrigram/blob/main/LICENSE) | [LICENSE](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE) |
+
+**🔍 Live Security Monitoring:**
+- **📊 GitHub Security:** Organization-wide security posture via [Security Overview](https://github.com/orgs/Hack23/security/overview)
+- **🎯 OpenSSF Tracking:** Continuous scorecard monitoring across all repositories
+- **⚖️ FOSSA Compliance:** Real-time license compliance status for all projects
+- **🛡️ Vulnerability Management:** Active security advisory and dependabot integration
+
+---
+
 ## 📊 **Compliance Monitoring & Metrics**
 
 ### **🎯 Key Performance Indicators**
-Tracked via [Security Metrics](./Security_Metrics.md):
+Tracked via [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md):
 - **OpenSSF Score:** Target ≥7.0 for all repositories
 - **License Compliance:** 100% FOSSA approval rate
 - **Vulnerability Response:** SLA compliance rate ≥95%
 - **Documentation Coverage:** 100% of repos with required artifacts
+- **CRA Readiness:** Complete self-assessments for EU market products
+- **Threat Model Coverage:** 100% of products with public threat analysis
 
 **📊 Live Compliance Dashboard:**
-- **🏛️ CIA:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770) • [Security Insights](https://github.com/Hack23/cia/blob/master/SECURITY-INSIGHTS.yml)
-- **🎮 Black Trigram:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777) • [Security Insights](https://github.com/Hack23/blacktrigram/blob/main/SECURITY-INSIGHTS.yml)
-- **📊 CIA Compliance Manager:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365) • [Security Insights](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY-INSIGHTS.yml)
-
+- **🏛️ CIA:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770) 
+- **🎮 Black Trigram:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777) 
+- **📊 CIA Compliance Manager:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365) 
 ### **📈 Continuous Monitoring**
 - **Weekly:** Automated security scanning results review
 - **Monthly:** License compliance report from FOSSA
@@ -308,8 +377,8 @@ Tracked via [Security Metrics](./Security_Metrics.md):
 
 ### **📊 Public Transparency Dashboard**
 Live metrics available at:
-- [Security Metrics Dashboard](./Security_Metrics.md)
-- [ISMS Transparency Plan](./ISMS_Transparency_Plan.md)
+- [Security Metrics Dashboard](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
+- [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md)
 - Individual project documentation portals:
   - **🏛️ CIA:** [Documentation Portal](https://www.hack23.com/cia-docs.html) • [API Documentation](https://hack23.github.io/cia/)
   - **🎮 Black Trigram:** [Documentation Portal](https://www.hack23.com/black-trigram-docs.html) • [Game Portal](https://blacktrigram.com)
@@ -319,7 +388,7 @@ Live metrics available at:
 
 ## 🔄 **Integration with SDLC**
 
-This policy integrates with our development lifecycle as defined in [Secure Development Policy](./Secure_Development_Policy.md):
+This policy integrates with our development lifecycle as defined in [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md):
 
 ### **📋 Planning Phase**
 - License strategy selection based on business goals
@@ -373,33 +442,33 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 - **Strategic:** Long-term exceptions with quarterly review
 
 ### **📊 Exception Tracking**
-- Documented in [Risk Register](./Risk_Register.md)
+- Documented in [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)
 - Reviewed quarterly
-- Reported in [Security Metrics](./Security_Metrics.md)
+- Reported in [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
 
 ---
 
 ## 📚 **Related Documents**
 
 ### **🔐 Core Security Integration**
-- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance
-- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Development lifecycle security
-- [🔍 Vulnerability Management](./Vulnerability_Management.md) — Security testing and remediation
-- [📝 Change Management](./Change_Management.md) — Controlled modification procedures
+- [🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md) — Overall security governance
+- [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) — Development lifecycle security
+- [🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) — Security testing and remediation
+- [📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) — Controlled modification procedures
 
 ### **📊 Compliance & Classification**
 - [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Impact and classification methodology
-- [🏷️ Data Classification Policy](./Data_Classification_Policy.md) — Information handling requirements
-- [✅ Compliance Checklist](./Compliance_Checklist.md) — Regulatory requirement tracking
+- [🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md) — Information handling requirements
+- [✅ Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md) — Regulatory requirement tracking
 
 ### **🤝 Third-Party Management**
-- [🤝 Third Party Management](./Third_Party_Management.md) — Supplier risk procedures
-- [🔗 Supplier Security Posture](./SUPPLIER.md) — Third-party assessments
+- [🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md) — Supplier risk procedures
+- [🔗 Supplier Security Posture](https://github.com/Hack23/ISMS-PUBLIC/blob/main/SUPPLIER.md) — Third-party assessments
 
 ### **📈 Monitoring & Reporting**
-- [📊 Security Metrics](./Security_Metrics.md) — Performance measurement
-- [📉 Risk Register](./Risk_Register.md) — Risk tracking and treatment
-- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) — Public disclosure strategy
+- [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) — Performance measurement
+- [📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) — Risk tracking and treatment
+- [🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md) — Public disclosure strategy
 
 ---
 
