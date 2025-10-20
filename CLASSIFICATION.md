@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--14-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--10--20-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-14 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-11-14
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-10-20 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-01-20
 
 
 ---
@@ -153,6 +153,16 @@ This document outlines the classification framework and business impact analysis
 | **API Services** | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Backend services and APIs | Moderate to High |
 | **Frontend Apps** | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | User-facing applications | Low to Moderate |
 | **Development Tools** | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Development utilities | Low to Moderate |
+| **Banking Services** | [![Banking](https://img.shields.io/badge/Type-Banking_Services-darkblue?style=for-the-badge&logo=bank&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Financial and banking systems | Very High to Extreme |
+| **Accounting Software** | [![Accounting](https://img.shields.io/badge/Type-Accounting_Software-purple?style=for-the-badge&logo=calculator&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Accounting and bookkeeping systems | High to Very High |
+| **Identity Services** | [![Identity](https://img.shields.io/badge/Type-Identity_Services-4285F4?style=for-the-badge&logo=key&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Authentication and authorization | Very High to Extreme |
+| **DevSecOps** | [![DevSecOps](https://img.shields.io/badge/Type-DevSecOps-CB2029?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Security integrated development tools | High to Very High |
+| **License Compliance** | [![License](https://img.shields.io/badge/Type-License_Compliance-663399?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Open source license management | Moderate to High |
+| **AI Analytics** | [![AI](https://img.shields.io/badge/Type-AI_Analytics-orange?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Artificial intelligence and ML services | Moderate to High |
+| **Content Creation** | [![Content](https://img.shields.io/badge/Type-Content_Creation-pink?style=for-the-badge&logo=music&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Media and content generation tools | Low to Moderate |
+| **Payment Processing** | [![Payment](https://img.shields.io/badge/Type-Payment_Processing-008CDD?style=for-the-badge&logo=credit-card&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Payment and transaction systems | Very High to Mission Critical |
+| **Insurance** | [![Insurance](https://img.shields.io/badge/Type-Insurance-555?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Insurance and risk management | High to Very High |
+| **Development** | [![Development](https://img.shields.io/badge/Type-Development-orange?style=for-the-badge&logo=code&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | General software development projects | Low to Moderate |
 
 ### 🏢 Business Process Types
 | Process Type | Badge | Description | Typical Security Level |
@@ -164,6 +174,8 @@ This document outlines the classification framework and business impact analysis
 | **Legal** | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Contract management, compliance | Very High to Extreme |
 | **Operations** | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Business operations, logistics | Moderate to High |
 | **Executive** | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Strategic planning, governance | Very High to Extreme |
+| **Innovation** | [![Innovation](https://img.shields.io/badge/Process-Innovation-yellow?style=for-the-badge&logo=lightbulb&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Research and innovation initiatives | Low to Moderate |
+| **Development** | [![Development](https://img.shields.io/badge/Process-Development-cyan?style=for-the-badge&logo=code&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | Software development processes | Moderate to High |
 
 ---
 
@@ -859,6 +871,6 @@ Use this checklist to ensure complete project template implementation:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-14  
-**⏰ Next Review:** 2025-11-14     
+**📅 Effective Date:** 2025-10-20  
+**⏰ Next Review:** 2026-01-20     
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
