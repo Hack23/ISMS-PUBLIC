@@ -18,13 +18,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--14-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 1.3 | **Last Updated:** 2025-08-14 (UTC)  
-**Review Cycle:** Annual | **Next Review:** 2026-08-14
+**Document Owner:** CEO | **Version:** 1.4 | **Last Updated:** 2025-11-05 (UTC)  
+**Review Cycle:** Annual | **Next Review:** 2026-11-05
 
 ---
 
@@ -317,6 +317,104 @@ Statement: All copyrights remain with the CEO and sole owner.
 
 ---
 
+## 5.1) Intellectual Property Rights (IPR) Handling
+
+### 📋 IPR Framework
+
+All intellectual property created by or for Hack23 AB is managed systematically to ensure legal protection, proper licensing, and secure disposal when necessary.
+
+| IPR Category | Handling Requirements | Protection Measures | Disposal Method |
+|--------------|----------------------|---------------------|-----------------|
+| **Source Code** | Apache-2.0 license, copyright notices | GitHub private/public repos, code review, commit signing | Secure repository deletion with backup retention |
+| **Documentation** | Creative Commons BY-SA 4.0 for public docs | Version control, review process | Standard file deletion after retention period |
+| **Trademarks** | Brand guidelines, usage restrictions | Registered where applicable, monitoring | Transfer or abandonment per legal counsel |
+| **Trade Secrets** | Need-to-know access, NDA requirements | Encryption, access controls, audit logging | Secure deletion per [Data Classification Policy](./Data_Classification_Policy.md) |
+| **Patents** | Prior art documentation, invention disclosures | Legal filing if commercially valuable | Abandonment after evaluation |
+
+### 🔒 IPR Protection Controls
+
+- **Copyright Notices:** All source files include SPDX headers with copyright attribution
+- **License Compliance:** FOSSA scanning ensures dependency license compatibility (see [Open Source Policy](./Open_Source_Policy.md))
+- **Access Control:** IPR classified per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) with appropriate access restrictions
+- **Secure Disposal:** High/Very High confidentiality IPR requires secure deletion with verification
+
+### 📜 Third-Party IPR Management
+
+| Third-Party IPR | Usage Rights | Compliance Verification | Review Frequency |
+|----------------|--------------|------------------------|------------------|
+| Open Source Dependencies | Per dependency license | FOSSA automated scanning | Every commit |
+| Cloud Service IP | AWS Customer Agreement terms | Terms review during renewals | Annual |
+| SaaS Platform Tools | Per service agreement | Terms acceptance documented | Semi-Annual |
+| Stock Media | Royalty-free or licensed | License verification in Asset Register | Annual |
+
+---
+
+## 5.2) Asset Return and Termination Procedures
+
+### 🎯 Purpose
+
+This section implements ISO 27001 A.5.11 (Return of assets) and A.6.5 (Responsibilities after termination), ensuring systematic asset recovery and access revocation.
+
+### 📋 Termination Checklist
+
+#### **Immediate Actions (Within 24 Hours)**
+
+| Asset Category | Return/Revocation Actions | Verification | Responsibility |
+|----------------|--------------------------|--------------|----------------|
+| **Physical Devices** | Mobile devices, laptops returned to CEO | Physical receipt + device wipe log | Departing individual + CEO |
+| **Cloud Access** | AWS Identity Center access revoked | IAM logs reviewed | CEO |
+| **Repository Access** | GitHub organization membership removed | Audit log confirmation | CEO |
+| **Email Access** | WorkMail account disabled | Email forwarding configured if needed | CEO |
+| **SaaS Access** | Google Workspace suspension | Admin console log | CEO |
+
+#### **Within 7 Days**
+
+| Asset Category | Return/Revocation Actions | Verification | Responsibility |
+|----------------|--------------------------|--------------|----------------|
+| **Credentials** | All passwords reset, MFA devices deregistered | Authentication logs reviewed | CEO |
+| **VPN/Network** | VPN certificates revoked, firewall rules updated | Connection logs verified empty | CEO |
+| **Documentation** | Company confidential documents returned/deleted | Confirmation statement signed | Departing individual |
+| **IP/Trade Secrets** | Reminder of confidentiality obligations | Acknowledgment signed | Departing individual |
+
+#### **Within 30 Days**
+
+| Action | Completion Criteria | Documentation |
+|--------|-------------------|---------------|
+| Final backup verification | Confirm departing individual data archived per retention policy | Backup log entry |
+| Security review | Review access logs for anomalous activity | Security review memo |
+| NDA reminder | Send reminder of ongoing confidentiality obligations | Certified email |
+| Exit interview | Document knowledge transfer and lessons learned | Exit interview notes |
+
+### 🔐 Asset Classification and Return Priority
+
+Based on [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+
+| Asset Classification | Return Priority | Access Revocation SLA | Verification Method |
+|---------------------|-----------------|----------------------|---------------------|
+| [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 🔴 Critical - Immediate | 4 hours | Manual verification + automated scanning |
+| [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 🟠 High - Same day | 24 hours | Automated log review |
+| [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 🟡 Medium - Within 3 days | 72 hours | Automated log review |
+| [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 🟢 Standard - Within 7 days | 7 days | Quarterly access review |
+
+### 📝 Termination Documentation
+
+The following documentation is maintained for each termination:
+
+- **Asset Return Receipt:** Physical confirmation of device returns
+- **Access Revocation Log:** Timestamped log of all access removals
+- **Data Archival Certificate:** Confirmation of data retention compliance
+- **Confidentiality Reminder:** Acknowledgment of ongoing obligations
+- **Final Security Review:** Post-termination security assessment
+
+### 🔄 Integration with Other Policies
+
+- **Access Control:** Immediate implementation of [Access Control Policy](./Access_Control_Policy.md) § Access Revocation procedures
+- **Data Classification:** Secure handling per [Data Classification Policy](./Data_Classification_Policy.md) retention requirements
+- **Mobile Devices:** Device wipe per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) § Device Lifecycle
+
+---
+
+
 ## 6) Asset Risk and Controls (high level)
 
 ### 6.1 Controls Overview (Mindmap)
@@ -560,7 +658,7 @@ graph LR
 **Approved by:** James Pether Sörling, CEO  
 **Distribution:** Public  
 **Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**Effective Date:** 2025-08-14  
-**Next Review:** 2026-08-14   
+**Effective Date:** 2025-11-05  
+**Next Review:** 2026-11-05   
 **Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
 
