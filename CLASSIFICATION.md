@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--10--20-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-10-20 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-01-20
+**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-11-05 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-05
 
 
 ---
@@ -114,6 +114,16 @@ This document outlines the classification framework and business impact analysis
 | **Moderate** | [![Moderate](https://img.shields.io/badge/A-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | 99.5% uptime, manual failover |
 | **Standard** | [![Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | 99% uptime, basic redundancy |
 | **Best Effort** | [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | No uptime guarantees |
+
+### 🏷️ Privacy & PII Protection Levels {#privacy-levels}
+| Level | Badge | Description | GDPR Context |
+|-------|-------|-------------|--------------|
+| **Special Category** | [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 9 data: health, biometric, genetic, racial, political, religious, union, sexual orientation | Explicit consent + legal basis required |
+| **Personal Identifier** | [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=for-the-badge&logo=fingerprint&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Direct identifiers: name, SSN, email, IP address, device ID, biometric data | GDPR Art. 4(1) - identifiable natural person |
+| **Personal** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=for-the-badge&logo=user-shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Personal data: preferences, behavior, activity logs, location, contacts | GDPR compliance required, data subject rights |
+| **Pseudonymized** | [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=for-the-badge&logo=mask&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | De-identified with key separation: hashed IDs, tokenized data | GDPR Art. 4(5) - technical/organizational separation |
+| **Anonymized** | [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=for-the-badge&logo=user-slash&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Irreversibly de-identified: aggregated statistics, anonymized analytics | Outside GDPR scope if truly irreversible |
+| **NA (Not Applicable)** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=for-the-badge&logo=times-circle&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Non-personal data: public information, system metadata | No GDPR privacy obligations |
 
 ---
 
@@ -871,6 +881,6 @@ Use this checklist to ensure complete project template implementation:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-10-20  
-**⏰ Next Review:** 2026-01-20     
+**📅 Effective Date:** 2025-11-05  
+**⏰ Next Review:** 2026-02-05     
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
