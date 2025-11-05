@@ -173,6 +173,7 @@ This Information Security Policy integrates with and references the complete ISM
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security-integrated SDLC practices
 - [🔓 Open Source Policy](./Open_Source_Policy.md) - Open source business strategy and IP governance
 - [🤖 AI Governance Policy](./AI_Policy.md) - Comprehensive AI risk management and EU AI Act compliance
+- [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) - LLM-specific security controls and OWASP Top 10 2025 alignment
 - [🎯 Threat Modeling Policy](./Threat_Modeling.md) - Systematic threat analysis using STRIDE and MITRE ATT&CK frameworks
 
 ### 🚨 Operational Plans and Procedures
