@@ -60,6 +60,7 @@ This table defines the publication status of ISMS documents and the rationale.
 | [🔍 Vulnerability Management](./Vulnerability_Management.md) | ✅ **Public** | Process public. Active vulnerabilities confidential. |
 | [💾 Backup & Recovery Policy](./Backup_Recovery_Policy.md) | ✅ **Public** | Policy framework public. Specific procedures confidential. |
 | [🤖 AI Governance Policy](./AI_Policy.md) | ✅ **Public** | AI governance framework and EU AI Act compliance public. AI vendor assessments confidential. |
+| [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | ✅ **Public** | Comprehensive LLM security framework demonstrating OWASP Top 10 alignment and implementation transparency. Shows foundation strength while clearly identifying future development areas. |
 | [🎯 Threat Modeling Policy](./Threat_Modeling.md) | ✅ **Public** | STRIDE methodology and threat assessment framework public. Specific threat intelligence confidential. |
 | **📋 Management & Governance** | | |
 | [💻 Asset Register](./Asset_Register.md) | ⚠️ **Redacted** | Public version lists asset categories (e.g., "Cloud Services," "SaaS Platforms"). Specific account details, credentials, and configurations are **CONFIDENTIAL**. |
@@ -75,12 +76,17 @@ This table defines the publication status of ISMS documents and the rationale.
 | [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ **Public** | Demonstrates our commitment to transparency and provides a clear, auditable trail of our compliance posture against key frameworks. |
 | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ **Public** | The classification levels and handling rules are public. The classification of specific datasets is confidential. |
 | **🏢 Company Documentation** | | |
-| [🏢 Company Information](./Hack23AB/README.md) | ❌ **Confidential** | Corporate structure and internal operations. |
-| [📈 Marketing Strategy](./Hack23AB/MARKETING.md) | ❌ **Confidential** | Marketing strategies and competitive analysis. |
-| [📊 Business Strategy](./Hack23AB/Business_Strategy.md) | ❌ **Confidential** | Strategic plans and business tactics confidential. |
-| [📑 Articles of Association](./Hack23AB/Articles_of_Association.md) | ✅ **Public** | Corporate governance structure public. |
 | [📊 Aktiebok](./Hack23AB/Aktiebok.md) | ❌ **Confidential** | Share register details confidential. |
 | [📊 Annual Accounts](./Hack23AB/Annual_Accounts.md) | ✅ **Public** | Filed annual reports are public record. |
+| [📑 Articles of Association](./Hack23AB/Articles_of_Association.md) | ✅ **Public** | Corporate governance structure public. |
+| [📋 Business Plan](./Hack23AB/Business_Plan.md) | ❌ **Confidential** | Financial projections, strategic roadmap, and revenue models confidential. |
+| [📊 Business Strategy](./Hack23AB/Business_Strategy.md) | ❌ **Confidential** | Strategic plans and business tactics confidential. |
+| [🏢 Company Information](./Hack23AB/README.md) | ❌ **Confidential** | Corporate structure and internal operations. |
+| [📄 Copyright Assignment Agreement](./Hack23AB/Hack23AB_Copyright_Assignment_Agreement.md) | ❌ **Confidential** | Legal agreements and IP management confidential. |
+| [🔐 Information Security Strategy](./Hack23AB/Information_Security_Strategy.md) | ❌ **Confidential** | Strategic security initiatives and competitive security positioning confidential. |
+| [📅 Marketing Plan](./Hack23AB/Marketing_Plan.md) | ❌ **Confidential** | Tactical marketing implementation, campaigns, and operational details confidential. |
+| [📈 Marketing Strategy](./Hack23AB/Marketing_Strategy.md) | ❌ **Confidential** | Marketing strategies and competitive analysis confidential. |
+| [🤝 Stakeholders Overview](./Hack23AB/Stake_Holders.md) | ❌ **Confidential** | Internal stakeholder alignment and strategic mapping confidential. |
 | **❌ Sensitive Information** | | |
 | Personal Data (CEO, future employees) | ❌ **Confidential** | Per GDPR and privacy best practices. |
 | Financial Records & Bank Details | ❌ **Confidential** | Per Swedish Bookkeeping Act and security best practices. |
