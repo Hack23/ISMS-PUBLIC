@@ -9,6 +9,13 @@
   <em>Enterprise-grade Risk Framework Demonstrating Cybersecurity Excellence</em>
 </p>
 
+<div align="center" style="background-color: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 16px; margin: 20px 0;">
+  <h3>⚠️ REDACTED PUBLIC VERSION</h3>
+  <p><strong>This is a redacted version for public transparency.</strong><br>
+  Specific financial values and risk scores have been removed for security purposes.<br>
+  The framework and methodology remain intact to demonstrate our risk management practices.</p>
+</div>
+
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
@@ -16,10 +23,8 @@
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-08-20 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-11-20
-
+**Document Owner:** CEO | **Version:** 2.0 | **Last Updated:** 2025-08-20 (UTC)  
+**Review Cycle:** Quarterly | **Next Review:** 2025-11-20
 
 ---
 
@@ -33,7 +38,7 @@
 
 ## 🔍 **Scope & Application**
 
-This register documents all identified risks affecting Hack23 AB operations, applying the quantitative risk assessment methodology defined in [Risk Assessment Methodology](./Risk_Assessment_Methodology.md). Risk scores are calculated using **Risk Score = Probability × Impact × 100** with comprehensive business impact analysis per our [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md).
+This register documents all identified risks affecting Hack23 AB operations, applying the quantitative risk assessment methodology defined in [Risk Assessment Methodology](./Risk_Assessment_Methodology.md). Risk scores are calculated using **Risk Score = Probability × Impact × 100** with comprehensive business impact analysis per our [Classification Framework](./CLASSIFICATION.md).
 
 
 ## 📊 **Risk Analytics Dashboard**
@@ -49,8 +54,8 @@ This register documents all identified risks affecting Hack23 AB operations, app
 | **High Risks** | 3 | → | 2 |
 | **Medium Risks** | 2 | ↓ | 2 |
 | **Low Risks** | 1 | → | 1 |
-| **Average Risk Score** | 185 | ↓ | <150 |
-| **Total ALE** | €65.7K | ↓ | <€40K |
+| **Average Risk Score** | [REDACTED] | ↓ | <150 |
+| **Total ALE** | [REDACTED] | ↓ | [REDACTED] |
 
 ### 📈 **Updated Risk Heat Matrix**
 
@@ -97,11 +102,11 @@ graph TB
 
 | **Risk ID** | **Risk Title** | **Score** | **Category** | **Owner** | **Due Date** |
 |-------------|---------------|-----------|--------------|-----------|--------------|
-| R-FOUNDER-001 | Founder Burnout/Incapacitation | 480 | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2025-09-01 |
-| R-MARKET-001 | Market Validation Failure | 400 | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2025-09-01 |
-| R-CASH-001 | Cash Flow Depletion | 320 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2025-09-01 |
-| R-AWS-001 | AWS Service Disruption | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2025-11-01 |
-| R-CYBER-001 | Security Breach | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2025-11-01 |
+| R-FOUNDER-001 | Founder Burnout/Incapacitation | [REDACTED] | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2025-09-01 |
+| R-MARKET-001 | Market Validation Failure | [REDACTED] | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2025-09-01 |
+| R-CASH-001 | Cash Flow Depletion | [REDACTED] | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2025-09-01 |
+| R-AWS-001 | AWS Service Disruption | [REDACTED] | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2025-11-01 |
+| R-CYBER-001 | Security Breach | [REDACTED] | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2025-11-01 |
 
 ---
 
@@ -118,13 +123,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Likely](https://img.shields.io/badge/Likelihood-Likely-orange?style=for-the-badge&logo=target&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - Single person carrying all responsibilities)
   - **Impact Score:** [![Catastrophic](https://img.shields.io/badge/Impact-Catastrophic-black?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Assessment_Methodology.md) 6/5 (Catastrophic - Complete business failure)
-  - **Total Risk Score:** 480 [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €50K (IP value + infrastructure + opportunity cost)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (IP value + infrastructure + opportunity cost)
   - **Annual Rate of Occurrence (ARO):** 0.3 (High stress single-founder operations)
-  - **Annual Loss Expectancy (ALE):** €15K annually
-  - **Value at Risk (95% confidence):** €60K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Critical Complete Loss](https://img.shields.io/badge/Financial-Critical_Complete_Loss-red?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -133,9 +138,9 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Regulatory:** [![Moderate Minor Penalties](https://img.shields.io/badge/Regulatory-Moderate_Minor_Penalties-yellow?style=for-the-badge&logo=gavel&logoColor=black)](./Risk_Assessment_Methodology.md#regulatory-impact-levels)
 
 - **🔒 Security Classification Impact:**
-  - **Confidentiality:** [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) - Access to all systems and data
-  - **Integrity:** [![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) - No backup decision-making authority
-  - **Availability:** [![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) - Total service disruption
+  - **Confidentiality:** [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) - Access to all systems and data
+  - **Integrity:** [![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md#integrity-levels) - No backup decision-making authority
+  - **Availability:** [![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md#availability-levels) - Total service disruption
 
 - **🛡️ Current Controls:** 
   - Comprehensive documentation per [Asset Register](./Asset_Register.md)
@@ -161,13 +166,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Likely](https://img.shields.io/badge/Likelihood-Likely-orange?style=for-the-badge&logo=target&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - Unproven market for products)
   - **Impact Score:** [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=for-the-badge&logo=exclamation-circle&logoColor=white)](./Risk_Assessment_Methodology.md) 5/5 (Critical - Business model failure)
-  - **Total Risk Score:** 400 [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €40K (Development investment + operating costs)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Development investment + operating costs)
   - **Annual Rate of Occurrence (ARO):** 0.6 (High for unvalidated products)
-  - **Annual Loss Expectancy (ALE):** €24K annually
-  - **Value at Risk (95% confidence):** €72K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Critical Complete Loss](https://img.shields.io/badge/Financial-Critical_Complete_Loss-red?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -176,8 +181,8 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Regulatory:** [![Negligible No Impact](https://img.shields.io/badge/Regulatory-Negligible_No_Impact-lightgrey?style=for-the-badge&logo=gavel&logoColor=black)](./Risk_Assessment_Methodology.md#regulatory-impact-levels)
 
 - **🎯 Strategic Impact (Porter's Five Forces):**
-  - **Buyer Power Risk:** [![Critical](https://img.shields.io/badge/Buyer_Power_Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) - No proven customer demand
-  - **Competitive Rivalry:** [![High](https://img.shields.io/badge/Rivalry_Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) - Established competitors in all segments
+  - **Buyer Power Risk:** [![Critical](https://img.shields.io/badge/Buyer_Power_Risk-Critical-red?style=flat-square)](./CLASSIFICATION.md#porters-five-forces) - No proven customer demand
+  - **Competitive Rivalry:** [![High](https://img.shields.io/badge/Rivalry_Risk-High-orange?style=flat-square)](./CLASSIFICATION.md#porters-five-forces) - Established competitors in all segments
 
 - **🛡️ Current Controls:** 
   - Market research per [Business Strategy](./Hack23AB/Business_Strategy.md)
@@ -205,13 +210,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) 3/5 (Possible - Regular AWS regional issues occur)
   - **Impact Score:** [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - No customers yet, development disruption)
-  - **Total Risk Score:** 240 [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €2K (Development time lost + recovery effort)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Development time lost + recovery effort)
   - **Annual Rate of Occurrence (ARO):** 0.8 (Multiple minor outages per year)
-  - **Annual Loss Expectancy (ALE):** €1.6K annually
-  - **Value at Risk (95% confidence):** €4.8K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Low <€500/day](https://img.shields.io/badge/Financial-Low_<€500/day-lightgreen?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -237,19 +242,19 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 ---
 
 #### **R-CASH-001: Cash Flow Depletion**
-- **📝 Description:** Operating costs (~€400/month) exceed revenue with no customers
+- **📝 Description:** Operating costs (~€[REDACTED]/month) exceed revenue with no customers
 - **🎯 Risk Category:** [![Financial](https://img.shields.io/badge/Category-Financial-darkgreen?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications)
 
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Likely](https://img.shields.io/badge/Likelihood-Likely-orange?style=for-the-badge&logo=target&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - No current revenue stream)
   - **Impact Score:** [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=for-the-badge&logo=exclamation-circle&logoColor=white)](./Risk_Assessment_Methodology.md) 5/5 (Critical - Cannot continue operations)
-  - **Total Risk Score:** 320 [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €25K (IP value + development investment lost)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (IP value + development investment lost)
   - **Annual Rate of Occurrence (ARO):** 0.8 (Without revenue, highly likely within 18 months)
-  - **Annual Loss Expectancy (ALE):** €20K annually
-  - **Value at Risk (95% confidence):** €30K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Critical Complete Loss](https://img.shields.io/badge/Financial-Critical_Complete_Loss-red?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -258,7 +263,7 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Regulatory:** [![Low Warnings](https://img.shields.io/badge/Regulatory-Low_Warnings-lightgreen?style=for-the-badge&logo=gavel&logoColor=white)](./Risk_Assessment_Methodology.md#regulatory-impact-levels)
 
 - **🛡️ Current Controls:** 
-  - Current monthly costs: €395 per [Supplier Management](./SUPPLIER.md)
+  - Current monthly costs: €[REDACTED] per [Supplier Management](./SUPPLIER.md)
   - Financial monitoring per [Business Strategy](./Hack23AB/Business_Strategy.md)
   - Cost optimization initiatives
   - Revenue generation planning
@@ -281,13 +286,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) 3/5 (Possible - High-value targets in cybersecurity)
   - **Impact Score:** [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - IP theft, reputation damage)
-  - **Total Risk Score:** 240 [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €15K (IP recreation + reputation recovery)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (IP recreation + reputation recovery)
   - **Annual Rate of Occurrence (ARO):** 0.2 (Security industry targeting)
-  - **Annual Loss Expectancy (ALE):** €3K annually
-  - **Value at Risk (95% confidence):** €18K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - 8 AWS security services active per [Asset Register](./Asset_Register.md)
@@ -315,13 +320,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) 3/5 (Possible - Historical outages occur)
   - **Impact Score:** [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Assessment_Methodology.md) 3/5 (Moderate - Development delays, no customer impact)
-  - **Total Risk Score:** 180 [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €1K (Development time lost)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Development time lost)
   - **Annual Rate of Occurrence (ARO):** 0.4 (Supplier outages periodic)
-  - **Annual Loss Expectancy (ALE):** €400 annually
-  - **Value at Risk (95% confidence):** €1.2K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Supplier monitoring per [Supplier Security Posture](./SUPPLIER.md)
@@ -346,13 +351,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Unlikely](https://img.shields.io/badge/Likelihood-Unlikely-lightgreen?style=for-the-badge&logo=shield&logoColor=white)](./Risk_Assessment_Methodology.md) 2/5 (Unlikely - Open source strategy reduces value)
   - **Impact Score:** [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - Future competitive disadvantage)
-  - **Total Risk Score:** 160 [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €10K (Competitive advantage loss)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Competitive advantage loss)
   - **Annual Rate of Occurrence (ARO):** 0.1 (Low due to open source approach)
-  - **Annual Loss Expectancy (ALE):** €1K annually
-  - **Value at Risk (95% confidence):** €5K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Open source IP strategy per [Open Source Policy](./Open_Source_Policy.md)
@@ -379,16 +384,16 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Likely](https://img.shields.io/badge/Likelihood-Likely-orange?style=for-the-badge&logo=target&logoColor=white)](./Risk_Assessment_Methodology.md) 4/5 (High - Open markets attract competition)
   - **Impact Score:** [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Assessment_Methodology.md) 2/5 (Low - No customers to lose yet)
-  - **Total Risk Score:** 80 [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €2K (Increased marketing costs)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Increased marketing costs)
   - **Annual Rate of Occurrence (ARO):** 0.5 (Competition likely)
-  - **Annual Loss Expectancy (ALE):** €1K annually
-  - **Value at Risk (95% confidence):** €3K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
-  - Unique positioning per [Marketing Strategy](./Hack23AB/Marketing_Strategy.md)
+  - Unique positioning per [Marketing Strategy](./Hack23AB/MARKETING.md)
   - Open source differentiation
   - Cultural authenticity (Black Trigram)
 
@@ -410,13 +415,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) 3/5 (Possible - Technology evolution)
   - **Impact Score:** [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Assessment_Methodology.md) 2/5 (Low - Can be gradually updated)
-  - **Total Risk Score:** 60 [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €3K (Modernization effort)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Modernization effort)
   - **Annual Rate of Occurrence (ARO):** 0.2 (Gradual evolution)
-  - **Annual Loss Expectancy (ALE):** €600 annually
-  - **Value at Risk (95% confidence):** €1.8K over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Modern AWS stack per [Asset Register](./Asset_Register.md)
@@ -443,13 +448,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** [![Unlikely](https://img.shields.io/badge/Likelihood-Unlikely-lightgreen?style=for-the-badge&logo=shield&logoColor=white)](./Risk_Assessment_Methodology.md) 2/5 (Unlikely - Home office, encrypted devices)
   - **Impact Score:** [![Minimal](https://img.shields.io/badge/Impact-Minimal-lightgrey?style=for-the-badge&logo=circle&logoColor=black)](./Risk_Assessment_Methodology.md) 1/5 (Minimal - Cloud-based operations)
-  - **Total Risk Score:** 20 [![Minimal Risk](https://img.shields.io/badge/Risk-Minimal-lightgrey?style=for-the-badge&logo=circle&logoColor=black)](./Risk_Register.md)
+  - **Total Risk Score:** [REDACTED] [![Minimal Risk](https://img.shields.io/badge/Risk-Minimal-lightgrey?style=for-the-badge&logo=circle&logoColor=black)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €2K (Equipment replacement)
+  - **Single Loss Expectancy (SLE):** €[REDACTED] (Equipment replacement)
   - **Annual Rate of Occurrence (ARO):** 0.05 (Very unlikely)
-  - **Annual Loss Expectancy (ALE):** €100 annually
-  - **Value at Risk (95% confidence):** €300 over 12 months
+  - **Annual Loss Expectancy (ALE):** €[REDACTED] annually
+  - **Value at Risk (95% confidence):** €[REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Full disk encryption
@@ -541,7 +546,7 @@ pie title Risk Treatment Strategies
 ## 📚 **Related Documents**
 
 - [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) - Quantitative assessment framework
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Impact level definitions and business analysis matrix
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Impact level definitions and business analysis matrix
 - [💻 Asset Register](./Asset_Register.md) - Asset-based risk assessment
 - [🔗 Supplier Security Posture](./SUPPLIER.md) - Third-party risk management
 - [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Risk response procedures
@@ -550,10 +555,10 @@ pie title Risk Treatment Strategies
 
 ---
 
-**📋 Document Control:**  
-**✅ Approved by:** James Pether Sörling, CEO  
-**📤 Distribution:** CEO, External Risk Advisor, Insurance Company  
-**🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-20  
-**⏰ Next Review:** 2026-08-20  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**Document Control:**  
+**Approved by:** James Pether Sörling, CEO  
+**Distribution:** Public  
+**Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**Effective Date:** 2025-08-14  
+**Next Review:** 2025-11-20   
+**Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
