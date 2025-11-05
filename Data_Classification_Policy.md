@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--31-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-08-31 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-31
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-05 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
 
 ---
 
@@ -657,6 +657,213 @@ flowchart TD
 
 ---
 
+## 🏷️ **Privacy & GDPR Compliance**
+
+### 🔒 **Privacy Data Classification**
+
+All personal data is classified using the comprehensive [🏷️ Privacy Levels](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) framework, ensuring appropriate protection measures and GDPR compliance.
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#ffebee',
+      'primaryTextColor': '#c62828',
+      'lineColor': '#ef5350',
+      'secondaryColor': '#e8f5e9',
+      'tertiaryColor': '#fff3e0'
+    }
+  }
+}%%
+flowchart TD
+    START[📊 Data Received/Created] --> IDENTIFY[🔍 Identify Data Type]
+    
+    IDENTIFY --> GDPR_CHECK{🇪🇺 Contains Personal Data?}
+    
+    GDPR_CHECK -->|❌ No| NON_PERSONAL[🟢 Non-Personal Data<br/>Privacy: NA]
+    GDPR_CHECK -->|✅ Yes| PERSONAL_CHECK{👤 Type of Personal Data?}
+    
+    PERSONAL_CHECK --> SPECIAL{🚨 Art. 9 Special Category?}
+    PERSONAL_CHECK --> IDENTIFIER{🆔 Direct Identifier?}
+    PERSONAL_CHECK --> BEHAVIORAL{📊 Behavioral/Preference?}
+    
+    SPECIAL -->|✅ Yes| SPECIAL_CAT[🔴 Special Category Data<br/>Health, Biometric, etc.]
+    IDENTIFIER -->|✅ Yes| PERS_ID[🔴 Personal Identifier<br/>Name, Email, SSN, IP]
+    BEHAVIORAL -->|✅ Yes| PERSONAL[🟠 Personal Data<br/>Activity, Preferences]
+    
+    SPECIAL_CAT --> PROTECT_SPECIAL[🛡️ Highest Protection<br/>Explicit Consent + Legal Basis]
+    PERS_ID --> PROTECT_HIGH[🛡️ High Protection<br/>Encryption, Access Control]
+    PERSONAL --> PROTECT_STANDARD[🛡️ Standard Protection<br/>GDPR Compliance]
+    
+    IDENTIFY --> PSEUDO_CHECK{🎭 Can Pseudonymize?}
+    PSEUDO_CHECK -->|✅ Yes| PSEUDO[🟡 Pseudonymized Data<br/>Key Separation]
+    PSEUDO_CHECK -->|❌ Keep Anonymous| ANON[🟢 Anonymized Data<br/>Aggregated/Statistical]
+    
+    classDef startStyle fill:#1565C0,stroke:#0D47A1,color:#fff
+    classDef decisionStyle fill:#FF9800,stroke:#F57C00,color:#fff
+    classDef criticalStyle fill:#D32F2F,stroke:#B71C1C,color:#fff
+    classDef highStyle fill:#FF5722,stroke:#D84315,color:#fff
+    classDef standardStyle fill:#FF9800,stroke:#F57C00,color:#fff
+    classDef lowStyle fill:#FFC107,stroke:#FFA000,color:#000
+    classDef safeStyle fill:#4CAF50,stroke:#388E3C,color:#fff
+    
+    class START startStyle
+    class GDPR_CHECK,PERSONAL_CHECK,SPECIAL,IDENTIFIER,BEHAVIORAL,PSEUDO_CHECK decisionStyle
+    class SPECIAL_CAT criticalStyle
+    class PERS_ID highStyle
+    class PERSONAL standardStyle
+    class PSEUDO lowStyle
+    class ANON,NON_PERSONAL safeStyle
+```
+
+### 📋 **Privacy Classification Matrix**
+
+| Privacy Level | GDPR Article | Data Examples | Protection Requirements | Data Subject Rights |
+|---------------|-------------|---------------|------------------------|-------------------|
+| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 9 | Health data, biometric, genetic, racial origin, political opinions, religious beliefs | Explicit consent + Art. 9(2) legal basis, enhanced encryption, audit all access | Full rights + special protections |
+| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 4(1) | Name, email, SSN, IP address, device ID, biometric identifiers | AES-256 encryption, MFA access, comprehensive audit logging | Full GDPR rights (Art. 15-22) |
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 4(1) | User preferences, activity logs, location history, contacts | Standard encryption, RBAC, access logging | Full GDPR rights (Art. 15-22) |
+| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 4(5) | Hashed user IDs, tokenized data with key separation | Key isolation, standard encryption | Limited rights (re-identification possible) |
+| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Outside GDPR | Aggregated statistics, anonymized analytics | Integrity protection, access control | No GDPR rights (not personal data) |
+| [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | N/A | Public information, system configuration, non-personal metadata | Standard information security controls | No GDPR rights (not personal data) |
+
+### 🇪🇺 **GDPR Principles Integration**
+
+Implementation of GDPR Article 5 principles through data classification:
+
+| GDPR Principle (Art. 5) | Classification Implementation | Validation Method |
+|------------------------|------------------------------|------------------|
+| **Lawfulness, Fairness, Transparency** | Legal basis documented in [🔐 Privacy Policy](./Privacy_Policy.md) | Privacy notices, consent records |
+| **Purpose Limitation** | Processing purposes defined per classification | Purpose-to-classification mapping |
+| **Data Minimization** | Only collect data matching classification requirements | Regular data audits |
+| **Accuracy** | Rectification procedures per privacy level | Data quality metrics |
+| **Storage Limitation** | Retention periods per classification level (see below) | Automated deletion workflows |
+| **Integrity & Confidentiality** | Security controls per privacy classification | Security assessments, penetration testing |
+| **Accountability** | Classification audit trail, DPIA for High+ | Compliance audits, documentation reviews |
+
+### ⏱️ **Privacy-Based Retention Schedule**
+
+| Privacy Level | Retention Period | Legal Basis | Deletion Method |
+|---------------|-----------------|-------------|-----------------|
+| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Purpose limited + 0 days | Art. 9(2) specific basis | Cryptographic erasure + secure wipe |
+| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Contract + 2 years OR Legal obligation (7 years for financial) | Art. 6(1)(b) or 6(1)(c) | Cryptographic erasure + backup purge |
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | 12-24 months after last activity | Art. 6(1)(f) Legitimate Interest | Standard secure deletion |
+| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | 12-14 months (analytics) | Art. 6(1)(f) Legitimate Interest | Key deletion + data retention |
+| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Indefinite (no longer personal data) | N/A (outside GDPR) | Standard deletion when no longer needed |
+
+### 🛡️ **Data Subject Rights Implementation**
+
+Rights enforcement procedures per privacy classification:
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e3f2fd',
+      'primaryTextColor': '#01579b',
+      'lineColor': '#0288d1'
+    }
+  }
+}%%
+flowchart LR
+    REQUEST[📧 Data Subject Request] --> VERIFY[🔍 Identity Verification]
+    
+    VERIFY --> CLASSIFY{🏷️ Data Classification?}
+    
+    CLASSIFY -->|🔴 Special/Identifier| PRIORITY[⚡ High Priority<br/>15 day target]
+    CLASSIFY -->|🟠 Personal| STANDARD[📅 Standard Process<br/>30 day target]
+    CLASSIFY -->|🟡 Pseudonymized| COMPLEX[🔍 Re-identification Check<br/>30-60 day target]
+    
+    PRIORITY --> FULFILL[✅ Fulfill Request]
+    STANDARD --> FULFILL
+    COMPLEX --> FULFILL
+    
+    FULFILL --> ACCESS{📋 Request Type?}
+    
+    ACCESS -->|📥 Access| EXPORT[📦 Data Export]
+    ACCESS -->|✏️ Rectification| UPDATE[🔄 Data Update]
+    ACCESS -->|🗑️ Erasure| DELETE[❌ Data Deletion]
+    ACCESS -->|⏸️ Restriction| RESTRICT[🔒 Processing Restriction]
+    ACCESS -->|📤 Portability| PORT[📊 Machine-Readable Export]
+    ACCESS -->|❌ Object| STOP[🛑 Stop Processing]
+    
+    EXPORT --> RESPOND[📧 Response to Data Subject]
+    UPDATE --> RESPOND
+    DELETE --> RESPOND
+    RESTRICT --> RESPOND
+    PORT --> RESPOND
+    STOP --> RESPOND
+    
+    classDef requestStyle fill:#1565C0,stroke:#0D47A1,color:#fff
+    classDef verifyStyle fill:#FF9800,stroke:#F57C00,color:#fff
+    classDef priorityStyle fill:#D32F2F,stroke:#B71C1C,color:#fff
+    classDef standardStyle fill:#FFC107,stroke:#FFA000,color:#000
+    classDef actionStyle fill:#4CAF50,stroke:#388E3C,color:#fff
+    classDef respondStyle fill:#2196F3,stroke:#1976D2,color:#fff
+    
+    class REQUEST requestStyle
+    class VERIFY,CLASSIFY,ACCESS verifyStyle
+    class PRIORITY priorityStyle
+    class STANDARD,COMPLEX standardStyle
+    class FULFILL actionStyle
+    class EXPORT,UPDATE,DELETE,RESTRICT,PORT,STOP,RESPOND respondStyle
+```
+
+| GDPR Right | Privacy Levels Applicable | Response Time | Implementation |
+|-----------|-------------------------|---------------|----------------|
+| **Right to Access (Art. 15)** | All (except NA) | 30 days | Automated data export, manual compilation for complex requests |
+| **Right to Rectification (Art. 16)** | Personal Identifier, Personal | 30 days | Self-service updates + admin verification for identifiers |
+| **Right to Erasure (Art. 17)** | All (except legal obligation) | 30 days | Cryptographic erasure, cascade deletion, backup purge |
+| **Right to Restriction (Art. 18)** | All | 30 days | Processing flag, access restriction, retention-only mode |
+| **Right to Data Portability (Art. 20)** | Personal Identifier, Personal | 30 days | JSON/CSV export, structured format, machine-readable |
+| **Right to Object (Art. 21)** | Legitimate Interest basis | Immediate for marketing | Opt-out mechanism, processing cessation |
+
+### 🔍 **Data Protection Impact Assessment (DPIA)**
+
+DPIA required per GDPR Article 35 for:
+
+| Trigger Condition | Privacy Classification | When Required | Review Frequency |
+|------------------|----------------------|---------------|------------------|
+| **High risk to rights and freedoms** | Special Category data processing | Before deployment | Annual |
+| **Large-scale systematic monitoring** | Personal Identifier tracking at scale | New feature/service | Annual |
+| **Automated decision-making with legal effect** | Any with automated profiling | Before implementation | Per change |
+| **Sensitive data processing** | Special Category + Personal Identifier combined | New processing activity | Annual |
+| **Cross-border data transfers outside EU** | Personal+ outside adequate countries | Before transfer | Per transfer assessment |
+
+**DPIA Process:**
+1. 📋 Identify necessity and proportionality
+2. 🔍 Assess risks to data subjects
+3. 🛡️ Identify mitigation measures
+4. 📊 Document findings and decisions
+5. ✅ DPO review and approval
+6. 📅 Ongoing monitoring and review
+
+### 📊 **Privacy Classification Examples from Hack23 Projects**
+
+Based on the SQL comment classification system used in CIA project:
+
+| Data Element | Classification | SQL Comment Example | Rationale |
+|--------------|----------------|---------------------|-----------|
+| **Public parliamentary data** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN document_data.title IS 'DATA.Public GDPR.NA'` | Public government information, not personal data |
+| **Politician assignments** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN assignment_data.intressent_id IS 'DATA.Public GDPR.Personal_Identifier'` | Public official information, identifiable natural person |
+| **User session data** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_session.ip_information IS 'DATA.Sensitive GDPR.Personal'` | User activity tracking, identifiable |
+| **Application user ID** | [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_action_event.user_id IS 'DATA.Sensitive GDPR.Personal_Identifier'` | Direct user identifier |
+| **System configuration** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_configuration.property_value IS 'DATA.Sensitive GDPR.NA'` | System metadata, not personal |
+
+**Column Comment Format Standard:**
+```sql
+COMMENT ON COLUMN schema.table.column IS 'DATA.[Confidentiality] GDPR.[Privacy_Level]';
+
+-- Examples:
+-- 'DATA.Public GDPR.NA' - Public, non-personal
+-- 'DATA.Sensitive GDPR.Personal' - Sensitive, personal data
+-- 'DATA.Sensitive GDPR.Personal_Identifier' - Sensitive, direct identifier
+```
+
+---
+
 ## ✅ **Compliance Integration**
 
 ### ⚖️ **Regulatory Framework Alignment**
@@ -699,6 +906,7 @@ Integration with [✅ Compliance Checklist](./Compliance_Checklist.md):
 ## 📚 **Related Documents**
 
 - [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Comprehensive classification methodology and business impact analysis
+- [🔐 Privacy Policy](./Privacy_Policy.md) — User-facing privacy notices and GDPR compliance for products
 - [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance and data protection framework
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) — Encryption standards and key management for classified data
 - [🔑 Access Control Policy](./Access_Control_Policy.md) — Identity management and authorization controls for data access
@@ -717,6 +925,6 @@ Integration with [✅ Compliance Checklist](./Compliance_Checklist.md):
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-31  
-**⏰ Next Review:** 2026-08-31   
+**📅 Effective Date:** 2025-11-05  
+**⏰ Next Review:** 2026-11-05   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
