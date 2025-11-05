@@ -168,6 +168,7 @@ This Information Security Policy integrates with and references the complete ISM
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Zero-trust identity and access management
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) - Enterprise encryption standards and key management
 - [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Systematic information handling and protection
+- [🔐 Privacy Policy](./Privacy_Policy.md) - GDPR-compliant privacy framework for user-facing applications
 - [🌐 Network Security Policy](./Network_Security_Policy.md) - Cloud-native network protection and segmentation
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security-integrated SDLC practices
 - [🔓 Open Source Policy](./Open_Source_Policy.md) - Open source business strategy and IP governance
