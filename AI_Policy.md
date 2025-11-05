@@ -374,6 +374,7 @@ flowchart LR
 ### 🛡️ **Supporting Policies**
 - **[🔑 Access Control Policy](./Access_Control_Policy.md)** — AI system access and authentication
 - **[🏷️ Data Classification Policy](./Data_Classification_Policy.md)** — AI data handling and protection
+- **[🔐 Privacy Policy](./Privacy_Policy.md)** — GDPR compliance for AI processing personal data
 - **[📊 Security Metrics](./Security_Metrics.md)** — Performance measurement and KPIs
 - **[🚨 Incident Response Plan](./Incident_Response_Plan.md)** — Incident response procedures
 - **[🔍 Vulnerability Management](./Vulnerability_Management.md)** — Vulnerability assessment and testing
