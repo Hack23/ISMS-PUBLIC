@@ -372,6 +372,7 @@ flowchart LR
 - **[🤝 Third Party Management](./Third_Party_Management.md)** — Vendor risk assessment
 
 ### 🛡️ **Supporting Policies**
+- **[🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md)** — LLM-specific security controls and OWASP Top 10 alignment
 - **[🔑 Access Control Policy](./Access_Control_Policy.md)** — AI system access and authentication
 - **[🏷️ Data Classification Policy](./Data_Classification_Policy.md)** — AI data handling and protection
 - **[🔐 Privacy Policy](./Privacy_Policy.md)** — GDPR compliance for AI processing personal data
