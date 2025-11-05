@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--03-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Monthly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-09-03  
-**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2025-10-03
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2025-11-05  
+**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2025-12-05
 
 ---
 
@@ -371,6 +371,259 @@ GitHub Security Organization Overview provides real-time vulnerability managemen
 | **🟣 Tier 5** | Strategic Capabilities | Ongoing (365+ days) | Low - Specialized compliance | ❌ Implementation Required |
 
 
+
+---
+
+## 📊 **Compliance Monitoring Metrics**
+
+Implementation of ISO 27001 A.5.36 (Policy and standard compliance monitoring) with systematic measurement and continuous improvement:
+
+### 🎯 **Compliance Monitoring Framework**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e8f5e9',
+      'primaryTextColor': '#2e7d32',
+      'lineColor': '#66bb6a',
+      'secondaryColor': '#e3f2fd',
+      'tertiaryColor': '#fff3e0'
+    }
+  }
+}%%
+flowchart TD
+    subgraph REQUIREMENTS["📋 Compliance Requirements"]
+        ISO[ISO 27001:2022<br/>Control Implementation]
+        NIST[NIST CSF 2.0<br/>Function Alignment]
+        CIS[CIS Controls v8.1<br/>Safeguard Mapping]
+        REGULATORY[Regulatory<br/>GDPR, NIS2, CRA]
+    end
+    
+    subgraph MONITORING["🔍 Continuous Monitoring"]
+        AUTO[Automated Scanning<br/>Daily/Continuous]
+        MANUAL[Manual Reviews<br/>Quarterly/Annual]
+        EVIDENCE[Evidence Collection<br/>Real-time Documentation]
+        METRICS[KPI Tracking<br/>Performance Measurement]
+    end
+    
+    subgraph REPORTING["📊 Compliance Reporting"]
+        DASHBOARD[Compliance Dashboard<br/>Real-time Status]
+        GAPS[Gap Analysis<br/>Improvement Planning]
+        TREND[Trend Analysis<br/>Maturity Tracking]
+        EXECUTIVE[Executive Reports<br/>Board/Stakeholders]
+    end
+    
+    subgraph IMPROVEMENT["🔄 Continuous Improvement"]
+        REMEDIATION[Remediation Actions<br/>Gap Closure]
+        ENHANCEMENT[Control Enhancement<br/>Maturity Growth]
+        VALIDATION[Validation Testing<br/>Effectiveness Verification]
+        LESSONS[Lessons Learned<br/>Knowledge Integration]
+    end
+    
+    ISO --> AUTO
+    NIST --> AUTO
+    CIS --> AUTO
+    REGULATORY --> MANUAL
+    
+    AUTO --> DASHBOARD
+    MANUAL --> GAPS
+    EVIDENCE --> TREND
+    METRICS --> EXECUTIVE
+    
+    DASHBOARD --> REMEDIATION
+    GAPS --> ENHANCEMENT
+    TREND --> VALIDATION
+    EXECUTIVE --> LESSONS
+    
+    REMEDIATION --> ISO
+    ENHANCEMENT --> NIST
+    VALIDATION --> CIS
+    LESSONS --> REGULATORY
+    
+    style REQUIREMENTS fill:#e8f5e9
+    style MONITORING fill:#e3f2fd
+    style REPORTING fill:#fff3e0
+    style IMPROVEMENT fill:#f3e5f5
+```
+
+### 📈 **Compliance KPIs and Targets**
+
+#### **ISO 27001:2022 Control Coverage**
+
+| Control Domain | Total Controls | Implemented | Partial | Not Implemented | Coverage % | Target |
+|----------------|---------------|-------------|---------|-----------------|------------|--------|
+| **A.5 Organizational** | 37 | 24 | 3 | 10 | 73% | 90% by Q2 2026 |
+| **A.6 People** | 8 | 2 | 1 | 5 | 38% | 75% by Q3 2026 |
+| **A.7 Physical** | 14 | 3 | 0 | 11 (N/A: 10) | 100% of applicable | 100% |
+| **A.8 Technological** | 34 | 22 | 1 | 11 | 68% | 85% by Q4 2026 |
+| **A.5.AI AI Governance** | 7 | 7 | 0 | 0 | 100% | 100% |
+| **Overall Coverage** | 100 | 58 | 5 | 37 | **63%** | **85%** |
+
+**Evidence Source:** [✅ Compliance Checklist](./Compliance_Checklist.md) — Updated quarterly with implementation status
+
+#### **NIST CSF 2.0 Function Alignment**
+
+| NIST Function | Implementation Level | Key Gaps | Remediation Priority | Target Date |
+|---------------|---------------------|----------|---------------------|-------------|
+| **GOVERN (GV)** | 75% Mature | Independent reviews, management procedures | 🟡 Medium | Q3 2026 |
+| **IDENTIFY (ID)** | 85% Mature | Complete asset lifecycle | 🟢 Low | Q2 2026 |
+| **PROTECT (PR)** | 80% Mature | Capacity management, config baselines | 🟠 High | Q2 2026 |
+| **DETECT (DE)** | 90% Mature | Clock sync, advanced monitoring | 🟢 Low | Q4 2026 |
+| **RESPOND (RS)** | 95% Mature | Minor workflow enhancements | 🟢 Low | Q1 2026 |
+| **RECOVER (RC)** | 85% Mature | Redundancy documentation | 🟡 Medium | Q2 2026 |
+
+**Evidence Source:** Automated through [Security Metrics § Metric Taxonomy](#metric-taxonomy) + Policy cross-references
+
+#### **CIS Controls v8.1 Implementation**
+
+| Implementation Group | Safeguards Applicable | Implemented | Partial | Gap | Coverage % |
+|---------------------|----------------------|-------------|---------|-----|------------|
+| **IG1 (Basic)** | 56 | 45 | 6 | 5 | 91% ✅ |
+| **IG2 (Foundational)** | 74 | 52 | 8 | 14 | 81% 🟡 |
+| **IG3 (Organizational)** | 153 | 85 | 15 | 53 | 65% 🟠 |
+
+**Target:** 95% IG1, 90% IG2, 75% IG3 by 2026-12-31
+
+**Evidence Source:** Control mapping in [Compliance Checklist](./Compliance_Checklist.md) + implementation verification
+
+### 🔍 **Automated Compliance Monitoring**
+
+#### **Continuous Compliance Scanning**
+
+| Monitoring Area | Tool/Method | Frequency | Auto-Remediation | Alert Threshold |
+|-----------------|-------------|-----------|------------------|----------------|
+| **Code Security** | GitHub Advanced Security | Every commit | ✅ Dependabot auto-PRs | Critical: Immediate block |
+| **Infrastructure Config** | AWS Config Rules | Continuous | ⚠️ Auto-remediation SOPs | Non-compliant resource |
+| **Access Control** | AWS Identity Center logs | Daily review | ❌ Manual review | Privilege escalation |
+| **Vulnerability Management** | Inspector + SonarCloud | Daily scan | ✅ Auto-patch low-risk | High: 24hr, Critical: 4hr |
+| **Secret Exposure** | GitHub Secret Scanning | Real-time | ✅ Auto-block + revoke | Any secret detected |
+| **License Compliance** | FOSSA | Every commit | ❌ Manual review | License violation |
+| **Security Posture** | OpenSSF Scorecard | Weekly | ❌ Manual remediation | Score <9.0 |
+
+**Integration:** All alerts feed into [Incident Response Plan](./Incident_Response_Plan.md) for tracking and resolution
+
+#### **Policy Compliance Verification**
+
+| Policy Document | Compliance Check | Frequency | Last Review | Next Review | Status |
+|-----------------|------------------|-----------|-------------|-------------|--------|
+| [🔐 Information Security Policy](./Information_Security_Policy.md) | Framework alignment audit | Quarterly | 2025-11-05 | 2026-02-05 | ✅ |
+| [🔑 Access Control Policy](./Access_Control_Policy.md) | Access review + MFA coverage | Semi-annual | 2025-08-28 | 2026-02-19 | ✅ |
+| [🌐 Network Security Policy](./Network_Security_Policy.md) | Security service validation | Annual | 2025-09-29 | 2026-09-29 | ✅ |
+| [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | Classification accuracy | Annual | 2025-11-05 | 2026-11-05 | ✅ |
+| [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | SDLC gate effectiveness | Annual | 2025-10-17 | 2026-10-17 | ✅ |
+| [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) | Backup + restore testing | Quarterly | 2025-11-05 | 2026-02-05 | ✅ |
+| [📝 Change Management](./Change_Management.md) | Change success rate | Quarterly | 2025-11-05 | 2026-02-05 | ✅ |
+| [🔍 Vulnerability Management](./Vulnerability_Management.md) | SLA compliance (7/30/90 days) | Monthly | 2025-11-05 | 2025-12-05 | ✅ |
+
+**Monitoring Method:** Document review dates tracked in each policy + quarterly compliance audit
+
+### 📊 **Compliance Metrics Dashboard**
+
+#### **Real-Time Compliance Indicators**
+
+| Metric | Current Value | Target | Trend | Evidence Link |
+|--------|--------------|--------|-------|---------------|
+| **ISO 27001 Control Coverage** | 63% | 85% | 📈 +5% QoQ | [Compliance Checklist](./Compliance_Checklist.md) |
+| **OpenSSF Scorecard (Avg)** | 7.8/10 | 9.5/10 | 📈 +0.3 monthly | [Public Badges](#-public-transparency-badges) |
+| **Vulnerability MTTR** | 8 days | 7 days | 📈 Improving | [GitHub Security](https://github.com/orgs/Hack23/security/overview) |
+| **MFA Coverage** | 100% | 100% | ✅ Stable | [Access Control Policy](./Access_Control_Policy.md) |
+| **Backup Success Rate** | 99.7% | 99.5% | ✅ Exceeds target | AWS Backup logs |
+| **License Violations** | 0 | 0 | ✅ Compliant | FOSSA Platform |
+| **Secret Exposure** | 0 | 0 | ✅ All blocked | GitHub Secret Scanning |
+| **Critical Prod Vulnerabilities** | 0 | 0 | ✅ Zero tolerance | AWS Security Hub |
+
+**Dashboard Access:** 
+- **Internal:** Weekly compliance reports to CEO
+- **Public:** This document + [Compliance Checklist](./Compliance_Checklist.md)
+- **Evidence:** Links to live dashboards and policy documents
+
+#### **Quarterly Compliance Review Metrics**
+
+**Q4 2025 Performance (as of 2025-11-05):**
+
+| Compliance Area | Q3 2025 | Q4 2025 | Change | Status |
+|-----------------|---------|---------|--------|--------|
+| **Control Implementation** | 60% | 63% | +3% | 🟡 On track |
+| **Policy Review Currency** | 95% | 100% | +5% | ✅ Target met |
+| **Incident Response Time** | 22 min | 18 min | -4 min | ✅ Improving |
+| **Audit Finding Closure** | 85% | 92% | +7% | ✅ Exceeds target |
+| **Training Completion** | N/A | N/A | N/A | ⏳ Planned 2026 |
+
+**Trend Analysis:** Progressive improvement across all measured areas. Focus areas for Q1 2026: People controls (A.6), remaining technological controls (A.8).
+
+### 🎯 **Compliance Improvement Roadmap**
+
+#### **2026 Q1-Q2 Priority Actions**
+
+| Control Gap | Business Impact | Remediation Action | Owner | Target Date | Cost |
+|-------------|-----------------|-------------------|-------|-------------|------|
+| **A.5.37 Operating Procedures** | Operational efficiency | Create operational runbooks index | CEO | 2026-01-31 | Low |
+| **A.8.6 Capacity Management** | Service availability | Add capacity monitoring to DRP | CEO | 2026-02-28 | Low |
+| **A.8.9 Configuration Management** | Security consistency | Document baseline configs | CEO | 2026-02-28 | Low |
+| **A.8.17 Clock Synchronization** | Log integrity | Add NTP control to Network Policy | CEO | 2026-01-15 | Minimal |
+| **A.8.18 Privileged Utilities** | Privilege management | Create approved tools list | CEO | 2026-02-28 | Minimal |
+| **A.8.19 Software Installation** | Endpoint security | Define approved software policy | CEO | 2026-03-31 | Low |
+
+**Methodology:** Prioritized by business impact, implementation effort, and ISO 27001 audit readiness
+
+#### **Compliance Maturity Evolution**
+
+| Quarter | Control Coverage Target | Key Milestones | Maturity Level |
+|---------|------------------------|----------------|----------------|
+| **Q4 2025 (Current)** | 63% | IPR, Records Retention, Data Masking implemented | 🟡 Developing |
+| **Q1 2026** | 70% | Operational procedures, clock sync, privileged tools | 🟡 Developing |
+| **Q2 2026** | 78% | Capacity mgmt, config baselines, software controls | 🟠 Managed |
+| **Q3 2026** | 82% | People controls (training, screening, remote work) | 🟠 Managed |
+| **Q4 2026** | 85% | Test data, audit protection, advanced monitoring | 🟢 Optimized |
+
+**Target State:** 85% control coverage = "Managed" maturity sufficient for ISO 27001 certification readiness
+
+### 🔄 **Compliance Review Cadence**
+
+#### **Scheduled Review Activities**
+
+| Activity | Frequency | Participants | Deliverable | Next Scheduled |
+|----------|-----------|-------------|-------------|----------------|
+| **Control Status Review** | Monthly | CEO | Updated Compliance Checklist | 2025-12-05 |
+| **Policy Currency Check** | Quarterly | CEO | Policy review confirmation | 2026-02-05 |
+| **Gap Remediation Planning** | Quarterly | CEO | Remediation roadmap update | 2026-02-05 |
+| **External Audit Preparation** | Semi-annual | CEO + Auditor | Audit readiness report | 2026-06-01 |
+| **Stakeholder Compliance Report** | Quarterly | CEO | Executive compliance summary | 2026-02-05 |
+| **Framework Alignment Audit** | Annual | CEO + Consultant | Multi-framework assessment | 2026-11-05 |
+
+#### **Compliance Assurance Activities**
+
+- **Internal Control Testing:** Quarterly sample testing of implemented controls
+- **Evidence Collection:** Continuous documentation of control operation
+- **Compliance Training:** Annual policy awareness (when staff >1)
+- **External Validation:** Annual third-party assessment (planned 2026)
+- **Regulatory Monitoring:** Continuous tracking of GDPR, NIS2, CRA updates
+
+### 📋 **Compliance Evidence Management**
+
+**Evidence Repository Structure:**
+- **Policy Documents:** This ISMS repository (public transparency)
+- **AWS Audit Logs:** CloudTrail (3-year retention)
+- **Security Scanning Results:** GitHub Security + SonarCloud (historical trends)
+- **Access Reviews:** Identity Center logs + quarterly review memos
+- **Incident Records:** Incident Response tracking (5-year retention)
+- **Training Records:** When applicable (5-year retention)
+
+**Evidence Access:** CEO maintains all compliance evidence with quarterly backup verification
+
+### 🔗 **Integration with Risk Management**
+
+Compliance monitoring directly feeds into [📉 Risk Register](./Risk_Register.md):
+
+- **Control Gaps → Risks:** Unimplemented controls identified as risk exposures
+- **Compliance Metrics → Risk Treatment:** KPI trends validate risk mitigation effectiveness  
+- **Audit Findings → Risk Events:** Non-conformances trigger risk reassessment
+- **Remediation Plans → Treatment Actions:** Gap closure plans linked to risk treatments
+
+**Review Cycle:** Quarterly risk register update incorporates compliance monitoring results
+
 ---
 
 ## 📚 **Related Documents**
@@ -399,6 +652,6 @@ GitHub Security Organization Overview provides real-time vulnerability managemen
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-09-03  
-**⏰ Next Review:** 2025-10-03   
+**📅 Effective Date:** 2025-11-05  
+**⏰ Next Review:** 2025-12-05   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![OpenSSF](https://img.shields.io/badge/OpenSSF-Aligned-purple?style=flat-square&logo=openssf&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
