@@ -11,12 +11,12 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-05 (UTC)  
+**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2025-11-05 (UTC)  
 **🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
 
 ---
@@ -540,6 +540,190 @@ flowchart LR
     style PHYSICAL_DOC fill:#f1f8e9
     style VERIFICATION fill:#fff3e0
 ```
+
+### 📋 **Comprehensive Records Retention Matrix**
+
+Implementation of ISO 27001 A.5.33 (Protection of records) with systematic retention management:
+
+#### **Business Records Retention Schedule**
+
+| Record Type | Category | Legal Basis | Business Retention | Total Retention | Storage Location | Disposal Method |
+|-------------|----------|-------------|-------------------|-----------------|------------------|----------------|
+| **📊 Financial Statements** | Financial | Swedish Bookkeeping Act | 7 years | 7 years | Bokio + AWS Backup | Secure deletion + certificate |
+| **💰 Invoices & Receipts** | Financial | Swedish Bookkeeping Act | 7 years | 7 years | Bokio + AWS Backup | Secure deletion + certificate |
+| **🏦 Bank Statements** | Financial | Swedish Bookkeeping Act | 7 years | 7 years | SEB + AWS Backup | Secure deletion |
+| **📜 Tax Returns** | Tax | Swedish Tax Agency requirements | 7 years | 10 years | Bokio + AWS Backup | Secure deletion + certificate |
+| **💳 Payment Records** | Financial | PCI DSS + Swedish law | 7 years | 7 years | Stripe + AWS Backup | Secure deletion |
+| **📑 Contracts** | Legal | Contract terms + Swedish law | Term + 7 years | As specified | AWS S3 encrypted | Secure deletion |
+| **👥 Employee Records** | HR | Swedish labor law | 3 years post-employment | 5 years | Internal systems | Secure deletion |
+| **🔐 Access Logs** | Security | ISO 27001 + NIS2 | 1 year minimum | 3 years | AWS CloudTrail | Automated purging |
+| **🚨 Incident Reports** | Security | ISO 27001 + NIS2 | 3 years | 5 years | Incident response system | Secure archiving |
+| **📧 Email (Business)** | Communication | GDPR + business need | 2 years | 3 years | AWS WorkMail | Standard deletion |
+| **📧 Email (Legal)** | Legal | Statute of limitations | 7 years | 7 years | AWS WorkMail archive | Secure deletion |
+| **🔑 Credentials/Secrets** | Security | Immediate rotation policy | 90 days | 1 year (audit) | AWS Secrets Manager | Cryptographic erasure |
+| **📝 Meeting Minutes** | Governance | Companies Act | Permanent | Permanent | Internal systems | N/A - permanent record |
+| **🎫 Support Tickets** | Operations | Business need | 3 years | 3 years | Support system | Standard deletion |
+| **📊 Compliance Evidence** | Compliance | ISO 27001 + regulatory | 3 years | 7 years | Compliance management system | Secure archiving |
+| **🏗️ Architecture Docs** | Technical | Business need | Active + 2 years | 5 years | GitHub + AWS S3 | Standard deletion |
+| **📚 Public Documentation** | Public | No requirement | Indefinite | Indefinite | GitHub Pages | Version control only |
+
+#### **Privacy & GDPR-Specific Retention**
+
+| Data Subject Category | Data Types | Legal Basis | Retention Period | Review Trigger | Disposal Action |
+|----------------------|------------|-------------|------------------|---------------|----------------|
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Contact info, usage data | Art. 6(1)(f) Legitimate Interest | 12-24 months after last activity | Inactivity + annual review | Standard secure deletion |
+| [![Sensitive](https://img.shields.io/badge/Privacy-Sensitive-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Employee personal data | Art. 6(1)(b) Contract | 3 years post-employment | Termination + period end | GDPR-compliant deletion + certificate |
+| [![Confidential](https://img.shields.io/badge/Privacy-Confidential-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Financial data with PII | Art. 6(1)(c) Legal Obligation | 7 years (Swedish law) | Legal retention expiry | Secure deletion + audit trail |
+| [![Public](https://img.shields.io/badge/Privacy-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Publicly shared info | Art. 6(1)(a) Consent | Until consent withdrawn | Withdrawal request | Standard deletion |
+
+#### **Retention Implementation Procedures**
+
+**Automated Retention Management:**
+- **AWS Backup Lifecycle Policies:** Automatic transition to cold storage and deletion
+- **S3 Lifecycle Rules:** Automated expiration of temporary data
+- **CloudWatch Logs Retention:** Configured per log group based on retention matrix
+- **Database Backups:** Automated expiration per AWS Backup vault policies
+
+**Manual Review Triggers:**
+- **Annual Review:** Q1 review of all retention policies against legal changes
+- **Regulatory Updates:** Ad-hoc review when laws change (GDPR, NIS2, CRA)
+- **Incident-Driven:** Review after data breaches or audit findings
+- **Business Changes:** Review when asset ownership or classification changes
+
+**Disposal Verification:**
+- **Deletion Certificates:** Generated for High+ classified data disposal
+- **Audit Trail:** CloudTrail logs retain disposal actions for 3 years
+- **Compliance Review:** Quarterly verification of disposal procedures
+
+---
+
+### 🎭 **Data Masking and Tokenization**
+
+Implementation of ISO 27001 A.8.11 (Data masking) for production data protection in non-production environments:
+
+#### **Data Masking Strategy**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e8eaf6',
+      'primaryTextColor': '#283593',
+      'lineColor': '#5c6bc0',
+      'secondaryColor': '#f1f8e9',
+      'tertiaryColor': '#fff8e1'
+    }
+  }
+}%%
+flowchart TD
+    PROD[🔒 Production Data<br/>Sensitive Information]
+    
+    subgraph MASKING["🎭 Masking Techniques"]
+        STATIC[📝 Static Masking<br/>Permanent replacement]
+        DYNAMIC[⚡ Dynamic Masking<br/>Runtime obfuscation]
+        TOKENIZE[🔑 Tokenization<br/>Reversible substitution]
+    end
+    
+    subgraph ENVIRONMENTS["🧪 Target Environments"]
+        DEV[💻 Development<br/>Fully masked]
+        TEST[🧪 Testing<br/>Format-preserved]
+        STAGE[📊 Staging<br/>Realistic but fake]
+        ANALYTICS[📈 Analytics<br/>Anonymized]
+    end
+    
+    PROD --> STATIC
+    PROD --> DYNAMIC
+    PROD --> TOKENIZE
+    
+    STATIC --> DEV
+    DYNAMIC --> TEST
+    TOKENIZE --> STAGE
+    STATIC --> ANALYTICS
+    
+    style PROD fill:#ffcdd2
+    style MASKING fill:#e8eaf6
+    style ENVIRONMENTS fill:#c8e6c9
+```
+
+#### **Masking Rules by Data Type**
+
+| Data Type | Masking Method | Format Preservation | Example Transformation | Use Case |
+|-----------|---------------|--------------------|-----------------------|----------|
+| **Email Addresses** | Static + Format | Yes | user@example.com → test123@example.com | Development/Testing |
+| **Names** | Dictionary Replacement | No | "John Smith" → "Jane Wilson" | Realistic test data |
+| **Phone Numbers** | Randomization + Format | Yes | +46701234567 → +46709876543 | Format validation testing |
+| **Credit Cards** | Tokenization | Yes (Luhn-valid) | 4532-1234-5678-9010 → 4532-****-****-TEST | Payment testing |
+| **Swedish Personal Numbers** | Format-preserved random | Yes | 19850315-1234 → 19900101-0000 | Identity validation |
+| **IP Addresses** | Subnet preservation | Partial | 192.168.1.100 → 192.168.255.XXX | Network testing |
+| **Financial Amounts** | Range-preserved random | Yes | 12,345.67 SEK → Random 1,000-99,999 | Financial calculations |
+| **Addresses** | Dictionary replacement | No | Real address → Fake but valid address | Shipping logic testing |
+| **Passwords/Secrets** | Never copied | N/A | Excluded from non-prod | Security compliance |
+
+#### **Data Masking Implementation Matrix**
+
+| Environment | Classification Allowed | Masking Required | Tokenization Allowed | Real Data Prohibition |
+|-------------|----------------------|------------------|---------------------|----------------------|
+| **🔒 Production** | All levels | No (real data) | Yes (for PCI DSS) | N/A - real data |
+| **📊 Staging** | Up to Moderate | Yes for High+ | Yes | Prohibited: Very High, Extreme |
+| **🧪 Testing** | Up to Low | Yes for Moderate+ | No | Prohibited: High, Very High, Extreme |
+| **💻 Development** | Public only | Yes for all | No | Prohibited: All classified data |
+| **📈 Analytics** | Anonymized only | Yes (irreversible) | No | Prohibited: All PII |
+
+#### **Masking Techniques Standards**
+
+**🔐 Static Data Masking (SDM):**
+- **Purpose:** Create realistic but non-sensitive test datasets
+- **Implementation:** Pre-processing before environment deployment
+- **Tools:** Custom masking scripts + AWS Data Pipeline
+- **Verification:** Automated scanning for PII patterns post-masking
+- **Use Cases:** Development environments, training databases
+
+**⚡ Dynamic Data Masking (DDM):**
+- **Purpose:** Real-time data obfuscation based on user role
+- **Implementation:** Database view-layer masking
+- **Tools:** RDS row-level security + application middleware
+- **Verification:** Access control testing + role validation
+- **Use Cases:** Production data access for non-privileged users
+
+**🔑 Tokenization:**
+- **Purpose:** Reversible data protection for operational needs
+- **Implementation:** AWS Secrets Manager for token vault
+- **Tools:** Custom tokenization service + audit logging
+- **Verification:** Token-to-data mapping validation
+- **Use Cases:** Payment processing, temporary data sharing
+
+#### **Test Data Generation Standards**
+
+Per ISO 27001 A.8.33 (Test information), production data MUST NOT be used in non-production environments:
+
+| Test Data Type | Generation Method | Characteristics | Compliance |
+|----------------|------------------|----------------|------------|
+| **Synthetic Data** | Algorithmically generated | Statistically similar, no real PII | ✅ Preferred |
+| **Anonymized Data** | Irreversible PII removal | Real patterns, no identifiable info | ✅ Acceptable |
+| **Masked Data** | Substitution with fake values | Format-preserved, fake content | ✅ Acceptable |
+| **Scrambled Data** | Randomized real data | Real patterns, shuffled relationships | ⚠️ Risk assessment required |
+| **Production Copy** | Direct copy of real data | Real PII and sensitive data | ❌ Prohibited |
+
+#### **Data Masking Governance**
+
+**Review and Approval:**
+- **Masking Rule Changes:** Security team approval required
+- **New Data Types:** Classification assessment before masking rules created
+- **Tokenization Keys:** CEO approval for token vault access
+- **Test Data Refresh:** Quarterly review of test dataset currency
+
+**Monitoring and Compliance:**
+- **PII Scanning:** Weekly automated scans of non-production environments
+- **Access Auditing:** Quarterly review of data access patterns
+- **Breach Detection:** Real-time alerts for unmasked PII in non-production
+- **Training:** Annual data masking training for developers
+
+**Integration with Other Controls:**
+- **Secure Development Policy:** Test data handling requirements (§ Protection of Test Data)
+- **Access Control Policy:** Role-based data access including masked views
+- **Change Management:** Masking rule changes via standard change process
+- **Incident Response:** Unmasked PII in non-production triggers security incident
 
 ---
 
