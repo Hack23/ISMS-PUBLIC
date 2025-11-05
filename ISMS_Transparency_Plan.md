@@ -53,6 +53,8 @@ This table defines the publication status of ISMS documents and the rationale.
 | [📐 Style Guide](./STYLE_GUIDE.md) | ✅ **Public** | Shows our commitment to quality and consistency. |
 | **🛠️ Operational Policies** | | |
 | [🔑 Access Control Policy](./Access_Control_Policy.md) | ✅ **Public** | High-level policy is public. Specific roles and access lists are confidential. |
+| [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | ✅ **Public** | Behavioral expectations and usage standards public. Demonstrates security culture and professional conduct. |
+| [🏠 Physical Security Policy](./Physical_Security_Policy.md) | ✅ **Public** | Home office security framework and device protection standards public. Specific home addresses confidential. |
 | [🔒 Cryptography Policy](./Cryptography_Policy.md) | ✅ **Public** | Approved algorithms and standards are public. Key management procedures are confidential. |
 | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | ✅ **Public** | The framework is public. Specific tool configurations are confidential. |
 | [🌐 Network Security Policy](./Network_Security_Policy.md) | ✅ **Public** | Network architecture principles public. Specific configurations confidential. |
