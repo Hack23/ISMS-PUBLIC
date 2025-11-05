@@ -589,6 +589,7 @@ graph LR
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Development-related incident response
 - [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance framework
 - [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Impact assessment methodology
+- [🔐 Privacy Policy](./Privacy_Policy.md) — GDPR data breach notification requirements (Art. 33/34)
 - [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) — Authority and community contact management
 
 ### **🔄 Operational Process Integration**
