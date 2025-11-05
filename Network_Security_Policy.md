@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--29-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-09-29 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-29
+**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2025-11-05 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
 
 ---
 
@@ -513,6 +513,219 @@ flowchart LR
 
 ---
 
+## ⏰ **Clock Synchronization and Time Integrity**
+
+Implementation of ISO 27001 A.8.17 (Clock synchronization) for accurate audit logging and security event correlation:
+
+### 🎯 **Time Synchronization Framework**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#e1f5fe',
+      'primaryTextColor': '#01579b',
+      'lineColor': '#039be5',
+      'secondaryColor': '#f1f8e9',
+      'tertiaryColor': '#fff9c4'
+    }
+  }
+}%%
+flowchart TD
+    subgraph TIME_SOURCE["⏰ Authoritative Time Sources"]
+        AWS_NTP[AWS NTP Service<br/>169.254.169.123]
+        PUBLIC_NTP[Public NTP Pool<br/>pool.ntp.org]
+        REGIONAL[Regional Servers<br/>se.pool.ntp.org]
+    end
+    
+    subgraph SYSTEMS["💻 System Time Synchronization"]
+        EC2[EC2 Instances<br/>chrony/ntpd]
+        LAMBDA[Lambda Functions<br/>AWS-managed time]
+        WORKMAIL[WorkMail<br/>AWS-managed time]
+        LOGS[CloudWatch Logs<br/>UTC timestamps]
+    end
+    
+    subgraph MONITORING["📊 Time Drift Monitoring"]
+        DRIFT_DETECT[Drift Detection<br/>CloudWatch Metrics]
+        ALERTS[Alert Thresholds<br/>>1 sec = Warning]
+        REMEDIATION[Auto-Remediation<br/>Service Restart]
+    end
+    
+    AWS_NTP --> EC2
+    PUBLIC_NTP --> EC2
+    REGIONAL --> EC2
+    
+    EC2 --> DRIFT_DETECT
+    LAMBDA --> LOGS
+    WORKMAIL --> LOGS
+    
+    DRIFT_DETECT --> ALERTS
+    ALERTS --> REMEDIATION
+    
+    style TIME_SOURCE fill:#e1f5fe
+    style SYSTEMS fill:#f1f8e9
+    style MONITORING fill:#fff9c4
+```
+
+### ⏱️ **Time Synchronization Requirements**
+
+| System Type | Time Source | Protocol | Sync Frequency | Max Drift Allowed | Verification |
+|-------------|-------------|----------|----------------|-------------------|--------------|
+| **AWS Lambda** | AWS-managed | N/A (managed) | Continuous | N/A (AWS-managed) | Automatic |
+| **AWS RDS** | AWS-managed | N/A (managed) | Continuous | N/A (AWS-managed) | Automatic |
+| **AWS WorkMail** | AWS-managed | N/A (managed) | Continuous | N/A (AWS-managed) | Automatic |
+| **CloudWatch Logs** | UTC internal | N/A (managed) | Continuous | N/A (AWS-managed) | Automatic |
+| **EC2 Instances** (if deployed) | AWS NTP + backup | NTP/chrony | Every 60 seconds | ±1 second | CloudWatch metric |
+| **Mobile Devices** | OS native time sync | NTP/HTTPS | Device-managed | ±5 seconds | MDM verification |
+| **Developer Workstations** | OS native time sync | NTP | OS-managed | ±10 seconds | Manual verification |
+
+### 🔒 **Time Security Controls**
+
+#### **NTP Security Configuration**
+
+For any EC2 instances or on-premise systems (when applicable):
+
+**Primary Time Source:**
+- AWS NTP: `169.254.169.123` (link-local VPC address)
+- Priority: Highest (stratum 1 equivalent)
+- Authentication: Not required (VPC-local)
+
+**Backup Time Sources:**
+- Public NTP Pool: `pool.ntp.org`
+- Regional Pool: `se.pool.ntp.org` (Sweden)
+- Authentication: NTP authentication keys where supported
+
+**Security Measures:**
+- **Firewall Rules:** Outbound UDP 123 only to trusted NTP servers
+- **Access Control:** No inbound NTP queries accepted (clients only)
+- **Monitoring:** Failed sync attempts trigger security alerts
+- **Rate Limiting:** Maximum 10 NTP queries per minute per instance
+
+#### **Logging Time Integrity**
+
+All security-relevant logs use consistent time standards:
+
+| Log Source | Timestamp Format | Time Zone | Resolution | Retention |
+|------------|-----------------|-----------|------------|-----------|
+| **CloudTrail** | ISO 8601 | UTC | Millisecond | 3 years |
+| **VPC Flow Logs** | Unix epoch | UTC | Second | 90 days |
+| **CloudWatch Logs** | ISO 8601 | UTC | Millisecond | Per log group (1-365 days) |
+| **GuardDuty Findings** | ISO 8601 | UTC | Millisecond | 90 days in service, archived 3 years |
+| **Application Logs** | ISO 8601 | UTC | Millisecond | 90 days |
+| **Access Logs** | ISO 8601 | UTC | Second | 3 years |
+
+**UTC Standardization:** All logs use UTC to ensure accurate cross-system correlation regardless of geographic location or daylight saving time changes.
+
+### 📊 **Time Monitoring and Validation**
+
+#### **CloudWatch Metrics for Time Drift**
+
+For EC2 instances (when applicable):
+
+| Metric Name | Namespace | Statistic | Alert Threshold | Response |
+|-------------|-----------|-----------|-----------------|----------|
+| `TimeOffset` | Custom/NTP | Average | >1 second | Warning alert |
+| `TimeOffset` | Custom/NTP | Average | >5 seconds | Critical alert + auto-remediation |
+| `NTPSyncFailures` | Custom/NTP | Sum | >3 failures/hour | Investigation required |
+| `LastSuccessfulSync` | Custom/NTP | Age | >5 minutes | Service health check failure |
+
+#### **Time Integrity Verification**
+
+**Automated Checks:**
+- **Daily:** CloudWatch scheduled Lambda validates EC2 time sync (if applicable)
+- **Continuous:** AWS-managed services automatically maintain time accuracy
+- **Post-Incident:** Time correlation verification during security incident analysis
+
+**Manual Verification:**
+- **Quarterly:** Manual time verification across all system types
+- **Change Window:** Time validation before/after system maintenance
+- **Audit:** Annual time integrity audit for compliance verification
+
+### 🔗 **Integration with Security Operations**
+
+#### **Incident Response Time Correlation**
+
+Accurate time synchronization enables:
+
+1. **Cross-System Event Correlation:** Linking events across CloudTrail, GuardDuty, VPC Flow Logs, application logs
+2. **Attack Timeline Reconstruction:** Accurate sequencing of attacker actions
+3. **Forensic Analysis:** Legal defensibility of log evidence
+4. **Compliance Reporting:** Accurate incident timing for regulatory requirements (GDPR 72-hour breach notification)
+
+**Implementation:** Per [Incident Response Plan](./Incident_Response_Plan.md) § Evidence Collection, time correlation is critical for forensic investigation.
+
+#### **Compliance Requirements**
+
+| Regulation/Standard | Time Synchronization Requirement | Hack23 Implementation |
+|---------------------|--------------------------------|----------------------|
+| **ISO 27001 A.8.17** | Synchronized clocks for logging systems | ✅ AWS NTP + UTC logging |
+| **CIS Control 8.4** | Standardize time sources | ✅ AWS-managed + NTP pool |
+| **NIST CSF DE.CM-01** | Time integrity for monitoring | ✅ Millisecond precision logs |
+| **GDPR Art. 33** | Accurate breach timing | ✅ UTC timestamps for 72hr calculation |
+| **NIS2 (upcoming)** | Incident timestamp accuracy | ✅ Comprehensive time logging |
+
+### ⚙️ **Operational Procedures**
+
+#### **Time Sync Troubleshooting**
+
+**For EC2 Instances:**
+
+1. **Check NTP Service Status:**
+   ```bash
+   # Amazon Linux 2023 (chrony)
+   sudo systemctl status chronyd
+   sudo chronyc tracking
+   sudo chronyc sources
+   ```
+
+2. **Validate Time Offset:**
+   ```bash
+   timedatectl status
+   ```
+
+3. **Force Immediate Sync:**
+   ```bash
+   sudo chronyd -q 'server 169.254.169.123 iburst'
+   ```
+
+4. **Review NTP Logs:**
+   ```bash
+   sudo journalctl -u chronyd --since "1 hour ago"
+   ```
+
+**For AWS-Managed Services:**
+- No troubleshooting required - AWS maintains time synchronization automatically
+- Time accuracy is part of AWS shared responsibility model
+
+#### **Time Change Management**
+
+**Prohibited Actions:**
+- Manual time changes on production systems (AWS-managed services prevent this)
+- Disabling time synchronization services
+- Using untrusted NTP sources
+
+**Approved Changes:**
+- Time zone configuration for display purposes only (logs always UTC)
+- NTP server configuration updates via approved change management process
+- Time sync monitoring threshold adjustments via [Change Management](./Change_Management.md)
+
+### 📋 **Business Continuity Considerations**
+
+**Time Source Redundancy:**
+- **Primary:** AWS NTP service (highly available within VPC)
+- **Secondary:** Public NTP pool (internet connectivity)
+- **Tertiary:** Regional NTP pool (se.pool.ntp.org)
+
+**Failure Scenarios:**
+- **AWS NTP Unavailable:** Automatic fallback to public NTP pool
+- **All External NTP Unavailable:** Systems maintain last known good time (hardware clock)
+- **Time Drift Detected:** Automated alerts trigger investigation within 1 hour
+
+**Recovery Procedures:** Per [Disaster Recovery Plan](./Disaster_Recovery_Plan.md), time synchronization is validated as part of system recovery verification.
+
+---
+
 ## 🚨 **Incident Response Integration**
 
 ### 🔒 Network Security Incidents
@@ -613,6 +826,6 @@ flowchart LR
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public    
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2025-09-29  
-**⏰ Next Review:** 2026-09-29  
+**📅 Effective Date:** 2025-11-05  
+**⏰ Next Review:** 2026-11-05  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
