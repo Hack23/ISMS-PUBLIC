@@ -125,6 +125,7 @@ mindmap
 | **A.5.AI.4** | AI human oversight | [🤖 AI Policy § Security Controls](./AI_Policy.md#%EF%B8%8F-security-controls-framework) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![Art. 14](https://img.shields.io/badge/EU_AI_Act-Art._14-blue?style=flat-square)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689) <br><sub>Human oversight requirements</sub> | [![GOVERN-3.1](https://img.shields.io/badge/NIST_AI-GOVERN_3.1-purple?style=flat-square)](https://www.nist.gov/itl/ai-risk-management-framework) <br><sub>AI design incorporates human oversight</sub> |
 | **A.5.AI.5** | AI incident reporting | [🤝 External Stakeholder Registry § AI Authorities](./External_Stakeholder_Registry.md) • [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![Art. 62](https://img.shields.io/badge/EU_AI_Act-Art._62-blue?style=flat-square)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689) <br><sub>Serious incident reporting</sub> | [![GOVERN-6.1](https://img.shields.io/badge/NIST_AI-GOVERN_6.1-purple?style=flat-square)](https://www.nist.gov/itl/ai-risk-management-framework) <br><sub>AI incident response capabilities</sub> |
 | **A.5.AI.6** | AI data governance | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) • [🤖 AI Policy](./AI_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![Art. 10](https://img.shields.io/badge/EU_AI_Act-Art._10-blue?style=flat-square)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689) <br><sub>Data and data governance</sub> | [![MAP-3.2](https://img.shields.io/badge/NIST_AI-MAP_3.2-purple?style=flat-square)](https://www.nist.gov/itl/ai-risk-management-framework) <br><sub>AI training/test data characterized</sub> |
+| **A.5.AI.7** | LLM-specific security controls | [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![Art. 15](https://img.shields.io/badge/EU_AI_Act-Art._15-blue?style=flat-square)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689) <br><sub>AI system robustness & cybersecurity</sub> | [![MEASURE-2.11](https://img.shields.io/badge/NIST_AI-MEASURE_2.11-purple?style=flat-square)](https://www.nist.gov/itl/ai-risk-management-framework) <br><sub>AI system security risks identified & documented: OWASP LLM Top 10 2025 coverage with 54% implementation (foundation complete, LLM-specific controls Q1-Q3 2026)</sub> |
 
 ### 👤 **A.6 People Controls**
 
@@ -273,6 +274,8 @@ The following products have completed CRA conformity assessments, demonstrating 
 ## 📚 **Related Documents**
 
 - [🔐 Information Security Policy](./Information_Security_Policy.md)
+- [🤖 AI Governance Policy](./AI_Policy.md)
+- [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md)
 - [🔑 Access Control Policy](./Access_Control_Policy.md)
 - [🌐 Network Security Policy](./Network_Security_Policy.md)
 - [🔒 Cryptography Policy](./Cryptography_Policy.md)
