@@ -159,6 +159,8 @@ Our systematic approach includes:
 
 ---
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/ISMS-PUBLIC)
+
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
