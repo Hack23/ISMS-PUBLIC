@@ -9,6 +9,13 @@
   <em>Classification-Driven Response • Automated Escalation • Transparent Communication</em>
 </p>
 
+<div align="center" style="background-color: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 16px; margin: 20px 0;">
+  <h3>⚠️ REDACTED PUBLIC VERSION</h3>
+  <p><strong>Radical Transparency with Minimal Redaction</strong><br>
+  This document is published in full. Only specific phone numbers and personal email addresses replaced with [REDACTED].<br>
+  All processes, procedures, and incident response details are public to demonstrate our security operations.</p>
+</div>
+
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
@@ -17,8 +24,8 @@
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-09-10 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-12-10
+**Document Owner:** CEO | **Version:** 1.1 | **Last Updated:** 2025-09-10 (UTC)  
+**Review Cycle:** Quarterly | **Next Review:** 2025-12-10
 
 ---
 
