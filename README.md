@@ -11,12 +11,12 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--10-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-10 (UTC)  
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-10 (UTC)  
 **🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-10
 
 ---
@@ -85,7 +85,7 @@ This table defines the publication status of ISMS documents and the rationale.
 | [📊 Business Strategy](./Hack23AB/Business_Strategy.md) | ❌ **Confidential** | Strategic plans and business tactics confidential. |
 | [🏢 Company Information](./Hack23AB/README.md) | ❌ **Confidential** | Corporate structure and internal operations. |
 | [📄 Copyright Assignment Agreement](./Hack23AB/Hack23AB_Copyright_Assignment_Agreement.md) | ❌ **Confidential** | Legal agreements and IP management confidential. |
-| [🔐 Information Security Strategy](./Hack23AB/Information_Security_Strategy.md) | ❌ **Confidential** | Strategic security initiatives and competitive security positioning confidential. |
+| [🔐 Information Security Strategy](./Information_Security_Strategy.md) | ✅ **Public** | Strategic security initiatives and competitive security positioning differentiation through radical transparency. |
 | [📅 Marketing Plan](./Hack23AB/Marketing_Plan.md) | ❌ **Confidential** | Tactical marketing implementation, campaigns, and operational details confidential. |
 | [📈 Marketing Strategy](./Hack23AB/Marketing_Strategy.md) | ❌ **Confidential** | Marketing strategies and competitive analysis confidential. |
 | [🤝 Stakeholders Overview](./Hack23AB/Stake_Holders.md) | ❌ **Confidential** | Internal stakeholder alignment and strategic mapping confidential. |
