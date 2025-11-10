@@ -57,7 +57,7 @@ This register documents all identified risks affecting Hack23 AB operations, app
 | **Medium Risks** | 2 | ↓ | 2 |
 | **Low Risks** | 1 | → | 1 |
 | **Average Risk Score** | 185 | ↓ | <150 |
-| **Total ALE** | €65.7K | ↓ | <€40K |
+| **Total ALE** | [REDACTED] | ↓ | <[REDACTED] |
 
 ### 📈 **Updated Risk Heat Matrix**
 
@@ -128,10 +128,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 480 [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €50K (IP value + infrastructure + opportunity cost)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (IP value + infrastructure + opportunity cost)
   - **Annual Rate of Occurrence (ARO):** 0.3 (High stress single-founder operations)
-  - **Annual Loss Expectancy (ALE):** €15K annually
-  - **Value at Risk (95% confidence):** €60K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Critical Complete Loss](https://img.shields.io/badge/Financial-Critical_Complete_Loss-red?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -171,10 +171,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 400 [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €40K (Development investment + operating costs)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Development investment + operating costs)
   - **Annual Rate of Occurrence (ARO):** 0.6 (High for unvalidated products)
-  - **Annual Loss Expectancy (ALE):** €24K annually
-  - **Value at Risk (95% confidence):** €72K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Critical Complete Loss](https://img.shields.io/badge/Financial-Critical_Complete_Loss-red?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -215,13 +215,13 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 240 [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €2K (Development time lost + recovery effort)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Development time lost + recovery effort)
   - **Annual Rate of Occurrence (ARO):** 0.8 (Multiple minor outages per year)
-  - **Annual Loss Expectancy (ALE):** €1.6K annually
-  - **Value at Risk (95% confidence):** €4.8K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
-  - **Financial:** [![Low <€500/day](https://img.shields.io/badge/Financial-Low_<€500/day-lightgreen?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
+  - **Financial:** [![Low (REDACTED)](https://img.shields.io/badge/Financial-Low_REDACTED_per_day-lightgreen?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
   - **Operational:** [![High Major Degradation](https://img.shields.io/badge/Operational-High_Major_Degradation-orange?style=for-the-badge&logo=trending-down&logoColor=white)](./Risk_Assessment_Methodology.md#operational-impact-levels)
   - **Reputational:** [![Low Limited Visibility](https://img.shields.io/badge/Reputational-Low_Limited_Visibility-lightgreen?style=for-the-badge&logo=newspaper&logoColor=white)](./Risk_Assessment_Methodology.md#reputational-impact-levels)
   - **Regulatory:** [![Negligible No Impact](https://img.shields.io/badge/Regulatory-Negligible_No_Impact-lightgrey?style=for-the-badge&logo=gavel&logoColor=black)](./Risk_Assessment_Methodology.md#regulatory-impact-levels)
@@ -244,7 +244,7 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
 ---
 
 #### **R-CASH-001: Cash Flow Depletion**
-- **📝 Description:** Operating costs (~€400/month) exceed revenue with no customers
+- **📝 Description:** Operating costs (~[REDACTED]/month) exceed revenue with no customers
 - **🎯 Risk Category:** [![Financial](https://img.shields.io/badge/Category-Financial-darkgreen?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications)
 
 - **📈 Quantitative Risk Assessment:**
@@ -253,10 +253,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 320 [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €25K (IP value + development investment lost)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (IP value + development investment lost)
   - **Annual Rate of Occurrence (ARO):** 0.8 (Without revenue, highly likely within 18 months)
-  - **Annual Loss Expectancy (ALE):** €20K annually
-  - **Value at Risk (95% confidence):** €30K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **📊 Business Impact Analysis:**
   - **Financial:** [![Critical Complete Loss](https://img.shields.io/badge/Financial-Critical_Complete_Loss-red?style=for-the-badge&logo=dollar-sign&logoColor=white)](./Risk_Assessment_Methodology.md#financial-impact-levels)
@@ -265,7 +265,7 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Regulatory:** [![Low Warnings](https://img.shields.io/badge/Regulatory-Low_Warnings-lightgreen?style=for-the-badge&logo=gavel&logoColor=white)](./Risk_Assessment_Methodology.md#regulatory-impact-levels)
 
 - **🛡️ Current Controls:** 
-  - Current monthly costs: €395 per [Supplier Management](./SUPPLIER.md)
+  - Current monthly costs: [REDACTED] per [Supplier Management](./SUPPLIER.md)
   - Financial monitoring per [Business Strategy](./Hack23AB/Business_Strategy.md)
   - Cost optimization initiatives
   - Revenue generation planning
@@ -291,10 +291,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 240 [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €15K (IP recreation + reputation recovery)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (IP recreation + reputation recovery)
   - **Annual Rate of Occurrence (ARO):** 0.2 (Security industry targeting)
-  - **Annual Loss Expectancy (ALE):** €3K annually
-  - **Value at Risk (95% confidence):** €18K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - 8 AWS security services active per [Asset Register](./Asset_Register.md)
@@ -325,10 +325,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 180 [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €1K (Development time lost)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Development time lost)
   - **Annual Rate of Occurrence (ARO):** 0.4 (Supplier outages periodic)
-  - **Annual Loss Expectancy (ALE):** €400 annually
-  - **Value at Risk (95% confidence):** €1.2K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Supplier monitoring per [Supplier Security Posture](./SUPPLIER.md)
@@ -356,10 +356,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 160 [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €10K (Competitive advantage loss)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Competitive advantage loss)
   - **Annual Rate of Occurrence (ARO):** 0.1 (Low due to open source approach)
-  - **Annual Loss Expectancy (ALE):** €1K annually
-  - **Value at Risk (95% confidence):** €5K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Open source IP strategy per [Open Source Policy](./Open_Source_Policy.md)
@@ -389,10 +389,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 80 [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €2K (Increased marketing costs)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Increased marketing costs)
   - **Annual Rate of Occurrence (ARO):** 0.5 (Competition likely)
-  - **Annual Loss Expectancy (ALE):** €1K annually
-  - **Value at Risk (95% confidence):** €3K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Unique positioning per [Marketing Strategy](./Hack23AB/Marketing_Strategy.md)
@@ -420,10 +420,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 60 [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €3K (Modernization effort)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Modernization effort)
   - **Annual Rate of Occurrence (ARO):** 0.2 (Gradual evolution)
-  - **Annual Loss Expectancy (ALE):** €600 annually
-  - **Value at Risk (95% confidence):** €1.8K over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Modern AWS stack per [Asset Register](./Asset_Register.md)
@@ -453,10 +453,10 @@ All risks assessed using our [Risk Assessment Methodology](./Risk_Assessment_Met
   - **Total Risk Score:** 20 [![Minimal Risk](https://img.shields.io/badge/Risk-Minimal-lightgrey?style=for-the-badge&logo=circle&logoColor=black)](./Risk_Register.md)
 
 - **💰 Financial Risk Analysis:**
-  - **Single Loss Expectancy (SLE):** €2K (Equipment replacement)
+  - **Single Loss Expectancy (SLE):** [REDACTED] (Equipment replacement)
   - **Annual Rate of Occurrence (ARO):** 0.05 (Very unlikely)
-  - **Annual Loss Expectancy (ALE):** €100 annually
-  - **Value at Risk (95% confidence):** €300 over 12 months
+  - **Annual Loss Expectancy (ALE):** [REDACTED] annually
+  - **Value at Risk (95% confidence):** [REDACTED] over 12 months
 
 - **🛡️ Current Controls:** 
   - Full disk encryption
