@@ -9,6 +9,13 @@
   <em>🎯 Systematic Disaster Recovery Leveraging AWS Resilience Hub, Backup, and Fault Injection Service</em>
 </p>
 
+<div align="center" style="background-color: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 16px; margin: 20px 0;">
+  <h3>⚠️ REDACTED PUBLIC VERSION</h3>
+  <p><strong>Radical Transparency with Minimal Redaction</strong><br>
+  This document is published in full. Only specific system credentials and access keys replaced with [REDACTED].<br>
+  All architecture, procedures, and technical configurations are public to demonstrate our disaster recovery capabilities.</p>
+</div>
+
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
@@ -16,8 +23,8 @@
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-08-31 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-02-28
+**Document Owner:** CEO | **Version:** 2.1 | **Last Updated:** 2025-08-31 (UTC)  
+**Review Cycle:** Semi-Annual | **Next Review:** 2026-02-28
 
 ---
 
@@ -630,5 +637,5 @@ EvidenceCollectionFunction:
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
 **📅 Effective Date:** 2025-08-31  
-**⏰ Next Review:** 2026-02-31   
+**⏰ Next Review:** 2026-02-28   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Resilience Hub](https://img.shields.io/badge/AWS-Resilience_Hub-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
