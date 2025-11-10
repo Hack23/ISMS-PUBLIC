@@ -11,9 +11,9 @@
 
 <div align="center" style="background-color: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 16px; margin: 20px 0;">
   <h3>⚠️ REDACTED PUBLIC VERSION</h3>
-  <p><strong>This is a redacted version for public transparency.</strong><br>
-  Specific account details, identifiers, and sensitive configurations have been removed.<br>
-  The framework and methodology remain intact to demonstrate our security practices.</p>
+  <p><strong>Radical Transparency with Minimal Redaction</strong><br>
+  This document is published in full. Only specific sensitive values (credentials, API keys, account numbers) replaced with [REDACTED].<br>
+  All processes, procedures, configurations, and operational details are public to demonstrate our security practices.</p>
 </div>
 
 <p align="center">
@@ -25,6 +25,7 @@
 
 **Document Owner:** CEO | **Version:** 1.4 | **Last Updated:** 2025-11-05 (UTC)  
 **Review Cycle:** Annual | **Next Review:** 2026-11-05
+
 
 ---
 
@@ -61,221 +62,237 @@ Scope: Company identities, SaaS/platform accounts, cloud accounts, domains, and 
   init: { 'theme': 'base', 'themeVariables': { 'primaryColor': '#bbdefb', 'lineColor': '#90caf9' } }
 }%%
 mindmap
-  root((Company Assets))
+  root((Hack23 Assets))
     Identities
-      Primary Identity Provider
-      Development Platform Identity
-      Cloud Platform Identity
+      Google MFA
+      GitHub: pethers MFA
+      AWS Identity Center MFA
     SaaS & Platforms
-      Accounting Platform
-      Banking Services
-      Development Platform
-      Payment Processing
-      Marketing Channels
-      Search Console Tools
-    Cloud Organization
-      Audit Account
-      Log Archive Account
-      Production Account
-      Permission Management
+      Accounting: Bokio
+      Banking: SEB
+      Dev: GitHub Org
+      Payments: Stripe
+      Marketing: YouTube · ProductHunt · X · TikTok
+      Search: GSC · Bing Webmaster
+    AWS Org (Control Tower)
+      Audit: 810580475124
+      Log Archive: 241765033212
+      hack23master: 172017021075
+      Permission Sets: Admin · PowerUser · ReadOnly · ServiceCatalog
     Domains
-      Primary Domain
-      Product Domain
-    IP & Repositories
-      Game Product
-      Compliance Product
-      Analytics Product
-      Infrastructure Code
-      Security Tools
+      hack23.com
+      blacktrigram.com
+    IP & Repos
+      Black Trigram
+      CIA Compliance Manager
+      Citizen Intelligence Agency
+      Lambda in Private VPC
+      Sonar CloudFormation Plugin
 ```
+
 
 ## 1) Identities and Accounts
 
 ### 1.1 Human identities
-| Category | Platforms | Security | Notes | Types |
-|----------|-----------|----------|-------|--------|
-| Executive Identity | Identity Provider • Development Platform • Cloud SSO | MFA Enabled | Centralized identity management | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](./CLASSIFICATION.md#business-process-types) |
+| #️⃣ ID | 👤 Person | ✉️ Email | 🛠️ Platforms | 🔐 MFA | 📝 Notes | 🏷️ Types |
+|-------|-----------|----------|---------------|--------|----------|----------|
+| U-001 | James Pether Sörling | pether.sorling@gmail.com | 🔎 Google • 🐙 GitHub (pethers) • ☁️ AWS SSO | Enabled | Google account is the hub for SaaS sign-ins listed below | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
 
-### 1.2 Linked services (via Identity Provider)
-| Service Category | Integration Type | Status | Security | Types |
-|-----------------|------------------|---------|----------|--------|
-| Accounting Platform | SSO Integration | Active ✅ | IdP Protected | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Payment Processing | SSO Integration | Active ✅ | IdP Protected | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Search Analytics | Platform MFA | Active ✅ | MFA Required | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Marketing Channels | SSO/Platform | Active ✅ | Various | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Professional Network | Platform Auth | Active ✅ | MFA Available | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=linkedin&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](./CLASSIFICATION.md#business-process-types) |
+### 1.2 Linked services (via Google account)
+| #️⃣ ID | 🧩 Service | 👤 Account/Handle | ✅ Status | 🔐 MFA/2FA | 📝 Notes | 🏷️ Types |
+|-------|------------|-------------------|-----------|------------|----------|----------|
+| G-001 | 🧾 Bokio | Google login | Active ✅ | N/A (IdP) | Connected via Google | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-002 | 💳 Stripe | Google login | Active ✅ | N/A (IdP) | Connected via Google | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-003 | 🔎 Google Search Console | pether.sorling@gmail.com | Active ✅ | Google MFA | Site verification | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-004 | 🔎 Bing Webmaster Tools | pether.sorling@gmail.com | Active ✅ | Google MFA | Site verification | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-005 | ▶️ YouTube | @ via Google | Active ✅ | Google MFA | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-006 | 🦄 Product Hunt | Google login | Active ✅ | N/A (IdP) | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-007 | 🎵 TikTok | Google login | Active ✅ | N/A (IdP) | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-008 | ✖️ X (Twitter) | Google login | Active ✅ | N/A (IdP) | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-009 | 💼 LinkedIn (CEO) | https://www.linkedin.com/in/jamessorling/ | Active ✅ | Platform MFA | Professional profile | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| G-010 | 💼 LinkedIn (Company) | https://www.linkedin.com/company/hack23/ | Active ✅ | Platform MFA | Company page | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
 
-### 1.3 Development platform account and integrations
-| Category | Security | Integrations | Notes | Types |
-|----------|----------|--------------|-------|--------|
-| Development Platform | MFA Required | Multiple | Version control and CI/CD | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Security Scanning | OAuth Integration | Active | SAST analysis | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Compliance Scanning | OAuth Integration | Active | License and vulnerability scanning | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+### 1.3 GitHub account and integrations
+| #️⃣ ID | 🐙 Account | 🔐 MFA | 🔌 Connected Apps | 📝 Notes | 🏷️ Types |
+|-------|------------|--------|-------------------|----------|----------|
+| GH-001 | pethers | Enabled | — | Used across Hack23 org projects | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| GH-INT-001 | Integration: SonarSource (SonarCloud) | N/A | — | SAST (static analysis) | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| GH-INT-002 | Integration: FOSSA | N/A | — | Open source compliance (license/security) | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
 
 ---
 
 ## 2) SaaS and Platforms (summary)
 See SUPPLIER.md for detailed posture (costs, SLAs, risks).
+<!-- Note: Includes free providers authenticated via Google/GitHub; some used only for public repos. -->
 
-| Service Category | Type | Security | Purpose | Classification |
-|-----------------|------|----------|---------|----------------|
-| Cloud Infrastructure | IaaS/PaaS | MFA + SSO | Mission critical infrastructure | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| Development Platform | SaaS | MFA Required | Version control, CI/CD | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Availability High](https://img.shields.io/badge/Availability-High-orange?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| Banking Services | Financial | Bank MFA | Corporate banking | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability High](https://img.shields.io/badge/Availability-High-orange?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| Accounting Platform | SaaS | IdP (SSO) | Financial management | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=for-the-badge&logo=server&logoColor=black)](./CLASSIFICATION.md#availability-levels) |
-| Content Creation | SaaS | Platform Auth | Marketing content generation | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| AI Services | API/SaaS | API Keys + MFA | Development assistance | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=for-the-badge&logo=server&logoColor=black)](./CLASSIFICATION.md#availability-levels) |
-| Payment Processing | SaaS | Platform MFA | Transaction processing | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| Search Analytics | Free Tier | IdP MFA | SEO and analytics | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| Marketing Channels | Free/Paid | Various | Social media presence | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| Security Tools | Free Tier | OAuth | Code analysis and compliance | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Availability High](https://img.shields.io/badge/Availability-High-orange?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
+| #️⃣ ID | ☁️ Service | 🏢 Account/Org | 📦 Plan/Status | 👤 Owner | 🔐 MFA | 📝 Notes | 🏷️ Classification |
+|-------|------------|----------------|----------------|----------|--------|----------|--------------------|
+| S-001 | ☁️ AWS | Hack23 (Control Tower) | Active ✅ | CEO | Enforced via AWS Identity Center | Mission critical | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-002 | 🐙 GitHub | hack23 (org) | Active ✅ | CEO | Required | Version control, CI/CD | [![DevTools](https://img.shields.io/badge/Type-Development_Tools-lightblue?style=for-the-badge&logo=wrench&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability High](https://img.shields.io/badge/Availability-High-orange?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-003 | 🏦 SEB | Corporate Banking | Active ✅ | CEO | Bank MFA | Payments/payroll | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability High](https://img.shields.io/badge/Availability-High-orange?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-004 | 🧾 Bokio | Company workspace | Active ✅ | CEO | IdP (Google) | Accounting | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=for-the-badge&logo=server&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-005 | 🎶 Suno | Subscription | Active ✅ | CEO | Platform MFA | Marketing content | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-006 | 🎙️ ElevenLabs | Subscription | Active ✅ | CEO | Platform MFA | Audio/voice | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-007 | 🤖 OpenAI | API | Active ✅ | CEO | API / Account MFA | AI services | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=for-the-badge&logo=server&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-008 | 💳 Stripe | Platform | Active ✅ | CEO | Platform MFA | Payments | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-009 | 🔎 Google Search Console | pether.sorling@gmail.com | Active (Free) ✅ | CEO | Google MFA | SEO verification & metrics | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-010 | 🔎 Bing Webmaster Tools | pether.sorling@gmail.com | Active (Free) ✅ | CEO | Google MFA | SEO coverage for Bing | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-011 | ▶️ YouTube | Channel via Google | Active (Free) ✅ | CEO | Google MFA | Marketing channel | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-012 | 🦄 Product Hunt | hack23 | Active (Free) ✅ | CEO | IdP (Google) | Launch listings | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-013 | 🎵 TikTok | hack23 | Active (Free) ✅ | CEO | IdP (Google) | Social marketing | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-014 | ✖️ X (Twitter) | hack23 | Active (Free) ✅ | CEO | IdP (Google) | Social updates | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-015 | 💼 LinkedIn (CEO) | jamessorling | Active (Free) ✅ | CEO | Platform MFA | Executive profile | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-016 | 💼 LinkedIn (Company) | Hack23 AB | Active (Free) ✅ | CEO | Platform MFA | Company page | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-017 | 🛡️ SonarSource (SonarCloud) | GitHub org integration | Active (Free/public) ✅ | CEO | GitHub OAuth | SAST for public repos only | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability High](https://img.shields.io/badge/Availability-High-orange?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
+| S-018 | ⚖️ FOSSA | GitHub org integration | Active (Free/public) ✅ | CEO | GitHub OAuth | OSS license/security for public repos | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Process Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) |
 
 ---
 
-## 3) Cloud Organization
+## 3) AWS Organization (Control Tower)
 
-Cloud Provider: Enterprise multi-account organization with governance framework and SSO.
+Supplier: AWS (accounts via AWS Organizations). Control Tower is used for governance/security and SSO; IAM Identity Center with MFA enforced.  
+Note: AWS WorkMail uses MFA through Identity Center.
 
-### 3.1 Account Structure
-| Account Type | Purpose | Security Controls | Types |
-|--------------|---------|-------------------|--------|
-| Audit Account | Security and compliance logging | Immutable logs, restricted access | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Log Archive | Centralized log storage | Write-only, retention policies | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Production Account | Primary workloads | Full security stack | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+### 3.1 Accounts
+| #️⃣ ID | 🏷️ Account Name | 🆔 Account ID | ✉️ Root Email | 🎯 Purpose | 🏷️ Types |
+|-------|------------------|---------------|---------------|-----------|----------|
+| AWS-001 | Audit | 810580475124 | audit@hack23.com | Security/audit (CT Log/Audit pattern) | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| AWS-002 | Log archive | 241765033212 | log-archive@hack23.com | Central immutable logs | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| AWS-003 | hack23master | 172017021075 | pether.sorling@gmail.com | Primary workload/management | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
 
-### 3.2 Permission Management
-| Permission Level | Scope | Controls |
-|-----------------|-------|----------|
-| Administrator Access | Limited accounts | MFA required, monitored |
-| Power User Access | Development tasks | MFA required, audited |
-| Read Only Access | Monitoring and review | MFA required |
-| Service Catalog Admin | Service management | Restricted scope |
-| Service Catalog User | Service consumption | Limited permissions |
+### 3.2 Permission sets / access
+| #️⃣ ID | 🛡️ Permission Set | 📍 Scope | 🔑 Keys |
+|-------|--------------------|---------|---------|
+| PS-001 | AWSAdministratorAccess | Audit, hack23master | Access keys in use (as provided) |
+| PS-002 | AWSPowerUserAccess | Audit, hack23master | Access keys in use (as provided) |
+| PS-003 | AWSReadOnlyAccess | Audit, hack23master | Access keys in use (as provided) |
+| PS-004 | AWSServiceCatalogAdminFullAccess | hack23master | Access keys in use (as provided) |
+| PS-005 | AWSServiceCatalogEndUserAccess | hack23master | Access keys in use (as provided) |
 
-### 3.3 Visual: Cloud Organization Structure
+### 3.3 Visual: AWS Organization Diagram
 ```mermaid
 flowchart LR
-  A["Organization Root"]
-  AU["Audit Account"]
-  LA["Log Archive"]
-  PROD["Production Account"]
+  A["Control Tower Org"]
+  AU["Audit\n810580475124\naudit&#64;hack23.com"]
+  LA["Log Archive\n241765033212\nlog-archive&#64;hack23.com"]
+  HM["hack23master\n172017021075\npether.sorling&#64;gmail.com"]
 
   A --> AU
   A --> LA
-  A --> PROD
+  A --> HM
 
-  subgraph "Permission Framework"
-    PS1["Administrator"]
-    PS2["Power User"]
-    PS3["Read Only"]
-    PS4["Service Admin"]
-    PS5["Service User"]
+  subgraph "Permission Sets"
+    PS1["AWSAdministratorAccess"]
+    PS2["AWSPowerUserAccess"]
+    PS3["AWSReadOnlyAccess"]
+    PS4["AWSServiceCatalogAdminFullAccess"]
+    PS5["AWSServiceCatalogEndUserAccess"]
   end
 
   AU --- PS1
+  AU --- PS2
   AU --- PS3
-  PROD --- PS1
-  PROD --- PS2
-  PROD --- PS3
-  PROD --- PS4
-  PROD --- PS5
+  HM --- PS1
+  HM --- PS2
+  HM --- PS3
+  HM --- PS4
+  HM --- PS5
 
   classDef ct fill:#ffecb3,stroke:#ffa000,stroke-width:2px,color:#333;
   classDef acct fill:#e3f2fd,stroke:#42a5f5,color:#0d47a1;
 
   class A ct;
-  class AU,LA,PROD acct;
+  class AU,LA,HM acct;
 ```
 
-### 3.4 DNS and Domain Security
-- DNS provider: Enterprise DNS service with hosted zones
-- DNSSEC: Enabled for all domains
-- Security: Registrar locks, monitoring alerts configured
+### 3.4 DNS (Route 53) and Domain Security
+- DNS provider: Amazon Route 53 (hosted zones in AWS)
+- DNSSEC: Enabled for both domains (DS records published at registrar)
 
-| Domain Category | Security | Status |
-|----------------|----------|---------|
-| Primary Domain | DNSSEC Enabled | Active ✅ |
-| Product Domain | DNSSEC Enabled | Active ✅ |
+| Domain | Hosted Zone | DNSSEC | Notes |
+|--------|-------------|--------|-------|
+| hack23.com | Route 53 | Enabled | Registrar lock on; alerts configured |
+| blacktrigram.com | Route 53 | Enabled | Registrar lock on; alerts configured |
 
-### 3.5 Cloud Services Portfolio (27 Active Services)
+### 3.5 AWS Services in Use (27 Active Services)
 
 #### Security & Compliance Services (8 Services)
-| Service Type | Purpose | Classification | Status |
-|-------------|---------|----------------|---------|
-| Web Application Firewall | Application protection | [![Availability Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Security Posture Management | Centralized findings | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Threat Investigation | Security analysis | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Vulnerability Assessment | Security scanning | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Threat Detection | Continuous monitoring | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Compliance Monitoring | Policy enforcement | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Data Discovery | Sensitive data scanning | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Audit Logging | Complete API tracking | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
+| Service | Purpose | Data Classification | Status |
+|---------|---------|-------------------|---------|
+| WAF | Web application firewall for hack23.com/blacktrigram.com | [![Availability Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Security Hub | Centralized security findings and compliance | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Detective | Security investigation and threat hunting | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Inspector | Vulnerability assessment for EC2/Lambda/containers | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| GuardDuty | Threat detection across accounts | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Config | Compliance rules and resource tracking | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Macie | Sensitive data discovery in S3 | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| CloudTrail | API audit logging across all accounts | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
 
 #### Core Infrastructure Services (11 Services)
-| Service Type | Purpose | Classification | Status |
-|-------------|---------|----------------|---------|
-| Relational Database | Application data | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| DNS Management | Domain services | [![Availability Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Corporate Email | Business communication | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Key Management | Encryption services | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Object Storage | Data and backups | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Network Isolation | Security boundaries | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Archive Storage | Long-term retention | [![Availability Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Content Delivery | Global distribution | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Serverless Compute | API functions | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Governance Framework | Multi-account management | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Identity Management | SSO and permissions | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
+| Service | Purpose | Data Classification | Status |
+|---------|---------|-------------------|---------|
+| RDS | PostgreSQL for CIA application | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Route 53 | DNS management with DNSSEC | [![Availability Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| WorkMail | Corporate email (james@hack23.com) | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| KMS | Encryption key management | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| S3 | Static website hosting, backups, logs | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| VPC | Network isolation for Lambda/RDS | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Glacier | Long-term backup storage | [![Availability Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| CloudFront | CDN for hack23.com and blacktrigram.com | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Lambda | Serverless functions for APIs | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Control Tower | Multi-account governance | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Identity Center | SSO and permission management | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
 
 #### Monitoring & Analytics Services (4 Services)
-| Service Type | Purpose | Classification | Status |
-|-------------|---------|----------------|---------|
-| Cost Management | Financial analysis | [![Confidentiality Moderate](https://img.shields.io/badge/C-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Event Monitoring | Automation triggers | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Log Monitoring | Metrics and alerts | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Data Transfer | Network usage | N/A | ✅ Active |
+| Service | Purpose | Data Classification | Status |
+|---------|---------|-------------------|---------|
+| Cost Explorer | Cost analysis and optimization | [![Confidentiality Moderate](https://img.shields.io/badge/C-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| CloudWatch Events | Event-driven automation | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| CloudWatch | Metrics, logs, and alarms | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Data Transfer | Cross-region and internet transfer | N/A | ✅ Active |
 
 #### Resilience & DR Services (4 Services)
-| Service Type | Purpose | Classification | Status |
-|-------------|---------|-----------------|--------|
-| Resilience Management | Application resilience | [![Availability Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Fault Injection | Recovery testing | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Backup Management | Centralized backups | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| Backup Compliance | Backup reporting | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
+| Service | Purpose | Data Classification | Status |
+|---------|---------|---------------------|--------|
+| Resilience Hub | Application resilience assessment and policy gating | [![Availability Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Fault Injection Service | Chaos experiments to validate failover/recovery | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| AWS Backup | Centralized backup plans, cross-region copies, immutable vaults | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
+| Backup Audit Manager | Backup compliance controls and reporting | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ Active |
 
 #### Planned Services (Q2-Q3 2025)
-| Service Type | Purpose | Classification | Timeline |
-|--------------|---------|----------------|----------|
-| API Management | API development | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | Q2 2025 |
-| NoSQL Database | User data storage | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | Q2 2025 |
-| User Authentication | Product access | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | Q3 2025 |
-| Container Service | Microservices hosting | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | Q3 2025 |
+| Service | Purpose | Data Classification | Timeline |
+|---------|---------|-------------------|----------|
+| API Gateway | REST/GraphQL APIs for Black Trigram | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Q2 2025 |
+| DynamoDB | NoSQL for game state and user data | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Q2 2025 |
+| Cognito | User authentication for products | [![Confidentiality High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Q3 2025 |
+| ECS/Fargate | Container hosting for microservices | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Q3 2025 |
 
 ### 3.6 Security Architecture
 
 ```mermaid
 graph TB
     subgraph Detection["🔍 Detection Layer"]
-        GD[Threat Detection]
-        DT[Investigation]
-        MC[Data Discovery]
+        GD[GuardDuty<br/>Threat Detection]
+        DT[Detective<br/>Investigation]
+        MC[Macie<br/>Data Discovery]
     end
     
     subgraph Protection["🛡️ Protection Layer"]
-        WAF[Web Protection]
-        IN[Vulnerability Scan]
-        KMS[Encryption]
+        WAF[WAF<br/>Web Protection]
+        IN[Inspector<br/>Vulnerability Scan]
+        KMS[KMS<br/>Encryption]
     end
     
     subgraph Compliance["📋 Compliance Layer"]
-        SH[Posture Management]
-        CFG[Compliance Rules]
-        CT[Audit Logs]
+        SH[Security Hub<br/>Posture Management]
+        CFG[Config<br/>Compliance Rules]
+        CT[CloudTrail<br/>Audit Logs]
     end
     
     subgraph Infrastructure["🏗️ Infrastructure"]
-        CT_ORG[Governance]
-        IDC[SSO]
-        VPC[Network Isolation]
+        CT_ORG[Control Tower<br/>Governance]
+        IDC[Identity Center<br/>SSO]
+        VPC[VPC<br/>Network Isolation]
     end
     
     GD --> SH
@@ -283,8 +300,8 @@ graph TB
     MC --> SH
     IN --> SH
     CFG --> SH
-    CT --> S3[Log Storage]
-    CT --> GL[Archive]
+    CT --> S3[S3<br/>Log Storage]
+    CT --> GL[Glacier<br/>Archive]
     
     style Detection fill:#e8f5e9
     style Protection fill:#e3f2fd
@@ -296,24 +313,24 @@ graph TB
 
 ## 4) Domains
 
-| Domain Type | Owner | Status | Security | Types |
-|------------|-------|---------|----------|--------|
-| Primary Corporate | Company | Active ✅ | DNS Security Extensions | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| Product Domain | Company | Active ✅ | DNS Security Extensions | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| #️⃣ ID | 🌐 Domain | 🏢 Owner | ✅ Status | 📝 Notes | 🏷️ Types |
+|-------|----------|----------|-----------|----------|----------|
+| D-001 | hack23.com | Hack23 AB | Active ✅ | DNS: Route 53 • DNSSEC: ON | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| D-002 | blacktrigram.com | Hack23 AB | Active ✅ | DNS: Route 53 • DNSSEC: ON | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
 
 ---
 
 ## 5) Intellectual Property
 
-Statement: All copyrights remain with the CEO and sole owner.
+Statement: All copyrights remain with the CEO and sole owner of Hack23.com.
 
-| Project Category | Type | Status | Project Classification | Process Types |
-|-----------------|------|---------|------------------------|---------------|
-| 🎮 Game Product | Open Source | Active | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| 🛡️ Compliance Manager | Open Source | Active | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| 🏛️ Analytics Platform | Open Source | Active | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| ☁️ Infrastructure Code | Open Source | Active | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| 🔍 Security Tools | Open Source | Active | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| Project | Repository | Website | 🏗️ Project Type | 🏢 Process Types |
+|--------|------------|---------|------------------|------------------|
+| 🎮 Black Trigram | https://github.com/Hack23/blacktrigram | https://blacktrigram.com | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| 🛡️ CIA Compliance Manager | https://github.com/Hack23/cia-compliance-manager | https://hack23.github.io/cia-compliance-manager/ | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| 🏛️ Citizen Intelligence Agency | https://github.com/Hack23/cia | https://hack23.com/cia-features.html | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| ☁️ Lambda in Private VPC | https://github.com/Hack23/lambda-in-private-vpc | - | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
+| 🔍 Sonar CloudFormation Plugin | https://github.com/Hack23/sonar-cloudformation-plugin | - | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) |
 
 ---
 
@@ -414,7 +431,6 @@ The following documentation is maintained for each termination:
 
 ---
 
-
 ## 6) Asset Risk and Controls (high level)
 
 ### 6.1 Controls Overview (Mindmap)
@@ -426,47 +442,47 @@ The following documentation is maintained for each termination:
 mindmap
   root((Controls))
     Identities
-      MFA on all platforms
+      MFA on Google, GitHub, AWS
       Quarterly app reviews
       Passkeys where supported
-      Single IdP strategy
-    Cloud Security Services
-      Security services active
-      Threat detection
-      Security posture management
-      Data discovery
-      Application protection
-      Vulnerability scans
-      Investigation tools
-      Compliance rules
-      Full audit trails
+      Single IdP strategy Google
+    AWS Security 27 Services
+      8 security services active
+      GuardDuty threat detection
+      Security Hub centralized
+      Macie data discovery
+      WAF application protection
+      Inspector vulnerability scans
+      Detective investigation
+      Config compliance rules
+      CloudTrail full audit
     Infrastructure Controls
-      Governance framework
-      SSO implementation
-      Encryption everywhere
-      Network isolation
-      DNS security
-      Versioning enabled
-      Immutable backups
-      Secure email
+      Control Tower governance
+      Identity Center SSO
+      KMS encryption everything
+      VPC network isolation
+      Route 53 DNSSEC
+      S3 versioning enabled
+      Glacier immutable backups
+      WorkMail secure email
     SaaS Management
-      Central IdP
-      Integrated services
+      Google IdP central
+      18 integrated services
       Quarterly access audits
       Export procedures ready
       Alternative suppliers mapped
     Domains & DNS
-      Hosted zones
-      DNSSEC enabled
+      Route 53 hosted zones
+      DNSSEC both domains
       Registrar locks active
       Auto-renewal configured
-      Expiry alerts
+      Expiry alerts CloudWatch
     IP Protection
-      Active repositories
+      5 active repositories
       Open source licensing
-      Copyright protection
-      Compliance scanning
-      Quality gates
+      Copyright CEO owned
+      FOSSA compliance scan
+      SonarCloud quality gate
 ```
 
 ### 6.2 SWOT — Comprehensive Asset Management
@@ -478,38 +494,38 @@ mindmap
 mindmap
   root((SWOT Analysis))
     Strengths
-      Cloud services deployed
-      Dedicated security tools
-      Multi-account architecture
-      Full MFA coverage
-      DNSSEC enabled
-      Complete audit trails
-      Encryption at rest
+      27 AWS services deployed
+      8 dedicated security tools
+      Control Tower multi-account
+      100% MFA coverage
+      DNSSEC all domains
+      CloudTrail complete audit
+      KMS encryption at rest
       Automated threat detection
-      IP assets documented
+      5 IP assets documented
     Weaknesses
       Single person dependency
-      Legacy access methods
+      Access keys still active
       No break glass procedure
       Limited DR testing
       Manual security reviews
-      Multiple SaaS dependencies
-      Single IdP dependency
+      18 SaaS dependencies
+      Google IdP single point
     Opportunities
-      Automation with APIs
-      Implement policies
-      Token rotation
-      Serverless automation
-      CI/CD pipelines
-      API monetization
-      NoSQL scaling
-      User management systems
+      Automate with AWS APIs
+      Implement SCPs
+      SSO token rotation
+      Lambda automation
+      GitHub Actions CI/CD
+      API Gateway monetization
+      DynamoDB scaling
+      Cognito user management
     Threats
       Supply chain attacks
       Zero day vulnerabilities
-      Service outages
+      AWS service outages
       Sophisticated phishing
-      Compliance changes
+      NIS2 compliance changes
       Third party breaches
       Domain hijacking
       IP theft attempts
@@ -523,47 +539,43 @@ mindmap
 }%%
 mindmap
   root((Asset Coverage))
-    Cloud Services
-      Security Services
-        Application Protection
-        Threat Detection
-        Investigation Tools
-      Infrastructure Services
-        Database Services
-        DNS Management
-        Email Services
-      Monitoring Services
-        Log Management
-        Cost Management
-        Event Monitoring
-      Planned Services
-        API Management
-        Authentication
-        Container Services
-    SaaS Services
-      Critical Services
-        Development Platform
-        Banking Services
-        Payment Processing
-      Marketing Services
-        Social Media
-        Search Tools
-        Analytics
-      Content Services
-        Generation Tools
-        Media Services
-      Security Services
-        Code Analysis
-        Compliance Tools
-    Domains
-      Primary Domain
-      Product Domains
-    IP Assets
-      Game Products
-      Compliance Tools
-      Analytics Platforms
-      Infrastructure Code
-      Security Tools
+    AWS 27 Services
+      Security 8
+        WAF, GuardDuty, Detective
+        Inspector, Macie, Security Hub
+        Config, CloudTrail
+      Infrastructure 11
+        RDS, Route 53, WorkMail
+        KMS, S3, VPC, Glacier
+        CloudFront, Lambda
+        Control Tower, Identity Center
+      Monitoring 4
+        CloudWatch, Events
+        Cost Explorer, Data Transfer
+      Planned 4
+        API Gateway, DynamoDB
+        Cognito, ECS Fargate
+    SaaS 18 Services
+      Critical 4
+        GitHub, SEB, Stripe, Bokio
+      Marketing 10
+        YouTube, TikTok, X
+        Product Hunt, LinkedIn
+        Google Search Console
+        Bing Webmaster
+      Content 2
+        Suno, ElevenLabs
+      Security 2
+        SonarCloud, FOSSA
+    Domains 2
+      hack23.com
+      blacktrigram.com
+    IP Assets 5
+      Black Trigram game
+      CIA Compliance Manager
+      Citizen Intelligence Agency
+      Lambda in Private VPC
+      Sonar CloudFormation Plugin
 ```
 
 ### 6.4 Risk-Based Control Priorities
@@ -575,28 +587,28 @@ mindmap
 mindmap
   root((Risk Priorities))
     Critical Risks
-      Single point of failure
-      Root account security
-      Credential exposure
-      Domain security
-      IP protection
+      Single point of failure CEO
+      AWS root account security
+      Access key exposure
+      Domain hijacking
+      IP theft exposure
     High Risks  
-      Supply chain security
-      IdP dependency
+      GitHub supply chain
+      Google IdP dependency
       Data breach potential
-      Compliance gaps
-      Email security
+      Compliance gaps NIS2
+      WorkMail compromise
     Medium Risks
-      Cost management
+      Cost overruns AWS
       Service degradation
       Third party failures
       Documentation gaps
-      Backup recovery
+      Backup restore failures
     Low Risks
-      Content delays
+      Content generation delays
       Social media issues
-      Service limits
-      Marketing tools
+      Free tier limits
+      Marketing tool failures
       Analytics disruption
 ```
 
@@ -605,37 +617,37 @@ mindmap
 ```mermaid
 graph LR
     subgraph "🔐 Identity & Access"
-        ID1[Primary IdP with MFA]
-        ID2[Dev Platform MFA]
-        ID3[Cloud SSO MFA]
-        ID4[Integrated Services]
+        ID1[Google MFA]
+        ID2[GitHub MFA]
+        ID3[AWS SSO MFA]
+        ID4[18 SaaS via Google]
     end
     
-    subgraph "🛡️ Security Stack"
-        SEC1[Security Services]
-        SEC2[Audit Trails]
-        SEC3[Governance]
-        SEC4[Encryption]
+    subgraph "🛡️ AWS Security Stack"
+        SEC1[8 Security Services]
+        SEC2[CloudTrail Audit]
+        SEC3[Control Tower]
+        SEC4[KMS Encryption]
     end
     
     subgraph "🌐 Web & Domains"
-        WEB1[Primary Domain]
-        WEB2[Product Domain]
-        WEB3[DNS Security]
-        WEB4[CDN Services]
+        WEB1[hack23.com]
+        WEB2[blacktrigram.com]
+        WEB3[Route 53 DNSSEC]
+        WEB4[CloudFront CDN]
     end
     
     subgraph "💼 Business Systems"
-        BUS1[Banking Services]
-        BUS2[Accounting Platform]
-        BUS3[Payment Processing]
-        BUS4[Corporate Email]
+        BUS1[SEB Banking]
+        BUS2[Bokio Accounting]
+        BUS3[Stripe Payments]
+        BUS4[WorkMail Email]
     end
     
     subgraph "🚀 Development"
-        DEV1[Code Repositories]
-        DEV2[IP Assets]
-        DEV3[Serverless Functions]
+        DEV1[GitHub Repos]
+        DEV2[5 IP Assets]
+        DEV3[Lambda Functions]
         DEV4[CI/CD Pipeline]
     end
     
@@ -654,11 +666,10 @@ graph LR
 
 ---
 
-**Document Control:**  
-**Approved by:** James Pether Sörling, CEO  
-**Distribution:** Public  
-**Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**Effective Date:** 2025-11-05  
-**Next Review:** 2026-11-05   
-**Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
-
+**📋 Document Control:**  
+**✅ Approved by:** James Pether Sörling, CEO  
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2025-11-05  
+**⏰ Next Review:** 2026-11-05  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
