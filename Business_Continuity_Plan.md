@@ -9,6 +9,13 @@
   <em>🎯 Systematic Recovery Planning Through Enterprise-Grade Business Continuity</em>
 </p>
 
+<div align="center" style="background-color: #fff3cd; border: 2px solid #ffc107; border-radius: 8px; padding: 16px; margin: 20px 0;">
+  <h3>⚠️ REDACTED PUBLIC VERSION</h3>
+  <p><strong>Radical Transparency with Minimal Redaction</strong><br>
+  This document is published in full. Only specific personal contact details replaced with [REDACTED].<br>
+  All strategies, procedures, and recovery steps are public to demonstrate our business continuity capabilities.</p>
+</div>
+
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
@@ -16,8 +23,8 @@
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-28 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-02-28
+**Document Owner:** CEO | **Version:** 1.0 | **Last Updated:** 2025-08-28 (UTC)  
+**Review Cycle:** Semi-Annual | **Next Review:** 2026-02-28
 
 ---
 
@@ -621,5 +628,5 @@ Integration with [Backup Recovery Policy](./Backup_Recovery_Policy.md) testing s
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
 **📅 Effective Date:** 2025-08-28  
-**⏰ Next Review:** 2025-11-28   
+**⏰ Next Review:** 2026-02-28   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
