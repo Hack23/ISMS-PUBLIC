@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--09--22-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--10-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-09-22 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-09-22
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-10 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-10
 
 ---
 
@@ -65,15 +65,15 @@ This table defines the publication status of ISMS documents and the rationale.
 | [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | ✅ **Public** | Comprehensive LLM security framework demonstrating OWASP Top 10 alignment and implementation transparency. Shows foundation strength while clearly identifying future development areas. |
 | [🎯 Threat Modeling Policy](./Threat_Modeling.md) | ✅ **Public** | STRIDE methodology and threat assessment framework public. Specific threat intelligence confidential. |
 | **📋 Management & Governance** | | |
-| [💻 Asset Register](./Asset_Register.md) | ⚠️ **Redacted** | Public version lists asset categories (e.g., "Cloud Services," "SaaS Platforms"). Specific account details, credentials, and configurations are **CONFIDENTIAL**. |
-| [📉 Risk Register](./Risk_Register.md) | ⚠️ **Redacted** | The framework and risk categories are public. Specific risk details, financial impacts, and vulnerabilities are **CONFIDENTIAL**. |
-| [🔗 Third-Party Management](./Third_Party_Management.md) | ⚠️ **Redacted** | Policy framework is public. Specific supplier assessments confidential. |
-| [🏢 Supplier Security Posture](./SUPPLIER.md) | ⚠️ **Redacted** | Generic supplier examples and assessment methodology public. Specific supplier details and contracts are **CONFIDENTIAL**. |
+| [💻 Asset Register](./Asset_Register.md) | ⚠️ **Redacted** | Complete asset inventory public including all systems, services, and configurations. Only specific credentials, API keys, and account numbers replaced with `[REDACTED]`. |
+| [📉 Risk Register](./Risk_Register.md) | ⚠️ **Redacted** | Complete risk framework and all risks public. Only specific financial impact values replaced with `[REDACTED]`. |
+| [🔗 Third-Party Management](./Third_Party_Management.md) | ⚠️ **Redacted** | Complete policy framework and all procedures public. Only specific contract terms and pricing replaced with `[REDACTED]`. |
+| [🏢 Supplier Security Posture](./SUPPLIER.md) | ⚠️ **Redacted** | Complete supplier assessments public including all details. Only specific contract pricing and sensitive commercial terms replaced with `[REDACTED]`. |
 | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | ✅ **Public** | Professional network and regulatory contacts demonstrate stakeholder engagement and compliance readiness. |
 | **🚨 Response & Recovery Plans** | | |
-| [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ⚠️ **Redacted** | The process framework is public. Specific contact details, technical procedures, and escalation paths are **CONFIDENTIAL**. |
-| [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ⚠️ **Redacted** | High-level strategies are public. Specific recovery steps, contact lists, and operational details are **CONFIDENTIAL**. |
-| [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ⚠️ **Redacted** | The architecture overview is public. Detailed recovery procedures, system configurations, and technical details are **CONFIDENTIAL**. |
+| [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ⚠️ **Redacted** | Complete process framework and all procedures public. Only specific phone numbers, personal email addresses, and credentials replaced with `[REDACTED]`. |
+| [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ⚠️ **Redacted** | Complete strategies and all recovery procedures public. Only specific personal contact details and credentials replaced with `[REDACTED]`. |
+| [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ⚠️ **Redacted** | Complete architecture and all technical procedures public. Only specific system credentials and access keys replaced with `[REDACTED]`. |
 | **📊 Compliance & Legal** | | |
 | [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ **Public** | Demonstrates our commitment to transparency and provides a clear, auditable trail of our compliance posture against key frameworks. |
 | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ **Public** | The classification levels and handling rules are public. The classification of specific datasets is confidential. |
@@ -102,17 +102,41 @@ This table defines the publication status of ISMS documents and the rationale.
 
 ## 🔧 **Redaction and Publication Process**
 
-1.  **Create Internal Version:** The complete, unredacted document is created and stored in a secure, internal repository. This is the "source of truth."
-2.  **Create Public Version:** A copy of the document is made for public release.
-3.  **Apply Redactions:** Based on the table above, sensitive information is removed or replaced with generic descriptions (e.g., `[REDACTED]`, `[Generic Example]`, `[Representative Values]`).
-4.  **Review:** The public version is reviewed by the CEO to ensure no sensitive information remains.
-5.  **Publish:** The sanitized version is published to the public GitHub repository.
+### Radical Transparency Approach
+
+Hack23 AB practices **radical transparency** - we publish complete ISMS documents with only specific sensitive values redacted. This demonstrates our security maturity and operational excellence while protecting only the most sensitive information.
+
+**What We Publish (Everything):**
+- ✅ Complete processes, procedures, and technical details
+- ✅ All system configurations, architectures, and operational procedures
+- ✅ All contact information (roles, escalation paths, response procedures)
+- ✅ All supplier names, assessments, and security postures
+- ✅ All risk assessments, risk details, and mitigation strategies
+- ✅ Complete asset inventories with all systems and services
+
+**What We Redact (Minimal):**
+- 🔒 Specific credentials, API keys, passwords, tokens
+- 🔒 Specific account numbers, account IDs (replaced with `[REDACTED]`)
+- 🔒 Specific financial impact amounts in risks (e.g., "$1.8M" → `[REDACTED]`)
+- 🔒 Specific contract pricing and commercial terms
+- 🔒 Personal phone numbers and personal email addresses
+
+### Publication Process
+
+1.  **Create Internal Version:** The complete document is created as the "source of truth."
+2.  **Create Public Version:** An identical copy is made for public release.
+3.  **Apply Minimal Redactions:** Only specific sensitive VALUES are replaced with `[REDACTED]` - structure and content remain intact.
+4.  **Review:** The CEO reviews to ensure only appropriate values are redacted.
+5.  **Publish:** The document is published to the public GitHub repository.
 
 ### Redaction Examples
-- **Financial Data:** Replace specific costs with ranges or generic examples (e.g., "$50K+" becomes "High switching costs")
-- **Risk Exposure:** Remove specific dollar amounts, keep relative severity (e.g., "Critical risk" without "$1.8M exposure")
-- **Supplier Details:** Use generic examples instead of actual supplier names and contracts
-- **Technical Details:** Remove IP addresses, account IDs, specific configurations
+- **Credentials:** `password: "abc123"` becomes `password: [REDACTED]`
+- **Account Numbers:** `Account: 172017021075` becomes `Account: [REDACTED]`
+- **Financial Risk Values:** `ALE: €65,700` becomes `ALE: [REDACTED]`
+- **Personal Contact:** `CEO: +46-XXX-XXX` becomes `CEO: [REDACTED]`
+- **Contract Pricing:** `$50/month` becomes `[REDACTED]/month`
+
+**Everything else remains public and unredacted.**
 
 ---
 
@@ -158,8 +182,6 @@ Our systematic approach includes:
 - **Ad-hoc:** Following security incidents or significant business changes
 
 ---
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/ISMS-PUBLIC)
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
