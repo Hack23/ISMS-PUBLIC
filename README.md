@@ -67,13 +67,13 @@ This table defines the publication status of ISMS documents and the rationale.
 | **📋 Management & Governance** | | |
 | [💻 Asset Register](./Asset_Register.md) | ⚠️ **Redacted** | Complete asset inventory public including all systems, services, and configurations. Only specific credentials, API keys, and account numbers replaced with `[REDACTED]`. |
 | [📉 Risk Register](./Risk_Register.md) | ⚠️ **Redacted** | Complete risk framework and all risks public. Only specific financial impact values replaced with `[REDACTED]`. |
-| [🔗 Third-Party Management](./Third_Party_Management.md) | ⚠️ **Redacted** | Complete policy framework and all procedures public. Only specific contract terms and pricing replaced with `[REDACTED]`. |
+| [🔗 Third-Party Management](./Third_Party_Management.md) | ✅ **Public**  | Complete policy framework and all procedures public. 
 | [🏢 Supplier Security Posture](./SUPPLIER.md) | ⚠️ **Redacted** | Complete supplier assessments public including all details. Only specific contract pricing and sensitive commercial terms replaced with `[REDACTED]`. |
 | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | ✅ **Public** | Professional network and regulatory contacts demonstrate stakeholder engagement and compliance readiness. |
 | **🚨 Response & Recovery Plans** | | |
-| [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ⚠️ **Redacted** | Complete process framework and all procedures public. Only specific phone numbers, personal email addresses, and credentials replaced with `[REDACTED]`. |
-| [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ⚠️ **Redacted** | Complete strategies and all recovery procedures public. Only specific personal contact details and credentials replaced with `[REDACTED]`. |
-| [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ⚠️ **Redacted** | Complete architecture and all technical procedures public. Only specific system credentials and access keys replaced with `[REDACTED]`. |
+| [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ✅ **Public**  | Complete process framework and all procedures public. 
+| [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ✅ **Public** | Complete strategies and all recovery procedures public. 
+| [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ✅ **Public** | Complete architecture and all technical procedures public.
 | **📊 Compliance & Legal** | | |
 | [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ **Public** | Demonstrates our commitment to transparency and provides a clear, auditable trail of our compliance posture against key frameworks. |
 | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ **Public** | The classification levels and handling rules are public. The classification of specific datasets is confidential. |
