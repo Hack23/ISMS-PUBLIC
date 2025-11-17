@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-25 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-25
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
 
 ---
 
@@ -337,10 +337,23 @@ flowchart LR
 
 ---
 
+## 📚 Related Documents
+
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework
+- [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Data handling and protection requirements
+- [🌐 Network Security Policy](./Network_Security_Policy.md) - Network encryption and TLS standards
+- [🔑 Access Control Policy](./Access_Control_Policy.md) - Key management and authentication controls
+- [💻 Asset Register](./Asset_Register.md) - Cryptographic asset inventory
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Application encryption requirements
+- [🤝 Third Party Management](./Third_Party_Management.md) - Supplier cryptographic assessments
+- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Encryption level requirements by data classification
+
+---
+
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-25  
-**⏰ Next Review:** 2026-08-25  
+**📅 Effective Date:** 2025-11-17  
+**⏰ Next Review:** 2026-11-17  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
