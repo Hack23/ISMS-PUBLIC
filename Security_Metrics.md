@@ -33,6 +33,19 @@ By maintaining **🌐 live security dashboards** with **📊 public accountabili
 
 ---
 
+## 📊 **ISMS Governance Metrics**
+
+**📈 [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md)** provides automated monitoring of our Information Security Management System health:
+
+- **🚦 Policy Review Status:** Real-time tracking of 32 ISMS documents
+- **📅 Review Calendar:** Upcoming reviews for proactive planning
+- **📋 Document Health Matrix:** Complete metadata and compliance alignment
+- **🔄 Weekly Updates:** Automated generation via GitHub Actions
+
+This application-level security metrics document complements the ISMS Metrics Dashboard by focusing on technical security controls, vulnerability management, and OpenSSF Scorecard performance.
+
+---
+
 ## 📈 **Security Metrics Framework**
 
 ### **🎯 Strategic Security Objectives**
@@ -91,10 +104,10 @@ Aligned with [Vulnerability Management Policy](./Vulnerability_Management.md) re
 
 | Severity | SLA Target | Current Performance | Trend | Business Impact |
 |----------|------------|-------------------|-------|----------------|
-| **🔴 Critical** | 7 days | View live in GitHub Security | ✅ | 💰 Revenue Protection |
-| **🟠 High** | 30 days | View live in GitHub Security | ✅ | 🛡️ Risk Reduction |  
-| **🟡 Medium** | 90 days | View live in GitHub Security | ✅ | ⚙️ Operational Efficiency |
-| **⚪ Low** | Best effort | View live in GitHub Security | ✅ | 📋 Compliance Posture |
+| **🔴 Critical** | 24 hours | View live in GitHub Security | ✅ | 💰 Revenue Protection |
+| **🟠 High** | 7 days | View live in GitHub Security | ✅ | 🛡️ Risk Reduction |  
+| **🟡 Medium** | 30 days | View live in GitHub Security | ✅ | ⚙️ Operational Efficiency |
+| **🟢 Low** | 90 days | View live in GitHub Security | ✅ | 📋 Compliance Posture |
 
 ### **🔄 Vulnerability Detection Sources**
 - **📊 SAST Results:** SonarCloud quality gates on every commit
@@ -622,7 +635,7 @@ Compliance monitoring directly feeds into [📉 Risk Register](./Risk_Register.m
 - **Audit Findings → Risk Events:** Non-conformances trigger risk reassessment
 - **Remediation Plans → Treatment Actions:** Gap closure plans linked to risk treatments
 
-**Review Cycle:** Quarterly risk register update incorporates compliance monitoring results
+**Integration Note:** Quarterly risk register updates incorporate compliance monitoring results
 
 ---
 
