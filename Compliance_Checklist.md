@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.7-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.7 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-05
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-17 (UTC)
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-17
 
 
 ---
@@ -90,9 +90,9 @@ mindmap
 | **A.5.14** | Information transfer protection | [🌐 Network Security Policy](./Network_Security_Policy.md) • [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.DS-02](https://img.shields.io/badge/NIST-PR.DS--02-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-02/) <br><sub>PR.DS-02: Data-in-transit protected. Comprehensive email auth (SPF/DKIM/DMARC/MTA-STS) + TLS 1.2+</sub> | [![CIS 3.7](https://img.shields.io/badge/CIS-3.7-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 3.7: Email authentication standards fully implemented with MTA-STS enforcement.</sub> |
 | **A.5.14.1** | **Email Authentication Standards** | [🌐 Network Security Policy § Email Security](./Network_Security_Policy.md#-email-security-architecture) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.DS-02](https://img.shields.io/badge/NIST-PR.DS--02-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-02/) <br><sub>PR.DS-02: SPF strict (-all), DKIM 2048-bit, DMARC reject policy, MTA-STS enforce mode</sub> | [![CIS 9.2](https://img.shields.io/badge/CIS-9.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 9.2: Enterprise-grade email security with transport security (TLS-RPT)</sub> |
 | **A.5.15** | Access control (policy) | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) <br><sub>PR.AC-01: Identity lifecycle managed.</sub> | [![CIS 6.1](https://img.shields.io/badge/CIS-6.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 6.1: Formal access request / approval process.</sub> |
-| **A.5.16** | Identity management | [🔑 Access Control Policy § Identity](./Access_Control_Policy.md#-identity-management-framework) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) <br><sub>PR.AC-01: Identity lifecycle managed.</sub> | [![CIS 5.1](https://img.shields.io/badge/CIS-5.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 5.1: Establish and maintain account inventory.</sub> |
-| **A.5.17** | Authentication info protection | [🔑 Access Control Policy § MFA](./Access_Control_Policy.md#-multi-factor-authentication-requirements) • [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) <br><sub>PR.AC-01: Strong identity proofing / auth.</sub> | [![CIS 6.3](https://img.shields.io/badge/CIS-6.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 6.3: MFA for administrative access.</sub> |
-| **A.5.18** | Access rights lifecycle | [🔑 Access Control Policy § Reviews](./Access_Control_Policy.md#-access-review-and-governance) • [📝 Change Management](./Change_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-04](https://img.shields.io/badge/NIST-PR.AC--04-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-04/) <br><sub>PR.AC-04: Access review & revocation.</sub> | [![CIS 5.4](https://img.shields.io/badge/CIS-5.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 5.4: Disable dormant accounts.</sub> |
+| **A.5.16** | Identity management | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) <br><sub>PR.AC-01: Identity lifecycle managed.</sub> | [![CIS 5.1](https://img.shields.io/badge/CIS-5.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 5.1: Establish and maintain account inventory.</sub> |
+| **A.5.17** | Authentication info protection | [🔑 Access Control Policy § MFA](./Access_Control_Policy.md#️-multi-factor-authentication-strategy) • [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) <br><sub>PR.AC-01: Strong identity proofing / auth.</sub> | [![CIS 6.3](https://img.shields.io/badge/CIS-6.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 6.3: MFA for administrative access.</sub> |
+| **A.5.18** | Access rights lifecycle | [🔑 Access Control Policy § Monitoring & Compliance](./Access_Control_Policy.md#-access-monitoring--compliance) • [📝 Change Management](./Change_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![PR.AC-04](https://img.shields.io/badge/NIST-PR.AC--04-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-04/) <br><sub>PR.AC-04: Access review & revocation.</sub> | [![CIS 5.4](https://img.shields.io/badge/CIS-5.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 5.4: Disable dormant accounts.</sub> |
 | **A.5.19** | Supplier relationships | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![GV.SC-01](https://img.shields.io/badge/NIST-GV.SC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-01/) <br><sub>GV.SC-01: Supply chain risks identified.</sub> | [![CIS 15.2](https://img.shields.io/badge/CIS-15.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 15.2: Maintain service provider inventory & ownership.</sub> |
 | **A.5.20** | Supplier security in agreements | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![GV.SC-02](https://img.shields.io/badge/NIST-GV.SC--02-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-02/) <br><sub>GV.SC-02: Cyber requirements for suppliers.</sub> | [![CIS 15.4](https://img.shields.io/badge/CIS-15.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 15.4: Define security & compliance requirements in contracts.</sub> |
 | **A.5.21** | ICT supply chain mgmt | [🤝 Third Party Management](./Third_Party_Management.md) • [🔗 SUPPLIER](./SUPPLIER.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | [![GV.SC-01](https://img.shields.io/badge/NIST-GV.SC--01-green?style=flat-square)](https://csf.tools/reference/nist/cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-01/) <br><sub>GV.SC-01: Supply chain risks identified.</sub> | [![CIS 15.5](https://img.shields.io/badge/CIS-15.5-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) <br><sub>CIS 15.5: Assess service providers for security risk.</sub> |
@@ -228,6 +228,105 @@ mindmap
 | **§ 1.11** | Secure Updates | [📝 Change Management](./Change_Management.md) & SLSA Attestations | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](./Compliance_Checklist.md) |
 | **§ 1.12** | Security Monitoring & Logging | [📊 Security Metrics](./Security_Metrics.md) & [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](./Compliance_Checklist.md) |
 
+### **Annex II: Critical Products with Digital Elements (Article 6)**
+
+The EU Cyber Resilience Act defines specific product categories as "critical" or "important" under Annex II, subjecting them to enhanced cybersecurity requirements and mandatory third-party conformity assessment. While Hack23 AB's current products (CIA, Black Trigram, CIA Compliance Manager) are classified as "Standard (Non-commercial OSS)", this section demonstrates our capability to support clients developing critical products and our readiness for potential commercial expansion into critical infrastructure sectors.
+
+#### **Critical Product Classifications (Annex II, Class I & II)**
+
+The CRA defines 11 categories of critical products with digital elements. The following table assesses Hack23 AB's current applicability and potential consulting scenarios.
+
+| Annex II Category | Product Examples | Hack23 Current Applicability | Consulting Opportunities | Relevant ISMS Policies |
+|------------------|------------------|------------------------------|-------------------------|----------------------|
+| **Class I(a)** Identity & Access Management | Enterprise IAM systems, SSO platforms, directory services | 🟡 Low: Current products use IAM but are not IAM-focused | 🟢 High: Consulting for IAM vendors, enterprise identity platforms | [🔑 Access Control Policy](./Access_Control_Policy.md) |
+| **Class I(b)** Endpoint Security Tools | Browsers, password managers, VPNs, endpoint protection | 🟡 Low: Not current product focus | 🟠 Medium: Consulting for security tool vendors, browser extensions | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) |
+| **Class I(c)** Network Management Systems | Firewalls, routers, switches, IDS/IPS, network monitoring | 🟠 Medium: Network security policy expertise | 🟢 High: Consulting for network equipment vendors, SDN platforms | [🌐 Network Security Policy](./Network_Security_Policy.md) |
+| **Class I(d)** Operating Systems | Server OS, desktop OS, mobile OS, embedded OS | 🟡 Low: Applications built on top of OS | 🟠 Medium: Consulting for OS vendors, enterprise deployment security | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) |
+| **Class I(e)** Virtualization & Containers | Hypervisors, container runtimes, orchestration platforms | 🟠 Medium: Container deployment experience (Docker, Kubernetes) | 🟢 High: Consulting for cloud platform providers, container security | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) |
+| **Class I(f)** Microprocessors with Security Functions | Secure elements, TPMs, secure enclaves, HSM processors | 🔴 Minimal: Hardware not in scope | 🟡 Low: Limited consulting applicability | [🔒 Cryptography Policy](./Cryptography_Policy.md) |
+| **Class I(g)** Smart Cards & Authentication Devices | Smart cards, card readers, USB security tokens, secure elements | 🔴 Minimal: Hardware not in scope | 🟡 Low: Limited consulting applicability | [🔑 Access Control Policy](./Access_Control_Policy.md) |
+| **Class I(h)** Hardware Security Modules (HSMs) | Dedicated HSMs, cloud HSMs, key management appliances | 🟡 Low: HSM consumers, not providers | 🟠 Medium: Consulting for key management system integration | [🔒 Cryptography Policy](./Cryptography_Policy.md) |
+| **Class II(a)** Industrial Automation & Control | SCADA systems, PLCs, DCS, industrial IoT gateways | 🔴 Minimal: Not current domain | 🟠 Medium: Consulting for industrial security, ICS/SCADA vendors | [🔐 Information Security Policy](./Information_Security_Policy.md) |
+| **Class II(b)** Distributed Ledger Technologies | Blockchain platforms, cryptocurrency wallets (with security functions) | 🔴 Minimal: Not current domain | 🟡 Low: Emerging consulting opportunity | [🔒 Cryptography Policy](./Cryptography_Policy.md) |
+| **Class II(c)** Remote Access & Support Tools | Remote desktop software, remote administration tools, support platforms | 🟠 Medium: Remote work security policies | 🟢 High: Consulting for remote access vendors, enterprise tools | [🔑 Access Control Policy](./Access_Control_Policy.md) • [🌐 Network Security Policy](./Network_Security_Policy.md) |
+
+**Legend:**
+
+- 🟢 High: Strong applicability or consulting opportunity
+- 🟠 Medium: Moderate relevance or potential
+- 🟡 Low: Limited applicability
+- 🔴 Minimal: Not relevant to current operations
+
+#### **Enhanced Requirements for Critical Products**
+
+Critical products face significantly stricter requirements beyond Annex I essential cybersecurity requirements. The following table maps these enhanced obligations to Hack23 AB's readiness state and supporting policies.
+
+| CRA Article & Requirement | Requirement Summary | Hack23 Readiness Assessment | Supporting ISMS Policies | Implementation Status |
+|--------------------------|---------------------|----------------------------|-------------------------|---------------------|
+| **Art. 6(2) + Annex I § 1.8** Enhanced Vulnerability Handling | 24-hour notification for actively exploited critical vulnerabilities; coordinated disclosure with CERT-EU | 🟢 Ready: [Vulnerability Management](./Vulnerability_Management.md) defines incident response timelines; SECURITY.md in all repos | [🔍 Vulnerability Management](./Vulnerability_Management.md) • [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 6(3) + Annex I § 1.10** Comprehensive SBOM Requirements | Machine-readable SBOM (SPDX/CycloneDX); full dependency tree; supply chain transparency; vulnerability status | 🟢 Ready: SBOM generation in CI/CD pipelines; SLSA provenance attestations | [🔓 Open Source Policy](./Open_Source_Policy.md) • [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 6(4)** EU Cybersecurity Certification | Mandatory certification under EUCC (European Common Criteria) or equivalent scheme recognized by ENISA | 🟡 Planned: External certification process; not required for current non-commercial OSS products | [🛡️ CRA Conformity Assessment Process](./CRA_Conformity_Assessment_Process.md) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() |
+| **Art. 6(5)** Third-Party Conformity Assessment | Class I products require notified body assessment; Class II self-assessment with enhanced documentation | 🟡 N/A: Current products are Standard classification; consulting readiness for client support | [🛡️ CRA Conformity Assessment Process](./CRA_Conformity_Assessment_Process.md) • [🤝 Third Party Management](./Third_Party_Management.md) | [![Not Applicable](https://img.shields.io/badge/Status-N/A-lightgrey?style=flat-square)]() |
+| **Art. 11(1)** Technical Documentation (Annex V) | Comprehensive technical file: architecture, risk assessments, test reports, conformity evidence | 🟢 Ready: SECURITY_ARCHITECTURE.md, THREAT_MODEL.md in all product repos | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) • [🎯 Threat Modeling](./Threat_Modeling.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 11(2)** Vulnerability Handling Documentation | Process documentation; disclosure timelines; incident response procedures; remediation SLAs | 🟢 Ready: Comprehensive vulnerability management framework with defined SLAs | [🔍 Vulnerability Management](./Vulnerability_Management.md) • [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 11(6)** Instructions for Secure Use | User documentation; secure configuration guidance; hardening recommendations; security best practices | 🟢 Ready: README.md security sections; deployment guides; configuration documentation in repos | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) • [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 14** Support Period Declaration | Minimum 5-year security update support for critical products; end-of-support transparency | 🟠 Partial: Long-term OSS maintenance commitment; no formal 5-year declaration yet | [📝 Change Management](./Change_Management.md) • [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) | [![Partial](https://img.shields.io/badge/Status-Partial-yellow?style=flat-square)]() |
+| **Art. 15** Continuous Monitoring & Updates | Proactive vulnerability monitoring; timely security updates; automated update mechanisms where feasible | 🟢 Ready: GitHub Dependabot; automated security scanning; CI/CD security gates | [📊 Security Metrics](./Security_Metrics.md) • [🔍 Vulnerability Management](./Vulnerability_Management.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 20** Market Surveillance Cooperation | Enhanced cooperation with national market surveillance authorities; incident reporting; compliance audits | 🟢 Ready: External stakeholder registry includes regulatory authorities; transparency commitment | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) • [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+| **Art. 54** Cybersecurity Incident Reporting | Report significant incidents to CSIRT/ENISA within 24 hours; provide detailed incident analysis | 🟢 Ready: Incident response plan with escalation procedures and external notification processes | [🚨 Incident Response Plan](./Incident_Response_Plan.md) • [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | [![Ready](https://img.shields.io/badge/Status-Ready-success?style=flat-square)]() |
+
+**Readiness Legend:**
+
+- 🟢 Ready: Policies and processes in place, evidence available
+- 🟠 Partial: Framework exists, additional work needed for full compliance
+- 🟡 Planned: Requirement acknowledged, implementation planned
+- 🔴 Not Ready: Significant gap requiring implementation
+
+#### **EU Cybersecurity Certification Schemes**
+
+Critical products under CRA Article 6(4) must obtain certification under EU cybersecurity certification schemes. The following schemes are recognized under the EU Cybersecurity Act (CSA):
+
+| Certification Scheme | Scope | Assurance Levels | Applicability to Hack23 Consulting | Status |
+|---------------------|-------|------------------|-----------------------------------|--------|
+| **EUCC (European Common Criteria)** | ICT products, processes, services | Basic, Substantial, High | Primary scheme for critical infrastructure products; applicable to identity systems, network equipment, OS | [![Recognized](https://img.shields.io/badge/Status-ENISA_Recognized-success?style=flat-square)]() |
+| **EUCS (EU Cloud Services)** | Cloud service providers | Basic, Substantial, High | Applicable for cloud-based critical products; relevant for SaaS security consulting | [![Proposed](https://img.shields.io/badge/Status-Proposed-yellow?style=flat-square)]() |
+| **Sectoral Schemes** | Domain-specific (e.g., 5G, IoT) | Varies by sector | Emerging schemes for industrial IoT, telecommunications, smart grids | [![Emerging](https://img.shields.io/badge/Status-Emerging-blue?style=flat-square)]() |
+
+**Hack23 AB Certification Readiness:**
+
+- **Current Status**: No EU certification required for non-commercial OSS products
+- **Consulting Capability**: Framework understanding enables client guidance through certification processes
+- **Future Preparation**: ISMS policies align with EUCC Basic/Substantial assurance level requirements
+- **Reference**: [🛡️ CRA Conformity Assessment Process](./CRA_Conformity_Assessment_Process.md) provides systematic assessment methodology adaptable to certification requirements
+
+#### **Consulting Service Positioning**
+
+Hack23 AB's comprehensive CRA Annex II readiness enables consulting services for clients developing critical products:
+
+**🎯 Target Client Scenarios:**
+
+1. **Identity & Access Management Vendors**: Supporting IAM platform providers in achieving CRA Class I(a) compliance
+2. **Network Equipment Manufacturers**: Assisting firewall, IDS/IPS vendors with Class I(c) security documentation
+3. **Cloud Platform Providers**: Guiding hypervisor and container platform security for Class I(e) compliance
+4. **Remote Access Tool Vendors**: Supporting enterprise remote desktop and support tool compliance (Class II(c))
+5. **Industrial Security**: Consulting for SCADA/ICS vendors entering EU markets (Class II(a))
+
+**💼 Service Offerings:**
+
+- CRA gap analysis and conformity roadmaps
+- Technical documentation preparation (Annex V)
+- SBOM generation and supply chain transparency implementation
+- Vulnerability management process establishment
+- EU cybersecurity certification scheme guidance (EUCC)
+- Notified body assessment preparation support
+
+**🔗 Evidence of Expertise:**
+
+- 3 completed CRA conformity assessments (Standard classification)
+- Comprehensive ISMS framework aligned with ISO 27001, NIST CSF 2.0, CIS Controls v8.1
+- Public transparency: All security documentation available for client review
+- Technical implementation: SLSA 3, SBOM generation, security scanning in CI/CD
+
 ### **Product Conformity Assessments**
 
 The following products have completed CRA conformity assessments, demonstrating compliance with essential requirements.
@@ -271,6 +370,538 @@ The following products have completed CRA conformity assessments, demonstrating 
 
 ---
 
+## 🛡️ **SOC 2 Type II Trust Services Criteria**
+
+### Overview
+
+SOC 2 Type II certification demonstrates operational effectiveness of security, availability, processing integrity, confidentiality, and privacy controls over time. This mapping shows how Hack23 AB's ISMS controls align with the **2017 Trust Services Criteria** established by the American Institute of Certified Public Accountants (AICPA).
+
+**SOC 2 Applicability:**
+- **CIA (Citizen Intelligence Agency)** - Political transparency SaaS platform
+- **Black Trigram** - Educational gaming SaaS
+- **CIA Compliance Manager** - Compliance assessment SaaS
+- **Cloud Consulting Services** - AWS-based security consulting
+
+**Operational Effectiveness Evidence:**
+All control implementations include frequency of execution, monitoring mechanisms, and historical effectiveness data demonstrating controls operate consistently over time (Type II requirement).
+
+```mermaid
+mindmap
+  root((🛡️ SOC 2 TSC))
+    (🔐 Common Criteria)
+      CC1 COSO Principles
+      CC2 Communication
+      CC3 Risk Assessment
+      CC4 Monitoring
+      CC5 Control Activities
+      CC6 Logical Access
+      CC7 System Operations
+      CC8 Change Management
+      CC9 Risk Mitigation
+    (⚡ Availability)
+      A1.1 Availability Commitments
+      A1.2 System Monitoring
+      A1.3 Incident Management
+    (📊 Processing Integrity)
+      PI1.1 Processing Commitments
+      PI1.2 Quality Monitoring
+      PI1.3 Data Processing Controls
+    (🔒 Confidentiality)
+      C1.1 Confidentiality Commitments
+      C1.2 Confidentiality Controls
+    (🔐 Privacy)
+      P1.0 Notice
+      P2.0 Choice & Consent
+      P3.0 Collection
+      P4.0 Use & Retention
+      P5.0 Access
+      P6.0 Disclosure
+      P7.0 Quality
+      P8.0 Monitoring
+```
+
+---
+
+### 🔐 **CC1-CC5: Common Criteria - COSO Internal Control Principles**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **CC1.1** | COSO Principle 1 - Integrity & Ethical Values | [🔐 Information Security Policy](./Information_Security_Policy.md) | CEO commitment reviewed annually; demonstrated through transparent ISMS publication | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1 | GV.OV-01 |
+| **CC1.2** | COSO Principle 2 - Board Independence | CEO oversight as sole director; external stakeholder reviews per [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | Quarterly stakeholder engagement; annual external consultation documented | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.4 | GV.OV-01 |
+| **CC1.3** | COSO Principle 3 - Organizational Structure & Authority | [🔐 Information Security Policy § Roles](./Information_Security_Policy.md#-roles-and-responsibilities) | CEO maintains comprehensive role documentation; reviewed annually | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.2 | GV.RR-02 |
+| **CC1.4** | COSO Principle 4 - Competence & Development | Professional certifications maintained; continuous learning via AWS/security training | Training hours tracked quarterly; certifications renewed per schedule | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.6.3 | PR.AT-01 |
+| **CC1.5** | COSO Principle 5 - Accountability | CEO accountable for all [📉 Risk Register](./Risk_Register.md) risks | Risk ownership reviewed quarterly; mitigation actions tracked monthly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.4 | GV.RR-02 |
+| **CC2.1** | COSO Principle 13 - Relevant Information | [📊 Security Metrics](./Security_Metrics.md) provide continuous security posture visibility | Metrics collected daily; dashboards reviewed weekly; trends analyzed monthly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.16 | DE.CM-01 |
+| **CC2.2** | COSO Principle 14 - Internal Communication | Security communications via ISMS documentation and [🚨 Incident Response Plan](./Incident_Response_Plan.md) | Policy updates communicated immediately; quarterly ISMS reviews | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.24 | GV.PO-01 |
+| **CC2.3** | COSO Principle 15 - External Communication | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) + public ISMS transparency | Stakeholder communications tracked; regulatory contacts maintained; quarterly engagement | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.5 | RS.CO-01 |
+| **CC3.1** | COSO Principle 6 - Objectives & Risk | [📉 Risk Register](./Risk_Register.md) aligns risks to business objectives | Risk register updated monthly; business impact assessed quarterly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.31 | ID.RA-01 |
+| **CC3.2** | COSO Principle 7 - Risk Identification & Analysis | [📉 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) | Risk assessments conducted quarterly; threat intelligence reviewed weekly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.7 | ID.RA-04 |
+| **CC3.3** | COSO Principle 8 - Fraud Risk | Fraud risks documented in [📉 Risk Register](./Risk_Register.md); financial controls via Bokio | Financial reconciliation monthly; fraud indicators monitored continuously | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.31 | ID.RA-03 |
+| **CC3.4** | COSO Principle 9 - Change Risk | [📝 Change Management](./Change_Management.md) assesses change-related risks | Change risk assessed for every change; impacts evaluated pre-implementation | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.32 | PR.MA-01 |
+| **CC4.1** | COSO Principle 16 - Ongoing & Separate Evaluations | [📊 Security Metrics § Compliance Monitoring](./Security_Metrics.md#-compliance-monitoring-metrics) | Automated monitoring continuous; manual reviews quarterly; external audits planned | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.36 | GV.IM-02 |
+| **CC4.2** | COSO Principle 17 - Deficiency Evaluation & Communication | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | Control deficiencies tracked; remediation plans created within 48hrs; reviewed monthly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.27 | RS.IM-01 |
+| **CC5.1** | COSO Principle 10 - Control Activities | Comprehensive control catalog across [🔐 Information Security Policy](./Information_Security_Policy.md) | Controls executed per policy schedules; effectiveness reviewed quarterly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.37 | PR.IP-01 |
+| **CC5.2** | COSO Principle 11 - Technology Controls | [🌐 Network Security Policy](./Network_Security_Policy.md) + [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | Technology controls automated where possible; manual controls executed per schedule | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.20 | PR.PT-04 |
+| **CC5.3** | COSO Principle 12 - Policies & Procedures | All ISMS policies per [STYLE_GUIDE.md](./STYLE_GUIDE.md) standards | Policies reviewed annually; procedures updated as needed; changes tracked in git | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1 | GV.PO-01 |
+
+---
+
+### 🔐 **CC6: Common Criteria - Logical and Physical Access Controls**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **CC6.1** | Logical & physical access controls restrict access to authorized users | [🔑 Access Control Policy](./Access_Control_Policy.md) | Access reviews conducted quarterly; MFA enforced on all accounts; authentication logs monitored daily | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.15 | PR.AC-01 |
+| **CC6.2** | New access provisioned & authorized | [🔑 Access Control Policy](./Access_Control_Policy.md) | Access requests documented; approval required pre-provisioning; provisioning logs retained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.16 | PR.AC-02 |
+| **CC6.3** | Access modifications & deactivations processed | [🔑 Access Control Policy](./Access_Control_Policy.md) | Access changes logged; deactivation within 24hrs of role change; quarterly access reviews | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.18 | PR.AC-04 |
+| **CC6.4** | Physical access restricted to authorized personnel | [🏠 Physical Security Policy § Home Office](./Physical_Security_Policy.md#-home-office-physical-security) | Home office security controls documented; cloud infrastructure via AWS SOC 2 certified datacenters | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.3 | PR.PS-01 |
+| **CC6.5** | Physical access points removed timely | [💻 Asset Register § Asset Return](./Asset_Register.md#52-asset-return-and-termination-procedures) | Device access removed upon termination; physical media securely disposed per procedures | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.6.5 | PR.AC-04 |
+| **CC6.6** | Logical access removed timely | [🔑 Access Control Policy](./Access_Control_Policy.md) | Access revocation within 24hrs; automated alerts for dormant accounts; quarterly cleanup | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.11 | PR.AC-04 |
+| **CC6.7** | Logical & physical access restricted to authorized credentials | [🔑 Access Control Policy](./Access_Control_Policy.md) | MFA enforced 100%; password policies automated; credential rotation monitored | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.17 | PR.AC-01 |
+| **CC6.8** | Segregation of duties & authorization workflows | [🔐 Information Security Policy § Roles](./Information_Security_Policy.md#-roles-and-responsibilities) | Role separation documented; critical actions require CEO approval; audit trails maintained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.3 | PR.AC-03 |
+
+---
+
+### 🔐 **CC7: Common Criteria - System Operations (Monitoring, Change Mgmt, Risk Mitigation)**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **CC7.1** | Threats & vulnerabilities detected & mitigated | [🔍 Vulnerability Management](./Vulnerability_Management.md) | SAST/SCA/DAST scans on every commit; vulnerabilities remediated per SLA (Critical: 24hrs) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.8 | DE.CM-08 |
+| **CC7.2** | Security incidents identified, reported, investigated | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | GuardDuty + Security Hub monitored 24/7; incidents classified per severity; response per runbooks | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.24 | RS.AN-01 |
+| **CC7.3** | System activities monitored for anomalies | [📊 Security Metrics](./Security_Metrics.md) + AWS CloudWatch | CloudWatch alarms configured; anomaly detection via GuardDuty; logs analyzed continuously | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.16 | DE.CM-01 |
+| **CC7.4** | Environmental threats & disasters planned for | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) + [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | BC/DR plans tested annually; RTO/RPO targets defined; multi-AZ AWS deployment | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.29 | RC.RP-01 |
+| **CC7.5** | Capacity monitored & managed | [💻 Asset Register § AWS Monitoring](./Asset_Register.md#monitoring--analytics-services-4-services) | AWS CloudWatch monitors capacity; autoscaling configured; capacity reviews quarterly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.6 | PR.IP-01 |
+
+---
+
+### 🔐 **CC8: Common Criteria - Change Management**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **CC8.1** | Changes authorized, tested, documented, deployed | [📝 Change Management](./Change_Management.md) | All changes via pull requests; peer review required; automated testing; deployment logs retained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.32 | PR.MA-01 |
+
+---
+
+### 🔐 **CC9: Common Criteria - Risk Mitigation**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **CC9.1** | Risk mitigation activities designed & deployed | [📉 Risk Register](./Risk_Register.md) + Risk Treatment Plans | Risk treatments implemented per priority; mitigation effectiveness reviewed quarterly; residual risk tracked | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.9 | ID.RA-05 |
+| **CC9.2** | Vendors & business partners evaluated for risks | [🤝 Third Party Management](./Third_Party_Management.md) + [🔗 SUPPLIER](./SUPPLIER.md) | Suppliers classified by criticality; security assessments conducted; performance monitored quarterly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.19 | GV.SC-01 |
+
+---
+
+### ⚡ **A1: Availability**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **A1.1** | Availability commitments in SLAs & system design | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | RTO ≤4hrs, RPO ≤1hr for critical systems; multi-AZ deployment; availability monitored 24/7 | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.30 | RC.RP-01 |
+| **A1.2** | System capacity & performance monitored | [💻 Asset Register § Monitoring Services](./Asset_Register.md#monitoring--analytics-services-4-services) | CloudWatch dashboards; performance metrics collected every 1min; alerts for threshold breaches | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.6 | DE.CM-01 |
+| **A1.3** | System incidents impact availability assessed & addressed | [🚨 Incident Response Plan § Classification & Response Framework](./Incident_Response_Plan.md#-incident-classification--response-framework) | Availability impact classified (Critical/High/Medium/Low); response per severity; post-incident reviews | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.25 | RS.AN-01 |
+| **A1.4** | System components critical to availability backed up | [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) | Automated daily backups; cross-region replication; immutable backup vaults; restoration tested quarterly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.13 | PR.DS-05 |
+| **A1.5** | Environmental protections for system availability | AWS datacenter environmental controls (inherited) + [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | AWS SOC 2 certified facilities; DRP tested annually; multi-region failover capability | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.5 | RC.RP-01 |
+
+---
+
+### 📊 **PI1: Processing Integrity**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **PI1.1** | Processing commitments in agreements | Service agreements specify processing requirements; [🛠️ Secure Development Policy](./Secure_Development_Policy.md) ensures data integrity | Processing requirements documented; accuracy validated per test plans; monitoring continuous | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.8 | PR.IP-01 |
+| **PI1.2** | Processing inputs authorized & complete | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | Input validation on all endpoints; schema validation enforced; rejected inputs logged | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.26 | PR.DS-07 |
+| **PI1.3** | Processing complete, accurate, timely | Application audit logging via Javers; data quality monitored; processing errors tracked | Processing completeness verified; error rates monitored; data quality dashboards reviewed weekly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.26 | PR.IP-01 |
+| **PI1.4** | Processing outputs complete, accurate, timely | Unit test coverage ≥80%; E2E testing validates outputs; [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | Test results published; coverage tracked per commit; output validation automated | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.29 | PR.DS-07 |
+| **PI1.5** | Processing errors detected, corrected, reported | Error handling per [🚨 Incident Response Plan](./Incident_Response_Plan.md); application error logs monitored | Application errors logged; alerts for error rate thresholds; root cause analysis for recurring errors | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.25 | DE.CM-01 |
+
+---
+
+### 🔒 **C1: Confidentiality**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **C1.1** | Confidentiality commitments in agreements | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) + NDAs with customers/partners | Data classifications defined; handling requirements per class; NDA registry maintained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.12 | PR.DS-01 |
+| **C1.2** | Confidential information protected at rest & in transit | [🔒 Cryptography Policy](./Cryptography_Policy.md) + [🌐 Network Security Policy](./Network_Security_Policy.md) | AES-256 encryption at rest; TLS 1.3 in transit; key rotation automated; encryption verified continuously | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.24 | PR.DS-01 |
+| **C1.3** | Confidential information disposed securely | [🏷️ Data Classification § Retention & Disposal](./Data_Classification_Policy.md#%EF%B8%8F-data-retention-and-disposal) | Secure deletion procedures; disposal logs maintained; media sanitization per NIST 800-88 | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.10 | PR.DS-05 |
+| **C1.4** | Confidential information access restricted | [🔑 Access Control Policy](./Access_Control_Policy.md) + [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | Access control per data classification; need-to-know enforced; access logs reviewed monthly | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.3 | PR.AC-02 |
+| **C1.5** | Confidentiality breaches detected & addressed | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | DLP monitoring continuous; breach detection automated; notification per GDPR (72hrs); post-breach reviews | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.26 | RS.MI-01 |
+
+---
+
+### 🔐 **P1-P8: Privacy**
+
+| SOC 2 TSC Ref | Trust Services Criterion | Hack23 Policy/Evidence | Operational Effectiveness | Status | ISO 27001 | NIST CSF 2.0 |
+|---------------|-------------------------|------------------------|---------------------------|--------|-----------|--------------|
+| **P1.0** | Notice: Privacy notice provided to data subjects | [🔐 Privacy Policy](./Privacy_Policy.md) + privacy notices on all services | Privacy policies published; updated when processing changes; notice acknowledgment tracked | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P2.0** | Choice & Consent: Explicit consent obtained for data processing | [🔐 Privacy Policy § Your Rights Under GDPR](./Privacy_Policy.md#-your-rights-under-gdpr) + consent management in applications | Consent captured per GDPR Article 7; consent withdrawal supported; audit trail maintained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P3.0** | Collection: Personal data collected per privacy notice | [🏷️ Data Classification Policy § Privacy](./Data_Classification_Policy.md#-privacy--gdpr-compliance) | Data minimization enforced; collection logged; purpose limitation documented | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P3.1** | Sensitive personal data identified & protected | [🏷️ Data Classification Policy § Privacy Levels](./Data_Classification_Policy.md#-privacy--gdpr-compliance) | GDPR Article 9 special categories identified; enhanced protections applied; access restricted | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P3.2** | Personal data collected from third parties documented | [💻 Asset Register](./Asset_Register.md) | Third-party data sources documented; DPAs in place; data provenance tracked | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | GV.SC-02 |
+| **P4.0** | Use, Retention, Disposal: Personal data used, retained, disposed per notice | [🏷️ Data Classification Policy § Records Retention](./Data_Classification_Policy.md#-comprehensive-records-retention-matrix) | Retention periods enforced; automated deletion configured; disposal logs maintained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.33 | PR.DS-04 |
+| **P4.1** | Personal data retained per legal requirements | [🏷️ Data Classification Policy § Retention Matrix](./Data_Classification_Policy.md#-comprehensive-records-retention-matrix) | GDPR Article 17 compliance; legal hold processes; retention justified per basis | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.33 | PR.DS-04 |
+| **P4.2** | Personal data disposed securely per retention schedule | [🏷️ Data Classification § Disposal](./Data_Classification_Policy.md#%EF%B8%8F-data-retention-and-disposal) | Automated disposal workflows; cryptographic erasure for encrypted data; disposal verified | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.10 | PR.DS-05 |
+| **P5.0** | Access: Data subjects can access their personal data | [🔐 Privacy Policy § Your Rights Under GDPR](./Privacy_Policy.md#-your-rights-under-gdpr) | GDPR Article 15 access requests processed within 30 days; identity verification required; access logs maintained | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P5.1** | Data subjects can correct inaccurate personal data | [🔐 Privacy Policy § Your Rights Under GDPR](./Privacy_Policy.md#-your-rights-under-gdpr) | GDPR Article 16 rectification requests processed; corrections logged; notifications to third parties | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P6.0** | Disclosure: Personal data disclosed to third parties per notice | [🤝 Third Party Management](./Third_Party_Management.md) | DPAs with all processors; sub-processor register maintained; disclosure logged | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.20 | GV.SC-02 |
+| **P6.1** | Personal data transferred internationally with adequate protection | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) + AWS region selection | EU/EEA data processing; SCCs with non-EEA processors; transfer impact assessments | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.14 | PR.DS-02 |
+| **P7.0** | Quality: Personal data maintained accurate & complete | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | Data quality validation; correction mechanisms; quality metrics monitored | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.34 | PR.DS-01 |
+| **P8.0** | Monitoring: Privacy program compliance monitored | [📊 Security Metrics](./Security_Metrics.md) + GDPR compliance audits | Privacy controls reviewed quarterly; data breach monitoring continuous; DPO consultation planned | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.36 | GV.IM-02 |
+
+---
+
+### 📊 **SOC 2 Compliance Summary**
+
+| Trust Services Category | Criteria Mapped | Implementation Status | Operational Effectiveness | Audit Readiness |
+|------------------------|-----------------|----------------------|---------------------------|-----------------|
+| **CC1-CC5: COSO Principles** | 17 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Continuous monitoring + quarterly reviews | Ready for Type II audit |
+| **CC6: Logical & Physical Access** | 8 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | MFA enforced + quarterly access reviews | Ready for Type II audit |
+| **CC7: System Operations** | 5 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | 24/7 monitoring + automated scanning | Ready for Type II audit |
+| **CC8: Change Management** | 1 criterion | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | All changes via PR + automated testing | Ready for Type II audit |
+| **CC9: Risk Mitigation** | 2 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Quarterly risk reviews + supplier assessments | Ready for Type II audit |
+| **A1: Availability** | 5 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Multi-AZ deployment + quarterly DR testing | Ready for Type II audit |
+| **PI1: Processing Integrity** | 5 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | 80%+ test coverage + continuous validation | Ready for Type II audit |
+| **C1: Confidentiality** | 5 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | AES-256 + TLS 1.3 + access controls | Ready for Type II audit |
+| **P1-P8: Privacy** | 14 criteria | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | GDPR compliant + 30-day response SLA | Ready for Type II audit |
+| **TOTAL** | **62 criteria** | **100% Implemented** | **Type II evidence documented** | **Audit-ready** |
+
+**Type II Readiness Notes:**
+
+- **Observation Period:** 6-12 months of control operation required for Type II
+- **Evidence Collection:** Automated monitoring + quarterly manual reviews provide continuous evidence
+- **Exception Handling:** All exceptions documented in [🚨 Incident Response Plan](./Incident_Response_Plan.md)
+- **Audit Artifacts:** Logs retained per [🏷️ Data Classification § Retention](./Data_Classification_Policy.md#-comprehensive-records-retention-matrix)
+  (minimum 1 year)
+- **Management Representations:** CEO provides quarterly attestations to control effectiveness
+
+---
+
+## 🇪🇺 **NIS2 Directive (EU 2022/2555)**
+
+### **Overview**
+
+The **Network and Information Security Directive 2 (NIS2)** establishes cybersecurity requirements for essential and
+important entities across EU member states. While Hack23 AB may not be directly classified as a NIS2 entity,
+demonstrating NIS2 alignment provides significant value for:
+
+- **Client Services**: Many consulting clients ARE NIS2 entities requiring compliance support
+- **Supply Chain Position**: Potential classification as a "service provider" to NIS2 entities
+- **Market Differentiation**: Proactive compliance demonstrates security maturity
+- **Swedish Market**: MSB (Myndigheten för samhällsskydd och beredskap) transposition expected Q1 2025
+
+**Key NIS2 Timelines:**
+
+- **Directive Effective:** October 17, 2024
+- **Member State Transposition Deadline:** October 17, 2024
+- **Full Enforcement:** October 17, 2025
+- **Swedish Implementation:** MSB regulations expected Q1 2025
+
+---
+
+### **Article 20: Governance Requirements**
+
+NIS2 Article 20 establishes management body responsibilities for cybersecurity risk management.
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Notes |
+|------------------|---------------------|------------------------|--------|-------|
+| **Art. 20(1)** | Management body approves cybersecurity risk-management measures | [🔐 Information Security Policy](./Information_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | CEO (management body) reviews and approves all security policies quarterly |
+| **Art. 20(2)(a)** | Oversight of cybersecurity risk management | [📊 Security Metrics](./Security_Metrics.md) • [📉 Risk Register](./Risk_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Quarterly risk reviews with CEO attestations |
+| **Art. 20(2)(b)** | Training for management members | [✅ Acceptable Use Policy § Training](./Acceptable_Use_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | CEO maintains current security certifications and training |
+| **Art. 20(2)(c)** | Members participate in security training | [✅ Acceptable Use Policy § Training](./Acceptable_Use_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | All personnel complete security awareness training |
+| **Art. 20(2)(d)** | Management evaluates effectiveness | [📊 Security Metrics](./Security_Metrics.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Quarterly security metrics review and effectiveness assessment |
+
+**ISO 27001 Mapping:** A.5.1, A.5.2, A.5.4  
+**NIST CSF 2.0 Mapping:** GV.OV-01, GV.PO-01, GV.RR-02  
+**CIS Controls Mapping:** CIS 14.1, CIS 17.1
+
+---
+
+### **Article 21: Cybersecurity Risk Management Measures**
+
+NIS2 Article 21(2) establishes 10 core cybersecurity risk management measures that entities must implement.
+
+#### **Art. 21(2)(a): Risk Analysis and Information System Security Policies**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(a) - Risk Analysis** | Policies on risk analysis | [📉 Risk Register](./Risk_Register.md) • [🎯 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.7, A.8.2 <br> **NIST CSF:** ID.RA-01 to ID.RA-06 <br> **CIS:** 7.1 |
+| **Art. 21(2)(a) - Threat Modeling** | Threat intelligence integration | [🎯 Threat Modeling](./Threat_Modeling.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | STRIDE methodology, MITRE ATT&CK mapping |
+| **Art. 21(2)(a) - Security Policies** | Information system security policies | [🔐 Information Security Policy](./Information_Security_Policy.md) • [🌐 Network Security Policy](./Network_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.1, A.8.1 <br> **NIST CSF:** GV.PO-01 <br> **CIS:** 14.1 |
+
+#### **Art. 21(2)(b): Incident Handling**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(b) - Incident Response** | Policies on incident handling | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.24, A.5.25, A.5.26 <br> **NIST CSF:** RS.AN-01 to RS.CO-05 <br> **CIS:** 17.1-17.9 |
+| **Art. 21(2)(b) - Detection** | Security event detection and logging | [📊 Security Metrics § Monitoring](./Security_Metrics.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | CloudWatch, GuardDuty, Security Hub integration |
+| **Art. 21(2)(b) - CSIRT Contact** | Contact with CSIRT-SE | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | CSIRT-SE, PTS, MSB contacts established |
+
+#### **Art. 21(2)(c): Business Continuity, Crisis Management, and Disaster Recovery**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(c) - Business Continuity** | Business continuity planning | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.29, A.5.30 <br> **NIST CSF:** RC.RP-01 <br> **CIS:** N/A |
+| **Art. 21(2)(c) - Disaster Recovery** | Disaster recovery procedures | [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.8.13, A.8.14 <br> **NIST CSF:** RC.CO-03 <br> **CIS:** 11.1-11.5 |
+| **Art. 21(2)(c) - Crisis Management** | Crisis communication and management | [🚨 Incident Response Plan § Communication](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Escalation procedures, stakeholder communication |
+| **Art. 21(2)(c) - RTO/RPO** | Recovery objectives defined | [🏷️ Classification Framework](./CLASSIFICATION.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | RTO/RPO mapped to asset criticality levels |
+
+#### **Art. 21(2)(d): Supply Chain Security**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(d) - Supplier Security** | Supply chain security measures | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.19, A.5.20, A.5.21 <br> **NIST CSF:** GV.SC-01 to GV.SC-10 <br> **CIS:** 15.1-15.7 |
+| **Art. 21(2)(d) - Supplier Risk** | Third-party risk assessment | [🔗 SUPPLIER](./SUPPLIER.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Supplier classification and security posture tracking |
+| **Art. 21(2)(d) - Contracts** | Security requirements in contracts | [🤝 Third Party Management § Contracts](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Security clauses, SLA requirements, audit rights |
+
+#### **Art. 21(2)(e): Security in Acquisition, Development, and Maintenance**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(e) - Secure Development** | Security in system development | [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.8, A.8.25-A.8.29 <br> **NIST CSF:** PR.IP-01, PR.PS-01 <br> **CIS:** 16.1-16.14 |
+| **Art. 21(2)(e) - SDLC** | Secure SDLC implementation | [🛠️ Secure Development Policy § SDLC](./Secure_Development_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | DevSecOps, security testing, code review |
+| **Art. 21(2)(e) - Acquisition** | Security in procurement | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Vendor security assessments |
+| **Art. 21(2)(e) - Vulnerability Testing** | Security testing requirements | [🔍 Vulnerability Management](./Vulnerability_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | SAST, SCA, DAST, penetration testing |
+
+#### **Art. 21(2)(f): Assessment and Testing of Risk Management Effectiveness**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(f) - Effectiveness** | Evaluate risk management effectiveness | [📊 Security Metrics](./Security_Metrics.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.1, A.8.8 <br> **NIST CSF:** GV.OV-03 <br> **CIS:** 18.1-18.5 |
+| **Art. 21(2)(f) - Testing** | Regular security testing and audits | [🔍 Vulnerability Management § Testing](./Vulnerability_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Continuous scanning, quarterly penetration testing |
+| **Art. 21(2)(f) - Metrics** | Security performance measurement | [📊 Security Metrics § KPIs](./Security_Metrics.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | 15+ security KPIs tracked and reported |
+
+#### **Art. 21(2)(g): Cryptography and Encryption**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(g) - Cryptography** | Cryptographic policies and procedures | [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.8.24 <br> **NIST CSF:** PR.DS-01, PR.DS-02, PR.DS-05 <br> **CIS:** 3.6, 3.11 |
+| **Art. 21(2)(g) - Data at Rest** | Encryption for data at rest | [🔒 Cryptography Policy § Storage](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | AES-256 encryption required |
+| **Art. 21(2)(g) - Data in Transit** | Encryption for data in transit | [🌐 Network Security Policy § TLS](./Network_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | TLS 1.3 preferred, TLS 1.2 minimum |
+| **Art. 21(2)(g) - Key Management** | Cryptographic key management | [🔒 Cryptography Policy § Key Mgmt](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | AWS KMS integration, key rotation |
+
+#### **Art. 21(2)(h): Human Resources Security, Access Control, and Asset Management**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(h) - HR Security** | Personnel security policies | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.6.1-A.6.8 <br> **NIST CSF:** PR.AC-01 <br> **CIS:** 14.1-14.9 |
+| **Art. 21(2)(h) - Access Control** | Access control policies | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.15-A.5.18, A.8.2-A.8.5 <br> **NIST CSF:** PR.AC-01 to PR.AC-07 <br> **CIS:** 5.1-5.6, 6.1-6.8 |
+| **Art. 21(2)(h) - Asset Management** | Asset inventory and management | [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.9, A.5.10 <br> **NIST CSF:** ID.AM-01 to ID.AM-06 <br> **CIS:** 1.1-1.5, 2.1-2.8 |
+| **Art. 21(2)(h) - Privileged Access** | Privileged access management | [🔑 Access Control Policy § PAM](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | MFA enforced, quarterly access reviews |
+
+#### **Art. 21(2)(i): Multi-Factor Authentication and Secure Communications**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(i) - MFA** | Multi-factor authentication policies | [🔑 Access Control Policy § MFA](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.17, A.5.18 <br> **NIST CSF:** PR.AC-01 <br> **CIS:** 6.3, 6.5 |
+| **Art. 21(2)(i) - Secure Comms** | Secure voice, video, text communications | [🌐 Network Security Policy § Communications](./Network_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.14 <br> **NIST CSF:** PR.DS-02 <br> **CIS:** 3.10 |
+| **Art. 21(2)(i) - Email Security** | Secure electronic communication systems | [🌐 Network Security Policy § Email](./Network_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | SPF, DKIM, DMARC, MTA-STS enforced |
+
+#### **Art. 21(2)(j): Emergency Procedures**
+
+| NIS2 Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | Cross-Reference |
+|------------------|---------------------|------------------------|--------|-----------------|
+| **Art. 21(2)(j) - Emergency Procedures** | Secured emergency communication systems | [🚨 Incident Response Plan § Emergency](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | **ISO 27001:** A.5.24, A.5.29 <br> **NIST CSF:** RS.CO-02, RS.CO-04 <br> **CIS:** 17.7 |
+| **Art. 21(2)(j) - Out-of-Band** | Alternative communication channels | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Mobile, email, emergency contact lists |
+| **Art. 21(2)(j) - Crisis Comms** | Crisis communication procedures | [🚨 Incident Response Plan § Communication](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Escalation matrix, stakeholder notification |
+
+---
+
+### **Article 23: Incident Reporting Obligations**
+
+NIS2 Article 23 establishes mandatory incident notification timelines for significant cybersecurity incidents.
+
+#### **Reporting Timelines**
+
+| NIS2 Requirement | Timeline | Requirement Summary | Hack23 Policy/Evidence | Status |
+|------------------|----------|---------------------|------------------------|--------|
+| **Art. 23(4) - Early Warning** | **≤ 24 hours** | Initial notification of significant incident | [🚨 Incident Response Plan § Notification](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() |
+| **Art. 23(5) - Incident Notification** | **≤ 72 hours** | Detailed incident report with initial assessment | [🚨 Incident Response Plan § Reporting](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() |
+| **Art. 23(6) - Final Report** | **≤ 1 month** | Final report with root cause and remediation | [🚨 Incident Response Plan § Post-Incident](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() |
+| **Art. 23(7) - Progress Updates** | **As requested** | Intermediate updates on request from authorities | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() |
+
+**Swedish Implementation (MSB):**
+
+- **National Authority:** MSB (Myndigheten för samhällsskydd och beredskap)
+- **CSIRT Contact:** CERT-SE / CSIRT-SE
+- **Telecom Incidents:** PTS (Post & Telecom Authority)
+- **Reporting Platform:** Expected Q1 2025 with MSB transposition
+- **Reference:** [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) maintains up-to-date
+  authority contacts
+
+#### **Incident Significance Criteria**
+
+Incidents requiring reporting under NIS2 Art. 23(3) include those that:
+
+| Criterion | Description | Hack23 Assessment Process |
+|-----------|-------------|---------------------------|
+| **Service Disruption** | Caused or capable of causing severe operational disruption or financial losses | [🚨 Incident Response Plan § Classification](./Incident_Response_Plan.md) - Severity matrix includes service impact assessment |
+| **Users Affected** | Affected or capable of affecting other natural or legal persons | Impact assessment includes customer/stakeholder analysis |
+| **Material Damage** | Caused or capable of causing considerable material or immaterial damage | Business impact analysis per [🏷️ Classification Framework](./CLASSIFICATION.md) |
+
+**ISO 27001 Mapping:** A.5.24, A.5.25, A.5.26, A.5.28  
+**NIST CSF 2.0 Mapping:** RS.AN-01 to RS.AN-05, RS.CO-01 to RS.CO-05  
+**CIS Controls Mapping:** CIS 17.1-17.9
+
+---
+
+### **NIS2 Compliance Summary**
+
+| NIS2 Article | Requirements Mapped | Implementation Status | Swedish Transposition Status | Readiness Level |
+|--------------|--------------------|-----------------------|------------------------------|-----------------|
+| **Article 20: Governance** | 5 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | MSB guidance expected Q1 2025 | ✅ Compliant |
+| **Article 21(2)(a): Risk Analysis** | 3 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Aligned with Swedish national risk assessment | ✅ Compliant |
+| **Article 21(2)(b): Incident Handling** | 3 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | CSIRT-SE integration ready | ✅ Compliant |
+| **Article 21(2)(c): Business Continuity** | 4 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | MSB crisis management alignment | ✅ Compliant |
+| **Article 21(2)(d): Supply Chain** | 3 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Third-party risk management active | ✅ Compliant |
+| **Article 21(2)(e): Secure Development** | 4 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | DevSecOps implementation | ✅ Compliant |
+| **Article 21(2)(f): Effectiveness Testing** | 3 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Continuous security validation | ✅ Compliant |
+| **Article 21(2)(g): Cryptography** | 4 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Modern cryptography standards | ✅ Compliant |
+| **Article 21(2)(h): Access Control** | 4 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | MFA enforced, access governance | ✅ Compliant |
+| **Article 21(2)(i): MFA & Comms** | 3 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Secure communications infrastructure | ✅ Compliant |
+| **Article 21(2)(j): Emergency** | 3 requirements | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | Crisis communication ready | ✅ Compliant |
+| **Article 23: Incident Reporting** | 4 reporting timelines | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | 24h/72h/1-month procedures defined | ✅ Compliant |
+| **TOTAL** | **43 requirements** | **100% Implemented** | **Ready for MSB transposition** | **✅ NIS2 Ready** |
+
+**Key Strengths:**
+
+- ✅ **Comprehensive Coverage**: All Article 21 measures fully documented and implemented
+- ✅ **Authority Integration**: CSIRT-SE, MSB, PTS contacts established in
+  [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md)
+- ✅ **Incident Response**: 24h/72h/1-month reporting procedures operational
+- ✅ **Framework Alignment**: Full mapping to ISO 27001:2022, NIST CSF 2.0, CIS Controls v8.1
+- ✅ **Swedish Context**: Proactive monitoring of MSB transposition and national requirements
+- ✅ **Client Value**: Demonstrates NIS2 compliance capabilities for consulting services
+
+**Swedish Regulatory Context:**
+
+- **MSB (Myndigheten för samhällsskydd och beredskap):** Primary national authority for NIS2 implementation
+- **CERT-SE / CSIRT-SE:** National Computer Security Incident Response Team for coordination
+- **PTS (Post- och telestyrelsen):** Sector-specific authority for telecom/digital infrastructure
+- **Expected MSB Actions:** National transposition regulations, reporting platform, guidance documents (Q1 2025)
+- **Hack23 Monitoring:** Active monitoring of MSB consultations, draft regulations, and implementation guidance
+
+---
+
+## 🏥 **Health Insurance Portability and Accountability Act (HIPAA)**
+
+### **Overview**
+
+The Health Insurance Portability and Accountability Act (HIPAA) establishes U.S. national standards for protecting sensitive patient health information. While Hack23 AB is a Swedish company primarily governed by GDPR and Swedish law, this section demonstrates our capability to support healthcare sector clients and consulting engagements requiring HIPAA compliance understanding.
+
+**Current Applicability:** Hack23 AB does not currently process Protected Health Information (PHI) requiring HIPAA compliance. This mapping demonstrates consulting readiness and framework alignment for potential healthcare sector client engagements.
+
+**Framework Coverage:**
+- **Administrative Safeguards (45 CFR §164.308)** - Policies, procedures, and processes to manage PHI security
+- **Physical Safeguards (45 CFR §164.310)** - Physical measures to protect electronic information systems
+- **Technical Safeguards (45 CFR §164.312)** - Technology-based controls to protect PHI
+- **Organizational Requirements (45 CFR §164.314)** - Business Associate Agreements and related contracts
+- **Policies and Procedures (45 CFR §164.316)** - Documentation and compliance requirements
+
+### **Administrative Safeguards (45 CFR §164.308)**
+
+| HIPAA Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | ISO 27001 Mapping | NIST CSF 2.0 Mapping | CIS Controls v8.1 |
+|-------------------|---------------------|------------------------|--------|-------------------|----------------------|-------------------|
+| **§164.308(a)(1)(i)** | Security Management Process | [🔐 Information Security Policy](./Information_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1, A.5.2 | [![GV.PO-01](https://img.shields.io/badge/NIST-GV.PO--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-po/gv-po-01/) | [![CIS 14.1](https://img.shields.io/badge/CIS-14.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(1)(ii)(A)** | Risk Analysis | [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) • [📉 Risk Register](./Risk_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.2 | [![ID.RA-01](https://img.shields.io/badge/NIST-ID.RA--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/id/id-ra/id-ra-01/) | [![CIS 18.1](https://img.shields.io/badge/CIS-18.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(1)(ii)(B)** | Risk Management | [📉 Risk Register](./Risk_Register.md) • [🔍 Vulnerability Management](./Vulnerability_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.2 | [![ID.RA-02](https://img.shields.io/badge/NIST-ID.RA--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/id/id-ra/id-ra-02/) | [![CIS 7.1](https://img.shields.io/badge/CIS-7.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(1)(ii)(C)** | Sanction Policy | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.6.4 | [![GV.RR-03](https://img.shields.io/badge/NIST-GV.RR--03-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-rr/gv-rr-03/) | [![CIS 14.3](https://img.shields.io/badge/CIS-14.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(1)(ii)(D)** | Information System Activity Review | [📊 Security Metrics](./Security_Metrics.md) • [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.16 | [![DE.CM-01](https://img.shields.io/badge/NIST-DE.CM--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/de/de-cm/de-cm-01/) | [![CIS 8.2](https://img.shields.io/badge/CIS-8.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(2)** | Assigned Security Responsibility | [🔐 Information Security Policy § Roles](./Information_Security_Policy.md#-roles-and-responsibilities) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.2 | [![GV.RR-02](https://img.shields.io/badge/NIST-GV.RR--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-rr/gv-rr-02/) | [![CIS 14.3](https://img.shields.io/badge/CIS-14.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(3)(i)** | Workforce Security | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.6.1, A.6.2 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 5.1](https://img.shields.io/badge/CIS-5.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(3)(ii)(A)** | Authorization and/or Supervision | [🔑 Access Control Policy § Monitoring & Compliance](./Access_Control_Policy.md#-access-monitoring--compliance) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.18 | [![PR.AC-04](https://img.shields.io/badge/NIST-PR.AC--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-04/) | [![CIS 5.4](https://img.shields.io/badge/CIS-5.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(3)(ii)(B)** | Workforce Clearance Procedure | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.16 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 6.1](https://img.shields.io/badge/CIS-6.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(3)(ii)(C)** | Termination Procedures | [💻 Asset Register § Asset Return](./Asset_Register.md#52-asset-return-and-termination-procedures) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.11 | [![PR.AC-04](https://img.shields.io/badge/NIST-PR.AC--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-04/) | [![CIS 5.6](https://img.shields.io/badge/CIS-5.6-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(4)(i)** | Information Access Management | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.15 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 6.1](https://img.shields.io/badge/CIS-6.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(4)(ii)(B)** | Access Authorization | [🔑 Access Control Policy § Monitoring & Compliance](./Access_Control_Policy.md#-access-monitoring--compliance) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.18 | [![PR.AC-04](https://img.shields.io/badge/NIST-PR.AC--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-04/) | [![CIS 6.1](https://img.shields.io/badge/CIS-6.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(4)(ii)(C)** | Access Establishment and Modification | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.16 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 5.4](https://img.shields.io/badge/CIS-5.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(5)(i)** | Security Awareness and Training | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.6.3 | [![PR.AT-01](https://img.shields.io/badge/NIST-PR.AT--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-at/pr-at-01/) | [![CIS 14.1](https://img.shields.io/badge/CIS-14.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(5)(ii)(A)** | Security Reminders | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.6.3 | [![PR.AT-01](https://img.shields.io/badge/NIST-PR.AT--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-at/pr-at-01/) | [![CIS 14.2](https://img.shields.io/badge/CIS-14.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(5)(ii)(B)** | Protection from Malicious Software | [🔍 Vulnerability Management](./Vulnerability_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.7 | [![PR.DS-01](https://img.shields.io/badge/NIST-PR.DS--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-01/) | [![CIS 10.1](https://img.shields.io/badge/CIS-10.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(5)(ii)(C)** | Log-in Monitoring | [📊 Security Metrics](./Security_Metrics.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.15 | [![DE.CM-01](https://img.shields.io/badge/NIST-DE.CM--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/de/de-cm/de-cm-01/) | [![CIS 8.2](https://img.shields.io/badge/CIS-8.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(5)(ii)(D)** | Password Management | [🔑 Access Control Policy § MFA](./Access_Control_Policy.md#️-multi-factor-authentication-strategy) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.17 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 6.3](https://img.shields.io/badge/CIS-6.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(6)(i)** | Security Incident Procedures | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.24, A.5.25, A.5.26 | [![RS.AN-01](https://img.shields.io/badge/NIST-RS.AN--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/rs/rs-an/rs-an-01/) | [![CIS 17.1](https://img.shields.io/badge/CIS-17.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(6)(ii)** | Response and Reporting | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.26 | [![RS.CO-02](https://img.shields.io/badge/NIST-RS.CO--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/rs/rs-co/rs-co-02/) | [![CIS 17.2](https://img.shields.io/badge/CIS-17.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(7)(i)** | Contingency Plan | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.29, A.5.30 | [![PR.IP-09](https://img.shields.io/badge/NIST-PR.IP--09-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ip/pr-ip-09/) | [![CIS 11.1](https://img.shields.io/badge/CIS-11.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(7)(ii)(A)** | Data Backup Plan | [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.13 | [![PR.IP-04](https://img.shields.io/badge/NIST-PR.IP--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ip/pr-ip-04/) | [![CIS 11.2](https://img.shields.io/badge/CIS-11.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(7)(ii)(B)** | Disaster Recovery Plan | [🌪️ Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.30 | [![RC.RP-01](https://img.shields.io/badge/NIST-RC.RP--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/rc/rc-rp/rc-rp-01/) | [![CIS 11.5](https://img.shields.io/badge/CIS-11.5-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(7)(ii)(C)** | Emergency Mode Operation Plan | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.29 | [![PR.IP-09](https://img.shields.io/badge/NIST-PR.IP--09-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ip/pr-ip-09/) | [![CIS 11.1](https://img.shields.io/badge/CIS-11.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(7)(ii)(D)** | Testing and Revision Procedures | [🌪️ Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.30 | [![RC.RP-01](https://img.shields.io/badge/NIST-RC.RP--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/rc/rc-rp/rc-rp-01/) | [![CIS 11.5](https://img.shields.io/badge/CIS-11.5-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(7)(ii)(E)** | Applications and Data Criticality Analysis | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.12 | [![ID.AM-03](https://img.shields.io/badge/NIST-ID.AM--03-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/id/id-am/id-am-03/) | [![CIS 3.4](https://img.shields.io/badge/CIS-3.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(a)(8)** | Evaluation | [📊 Security Metrics](./Security_Metrics.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.37 | [![GV.IM-01](https://img.shields.io/badge/NIST-GV.IM--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-im/gv-im-01/) | [![CIS 18.2](https://img.shields.io/badge/CIS-18.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.308(b)(1)** | Business Associate Contracts | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.19, A.5.20 | [![GV.SC-02](https://img.shields.io/badge/NIST-GV.SC--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-02/) | [![CIS 15.4](https://img.shields.io/badge/CIS-15.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+
+### **Physical Safeguards (45 CFR §164.310)**
+
+| HIPAA Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | ISO 27001 Mapping | NIST CSF 2.0 Mapping | CIS Controls v8.1 |
+|-------------------|---------------------|------------------------|--------|-------------------|----------------------|-------------------|
+| **§164.310(a)(1)** | Facility Access Controls | [🏢 Physical Security Policy](./Physical_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.1, A.7.2 | [![PR.AC-02](https://img.shields.io/badge/NIST-PR.AC--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-02/) | [![CIS 12.1](https://img.shields.io/badge/CIS-12.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(a)(2)(i)** | Contingency Operations | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.13 | [![PR.IP-09](https://img.shields.io/badge/NIST-PR.IP--09-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ip/pr-ip-09/) | [![CIS 11.1](https://img.shields.io/badge/CIS-11.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(a)(2)(ii)** | Facility Security Plan | [🏢 Physical Security Policy](./Physical_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.2 | [![PR.AC-02](https://img.shields.io/badge/NIST-PR.AC--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-02/) | [![CIS 12.2](https://img.shields.io/badge/CIS-12.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(a)(2)(iii)** | Access Control and Validation Procedures | [🏢 Physical Security Policy](./Physical_Security_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.2 | [![PR.AC-02](https://img.shields.io/badge/NIST-PR.AC--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-02/) | [![CIS 12.3](https://img.shields.io/badge/CIS-12.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(a)(2)(iv)** | Maintenance Records | [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.14 | [![PR.MA-01](https://img.shields.io/badge/NIST-PR.MA--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ma/pr-ma-01/) | [![CIS 12.4](https://img.shields.io/badge/CIS-12.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(b)** | Workstation Use | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) • [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.7 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 4.1](https://img.shields.io/badge/CIS-4.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(c)** | Workstation Security | [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.7, A.7.8 | [![PR.DS-01](https://img.shields.io/badge/NIST-PR.DS--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-01/) | [![CIS 4.2](https://img.shields.io/badge/CIS-4.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(d)(1)** | Device and Media Controls | [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.11, A.7.14 | [![PR.DS-03](https://img.shields.io/badge/NIST-PR.DS--03-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-03/) | [![CIS 3.2](https://img.shields.io/badge/CIS-3.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(d)(2)(i)** | Disposal | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.10, A.7.14 | [![PR.DS-03](https://img.shields.io/badge/NIST-PR.DS--03-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-03/) | [![CIS 3.14](https://img.shields.io/badge/CIS-3.14-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(d)(2)(ii)** | Media Re-use | [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.7.14 | [![PR.DS-03](https://img.shields.io/badge/NIST-PR.DS--03-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-03/) | [![CIS 3.2](https://img.shields.io/badge/CIS-3.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(d)(2)(iii)** | Accountability | [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.9 | [![ID.AM-01](https://img.shields.io/badge/NIST-ID.AM--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/id/id-am/id-am-01/) | [![CIS 1.1](https://img.shields.io/badge/CIS-1.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.310(d)(2)(iv)** | Data Backup and Storage | [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.13 | [![PR.IP-04](https://img.shields.io/badge/NIST-PR.IP--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ip/pr-ip-04/) | [![CIS 11.2](https://img.shields.io/badge/CIS-11.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+
+### **Technical Safeguards (45 CFR §164.312)**
+
+| HIPAA Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | ISO 27001 Mapping | NIST CSF 2.0 Mapping | CIS Controls v8.1 |
+|-------------------|---------------------|------------------------|--------|-------------------|----------------------|-------------------|
+| **§164.312(a)(1)** | Access Control | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.15, A.5.16 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 6.1](https://img.shields.io/badge/CIS-6.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(a)(2)(i)** | Unique User Identification | [🔑 Access Control Policy § Architecture](./Access_Control_Policy.md#-access-control-architecture) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.16 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 5.1](https://img.shields.io/badge/CIS-5.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(a)(2)(ii)** | Emergency Access Procedure | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.29 | [![PR.IP-09](https://img.shields.io/badge/NIST-PR.IP--09-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ip/pr-ip-09/) | [![CIS 11.1](https://img.shields.io/badge/CIS-11.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(a)(2)(iii)** | Automatic Logoff | [🔑 Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.5 | [![PR.AC-07](https://img.shields.io/badge/NIST-PR.AC--07-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-07/) | [![CIS 4.3](https://img.shields.io/badge/CIS-4.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(a)(2)(iv)** | Encryption and Decryption | [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.24 | [![PR.DS-01](https://img.shields.io/badge/NIST-PR.DS--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-01/) | [![CIS 3.11](https://img.shields.io/badge/CIS-3.11-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(b)** | Audit Controls | [📊 Security Metrics](./Security_Metrics.md) • [💻 Asset Register](./Asset_Register.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.15 | [![DE.CM-01](https://img.shields.io/badge/NIST-DE.CM--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/de/de-cm/de-cm-01/) | [![CIS 8.2](https://img.shields.io/badge/CIS-8.2-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(c)(1)** | Integrity | [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.24 | [![PR.DS-06](https://img.shields.io/badge/NIST-PR.DS--06-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-06/) | [![CIS 3.14](https://img.shields.io/badge/CIS-3.14-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(c)(2)** | Mechanism to Authenticate ePHI | [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.24 | [![PR.DS-06](https://img.shields.io/badge/NIST-PR.DS--06-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-06/) | [![CIS 3.14](https://img.shields.io/badge/CIS-3.14-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(d)** | Person or Entity Authentication | [🔑 Access Control Policy § MFA](./Access_Control_Policy.md#️-multi-factor-authentication-strategy) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.17 | [![PR.AC-01](https://img.shields.io/badge/NIST-PR.AC--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ac/pr-ac-01/) | [![CIS 6.3](https://img.shields.io/badge/CIS-6.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(e)(1)** | Transmission Security | [🌐 Network Security Policy](./Network_Security_Policy.md) • [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.14, A.8.24 | [![PR.DS-02](https://img.shields.io/badge/NIST-PR.DS--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-02/) | [![CIS 3.10](https://img.shields.io/badge/CIS-3.10-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(e)(2)(i)** | Integrity Controls | [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.24 | [![PR.DS-06](https://img.shields.io/badge/NIST-PR.DS--06-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-06/) | [![CIS 3.10](https://img.shields.io/badge/CIS-3.10-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.312(e)(2)(ii)** | Encryption | [🔒 Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.8.24 | [![PR.DS-02](https://img.shields.io/badge/NIST-PR.DS--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-02/) | [![CIS 3.10](https://img.shields.io/badge/CIS-3.10-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+
+### **Organizational Requirements (45 CFR §164.314)**
+
+| HIPAA Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | ISO 27001 Mapping | NIST CSF 2.0 Mapping | CIS Controls v8.1 |
+|-------------------|---------------------|------------------------|--------|-------------------|----------------------|-------------------|
+| **§164.314(a)(1)** | Business Associate Contracts or Other Arrangements | [🤝 Third Party Management](./Third_Party_Management.md) • [🔗 SUPPLIER](./SUPPLIER.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.19, A.5.20 | [![GV.SC-02](https://img.shields.io/badge/NIST-GV.SC--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-02/) | [![CIS 15.4](https://img.shields.io/badge/CIS-15.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.314(a)(2)(i)** | Business Associate Contracts | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.20 | [![GV.SC-02](https://img.shields.io/badge/NIST-GV.SC--02-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-02/) | [![CIS 15.4](https://img.shields.io/badge/CIS-15.4-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.314(a)(2)(ii)** | Other Arrangements | [🤝 Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.21 | [![GV.SC-04](https://img.shields.io/badge/NIST-GV.SC--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-sc/gv-sc-04/) | [![CIS 15.6](https://img.shields.io/badge/CIS-15.6-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+
+### **Policies and Procedures and Documentation Requirements (45 CFR §164.316)**
+
+| HIPAA Requirement | Requirement Summary | Hack23 Policy/Evidence | Status | ISO 27001 Mapping | NIST CSF 2.0 Mapping | CIS Controls v8.1 |
+|-------------------|---------------------|------------------------|--------|-------------------|----------------------|-------------------|
+| **§164.316(a)** | Policies and Procedures | [🔐 Information Security Policy](./Information_Security_Policy.md) • [All ISMS Policies](./README.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1 | [![GV.PO-01](https://img.shields.io/badge/NIST-GV.PO--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-po/gv-po-01/) | [![CIS 14.1](https://img.shields.io/badge/CIS-14.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.316(b)(1)** | Documentation | [All ISMS Policies](./README.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1 | [![GV.PO-01](https://img.shields.io/badge/NIST-GV.PO--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-po/gv-po-01/) | [![CIS 14.1](https://img.shields.io/badge/CIS-14.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.316(b)(1)(i)** | Time Limit | [🏷️ Data Classification Policy § Retention](./Data_Classification_Policy.md#-comprehensive-records-retention-matrix) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.33 | [![PR.DS-04](https://img.shields.io/badge/NIST-PR.DS--04-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/pr/pr-ds/pr-ds-04/) | [![CIS 3.3](https://img.shields.io/badge/CIS-3.3-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.316(b)(1)(ii)** | Availability | [All ISMS Policies](./README.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1 | [![GV.PO-01](https://img.shields.io/badge/NIST-GV.PO--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-po/gv-po-01/) | [![CIS 14.1](https://img.shields.io/badge/CIS-14.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+| **§164.316(b)(2)(i)** | Updates | [All ISMS Policies § Review Cycles](./README.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)]() | A.5.1 | [![GV.PO-01](https://img.shields.io/badge/NIST-GV.PO--01-green?style=flat-square)](https://csf.tools/reference/nist-cybersecurity-framework/v2-0/gv/gv-po/gv-po-01/) | [![CIS 14.1](https://img.shields.io/badge/CIS-14.1-orange?style=flat-square)](https://www.cisecurity.org/controls/cis-controls-navigator) |
+
+### **HIPAA Compliance Summary**
+
+**Coverage:** 60 HIPAA Security Rule requirements mapped to existing Hack23 ISMS policies
+
+**Implementation Status:**
+- ✅ **Implemented:** 60 requirements (100%)
+- 🟡 **Partial:** 0 requirements (0%)
+- ❌ **Not Implemented:** 0 requirements (0%)
+
+**Consulting Readiness:** Hack23 AB's comprehensive ISMS framework aligns with all HIPAA Security Rule requirements, demonstrating consulting readiness for healthcare sector clients requiring:
+- **Covered Entity Support:** Healthcare providers, health plans, healthcare clearinghouses
+- **Business Associate Guidance:** Technology vendors, consultants, contractors handling PHI
+- **HIPAA Gap Assessments:** Security Risk Analysis (§164.308(a)(1)(ii)(A)) and compliance evaluation
+- **Security Control Implementation:** Technical safeguards, access controls, encryption, audit logging
+- **Incident Response for PHI Breaches:** Breach notification alignment (§164.408) with existing incident response framework
+
+**Related Documentation:**
+- [🔐 Privacy Policy](./Privacy_Policy.md) - GDPR compliance provides similar privacy protections as HIPAA Privacy Rule
+- [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Framework adaptable to PHI classification requirements
+- [🔒 Cryptography Policy](./Cryptography_Policy.md) - Encryption standards exceeding HIPAA addressable specifications
+
+---
+
 ## 📚 **Related Documents**
 
 - [🔐 Information Security Policy](./Information_Security_Policy.md)
@@ -298,9 +929,11 @@ The following products have completed CRA conformity assessments, demonstrating 
 ---
 
 **📋 Document Control:**  
-**✅ Approved by:** James Pether Sörling, CEO  
-**📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-02-05     
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**✅ Approved by:** James Pether Sörling, CEO
+**📤 Distribution:** Public
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
+**📅 Effective Date:** 2025-11-17
+**⏰ Next Review:** 2026-02-17
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
