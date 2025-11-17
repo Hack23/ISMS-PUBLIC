@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--10--09-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.iso.org/standard/81230.html"><img src="https://img.shields.io/badge/📋_ISO/IEC_42001-2023_Aligned-green?style=for-the-badge&logo=iso&logoColor=white" alt="ISO/IEC 42001:2023"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-10-09 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-01-09
+**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-16
 
 ---
 
@@ -2279,8 +2279,8 @@ This policy will be reviewed and updated when:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-10-09  
-**⏰ Next Review:** 2026-01-09  
+**📅 Effective Date:** 2025-11-17  
+**⏰ Next Review:** 2026-02-16  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM-2025_Aligned-darkred?style=flat-square&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 <p align="center">
