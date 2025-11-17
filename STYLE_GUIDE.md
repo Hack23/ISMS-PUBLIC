@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--28-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-08-28 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-28
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
 
 ---
 
@@ -54,8 +54,8 @@ The header provides an at-a-glance overview of the document.
   <a href="#"><img src="https://img.shields.io/badge/Review-[CYCLE]-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** YYYY-MM-DD (UTC)  
-**🔄 Review Cycle:** [Cycle] | **⏰ Next Review:** YYYY-MM-DD
+**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
 ```
 
 ### 2. **Purpose Statement**
@@ -81,8 +81,8 @@ Every ISMS document MUST end with this standardized footer. This section is crit
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** [Audience - e.g., All Personnel, Key Suppliers]  
 **🏷️ Classification:** [![Confidentiality: Level](https://img.shields.io/badge/C-[Level]-[Color]?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** YYYY-MM-DD  
-**⏰ Next Review:** YYYY-MM-DD  
+**📅 Effective Date:** 2025-11-17  
+**⏰ Next Review:** 2026-11-17  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 ```
 
@@ -112,18 +112,28 @@ Example:
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--14-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-14 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-08-14
+**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
 ```
 
 ### 2) Related Documents section (mandatory)
 - Title: “## 📚 Related Documents” (or “## 📚 **Related Documents**” retaining bold if used).
 - Each item must use an icon + linked filename + optional short descriptor.
 - Use relative links. Do not include self-references.
+
+
+**IMPORTANT:** Since all ISMS policy documents are in the root directory, use `./` prefix for relative links (e.g., `./Information_Security_Policy.md`), NOT `../` which would go to the parent directory.
+
+**Cross-Reference Validation:**
+All internal markdown links are automatically validated by CI/CD to ensure:
+- ✅ Target files exist in the repository
+- ✅ Relative paths are correctly formed
+- ✅ No self-references in Related Documents sections
+- ✅ Links point to actual markdown files
 
 Canonical list (pick items relevant to the document):
 ```markdown
@@ -155,8 +165,8 @@ Example:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** All Personnel  
 **🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-14  
-**⏰ Next Review:** 2026-08-14  
+**📅 Effective Date:** 2025-11-17  
+**⏰ Next Review:** 2026-11-17  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 ```
 
@@ -746,12 +756,147 @@ Before publishing any Mermaid diagram, verify:
 - [ ] **Documentation Link:** References to related policies
 - [ ] **Mobile Responsive:** Readable on smaller screens
 
+For comprehensive quality assurance across all document aspects (header, content, footer, links, etc.), use the [📋 ISMS QA Checklist](./ISMS_QA_CHECKLIST.md).
+
+---
+
+## 🎖️ **Security Badge Standards**
+
+### Overview
+
+Per the **Secure Development Policy**, all project documentation MUST include public evidence badges demonstrating continuous security validation. These badges provide transparent, verifiable proof of security posture and compliance.
+
+### Required Security Badges
+
+#### 🔐 Core Security Badges (Required for All Projects)
+
+| Badge Type | Service | Purpose | URL Pattern | Status Check |
+|------------|---------|---------|-------------|--------------|
+| **OpenSSF Scorecard** | securityscorecards.dev | Supply chain security assessment | `https://api.securityscorecards.dev/projects/github.com/{owner}/{repo}/badge` | Score 7.0+ recommended |
+| **SLSA Provenance** | slsa.dev | Build provenance and integrity | `https://slsa.dev/images/gh-badge-level3.svg` | Level 3 recommended |
+| **FOSSA License** | app.fossa.io | Open source license compliance | `https://app.fossa.io/api/projects/git%2Bgithub.com%2F{owner}%2F{repo}.svg?type=shield` | No violations |
+
+#### 📊 Quality Badges (Recommended for Code Projects)
+
+| Badge Type | Service | Purpose | URL Pattern | Target |
+|------------|---------|---------|-------------|--------|
+| **SonarCloud Quality Gate** | sonarcloud.io | Code quality and security | `https://sonarcloud.io/api/project_badges/measure?project={key}&metric=alert_status` | Passed |
+| **SonarCloud Security Rating** | sonarcloud.io | Security vulnerability detection | `https://sonarcloud.io/api/project_badges/measure?project={key}&metric=security_rating` | A rating |
+| **Code Coverage** | codecov.io / coveralls.io | Test coverage metrics | Varies by service | 80%+ recommended |
+
+#### ✅ Compliance Badges (Required for ISMS Documentation)
+
+| Badge Type | Purpose | URL Pattern | Usage |
+|------------|---------|-------------|-------|
+| **ISO 27001 Aligned** | Framework compliance | `https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square` | Policy documents |
+| **NIST CSF Aligned** | Framework compliance | `https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square` | Security controls |
+| **CIS Controls Aligned** | Framework compliance | `https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square` | Control implementation |
+| **AWS Well-Architected** | Cloud security | `https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square` | AWS projects |
+
+#### 🔨 Build Status Badges (Recommended)
+
+| Badge Type | Service | Purpose | URL Pattern |
+|------------|---------|---------|-------------|
+| **GitHub Actions** | github.com | CI/CD pipeline status | `https://github.com/{owner}/{repo}/workflows/{workflow}/badge.svg` |
+| **Release Status** | github.com | Latest release workflow | `https://github.com/{owner}/{repo}/actions/workflows/release.yml/badge.svg` |
+
+### Badge Validation Requirements
+
+#### Automated Monitoring
+
+The badge monitoring system (`.github/scripts/monitor-security-badges.sh`) performs:
+
+1. **URL Accessibility Check**: Validates all badge URLs return HTTP 200/301/302
+2. **Badge Categorization**: Classifies badges by type (security, quality, compliance, build)
+3. **Health Reporting**: Generates comprehensive badge health reports
+4. **Broken Badge Detection**: Identifies and alerts on inaccessible badges
+5. **Trend Analysis**: Tracks badge health over time
+
+#### Health Metrics
+
+Badge health is measured by:
+
+- **Total Badges**: Count of all badges across documentation
+- **Accessible Rate**: Percentage of badges returning successful HTTP responses
+- **Category Distribution**: Breakdown by badge type
+- **Health Score**: Overall accessibility percentage (Target: 95%+)
+
+#### Monitoring Schedule
+
+Badge monitoring runs:
+
+- **On Documentation Changes**: Automatically validates badges in modified files
+- **On Demand**: Manual workflow dispatch available
+
+### Badge Placement Guidelines
+
+#### In Project README.md
+
+Place badges prominently at the top of README.md files:
+
+```markdown
+# 🎮 Project Name
+
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/repo/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/repo)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/repo/attestations)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=key&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=key)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Frepo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Frepo)
+```
+
+#### In Policy Documents
+
+Include compliance badges in the document control footer:
+
+```markdown
+**🎯 Framework Compliance:** 
+[![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) 
+[![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+```
+
+#### In Architecture Documentation
+
+Embed security badges in technical documentation:
+
+```markdown
+### Security Posture
+
+**Security Scanning:**
+[![SAST](https://img.shields.io/badge/SAST-SonarCloud-success?style=flat-square)](https://sonarcloud.io/project/overview?id=key)
+[![ZAP Scan](https://img.shields.io/badge/ZAP-Baseline_Scan-success?style=flat-square)](https://github.com/owner/repo/security/code-scanning)
+```
+
+### Reference Implementations
+
+Examples of proper badge usage across Hack23 projects:
+
+- **🏛️ Citizen Intelligence Agency**: [README.md](https://github.com/Hack23/cia)
+- **🎮 Black Trigram**: [README.md](https://github.com/Hack23/blacktrigram)
+- **📊 CIA Compliance Manager**: [README.md](https://github.com/Hack23/cia-compliance-manager)
+
+### Badge Troubleshooting
+
+#### Common Issues
+
+| Problem | Cause | Solution |
+|---------|-------|----------|
+| Badge returns 404 | Incorrect project key or URL | Verify project ID in service console |
+| Badge shows "unknown" | Project not configured | Complete service setup and initial scan |
+| Badge not updating | Cache issue | Clear browser cache or add cache-busting parameter |
+| Connection timeout | Service unavailable | Check service status page, retry later |
+
+#### Support Resources
+
+- **OpenSSF Scorecard**: [scorecard.dev/docs](https://scorecard.dev/docs)
+- **SLSA Framework**: [slsa.dev](https://slsa.dev)
+- **SonarCloud**: [docs.sonarcloud.io](https://docs.sonarcloud.io)
+- **FOSSA**: [docs.fossa.com](https://docs.fossa.com)
+
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-28  
-**⏰ Next Review:** 2026-08-28  
+**📅 Effective Date:** 2025-11-17  
+**⏰ Next Review:** 2026-11-17  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
