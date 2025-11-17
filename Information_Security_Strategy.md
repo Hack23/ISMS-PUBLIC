@@ -920,43 +920,43 @@ This Information Security Strategy will evolve continuously based on threat inte
 ## 🔗 **Related Documents**
 
 ### 🏢 Business Integration
-- [Business Strategy](./Business_Strategy.md) - Strategic business objectives and market positioning
-- [Business Plan](./Business_Plan.md) - Financial planning and operational execution
-- [Marketing Strategy](./Marketing_Strategy.md) - Security as market differentiator
+- [Business Strategy](./Hack23AB/Business_Strategy.md) - Strategic business objectives and market positioning
+- [Business Plan](./Hack23AB/Business_Plan.md) - Financial planning and operational execution
+- [Marketing Strategy](./Hack23AB/Marketing_Strategy.md) - Security as market differentiator
 
 ### 🔐 Security Framework
-- [Information Security Policy](../Information_Security_Policy.md) - Enterprise security governance
-- [ISMS Transparency Plan](../ISMS_Transparency_Plan.md) - Transparency implementation
-- [Classification Framework](../CLASSIFICATION.md) - Risk and impact analysis
+- [Information Security Policy](./Information_Security_Policy.md) - Enterprise security governance
+- [ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Transparency implementation
+- [Classification Framework](./CLASSIFICATION.md) - Risk and impact analysis
 
 ### 📊 Risk Management
-- [Risk Register](../Risk_Register.md) - Risk identification and treatment
-- [Risk Assessment Methodology](../Risk_Assessment_Methodology.md) - Assessment framework
-- [Business Continuity Plan](../Business_Continuity_Plan.md) - Operational resilience
+- [Risk Register](./Risk_Register.md) - Risk identification and treatment
+- [Risk Assessment Methodology](./Risk_Assessment_Methodology.md) - Assessment framework
+- [Business Continuity Plan](./Business_Continuity_Plan.md) - Operational resilience
 
 ### ⚙️ Operational Security
-- [Asset Register](../Asset_Register.md) - Infrastructure security inventory
-- [Change Management](../Change_Management.md) - Change control procedures
-- [Security Metrics](../Security_Metrics.md) - Performance measurement
+- [Asset Register](./Asset_Register.md) - Infrastructure security inventory
+- [Change Management](./Change_Management.md) - Change control procedures
+- [Security Metrics](./Security_Metrics.md) - Performance measurement
 
 ### 🛠️ Technical Security
-- [Secure Development Policy](../Secure_Development_Policy.md) - Development security standards
-- [Cryptography Policy](../Cryptography_Policy.md) - Encryption and key management
-- [Network Security Policy](../Network_Security_Policy.md) - Network protection controls
-- [Vulnerability Management](../Vulnerability_Management.md) - Security remediation
+- [Secure Development Policy](./Secure_Development_Policy.md) - Development security standards
+- [Cryptography Policy](./Cryptography_Policy.md) - Encryption and key management
+- [Network Security Policy](./Network_Security_Policy.md) - Network protection controls
+- [Vulnerability Management](./Vulnerability_Management.md) - Security remediation
 
 ### ✅ Compliance & Audit
-- [Compliance Checklist](../Compliance_Checklist.md) - Framework alignment validation
-- [CRA Conformity Assessment](../CRA_Conformity_Assessment_Process.md) - EU compliance process
-- [Third Party Management](../Third_Party_Management.md) - Vendor risk governance
+- [Compliance Checklist](./Compliance_Checklist.md) - Framework alignment validation
+- [CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) - EU compliance process
+- [Third Party Management](./Third_Party_Management.md) - Vendor risk governance
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO/CISO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](../CLASSIFICATION.md#confidentiality-levels)  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **🔒 Rationale:** Strategic security framework demonstrating methodology and approach; no proprietary tactics, financial details, or operational vulnerabilities disclosed. Transparency serves as competitive differentiator and client trust accelerator.  
 **📅 Effective Date:** 2025-11-10  
 **⏰ Next Review:** 2026-11-10   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](../CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](../CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](../CLASSIFICATION.md)
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
