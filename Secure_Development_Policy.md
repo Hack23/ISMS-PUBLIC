@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--10--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2025-10-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-10-17
+**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
 
 ---
 
@@ -498,6 +498,12 @@ Every Hack23 AB repository **MUST** maintain comprehensive architectural documen
 - **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
 - **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md)
 
+**📚 ISMS Documentation Repository Security Architecture:**
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Documentation_System-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/ISMS/blob/main/SECURITY_ARCHITECTURE.md)
+[![Validation](https://img.shields.io/badge/Validation-Automated_CI%2FCD-success?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/Hack23/ISMS/actions/workflows/validate-documentation.yml)
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/ISMS/blob/main/SECURITY_ARCHITECTURE.md)
+- **Documentation-Specific Security:** GitHub-based controls, validation pipeline, Git integrity
+
 ### **📋 Mandatory Security Architecture Content**
 - **🔑 Authentication & Authorization:** Identity management and access control patterns
 - **📊 Session & Action Tracking:** User activity monitoring and audit capabilities  
@@ -514,6 +520,172 @@ Every Hack23 AB repository **MUST** maintain comprehensive architectural documen
 - **🛡️ Application Security Controls:** Input validation and output encoding
 - **🏆 Defense-in-Depth Strategy:** Layered security architecture approach
 - **📋 Compliance Framework Mapping:** Regulatory alignment documentation
+
+---
+
+## 📐 **Comprehensive Architecture Documentation Portfolio**
+
+### **🎯 C4 Architecture Model Implementation**
+
+All Hack23 AB projects **MUST** maintain complete C4 architecture models demonstrating **system design transparency** and **technical excellence** through structured architectural documentation:
+
+#### **📊 Required Architecture Documents**
+
+**Current State Architecture:**
+- **🏛️ ARCHITECTURE.md** — Complete C4 models (Context, Container, Component views)
+- **📊 DATA_MODEL.md** — Data structures, entities, and relationships  
+- **🔄 FLOWCHART.md** — Business process and data flows
+- **📈 STATEDIAGRAM.md** — System state transitions and lifecycles
+- **🧠 MINDMAP.md** — System conceptual relationships
+- **💼 SWOT.md** — Strategic analysis and positioning
+
+**Future State Planning:**
+- **🚀 FUTURE_ARCHITECTURE.md** — Architectural evolution roadmap
+- **📊 FUTURE_DATA_MODEL.md** — Enhanced data architecture plans
+- **🔄 FUTURE_FLOWCHART.md** — Improved process workflows
+- **📈 FUTURE_STATEDIAGRAM.md** — Advanced state management
+- **🧠 FUTURE_MINDMAP.md** — Capability expansion plans
+- **💼 FUTURE_SWOT.md** — Future strategic opportunities
+
+#### **📚 Reference Implementation: Citizen Intelligence Agency**
+
+**Current Architecture:**
+[![Architecture](https://img.shields.io/badge/Architecture-C4_Model-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md)
+[![Data Model](https://img.shields.io/badge/Data_Model-Documented-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/cia/blob/master/DATA_MODEL.md)
+[![Flowchart](https://img.shields.io/badge/Flowcharts-Process_Flows-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/cia/blob/master/FLOWCHART.md)
+[![State Diagram](https://img.shields.io/badge/State_Diagram-Lifecycle-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/cia/blob/master/STATEDIAGRAM.md)
+[![Mindmap](https://img.shields.io/badge/Mindmap-System_Concepts-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/cia/blob/master/MINDMAP.md)
+[![SWOT](https://img.shields.io/badge/SWOT-Strategic_Analysis-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/cia/blob/master/SWOT.md)
+
+**Future Architecture:**
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Roadmap-blue?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/cia/blob/master/FUTURE_ARCHITECTURE.md)
+[![Future Data Model](https://img.shields.io/badge/Future_Data_Model-Enhanced-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/cia/blob/master/FUTURE_DATA_MODEL.md)
+[![Future Flowchart](https://img.shields.io/badge/Future_Flowcharts-AI_Enhanced-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/cia/blob/master/FUTURE_FLOWCHART.md)
+[![Future State Diagram](https://img.shields.io/badge/Future_State_Diagram-Adaptive-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/cia/blob/master/FUTURE_STATEDIAGRAM.md)
+[![Future Mindmap](https://img.shields.io/badge/Future_Mindmap-Expansion-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/cia/blob/master/FUTURE_MINDMAP.md)
+[![Future SWOT](https://img.shields.io/badge/Future_SWOT-Opportunities-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/cia/blob/master/FUTURE_SWOT.md)
+
+**Complete Architecture Portfolio:**
+- **[🏛️ ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md)** — C4 model with context, container, and component views
+- **[🚀 FUTURE_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/FUTURE_ARCHITECTURE.md)** — AI-enhanced platform vision
+- **[📊 DATA_MODEL.md](https://github.com/Hack23/cia/blob/master/DATA_MODEL.md)** — Political data entities and relationships
+- **[📊 FUTURE_DATA_MODEL.md](https://github.com/Hack23/cia/blob/master/FUTURE_DATA_MODEL.md)** — Enhanced data architecture
+- **[🔄 FLOWCHART.md](https://github.com/Hack23/cia/blob/master/FLOWCHART.md)** — Political data processing workflows
+- **[🔄 FUTURE_FLOWCHART.md](https://github.com/Hack23/cia/blob/master/FUTURE_FLOWCHART.md)** — AI-driven process automation
+- **[📈 STATEDIAGRAM.md](https://github.com/Hack23/cia/blob/master/STATEDIAGRAM.md)** — System state transitions
+- **[📈 FUTURE_STATEDIAGRAM.md](https://github.com/Hack23/cia/blob/master/FUTURE_STATEDIAGRAM.md)** — Adaptive state management
+- **[🧠 MINDMAP.md](https://github.com/Hack23/cia/blob/master/MINDMAP.md)** — System concept relationships
+- **[🧠 FUTURE_MINDMAP.md](https://github.com/Hack23/cia/blob/master/FUTURE_MINDMAP.md)** — Capability expansion roadmap
+- **[💼 SWOT.md](https://github.com/Hack23/cia/blob/master/SWOT.md)** — Current strategic assessment
+- **[💼 FUTURE_SWOT.md](https://github.com/Hack23/cia/blob/master/FUTURE_SWOT.md)** — Future opportunity analysis
+
+#### **📚 Reference Implementation: Black Trigram**
+
+**Current Architecture:**
+[![Architecture](https://img.shields.io/badge/Architecture-C4_Model-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/ARCHITECTURE.md)
+[![Combat Architecture](https://img.shields.io/badge/Combat_Architecture-Game_Mechanics-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/COMBAT_ARCHITECTURE.md)
+[![Data Model](https://img.shields.io/badge/Data_Model-Documented-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/DATA_MODEL.md)
+[![Flowchart](https://img.shields.io/badge/Flowcharts-Process_Flows-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FLOWCHART.md)
+[![State Diagram](https://img.shields.io/badge/State_Diagram-Lifecycle-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/STATEDIAGRAM.md)
+[![Mindmap](https://img.shields.io/badge/Mindmap-System_Concepts-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/MINDMAP.md)
+[![SWOT](https://img.shields.io/badge/SWOT-Strategic_Analysis-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/SWOT.md)
+
+**Future Architecture:**
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Roadmap-blue?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_ARCHITECTURE.md)
+[![Future Data Model](https://img.shields.io/badge/Future_Data_Model-Enhanced-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_DATA_MODEL.md)
+[![Future Flowchart](https://img.shields.io/badge/Future_Flowcharts-Enhanced-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_FLOWCHART.md)
+[![Future State Diagram](https://img.shields.io/badge/Future_State_Diagram-Advanced-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_STATEDIAGRAM.md)
+[![Future Mindmap](https://img.shields.io/badge/Future_Mindmap-Expansion-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_MINDMAP.md)
+[![Future SWOT](https://img.shields.io/badge/Future_SWOT-Opportunities-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SWOT.md)
+
+**Complete Architecture Portfolio:**
+- **[🏛️ ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/ARCHITECTURE.md)** — C4 model for gaming platform
+- **[🥋 COMBAT_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/COMBAT_ARCHITECTURE.md)** — Combat mechanics and vital points system
+- **[🚀 FUTURE_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_ARCHITECTURE.md)** — Enhanced gaming experience vision
+- **[📊 DATA_MODEL.md](https://github.com/Hack23/blacktrigram/blob/main/DATA_MODEL.md)** — Game entities and mechanics data
+- **[📊 FUTURE_DATA_MODEL.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_DATA_MODEL.md)** — Enhanced game data architecture
+- **[🔄 FLOWCHART.md](https://github.com/Hack23/blacktrigram/blob/main/FLOWCHART.md)** — Game process workflows
+- **[🔄 FUTURE_FLOWCHART.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_FLOWCHART.md)** — Advanced game flows
+- **[📈 STATEDIAGRAM.md](https://github.com/Hack23/blacktrigram/blob/main/STATEDIAGRAM.md)** — Game state management
+- **[📈 FUTURE_STATEDIAGRAM.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_STATEDIAGRAM.md)** — Advanced state transitions
+- **[🧠 MINDMAP.md](https://github.com/Hack23/blacktrigram/blob/main/MINDMAP.md)** — Game system concepts
+- **[🧠 FUTURE_MINDMAP.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_MINDMAP.md)** — Feature expansion plans
+- **[💼 SWOT.md](https://github.com/Hack23/blacktrigram/blob/main/SWOT.md)** — Market position analysis
+- **[💼 FUTURE_SWOT.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SWOT.md)** — Future gaming opportunities
+
+#### **📚 Reference Implementation: CIA Compliance Manager**
+
+**Current Architecture:**
+[![Architecture](https://img.shields.io/badge/Architecture-C4_Model-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/ARCHITECTURE.md)
+[![Data Model](https://img.shields.io/badge/Data_Model-Documented-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/DATA_MODEL.md)
+[![Flowchart](https://img.shields.io/badge/Flowcharts-Process_Flows-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FLOWCHART.md)
+[![State Diagram](https://img.shields.io/badge/State_Diagram-Lifecycle-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/STATEDIAGRAM.md)
+[![Mindmap](https://img.shields.io/badge/Mindmap-System_Concepts-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/MINDMAP.md)
+[![SWOT](https://img.shields.io/badge/SWOT-Strategic_Analysis-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SWOT.md)
+
+**Future Architecture:**
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Roadmap-blue?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_ARCHITECTURE.md)
+[![Future Data Model](https://img.shields.io/badge/Future_Data_Model-Enhanced-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_DATA_MODEL.md)
+[![Future Flowchart](https://img.shields.io/badge/Future_Flowcharts-ML_Enhanced-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_FLOWCHART.md)
+[![Future State Diagram](https://img.shields.io/badge/Future_State_Diagram-Context_Aware-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_STATEDIAGRAM.md)
+[![Future Mindmap](https://img.shields.io/badge/Future_Mindmap-Expansion-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_MINDMAP.md)
+[![Future SWOT](https://img.shields.io/badge/Future_SWOT-Opportunities-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SWOT.md)
+
+**Complete Architecture Portfolio:**
+- **[🏛️ ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/ARCHITECTURE.md)** — Compliance platform C4 model
+- **[🚀 FUTURE_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_ARCHITECTURE.md)** — Context-aware security platform vision
+- **[📊 DATA_MODEL.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/DATA_MODEL.md)** — Security profile data structures
+- **[📊 FUTURE_DATA_MODEL.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_DATA_MODEL.md)** — ML-enhanced data architecture
+- **[🔄 FLOWCHART.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FLOWCHART.md)** — Compliance assessment workflows
+- **[🔄 FUTURE_FLOWCHART.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_FLOWCHART.md)** — Automated compliance flows
+- **[📈 STATEDIAGRAM.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/STATEDIAGRAM.md)** — Security profile states
+- **[📈 FUTURE_STATEDIAGRAM.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_STATEDIAGRAM.md)** — Context-aware state management
+- **[🧠 MINDMAP.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/MINDMAP.md)** — Compliance system concepts
+- **[🧠 FUTURE_MINDMAP.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_MINDMAP.md)** — Platform expansion roadmap
+- **[💼 SWOT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SWOT.md)** — Compliance market analysis
+- **[💼 FUTURE_SWOT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SWOT.md)** — Future market positioning
+
+---
+
+## 🔄 **Business Continuity & Lifecycle Documentation**
+
+### **📋 Operational Resilience Requirements**
+
+All projects **MUST** maintain comprehensive business continuity and lifecycle documentation:
+
+#### **🔄 Required Documentation**
+
+- **📋 BCPPlan.md** — Business continuity planning and recovery strategies
+- **📅 End-of-Life-Strategy.md** — Technology lifecycle and maintenance planning
+- **💰 FinancialSecurityPlan.md** — Cost analysis and security investment planning (for applicable projects)
+
+#### **📚 Reference Implementation: Citizen Intelligence Agency**
+
+[![BCP Plan](https://img.shields.io/badge/BCP_Plan-Documented-blue?style=flat-square&logo=resilience&logoColor=white)](https://github.com/Hack23/cia/blob/master/BCPPlan.md)
+[![End-of-Life](https://img.shields.io/badge/End_of_Life-Strategy-orange?style=flat-square&logo=lifecycle&logoColor=white)](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md)
+[![Financial Security](https://img.shields.io/badge/Financial_Security-Plan-green?style=flat-square&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md)
+
+- **[📋 BCPPlan.md](https://github.com/Hack23/cia/blob/master/BCPPlan.md)** — Political transparency platform continuity
+- **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md)** — Java/PostgreSQL lifecycle management
+- **[💰 FinancialSecurityPlan.md](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md)** — AWS deployment cost analysis
+
+#### **📚 Reference Implementation: Black Trigram**
+
+[![BCP Plan](https://img.shields.io/badge/BCP_Plan-Documented-blue?style=flat-square&logo=resilience&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/BCPPlan.md)
+[![End-of-Life](https://img.shields.io/badge/End_of_Life-Strategy-orange?style=flat-square&logo=lifecycle&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/End-of-Life-Strategy.md)
+
+- **[📋 BCPPlan.md](https://github.com/Hack23/blacktrigram/blob/main/BCPPlan.md)** — Gaming platform resilience strategy
+- **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/blacktrigram/blob/main/End-of-Life-Strategy.md)** — Unity/TypeScript lifecycle planning
+
+#### **📚 Reference Implementation: CIA Compliance Manager**
+
+[![BCP Plan](https://img.shields.io/badge/BCP_Plan-Documented-blue?style=flat-square&logo=resilience&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/BCPPlan.md)
+[![End-of-Life](https://img.shields.io/badge/End_of_Life-Strategy-orange?style=flat-square&logo=lifecycle&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/End-of-Life-Strategy.md)
+[![Financial Security](https://img.shields.io/badge/Financial_Security-Plan-green?style=flat-square&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/FinancialSecurityPlan.md)
+
+- **[📋 BCPPlan.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/BCPPlan.md)** — Compliance platform continuity  
+- **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/End-of-Life-Strategy.md)** — React/TypeScript lifecycle management
+- **[💰 FinancialSecurityPlan.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/FinancialSecurityPlan.md)** — GitHub Pages deployment planning
 
 
 ## 🔑 **Authentication & Identity Architecture**
@@ -998,6 +1170,6 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public    
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2025-10-17  
-**⏰ Next Review:** 2026-10-17  
+**📅 Effective Date:** 2025-11-17  
+**⏰ Next Review:** 2026-11-17  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
