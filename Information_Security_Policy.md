@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--18-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2025-11-18 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-18
 
 ---
 
@@ -138,7 +138,159 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 
 ---
 
+## 👔 **Management Commitment and Responsibilities**
+
+### 🎯 CEO/Founder Accountability
+
+As a single-person company, **James Pether Sörling (CEO/Founder)** holds direct responsibility for all ISMS activities:
+
+- Approves and follows all information security policies defined in this ISMS
+- Allocates time and resources for security implementation and maintenance
+- Reviews ISMS effectiveness quarterly through documented self-assessments
+- Manages all risks documented in the [Risk Register](./Risk_Register.md)
+- Ensures compliance with ISO 27001:2022, NIST CSF 2.0, and CIS Controls v8.1
+- Continuously improves security processes based on lessons learned and industry best practices
+
+### 💰 Resource Management
+
+The CEO/Founder commits resources appropriate for a single-person operation:
+
+- **Budget**: Security tools, cloud services (AWS), and external auditors as needed
+- **Time**: Quarterly ISMS reviews and ongoing security maintenance activities
+- **Expertise**: Leverages cybersecurity consulting background and engages external specialists when required
+
+### 📋 Policy Approval and Maintenance
+
+As the sole decision-maker:
+
+- The CEO/Founder approves all ISMS policies and major security changes
+- Policy reviews occur at least annually, with updates as needed
+- All approvals are documented through version control and dated signatures in policy documents
+- No delegation is required in a single-person organization
+
+### 📊 Performance Monitoring
+
+The CEO/Founder monitors ISMS effectiveness through:
+
+- **Quarterly Reviews**: Assessment of security metrics, incidents, risks, and compliance status
+- **Key Metrics**: OpenSSF Scorecard scores, vulnerability remediation times, backup success rates
+- **Documentation**: Review findings documented in quarterly management review records
+
+Detailed metrics are maintained in [Security Metrics Dashboard](./Security_Metrics.md).
+
+### ⚖️ Risk Management
+
+The CEO/Founder manages all information security risks:
+
+- Reviews and updates the [Risk Register](./Risk_Register.md) quarterly
+- Evaluates treatment options and accepts residual risks with documented rationale
+- High and critical risks require explicit acceptance documentation
+- All risk decisions are recorded in the Risk Register
+
+### 🚨 Incident Management
+
+The CEO/Founder handles all security incidents:
+
+- Follows procedures defined in the [Incident Response Plan](./Incident_Response_Plan.md)
+- Responds to all incidents according to severity (immediate action for high/critical incidents)
+- Documents incidents and lessons learned
+- Implements corrective actions to prevent recurrence
+
+### ✅ Compliance and Audits
+
+The CEO/Founder maintains compliance through:
+
+- Quarterly self-assessment against [Compliance Checklist](./Compliance_Checklist.md)
+- Annual external audits when pursuing ISO 27001 certification
+- Prompt review and remediation of any audit findings
+- Documentation of compliance status and improvement actions
+
+### 🔄 Continuous Improvement
+
+The CEO/Founder continuously improves the ISMS through:
+
+- **Plan**: Set security objectives, identify improvements (quarterly planning)
+- **Do**: Implement security controls and procedures as defined in ISMS policies
+- **Check**: Review effectiveness through quarterly assessments and metrics
+- **Act**: Update policies and controls based on lessons learned and audit findings
+
+Improvement objectives include increasing OpenSSF Scorecard scores, reducing incident response times, and advancing ISO 27001 certification readiness.
+
+### 📅 Quarterly Management Review
+
+The CEO/Founder conducts a quarterly ISMS self-assessment covering:
+
+1. **Incidents**: Review any security incidents and lessons learned
+2. **Metrics**: Check security metrics (OpenSSF scores, vulnerabilities, backups)
+3. **Risks**: Update [Risk Register](./Risk_Register.md) with new or changed risks
+4. **Compliance**: Review [Compliance Checklist](./Compliance_Checklist.md) status
+5. **Improvements**: Identify and document improvement opportunities
+
+**Documentation**: Each review is documented with date, findings, decisions, and action items. Reviews are scheduled quarterly (March, June, September, December) with ad-hoc reviews as needed for major incidents or changes.
+
+#### **Simple Review Template**
+
+```markdown
+# Quarterly ISMS Review - Q[X] [YYYY]
+
+**Date**: [YYYY-MM-DD]
+**Reviewer**: James Pether Sörling, CEO
+
+## Review Areas
+
+1. **Incidents**: [Any incidents? Lessons learned?]
+2. **Metrics**: [OpenSSF scores, vulnerabilities, backup status]
+3. **Risks**: [New/changed risks? Updates to Risk Register?]
+4. **Compliance**: [Compliance Checklist status, any gaps?]
+5. **Improvements**: [What can be improved? Action items?]
+
+## Decisions & Actions
+
+- **Risk Decisions**: [Any risks accepted/mitigated?]
+- **Policy Updates**: [Any policies need updating?]
+- **Action Items**: 
+  - [ ] [Action 1] - Due: [Date]
+  - [ ] [Action 2] - Due: [Date]
+
+## Next Review
+
+**Date**: [YYYY-MM-DD] (Q[X] [YYYY])
+
+---
+**Completed by**: James Pether Sörling, CEO | **Date**: [YYYY-MM-DD]
+```
+
+This lightweight template provides the essential documentation required for ISO 27001:2022 Clause 9.3 compliance.
+
+### 🏗️ Management Governance (Single-Person Organization)
+
+In a single-person company, the CEO/Founder handles all management responsibilities:
+
+```mermaid
+flowchart LR
+    CEO["👤 CEO/Founder<br/>James Pether Sörling"]
+    
+    CEO --> Approve["📋 Approves<br/>Policies & Changes"]
+    CEO --> Follow["✅ Follows<br/>ISMS Procedures"]
+    CEO --> Review["🔄 Reviews<br/>Quarterly"]
+    CEO --> Improve["🚀 Improves<br/>Continuously"]
+    
+    Auditors["👨‍💼 External Auditors"] -.->|Validate| CEO
+    
+    style CEO fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style Approve fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
+    style Follow fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
+    style Review fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style Improve fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style Auditors fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
+```
+
+The CEO/Founder maintains accountability through documented decisions, quarterly self-assessments, and external validation when needed.
+
+---
+
 ### 📊 Document Integration Matrix
+
 | Security Domain | Primary Policy | Supporting Documents | Registers | Procedures |
 |-----------------|---------------|---------------------|-----------|------------|
 | **🔑 Identity & Access** | [🔑 Access Control Policy](./Access_Control_Policy.md) | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md), [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md), [💻 Asset Register](./Asset_Register.md), [📉 Risk Register](./Risk_Register.md) | [💻 Asset Register](./Asset_Register.md) | [🚨 Incident Response Plan](./Incident_Response_Plan.md) |
@@ -154,12 +306,12 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 
 ---
 
-
 ## 📚 Related Documents
 
 This Information Security Policy integrates with and references the complete ISMS documentation suite:
 
 ### 🏛️ Primary ISMS Framework
+
 - [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Business impact and classification methodology
 - [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Public disclosure strategy
 - [📝 Style Guide](./STYLE_GUIDE.md) - Documentation standards
@@ -167,6 +319,7 @@ This Information Security Policy integrates with and references the complete ISM
 
 
 ### 🔐 **Core Security Policies**
+
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Zero-trust identity and access management
 - [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) - Behavioral expectations and professional technology usage standards
 - [🏠 Physical Security Policy](./Physical_Security_Policy.md) - Home office security and physical asset protection
@@ -182,6 +335,7 @@ This Information Security Policy integrates with and references the complete ISM
 - [🎯 Threat Modeling Policy](./Threat_Modeling.md) - Systematic threat analysis using STRIDE and MITRE ATT&CK frameworks
 
 ### 🚨 Operational Plans and Procedures
+
 - [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Comprehensive security incident management
 - [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Business resilience and operational continuity
 - [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) - Technical system recovery and restoration
@@ -190,20 +344,22 @@ This Information Security Policy integrates with and references the complete ISM
 - [🔍 Vulnerability Management](./Vulnerability_Management.md) - Systematic security testing and remediation
 
 ### 📊 Asset and Risk Management
+
 - [💻 Asset Register](./Asset_Register.md) - Comprehensive information asset inventory and management
 - [📉 Risk Register](./Risk_Register.md) - Enterprise risk identification, assessment, and treatment
 - [🤝 Third Party Management](./Third_Party_Management.md) - Systematic supplier risk management and governance
 - [🔗 Supplier Security Posture](./SUPPLIER.md) - Detailed third-party security assessments and monitoring
 
 ### ✅ Compliance and Governance
+
 - [✅ Compliance Checklist](./Compliance_Checklist.md) - Multi-framework regulatory compliance tracking and management
 
 
 
-**📋 Document Control:**  
-**✅ Approved by:** James Pether Sörling, CEO  
-**📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-11-17   
+**📋 Document Control:**
+**✅ Approved by:** James Pether Sörling, CEO
+**📤 Distribution:** Public
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
+**📅 Effective Date:** 2025-11-18
+**⏰ Next Review:** 2026-11-18
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
