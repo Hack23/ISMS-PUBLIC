@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--24-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2025-11-24 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-24
 
 ---
 
@@ -87,6 +87,8 @@ This policy embodies our **🌟 transparency principle** - making change process
 - ✅ Risk assessment completed
 - ✅ Implementation plan reviewed
 - ✅ Success criteria defined
+
+**Segregation of Duties:** The change management approval process enforces separation between change requester, approver, and implementer roles. For single-person operations, see [🚫 Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) for compensating controls including temporal separation, automated gates, and audit trail requirements.
 
 ---
 
@@ -221,10 +223,10 @@ graph TD
     P -->|✅ Yes| Q[🚀 Ready for CEO Deployment]
     P -->|❌ No| R[🚫 Blocked - Remediation Required]
     
-    classDef critical fill:#ffebee,stroke:#c62828,stroke-width:2px
-    classDef normal fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    classDef standard fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
-    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    classDef critical fill:#D32F2F,stroke:#c62828,stroke-width:2px
+    classDef normal fill:#FF9800,stroke:#F57C00,stroke-width:2px
+    classDef standard fill:#4CAF50,stroke:#2e7d32,stroke-width:2px
+    classDef process fill:#1565C0,stroke:#1565c0,stroke-width:2px
     
     class G,J,M critical
     class H,K,N normal
@@ -478,6 +480,107 @@ All Normal and Emergency changes require structured post-implementation assessme
 
 ---
 
+## 🏢 **Single-Person Company Adaptation**
+
+### **Traditional Multi-Person Requirement**
+
+Industry best practice recommends a **Change Advisory Board (CAB)** composed of representatives from IT, security, operations, and business units to review and approve all high-risk changes before implementation. This provides:
+- Multiple perspectives on change impact
+- Independent review of technical decisions
+- Segregation of duties between change requester and approver
+- Collective accountability for change decisions
+
+### **Hack23 AB Single-Person Adaptation**
+
+As CEO/Founder (CISM/CISSP certified) performs all roles (developer, security officer, operator, business leader), traditional CAB is not possible. **Instead, Hack23 AB implements risk-proportional controls:**
+
+#### **🎯 For Standard Changes (Pre-Approved)**
+- **Automated Security Gates**: All changes pass comprehensive security validation (SAST, SCA, DAST, secret scanning)
+- **CI/CD Pipeline**: Automated testing prevents untested code deployment
+- **Immediate Implementation**: CEO deploys after automated checks pass
+- **No Additional Review**: Pre-approval criteria met through automation
+
+#### **🎯 For Normal Changes (CEO Review & Approval)**
+- **CEO Risk Assessment**: Comprehensive evaluation using standardized template covering:
+  - Security impact analysis
+  - Business justification
+  - Compliance validation
+  - Cost-benefit analysis
+  - Rollback planning
+- **48-Hour Reflection Period**: Mandatory temporal separation for high-risk changes
+  - Prevents impulsive decisions
+  - Allows time for second thoughts
+  - Can be documented and overridden for justified urgency
+- **Enhanced Documentation**: Detailed change rationale enables future audit/review
+- **Break-Glass Procedure**: Immediate change allowed for emergencies with enhanced logging and post-action review
+
+#### **🎯 For Emergency Changes (Immediate Implementation)**
+- **CEO Sole Authority**: Full decision-making power during active incidents
+- **Complete Logging**: All actions timestamped with explicit rationale
+- **4-Hour Documentation Window**: Full change record within 4 hours
+- **24-Hour Post-Review**: Retrospective approval and lessons learned
+- **Quarterly Retrospective**: Analysis of all emergency changes for patterns
+
+### **Compensating Controls**
+
+| Control Type | Implementation | ISO 27001 Alignment | Effectiveness |
+|--------------|----------------|---------------------|---------------|
+| **⏱️ Temporal Separation** | 48-hour minimum between risk assessment and implementation for high-risk changes | A.8.32 - Change Management | Prevents impulsive decisions, provides reflection time |
+| **📊 Documentation Quality** | Detailed change rationale, risk analysis, and rollback plan required | A.5.37 - Documented Operating Procedures | Enables retrospective review and audit trail |
+| **🤖 Automation Gates** | CI/CD testing, security scanning, compliance validation before deployment | A.8.32 - Change Management | Reduces human error, enforces security standards |
+| **🔄 Quarterly Retrospective** | CEO reviews all changes for patterns, errors, or improvements | A.8.32 - Change Management | Continuous improvement, pattern detection |
+| **📋 External Audit** | Annual validation of change management controls by external auditor | A.5.36 - Compliance Monitoring | Independent verification of control effectiveness |
+
+### **ISO 27001:2022 Compliance**
+
+This adaptation maintains the **control objectives** of **A.8.32 Change Management** by ensuring:
+
+✅ **Authorized Changes Only**: CEO is the authorized approver with documented authority  
+✅ **Risk-Assessed Changes**: All changes include documented risk analysis  
+✅ **Tested Changes**: Automated testing gates prevent untested code deployment  
+✅ **Documented Changes**: Git history + change log provide complete audit trail  
+✅ **Controlled Implementation**: Temporal separation + rollback planning ensure control
+
+**Alignment with ISO 27001:2022 Guidance**: Annex A.8.32 requires "planned and documented" change management with "appropriate controls." The standard explicitly allows controls to be tailored to organizational size and complexity. Single-person operations can achieve control objectives through **temporal separation**, **automation**, and **enhanced documentation** rather than **personnel separation**.
+
+### **Risk Acceptance**
+
+**Risk ID**: R-PROCESS-001 (documented in [Risk_Register.md](./Risk_Register.md))
+
+**Risk Description**: Simplified change management process increases risk of **self-approval bias** compared to multi-person approval workflows. CEO may approve changes without sufficient critical analysis.
+
+**Risk Assessment**:
+- **Likelihood**: Low (CEO has deep technical expertise - 15+ years cybersecurity experience including CISM/CISSP certifications)
+- **Impact**: Moderate (potential for undetected errors in change decisions)
+- **Risk Score**: 120 (Medium Risk per Risk Assessment Methodology)
+
+**Risk Acceptance Rationale**:
+- CEO technical expertise and certifications provide strong foundation for decision-making
+- Temporal separation (48-hour reflection) provides opportunity for second thoughts
+- Automated testing catches technical errors before deployment
+- Quarterly retrospective enables pattern detection across changes
+- Business velocity benefit outweighs marginal risk increase
+- Heavy multi-person processes would be **operationally unsustainable** and create compliance theater
+
+**Monitoring & Review**:
+- **Quarterly Retrospective**: Comprehensive review of all Normal and Emergency changes for decision quality patterns
+- **External Audit**: Annual validation by external auditor of change management control effectiveness
+- **Metrics Tracking**: Change success rate, rollback frequency, security incidents correlated to changes
+- **Continuous Improvement**: Process updates based on lessons learned from change outcomes
+
+### **Business Value Demonstration**
+
+This single-person adaptation demonstrates **cybersecurity consulting expertise** through:
+
+🏆 **Competitive Advantage**: Risk-proportional controls showcase practical security engineering  
+🤝 **Customer Trust**: Transparent documentation of single-person adaptations builds credibility  
+💰 **Cost Efficiency**: Automated gates reduce manual review overhead while maintaining security  
+🔄 **Operational Excellence**: Streamlined processes enable rapid deployment without sacrificing control  
+💡 **Innovation Enablement**: Temporal separation allows thoughtful experimentation without bureaucracy  
+🛡️ **Risk Reduction**: Automated security gates provide consistent validation exceeding manual review
+
+---
+
 ## 📚 Related Documents
 
 ### **🔐 Core ISMS Integration**
@@ -514,6 +617,6 @@ All Normal and Emergency changes require structured post-implementation assessme
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-11-17  
+**📅 Effective Date:** 2025-11-24  
+**⏰ Next Review:** 2026-11-24  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
