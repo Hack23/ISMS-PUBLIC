@@ -11,12 +11,12 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--26-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-11-17 (UTC)  
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2025-11-26 (UTC)  
 **🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-05-18
 
 ---
@@ -61,11 +61,11 @@ This registry covers:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -113,13 +113,13 @@ flowchart TD
     AI_INCIDENT --> URGENT
     AI_COMPLIANCE --> STANDARD
     
-    style MSB fill:#ffcccb
-    style IMY fill:#c8e6c9
-    style PTS fill:#bbdefb
-    style SKAT fill:#fff3e0
-    style EU_AI fill:#e1bee7
-    style AI_OFFICE fill:#d1c4e9
-    style ENISA fill:#f3e5f5
+    style MSB fill:#D32F2F
+    style IMY fill:#4CAF50
+    style PTS fill:#1565C0
+    style SKAT fill:#FF9800
+    style EU_AI fill:#7B1FA2
+    style AI_OFFICE fill:#7B1FA2
+    style ENISA fill:#7B1FA2
 ```
 
 #### **🛡️ Myndigheten för samhällsskydd och beredskap (MSB)**
@@ -262,6 +262,70 @@ flowchart TD
 
 ---
 
+## 🔓 **Open Source Program Offices (OSPO) & Networks**
+
+### 🌐 **OSPO Alliance**
+**Membership Status:** Active Member - [Official Member Announcement](https://ospo-alliance.org/news/20251125_member_hack23/)
+
+| Engagement Type | Details | Business Value | Frequency |
+|-----------------|---------|----------------|-----------|
+| **🤝 OSPO OnRamp Meetings** | Bi-monthly 90-minute knowledge exchange sessions (3rd Friday, 10:30-12:00 CE(S)T) | Learn OSPO setup fundamentals and best practices | ![Bi-monthly](https://img.shields.io/badge/Frequency-Bi--monthly-blue?style=flat-square) |
+| **📚 Part 1: Presentations** | Recorded presentations on OSPO experiences and lessons learned | Access to community knowledge and implementation guidance | ![Recorded](https://img.shields.io/badge/Format-Recorded-green?style=flat-square) |
+| **🔒 Part 2: Chatham House Discussion** | Protected environment for open challenge sharing (not recorded) | Safe space for discussing organizational open source challenges | ![Monthly](https://img.shields.io/badge/Frequency-Monthly-orange?style=flat-square) |
+| **🌐 Alliance Participation** | European OSPO network membership and collaboration | Strategic alignment with European open source initiatives | ![Continuous](https://img.shields.io/badge/Engagement-Continuous-purple?style=flat-square) |
+
+**Member Since:** November 25, 2025
+
+**OSPO OnRamp Details:**
+- **🎯 Purpose:** Low-threshold entry point for organizations setting up Open Source Program Offices
+- **📅 Schedule:** Every other month (bi-monthly) on 3rd Friday, 10:30-12:00 CE(S)T
+- **📋 Format:**
+  - **Part 1 (Recorded):** Expert presentations on OSPO setup, experiences, lessons learned
+  - **Part 2 (Chatham House Rule):** Open discussion of challenges and problems (not recorded)
+- **🔗 Meeting Link:** [OSPO OnRamp Sessions](https://ospo-alliance.org/onramp/)
+- **📚 Past Recordings:** Available at [OSPO OnRamp Archive](https://ospo-alliance.org/onramp/)
+
+**Business Impact:**
+- **💡 Innovation Enablement:** Access to European OSPO best practices and implementation guidance
+- **🤝 Partnership Value:** Network with organizations establishing open source programs
+- **🏆 Competitive Advantage:** Early adopter positioning in Swedish OSPO landscape
+- **📊 Decision Quality:** Evidence-based open source governance insights
+- **🌍 Market Expansion:** Connection to European open source ecosystem
+
+### 🇸🇪 **Swedish OSPO Network (NOSAD)**
+**Engagement Status:** Active Participant - [Network Information](https://nosad.se/ospo)
+
+| Engagement Type | Details | Business Value | Frequency |
+|-----------------|---------|----------------|-----------|
+| **🏢 Full-Day Workshops** | 2-3 annual full-day workshops hosted by member organizations (Chatham House Rule) | Deep-dive into practical OSPO topics with peer organizations | [![Annual](https://img.shields.io/badge/Workshops-2--3_per_year-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🎯 Gothenburg Events** | Regional OSPO workshops (hosted by Ericsson, RISE, Volvo Cars) | Local professional community engagement with major Swedish organizations | [![Selective](https://img.shields.io/badge/Participation-Selective-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📡 National Coordination** | Facilitated by coordination group (RISE, Ericsson, Sony, Sundsvalls kommun) | Align with national open source initiatives and governance standards | [![Continuous](https://img.shields.io/badge/Monitoring-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🤝 Community Collaboration** | Mailing list and asynchronous communication (Chatham House Rule) | Safe environment for sharing challenges and best practices | [![Active](https://img.shields.io/badge/Engagement-Active-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+
+**Network Focus:** Swedish Open Source Program Offices and organizations establishing open source governance
+
+**Network Structure:**
+- **Coordination Group:** RISE (Johan Linåker), Ericsson (Jimmy Ahlberg), Sony (Alin Jerpelea), Sundsvalls kommun (Per Persson)
+- **Recent Workshop Topics:** CRA & Cloud/AI Legislation (Husqvarna), Open Source Intake (Sony), AI & OSS (Volvo Cars), SBOM & Supply Chain (Scania)
+- **Member Organizations:** Public and private sector organizations with OSPOs or working with open source
+- **Operating Model:** Chatham House Rule for both workshops and mailing list to ensure open, safe knowledge sharing
+- **Contact:** johan.linaker@ri.se for network participation inquiries
+
+**Key Contacts:**
+- **Primary Contact:** Johan Linåker (RISE) - johan.linaker@ri.se
+- **Network Context:** Includes OSPO leads from Ericsson, Sony, Volvo Cars, Scania, IKEA, Husqvarna, and former leads from Polestar, Wirelesscar
+- **Geographic Scope:** National Swedish network with workshops in Gothenburg, Stockholm (Kista), Lund, Malmö, Södertälje, Huskvarna
+- **Participation Strategy:** Selective attendance at workshops based on topic relevance, geographic proximity, and business value
+
+**Business Impact:**
+- **🇸🇪 Local Market Intelligence:** Direct access to Swedish OSPO landscape including automotive, telecom, retail, and public sector
+- **🤝 Professional Network:** Connection to coordination group and OSPO practitioners from leading Swedish organizations
+- **💼 Client Opportunities:** Visibility among organizations actively establishing or operating OSPOs
+- **📊 Compliance Awareness:** Swedish implementation of CRA, AI Act, and SBOM requirements through peer learning
+- **🏆 Thought Leadership:** Positioning through participation in national OSPO knowledge development and best practice sharing
+
+---
+
 ## 🤝 **Professional Communities & Special Interest Groups**
 
 ### 🛡️ **Cybersecurity Professional Organizations**
@@ -271,11 +335,11 @@ flowchart TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#2e7d32',
-      'lineColor': '#66bb6a',
-      'secondaryColor': '#e3f2fd',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#1565C0',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -286,11 +350,13 @@ graph TD
         SIGSEC[🔐 Special Interest Group Security<br/>Academic Research Network - MEMBER]
         PAI[🤖 Partnership on AI<br/>AI Governance & Ethics<br/>Observer - Monitoring Only]
         AI_SEC[🛡️ AI Security Alliance<br/>AI-Specific Security<br/>Observer - Monitoring Only]
+        OSPO_ALLIANCE[🔓 OSPO Alliance<br/>European OSPO Network<br/>OSPO OnRamp - MEMBER]
     end
     
     subgraph NORDIC["🇸🇪 Nordic/Swedish Networks"]
         CYBERNODE[🤝 Cybernode.se<br/>Swedish Cybersecurity Network<br/>AI & Cybersecurity Working Group - MEMBER]
         MSB_NET[📡 MSB External Network<br/>Government Cybersecurity Briefings]
+        NOSAD[🇸🇪 Swedish OSPO Network<br/>NOSAD Open Source Community<br/>Gothenburg Events - PARTICIPANT]
     end
     
     subgraph BENEFITS["💼 Professional Benefits"]
@@ -299,6 +365,7 @@ graph TD
         INTELLIGENCE[📊 Threat Intelligence]
         COMPLIANCE[✅ Best Practices]
         AI_MONITORING[🤖 AI Intelligence Monitoring]
+        OSPO_KNOWLEDGE[🔓 Open Source Governance]
     end
     
     ISACA --> EDUCATION
@@ -308,18 +375,24 @@ graph TD
     MSB_NET --> INTELLIGENCE
     PAI -.-> AI_MONITORING
     AI_SEC -.-> AI_MONITORING
+    OSPO_ALLIANCE --> OSPO_KNOWLEDGE
+    NOSAD --> NETWORKING
+    NOSAD --> OSPO_KNOWLEDGE
     
     EDUCATION --> COMPLIANCE
     NETWORKING --> COMPLIANCE
     INTELLIGENCE --> COMPLIANCE
     AI_MONITORING -.-> COMPLIANCE
+    OSPO_KNOWLEDGE --> COMPLIANCE
     
-    style ISACA fill:#bbdefb
-    style ISC2 fill:#c8e6c9
-    style CYBERNODE fill:#fff3e0
-    style SIGSEC fill:#f8bbd9
-    style PAI fill:#f0f0f0
-    style AI_SEC fill:#f0f0f0
+    style ISACA fill:#1565C0
+    style ISC2 fill:#4CAF50
+    style CYBERNODE fill:#FF9800
+    style SIGSEC fill:#D32F2F
+    style PAI fill:#9E9E9E
+    style AI_SEC fill:#9E9E9E
+    style OSPO_ALLIANCE fill:#2E7D32
+    style NOSAD fill:#4CAF50
 ```
 
 #### **🎓 ISACA (Information Systems Audit and Control Association)**
@@ -400,11 +473,11 @@ Based on [🚨 Incident Response Plan](./Incident_Response_Plan.md) incident cla
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -456,11 +529,11 @@ flowchart TD
     AI_SERIOUS -.-> AI_SEC_MONITOR
     AI_SERIOUS -.-> PAI_MONITOR
     
-    style CRITICAL fill:#ffcccb
-    style HIGH fill:#ffeb9c
-    style AI_SERIOUS fill:#e1bee7
-    style MEDIUM fill:#fff9c4
-    style LOW fill:#c8e6c9
+    style CRITICAL fill:#D32F2F
+    style HIGH fill:#FFC107
+    style AI_SERIOUS fill:#7B1FA2
+    style MEDIUM fill:#FFC107
+    style LOW fill:#4CAF50
 ```
 
 #### **Critical Incident Notification (🔴)**
@@ -489,11 +562,11 @@ flowchart TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e1f5fe',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -543,6 +616,7 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 | **🏛️ Regulatory Authorities** | [![Very High](https://img.shields.io/badge/Influence-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Incident-driven + Quarterly | Official portals, secure email | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🤝 Professional Organizations** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monthly engagement | Member portals, events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🇸🇪 National Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Bi-weekly + Monthly | Network communications | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔓 OSPO Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Bi-monthly + Event-based | Online meetings, local events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🔐 Research Community** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Continuous access | Academic platforms | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🤖 AI Intelligence Sources** | [![Low](https://img.shields.io/badge/Influence-Low-lightgray?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monitoring only | Public publications, reports | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **🌍 International Bodies** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Quarterly monitoring | Public resources | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
@@ -553,8 +627,9 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 |---------|-------------------|------------------|-----------------|
 | **Q3 2025** | MSB briefing participation, ISACA chapter engagement | Cybernode active membership visibility | [![Active](https://img.shields.io/badge/Status-Active-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 | **Q3 2025** | Professional certification maintenance, IMY compliance review | CPE requirements completion | [![Compliant](https://img.shields.io/badge/Status-Compliant-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Q4 2025** | AI & Cybersecurity working group leadership | Thought leadership contributions | [![Leading](https://img.shields.io/badge/Status-Leading-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Q4 2025** | Annual compliance reporting, stakeholder review | Registry updates, relationship assessment | [![Updated](https://img.shields.io/badge/Status-Updated-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **Q4 2025** | AI & Cybersecurity working group leadership, OSPO Alliance membership activation | Thought leadership contributions, OSPO OnRamp participation | [![Leading](https://img.shields.io/badge/Status-Leading-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **Q4 2025** | Annual compliance reporting, stakeholder review, Swedish OSPO network engagement | Registry updates, relationship assessment, NOSAD event attendance | [![Updated](https://img.shields.io/badge/Status-Updated-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **Q1 2026** | OSPO OnRamp continued participation, Swedish OSPO meetup attendance | Open source governance best practices adoption | [![Engaged](https://img.shields.io/badge/Status-Engaged-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
 
 ---
 
@@ -608,6 +683,8 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 - [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Business impact analysis and stakeholder influence assessment
 - [📉 Risk Register](./Risk_Register.md) — Risk identification including regulatory and stakeholder relationship risks
 - [🤝 Third Party Management](./Third_Party_Management.md) — Supplier and partner relationship management procedures
+- [🤝 Partnership Framework](./Partnership_Framework.md) — Strategic partnership development and management
+- [🔓 Open Source Policy](./Open_Source_Policy.md) — Open source governance and community engagement
 - [💻 Asset Register](./Asset_Register.md) — Complete asset inventory including stakeholder-dependent systems
 - [📊 Security Metrics](./Security_Metrics.md) — Performance measurement including stakeholder relationship KPIs
 - [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) — Crisis communication and stakeholder coordination during disruptions
@@ -619,6 +696,6 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
+**📅 Effective Date:** 2025-11-26  
 **⏰ Next Review:** 2026-05-18   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
