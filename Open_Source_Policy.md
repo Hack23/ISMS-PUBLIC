@@ -464,6 +464,7 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 ### **🤝 Third-Party Management**
 - [🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md) — Supplier risk procedures
 - [🔗 Supplier Security Posture](https://github.com/Hack23/ISMS-PUBLIC/blob/main/SUPPLIER.md) — Third-party assessments
+- [🤝 External Stakeholder Registry](https://github.com/Hack23/ISMS-PUBLIC/blob/main/External_Stakeholder_Registry.md) — Professional communities and OSPO network engagement
 
 ### **📈 Monitoring & Reporting**
 - [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) — Performance measurement
