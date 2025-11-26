@@ -14,6 +14,7 @@
   <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--10-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/ISMS-PUBLIC)
 </p>
 
 **📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-10 (UTC)  
