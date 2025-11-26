@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--18-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.6-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--19-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2025-11-18 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-18
+**📋 Document Owner:** CEO | **📄 Version:** 1.6 | **📅 Last Updated:** 2025-11-19 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-19
 
 ---
 
@@ -135,6 +135,21 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 - Conduct independent ISMS assessments
 - Validate compliance with ISO 27001 requirements
 - Provide recommendations for improvement
+
+---
+
+## 🚫 **Segregation of Duties**
+
+**ISO 27001:2022 Control A.5.3** requires segregation of duties to reduce opportunities for unauthorized or unintentional modification or misuse of organizational assets. As a single-person organization, Hack23 AB implements comprehensive compensating controls documented in the dedicated [🚫 Segregation of Duties Policy](./Segregation_of_Duties_Policy.md).
+
+The policy defines:
+- **15 Incompatible Role Pairs**: System Admin/Auditor, Developer/Deployer, Financial Approver/Processor, and 12 additional critical separations
+- **Compensating Controls**: Temporal separation, tool-based enforcement, audit trails, external validation, automated anomaly detection
+- **Risk-Based Workflow**: Differentiated approval processes for high/medium/low risk changes
+- **Monitoring Framework**: Continuous, quarterly, and annual audit procedures
+- **Break-Glass Procedures**: Emergency response protocols with enhanced logging
+
+See [🚫 Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) for complete matrix, workflows, and control details.
 
 ---
 
@@ -321,6 +336,7 @@ This Information Security Policy integrates with and references the complete ISM
 ### 🔐 **Core Security Policies**
 
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Zero-trust identity and access management
+- [🚫 Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) - Role separation and compensating controls for single-person operations
 - [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) - Behavioral expectations and professional technology usage standards
 - [🏠 Physical Security Policy](./Physical_Security_Policy.md) - Home office security and physical asset protection
 - [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) - Personal device security and endpoint protection
