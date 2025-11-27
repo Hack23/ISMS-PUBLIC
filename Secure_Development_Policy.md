@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-27
 
 ---
 
@@ -95,6 +95,30 @@ This policy establishes the comprehensive framework for developing secure softwa
 - **🎭 Data Anonymization & Masking:** Where data structurally similar to production data is required for testing, it MUST be anonymized, pseudonymized, or masked to remove all sensitive elements.
 - **🗑️ Secure Deletion:** Test data MUST be securely deleted from test environments upon completion of testing.
 - **🔐 Access Control:** Access to test environments and data is restricted based on the principle of least privilege.
+
+### **🤖 AI-Augmented Development Controls**
+
+All AI-assisted development activities (including GitHub Copilot, custom agents, and LLM-based tools) MUST follow these controls:
+
+#### **🔐 AI as Proposal Generator, Not Authority**
+- **All AI outputs are proposals:** AI-generated code, documentation, and configurations require human review and approval
+- **No autonomous deployment:** AI may not bypass CI/CD pipelines, security gates, or approval workflows
+- **Human accountability:** Responsibility for all changes remains with human developers, not AI tools
+
+#### **📋 PR Review Requirements**
+- **Mandatory human review:** All AI-assisted changes MUST pass through standard pull request workflows
+- **Security gate enforcement:** CI pipelines unchanged or only tightened; AI may not weaken security controls
+- **Change attribution:** PR descriptions MUST document AI assistance when used
+
+#### **🔧 Curator-Agent as Tooling Change**
+- **Configuration management:** Changes to `.github/agents/*.md`, `.github/copilot-mcp*.json`, `.github/workflows/copilot-setup-steps.yml` treated as Normal Changes per [Change Management](./Change_Management.md)
+- **CEO approval required:** All curator-agent modifications to agent ecosystem require explicit CEO or designated security owner approval
+- **Risk assessment:** Capability expansion or new integrations require documented risk evaluation
+
+#### **🛡️ Security Requirements**
+- **Tool permissions:** Agents operate with least-privilege tool access; capability expansion requires security review
+- **MCP governance:** Model Context Protocol configurations require change control and security validation
+- **Audit trail:** All agent activities logged and reviewable for compliance and security analysis
 
 ### **🚀 Phase 4: Deployment**
 - **🤖 Automated CI/CD Pipelines:** Security gates preventing vulnerable code promotion with classification-driven thresholds
@@ -1170,6 +1194,6 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public    
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-11-17  
+**📅 Effective Date:** 2025-11-27  
+**⏰ Next Review:** 2026-11-27  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
