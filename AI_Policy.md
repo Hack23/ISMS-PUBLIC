@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.nist.gov/itl/ai-risk-management-framework"><img src="https://img.shields.io/badge/🎯_NIST_AI_RMF-1.0_Aligned-purple?style=for-the-badge&logo=nist&logoColor=white" alt="NIST AI RMF"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-16
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-26
 
 ---
 
@@ -76,11 +76,11 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -115,11 +115,11 @@ graph TD
     ANALYSIS --> GOVERNANCE
     PLANNED --> GOVERNANCE
     
-    style DEVELOPMENT fill:#e3f2fd
-    style CREATIVE fill:#f3e5f5
-    style ANALYSIS fill:#fff3e0
-    style PLANNED fill:#f1f8e9
-    style GOVERNANCE fill:#c8e6c9
+    style DEVELOPMENT fill:#1565C0
+    style CREATIVE fill:#7B1FA2
+    style ANALYSIS fill:#FF9800
+    style PLANNED fill:#4CAF50
+    style GOVERNANCE fill:#4CAF50
 ```
 
 ### 🎯 **AI Classification Matrix**
@@ -142,11 +142,11 @@ graph TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f3e5f5',
+      'primaryColor': '#7B1FA2',
       'primaryTextColor': '#4a148c',
-      'lineColor': '#9c27b0',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff9c4'
+      'lineColor': '#7B1FA2',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -182,11 +182,11 @@ flowchart TD
     TRANSPARENCY --> ALIGNED
     BEST_PRACTICES --> ALIGNED
     
-    style PROHIBITED fill:#ffcccb
-    style HIGH_RISK fill:#ffeb9c
-    style LIMITED_RISK fill:#fff9c4
-    style MINIMAL_RISK fill:#c8e6c9
-    style ALIGNED fill:#e8f5e9
+    style PROHIBITED fill:#D32F2F
+    style HIGH_RISK fill:#FFC107
+    style LIMITED_RISK fill:#FFC107
+    style MINIMAL_RISK fill:#4CAF50
+    style ALIGNED fill:#4CAF50
 ```
 
 ### 📋 **Compliance Implementation Status**
@@ -211,11 +211,11 @@ AI risks are evaluated using the comprehensive [📊 Risk Assessment Methodology
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -244,9 +244,9 @@ graph TD
     AI_RISKS --> ISMS_EVALUATION
     ISMS_EVALUATION --> EVIDENCE
     
-    style AI_RISKS fill:#f3e5f5
-    style ISMS_EVALUATION fill:#c8e6c9
-    style EVIDENCE fill:#e3f2fd
+    style AI_RISKS fill:#7B1FA2
+    style ISMS_EVALUATION fill:#4CAF50
+    style EVIDENCE fill:#1565C0
 ```
 
 ### 🎯 **Risk Control Principles**
@@ -257,6 +257,240 @@ graph TD
 | **⚙️ Operational Risks** | Human oversight and process integration | [🔑 Access Control Policy](./Access_Control_Policy.md) + [📝 Change Management](./Change_Management.md) | 100% human validation compliance |
 | **⚖️ Compliance Risks** | Regulatory alignment monitoring | Legal review + policy compliance | Full regulatory compliance |
 | **🎯 Strategic Risks** | Business impact assessment and mitigation | [📉 Risk Register](./Risk_Register.md) + [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | Business objective achievement |
+
+---
+
+## 🤖 **AI Agent Ecosystem & Curator Governance**
+
+### 🎯 **Agent Architecture & Governance Model**
+
+Hack23 AB implements a curated ecosystem of GitHub Copilot custom agents with explicit governance and oversight mechanisms:
+
+```mermaid
+graph TB
+    subgraph "🎯 Governance Layer"
+        CEO[👔 CEO<br/>Ultimate Authority]:::ceo
+        SEC[🛡️ Security Owner<br/>Delegated Review]:::security
+    end
+    
+    subgraph "🔧 Meta-Agent Layer"
+        CURATOR[🔧 Curator-Agent<br/>Configuration Manager]:::curator
+    end
+    
+    subgraph "📋 Agent Fleet"
+        TASK[📋 Task Agents<br/>Analysis & Issues]:::task
+        SPEC[👷 Specialist Agents<br/>Implementation]:::specialist
+    end
+    
+    subgraph "⚙️ Configuration"
+        PROFILES[🤖 Agent Profiles<br/>.github/agents/*.md]:::config
+        MCP[🔌 MCP Config<br/>copilot-mcp.json]:::config
+        WORKFLOW[⚙️ Workflows<br/>copilot-setup-steps.yml]:::config
+    end
+    
+    subgraph "🔒 Enforcement"
+        PR[🔀 Pull Request<br/>Required]:::control
+        CI[✅ CI/CD Gates<br/>Automated Checks]:::control
+        REVIEW[👀 Human Review<br/>Final Approval]:::control
+    end
+    
+    CEO -->|Approves| CURATOR
+    SEC -->|Reviews| CURATOR
+    
+    CURATOR -->|Modifies| PROFILES
+    CURATOR -->|Modifies| MCP
+    CURATOR -->|Modifies| WORKFLOW
+    
+    PROFILES -->|Defines| TASK
+    PROFILES -->|Defines| SPEC
+    MCP -->|Configures| TASK
+    MCP -->|Configures| SPEC
+    
+    CURATOR -->|Must Use| PR
+    TASK -->|Must Use| PR
+    SPEC -->|Must Use| PR
+    
+    PR -->|Triggers| CI
+    CI -->|Passes to| REVIEW
+    REVIEW -->|Approval by| CEO
+    
+    TASK -.->|❌ Cannot Modify| PROFILES
+    SPEC -.->|❌ Cannot Modify| MCP
+    
+    classDef ceo fill:#2E7D32,stroke:#1B5E20,stroke-width:4px,color:#fff,font-weight:bold
+    classDef security fill:#1565C0,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
+    classDef curator fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
+    classDef task fill:#FFC107,stroke:#F57C00,stroke-width:2px,color:#000,font-weight:bold
+    classDef specialist fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef config fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef control fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+```
+
+#### **🔐 Curator-Agent Role (Meta-Agent)**
+
+The **curator-agent** is the only agent authorized to systematically create or modify other agents' configurations and prompts:
+
+- **Authorized Modifications:**
+  - `.github/agents/*.md` — Custom agent profile definitions
+  - `.github/copilot-mcp*.json` — MCP server configurations
+  - `.github/workflows/copilot-setup-steps.yml` — Agent bootstrap workflows
+
+- **Required Controls:**
+  - ✅ All curator-agent changes MUST be made via pull requests (PRs)
+  - ✅ All PRs require CEO or designated security/ISMS owner review and approval
+  - ✅ Changes MUST be mapped to risk assessment and documented in [Risk Register](./Risk_Register.md) when relevant
+  - ✅ Changes MUST follow [Change Management](./Change_Management.md) procedures
+
+- **Prohibited Actions (Core Restrictions Only):**
+  - ❌ No agent may bypass CEO approval on pull requests
+  - ❌ No agent may modify its own permissions or MCP configuration (curator-agent must perform such changes with CEO approval)
+
+```mermaid
+graph LR
+    subgraph "✅ Allowed Actions with Automation"
+        A1[🔧 Curator-Agent:<br/>Modify agent configs<br/>with CEO approval]:::allowed
+        A2[📋 Task Agents:<br/>Create & auto-assign<br/>ISMS-aligned issues]:::allowed
+        A3[👷 Specialist Agents:<br/>Implement changes<br/>via PR workflow]:::allowed
+        A4[🤖 All Agents:<br/>Generate proposals<br/>for CEO review]:::allowed
+        A5[📋 Task Agents:<br/>Coordinate specialist<br/>agent assignments]:::allowed
+    end
+    
+    subgraph "❌ Prohibited Actions"
+        P1[❌ Bypass CEO<br/>PR approval]:::prohibited
+        P2[❌ Self-modify<br/>permissions/MCP]:::prohibited
+    end
+    
+    A1 -.->|Never| P2
+    A2 -.->|Never| P1
+    A3 -.->|Never| P1
+    A4 -.->|Never| P1
+    A5 -.->|Never| P2
+    
+    classDef allowed fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
+    classDef prohibited fill:#F44336,stroke:#C62828,stroke-width:3px,color:#fff,font-weight:bold
+```
+
+#### **👥 Task & Specialist Agent Automation**
+
+Task and specialist agents operate with increased automation under CEO oversight:
+
+- **Task Agents:** 
+  - Analyze systems and create ISMS-aligned improvement issues
+  - **Automatically assign issues to appropriate specialist agents** based on domain expertise
+  - Coordinate multi-agent workflows for complex improvements
+  - CEO sets strategic direction; task agents execute analysis and coordination
+
+- **Specialist Agents:** 
+  - Implement specific changes following curated prompts and least-privilege tool access
+  - Receive assignments from task agents automatically
+  - Submit all work via PR workflow for CEO approval
+
+- **All Agent Work:**
+  - Generated as proposals requiring CEO approval via PR workflow
+  - Workflows and agent configurations require CEO approval
+  - CI/CD pipelines enforce security gates
+  - ISMS-PUBLIC loaded as mandatory context
+  - Secure Development Policy compliance enforced
+
+#### **🛡️ CEO Oversight & Strategic Control**
+
+The CEO maintains ultimate authority and approval over all agent activities:
+
+- **Strategic Direction:**
+  - CEO sets objectives and priorities for task agent analysis
+  - CEO directs which repositories and systems to analyze
+  - CEO defines improvement focus areas and compliance targets
+
+- **Approval Authority:**
+  - **All pull requests created by agents require CEO approval** before merge
+  - **All workflow changes require CEO approval** (`.github/workflows/*.yml`)
+  - **All agent configuration changes require CEO approval** (curator-agent modifications)
+  - Delegated approvals possible for routine changes with CEO oversight
+
+- **Automation with Oversight:**
+  - Task agents automatically assign specialist agents (approved automation pattern)
+  - Agents generate proposals and coordinate work (CEO retains final approval)
+  - CI security gates provide technical validation (CEO review remains mandatory)
+  - Responsibility for all production changes remains with CEO, not agents
+
+### 📊 **Agent Risk Management**
+
+Agent-specific risks documented in [Risk Register](./Risk_Register.md):
+
+| Risk | Description | Controls |
+|------|-------------|----------|
+| **R-AGENT-001** | Misconfigured curator-agent widens agent permissions or bypasses checks | • CEO approval on curator changes<br>• Automated validation of agent YAML<br>• CI checks forbid certain patterns |
+| **R-AGENT-002** | Agents generate policies or configurations contradicting ISMS | • ISMS documents authoritative, agents draft only<br>• CEO review required for policy files<br>• Explicit versioning and approval workflows |
+
+### 🔄 **Agent Lifecycle Management**
+
+Per [Change Management](./Change_Management.md), agent configuration files are treated as configuration items requiring change control:
+
+- **Agent Profile Changes:** Normal change requiring CEO approval
+- **MCP Configuration Changes:** Normal change with security impact assessment
+- **Capability Expansion:** Requires risk evaluation and CEO approval
+- **New Agent Creation:** Requires business justification and security review
+
+```mermaid
+flowchart TD
+    Start([🆕 Agent Change Request]):::start
+    
+    Type{Change Type?}:::decision
+    
+    Profile[📝 Agent Profile<br/>Modification]:::change
+    MCP[🔌 MCP Config<br/>Change]:::change
+    Capability[⚡ Capability<br/>Expansion]:::change
+    NewAgent[🤖 New Agent<br/>Creation]:::change
+    
+    Review1[👀 Security<br/>Impact Assessment]:::review
+    Review2[📊 Risk<br/>Evaluation]:::review
+    Review3[💼 Business<br/>Justification]:::review
+    
+    PR[🔀 Create Pull Request]:::process
+    CI[✅ CI/CD Validation<br/>• YAML syntax check<br/>• Security patterns<br/>• Tool constraints]:::process
+    
+    CEOReview{👔 CEO<br/>Approval?}:::ceo
+    
+    Approved[✅ Merge & Deploy]:::success
+    Rejected[❌ Rejected<br/>Document Rationale]:::failure
+    
+    Feedback[💬 Revise & Resubmit]:::feedback
+    
+    Start --> Type
+    
+    Type -->|Profile| Profile
+    Type -->|MCP| MCP
+    Type -->|Capability| Capability
+    Type -->|New Agent| NewAgent
+    
+    Profile --> PR
+    MCP --> Review1
+    Capability --> Review2
+    NewAgent --> Review3
+    
+    Review1 --> PR
+    Review2 --> PR
+    Review3 --> PR
+    
+    PR --> CI
+    CI --> CEOReview
+    
+    CEOReview -->|Approved| Approved
+    CEOReview -->|Changes Requested| Feedback
+    CEOReview -->|Rejected| Rejected
+    
+    Feedback --> Type
+    
+    classDef start fill:#9E9E9E,stroke:#616161,stroke-width:3px,color:#fff,font-weight:bold
+    classDef decision fill:#FFC107,stroke:#F57C00,stroke-width:3px,color:#000,font-weight:bold
+    classDef change fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef review fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef process fill:#00BCD4,stroke:#00838F,stroke-width:2px,color:#fff
+    classDef ceo fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
+    classDef success fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
+    classDef failure fill:#F44336,stroke:#C62828,stroke-width:3px,color:#fff,font-weight:bold
+    classDef feedback fill:#FF5722,stroke:#D84315,stroke-width:2px,color:#fff
+```
 
 ---
 
@@ -310,11 +544,11 @@ AI governance performance is measured through [📊 Security Metrics](./Security
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e1f5fe',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -324,10 +558,10 @@ flowchart LR
     IMPROVE --> VALIDATE[✅ Validate Results<br/>Measurable outcomes]
     VALIDATE --> MONITOR
     
-    style MONITOR fill:#e3f2fd
-    style ASSESS fill:#fff3e0
-    style IMPROVE fill:#c8e6c9
-    style VALIDATE fill:#f1f8e9
+    style MONITOR fill:#1565C0
+    style ASSESS fill:#FF9800
+    style IMPROVE fill:#4CAF50
+    style VALIDATE fill:#4CAF50
 ```
 
 #### **Improvement Framework**
@@ -394,8 +628,8 @@ flowchart LR
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-02-16   
+**📅 Effective Date:** 2025-11-27  
+**⏰ Next Review:** 2026-02-26   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 
 <p align="center">
