@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 3.0 | **📅 Last Updated:** 2025-11-10 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-10
+**📋 Document Owner:** CEO | **📄 Version:** 4.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-27
 
 ---
 
@@ -662,6 +662,227 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 - **✅ Risk Assessment:** All AI systems classified and risk-assessed
 - **✅ Vendor Management:** AI suppliers assessed per third-party management policy
 
+### 🤖 **AI Agent Governance & Curated Automation**
+
+Hack23 AB operates a curated ecosystem of GitHub Copilot custom agents across all ISMS-scoped repositories (CIA, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS).
+
+The ecosystem is intentionally **tiered**:
+
+1. **Curator-Agent (Meta-Agent Role)**  
+   - Maintains and evolves the agent fleet itself:
+     - `.github/agents/*.md` custom agent profiles  
+     - `.github/copilot-mcp*.json` MCP server configurations  
+     - `.github/workflows/copilot-setup-steps.yml` agent bootstrap workflows  
+   - Ensures all agents:
+     - Load ISMS-PUBLIC as mandatory context  
+     - Follow the AI Policy, Secure Development Policy, Open Source Policy and other ISMS-PUBLIC controls  
+     - Operate with least-privilege permissions and minimal tool sets  
+   - Proposes improvements to agent prompts and tools based on observed gaps and false-positive/false-negative patterns.
+
+2. **Task / Product Task Agents (Per Product / Repo)**  
+   - One or more task agents per product (Citizen Intelligence Agency, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS).  
+   - Responsibilities:
+     - Analyze repositories, documentation, ISMS-PUBLIC and live systems per CEO direction
+     - Run MCP-powered checks (GitHub, filesystem, git, Playwright, AWS where applicable)  
+     - Create structured GitHub issues with:
+       - Objective, background, analysis, acceptance criteria  
+       - Explicit ISMS-PUBLIC policy mappings (ISO 27001, NIST CSF, CIS, GDPR, NIS2, CRA)  
+       - Evidence (scan results, metrics, screenshots)  
+     - **Automatically assign issues to appropriate specialist agents** using Pentagon of Importance prioritization
+     - Coordinate multi-agent workflows for complex improvements
+
+3. **Specialist Agents (Per Domain)**  
+   - Security, secure development, testing, UI/UX, documentation, business, marketing, political intelligence, etc.  
+   - Receive automatic assignments from task agents based on domain expertise
+   - Implement changes under curated prompts, always:
+     - Reading repository context and ISMS-PUBLIC  
+     - Following Secure Development Policy and project-specific workflows  
+     - Respecting least-privilege tools and CI/CD protections
+     - Submitting all work via PR for CEO approval
+
+4. **CEO Strategic Control & Approval**  
+   - CEO maintains ultimate authority over agent ecosystem:  
+     - **Sets strategic direction** for task agent analysis and priorities
+     - **Approves all pull requests** created by agents before merge
+     - **Approves all workflow changes** (`.github/workflows/*.yml`)
+     - **Approves curator-agent changes** to agent profiles and MCP configs
+   - Agents provide automation and proposals; CEO retains decision authority
+   - Responsibility for production changes, incidents, and policy evolution remains with CEO
+
+This governance structure turns AI agents into **controlled, auditable technical controls** inside the ISMS rather than autonomous actors.
+
+#### **Agent Architecture Overview**
+
+```mermaid
+graph TB
+    subgraph "👤 Human Oversight Layer"
+        CEO[👔 CEO / Security Owner<br/>Ultimate Accountability]:::human
+        PM[👥 Project Maintainers<br/>PR Review & Approval]:::human
+    end
+    
+    subgraph "🔧 Meta-Agent Layer"
+        CURATOR[🔧 Curator-Agent<br/>Agent Configuration Management]:::curator
+    end
+    
+    subgraph "📋 Orchestration Layer"
+        TASK_ISMS[📋 ISMS Task Agent]:::task
+        TASK_CIA[🏛️ CIA Task Agent]:::task
+        TASK_CM[📊 CIA CM Task Agent]:::task
+        TASK_BT[🎮 Black Trigram Task Agent]:::task
+        TASK_HP[🌐 Homepage Task Agent]:::task
+    end
+    
+    subgraph "👷 Implementation Layer"
+        SEC[🛡️ Security Specialist]:::specialist
+        DEV[💻 Development Specialist]:::specialist
+        TEST[🧪 Testing Specialist]:::specialist
+        UX[🎨 UI/UX Specialist]:::specialist
+        DOC[📝 Documentation Specialist]:::specialist
+        BIZ[💼 Business Specialist]:::specialist
+    end
+    
+    subgraph "📊 Outputs & Evidence"
+        CONFIG[🤖 Agent Configurations<br/>.github/agents/*.md]:::output
+        ISSUES[📝 GitHub Issues<br/>ISMS-Aligned]:::output
+        CODE[💻 Code Changes<br/>PR Workflow]:::output
+        DOCS[📄 Documentation<br/>ISMS Updates]:::output
+    end
+    
+    CEO -->|Approves| CURATOR
+    CEO -->|Directs| TASK_ISMS
+    CEO -->|Directs| TASK_CIA
+    CEO -->|Directs| TASK_CM
+    CEO -->|Directs| TASK_BT
+    CEO -->|Directs| TASK_HP
+    
+    CURATOR -->|Maintains| CONFIG
+    CONFIG -->|Defines| TASK_ISMS
+    CONFIG -->|Defines| TASK_CIA
+    CONFIG -->|Defines| SEC
+    CONFIG -->|Defines| DEV
+    
+    TASK_ISMS -->|Creates| ISSUES
+    TASK_CIA -->|Creates| ISSUES
+    TASK_CM -->|Creates| ISSUES
+    TASK_BT -->|Creates| ISSUES
+    TASK_HP -->|Creates| ISSUES
+    
+    ISSUES -->|Assigns| SEC
+    ISSUES -->|Assigns| DEV
+    ISSUES -->|Assigns| TEST
+    ISSUES -->|Assigns| UX
+    ISSUES -->|Assigns| DOC
+    ISSUES -->|Assigns| BIZ
+    
+    SEC -->|Implements| CODE
+    DEV -->|Implements| CODE
+    TEST -->|Implements| CODE
+    UX -->|Implements| CODE
+    DOC -->|Creates| DOCS
+    BIZ -->|Creates| DOCS
+    
+    CODE -->|PR Review| PM
+    DOCS -->|Review| PM
+    PM -->|Approval| CEO
+    
+    classDef human fill:#2E7D32,stroke:#1B5E20,stroke-width:4px,color:#fff,font-weight:bold
+    classDef curator fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
+    classDef task fill:#FFC107,stroke:#F57C00,stroke-width:3px,color:#000,font-weight:bold
+    classDef specialist fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
+    classDef output fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+```
+
+#### **Agent Workflow: From Analysis to Implementation**
+
+```mermaid
+sequenceDiagram
+    participant CEO as 👔 CEO
+    participant TaskAgent as 📋 Task Agent
+    participant GitHub as 🐙 GitHub
+    participant ISMS as 🔐 ISMS-PUBLIC
+    participant Specialist as 👷 Specialist Agent
+    participant CI as 🔄 CI/CD Gates
+    
+    CEO->>TaskAgent: Direct analysis of repository
+    
+    Note over TaskAgent: Phase 1: Context Loading
+    TaskAgent->>GitHub: Read .github/workflows/copilot-setup-steps.yml
+    TaskAgent->>GitHub: Read .github/copilot-mcp.json
+    TaskAgent->>GitHub: Read README.md
+    TaskAgent->>ISMS: Download Secure_Development_Policy.md
+    ISMS-->>TaskAgent: Security requirements loaded
+    
+    Note over TaskAgent: Phase 2: Analysis
+    TaskAgent->>GitHub: Analyze code, tests, CI/CD, live site
+    TaskAgent->>GitHub: Check ISMS compliance gaps
+    GitHub-->>TaskAgent: Repository data + metrics
+    
+    Note over TaskAgent: Phase 3: Issue Creation
+    TaskAgent->>GitHub: Create 5-10 prioritized issues<br/>with ISMS mapping & agent assignment
+    GitHub-->>TaskAgent: Issues created with URLs
+    
+    TaskAgent-->>CEO: Report: Issues created with evidence
+    
+    Note over CEO,Specialist: CEO Reviews & Assigns
+    CEO->>Specialist: Assign issue to specialist agent
+    
+    Note over Specialist: Implementation Phase
+    Specialist->>GitHub: Read context files
+    Specialist->>ISMS: Read relevant policies
+    Specialist->>GitHub: Implement changes
+    Specialist->>GitHub: Add tests
+    Specialist->>GitHub: Update documentation
+    Specialist->>GitHub: Create PR
+    
+    GitHub->>CI: Trigger CI/CD checks
+    CI-->>GitHub: ✅ All checks passed
+    
+    GitHub->>CEO: PR ready for review
+    CEO->>GitHub: Review & approve PR
+    GitHub->>GitHub: Merge to main
+    
+    Note over GitHub,ISMS: Evidence Captured
+    GitHub->>ISMS: Update policies with implementation evidence
+```
+
+#### **Pentagon of Continuous Improvement**
+
+```mermaid
+graph TB
+    subgraph "⭐ Pentagon of Importance"
+        CENTER[🎯 ISMS Alignment<br/>Central Goal]:::center
+        
+        SEC[🔒 Security<br/>Vulnerabilities, Threats,<br/>Control Implementation]:::security
+        QUAL[✨ Quality<br/>Code Excellence,<br/>Test Coverage, Tech Debt]:::quality
+        FUNC[🚀 Functionality<br/>Feature Completeness,<br/>User Value]:::functionality
+        QA[🧪 Quality Assurance<br/>Testing Rigor,<br/>Validation]:::qa
+        ISMS_DIM[📋 ISMS Controls<br/>Policy Compliance,<br/>Framework Adherence]:::isms
+        
+        CENTER --- SEC
+        CENTER --- QUAL
+        CENTER --- FUNC
+        CENTER --- QA
+        CENTER --- ISMS_DIM
+        
+        SEC -.->|Enables| FUNC
+        QUAL -.->|Supports| QA
+        FUNC -.->|Requires| QA
+        QA -.->|Validates| ISMS_DIM
+        ISMS_DIM -.->|Mandates| SEC
+    end
+    
+    classDef center fill:#FFD700,stroke:#F57F17,stroke-width:4px,color:#000,font-weight:bold
+    classDef security fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff,font-weight:bold
+    classDef quality fill:#1976D2,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
+    classDef functionality fill:#388E3C,stroke:#1B5E20,stroke-width:3px,color:#fff,font-weight:bold
+    classDef qa fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
+    classDef isms fill:#F57C00,stroke:#E65100,stroke-width:3px,color:#fff,font-weight:bold
+```
+
+#### 🏛️ **Governance Summary**
+
+**Automated Convergence with Governance:** Automated convergence is curated, not uncontrolled. A dedicated curator-agent maintains the agent fleet (profiles, MCP configurations, workflows), while product-specific task agents create ISMS-aligned improvement issues that are executed by specialist agents. All stages — curator changes, task-agent issue creation, and specialist implementation — are subject to human review and PR checks, with the CEO retaining ultimate accountability.
+
 ### 🎯 **Threat Modeling & Risk Management**
 
 **Systematic Threat Analysis per [Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md):**
@@ -803,6 +1024,9 @@ Our strategy success measurement framework aligned with [📊 Security Metrics](
 | **✅ Integrity** | Change tracking | 100% | Audit logs | Daily |
 | **⚡ Availability** | System uptime | >99.5% | Monitoring systems | Continuous |
 | **📊 Evidence Freshness** | Documentation age | <30d | Git history | Monthly |
+| **🤖 Agent Governance** | Curator/MCP changes reviewed by CEO | 100% | PR approval logs | Per change |
+| **🤖 Agent Improvement** | Curator improvements per quarter | Track | Agent updates | Quarterly |
+| **🤖 Policy Alignment** | Time from ISMS update to agent profiles | <2 weeks | Change tracking | Per policy update |
 
 ### 📈 **Strategic Dashboard Framework**
 
@@ -1036,6 +1260,6 @@ This Information Security Strategy will evolve continuously based on threat inte
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **🔒 Rationale:** Strategic security framework demonstrating methodology and approach; no proprietary tactics, financial details, or operational vulnerabilities disclosed. Transparency serves as competitive differentiator and client trust accelerator.  
-**📅 Effective Date:** 2025-11-10  
-**⏰ Next Review:** 2026-11-10   
+**📅 Effective Date:** 2025-11-27  
+**⏰ Next Review:** 2026-11-27   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
