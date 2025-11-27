@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--24-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-3.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2025-11-24 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-24
+**📋 Document Owner:** CEO | **📄 Version:** 3.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-27
 
 ---
 
@@ -80,6 +80,7 @@ This policy embodies our **🌟 transparency principle** - making change process
 | **⚙️ Application Features** | New functionality, business logic changes | • Threat modeling assessment<br>• Access control validation<br>• Data handling compliance<br>• Performance impact review | CEO review → Approval → Deployment |
 | **🔑 Security Control Changes** | Access policies, encryption settings, monitoring | • Control effectiveness analysis<br>• Regulatory impact assessment<br>• Risk evaluation<br>• Documentation updates | CEO review → Security analysis → Approval |
 | **🔌 Integration Updates** | Third-party services, API connections | • Vendor security validation<br>• Data flow analysis<br>• Privacy compliance review<br>• Contract alignment | CEO review → Vendor assessment → Approval |
+| **🤖 Agent Configuration Changes** | `.github/agents/*.md`, `.github/copilot-mcp*.json`, `.github/workflows/copilot-setup-steps.yml` | • Security capability assessment<br>• Tool permission validation<br>• ISMS alignment verification<br>• Risk evaluation for capability expansion | CEO review → Security analysis → Approval |
 
 **CEO Approval Requirements:**
 - ✅ All Standard Change requirements met
@@ -108,6 +109,53 @@ This policy embodies our **🌟 transparency principle** - making change process
 - ✅ Complete documentation within 4 hours
 - ✅ Post-implementation review within 24 hours
 - ✅ Lessons learned integration
+
+---
+
+## 🤖 **AI Agent Configuration Governance**
+
+### **📋 Agent Configuration as Configuration Items**
+
+All AI agent configuration files are treated as configuration items requiring change control:
+
+| Configuration File Type | Purpose | Change Category | Approval Authority |
+|------------------------|---------|-----------------|-------------------|
+| **`.github/agents/*.md`** | Custom agent profiles and prompts | 🟡 Normal Change | CEO or Security Owner |
+| **`.github/copilot-mcp*.json`** | MCP server configurations and permissions | 🟡 Normal Change | CEO or Security Owner |
+| **`.github/workflows/copilot-setup-steps.yml`** | Agent bootstrap and environment setup | 🟡 Normal Change | CEO or Security Owner |
+
+### **🔐 Agent Configuration Change Requirements**
+
+#### **Curator-Agent Changes**
+- **Change Record Required:** All curator-agent modifications MUST be documented with rationale
+- **PR-Based Workflow:** Changes made via pull requests with explicit approval
+- **Risk Assessment:** Required for:
+  - New agent creation
+  - Tool/permission expansion
+  - New MCP integration
+  - Environment configuration changes affecting security posture
+
+#### **Security Review Triggers**
+CEO or designated security owner approval REQUIRED for changes that:
+- ✅ Broaden agent capabilities or permissions
+- ✅ Add new MCP servers or external integrations
+- ✅ Modify security-related environment variables
+- ✅ Change agent access to sensitive repositories or data
+- ✅ Impact evidence generation or compliance monitoring
+
+#### **Automated Validation**
+- **CI Checks:** Automated validation of agent YAML syntax and structure
+- **Security Scanning:** Detection of overly permissive tool configurations (e.g., `tools: ["*"]` forbidden except in approved cases)
+- **Policy Compliance:** Verification that agent profiles load ISMS-PUBLIC context
+- **Documentation Requirements:** Agent README updates for significant changes
+
+### **📊 Agent Change Tracking**
+
+Per [AI Policy](./AI_Policy.md) governance requirements:
+- **Change Log:** All agent configuration changes tracked in version control with descriptive commit messages
+- **Review Cadence:** Agent ecosystem reviewed quarterly per `.github/agents/README.md` maintenance schedule
+- **Performance Metrics:** Agent effectiveness tracked as part of [Security Metrics](./Security_Metrics.md)
+- **Risk Register Integration:** Agent-specific risks documented in [Risk Register](./Risk_Register.md) (R-AGENT-001, R-AGENT-002)
 
 ---
 
@@ -617,6 +665,6 @@ This single-person adaptation demonstrates **cybersecurity consulting expertise*
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-24  
-**⏰ Next Review:** 2026-11-24  
+**📅 Effective Date:** 2025-11-27  
+**⏰ Next Review:** 2026-11-27  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
