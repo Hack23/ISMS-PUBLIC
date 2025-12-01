@@ -20,11 +20,7 @@
 **Document Owner:** CEO | **Version:** 3.0 | **Last Updated:** 2025-11-25 (UTC)  
 **🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-25
 
-<p align="center">
-  <a href="https://github.com/Hack23/ISMS/actions/workflows/link-validation.yml"><img src="https://github.com/Hack23/ISMS/actions/workflows/link-validation.yml/badge.svg" alt="Link Validation"/></a>
-  <a href="https://github.com/Hack23/ISMS/actions/workflows/validate-documentation.yml"><img src="https://github.com/Hack23/ISMS/actions/workflows/validate-documentation.yml/badge.svg" alt="Documentation Validation"/></a>
-  <a href="https://github.com/Hack23/ISMS/actions/workflows/ci.yml"><img src="https://github.com/Hack23/ISMS/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
-</p>
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/ISMS-PUBLIC)
 
 ---
 
