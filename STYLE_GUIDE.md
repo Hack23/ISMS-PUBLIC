@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ciacompliancemanager.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
+  <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">🎨 Hack23 AB — ISMS Style Guide</h1>
@@ -37,7 +37,7 @@ The header provides an at-a-glance overview of the document.
 
 ```markdown
 <p align="center">
-  <img src="https://ciacompliancemanager.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
+  <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">🔄 Hack23 AB — [Document Title]</h1>
@@ -99,7 +99,7 @@ Every ISMS document MUST end with this standardized footer. This section is crit
 Example:
 ```markdown
 <p align="center">
-  <img src="https://ciacompliancemanager.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
+  <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">🔐 Hack23 AB — Information Security Policy</h1>
