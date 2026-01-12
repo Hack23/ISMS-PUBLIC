@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://hack23.github.io/cia-compliance-manager/icon-192.png" alt="Hack23 Logo" width="192" height="192">
+  <img src="https://ciacompliancemanager.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">🛡️ Hack23 AB — Secure Development Policy</h1>
@@ -159,8 +159,8 @@ All projects must maintain comprehensive unit testing plan with public coverage 
 [![Code Quality](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
 
 **📊 CIA Compliance Manager:**
-[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://hack23.github.io/cia-compliance-manager/test-results/)
-[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://hack23.github.io/cia-compliance-manager/test-results/)
+[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://ciacompliancemanager.com/test-results/)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://ciacompliancemanager.com/test-results/)
 [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/UnitTestPlan.md)
 [![Code Quality](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
 
@@ -188,15 +188,15 @@ Comprehensive E2E testing ensures **🔄 operational excellence** across all use
 [![Browser Tests](https://img.shields.io/badge/Browser-Multi_Platform-orange?style=flat-square&logo=googlechrome&logoColor=white)](https://blacktrigram.com/cypress/mochawesome/)
 
 **📊 CIA Compliance Manager:**
-[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://hack23.github.io/cia-compliance-manager/cypress/mochawesome/)
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://ciacompliancemanager.com/cypress/mochawesome/)
 [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/E2ETestPlan.md)
-[![Performance](https://img.shields.io/badge/Performance-Validated-purple?style=flat-square&logo=lighthouse&logoColor=white)](https://hack23.github.io/cia-compliance-manager/cypress/mochawesome/)
+[![Performance](https://img.shields.io/badge/Performance-Validated-purple?style=flat-square&logo=lighthouse&logoColor=white)](https://ciacompliancemanager.com/cypress/mochawesome/)
 
 **🎮 Black Trigram:**
 [![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://blacktrigram.com/cypress/mochawesome/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/E2ETestPlan.md)
 
 **📊 CIA Compliance Manager:**
-[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://hack23.github.io/cia-compliance-manager/cypress/mochawesome/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/E2ETestPlan.md)
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://ciacompliancemanager.com/cypress/mochawesome/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/E2ETestPlan.md)
 
 ---
 

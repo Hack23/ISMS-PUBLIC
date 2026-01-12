@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://hack23.github.io/cia-compliance-manager/icon-192.png" alt="Hack23 Logo" width="192" height="192">
+  <img src="https://ciacompliancemanager.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
 
 <h1 align="center">🔓 Hack23 AB — Open Source Policy</h1>
@@ -211,7 +211,7 @@ As defined in [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/
 **📊 Testing Evidence:**
 - **🏛️ CIA:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_cia) • [Test Results](https://hack23.github.io/cia/surefire.html) • [Coverage Report](https://hack23.github.io/cia/jacoco/)
 - **🎮 Black Trigram:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_blacktrigram) • [Test Results](https://blacktrigram.com/test-results/) • [E2E Tests](https://blacktrigram.com/cypress/mochawesome/)
-- **📊 CIA Compliance Manager:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_cia-compliance-manager) • [Test Results](https://hack23.github.io/cia-compliance-manager/test-results/) • [E2E Tests](https://hack23.github.io/cia-compliance-manager/cypress/mochawesome/)
+- **📊 CIA Compliance Manager:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_cia-compliance-manager) • [Test Results](https://ciacompliancemanager.com/test-results/) • [E2E Tests](https://ciacompliancemanager.com/cypress/mochawesome/)
 
 ---
 
@@ -382,7 +382,7 @@ Live metrics available at:
 - Individual project documentation portals:
   - **🏛️ CIA:** [Documentation Portal](https://www.hack23.com/cia-docs.html) • [API Documentation](https://hack23.github.io/cia/)
   - **🎮 Black Trigram:** [Documentation Portal](https://www.hack23.com/black-trigram-docs.html) • [Game Portal](https://blacktrigram.com)
-  - **📊 CIA Compliance Manager:** [Documentation Portal](https://www.hack23.com/cia-compliance-manager-docs.html) • [Live Demo](https://hack23.github.io/cia-compliance-manager/)
+  - **📊 CIA Compliance Manager:** [Documentation Portal](https://www.hack23.com/cia-compliance-manager-docs.html) • [Live Demo](https://ciacompliancemanager.com/)
 
 ---
 
