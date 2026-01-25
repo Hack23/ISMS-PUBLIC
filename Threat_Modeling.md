@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -58,7 +58,7 @@ This policy establishes comprehensive threat modeling framework for identifying,
 ## 🧭 **Core Threat Modeling Principles**
 
 ### **🔐 Security by Design Through Threat Analysis**
-- **🏷️ Classification-Driven Assessment:** Threat analysis aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) business impact levels
+- **🏷️ Classification-Driven Assessment:** Threat analysis aligned with [🏷️ Classification Framework](./CLASSIFICATION.md) business impact levels
 - **🎯 STRIDE Framework Application:** Systematic threat categorization ensuring **🏆 competitive advantage** through comprehensive security coverage
 - **🛡️ Defense-in-Depth Validation:** Multi-layer security control verification supporting **💰 revenue protection** objectives
 
@@ -108,12 +108,12 @@ The **AAA Framework** secures resource access through systematic identity and ac
 
 | STRIDE Category | Description | Security Control | DFD Elements | Business Impact |
 |-----------------|-------------|------------------|--------------|----------------|
-| **🎭 Spoofing** | Attacker gains access using false identity | Authentication | Process, External entities | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔧 Tampering** | Data modification during application flow | Integrity | Process, Data store, Data flow | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **❌ Repudiation** | Attacker denies actions without proof capability | Non-repudiation (Auditing) | Process, External entities | [![Compliance Posture](https://img.shields.io/badge/Value-Compliance_Posture-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📤 Information Disclosure** | Unauthorized access to private or sensitive data | Confidentiality | Process, Data store, Data flow | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **⚡ Denial of Service** | System availability reduction or service crash | Availability | Process, Data store, Data flow | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **⬆️ Elevation of Privilege** | Attacker assumes privileged user identity | Authorization | Process | [![Security Excellence](https://img.shields.io/badge/Value-Security_Excellence-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🎭 Spoofing** | Attacker gains access using false identity | Authentication | Process, External entities | [![Trust Enhancement](https://img.shields.io/badge/Value-Trust_Enhancement-darkgreen?style=flat-square)](./CLASSIFICATION.md) |
+| **🔧 Tampering** | Data modification during application flow | Integrity | Process, Data store, Data flow | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **❌ Repudiation** | Attacker denies actions without proof capability | Non-repudiation (Auditing) | Process, External entities | [![Compliance Posture](https://img.shields.io/badge/Value-Compliance_Posture-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📤 Information Disclosure** | Unauthorized access to private or sensitive data | Confidentiality | Process, Data store, Data flow | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](./CLASSIFICATION.md) |
+| **⚡ Denial of Service** | System availability reduction or service crash | Availability | Process, Data store, Data flow | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](./CLASSIFICATION.md) |
+| **⬆️ Elevation of Privilege** | Attacker assumes privileged user identity | Authorization | Process | [![Security Excellence](https://img.shields.io/badge/Value-Security_Excellence-purple?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -148,13 +148,13 @@ Systematic threat agent categorization for risk assessment and mitigation planni
 
 | Threat Agent | Category | Description | MITRE Techniques | MITRE Tactics | Risk Level |
 |--------------|----------|-------------|------------------|---------------|------------|
-| **🔒 Accidental Insider Threats** | Internal | Employees/contractors causing unintentional risk | [Misconfigurations](https://attack.mitre.org/techniques/T1611), [Permission Errors](https://attack.mitre.org/techniques/T1068) | [Execution](https://attack.mitre.org/tactics/TA0002), [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) | [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🎯 Malicious Insider Threats** | Internal | Employees/contractors causing intentional harm | [Data Exfiltration](https://attack.mitre.org/techniques/T1041), [Account Manipulation](https://attack.mitre.org/techniques/T1098) | [Initial Access](https://attack.mitre.org/tactics/TA0001), [Impact](https://attack.mitre.org/tactics/TA0040) | [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **💰 Cybercriminals (Organized Crime)** | External | Financial motivation through phishing and malware | [Phishing](https://attack.mitre.org/techniques/T1566), [Brute Force](https://attack.mitre.org/techniques/T1110) | [Reconnaissance](https://attack.mitre.org/tactics/TA0043), [Collection](https://attack.mitre.org/tactics/TA0009) | [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🏛️ Nation-State Actors (APTs)** | External | State-sponsored long-term infiltration and espionage | [Spearphishing](https://attack.mitre.org/techniques/T1566/001), [Command and Control](https://attack.mitre.org/tactics/TA0011) | [Persistence](https://attack.mitre.org/tactics/TA0003), [Defense Evasion](https://attack.mitre.org/tactics/TA0005) | [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🎭 Hacktivists (Ideological Attackers)** | External | Political/ideological motivation for service disruption | [DDoS](https://attack.mitre.org/techniques/T1499), [Defacement](https://attack.mitre.org/techniques/T1491) | [Impact](https://attack.mitre.org/tactics/TA0040), [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) | [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 External Service Providers** | External | Third-party access to sensitive data and systems | [Misconfigurations](https://attack.mitre.org/techniques/T1611), [Supply Chain Compromise](https://attack.mitre.org/techniques/T1195) | [Initial Access](https://attack.mitre.org/tactics/TA0001), [Defense Evasion](https://attack.mitre.org/tactics/TA0005) | [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🎨 Cyber Vandals** | External | Fame/amusement through website defacement and disruption | [Defacement](https://attack.mitre.org/techniques/T1491), [Service Disruption](https://attack.mitre.org/techniques/T1499) | [Impact](https://attack.mitre.org/tactics/TA0040), [Execution](https://attack.mitre.org/tactics/TA0002) | [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔒 Accidental Insider Threats** | Internal | Employees/contractors causing unintentional risk | [Misconfigurations](https://attack.mitre.org/techniques/T1611), [Permission Errors](https://attack.mitre.org/techniques/T1068) | [Execution](https://attack.mitre.org/tactics/TA0002), [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) | [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🎯 Malicious Insider Threats** | Internal | Employees/contractors causing intentional harm | [Data Exfiltration](https://attack.mitre.org/techniques/T1041), [Account Manipulation](https://attack.mitre.org/techniques/T1098) | [Initial Access](https://attack.mitre.org/tactics/TA0001), [Impact](https://attack.mitre.org/tactics/TA0040) | [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **💰 Cybercriminals (Organized Crime)** | External | Financial motivation through phishing and malware | [Phishing](https://attack.mitre.org/techniques/T1566), [Brute Force](https://attack.mitre.org/techniques/T1110) | [Reconnaissance](https://attack.mitre.org/tactics/TA0043), [Collection](https://attack.mitre.org/tactics/TA0009) | [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🏛️ Nation-State Actors (APTs)** | External | State-sponsored long-term infiltration and espionage | [Spearphishing](https://attack.mitre.org/techniques/T1566/001), [Command and Control](https://attack.mitre.org/tactics/TA0011) | [Persistence](https://attack.mitre.org/tactics/TA0003), [Defense Evasion](https://attack.mitre.org/tactics/TA0005) | [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](./CLASSIFICATION.md) |
+| **🎭 Hacktivists (Ideological Attackers)** | External | Political/ideological motivation for service disruption | [DDoS](https://attack.mitre.org/techniques/T1499), [Defacement](https://attack.mitre.org/techniques/T1491) | [Impact](https://attack.mitre.org/tactics/TA0040), [Privilege Escalation](https://attack.mitre.org/tactics/TA0004) | [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 External Service Providers** | External | Third-party access to sensitive data and systems | [Misconfigurations](https://attack.mitre.org/techniques/T1611), [Supply Chain Compromise](https://attack.mitre.org/techniques/T1195) | [Initial Access](https://attack.mitre.org/tactics/TA0001), [Defense Evasion](https://attack.mitre.org/tactics/TA0005) | [![Medium Risk](https://img.shields.io/badge/Risk-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🎨 Cyber Vandals** | External | Fame/amusement through website defacement and disruption | [Defacement](https://attack.mitre.org/techniques/T1491), [Service Disruption](https://attack.mitre.org/techniques/T1499) | [Impact](https://attack.mitre.org/tactics/TA0040), [Execution](https://attack.mitre.org/tactics/TA0002) | [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -165,13 +165,13 @@ Based on [ENISA Threat Landscape 2024](https://www.enisa.europa.eu/publications/
 
 | Priority Rank | Threat Category | Description | Business Impact | Mitigation Priority |
 |---------------|-----------------|-------------|----------------|-------------------|
-| **1️⃣** | **⚡ Threats Against Availability** | DoS attacks making systems unavailable | [![Revenue Protection](https://img.shields.io/badge/Impact-Revenue_Protection-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Critical |
-| **2️⃣** | **🔐 Ransomware** | Data encryption with ransom demands | [![Business Continuity](https://img.shields.io/badge/Impact-Business_Continuity-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Critical |
-| **3️⃣** | **📊 Threats Against Data** | Unauthorized access, theft, or manipulation | [![Risk Reduction](https://img.shields.io/badge/Impact-Risk_Reduction-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High |
-| **4️⃣** | **🦠 Malware** | Malicious software for system disruption | [![Operational Excellence](https://img.shields.io/badge/Impact-Operational_Excellence-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High |
-| **5️⃣** | **🎭 Social Engineering** | Human manipulation for information disclosure | [![Trust Enhancement](https://img.shields.io/badge/Impact-Trust_Enhancement-darkgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High |
-| **6️⃣** | **📰 Information Manipulation** | False information spreading and interference | [![Competitive Advantage](https://img.shields.io/badge/Impact-Competitive_Advantage-gold?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium |
-| **7️⃣** | **🔗 Supply Chain Attacks** | Third-party targeting for primary access | [![Partnership Value](https://img.shields.io/badge/Impact-Partnership_Value-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High |
+| **1️⃣** | **⚡ Threats Against Availability** | DoS attacks making systems unavailable | [![Revenue Protection](https://img.shields.io/badge/Impact-Revenue_Protection-red?style=flat-square)](./CLASSIFICATION.md) | Critical |
+| **2️⃣** | **🔐 Ransomware** | Data encryption with ransom demands | [![Business Continuity](https://img.shields.io/badge/Impact-Business_Continuity-darkred?style=flat-square)](./CLASSIFICATION.md) | Critical |
+| **3️⃣** | **📊 Threats Against Data** | Unauthorized access, theft, or manipulation | [![Risk Reduction](https://img.shields.io/badge/Impact-Risk_Reduction-green?style=flat-square)](./CLASSIFICATION.md) | High |
+| **4️⃣** | **🦠 Malware** | Malicious software for system disruption | [![Operational Excellence](https://img.shields.io/badge/Impact-Operational_Excellence-blue?style=flat-square)](./CLASSIFICATION.md) | High |
+| **5️⃣** | **🎭 Social Engineering** | Human manipulation for information disclosure | [![Trust Enhancement](https://img.shields.io/badge/Impact-Trust_Enhancement-darkgreen?style=flat-square)](./CLASSIFICATION.md) | High |
+| **6️⃣** | **📰 Information Manipulation** | False information spreading and interference | [![Competitive Advantage](https://img.shields.io/badge/Impact-Competitive_Advantage-gold?style=flat-square)](./CLASSIFICATION.md) | Medium |
+| **7️⃣** | **🔗 Supply Chain Attacks** | Third-party targeting for primary access | [![Partnership Value](https://img.shields.io/badge/Impact-Partnership_Value-purple?style=flat-square)](./CLASSIFICATION.md) | High |
 
 ---
 
@@ -186,11 +186,11 @@ Hack23 AB employs multiple complementary threat modeling strategies to ensure co
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#4caf50',
-      'secondaryColor': '#ffcdd2',
-      'tertiaryColor': '#e1bee7'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#D32F2F',
+      'tertiaryColor': '#7B1FA2'
     }
   }
 }%%
@@ -264,11 +264,11 @@ Systematic decomposition of attack goals into achievable sub-goals using AND/OR 
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#ffebee',
-      'primaryTextColor': '#c62828',
-      'lineColor': '#f44336',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#D32F2F',
+      'primaryTextColor': '#C62828',
+      'lineColor': '#D32F2F',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -296,19 +296,19 @@ flowchart TD
     PATH3 --> SUP2[📦 Dependency Poisoning]
     PATH3 --> SUP3[☁️ SaaS Provider Breach]
     
-    style GOAL fill:#d32f2f,color:#fff
-    style PATH1 fill:#ff5722,color:#fff
-    style PATH2 fill:#ff9800,color:#fff
-    style PATH3 fill:#ffc107,color:#000
-    style EXT1 fill:#ffcdd2
-    style EXT2 fill:#ffcdd2
-    style EXT3 fill:#ffcdd2
-    style INT1 fill:#ffe0b2
-    style INT2 fill:#ffe0b2
-    style INT3 fill:#ffe0b2
-    style SUP1 fill:#fff9c4
-    style SUP2 fill:#fff9c4
-    style SUP3 fill:#fff9c4
+    style GOAL fill:#D32F2F,color:#fff
+    style PATH1 fill:#FF9800,color:#fff
+    style PATH2 fill:#FF9800,color:#fff
+    style PATH3 fill:#FFC107,color:#000
+    style EXT1 fill:#D32F2F
+    style EXT2 fill:#D32F2F
+    style EXT3 fill:#D32F2F
+    style INT1 fill:#FF9800
+    style INT2 fill:#FF9800
+    style INT3 fill:#FF9800
+    style SUP1 fill:#FFC107
+    style SUP2 fill:#FFC107
+    style SUP3 fill:#FFC107
 ```
 
 #### **🔗 Attack Graph Modeling**
@@ -320,11 +320,11 @@ Network-based attack path analysis showing how attackers could traverse our infr
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#1565c0',
-      'lineColor': '#2196f3',
-      'secondaryColor': '#f3e5f5',
-      'tertiaryColor': '#e8f5e9'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#2196F3',
+      'secondaryColor': '#7B1FA2',
+      'tertiaryColor': '#4CAF50'
     }
   }
 }%%
@@ -349,11 +349,11 @@ graph LR
     WEB -->|"🎯 Attack Vector 5<br/>Container Escape"| APP
     APP -->|"Lateral Movement"| DB
     
-    classDef internet fill:#f44336,stroke:#d32f2f,color:#fff
-    classDef public fill:#ff9800,stroke:#f57c00,color:#fff
-    classDef private fill:#4caf50,stroke:#388e3c,color:#fff
-    classDef database fill:#2196f3,stroke:#1976d2,color:#fff
-    classDef admin fill:#9c27b0,stroke:#7b1fa2,color:#fff
+    classDef internet fill:#D32F2F,stroke:#D32F2F,color:#fff
+    classDef public fill:#FF9800,stroke:#F57C00,color:#fff
+    classDef private fill:#4CAF50,stroke:#388E3C,color:#fff
+    classDef database fill:#1565C0,stroke:#1565C0,color:#fff
+    classDef admin fill:#7B1FA2,stroke:#7B1FA2,color:#fff
     
     class INTERNET internet
     class WAF,ALB,WEB public
@@ -402,16 +402,16 @@ Focus on protecting high-value assets by understanding what attackers would targ
 
 #### **💎 Crown Jewel Identification**
 
-Critical asset analysis aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Critical asset analysis aligned with [🏷️ Classification Framework](./CLASSIFICATION.md):
 
 | Asset Category | Examples | Attack Value | Protection Priority | Threat Focus |
 |----------------|----------|--------------|-------------------|--------------|
-| **🔐 Customer Data** | Personal information, payment data, usage analytics | [![Very High](https://img.shields.io/badge/Value-Very_High-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Critical | Data exfiltration, privacy violation |
-| **🧠 Intellectual Property** | Source code, algorithms, business logic | [![High](https://img.shields.io/badge/Value-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High | Corporate espionage, competitive theft |
-| **🔑 Authentication Systems** | Identity providers, credential stores, session management | [![High](https://img.shields.io/badge/Value-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Critical | Unauthorized access, privilege escalation |
-| **🌐 Service Availability** | Production systems, databases, network infrastructure | [![High](https://img.shields.io/badge/Value-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High | Service disruption, ransomware |
-| **📊 Business Intelligence** | Analytics, reports, strategic data | [![Medium](https://img.shields.io/badge/Value-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium | Competitive intelligence |
-| **🏢 Corporate Systems** | Email, collaboration tools, administrative systems | [![Medium](https://img.shields.io/badge/Value-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium | Lateral movement, social engineering |
+| **🔐 Customer Data** | Personal information, payment data, usage analytics | [![Very High](https://img.shields.io/badge/Value-Very_High-darkred?style=flat-square)](./CLASSIFICATION.md) | Critical | Data exfiltration, privacy violation |
+| **🧠 Intellectual Property** | Source code, algorithms, business logic | [![High](https://img.shields.io/badge/Value-High-orange?style=flat-square)](./CLASSIFICATION.md) | High | Corporate espionage, competitive theft |
+| **🔑 Authentication Systems** | Identity providers, credential stores, session management | [![High](https://img.shields.io/badge/Value-High-orange?style=flat-square)](./CLASSIFICATION.md) | Critical | Unauthorized access, privilege escalation |
+| **🌐 Service Availability** | Production systems, databases, network infrastructure | [![High](https://img.shields.io/badge/Value-High-orange?style=flat-square)](./CLASSIFICATION.md) | High | Service disruption, ransomware |
+| **📊 Business Intelligence** | Analytics, reports, strategic data | [![Medium](https://img.shields.io/badge/Value-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | Medium | Competitive intelligence |
+| **🏢 Corporate Systems** | Email, collaboration tools, administrative systems | [![Medium](https://img.shields.io/badge/Value-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | Medium | Lateral movement, social engineering |
 
 #### **🗺️ Asset Attack Surface Mapping**
 
@@ -422,11 +422,11 @@ Systematic analysis of how attackers could target each critical asset:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#4caf50',
-      'secondaryColor': '#ffcdd2',
-      'tertiaryColor': '#e1bee7'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#D32F2F',
+      'tertiaryColor': '#7B1FA2'
     }
   }
 }%%
@@ -475,10 +475,10 @@ flowchart TB
     MALICIOUS_INSIDER --> INSIDER
     MALICIOUS_INSIDER --> PRIVESC
     
-    style CUSTOMER_DB fill:#ffcdd2,stroke:#d32f2f
-    style SOURCE_CODE fill:#ffcdd2,stroke:#d32f2f
-    style AUTH_SYS fill:#ffcdd2,stroke:#d32f2f
-    style PROD_ENV fill:#ffcdd2,stroke:#d32f2f
+    style CUSTOMER_DB fill:#D32F2F,stroke:#D32F2F
+    style SOURCE_CODE fill:#D32F2F,stroke:#D32F2F
+    style AUTH_SYS fill:#D32F2F,stroke:#D32F2F
+    style PROD_ENV fill:#D32F2F,stroke:#D32F2F
 ```
 
 #### **🔍 Data Flow Threat Analysis**
@@ -490,11 +490,11 @@ Tracking how sensitive data moves through systems and where it could be compromi
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#4caf50',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#e3f2fd'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -516,10 +516,10 @@ flowchart LR
     APP -->|🎯 T6: Data Leakage| ANALYTICS
     DB -->|🎯 T7: Backup Theft| BACKUP
     
-    classDef user fill:#2196f3,stroke:#1976d2,color:#fff
-    classDef system fill:#4caf50,stroke:#388e3c,color:#fff
-    classDef storage fill:#ff9800,stroke:#f57c00,color:#fff
-    classDef threat fill:#f44336,stroke:#d32f2f,color:#fff
+    classDef user fill:#2196F3,stroke:#1565C0,color:#fff
+    classDef system fill:#4CAF50,stroke:#388E3C,color:#fff
+    classDef storage fill:#FF9800,stroke:#F57C00,color:#fff
+    classDef threat fill:#D32F2F,stroke:#D32F2F,color:#fff
     
     class USER user
     class CLIENT,API,AUTH,APP,ANALYTICS system
@@ -532,11 +532,11 @@ Mapping protection strategies to asset criticality and attack likelihood:
 
 | Asset Type | Criticality | Attack Likelihood | Protection Strategy | Monitoring Level |
 |------------|-------------|------------------|-------------------|-----------------|
-| **🔐 Customer PII** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High | Encryption + Access Control + DLP | Real-time |
-| **🧠 Source Code** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium | Version Control + Code Signing + Repository Security | Continuous |
-| **🔑 Authentication Tokens** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High | Short Expiry + Secure Storage + Rotation | Real-time |
-| **📊 Business Data** | [![Medium](https://img.shields.io/badge/Criticality-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Medium | Classification + Access Control + Auditing | Daily |
-| **🌐 Service Endpoints** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | High | WAF + Rate Limiting + Input Validation | Real-time |
+| **🔐 Customer PII** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](./CLASSIFICATION.md) | High | Encryption + Access Control + DLP | Real-time |
+| **🧠 Source Code** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](./CLASSIFICATION.md) | Medium | Version Control + Code Signing + Repository Security | Continuous |
+| **🔑 Authentication Tokens** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](./CLASSIFICATION.md) | High | Short Expiry + Secure Storage + Rotation | Real-time |
+| **📊 Business Data** | [![Medium](https://img.shields.io/badge/Criticality-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | Medium | Classification + Access Control + Auditing | Daily |
+| **🌐 Service Endpoints** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](./CLASSIFICATION.md) | High | WAF + Rate Limiting + Input Validation | Real-time |
 
 ---
 
@@ -553,11 +553,11 @@ Systematic application of STRIDE methodology to each architectural component:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -591,9 +591,9 @@ flowchart TB
     APP -->|🎯 S,T,I,D,E| CACHE
     APP -->|🎯 S,T,R,I,D,E| DB
     
-    style TRUST_BOUNDARY_1 fill:#ffebee,stroke:#f44336,stroke-width:3px,stroke-dasharray: 5 5
-    style TRUST_BOUNDARY_2 fill:#fff3e0,stroke:#ff9800,stroke-width:3px,stroke-dasharray: 5 5
-    style TRUST_BOUNDARY_3 fill:#e8f5e9,stroke:#4caf50,stroke-width:3px,stroke-dasharray: 5 5
+    style TRUST_BOUNDARY_1 fill:#D32F2F,stroke:#D32F2F,stroke-width:3px,stroke-dasharray: 5 5
+    style TRUST_BOUNDARY_2 fill:#FF9800,stroke:#FF9800,stroke-width:3px,stroke-dasharray: 5 5
+    style TRUST_BOUNDARY_3 fill:#4CAF50,stroke:#4CAF50,stroke-width:3px,stroke-dasharray: 5 5
 ```
 
 #### **🏗️ Component-Level STRIDE Analysis**
@@ -644,11 +644,11 @@ Analyzing threats from different attacker personas:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f3e5f5',
-      'primaryTextColor': '#6a1b9a',
-      'lineColor': '#9c27b0',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#7B1FA2',
+      'primaryTextColor': '#7B1FA2',
+      'lineColor': '#7B1FA2',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -686,10 +686,10 @@ flowchart TD
     APT --> ZERO_DAY
     APT --> STRATEGIC
     
-    style SCRIPT_KIDDIE fill:#e1f5fe
-    style INSIDER fill:#fff3e0
-    style CYBERCRIMINAL fill:#fce4ec
-    style APT fill:#f3e5f5
+    style SCRIPT_KIDDIE fill:#1565C0
+    style INSIDER fill:#FF9800
+    style CYBERCRIMINAL fill:#D32F2F
+    style APT fill:#7B1FA2
 ```
 
 #### **🎲 What-If Scenario Planning**
@@ -729,11 +729,11 @@ Integrating threat modeling with business impact quantification:
 
 | Threat Scenario | Probability | Financial Impact | Operational Impact | Reputation Impact | Total Risk Score |
 |----------------|-------------|------------------|-------------------|------------------|------------------|
-| **🔐 Customer Data Breach** | 15% | €500K-2M | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 9.2/10 |
-| **🎮 Gaming Platform Disruption** | 25% | €50K-200K | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 6.8/10 |
-| **🧠 Source Code Theft** | 10% | €200K-1M | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 7.5/10 |
-| **☁️ Cloud Infrastructure Compromise** | 20% | €100K-500K | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 7.1/10 |
-| **🤝 Third-Party Service Disruption** | 30% | €20K-100K | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 5.4/10 |
+| **🔐 Customer Data Breach** | 15% | €500K-2M | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](./CLASSIFICATION.md) | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](./CLASSIFICATION.md) | 9.2/10 |
+| **🎮 Gaming Platform Disruption** | 25% | €50K-200K | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](./CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | 6.8/10 |
+| **🧠 Source Code Theft** | 10% | €200K-1M | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](./CLASSIFICATION.md) | 7.5/10 |
+| **☁️ Cloud Infrastructure Compromise** | 20% | €100K-500K | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](./CLASSIFICATION.md) | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | 7.1/10 |
+| **🤝 Third-Party Service Disruption** | 30% | €20K-100K | [![Medium](https://img.shields.io/badge/Impact-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](./CLASSIFICATION.md) | 5.4/10 |
 
 #### **📈 Threat Intelligence Integration**
 
@@ -756,11 +756,11 @@ Mapping vulnerabilities to threat scenarios for prioritized remediation:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
-      'lineColor': '#ff9800',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
+      'lineColor': '#FF9800',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -800,10 +800,10 @@ flowchart TB
     THREAT4 --> IMPACT1
     THREAT4 --> IMPACT4
     
-    style VULN2 fill:#ffcdd2,stroke:#d32f2f
-    style VULN4 fill:#fff3e0,stroke:#ff9800
-    style THREAT2 fill:#ffcdd2,stroke:#d32f2f
-    style IMPACT1 fill:#ffebee,stroke:#f44336
+    style VULN2 fill:#D32F2F,stroke:#D32F2F
+    style VULN4 fill:#FF9800,stroke:#FF9800
+    style THREAT2 fill:#D32F2F,stroke:#D32F2F
+    style IMPACT1 fill:#D32F2F,stroke:#D32F2F
 ```
 
 ---
@@ -821,11 +821,11 @@ Combining multiple modeling approaches for complete threat coverage:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#4caf50',
-      'secondaryColor': '#e3f2fd',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#1565C0',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -863,7 +863,7 @@ flowchart TD
 #### **🎯 Workshop Scope Definition**
 - **📊 Objective Clarity:** Specific system, application, or SDLC phase threat identification
 - **🔍 Component Scope:** Software, hardware, third-party integrations, network infrastructure inclusion
-- **🏷️ Classification Integration:** Risk assessment aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **🏷️ Classification Integration:** Risk assessment aligned with [🏷️ Classification Framework](./CLASSIFICATION.md)
 
 #### **👥 Team Assembly Standards**
 - **💻 Developer/Security Champion:** Code architecture, deployment, and monitoring insights
@@ -975,12 +975,12 @@ Each threat model entry **MUST** include complete attribute documentation aligne
 
 | Attribute Category | Required Elements | Integration Points | Business Value |
 |-------------------|-------------------|-------------------|----------------|
-| **🎯 MITRE ATT&CK Integration** | Tactic, Technique ID/Name | [MITRE ATT&CK Framework](https://attack.mitre.org/) | [![Decision Quality](https://img.shields.io/badge/Value-Decision_Quality-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🏗️ System Context** | Threat Component, Description | [💻 Asset Register](./Asset_Register.md) | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **👥 Actor Classification** | Threat Agent, Motivation, Capability | [🤝 Third Party Management](./Third_Party_Management.md) | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔐 Security Impact** | CIA Risk, AAA Controls, STRIDE Attribute | [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🛡️ Control Framework** | Security Measures, Mitigation Strategy | [🔍 Vulnerability Management](./Vulnerability_Management.md) | [![Cost Efficiency](https://img.shields.io/badge/Value-Cost_Efficiency-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **⚡ Risk Assessment** | Priority Level, Business Impact | [📉 Risk Register](./Risk_Register.md) | [![Compliance Posture](https://img.shields.io/badge/Value-Compliance_Posture-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🎯 MITRE ATT&CK Integration** | Tactic, Technique ID/Name | [MITRE ATT&CK Framework](https://attack.mitre.org/) | [![Decision Quality](https://img.shields.io/badge/Value-Decision_Quality-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🏗️ System Context** | Threat Component, Description | [💻 Asset Register](./Asset_Register.md) | [![Operational Excellence](https://img.shields.io/badge/Value-Operational_Excellence-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **👥 Actor Classification** | Threat Agent, Motivation, Capability | [🤝 Third Party Management](./Third_Party_Management.md) | [![Risk Reduction](https://img.shields.io/badge/Value-Risk_Reduction-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🔐 Security Impact** | CIA Risk, AAA Controls, STRIDE Attribute | [🏷️ Classification Framework](./CLASSIFICATION.md) | [![Revenue Protection](https://img.shields.io/badge/Value-Revenue_Protection-red?style=flat-square)](./CLASSIFICATION.md) |
+| **🛡️ Control Framework** | Security Measures, Mitigation Strategy | [🔍 Vulnerability Management](./Vulnerability_Management.md) | [![Cost Efficiency](https://img.shields.io/badge/Value-Cost_Efficiency-darkblue?style=flat-square)](./CLASSIFICATION.md) |
+| **⚡ Risk Assessment** | Priority Level, Business Impact | [📉 Risk Register](./Risk_Register.md) | [![Compliance Posture](https://img.shields.io/badge/Value-Compliance_Posture-orange?style=flat-square)](./CLASSIFICATION.md) |
 
 ### **🔴 Critical Threat Examples**
 
@@ -1049,11 +1049,11 @@ Each threat model entry **MUST** include complete attribute documentation aligne
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -1079,10 +1079,10 @@ flowchart TD
     EMERGENCY --> PLAN
     DELTA --> IDENTIFY
     
-    style PLAN fill:#4caf50,color:#fff
-    style WORKSHOP fill:#2196f3,color:#fff
-    style IMPLEMENT fill:#ff9800,color:#fff
-    style REVIEW fill:#9c27b0,color:#fff
+    style PLAN fill:#4CAF50,color:#fff
+    style WORKSHOP fill:#2196F3,color:#fff
+    style IMPLEMENT fill:#FF9800,color:#fff
+    style REVIEW fill:#7B1FA2,color:#fff
 ```
 
 ### **⏱️ Assessment Frequency Framework**
@@ -1164,15 +1164,22 @@ Demonstrating our **🌟 transparency principle** and **🏆 competitive advanta
 
 ## 📚 Related Documents
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework
-- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security architecture and SDLC requirements
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic threat modeling direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI-assisted threat analysis and modeling automation
 - [📉 Risk Register](./Risk_Register.md) - Risk identification, assessment, and treatment
 - [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) - Risk evaluation framework
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Business impact and threat prioritization
+
+### 🔐 Security Policies & Controls
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security architecture and SDLC requirements
 - [🔍 Vulnerability Management](./Vulnerability_Management.md) - Vulnerability identification and remediation
-- [💻 Asset Register](./Asset_Register.md) - Asset inventory and threat surface identification
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Business impact and threat prioritization
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Security incident management procedures
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Authentication and authorization threat mitigation
+
+### ⚙️ Operational Integration
+- [💻 Asset Register](./Asset_Register.md) - Asset inventory and threat surface identification
+- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Security incident management procedures
 
 ---
 
@@ -1180,7 +1187,7 @@ Demonstrating our **🌟 transparency principle** and **🏆 competitive advanta
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-11-17   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25   
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

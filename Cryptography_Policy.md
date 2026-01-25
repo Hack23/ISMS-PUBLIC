@@ -5,19 +5,19 @@
 <h1 align="center">🔒 Hack23 AB — Cryptography Policy</h1>
 
 <p align="center">
-  <strong>Encryption Excellence Through Systematic Implementation</strong><br>
-  <em>Demonstrating Cryptographic Expertise for Security Consulting</em>
+  <strong>🛡️ Encryption Excellence Through Systematic Implementation</strong><br>
+  <em>🎯 Demonstrating Cryptographic Expertise for Security Consulting</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -45,7 +45,7 @@ This policy establishes cryptographic standards and procedures for Hack23 AB, en
 
 ### ✅ **MUST HAVE - Encryption at Rest**
 
-[![ISO 27001 A.10.1](https://img.shields.io/badge/ISO_27001-A.10.1_Encryption-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0 PR.DS](https://img.shields.io/badge/NIST_CSF_2.0-PR.DS_Data_Security-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.8.24](https://img.shields.io/badge/ISO_27001-A.8.24_Cryptography-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0 PR.DS](https://img.shields.io/badge/NIST_CSF_2.0-PR.DS_Data_Security-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![EU CRA](https://img.shields.io/badge/EU_CRA-Art.10_Security-purple?style=flat-square&logo=european-union&logoColor=white)](./CLASSIFICATION.md)
 
 **Organizations implementing this policy MUST:**
 
@@ -77,9 +77,9 @@ flowchart TD
     ROTATION --> ACCESS
     BACKUP --> MONITORING
     
-    style EXTREME fill:#ffcccb
-    style HIGH fill:#ffeb9c
-    style STANDARD fill:#c8e6c9
+    style EXTREME fill:#D32F2F
+    style HIGH fill:#FFC107
+    style STANDARD fill:#4CAF50
 ```
 
 **Encryption at Rest Requirements:**
@@ -90,7 +90,7 @@ flowchart TD
 
 ### ✅ **MUST HAVE - Encryption in Transit**
 
-[![CIS Control 3.10](https://img.shields.io/badge/CIS_Control-3.10_Data_Recovery-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 3.10](https://img.shields.io/badge/CIS_Control-3.10_Data_Recovery-darkgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md)
 
 **Data transmission security implementation MUST:**
 
@@ -122,9 +122,9 @@ graph LR
     API --> GRADING
     EMAIL --> MONITORING
     
-    style TLS13 fill:#c8e6c9
-    style HTTPS fill:#bbdefb
-    style TESTING fill:#fff9c4
+    style TLS13 fill:#4CAF50
+    style HTTPS fill:#1565C0
+    style TESTING fill:#FFC107
 ```
 
 **Transport Security Requirements:**
@@ -135,7 +135,7 @@ graph LR
 
 ### ✅ **MUST HAVE - Key Management Framework**
 
-[![ISO 27001 A.10.1.2](https://img.shields.io/badge/ISO_27001-A.10.1.2_Key_Management-blue?style=flat-square&logo=key&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.8.24](https://img.shields.io/badge/ISO_27001-A.8.24_Key_Management-blue?style=flat-square&logo=key&logoColor=white)](./CLASSIFICATION.md) [![NIS2 Art.21](https://img.shields.io/badge/NIS2-Art.21_Cryptography-darkblue?style=flat-square&logo=european-union&logoColor=white)](./CLASSIFICATION.md)
 
 **Cryptographic key management MUST:**
 
@@ -166,26 +166,26 @@ sequenceDiagram
 
 ### 🛡️ **Approved Encryption Algorithms**
 
-[![NIST Approved](https://img.shields.io/badge/NIST-Approved_Algorithms-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![FIPS 140-2](https://img.shields.io/badge/FIPS-140--2_Compliant-blue?style=flat-square&logo=certificate&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![NIST Approved](https://img.shields.io/badge/NIST-Approved_Algorithms-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![FIPS 140-3](https://img.shields.io/badge/FIPS-140--3_Compliant-blue?style=flat-square&logo=certificate&logoColor=white)](./CLASSIFICATION.md)
 
 | Algorithm Type | **Algorithm** | **Key Size** | **Implementation** | **Status** |
 |----------------|---------------|--------------|-------------------|-----------|
-| **🔐 Symmetric** | AES | 256-bit | [![AWS KMS](https://img.shields.io/badge/AWS-KMS-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔑 Asymmetric** | RSA | 4096-bit | [![SSH Keys](https://img.shields.io/badge/SSH-Keys-darkblue?style=flat-square&logo=key&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Legacy Support](https://img.shields.io/badge/Status-Legacy_Support-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔑 Asymmetric** | Ed25519 | 256-bit | [![Preferred](https://img.shields.io/badge/SSH-Preferred-green?style=flat-square&logo=key&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔍 Hashing** | SHA-256 | 256-bit | [![Integrity](https://img.shields.io/badge/Use-Integrity-lightblue?style=flat-square&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔍 Hashing** | SHA-3 | 256-bit | [![Future](https://img.shields.io/badge/Use-Future_Ready-purple?style=flat-square&logo=rocket&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔐 Symmetric** | AES | 256-bit | [![AWS KMS](https://img.shields.io/badge/AWS-KMS-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](./CLASSIFICATION.md) |
+| **🔑 Asymmetric** | RSA | 4096-bit | [![SSH Keys](https://img.shields.io/badge/SSH-Keys-darkblue?style=flat-square&logo=key&logoColor=white)](./CLASSIFICATION.md) | [![Legacy Support](https://img.shields.io/badge/Status-Legacy_Support-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🔑 Asymmetric** | Ed25519 | 256-bit | [![Preferred](https://img.shields.io/badge/SSH-Preferred-green?style=flat-square&logo=key&logoColor=white)](./CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](./CLASSIFICATION.md) |
+| **🔍 Hashing** | SHA-256 | 256-bit | [![Integrity](https://img.shields.io/badge/Use-Integrity-lightblue?style=flat-square&logo=check-circle&logoColor=white)](./CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](./CLASSIFICATION.md) |
+| **🔍 Hashing** | SHA-3 | 256-bit | [![Future](https://img.shields.io/badge/Use-Future_Ready-purple?style=flat-square&logo=rocket&logoColor=white)](./CLASSIFICATION.md) | [![Approved](https://img.shields.io/badge/Status-Approved-success?style=flat-square)](./CLASSIFICATION.md) |
 
 ### ❌ **Prohibited Algorithms**
 
-[![Security Risk](https://img.shields.io/badge/Security-High_Risk-red?style=flat-square&logo=warning&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![Security Risk](https://img.shields.io/badge/Security-High_Risk-red?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md)
 
 | **Deprecated Algorithm** | **Security Issue** | **Replacement** | **Deadline** |
 |-------------------------|-------------------|----------------|-------------|
-| **MD5** | [![Collision](https://img.shields.io/badge/Risk-Collision_Attack-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | SHA-256 | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **SHA-1** | [![Collision](https://img.shields.io/badge/Risk-Collision_Attack-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | SHA-256 | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **DES/3DES** | [![Weak Keys](https://img.shields.io/badge/Risk-Inadequate_Key_Size-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | AES-256 | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **RC4** | [![Stream Cipher](https://img.shields.io/badge/Risk-Stream_Weakness-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | AES-GCM | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **MD5** | [![Collision](https://img.shields.io/badge/Risk-Collision_Attack-red?style=flat-square)](./CLASSIFICATION.md) | SHA-256 | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](./CLASSIFICATION.md) |
+| **SHA-1** | [![Collision](https://img.shields.io/badge/Risk-Collision_Attack-red?style=flat-square)](./CLASSIFICATION.md) | SHA-256 | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](./CLASSIFICATION.md) |
+| **DES/3DES** | [![Weak Keys](https://img.shields.io/badge/Risk-Inadequate_Key_Size-orange?style=flat-square)](./CLASSIFICATION.md) | AES-256 | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](./CLASSIFICATION.md) |
+| **RC4** | [![Stream Cipher](https://img.shields.io/badge/Risk-Stream_Weakness-orange?style=flat-square)](./CLASSIFICATION.md) | AES-GCM | [![Immediate](https://img.shields.io/badge/Action-Immediate-red?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -193,17 +193,17 @@ sequenceDiagram
 
 ### 📊 **Encryption by Data Classification**
 
-[![Data Protection](https://img.shields.io/badge/Framework-Data_Protection-purple?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![Data Protection](https://img.shields.io/badge/Framework-Data_Protection-purple?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md)
 
 **Implementation follows [Data Classification Policy](./Data_Classification_Policy.md) requirements:**
 
 | **Classification Level** | **Encryption Requirement** | **Key Management** | **Implementation** |
 |-------------------------|----------------------------|-------------------|-------------------|
-| [![Extreme](https://img.shields.io/badge/Confidentiality-Extreme-black?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | HSM-based AES-256 | [![CloudHSM](https://img.shields.io/badge/AWS-CloudHSM-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Hardware Security Module |
-| [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | AES-256 + CMK | [![KMS CMK](https://img.shields.io/badge/AWS-KMS_CMK-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Customer Managed Keys |
-| [![High](https://img.shields.io/badge/Confidentiality-High-blue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | AES-256 encryption | [![KMS Service](https://img.shields.io/badge/AWS-KMS_Service-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Service Managed Keys |
-| [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Standard encryption | [![S3 SSE](https://img.shields.io/badge/AWS-S3_SSE-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Service Default |
-| [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Basic protection | [![Service Default](https://img.shields.io/badge/Service-Default-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Platform Standard |
+| [![Extreme](https://img.shields.io/badge/Confidentiality-Extreme-black?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | HSM-based AES-256 | [![CloudHSM](https://img.shields.io/badge/AWS-CloudHSM-red?style=flat-square)](./CLASSIFICATION.md) | Hardware Security Module |
+| [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | AES-256 + CMK | [![KMS CMK](https://img.shields.io/badge/AWS-KMS_CMK-orange?style=flat-square)](./CLASSIFICATION.md) | Customer Managed Keys |
+| [![High](https://img.shields.io/badge/Confidentiality-High-blue?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | AES-256 encryption | [![KMS Service](https://img.shields.io/badge/AWS-KMS_Service-blue?style=flat-square)](./CLASSIFICATION.md) | Service Managed Keys |
+| [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Standard encryption | [![S3 SSE](https://img.shields.io/badge/AWS-S3_SSE-green?style=flat-square)](./CLASSIFICATION.md) | Service Default |
+| [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels) | Basic protection | [![Service Default](https://img.shields.io/badge/Service-Default-lightgrey?style=flat-square)](./CLASSIFICATION.md) | Platform Standard |
 
 ### 🌐 **Transport Layer Security Implementation**
 
@@ -238,25 +238,25 @@ flowchart TB
     LAMBDA --> S3
     LAMBDA --> KMS
     
-    style USERS fill:#e3f2fd
-    style CDN fill:#c8e6c9
-    style ALB fill:#fff3e0
-    style RDS fill:#f3e5f5
+    style USERS fill:#1565C0
+    style CDN fill:#4CAF50
+    style ALB fill:#FF9800
+    style RDS fill:#7B1FA2
 ```
 
 ### 🔑 **AWS KMS Integration Architecture**
 
-[![AWS Integration](https://img.shields.io/badge/AWS-Native_Integration-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![AWS Integration](https://img.shields.io/badge/AWS-Native_Integration-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md)
 
 **Comprehensive key management per [Asset Register](./Asset_Register.md) AWS services:**
 
 | **AWS Service** | **Encryption Method** | **Key Type** | **Status** |
 |----------------|----------------------|-------------|----------|
-| **S3 Buckets** | [![SSE-KMS](https://img.shields.io/badge/S3-SSE--KMS-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Customer Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **RDS PostgreSQL** | [![Encryption at Rest](https://img.shields.io/badge/RDS-Encrypted-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Customer Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Lambda Functions** | [![Environment Variables](https://img.shields.io/badge/Lambda-Env_Vars-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Function-specific CMK | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **CloudTrail Logs** | [![Log Encryption](https://img.shields.io/badge/CloudTrail-Encrypted-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Service Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **WorkMail** | [![Email Encryption](https://img.shields.io/badge/WorkMail-TLS_Encrypted-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Service Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **S3 Buckets** | [![SSE-KMS](https://img.shields.io/badge/S3-SSE--KMS-blue?style=flat-square)](./CLASSIFICATION.md) | Customer Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](./CLASSIFICATION.md) |
+| **RDS PostgreSQL** | [![Encryption at Rest](https://img.shields.io/badge/RDS-Encrypted-green?style=flat-square)](./CLASSIFICATION.md) | Customer Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](./CLASSIFICATION.md) |
+| **Lambda Functions** | [![Environment Variables](https://img.shields.io/badge/Lambda-Env_Vars-orange?style=flat-square)](./CLASSIFICATION.md) | Function-specific CMK | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](./CLASSIFICATION.md) |
+| **CloudTrail Logs** | [![Log Encryption](https://img.shields.io/badge/CloudTrail-Encrypted-purple?style=flat-square)](./CLASSIFICATION.md) | Service Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](./CLASSIFICATION.md) |
+| **WorkMail** | [![Email Encryption](https://img.shields.io/badge/WorkMail-TLS_Encrypted-darkblue?style=flat-square)](./CLASSIFICATION.md) | Service Managed | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -264,18 +264,18 @@ flowchart TB
 
 ### 🔍 **Certificate Management**
 
-[![Certificate Security](https://img.shields.io/badge/PKI-Certificate_Security-darkgreen?style=flat-square&logo=certificate&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![Certificate Security](https://img.shields.io/badge/PKI-Certificate_Security-darkgreen?style=flat-square&logo=certificate&logoColor=white)](./CLASSIFICATION.md)
 
 **Domain certificate management aligned with [Network Security Policy](./Network_Security_Policy.md):**
 
 | **Domain** | **Certificate Type** | **Issuer** | **Security Features** |
 |-----------|-------------------|-----------|---------------------|
-| **hack23.com** | [![EV SSL](https://img.shields.io/badge/Type-EV_SSL-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![ACM](https://img.shields.io/badge/AWS-Certificate_Manager-ff9900?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Auto Renewal](https://img.shields.io/badge/Feature-Auto_Renewal-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **blacktrigram.com** | [![DV SSL](https://img.shields.io/badge/Type-DV_SSL-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![ACM](https://img.shields.io/badge/AWS-Certificate_Manager-ff9900?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![CloudWatch Alerts](https://img.shields.io/badge/Feature-CloudWatch_Alerts-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **hack23.com** | [![DV SSL](https://img.shields.io/badge/Type-DV_SSL-green?style=flat-square)](./CLASSIFICATION.md) | [![ACM](https://img.shields.io/badge/AWS-Certificate_Manager-ff9900?style=flat-square)](./CLASSIFICATION.md) | [![Auto Renewal](https://img.shields.io/badge/Feature-Auto_Renewal-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **blacktrigram.com** | [![DV SSL](https://img.shields.io/badge/Type-DV_SSL-blue?style=flat-square)](./CLASSIFICATION.md) | [![ACM](https://img.shields.io/badge/AWS-Certificate_Manager-ff9900?style=flat-square)](./CLASSIFICATION.md) | [![CloudWatch Alerts](https://img.shields.io/badge/Feature-CloudWatch_Alerts-orange?style=flat-square)](./CLASSIFICATION.md) |
 
 ### 🔒 **Modern Cipher Suite Requirements**
 
-[![Cipher Security](https://img.shields.io/badge/TLS-Modern_Ciphers-success?style=flat-square&logo=lock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![Cipher Security](https://img.shields.io/badge/TLS-Modern_Ciphers-success?style=flat-square&logo=lock&logoColor=white)](./CLASSIFICATION.md)
 
 **Approved cipher suites for TLS 1.3:**
 
@@ -302,15 +302,15 @@ Prohibited_Ciphers:
 
 ### 🎯 **Security Posture KPIs**
 
-[![Security Excellence](https://img.shields.io/badge/Security-Excellence_Framework-purple?style=flat-square&logo=award&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![Security Excellence](https://img.shields.io/badge/Security-Excellence_Framework-purple?style=flat-square&logo=award&logoColor=white)](./CLASSIFICATION.md)
 
 | **Metric Category** | **KPI** | **Target** | **Current Status** | **Framework Badge** |
 |-------------------|---------|-----------|------------------|-------------------|
-| **🔐 Encryption Coverage** | Data at Rest | 100% | [![Complete](https://img.shields.io/badge/Status-100%25_Complete-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![ISO 27001 A.10](https://img.shields.io/badge/ISO-A.10-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🌐 Transport Security** | TLS Implementation | 100% | [![A+ Rating](https://img.shields.io/badge/SSL_Labs-A+-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![NIST CSF PR.DS](https://img.shields.io/badge/NIST-PR.DS-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔑 Key Management** | KMS Integration | 100% | [![Full Integration](https://img.shields.io/badge/AWS-KMS_Integrated-ff9900?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![CIS Control 3](https://img.shields.io/badge/CIS-Control_3-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📋 Algorithm Compliance** | Approved Algorithms | 100% | [![NIST Compliant](https://img.shields.io/badge/NIST-Compliant-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![FIPS 140-2](https://img.shields.io/badge/FIPS-140--2-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔄 Key Rotation** | Automated Rotation | Annual minimum | [![Automated](https://img.shields.io/badge/Status-Automated-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![ISO 27001 A.10.1](https://img.shields.io/badge/ISO-A.10.1-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔐 Encryption Coverage** | Data at Rest | 100% | [![Complete](https://img.shields.io/badge/Status-100%25_Complete-success?style=flat-square)](./CLASSIFICATION.md) | [![ISO 27001 A.8.24](https://img.shields.io/badge/ISO-A.8.24-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **🌐 Transport Security** | TLS Implementation | 100% | [![A+ Rating](https://img.shields.io/badge/SSL_Labs-A+-success?style=flat-square)](./CLASSIFICATION.md) | [![NIST CSF PR.DS](https://img.shields.io/badge/NIST-PR.DS-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🔑 Key Management** | KMS Integration | 100% | [![Full Integration](https://img.shields.io/badge/AWS-KMS_Integrated-ff9900?style=flat-square)](./CLASSIFICATION.md) | [![CIS Control 3](https://img.shields.io/badge/CIS-Control_3-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📋 Algorithm Compliance** | Approved Algorithms | 100% | [![NIST Compliant](https://img.shields.io/badge/NIST-Compliant-green?style=flat-square)](./CLASSIFICATION.md) | [![FIPS 140-3](https://img.shields.io/badge/FIPS-140--3-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **🔄 Key Rotation** | Automated Rotation | Annual minimum | [![Automated](https://img.shields.io/badge/Status-Automated-success?style=flat-square)](./CLASSIFICATION.md) | [![ISO 27001 A.8.24](https://img.shields.io/badge/ISO-A.8.24-blue?style=flat-square)](./CLASSIFICATION.md) |
 
 ### 🔄 **Continuous Security Improvement**
 
@@ -325,35 +325,200 @@ flowchart LR
     THREAT --> QUANTUM[🔮 Post-Quantum Prep]
     QUANTUM --> IMPLEMENT
     
-    style ASSESS fill:#e3f2fd
-    style IMPLEMENT fill:#c8e6c9
-    style VALIDATE fill:#fff3e0
-    style MONITOR fill:#f3e5f5
+    style ASSESS fill:#1565C0
+    style IMPLEMENT fill:#4CAF50
+    style VALIDATE fill:#FF9800
+    style MONITOR fill:#7B1FA2
 ```
 
 **Business Value Demonstration:**
 
-[![Cost Avoidance](https://img.shields.io/badge/Business-Breach_Prevention-darkgreen?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![Trust Enhancement](https://img.shields.io/badge/Business-Customer_Trust-blue?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![Compliance Excellence](https://img.shields.io/badge/Business-Regulatory_Compliance-purple?style=for-the-badge&logo=certificate&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![Innovation Enablement](https://img.shields.io/badge/Business-Secure_Innovation-gold?style=for-the-badge&logo=rocket&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![Cost Avoidance](https://img.shields.io/badge/Business-Breach_Prevention-darkgreen?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md) [![Trust Enhancement](https://img.shields.io/badge/Business-Customer_Trust-blue?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md) [![Compliance Excellence](https://img.shields.io/badge/Business-Regulatory_Compliance-purple?style=for-the-badge&logo=certificate&logoColor=white)](./CLASSIFICATION.md) [![Innovation Enablement](https://img.shields.io/badge/Business-Secure_Innovation-gold?style=for-the-badge&logo=rocket&logoColor=black)](./CLASSIFICATION.md)
 
 ---
 
-## 📚 Related Documents
+## ✍️ **Code Signing & Commit Verification**
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework
+[![GitHub Signing](https://img.shields.io/badge/GitHub-Verified_Commits-success?style=flat-square&logo=github&logoColor=white)](./CLASSIFICATION.md) [![GPG Keys](https://img.shields.io/badge/GPG-4096--bit_RSA-blue?style=flat-square&logo=gnu-privacy-guard&logoColor=white)](./CLASSIFICATION.md)
+
+**All code commits and releases MUST be cryptographically signed:**
+
+| **Signing Type** | **Algorithm** | **Key Size** | **Requirement** | **Verification** |
+|-----------------|---------------|--------------|-----------------|------------------|
+| **Git Commits** | GPG/RSA | 4096-bit | ✅ MUST sign all commits | [![Verified](https://img.shields.io/badge/Status-Verified-success?style=flat-square)](https://github.com/Hack23) |
+| **Git Tags** | GPG/RSA | 4096-bit | ✅ MUST sign all releases | GitHub verified badge |
+| **SSH Auth** | Ed25519 | 256-bit | ✅ MUST use for Git operations | SSH key fingerprint audit |
+| **Maven Artifacts** | GPG/RSA | 4096-bit | ✅ MUST sign for Maven Central | Sonatype verification |
+
+**GPG Key Management:**
+- ✅ Primary signing key: 4096-bit RSA with 2-year expiration
+- ✅ Subkeys for signing operations (rotate annually)
+- ✅ Private keys protected with strong passphrase (see Password Policy below)
+- ✅ Public keys published to GitHub, keyservers, and Maven Central
+- ✅ Key backup stored in encrypted offline storage
+
+---
+
+## 🔑 **SSH Key Management**
+
+[![SSH Security](https://img.shields.io/badge/SSH-Ed25519_Preferred-green?style=flat-square&logo=openssh&logoColor=white)](./CLASSIFICATION.md)
+
+**SSH key requirements for infrastructure access:**
+
+| **Use Case** | **Algorithm** | **Key Size** | **Passphrase** | **Rotation** |
+|-------------|---------------|--------------|----------------|-------------|
+| **GitHub Access** | Ed25519 | 256-bit | ✅ Required | Annual |
+| **AWS EC2 Access** | Ed25519 | 256-bit | ✅ Required | Annual |
+| **Server Administration** | Ed25519 | 256-bit | ✅ Required | Annual |
+| **Legacy Systems** | RSA | 4096-bit min | ✅ Required | Annual |
+
+**SSH Hardening Requirements:**
+- ✅ **MUST** disable password authentication on all servers
+- ✅ **MUST** use Ed25519 for new key generation (RSA-4096 for legacy only)
+- ✅ **MUST** protect private keys with strong passphrase
+- ✅ **MUST** use SSH agent with timeout (12 hours maximum)
+- ✅ **MUST** maintain authorized_keys audit trail
+- ❌ **MUST NOT** share SSH keys between systems or personnel
+
+---
+
+## 🔐 **Password & Secrets Management**
+
+[![Secrets Management](https://img.shields.io/badge/AWS-Secrets_Manager-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md) [![Password Policy](https://img.shields.io/badge/Policy-Strong_Passwords-blue?style=flat-square&logo=key&logoColor=white)](./CLASSIFICATION.md)
+
+**Cryptographic Password Requirements:**
+
+| **Password Type** | **Minimum Length** | **Complexity** | **Rotation** | **Storage** |
+|------------------|-------------------|----------------|--------------|-------------|
+| **Master Passwords** | 20+ characters | High entropy passphrase | Annual | Hardware token + memory |
+| **Service Accounts** | 32+ characters | Random generation | 90 days | AWS Secrets Manager |
+| **API Keys** | 40+ characters | Cryptographic random | 90 days | AWS Secrets Manager |
+| **Database Credentials** | 32+ characters | Random generation | 90 days | AWS Secrets Manager |
+| **Encryption Passphrases** | 25+ characters | High entropy | Annual | Hardware token |
+
+**Secrets Management Architecture:**
+
+```mermaid
+flowchart TB
+    subgraph "🔐 Secrets Storage"
+        SM[AWS Secrets Manager<br/>Primary secrets store]
+        KMS[AWS KMS<br/>Secrets encryption]
+        PARAM[SSM Parameter Store<br/>Configuration secrets]
+    end
+    
+    subgraph "🔑 Key Hierarchy"
+        MASTER[Master CMK<br/>Secrets Manager CMK]
+        APP[Application Keys<br/>Per-service secrets]
+        ROTATE[Automatic Rotation<br/>Lambda-based]
+    end
+    
+    subgraph "📋 Audit & Compliance"
+        TRAIL[CloudTrail<br/>Access logging]
+        ALERT[CloudWatch Alerts<br/>Anomaly detection]
+        REVIEW[Quarterly Review<br/>Access audit]
+    end
+    
+    SM --> KMS
+    PARAM --> KMS
+    KMS --> MASTER
+    MASTER --> APP
+    APP --> ROTATE
+    
+    SM --> TRAIL
+    TRAIL --> ALERT
+    ALERT --> REVIEW
+    
+    style SM fill:#FF9800
+    style KMS fill:#4CAF50
+    style MASTER fill:#1565C0
+```
+
+**Prohibited Practices:**
+- ❌ **NEVER** store secrets in source code, environment files, or documentation
+- ❌ **NEVER** transmit secrets via unencrypted channels (email, chat, tickets)
+- ❌ **NEVER** reuse passwords across different systems
+- ❌ **NEVER** use predictable or dictionary-based passwords
+
+---
+
+## 🚨 **Cryptographic Incident Response**
+
+[![Incident Response](https://img.shields.io/badge/Response-Crypto_Incidents-red?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md)
+
+**Key Compromise Response Procedures:**
+
+| **Incident Type** | **Severity** | **Response Time** | **Immediate Actions** |
+|------------------|--------------|-------------------|----------------------|
+| **Private Key Exposure** | Critical | <1 hour | Revoke key, rotate affected systems, notify stakeholders |
+| **Password/Secret Leak** | High | <4 hours | Rotate secret, audit access logs, assess exposure scope |
+| **Weak Algorithm Detection** | Medium | <24 hours | Plan migration, assess risk, implement stronger algorithm |
+| **Certificate Expiry** | Medium | <24 hours | Renew certificate, validate deployment, test connectivity |
+| **HSM/KMS Issue** | Critical | <1 hour | Activate backup keys, engage AWS support, incident documentation |
+
+**Incident Response Steps:**
+
+1. **Detection & Triage** - Identify scope and severity of cryptographic incident
+2. **Containment** - Revoke compromised keys/certificates immediately
+3. **Eradication** - Remove exposure source, rotate all potentially affected secrets
+4. **Recovery** - Deploy new cryptographic material, validate system functionality
+5. **Post-Incident** - Document lessons learned, update procedures, enhance monitoring
+
+**Notification Requirements:**
+- **Internal:** CEO notified within 1 hour for Critical/High severity
+- **External:** Per [Incident Response Plan](./Incident_Response_Plan.md) requirements
+- **Regulatory:** GDPR 72-hour notification if personal data potentially affected
+
+---
+
+## 🔮 **Post-Quantum Cryptography Roadmap**
+
+[![NIST PQC](https://img.shields.io/badge/NIST-PQC_Standards-purple?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![Quantum Ready](https://img.shields.io/badge/Status-Preparation_Phase-blue?style=flat-square&logo=atom&logoColor=white)](./CLASSIFICATION.md)
+
+**NIST Post-Quantum Cryptography Standards (Finalized 2024):**
+
+| **Algorithm** | **Type** | **Standard** | **Use Case** | **Adoption Status** |
+|--------------|----------|--------------|--------------|--------------------|
+| **ML-KEM (CRYSTALS-Kyber)** | Key Encapsulation | FIPS 203 | Key exchange, TLS | [![Monitoring](https://img.shields.io/badge/Status-Monitoring-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **ML-DSA (CRYSTALS-Dilithium)** | Digital Signature | FIPS 204 | Code signing, certificates | [![Monitoring](https://img.shields.io/badge/Status-Monitoring-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **SLH-DSA (SPHINCS+)** | Digital Signature | FIPS 205 | Long-term signatures | [![Monitoring](https://img.shields.io/badge/Status-Monitoring-blue?style=flat-square)](./CLASSIFICATION.md) |
+
+**Transition Timeline:**
+- **2025-2026:** Inventory cryptographic assets, monitor AWS/cloud provider PQC support
+- **2027-2028:** Hybrid implementations (classical + PQC) for high-value assets
+- **2030+:** Full PQC migration per NIST/NSA guidance
+
+**Current Actions:**
+- ✅ Cryptographic asset inventory maintained in [Asset Register](./Asset_Register.md)
+- ✅ Monitoring AWS KMS PQC roadmap
+- ✅ Algorithm agility designed into key management architecture
+- 🔄 Awaiting cloud provider hybrid TLS support
+
+---
+
+## 📚 **Related Documents**
+
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - Strategic cryptography direction, post-quantum roadmap, and AI-first operations
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework and AI-First Operations Governance
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Encryption level requirements by data classification
+
+### 🔒 Security Policies
 - [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Data handling and protection requirements
 - [🌐 Network Security Policy](./Network_Security_Policy.md) - Network encryption and TLS standards
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Key management and authentication controls
+- [🤖 AI Policy](./AI_Policy.md) - AI agent cryptographic requirements
+
+### 💻 Asset & Development
 - [💻 Asset Register](./Asset_Register.md) - Cryptographic asset inventory
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Application encryption requirements
 - [🤝 Third Party Management](./Third_Party_Management.md) - Supplier cryptographic assessments
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Encryption level requirements by data classification
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-11-17  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

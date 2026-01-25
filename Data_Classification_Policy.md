@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -25,7 +25,7 @@
 
 **🏢 Hack23 AB's** data classification policy demonstrates how **🔧 systematic information handling directly enables both security excellence and operational transparency.** Our 📊 classification-driven data protection serves as both operational necessity and 👥 client demonstration of our cybersecurity consulting methodologies.
 
-This policy establishes comprehensive data classification and handling requirements based on our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md), ensuring information protection aligns with business value, regulatory obligations, and security objectives. Our 🌟 transparent approach to data classification showcases how methodical information management creates **🏆 competitive advantage** through protected innovations and **🤝 customer trust** via demonstrable privacy controls.
+This policy establishes comprehensive data classification and handling requirements based on our [🏷️ Classification Framework](./CLASSIFICATION.md), ensuring information protection aligns with business value, regulatory obligations, and security objectives. Our 🌟 transparent approach to data classification showcases how methodical information management creates **🏆 competitive advantage** through protected innovations and **🤝 customer trust** via demonstrable privacy controls.
 
 *— 👨‍💼 James Pether Sörling, CEO/Founder*
 
@@ -45,7 +45,7 @@ This policy applies to:
 - All employees, contractors, and authorized users
 
 ### Framework Integration
-This policy implements the comprehensive classification methodology defined in [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md), covering:
+This policy implements the comprehensive classification methodology defined in [🏷️ Classification Framework](./CLASSIFICATION.md), covering:
 - **CIA Triad Assessment:** Confidentiality, Integrity, and Availability requirements
 - **Business Impact Analysis:** Financial, operational, reputational, and regulatory impact
 - **RTO/RPO Classifications:** Recovery time and recovery point objectives
@@ -57,18 +57,18 @@ This policy implements the comprehensive classification methodology defined in [
 
 ### 📊 **Classification Methodology Integration**
 
-Our data classification directly implements the [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) methodology:
+Our data classification directly implements the [🏷️ Classification Framework](./CLASSIFICATION.md) methodology:
 
 ```mermaid
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#0D47A1',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -108,24 +108,24 @@ flowchart TD
     RTO --> BACKUP
     RPO --> BACKUP
     
-    style CIA fill:#e3f2fd
-    style IMPACT fill:#c8e6c9
-    style RECOVERY fill:#fff3e0
-    style CONTROLS fill:#f3e5f5
+    style CIA fill:#1565C0
+    style IMPACT fill:#4CAF50
+    style RECOVERY fill:#FF9800
+    style CONTROLS fill:#7B1FA2
 ```
 
 ### 🎯 **Data Classification Levels**
 
-Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) confidentiality levels:
+Based on [🏷️ Classification Framework](./CLASSIFICATION.md) confidentiality levels:
 
 | Classification Level | Business Justification | Example Data Types | Handling Requirements |
 |---------------------|------------------------|-------------------|----------------------|
-| [![Extreme](https://img.shields.io/badge/Confidentiality-Extreme-black?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Catastrophic damage if disclosed | HSM keys, critical authentication tokens | Hardware security modules, air-gapped systems |
-| [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Severe business impact | Financial data, customer PII, security configurations | AES-256 + CMK, strict access control, audit logging |
-| [![High](https://img.shields.io/badge/Confidentiality-High-blue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Significant business impact | Source code, business plans, internal communications | AES-256 encryption, role-based access, monitoring |
-| [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Moderate business impact | System logs, operational metrics, vendor agreements | Standard encryption, basic access control |
-| [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | Minor business impact | Public documentation drafts, general communications | Basic protection, standard access |
-| [![Public](https://img.shields.io/badge/Confidentiality-Public-lightgrey?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | No confidentiality requirement | Marketing materials, public policies, open source code | Public disclosure appropriate, integrity protection |
+| [![Extreme](https://img.shields.io/badge/Confidentiality-Extreme-black?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Catastrophic damage if disclosed | HSM keys, critical authentication tokens | Hardware security modules, air-gapped systems |
+| [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Severe business impact | Financial data, customer PII, security configurations | AES-256 + CMK, strict access control, audit logging |
+| [![High](https://img.shields.io/badge/Confidentiality-High-blue?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Significant business impact | Source code, business plans, internal communications | AES-256 encryption, role-based access, monitoring |
+| [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#confidentiality-levels) | Moderate business impact | System logs, operational metrics, vendor agreements | Standard encryption, basic access control |
+| [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels) | Minor business impact | Public documentation drafts, general communications | Basic protection, standard access |
+| [![Public](https://img.shields.io/badge/Confidentiality-Public-lightgrey?style=for-the-badge&logo=shield&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels) | No confidentiality requirement | Marketing materials, public policies, open source code | Public disclosure appropriate, integrity protection |
 
 ---
 
@@ -133,18 +133,18 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 
 ### 🔒 **Confidentiality Requirements**
 
-Implementation of confidentiality controls per [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Implementation of confidentiality controls per [🏷️ Classification Framework](./CLASSIFICATION.md):
 
 ```mermaid
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f3e5f5',
-      'primaryTextColor': '#4a148c',
-      'lineColor': '#9c27b0',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff9c4'
+      'primaryColor': '#7B1FA2',
+      'primaryTextColor': '#4A148C',
+      'lineColor': '#7B1FA2',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -179,11 +179,11 @@ graph TD
         PUBLIC[🌟 Public Disclosure Ready]
     end
     
-    style EXTREME fill:#ffebee
-    style VERYHIGH fill:#e3f2fd
-    style HIGH fill:#fff3e0
-    style MODERATE fill:#fff9c4
-    style LOW fill:#f1f8e9
+    style EXTREME fill:#D32F2F
+    style VERYHIGH fill:#1565C0
+    style HIGH fill:#FF9800
+    style MODERATE fill:#FFC107
+    style LOW fill:#4CAF50
 ```
 
 #### **Confidentiality Control Matrix**
@@ -199,30 +199,30 @@ graph TD
 
 ### ✅ **Integrity Requirements**
 
-Data integrity controls aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Data integrity controls aligned with [🏷️ Classification Framework](./CLASSIFICATION.md):
 
 #### **Integrity Level Matrix**
 
 | Integrity Level | Control Requirements | Implementation | Validation Frequency |
 |-----------------|---------------------|----------------|---------------------|
-| [![Critical](https://img.shields.io/badge/Integrity-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Immutable storage, digital signatures, real-time validation | Blockchain/tamper-evident systems | Continuous |
-| [![High](https://img.shields.io/badge/Integrity-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Checksums, version control, audit trails | Database constraints, change logging | Daily |
-| [![Moderate](https://img.shields.io/badge/Integrity-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Basic validation, backup verification | File integrity monitoring | Weekly |
-| [![Low](https://img.shields.io/badge/Integrity-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Standard backup, basic validation | Standard file systems | Monthly |
+| [![Critical](https://img.shields.io/badge/Integrity-Critical-red?style=flat-square)](./CLASSIFICATION.md) | Immutable storage, digital signatures, real-time validation | Blockchain/tamper-evident systems | Continuous |
+| [![High](https://img.shields.io/badge/Integrity-High-orange?style=flat-square)](./CLASSIFICATION.md) | Checksums, version control, audit trails | Database constraints, change logging | Daily |
+| [![Moderate](https://img.shields.io/badge/Integrity-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) | Basic validation, backup verification | File integrity monitoring | Weekly |
+| [![Low](https://img.shields.io/badge/Integrity-Low-lightgreen?style=flat-square)](./CLASSIFICATION.md) | Standard backup, basic validation | Standard file systems | Monthly |
 
 ### ⚡ **Availability Requirements**
 
-Availability controls per [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Availability controls per [🏷️ Classification Framework](./CLASSIFICATION.md):
 
 #### **Availability Level Implementation**
 
 | Availability Level | Uptime Target | Architecture | Backup Strategy | Recovery Testing |
 |-------------------|---------------|--------------|----------------|------------------|
-| [![Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 99.99%+ | Multi-region, active-active | Real-time replication | Monthly |
-| [![High](https://img.shields.io/badge/Availability-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 99.9% | Multi-AZ, load balanced | Hourly backups | Quarterly |
-| [![Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 99.5% | Standard redundancy | Daily backups | Semi-annual |
-| [![Low](https://img.shields.io/badge/Availability-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 99% | Basic deployment | Weekly backups | Annual |
-| [![Standard](https://img.shields.io/badge/Availability-Standard-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Best effort | Single instance | Manual backups | As needed |
+| [![Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md) | 99.99%+ | Multi-region, active-active | Real-time replication | Monthly |
+| [![High](https://img.shields.io/badge/Availability-High-orange?style=flat-square)](./CLASSIFICATION.md) | 99.9% | Multi-AZ, load balanced | Hourly backups | Quarterly |
+| [![Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) | 99.5% | Standard redundancy | Daily backups | Semi-annual |
+| [![Low](https://img.shields.io/badge/Availability-Low-lightgreen?style=flat-square)](./CLASSIFICATION.md) | 99% | Basic deployment | Weekly backups | Annual |
+| [![Standard](https://img.shields.io/badge/Availability-Standard-lightgrey?style=flat-square)](./CLASSIFICATION.md) | Best effort | Single instance | Manual backups | As needed |
 
 ---
 
@@ -230,18 +230,18 @@ Availability controls per [🏷️ Classification Framework](https://github.com/
 
 ### 💰 **Financial Impact Classifications**
 
-Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels):
+Based on [🏷️ Classification Framework](./CLASSIFICATION.md#financial-impact-levels):
 
 ```mermaid
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#66bb6a',
-      'secondaryColor': '#e3f2fd',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#1565C0',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -257,53 +257,53 @@ pie title 💰 Financial Impact Distribution by Data Category
 
 | Impact Level | Example Data Types | Protection Requirements | Incident Response |
 |-------------|-------------------|------------------------|-------------------|
-| [![Very High](https://img.shields.io/badge/Financial-Very_High_(>$10K/day)-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | Banking credentials, payment processing data | HSM encryption, real-time monitoring | Immediate escalation, executive notification |
-| [![High](https://img.shields.io/badge/Financial-High_($1K--5K/day)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | Customer financial data, accounting records | Strong encryption, audit logging | <15 min response, stakeholder notification |
-| [![Moderate](https://img.shields.io/badge/Financial-Moderate_($500--1K/day)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | Vendor contracts, pricing information | Standard encryption, access control | <1 hour response, management notification |
-| [![Low](https://img.shields.io/badge/Financial-Low_(<$500/day)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | General business correspondence | Basic protection | <4 hour response |
-| [![Negligible](https://img.shields.io/badge/Financial-Negligible-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | Public information, marketing materials | Integrity protection only | Standard process |
+| [![Very High](https://img.shields.io/badge/Financial-Very_High_(>$10K/day)-darkred?style=flat-square)](./CLASSIFICATION.md#financial-impact-levels) | Banking credentials, payment processing data | HSM encryption, real-time monitoring | Immediate escalation, executive notification |
+| [![High](https://img.shields.io/badge/Financial-High_($1K--5K/day)-orange?style=flat-square)](./CLASSIFICATION.md#financial-impact-levels) | Customer financial data, accounting records | Strong encryption, audit logging | <15 min response, stakeholder notification |
+| [![Moderate](https://img.shields.io/badge/Financial-Moderate_($500--1K/day)-yellow?style=flat-square)](./CLASSIFICATION.md#financial-impact-levels) | Vendor contracts, pricing information | Standard encryption, access control | <1 hour response, management notification |
+| [![Low](https://img.shields.io/badge/Financial-Low_(<$500/day)-lightgreen?style=flat-square)](./CLASSIFICATION.md#financial-impact-levels) | General business correspondence | Basic protection | <4 hour response |
+| [![Negligible](https://img.shields.io/badge/Financial-Negligible-lightgrey?style=flat-square)](./CLASSIFICATION.md#financial-impact-levels) | Public information, marketing materials | Integrity protection only | Standard process |
 
 ### ⚙️ **Operational Impact Classifications**
 
-Implementation per [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels):
+Implementation per [🏷️ Classification Framework](./CLASSIFICATION.md#operational-impact-levels):
 
 #### **Operational Impact Control Matrix**
 
 | Impact Level | Service Disruption | Data Requirements | Recovery Priority |
 |-------------|-------------------|-------------------|-------------------|
-| [![Critical](https://img.shields.io/badge/Operational-Critical_(Complete_outage)-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | Complete service failure | Mission-critical systems data | Immediate recovery, all resources |
-| [![High](https://img.shields.io/badge/Operational-High_(Major_degradation)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | Significant functionality loss | Core business process data | High priority, dedicated resources |
-| [![Moderate](https://img.shields.io/badge/Operational-Moderate_(Partial_impact)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | Limited functionality impact | Supporting system data | Standard priority, available resources |
-| [![Low](https://img.shields.io/badge/Operational-Low_(Minor_inconvenience)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | Minor inconvenience | Non-essential system data | Low priority, scheduled recovery |
-| [![No Impact](https://img.shields.io/badge/Operational-No_Impact-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | No operational effect | Archive/reference data | Best effort recovery |
+| [![Critical](https://img.shields.io/badge/Operational-Critical_(Complete_outage)-red?style=flat-square)](./CLASSIFICATION.md#operational-impact-levels) | Complete service failure | Mission-critical systems data | Immediate recovery, all resources |
+| [![High](https://img.shields.io/badge/Operational-High_(Major_degradation)-orange?style=flat-square)](./CLASSIFICATION.md#operational-impact-levels) | Significant functionality loss | Core business process data | High priority, dedicated resources |
+| [![Moderate](https://img.shields.io/badge/Operational-Moderate_(Partial_impact)-yellow?style=flat-square)](./CLASSIFICATION.md#operational-impact-levels) | Limited functionality impact | Supporting system data | Standard priority, available resources |
+| [![Low](https://img.shields.io/badge/Operational-Low_(Minor_inconvenience)-lightgreen?style=flat-square)](./CLASSIFICATION.md#operational-impact-levels) | Minor inconvenience | Non-essential system data | Low priority, scheduled recovery |
+| [![No Impact](https://img.shields.io/badge/Operational-No_Impact-lightgrey?style=flat-square)](./CLASSIFICATION.md#operational-impact-levels) | No operational effect | Archive/reference data | Best effort recovery |
 
 ### 🤝 **Reputational Impact Classifications**
 
-Reputational protection per [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels):
+Reputational protection per [🏷️ Classification Framework](./CLASSIFICATION.md#reputational-impact-levels):
 
 #### **Reputational Impact Response Matrix**
 
 | Impact Level | Exposure Risk | Communication Requirements | Media Response |
 |-------------|---------------|---------------------------|----------------|
-| [![Critical](https://img.shields.io/badge/Reputational-Critical_(International_media)-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | Global media attention | Executive spokesperson, PR firm | Proactive media strategy |
-| [![High](https://img.shields.io/badge/Reputational-High_(National_coverage)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | National news coverage | Official statement, customer notification | Reactive media response |
-| [![Moderate](https://img.shields.io/badge/Reputational-Moderate_(Industry_attention)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | Industry publication coverage | Stakeholder communication | Industry engagement |
-| [![Low](https://img.shields.io/badge/Reputational-Low_(Limited_visibility)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | Limited public awareness | Internal communication | Monitor discussion |
-| [![No Impact](https://img.shields.io/badge/Reputational-No_Impact-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | No reputational risk | Standard processes | No special action |
+| [![Critical](https://img.shields.io/badge/Reputational-Critical_(International_media)-red?style=flat-square)](./CLASSIFICATION.md#reputational-impact-levels) | Global media attention | Executive spokesperson, PR firm | Proactive media strategy |
+| [![High](https://img.shields.io/badge/Reputational-High_(National_coverage)-orange?style=flat-square)](./CLASSIFICATION.md#reputational-impact-levels) | National news coverage | Official statement, customer notification | Reactive media response |
+| [![Moderate](https://img.shields.io/badge/Reputational-Moderate_(Industry_attention)-yellow?style=flat-square)](./CLASSIFICATION.md#reputational-impact-levels) | Industry publication coverage | Stakeholder communication | Industry engagement |
+| [![Low](https://img.shields.io/badge/Reputational-Low_(Limited_visibility)-lightgreen?style=flat-square)](./CLASSIFICATION.md#reputational-impact-levels) | Limited public awareness | Internal communication | Monitor discussion |
+| [![No Impact](https://img.shields.io/badge/Reputational-No_Impact-lightgrey?style=flat-square)](./CLASSIFICATION.md#reputational-impact-levels) | No reputational risk | Standard processes | No special action |
 
 ### ⚖️ **Regulatory Impact Classifications**
 
-Compliance requirements per [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels):
+Compliance requirements per [🏷️ Classification Framework](./CLASSIFICATION.md#regulatory-impact-levels):
 
 #### **Regulatory Impact Compliance Matrix**
 
 | Impact Level | Legal Consequences | Compliance Actions | Reporting Requirements |
 |-------------|-------------------|-------------------|----------------------|
-| [![Critical](https://img.shields.io/badge/Regulatory-Critical_(Criminal_charges)-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | Criminal prosecution risk | Legal counsel, immediate remediation | Mandatory breach notification, regulatory reporting |
-| [![High](https://img.shields.io/badge/Regulatory-High_(Significant_fines)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | Significant financial penalties | Compliance review, process improvement | Formal reporting, corrective action plans |
-| [![Moderate](https://img.shields.io/badge/Regulatory-Moderate_(Minor_penalties)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | Administrative penalties | Policy review, staff training | Standard reporting, documentation |
-| [![Low](https://img.shields.io/badge/Regulatory-Low_(Warnings)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | Warning notices | Process documentation | Routine compliance checks |
-| [![No Impact](https://img.shields.io/badge/Regulatory-No_Impact-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | No regulatory implications | Standard processes | No special requirements |
+| [![Critical](https://img.shields.io/badge/Regulatory-Critical_(Criminal_charges)-red?style=flat-square)](./CLASSIFICATION.md#regulatory-impact-levels) | Criminal prosecution risk | Legal counsel, immediate remediation | Mandatory breach notification, regulatory reporting |
+| [![High](https://img.shields.io/badge/Regulatory-High_(Significant_fines)-orange?style=flat-square)](./CLASSIFICATION.md#regulatory-impact-levels) | Significant financial penalties | Compliance review, process improvement | Formal reporting, corrective action plans |
+| [![Moderate](https://img.shields.io/badge/Regulatory-Moderate_(Minor_penalties)-yellow?style=flat-square)](./CLASSIFICATION.md#regulatory-impact-levels) | Administrative penalties | Policy review, staff training | Standard reporting, documentation |
+| [![Low](https://img.shields.io/badge/Regulatory-Low_(Warnings)-lightgreen?style=flat-square)](./CLASSIFICATION.md#regulatory-impact-levels) | Warning notices | Process documentation | Routine compliance checks |
+| [![No Impact](https://img.shields.io/badge/Regulatory-No_Impact-lightgrey?style=flat-square)](./CLASSIFICATION.md#regulatory-impact-levels) | No regulatory implications | Standard processes | No special requirements |
 
 ---
 
@@ -311,18 +311,18 @@ Compliance requirements per [🏷️ Classification Framework](https://github.co
 
 ### ⏰ **RTO Classifications Implementation**
 
-Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications):
+Based on [🏷️ Classification Framework](./CLASSIFICATION.md#rto-classifications):
 
 ```mermaid
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
-      'lineColor': '#ff9800',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
+      'lineColor': '#FF9800',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -348,26 +348,26 @@ gantt
 
 | RTO Classification | Technical Architecture | Staffing | Testing Frequency |
 |-------------------|------------------------|----------|-------------------|
-| [![Instant](https://img.shields.io/badge/RTO-Instant-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | Active-active, automatic failover | 24/7 on-call | Weekly |
-| [![Critical](https://img.shields.io/badge/RTO-Critical-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | Hot standby, rapid activation | On-call response | Monthly |
-| [![High](https://img.shields.io/badge/RTO-High-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | Warm standby, documented procedures | Business hours response | Quarterly |
-| [![Medium](https://img.shields.io/badge/RTO-Medium-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | Cold backup, standard recovery | Standard business processes | Semi-annual |
-| [![Low](https://img.shields.io/badge/RTO-Low-lightblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | Backup restoration, planned recovery | Scheduled maintenance | Annual |
-| [![Standard](https://img.shields.io/badge/RTO-Standard-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | Best effort recovery | As resources available | As needed |
+| [![Instant](https://img.shields.io/badge/RTO-Instant-red?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | Active-active, automatic failover | 24/7 on-call | Weekly |
+| [![Critical](https://img.shields.io/badge/RTO-Critical-orange?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | Hot standby, rapid activation | On-call response | Monthly |
+| [![High](https://img.shields.io/badge/RTO-High-yellow?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | Warm standby, documented procedures | Business hours response | Quarterly |
+| [![Medium](https://img.shields.io/badge/RTO-Medium-lightgreen?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | Cold backup, standard recovery | Standard business processes | Semi-annual |
+| [![Low](https://img.shields.io/badge/RTO-Low-lightblue?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | Backup restoration, planned recovery | Scheduled maintenance | Annual |
+| [![Standard](https://img.shields.io/badge/RTO-Standard-lightgrey?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | Best effort recovery | As resources available | As needed |
 
 ### 💾 **RPO Classifications Implementation**
 
-Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications):
+Based on [🏷️ Classification Framework](./CLASSIFICATION.md#rpo-classifications):
 
 #### **RPO Data Protection Matrix**
 
 | RPO Classification | Backup Frequency | Replication Method | Validation |
 |-------------------|-----------------|-------------------|------------|
-| [![Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | Synchronous replication | Real-time mirroring | Continuous |
-| [![Near Real-time](https://img.shields.io/badge/RPO-Near_Real--time-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | Every 15 minutes | Asynchronous replication | Real-time monitoring |
-| [![Hourly](https://img.shields.io/badge/RPO-Hourly-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | Every hour | Log shipping | Hourly validation |
-| [![Daily](https://img.shields.io/badge/RPO-Daily-lightblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | Daily snapshots | Scheduled backups | Daily verification |
-| [![Extended](https://img.shields.io/badge/RPO-Extended-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | Weekly/monthly | Archive backups | Periodic testing |
+| [![Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss-red?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) | Synchronous replication | Real-time mirroring | Continuous |
+| [![Near Real-time](https://img.shields.io/badge/RPO-Near_Real--time-orange?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) | Every 15 minutes | Asynchronous replication | Real-time monitoring |
+| [![Hourly](https://img.shields.io/badge/RPO-Hourly-lightgreen?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) | Every hour | Log shipping | Hourly validation |
+| [![Daily](https://img.shields.io/badge/RPO-Daily-lightblue?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) | Daily snapshots | Scheduled backups | Daily verification |
+| [![Extended](https://img.shields.io/badge/RPO-Extended-lightgrey?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) | Weekly/monthly | Archive backups | Periodic testing |
 
 ---
 
@@ -380,11 +380,11 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e1f5fe',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -410,11 +410,11 @@ flowchart TD
     REVIEW -->|Changes Required| IDENTIFY
     REVIEW -->|No Changes| CONTINUE[✅ Continue Current Classification]
     
-    style START fill:#e1f5fe
-    style CLASSIFY fill:#fff8e1
-    style CRITICAL_HANDLE fill:#ffebee
-    style STANDARD_HANDLE fill:#fff3e0
-    style BASIC_HANDLE fill:#f1f8e9
+    style START fill:#1565C0
+    style CLASSIFY fill:#FFC107
+    style CRITICAL_HANDLE fill:#D32F2F
+    style STANDARD_HANDLE fill:#FF9800
+    style BASIC_HANDLE fill:#4CAF50
 ```
 
 ### 🏷️ **Labeling Standards**
@@ -499,11 +499,11 @@ Physical documents require clear classification markings:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f3e5f5',
-      'primaryTextColor': '#4a148c',
-      'lineColor': '#9c27b0',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff9c4'
+      'primaryColor': '#7B1FA2',
+      'primaryTextColor': '#4A148C',
+      'lineColor': '#7B1FA2',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -536,9 +536,9 @@ flowchart LR
     CERTIFICATE --> COMPLIANCE
     AUDIT --> COMPLIANCE
     
-    style DIGITAL fill:#e3f2fd
-    style PHYSICAL_DOC fill:#f1f8e9
-    style VERIFICATION fill:#fff3e0
+    style DIGITAL fill:#1565C0
+    style PHYSICAL_DOC fill:#4CAF50
+    style VERIFICATION fill:#FF9800
 ```
 
 ### 📋 **Comprehensive Records Retention Matrix**
@@ -571,10 +571,10 @@ Implementation of ISO 27001 A.5.33 (Protection of records) with systematic reten
 
 | Data Subject Category | Data Types | Legal Basis | Retention Period | Review Trigger | Disposal Action |
 |----------------------|------------|-------------|------------------|---------------|----------------|
-| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Contact info, usage data | Art. 6(1)(f) Legitimate Interest | 12-24 months after last activity | Inactivity + annual review | Standard secure deletion |
-| [![Sensitive](https://img.shields.io/badge/Privacy-Sensitive-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Employee personal data | Art. 6(1)(b) Contract | 3 years post-employment | Termination + period end | GDPR-compliant deletion + certificate |
-| [![Confidential](https://img.shields.io/badge/Privacy-Confidential-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Financial data with PII | Art. 6(1)(c) Legal Obligation | 7 years (Swedish law) | Legal retention expiry | Secure deletion + audit trail |
-| [![Public](https://img.shields.io/badge/Privacy-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Publicly shared info | Art. 6(1)(a) Consent | Until consent withdrawn | Withdrawal request | Standard deletion |
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Contact info, usage data | Art. 6(1)(f) Legitimate Interest | 12-24 months after last activity | Inactivity + annual review | Standard secure deletion |
+| [![Sensitive](https://img.shields.io/badge/Privacy-Sensitive-red?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Employee personal data | Art. 6(1)(b) Contract | 3 years post-employment | Termination + period end | GDPR-compliant deletion + certificate |
+| [![Confidential](https://img.shields.io/badge/Privacy-Confidential-black?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Financial data with PII | Art. 6(1)(c) Legal Obligation | 7 years (Swedish law) | Legal retention expiry | Secure deletion + audit trail |
+| [![Public](https://img.shields.io/badge/Privacy-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Publicly shared info | Art. 6(1)(a) Consent | Until consent withdrawn | Withdrawal request | Standard deletion |
 
 #### **Retention Implementation Procedures**
 
@@ -608,11 +608,11 @@ Implementation of ISO 27001 A.8.11 (Data masking) for production data protection
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8eaf6',
-      'primaryTextColor': '#283593',
-      'lineColor': '#5c6bc0',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -641,9 +641,9 @@ flowchart TD
     TOKENIZE --> STAGE
     STATIC --> ANALYTICS
     
-    style PROD fill:#ffcdd2
-    style MASKING fill:#e8eaf6
-    style ENVIRONMENTS fill:#c8e6c9
+    style PROD fill:#D32F2F
+    style MASKING fill:#1565C0
+    style ENVIRONMENTS fill:#4CAF50
 ```
 
 #### **Masking Rules by Data Type**
@@ -787,11 +787,11 @@ Based on [🤝 Third Party Management](./Third_Party_Management.md) classificati
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#66bb6a',
-      'secondaryColor': '#e3f2fd',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#1565C0',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -823,9 +823,9 @@ flowchart TD
     RETENTION --> REVIEWS
     AUDIT --> REVIEWS
     
-    style ASSESSMENT fill:#e3f2fd
-    style CONTRACT fill:#c8e6c9
-    style MONITORING fill:#fff3e0
+    style ASSESSMENT fill:#1565C0
+    style CONTRACT fill:#4CAF50
+    style MONITORING fill:#FF9800
 ```
 
 ### 🌍 **Cross-Border Data Transfers**
@@ -845,18 +845,18 @@ flowchart TD
 
 ### 🔒 **Privacy Data Classification**
 
-All personal data is classified using the comprehensive [🏷️ Privacy Levels](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) framework, ensuring appropriate protection measures and GDPR compliance.
+All personal data is classified using the comprehensive [🏷️ Privacy Levels](./CLASSIFICATION.md#privacy-levels) framework, ensuring appropriate protection measures and GDPR compliance.
 
 ```mermaid
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#ffebee',
-      'primaryTextColor': '#c62828',
-      'lineColor': '#ef5350',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#D32F2F',
+      'primaryTextColor': '#C62828',
+      'lineColor': '#D32F2F',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -887,7 +887,7 @@ flowchart TD
     classDef startStyle fill:#1565C0,stroke:#0D47A1,color:#fff
     classDef decisionStyle fill:#FF9800,stroke:#F57C00,color:#fff
     classDef criticalStyle fill:#D32F2F,stroke:#B71C1C,color:#fff
-    classDef highStyle fill:#FF5722,stroke:#D84315,color:#fff
+    classDef highStyle fill:#FF9800,stroke:#F57C00,color:#fff
     classDef standardStyle fill:#FF9800,stroke:#F57C00,color:#fff
     classDef lowStyle fill:#FFC107,stroke:#FFA000,color:#000
     classDef safeStyle fill:#4CAF50,stroke:#388E3C,color:#fff
@@ -905,12 +905,12 @@ flowchart TD
 
 | Privacy Level | GDPR Article | Data Examples | Protection Requirements | Data Subject Rights |
 |---------------|-------------|---------------|------------------------|-------------------|
-| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 9 | Health data, biometric, genetic, racial origin, political opinions, religious beliefs | Explicit consent + Art. 9(2) legal basis, enhanced encryption, audit all access | Full rights + special protections |
-| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 4(1) | Name, email, SSN, IP address, device ID, biometric identifiers | AES-256 encryption, MFA access, comprehensive audit logging | Full GDPR rights (Art. 15-22) |
-| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 4(1) | User preferences, activity logs, location history, contacts | Standard encryption, RBAC, access logging | Full GDPR rights (Art. 15-22) |
-| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Art. 4(5) | Hashed user IDs, tokenized data with key separation | Key isolation, standard encryption | Limited rights (re-identification possible) |
-| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Outside GDPR | Aggregated statistics, anonymized analytics | Integrity protection, access control | No GDPR rights (not personal data) |
-| [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | N/A | Public information, system configuration, non-personal metadata | Standard information security controls | No GDPR rights (not personal data) |
+| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Art. 9 | Health data, biometric, genetic, racial origin, political opinions, religious beliefs | Explicit consent + Art. 9(2) legal basis, enhanced encryption, audit all access | Full rights + special protections |
+| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Art. 4(1) | Name, email, SSN, IP address, device ID, biometric identifiers | AES-256 encryption, MFA access, comprehensive audit logging | Full GDPR rights (Art. 15-22) |
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Art. 4(1) | User preferences, activity logs, location history, contacts | Standard encryption, RBAC, access logging | Full GDPR rights (Art. 15-22) |
+| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Art. 4(5) | Hashed user IDs, tokenized data with key separation | Key isolation, standard encryption | Limited rights (re-identification possible) |
+| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Outside GDPR | Aggregated statistics, anonymized analytics | Integrity protection, access control | No GDPR rights (not personal data) |
+| [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | N/A | Public information, system configuration, non-personal metadata | Standard information security controls | No GDPR rights (not personal data) |
 
 ### 🇪🇺 **GDPR Principles Integration**
 
@@ -930,11 +930,11 @@ Implementation of GDPR Article 5 principles through data classification:
 
 | Privacy Level | Retention Period | Legal Basis | Deletion Method |
 |---------------|-----------------|-------------|-----------------|
-| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Purpose limited + 0 days | Art. 9(2) specific basis | Cryptographic erasure + secure wipe |
-| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Contract + 2 years OR Legal obligation (7 years for financial) | Art. 6(1)(b) or 6(1)(c) | Cryptographic erasure + backup purge |
-| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | 12-24 months after last activity | Art. 6(1)(f) Legitimate Interest | Standard secure deletion |
-| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | 12-14 months (analytics) | Art. 6(1)(f) Legitimate Interest | Key deletion + data retention |
-| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | Indefinite (no longer personal data) | N/A (outside GDPR) | Standard deletion when no longer needed |
+| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Purpose limited + 0 days | Art. 9(2) specific basis | Cryptographic erasure + secure wipe |
+| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Contract + 2 years OR Legal obligation (7 years for financial) | Art. 6(1)(b) or 6(1)(c) | Cryptographic erasure + backup purge |
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | 12-24 months after last activity | Art. 6(1)(f) Legitimate Interest | Standard secure deletion |
+| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | 12-14 months (analytics) | Art. 6(1)(f) Legitimate Interest | Key deletion + data retention |
+| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | Indefinite (no longer personal data) | N/A (outside GDPR) | Standard deletion when no longer needed |
 
 ### 🛡️ **Data Subject Rights Implementation**
 
@@ -945,9 +945,9 @@ Rights enforcement procedures per privacy classification:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0'
     }
   }
 }%%
@@ -985,7 +985,7 @@ flowchart LR
     classDef priorityStyle fill:#D32F2F,stroke:#B71C1C,color:#fff
     classDef standardStyle fill:#FFC107,stroke:#FFA000,color:#000
     classDef actionStyle fill:#4CAF50,stroke:#388E3C,color:#fff
-    classDef respondStyle fill:#2196F3,stroke:#1976D2,color:#fff
+    classDef respondStyle fill:#1565C0,stroke:#1565C0,color:#fff
     
     class REQUEST requestStyle
     class VERIFY,CLASSIFY,ACCESS verifyStyle
@@ -1030,11 +1030,11 @@ Based on the SQL comment classification system used in CIA project:
 
 | Data Element | Classification | SQL Comment Example | Rationale |
 |--------------|----------------|---------------------|-----------|
-| **Public parliamentary data** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN document_data.title IS 'DATA.Public GDPR.NA'` | Public government information, not personal data |
-| **Politician assignments** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN assignment_data.intressent_id IS 'DATA.Public GDPR.Personal_Identifier'` | Public official information, identifiable natural person |
-| **User session data** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_session.ip_information IS 'DATA.Sensitive GDPR.Personal'` | User activity tracking, identifiable |
-| **Application user ID** | [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_action_event.user_id IS 'DATA.Sensitive GDPR.Personal_Identifier'` | Direct user identifier |
-| **System configuration** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_configuration.property_value IS 'DATA.Sensitive GDPR.NA'` | System metadata, not personal |
+| **Public parliamentary data** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN document_data.title IS 'DATA.Public GDPR.NA'` | Public government information, not personal data |
+| **Politician assignments** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN assignment_data.intressent_id IS 'DATA.Public GDPR.Personal_Identifier'` | Public official information, identifiable natural person |
+| **User session data** | [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_session.ip_information IS 'DATA.Sensitive GDPR.Personal'` | User activity tracking, identifiable |
+| **Application user ID** | [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_action_event.user_id IS 'DATA.Sensitive GDPR.Personal_Identifier'` | Direct user identifier |
+| **System configuration** | [![NA](https://img.shields.io/badge/Privacy-NA-lightgrey?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | `COMMENT ON COLUMN application_configuration.property_value IS 'DATA.Sensitive GDPR.NA'` | System metadata, not personal |
 
 **Column Comment Format Standard:**
 ```sql
@@ -1089,26 +1089,34 @@ Integration with [✅ Compliance Checklist](./Compliance_Checklist.md):
 
 ## 📚 **Related Documents**
 
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Comprehensive classification methodology and business impact analysis
+### 🎯 Strategic & Governance
+- [📈 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic data classification direction
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Comprehensive classification methodology and business impact analysis
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI-assisted data classification and handling automation
+- [📉 Risk Register](./Risk_Register.md) — Data-related risk identification and treatment tracking
+- [✅ Compliance Checklist](./Compliance_Checklist.md) — Regulatory compliance tracking including data protection laws
+
+### 🔐 Security Policies & Controls
 - [🔐 Privacy Policy](./Privacy_Policy.md) — User-facing privacy notices and GDPR compliance for products
-- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance and data protection framework
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) — Encryption standards and key management for classified data
 - [🔑 Access Control Policy](./Access_Control_Policy.md) — Identity management and authorization controls for data access
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Application security with data protection requirements
+
+### ⚙️ Operational Integration
 - [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) — Data protection and recovery procedures based on classification
 - [🤝 Third Party Management](./Third_Party_Management.md) — Supplier risk management and data sharing governance
 - [💻 Asset Register](./Asset_Register.md) — Information asset inventory with classification assignments
-- [📉 Risk Register](./Risk_Register.md) — Data-related risk identification and treatment tracking
 - [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Data breach and security incident response procedures
-- [✅ Compliance Checklist](./Compliance_Checklist.md) — Regulatory compliance tracking including data protection laws
 - [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) — Business resilience with classification-based recovery priorities
-- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Application security with data protection requirements
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-11-05   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
+

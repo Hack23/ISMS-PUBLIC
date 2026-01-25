@@ -5,19 +5,19 @@
 <h1 align="center">🌐 Hack23 AB — Network Security Policy</h1>
 
 <p align="center">
-  <strong>Zero-Trust Network Architecture Through Cloud-Native Excellence</strong><br>
-  <em>Demonstrating Network Security Mastery for Cybersecurity Consulting</em>
+  <strong>🛡️ Zero-Trust Network Architecture Through Cloud-Native Excellence</strong><br>
+  <em>🎯 Demonstrating Network Security Mastery for Cybersecurity Consulting</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -43,9 +43,9 @@ This policy establishes comprehensive network security standards for all Hack23 
 
 ## 🏗️ **Zero-Trust Network Architecture**
 
-[![Zero Trust](https://img.shields.io/badge/🔐_Zero_Trust-Never_Trust_Always_Verify-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![Cloud Native](https://img.shields.io/badge/☁️_Cloud_Native-AWS_Architecture-ff9900?style=flat-square)](./Asset_Register.md) [![Multi Region](https://img.shields.io/badge/🌍_Multi_Region-eu--west--1_%7C_eu--central--1-blue?style=flat-square)](./Disaster_Recovery_Plan.md)
+[![Zero Trust](https://img.shields.io/badge/🔐_Zero_Trust-Never_Trust_Always_Verify-red?style=flat-square)](./CLASSIFICATION.md) [![Cloud Native](https://img.shields.io/badge/☁️_Cloud_Native-AWS_Architecture-ff9900?style=flat-square)](./Asset_Register.md) [![Multi Region](https://img.shields.io/badge/🌍_Multi_Region-eu--west--1_%7C_eu--central--1-blue?style=flat-square)](./Disaster_Recovery_Plan.md)
 
-[![CIS Control 12.1](https://img.shields.io/badge/CIS_12.1-Network_Asset_Inventory-darkgreen?style=flat-square&logo=list&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 12.2](https://img.shields.io/badge/CIS_12.2-Network_Segmentation-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.13.1.1](https://img.shields.io/badge/ISO_A.13.1.1-Network_Controls-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.13.1.3](https://img.shields.io/badge/ISO_A.13.1.3-Network_Segregation-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 12.1](https://img.shields.io/badge/CIS_12.1-Network_Asset_Inventory-darkgreen?style=flat-square&logo=list&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 12.2](https://img.shields.io/badge/CIS_12.2-Network_Segmentation-darkgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.13.1.1](https://img.shields.io/badge/ISO_A.13.1.1-Network_Controls-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.13.1.3](https://img.shields.io/badge/ISO_A.13.1.3-Network_Segregation-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 ### 🛡️ **Defense-in-Depth Strategy**
 
@@ -99,11 +99,11 @@ flowchart TB
     SSM --> LAMBDA
     CLOUDTRAIL --> S3
     
-    style INTERNET fill:#ffcccb
-    style ALB fill:#ffeb9c
-    style LAMBDA fill:#c8e6c9
-    style RDS fill:#b39ddb
-    style SSM fill:#f8bbd9
+    style INTERNET fill:#D32F2F
+    style ALB fill:#FFC107
+    style LAMBDA fill:#4CAF50
+    style RDS fill:#7B1FA2
+    style SSM fill:#D32F2F
 ```
 
 ### 🎯 Zero-Trust Principles Implementation
@@ -116,7 +116,7 @@ flowchart TB
 
 [![DDoS Protection](https://img.shields.io/badge/🛡️_DDoS-AWS_Shield_+_CloudFront-ff9900?style=flat-square)](./Asset_Register.md) [![WAF](https://img.shields.io/badge/🔥_WAF-OWASP_Rules_Enabled-success?style=flat-square)](./Asset_Register.md) [![TLS](https://img.shields.io/badge/🔐_TLS-1.2+_Enforced-blue?style=flat-square)](https://www.ssllabs.com/ssltest/analyze.html?d=hack23.com) [![VPC Security](https://img.shields.io/badge/🌐_VPC-Multi_Tier_Architecture-green?style=flat-square)](./Asset_Register.md)
 
-[![CIS Control 12.4](https://img.shields.io/badge/CIS_12.4-Deny_by_Default-darkgreen?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 12.5](https://img.shields.io/badge/CIS_12.5-Network_Access_Control-darkgreen?style=flat-square&logo=key&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 13.2](https://img.shields.io/badge/CIS_13.2-Traffic_Filtering-darkgreen?style=flat-square&logo=filter&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.13.1.2](https://img.shields.io/badge/ISO_A.13.1.2-Network_Services-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 12.4](https://img.shields.io/badge/CIS_12.4-Deny_by_Default-darkgreen?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 12.5](https://img.shields.io/badge/CIS_12.5-Network_Access_Control-darkgreen?style=flat-square&logo=key&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 13.2](https://img.shields.io/badge/CIS_13.2-Traffic_Filtering-darkgreen?style=flat-square&logo=filter&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.13.1.2](https://img.shields.io/badge/ISO_A.13.1.2-Network_Services-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **Network Segmentation Requirements:**
 - ✅ **MUST** implement network segmentation with clearly defined security zones
@@ -126,7 +126,7 @@ flowchart TB
 
 ### ✅ **MUST HAVE - Security Controls**
 
-[![CIS Control 13.1](https://img.shields.io/badge/CIS_Control-13.1_Network_Monitoring-darkblue?style=flat-square&logo=radar&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 13.1](https://img.shields.io/badge/CIS_Control-13.1_Network_Monitoring-darkblue?style=flat-square&logo=radar&logoColor=white)](./CLASSIFICATION.md)
 
 **Network security controls MUST:**
 
@@ -158,9 +158,9 @@ graph LR
     VPN --> ANALYSIS
     KEYS --> RESPONSE
     
-    style DDOS fill:#ffcccb
-    style TRANSIT fill:#c8e6c9
-    style LOGS fill:#bbdefb
+    style DDOS fill:#D32F2F
+    style TRANSIT fill:#4CAF50
+    style LOGS fill:#1565C0
 ```
 
 **Security Control Requirements:**
@@ -171,7 +171,7 @@ graph LR
 
 ### ✅ **MUST HAVE - DNS and Domain Security**
 
-[![ISO 27001 A.13.2.1](https://img.shields.io/badge/ISO_27001-A.13.2.1_Information_Transfer-blue?style=flat-square&logo=dns&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.13.2.1](https://img.shields.io/badge/ISO_27001-A.13.2.1_Information_Transfer-blue?style=flat-square&logo=dns&logoColor=white)](./CLASSIFICATION.md)
 
 **DNS security implementation MUST:**
 
@@ -203,9 +203,9 @@ flowchart TD
     DKIM --> TRANSPARENCY
     DMARC --> VALIDATION
     
-    style DNSSEC fill:#c8e6c9
-    style SPF fill:#bbdefb
-    style TLS fill:#fff9c4
+    style DNSSEC fill:#4CAF50
+    style SPF fill:#1565C0
+    style TLS fill:#FFC107
 ```
 
 **DNS and Domain Requirements:**
@@ -216,7 +216,7 @@ flowchart TD
 
 ### ✅ **MUST HAVE - Incident Response Integration**
 
-[![ISO 27001 A.16.1.1](https://img.shields.io/badge/ISO_27001-A.16.1.1_Incident_Management-blue?style=flat-square&logo=alert-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.16.1.1](https://img.shields.io/badge/ISO_27001-A.16.1.1_Incident_Management-blue?style=flat-square&logo=alert-triangle&logoColor=white)](./CLASSIFICATION.md)
 
 **Network incident response MUST:**
 
@@ -246,15 +246,15 @@ sequenceDiagram
 
 ### 🛡️ **Implementation Evidence**
 
-[![SSL Labs A+](https://img.shields.io/badge/SSL_Labs-A+_Rating-success?style=flat-square&logo=ssl&logoColor=white)](https://www.ssllabs.com/ssltest/analyze.html?d=hack23.com) [![Public DMZ](https://img.shields.io/badge/🌐_Public_DMZ-Internet_Facing-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![Private App](https://img.shields.io/badge/🛡️_Private_App-Internal_Only-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![Database](https://img.shields.io/badge/💾_Database-Isolated_Tier-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![SSL Labs A+](https://img.shields.io/badge/SSL_Labs-A+_Rating-success?style=flat-square&logo=ssl&logoColor=white)](https://www.ssllabs.com/ssltest/analyze.html?d=hack23.com) [![Public DMZ](https://img.shields.io/badge/🌐_Public_DMZ-Internet_Facing-red?style=flat-square)](./CLASSIFICATION.md) [![Private App](https://img.shields.io/badge/🛡️_Private_App-Internal_Only-green?style=flat-square)](./CLASSIFICATION.md) [![Database](https://img.shields.io/badge/💾_Database-Isolated_Tier-blue?style=flat-square)](./CLASSIFICATION.md)
 
 ---
 
 ## 🌐 **DNS and Domain Security**
 
-[![DNSSEC](https://img.shields.io/badge/🔐_DNSSEC-Enabled_All_Domains-success?style=flat-square)](https://dnssec-debugger.verisignlabs.com/hack23.com) [![DNS Firewall](https://img.shields.io/badge/🛡️_DNS_Firewall-Route53_Resolver-ff9900?style=flat-square)](./Asset_Register.md) [![DNS Logging](https://img.shields.io/badge/📊_DNS_Logging-Query_Logs_Enabled-blue?style=flat-square)](./Security_Metrics.md) [![Domain Lock](https://img.shields.io/badge/🔒_Domain_Lock-Registrar_Protected-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![DNSSEC](https://img.shields.io/badge/🔐_DNSSEC-Enabled_All_Domains-success?style=flat-square)](https://dnssec-debugger.verisignlabs.com/hack23.com) [![DNS Firewall](https://img.shields.io/badge/🛡️_DNS_Firewall-Route53_Resolver-ff9900?style=flat-square)](./Asset_Register.md) [![DNS Logging](https://img.shields.io/badge/📊_DNS_Logging-Query_Logs_Enabled-blue?style=flat-square)](./Security_Metrics.md) [![Domain Lock](https://img.shields.io/badge/🔒_Domain_Lock-Registrar_Protected-orange?style=flat-square)](./CLASSIFICATION.md)
 
-[![CIS Control 12.3](https://img.shields.io/badge/CIS_12.3-DNS_Filtering-darkgreen?style=flat-square&logo=filter&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 13.6](https://img.shields.io/badge/CIS_13.6-DNS_Query_Logging-darkgreen?style=flat-square&logo=file-text&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 12.8](https://img.shields.io/badge/CIS_12.8-Network_Documentation-darkgreen?style=flat-square&logo=book&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 12.3](https://img.shields.io/badge/CIS_12.3-DNS_Filtering-darkgreen?style=flat-square&logo=filter&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 13.6](https://img.shields.io/badge/CIS_13.6-DNS_Query_Logging-darkgreen?style=flat-square&logo=file-text&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 12.8](https://img.shields.io/badge/CIS_12.8-Network_Documentation-darkgreen?style=flat-square&logo=book&logoColor=white)](./CLASSIFICATION.md)
 
 ### 🔒 **DNS Security Controls**
 
@@ -292,7 +292,7 @@ sequenceDiagram
 
 [![SPF](https://img.shields.io/badge/📧_SPF-Strict_Policy_Enabled-success?style=flat-square)](https://mxtoolbox.com/spf.aspx?domain=hack23.com) [![DKIM](https://img.shields.io/badge/🔑_DKIM-2048_bit_Signing-blue?style=flat-square)](https://mxtoolbox.com/dkim.aspx?domain=hack23.com) [![DMARC](https://img.shields.io/badge/🛡️_DMARC-Reject_Policy-red?style=flat-square)](https://mxtoolbox.com/dmarc.aspx?domain=hack23.com) [![WorkMail](https://img.shields.io/badge/📬_AWS_WorkMail-Managed_Service-ff9900?style=flat-square)](./Asset_Register.md)
 
-[![ISO 27001 A.13.2.3](https://img.shields.io/badge/ISO_A.13.2.3-Electronic_Messaging-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.13.2.1](https://img.shields.io/badge/ISO_A.13.2.1-Information_Transfer-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.13.2.4](https://img.shields.io/badge/ISO_A.13.2.4-Confidentiality_Agreements-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.13.2.3](https://img.shields.io/badge/ISO_A.13.2.3-Electronic_Messaging-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.13.2.1](https://img.shields.io/badge/ISO_A.13.2.1-Information_Transfer-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.13.2.4](https://img.shields.io/badge/ISO_A.13.2.4-Confidentiality_Agreements-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 ### 🏗️ **Email Security Architecture Overview**
 
@@ -335,11 +335,11 @@ flowchart TB
     
     BIMI --> VMC
     
-    style SPF fill:#c8e6c9
-    style DKIM fill:#bbdefb
-    style DMARC fill:#ffcccb
-    style WORKMAIL fill:#fff9c4
-    style BIMI fill:#f3e5f5
+    style SPF fill:#4CAF50
+    style DKIM fill:#1565C0
+    style DMARC fill:#D32F2F
+    style WORKMAIL fill:#FFC107
+    style BIMI fill:#7B1FA2
 ```
 
 ### 📬 **Mandatory Email Security Controls**
@@ -445,7 +445,7 @@ flowchart TB
 
 [![S3 Gateway](https://img.shields.io/badge/🗄️_S3_Gateway-Zero_Cost_Private-success?style=flat-square)](./Asset_Register.md) [![KMS Interface](https://img.shields.io/badge/🔐_KMS_Interface-Encryption_Keys-blue?style=flat-square)](./Asset_Register.md) [![SSM Interface](https://img.shields.io/badge/⚙️_SSM_Interface-Management_Access-orange?style=flat-square)](./Asset_Register.md) [![CloudWatch Interface](https://img.shields.io/badge/📊_CloudWatch-Monitoring_Logs-green?style=flat-square)](./Asset_Register.md)
 
-[![CIS Control 12.5](https://img.shields.io/badge/CIS_12.5-Network_Access_Control-darkgreen?style=flat-square&logo=key&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 12.7](https://img.shields.io/badge/CIS_12.7-Network_Device_Config-darkgreen?style=flat-square&logo=cog&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 12.6](https://img.shields.io/badge/CIS_12.6-Wireless_Management-darkgreen?style=flat-square&logo=wifi&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 12.5](https://img.shields.io/badge/CIS_12.5-Network_Access_Control-darkgreen?style=flat-square&logo=key&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 12.7](https://img.shields.io/badge/CIS_12.7-Network_Device_Config-darkgreen?style=flat-square&logo=cog&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 12.6](https://img.shields.io/badge/CIS_12.6-Wireless_Management-darkgreen?style=flat-square&logo=wifi&logoColor=white)](./CLASSIFICATION.md)
 
 **Private Service Access:**
 - **MUST** implement VPC endpoints for all critical AWS services
@@ -458,9 +458,9 @@ flowchart TB
 
 ### 🔍 Continuous Network Monitoring
 
-[![CIS Control 13.1](https://img.shields.io/badge/CIS_Control-13.1_Network_Monitoring-darkblue?style=flat-square&logo=activity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.12.4.1](https://img.shields.io/badge/ISO_27001-A.12.4.1_Event_Logging-blue?style=flat-square&logo=file-text&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 13.1](https://img.shields.io/badge/CIS_Control-13.1_Network_Monitoring-darkblue?style=flat-square&logo=activity&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.12.4.1](https://img.shields.io/badge/ISO_27001-A.12.4.1_Event_Logging-blue?style=flat-square&logo=file-text&logoColor=white)](./CLASSIFICATION.md)
 
-[![CIS Control 13.1](https://img.shields.io/badge/CIS_13.1-Centralized_Monitoring-darkgreen?style=flat-square&logo=radar&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 13.3](https://img.shields.io/badge/CIS_13.3-Intrusion_Detection-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 13.4](https://img.shields.io/badge/CIS_13.4-Traffic_Analysis-darkgreen?style=flat-square&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 13.7](https://img.shields.io/badge/CIS_13.7-Deploy_NIDS-darkgreen?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 13.1](https://img.shields.io/badge/CIS_13.1-Centralized_Monitoring-darkgreen?style=flat-square&logo=radar&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 13.3](https://img.shields.io/badge/CIS_13.3-Intrusion_Detection-darkgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 13.4](https://img.shields.io/badge/CIS_13.4-Traffic_Analysis-darkgreen?style=flat-square&logo=chart-line&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 13.7](https://img.shields.io/badge/CIS_13.7-Deploy_NIDS-darkgreen?style=flat-square&logo=security&logoColor=white)](./CLASSIFICATION.md)
 
 #### **Multi-Layer Detection Strategy**
 ```mermaid
@@ -495,21 +495,21 @@ flowchart LR
     CW --> IRP
     DT --> IRP
     
-    style VPC fill:#e3f2fd
-    style GD fill:#c8e6c9
-    style SNS fill:#ffcccb
+    style VPC fill:#1565C0
+    style GD fill:#4CAF50
+    style SNS fill:#D32F2F
 ```
 
 #### **Network Security Metrics**
 
-[![NIST CSF 2.0 RS.AN](https://img.shields.io/badge/NIST_CSF_2.0-RS.AN_Analysis-green?style=flat-square&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![NIST CSF 2.0 RS.AN](https://img.shields.io/badge/NIST_CSF_2.0-RS.AN_Analysis-green?style=flat-square&logo=chart-line&logoColor=white)](./CLASSIFICATION.md)
 
 | Monitoring Category | **Detection Method** | Alert Threshold | Response Time |
 |--------------------|---------------------|-----------------|---------------|
-| **🔍 Anomalous Traffic** | [![VPC Flow Logs](https://img.shields.io/badge/Source-VPC_Flow_Logs-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Unusual port/protocol | [![15 min](https://img.shields.io/badge/Response-15_min-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🌐 DNS Tunneling** | [![Route 53 Logs](https://img.shields.io/badge/Source-Route_53_Logs-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Suspicious query patterns | [![30 min](https://img.shields.io/badge/Response-30_min-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🚨 DDoS Attacks** | [![CloudFront Metrics](https://img.shields.io/badge/Source-CloudFront_Metrics-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Traffic volume spikes | [![Real-time](https://img.shields.io/badge/Response-Real--time-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔒 TLS Anomalies** | [![ALB Logs](https://img.shields.io/badge/Source-ALB_Logs-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Cipher/protocol violations | [![1 hour](https://img.shields.io/badge/Response-1_hour-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔍 Anomalous Traffic** | [![VPC Flow Logs](https://img.shields.io/badge/Source-VPC_Flow_Logs-blue?style=flat-square)](./CLASSIFICATION.md) | Unusual port/protocol | [![15 min](https://img.shields.io/badge/Response-15_min-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🌐 DNS Tunneling** | [![Route 53 Logs](https://img.shields.io/badge/Source-Route_53_Logs-green?style=flat-square)](./CLASSIFICATION.md) | Suspicious query patterns | [![30 min](https://img.shields.io/badge/Response-30_min-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🚨 DDoS Attacks** | [![CloudFront Metrics](https://img.shields.io/badge/Source-CloudFront_Metrics-red?style=flat-square)](./CLASSIFICATION.md) | Traffic volume spikes | [![Real-time](https://img.shields.io/badge/Response-Real--time-red?style=flat-square)](./CLASSIFICATION.md) |
+| **🔒 TLS Anomalies** | [![ALB Logs](https://img.shields.io/badge/Source-ALB_Logs-purple?style=flat-square)](./CLASSIFICATION.md) | Cipher/protocol violations | [![1 hour](https://img.shields.io/badge/Response-1_hour-green?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -524,11 +524,11 @@ Implementation of ISO 27001 A.8.17 (Clock synchronization) for accurate audit lo
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e1f5fe',
-      'primaryTextColor': '#01579b',
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
       'lineColor': '#039be5',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff9c4'
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -563,9 +563,9 @@ flowchart TD
     DRIFT_DETECT --> ALERTS
     ALERTS --> REMEDIATION
     
-    style TIME_SOURCE fill:#e1f5fe
-    style SYSTEMS fill:#f1f8e9
-    style MONITORING fill:#fff9c4
+    style TIME_SOURCE fill:#1565C0
+    style SYSTEMS fill:#4CAF50
+    style MONITORING fill:#FFC107
 ```
 
 ### ⏱️ **Time Synchronization Requirements**
@@ -730,16 +730,16 @@ Accurate time synchronization enables:
 
 ### 🔒 Network Security Incidents
 
-[![ISO 27001 A.16.1.1](https://img.shields.io/badge/ISO_27001-A.16.1.1_Incident_Management-blue?style=flat-square&logo=alert-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.16.1.1](https://img.shields.io/badge/ISO_27001-A.16.1.1_Incident_Management-blue?style=flat-square&logo=alert-triangle&logoColor=white)](./CLASSIFICATION.md)
 
 #### **Network Incident Classification**
 
 | Incident Type | **Severity Level** | Containment Strategy | Evidence Preservation |
 |---------------|-------------------|---------------------|----------------------|
-| **🔴 DDoS Attack** | [![Critical](https://img.shields.io/badge/Severity-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Automatic AWS Shield activation | [![CloudFront Logs](https://img.shields.io/badge/Evidence-CloudFront_Logs-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🟠 Network Intrusion** | [![High](https://img.shields.io/badge/Severity-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Security group lockdown | [![VPC Flow Logs](https://img.shields.io/badge/Evidence-VPC_Flow_Logs-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🟡 DNS Poisoning** | [![Medium](https://img.shields.io/badge/Severity-Medium-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | DNSSEC validation check | [![Route 53 Logs](https://img.shields.io/badge/Evidence-Route_53_Logs-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🟢 Configuration Drift** | [![Low](https://img.shields.io/badge/Severity-Low-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Config rule remediation | [![CloudTrail API](https://img.shields.io/badge/Evidence-CloudTrail_API-lightblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔴 DDoS Attack** | [![Critical](https://img.shields.io/badge/Severity-Critical-red?style=flat-square)](./CLASSIFICATION.md) | Automatic AWS Shield activation | [![CloudFront Logs](https://img.shields.io/badge/Evidence-CloudFront_Logs-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **🟠 Network Intrusion** | [![High](https://img.shields.io/badge/Severity-High-orange?style=flat-square)](./CLASSIFICATION.md) | Security group lockdown | [![VPC Flow Logs](https://img.shields.io/badge/Evidence-VPC_Flow_Logs-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🟡 DNS Poisoning** | [![Medium](https://img.shields.io/badge/Severity-Medium-yellow?style=flat-square)](./CLASSIFICATION.md) | DNSSEC validation check | [![Route 53 Logs](https://img.shields.io/badge/Evidence-Route_53_Logs-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🟢 Configuration Drift** | [![Low](https://img.shields.io/badge/Severity-Low-green?style=flat-square)](./CLASSIFICATION.md) | Config rule remediation | [![CloudTrail API](https://img.shields.io/badge/Evidence-CloudTrail_API-lightblue?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -757,20 +757,20 @@ Accurate time synchronization enables:
 
 ### 📋 **Compliance Framework**
 
-[![ISO 27001](https://img.shields.io/badge/📋_ISO_27001-A.13.1_Network_Controls-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/⚡_CIS_Controls-12_Network_Infrastructure-darkgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST](https://img.shields.io/badge/🏛️_NIST-PR.AC_Access_Control-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001](https://img.shields.io/badge/📋_ISO_27001-A.13.1_Network_Controls-blue?style=flat-square)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/⚡_CIS_Controls-12_Network_Infrastructure-darkgreen?style=flat-square)](./CLASSIFICATION.md) [![NIST](https://img.shields.io/badge/🏛️_NIST-PR.AC_Access_Control-purple?style=flat-square)](./CLASSIFICATION.md)
 
-[![CIS Control 12 Complete](https://img.shields.io/badge/CIS_Control_12-100%25_Covered-success?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 13 Complete](https://img.shields.io/badge/CIS_Control_13-100%25_Covered-success?style=for-the-badge&logo=radar&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.13 Complete](https://img.shields.io/badge/ISO_27001_A.13-Fully_Compliant-blue?style=for-the-badge&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 12 Complete](https://img.shields.io/badge/CIS_Control_12-100%25_Covered-success?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 13 Complete](https://img.shields.io/badge/CIS_Control_13-100%25_Covered-success?style=for-the-badge&logo=radar&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.13 Complete](https://img.shields.io/badge/ISO_27001_A.13-Fully_Compliant-blue?style=for-the-badge&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **Framework Coverage Summary:**
 
 #### 🛡️ **CIS Control 12 - Network Infrastructure Management**
 - [![12.1](https://img.shields.io/badge/12.1-Network_Asset_Inventory-success?style=flat-square)](./Asset_Register.md) VPC architecture and Asset Register references
-- [![12.2](https://img.shields.io/badge/12.2-Network_Segmentation-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Zero-trust architecture with defense-in-depth
+- [![12.2](https://img.shields.io/badge/12.2-Network_Segmentation-success?style=flat-square)](./CLASSIFICATION.md) Zero-trust architecture with defense-in-depth
 - [![12.3](https://img.shields.io/badge/12.3-DNS_Filtering-success?style=flat-square)](./Asset_Register.md) Route 53 Resolver DNS Firewall implementation
-- [![12.4](https://img.shields.io/badge/12.4-Deny_by_Default-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) WAF rules, security groups, and firewall configurations
+- [![12.4](https://img.shields.io/badge/12.4-Deny_by_Default-success?style=flat-square)](./CLASSIFICATION.md) WAF rules, security groups, and firewall configurations
 - [![12.5](https://img.shields.io/badge/12.5-Network_Access_Control-success?style=flat-square)](./Asset_Register.md) VPC endpoints, private connectivity controls
-- [![12.6](https://img.shields.io/badge/12.6-Wireless_Management-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Cloud-native (no wireless infrastructure)
-- [![12.7](https://img.shields.io/badge/12.7-Device_Configuration-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Infrastructure as Code practices
+- [![12.6](https://img.shields.io/badge/12.6-Wireless_Management-success?style=flat-square)](./CLASSIFICATION.md) Cloud-native (no wireless infrastructure)
+- [![12.7](https://img.shields.io/badge/12.7-Device_Configuration-success?style=flat-square)](./CLASSIFICATION.md) Infrastructure as Code practices
 - [![12.8](https://img.shields.io/badge/12.8-Documentation-success?style=flat-square)](./Asset_Register.md) Asset Register integration
 
 #### 🔍 **CIS Control 13 - Network Monitoring and Defense**
@@ -783,13 +783,16 @@ Accurate time synchronization enables:
 - [![13.7](https://img.shields.io/badge/13.7-Deploy_NIDS-success?style=flat-square)](./Asset_Register.md) AWS native security services implementation
 - [![13.8](https://img.shields.io/badge/13.8-NIDS_Tuning-success?style=flat-square)](./Security_Metrics.md) Continuous improvement and threat intelligence integration
 
-#### 📋 **ISO 27001:2022 Control A.13 - Communications Security**
-- [![A.13.1.1](https://img.shields.io/badge/A.13.1.1-Network_Controls-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Comprehensive network architecture with segmentation
+#### 📋 **ISO 27001:2022 Control A.8 - Communications Security**
+
+> **📝 Note:** ISO 27001:2022 renumbered network controls from A.13.x to A.8.x. This document references legacy A.13.x for compatibility with older documentation.
+
+- [![A.13.1.1](https://img.shields.io/badge/A.13.1.1-Network_Controls-success?style=flat-square)](./CLASSIFICATION.md) Comprehensive network architecture with segmentation
 - [![A.13.1.2](https://img.shields.io/badge/A.13.1.2-Network_Services-success?style=flat-square)](./Asset_Register.md) Service-specific security controls
-- [![A.13.1.3](https://img.shields.io/badge/A.13.1.3-Network_Segregation-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Multi-tier architecture (DMZ, Application, Data)
+- [![A.13.1.3](https://img.shields.io/badge/A.13.1.3-Network_Segregation-success?style=flat-square)](./CLASSIFICATION.md) Multi-tier architecture (DMZ, Application, Data)
 - [![A.13.2.1](https://img.shields.io/badge/A.13.2.1-Transfer_Policies-success?style=flat-square)](./Data_Classification_Policy.md) Data classification-driven controls
 - [![A.13.2.2](https://img.shields.io/badge/A.13.2.2-Transfer_Agreements-success?style=flat-square)](./Third_Party_Management.md) Third-party management integration
-- [![A.13.2.3](https://img.shields.io/badge/A.13.2.3-Electronic_Messaging-success?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Email security (SPF, DKIM, DMARC, MTA-STS)
+- [![A.13.2.3](https://img.shields.io/badge/A.13.2.3-Electronic_Messaging-success?style=flat-square)](./CLASSIFICATION.md) Email security (SPF, DKIM, DMARC, MTA-STS)
 - [![A.13.2.4](https://img.shields.io/badge/A.13.2.4-Confidentiality_Agreements-success?style=flat-square)](./Third_Party_Management.md) Supplier data sharing matrix
 
 ---
@@ -797,11 +800,16 @@ Accurate time synchronization enables:
 
 ## 📚 **Related Documents**
 
-### **🔐 Core Security Framework**
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance and business value framework
-- [🔑 Access Control Policy](./Access_Control_Policy.md) - Network access controls and identity management
-- [🔒 Cryptography Policy](./Cryptography_Policy.md) - Network encryption standards and key management
-- [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Network-based data protection requirements
+### **🔐 Strategic & Governance**
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance and AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI agent governance for network security automation
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Network impact analysis and classification
+
+### **🔑 Access & Identity Policies**
+- [🔑 Access Control Policy](./Access_Control_Policy.md) — Network access controls and identity management
+- [🔒 Cryptography Policy](./Cryptography_Policy.md) — Network encryption standards and key management
+- [🏷️ Data Classification Policy](./Data_Classification_Policy.md) — Network-based data protection requirements
 
 ### **⚙️ Operational Excellence Framework**
 - [📝 Change Management](./Change_Management.md) - Network configuration change procedures
@@ -818,14 +826,14 @@ Accurate time synchronization enables:
 - [💻 Asset Register](./Asset_Register.md) - Network infrastructure inventory and management
 - [📉 Risk Register](./Risk_Register.md) - Network-related risk identification and treatment
 - [📊 Security Metrics](./Security_Metrics.md) - Network security performance measurement
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Network impact analysis and classification
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Network impact analysis and classification
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
-**📤 Distribution:** Public    
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-11-05  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

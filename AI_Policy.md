@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.nist.gov/itl/ai-risk-management-framework"><img src="https://img.shields.io/badge/🎯_NIST_AI_RMF-1.0_Aligned-purple?style=for-the-badge&logo=nist&logoColor=white" alt="NIST AI RMF"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-26
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
 ---
 
@@ -51,9 +51,9 @@ This policy establishes comprehensive governance for artificial intelligence sys
 
 | **🔐 Security Objective** | **📋 Implementation** | **🎯 Business Outcome** |
 |---------------------------|----------------------|------------------------|
-| **Responsible AI Deployment** | Risk-based classification and controls | [![Trust Enhancement](https://img.shields.io/badge/Trust-Enhanced-green?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Regulatory Alignment** | EU AI Act, GDPR, ISO 42001 compliance | [![Market Access](https://img.shields.io/badge/Market-EU_Access-blue?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Innovation Excellence** | Transparent governance enabling technology adoption | [![Innovation Enabled](https://img.shields.io/badge/Innovation-Enabled-purple?style=flat-square&logo=lightbulb&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **Responsible AI Deployment** | Risk-based classification and controls | [![Trust Enhancement](https://img.shields.io/badge/Trust-Enhanced-green?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) |
+| **Regulatory Alignment** | EU AI Act, GDPR, ISO 42001 compliance | [![Market Access](https://img.shields.io/badge/Market-EU_Access-blue?style=flat-square&logo=european-union&logoColor=white)](./CLASSIFICATION.md) |
+| **Innovation Excellence** | Transparent governance enabling technology adoption | [![Innovation Enabled](https://img.shields.io/badge/Innovation-Enabled-purple?style=flat-square&logo=lightbulb&logoColor=white)](./CLASSIFICATION.md) |
 
 ### 🌐 **Policy Scope**
 
@@ -69,7 +69,7 @@ This policy governs all AI-related activities:
 
 ### 📊 **Current AI Tool Classification**
 
-Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Based on [🏷️ Classification Framework](./CLASSIFICATION.md):
 
 ```mermaid
 %%{
@@ -126,10 +126,10 @@ graph TD
 
 | AI Category | Business Criticality | EU AI Act Risk | Security Controls | Evidence Location |
 |-------------|---------------------|----------------|------------------|-------------------|
-| **🔧 Development AI** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Minimal](https://img.shields.io/badge/AI_Risk-Minimal-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Code review, human oversight | [💻 Asset Register](./Asset_Register.md) |
-| **🎨 Creative AI** | [![Moderate](https://img.shields.io/badge/Criticality-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Minimal](https://img.shields.io/badge/AI_Risk-Minimal-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | IP verification, content review | [🤝 Third Party Management](./Third_Party_Management.md) |
-| **📊 Analysis AI** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Limited](https://img.shields.io/badge/AI_Risk-Limited-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Transparency, bias monitoring | [CIA Platform](https://cia.hack23.org/) |
-| **🧠 Knowledge AI** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | [![Limited](https://img.shields.io/badge/AI_Risk-Limited-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Full governance, monitoring | Planned deployment |
+| **🔧 Development AI** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](./CLASSIFICATION.md) | [![Minimal](https://img.shields.io/badge/AI_Risk-Minimal-lightgreen?style=flat-square)](./CLASSIFICATION.md) | Code review, human oversight | [💻 Asset Register](./Asset_Register.md) |
+| **🎨 Creative AI** | [![Moderate](https://img.shields.io/badge/Criticality-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) | [![Minimal](https://img.shields.io/badge/AI_Risk-Minimal-lightgreen?style=flat-square)](./CLASSIFICATION.md) | IP verification, content review | [🤝 Third Party Management](./Third_Party_Management.md) |
+| **📊 Analysis AI** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](./CLASSIFICATION.md) | [![Limited](https://img.shields.io/badge/AI_Risk-Limited-yellow?style=flat-square)](./CLASSIFICATION.md) | Transparency, bias monitoring | [CIA Platform](https://cia.hack23.org/) |
+| **🧠 Knowledge AI** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](./CLASSIFICATION.md) | [![Limited](https://img.shields.io/badge/AI_Risk-Limited-yellow?style=flat-square)](./CLASSIFICATION.md) | Full governance, monitoring | Planned deployment |
 
 ---
 
@@ -600,7 +600,8 @@ flowchart LR
 ## 📚 Related Documents
 
 ### 🔗 **Core Integration**
-- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall governance framework
+- **[🎯 Information Security Strategy](./Information_Security_Strategy.md)** — AI-first operations strategy, Pentagon framework, and agent governance architecture
+- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall governance framework and AI-First Operations Governance
 - **[📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md)** — Risk evaluation approach
 - **[💻 Asset Register](./Asset_Register.md)** — AI tool inventory and classification
 - **[🤝 Third Party Management](./Third_Party_Management.md)** — Vendor risk assessment
@@ -627,10 +628,10 @@ flowchart LR
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-27  
-**⏰ Next Review:** 2026-02-26   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
 
 <p align="center">
   <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689"><img src="https://img.shields.io/badge/EU_AI_Act-2024_Aligned-blue?style=for-the-badge&logo=european-union&logoColor=white" alt="EU AI Act Aligned"/></a>

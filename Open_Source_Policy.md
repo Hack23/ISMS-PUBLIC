@@ -5,19 +5,19 @@
 <h1 align="center">🔓 Hack23 AB — Open Source Policy</h1>
 
 <p align="center">
-  <strong>Demonstrating Security Excellence Through Transparent Open Source</strong><br>
-  <em>Evidence-Based Governance for Community-Aligned Innovation</em>
+  <strong>🛡️ Demonstrating Security Excellence Through Transparent Open Source</strong><br>
+  <em>🎯 Evidence-Based Governance for Community-Aligned Innovation</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-16
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
 ---
 
@@ -29,7 +29,7 @@ This policy embodies our **🌟 transparency principle** - making security pract
 
 ### 📢 **Transparency Commitments**
 - **🎖️ Public Security Badges:** OpenSSF Scorecard, CII Best Practices, FOSSA license compliance demonstrate continuous validation
-- **🏗️ Architecture Documentation:** Every repository maintains SECURITY_ARCHITECTURE.md per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)
+- **🏗️ Architecture Documentation:** Every repository maintains SECURITY_ARCHITECTURE.md per [Secure Development Policy](./Secure_Development_Policy.md)
 - **📊 Compliance Evidence:** Real-time security posture through automated badge generation and public metrics
 - **🔍 Supply Chain Transparency:** SBOM generation, dependency tracking, and vulnerability disclosure
 
@@ -54,7 +54,7 @@ This policy establishes comprehensive governance for creating, maintaining, and 
 ## 🧭 **Core Principles**
 
 1. **🌟 Transparency:** Security posture and governance evidence publicly visible through badges and documentation
-2. **🔐 Security-by-default:** Preventive controls per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) with evidence-based validation
+2. **🔐 Security-by-default:** Preventive controls per [Secure Development Policy](./Secure_Development_Policy.md) with evidence-based validation
 3. **✅ Compliance-first:** License compliance via FOSSA, REUSE, and automated scanning
 4. **🤝 Community respect:** Follow upstream guidelines, maintain attribution, enforce code of conduct
 5. **📊 Evidence-based:** All security claims backed by public badges, reports, and metrics
@@ -70,7 +70,7 @@ This policy establishes comprehensive governance for creating, maintaining, and 
 
 ### **Repository Maintainer**
 - Ensures policy compliance through badge integration
-- Maintains security documentation per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#architecture-documentation-matrix)
+- Maintains security documentation per [Secure Development Policy](./Secure_Development_Policy.md#architecture-documentation-matrix)
 - Manages vulnerability disclosure and remediation
 
 ### **Contributors**
@@ -140,7 +140,7 @@ All repositories **MUST** demonstrate security excellence through public badges 
 Every repository **MUST** maintain comprehensive governance documentation:
 
 #### **🔐 Security Documentation Requirements**
-Per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#architecture-documentation-matrix):
+Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-documentation-matrix):
 - **SECURITY_ARCHITECTURE.md:** Current security implementation with Mermaid diagrams
 - **FUTURE_SECURITY_ARCHITECTURE.md:** Planned security improvements roadmap
 - **SECURITY.md:** Coordinated vulnerability disclosure process
@@ -166,7 +166,7 @@ Per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/
 #### **🤝 Community Documentation**
 - **CODE_OF_CONDUCT.md:** Community behavior standards
 - **CONTRIBUTING.md:** Contribution guidelines and requirements
-- **README.md:** Must include "Project Classification" section per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **README.md:** Must include "Project Classification" section per [Classification Framework](./CLASSIFICATION.md)
 
 **📊 Implementation Evidence:**
 - **🏛️ CIA:** [CODE_OF_CONDUCT.md](https://github.com/Hack23/cia/blob/master/CODE_OF_CONDUCT.md) • [CONTRIBUTING.md](https://github.com/Hack23/cia/blob/master/CONTRIBUTING.md) • [README.md](https://github.com/Hack23/cia/blob/master/README.md)
@@ -178,7 +178,7 @@ Per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/
 ### 🔒 **3) Security Implementation Requirements**
 
 #### **🛡️ Supply Chain Security**
-Aligned with [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#software-bill-of-materials-sbom-requirements):
+Aligned with [Secure Development Policy](./Secure_Development_Policy.md#software-bill-of-materials-sbom-requirements):
 - **SBOM Generation:** CycloneDX or SPDX format for all releases
 - **Dependency Scanning:** Automated vulnerability detection via Dependabot/Renovate
 - **License Scanning:** FOSSA integration for continuous compliance monitoring
@@ -190,7 +190,7 @@ Aligned with [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/b
 - **📊 CIA Compliance Manager:** [Dependabot Config](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/dependabot.yml) • [Security Workflow](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/workflows/ci.yml) • [Release Signing](https://github.com/Hack23/cia-compliance-manager/attestations)
 
 #### **🔍 Vulnerability Management**
-Per [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) SLAs:
+Per [Vulnerability Management](./Vulnerability_Management.md) SLAs:
 - **Critical:** Remediation within 24 hours
 - **High:** Remediation within 7 days  
 - **Medium:** Remediation within 30 days
@@ -202,7 +202,7 @@ Per [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/V
 - **📊 CIA Compliance Manager:** [Security Overview](https://github.com/Hack23/cia-compliance-manager/security) • [Code Scanning](https://github.com/Hack23/cia-compliance-manager/security/code-scanning) • [Dependabot Alerts](https://github.com/Hack23/cia-compliance-manager/security/dependabot)
 
 #### **📊 Security Testing Integration**
-As defined in [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md#automated-security-integration):
+As defined in [Secure Development Policy](./Secure_Development_Policy.md#automated-security-integration):
 - **SAST:** SonarCloud or equivalent on every commit
 - **SCA:** Dependency vulnerability scanning
 - **Secret Scanning:** GitHub secret scanning or equivalent
@@ -247,7 +247,7 @@ As defined in [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/
 
 ### 🏷️ **5) Classification & Documentation**
 
-Per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Per [Classification Framework](./CLASSIFICATION.md):
 
 #### **📋 Required Classification Elements**
 Each project README **MUST** declare:
@@ -265,7 +265,7 @@ Each project README **MUST** declare:
 
 ### 🔐 **6) Data Protection Requirements**
 
-Aligned with [Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md):
+Aligned with [Data Classification Policy](./Data_Classification_Policy.md):
 
 #### **🚫 Prohibited Data in Repositories**
 - Personal data (PII/GDPR regulated)
@@ -286,7 +286,7 @@ Aligned with [Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/
 #### **📥 Accepting External Contributions**
 - **CLA/DCO:** Developer Certificate of Origin required
 - **License Compatibility:** Verify contribution license alignment
-- **Security Review:** Code review per [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md)
+- **Security Review:** Code review per [Change Management](./Change_Management.md)
 - **Attribution:** Maintain CONTRIBUTORS file
 
 **📊 Contribution Evidence:**
@@ -352,7 +352,7 @@ Demonstrating **EU Cyber Resilience Act** compliance readiness through systemati
 ## 📊 **Compliance Monitoring & Metrics**
 
 ### **🎯 Key Performance Indicators**
-Tracked via [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md):
+Tracked via [Security Metrics](./Security_Metrics.md):
 - **OpenSSF Score:** Target ≥7.0 for all repositories
 - **License Compliance:** 100% FOSSA approval rate
 - **Vulnerability Response:** SLA compliance rate ≥95%
@@ -377,8 +377,8 @@ Tracked via [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/S
 
 ### **📊 Public Transparency Dashboard**
 Live metrics available at:
-- [Security Metrics Dashboard](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
-- [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md)
+- [Security Metrics Dashboard](./Security_Metrics.md)
+- [ISMS Transparency Plan](./ISMS_Transparency_Plan.md)
 - Individual project documentation portals:
   - **🏛️ CIA:** [Documentation Portal](https://www.hack23.com/cia-docs.html) • [API Documentation](https://hack23.github.io/cia/)
   - **🎮 Black Trigram:** [Documentation Portal](https://www.hack23.com/black-trigram-docs.html) • [Game Portal](https://blacktrigram.com)
@@ -388,7 +388,7 @@ Live metrics available at:
 
 ## 🔄 **Integration with SDLC**
 
-This policy integrates with our development lifecycle as defined in [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md):
+This policy integrates with our development lifecycle as defined in [Secure Development Policy](./Secure_Development_Policy.md):
 
 ### **📋 Planning Phase**
 - License strategy selection based on business goals
@@ -442,41 +442,43 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 - **Strategic:** Long-term exceptions with quarterly review
 
 ### **📊 Exception Tracking**
-- Documented in [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)
+- Documented in [Risk Register](./Risk_Register.md)
 - Reviewed quarterly
-- Reported in [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
+- Reported in [Security Metrics](./Security_Metrics.md)
 
 ---
 
 ## 📚 **Related Documents**
 
 ### **🔐 Core Security Integration**
-- [🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md) — Overall security governance
-- [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) — Development lifecycle security
-- [🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) — Security testing and remediation
-- [📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) — Controlled modification procedures
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic open source direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI-assisted open source security scanning and governance
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Development lifecycle security
+- [🔍 Vulnerability Management](./Vulnerability_Management.md) — Security testing and remediation
+- [📝 Change Management](./Change_Management.md) — Controlled modification procedures
 
 ### **📊 Compliance & Classification**
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Impact and classification methodology
-- [🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md) — Information handling requirements
-- [✅ Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md) — Regulatory requirement tracking
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Impact and classification methodology
+- [🏷️ Data Classification Policy](./Data_Classification_Policy.md) — Information handling requirements
+- [✅ Compliance Checklist](./Compliance_Checklist.md) — Regulatory requirement tracking
 
 ### **🤝 Third-Party Management**
-- [🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md) — Supplier risk procedures
-- [🔗 Supplier Security Posture](https://github.com/Hack23/ISMS-PUBLIC/blob/main/SUPPLIER.md) — Third-party assessments
-- [🤝 External Stakeholder Registry](https://github.com/Hack23/ISMS-PUBLIC/blob/main/External_Stakeholder_Registry.md) — Professional communities and OSPO network engagement
+- [🤝 Third Party Management](./Third_Party_Management.md) — Supplier risk procedures
+- [🔗 Supplier Security Posture](./SUPPLIER.md) — Third-party assessments
+- [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) — Professional communities and OSPO network engagement
 
 ### **📈 Monitoring & Reporting**
-- [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) — Performance measurement
-- [📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) — Risk tracking and treatment
-- [🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md) — Public disclosure strategy
+- [📊 Security Metrics](./Security_Metrics.md) — Performance measurement
+- [📉 Risk Register](./Risk_Register.md) — Risk tracking and treatment
+- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) — Public disclosure strategy
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-02-16  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

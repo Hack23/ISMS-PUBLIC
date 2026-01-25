@@ -5,19 +5,19 @@
 <h1 align="center">📝 Hack23 AB — Change Management Policy</h1>
 
 <p align="center">
-  <strong>Safe, Documented, and Reversible Changes</strong><br>
-  <em>Security-by-Design Through Automated Controls and CEO-Managed Implementation</em>
+  <strong>🛡️ Safe, Documented, and Reversible Changes</strong><br>
+  <em>🎯 Security-by-Design Through Automated Controls and CEO-Managed Implementation</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-3.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 3.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-27
+**📋 Document Owner:** CEO | **📄 Version:** 3.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -631,8 +631,10 @@ This single-person adaptation demonstrates **cybersecurity consulting expertise*
 
 ## 📚 Related Documents
 
-### **🔐 Core ISMS Integration**
-- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance and business value framework
+### **🔐 Strategic & Governance**
+- **[🎯 Information Security Strategy](./Information_Security_Strategy.md)** — AI-first operations, Pentagon framework, and strategic change management direction
+- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance and AI-First Operations Governance
+- **[🤖 AI Policy](./AI_Policy.md)** — AI agent governance for automated change validation
 - **[🛡️ Secure Development Policy](./Secure_Development_Policy.md)** — Development security requirements and validation gates
 - **[🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md)** — Documentation standards and evidence requirements
 
@@ -664,7 +666,7 @@ This single-person adaptation demonstrates **cybersecurity consulting expertise*
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-27  
-**⏰ Next Review:** 2026-11-27  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)    

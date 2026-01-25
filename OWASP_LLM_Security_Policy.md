@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.2-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.iso.org/standard/81230.html"><img src="https://img.shields.io/badge/📋_ISO/IEC_42001-2023_Aligned-green?style=for-the-badge&logo=iso&logoColor=white" alt="ISO/IEC 42001:2023"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.2 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-16
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
 ---
 
@@ -99,10 +99,10 @@ This policy applies to all LLM-based systems and AI applications at Hack23 AB:
 
 | **🤖 LLM Application Category** | **Security Classification** | **OWASP Coverage** | **Risk Level** |
 |--------------------------------|----------------------------|--------------------|----------------|
-| **🔧 Development AI (GitHub Copilot)** | [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
-| **💬 Content Generation (OpenAI GPT)** | [![Confidentiality: Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Minimal Risk](https://img.shields.io/badge/Risk-Minimal-lightgreen?style=flat-square)](./AI_Policy.md) |
-| **🏛️ Political OSINT Analysis** | [![Confidentiality: Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
-| **🧠 Knowledge Base (AWS Bedrock)** | [![Confidentiality: Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
+| **🔧 Development AI (GitHub Copilot)** | [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
+| **💬 Content Generation (OpenAI GPT)** | [![Confidentiality: Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Minimal Risk](https://img.shields.io/badge/Risk-Minimal-lightgreen?style=flat-square)](./AI_Policy.md) |
+| **🏛️ Political OSINT Analysis** | [![Confidentiality: Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
+| **🧠 Knowledge Base (AWS Bedrock)** | [![Confidentiality: Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
 
 ### 📋 **Regulatory Context**
 
@@ -123,11 +123,11 @@ Our OWASP LLM security controls align with:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#ffcdd2',
-      'tertiaryColor': '#f3e5f5'
+      'secondaryColor': '#D32F2F',
+      'tertiaryColor': '#7B1FA2'
     }
   }
 }%%
@@ -252,11 +252,11 @@ mindmap
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -364,16 +364,16 @@ flowchart TD
     LATERAL -.Can Loop Back.-> EXECUTE
     INTEL -.Feeds Into.-> COLLECT
     
-    classDef recon fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    classDef resource fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    classDef access fill:#fff3e0,stroke:#f57f17,stroke-width:2px
-    classDef execute fill:#ffccbc,stroke:#d84315,stroke-width:2px
-    classDef persist fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
-    classDef lateral fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    classDef intel fill:#e0f7fa,stroke:#00838f,stroke-width:2px
-    classDef collect fill:#f8bbd0,stroke:#c2185b,stroke-width:2px
-    classDef exfil fill:#e1bee7,stroke:#8e24aa,stroke-width:2px
-    classDef impact fill:#ffcdd2,stroke:#c62828,stroke-width:3px
+    classDef recon fill:#1565C0,stroke:#1565C0,stroke-width:2px
+    classDef resource fill:#7B1FA2,stroke:#7b1fa2,stroke-width:2px
+    classDef access fill:#FF9800,stroke:#f57f17,stroke-width:2px
+    classDef execute fill:#FF9800,stroke:#F57C00,stroke-width:2px
+    classDef persist fill:#4CAF50,stroke:#388e3c,stroke-width:2px
+    classDef lateral fill:#FFC107,stroke:#fbc02d,stroke-width:2px
+    classDef intel fill:#1565C0,stroke:#00838f,stroke-width:2px
+    classDef collect fill:#D32F2F,stroke:#c2185b,stroke-width:2px
+    classDef exfil fill:#7B1FA2,stroke:#8e24aa,stroke-width:2px
+    classDef impact fill:#D32F2F,stroke:#c62828,stroke-width:3px
     
     class RECON,R1,R2,R3,R4,R5,R6 recon
     class RESOURCE,RD1,RD2,RD3,RD4,RD5,RD6 resource
@@ -394,7 +394,7 @@ flowchart TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#1b5e20',
       'lineColor': '#4caf50'
     }
@@ -431,11 +431,11 @@ Defense Evasion,Impact,8
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#ffcdd2',
-      'tertiaryColor': '#f3e5f5'
+      'secondaryColor': '#D32F2F',
+      'tertiaryColor': '#7B1FA2'
     }
   }
 }%%
@@ -484,11 +484,11 @@ This section provides in-depth analysis of each OWASP LLM Top 10 threat category
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#ffcdd2',
-      'tertiaryColor': '#f3e5f5'
+      'secondaryColor': '#D32F2F',
+      'tertiaryColor': '#7B1FA2'
     }
   }
 }%%
@@ -611,11 +611,11 @@ System prompt leakage occurs when internal system instructions, configurations, 
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -710,11 +710,11 @@ Input threats target the prompt interface, attempting to manipulate LLM behavior
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#ffe0b2',
-      'tertiaryColor': '#fff9c4'
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -759,10 +759,10 @@ graph TB
     M2 -.Mitigates.-> I2
     M3 -.Mitigates.-> I3
     
-    classDef attack fill:#ffccbc,stroke:#d84315,stroke-width:3px,color:#000000
-    classDef control fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,color:#000000
-    classDef monitoring fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000000
-    classDef impact fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef attack fill:#FF9800,stroke:#F57C00,stroke-width:3px,color:#000000
+    classDef control fill:#4CAF50,stroke:#388e3c,stroke-width:2px,color:#000000
+    classDef monitoring fill:#1565C0,stroke:#1565C0,stroke-width:2px,color:#000000
+    classDef impact fill:#FFC107,stroke:#f57f17,stroke-width:2px,color:#000000
     
     class A1,A2,A3,A4 attack
     class C1,C2,C3,C4 control
@@ -786,11 +786,11 @@ Data threats exploit vulnerabilities in how LLMs process, store, and retrieve in
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#bbdefb',
-      'tertiaryColor': '#e1f5fe'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#1565C0',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -843,10 +843,10 @@ flowchart LR
     P3 -.Future.-> L3
     P4 -.Future.-> L4
     
-    classDef lifecycle fill:#e8eaf6,stroke:#5c6bc0,stroke-width:2px,color:#000000
-    classDef threats fill:#ffcdd2,stroke:#c62828,stroke-width:3px,color:#000000
-    classDef controls fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000000
-    classDef planned fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef lifecycle fill:#1565C0,stroke:#1565C0,stroke-width:2px,color:#000000
+    classDef threats fill:#D32F2F,stroke:#c62828,stroke-width:3px,color:#000000
+    classDef controls fill:#4CAF50,stroke:#2e7d32,stroke-width:2px,color:#000000
+    classDef planned fill:#FFC107,stroke:#f57f17,stroke-width:2px,color:#000000
     
     class L1,L2,L3,L4,L5 lifecycle
     class T1,T2,T3 threats
@@ -871,11 +871,11 @@ Integration threats exploit vulnerabilities at the boundaries where LLMs connect
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f3e5f5',
+      'primaryColor': '#7B1FA2',
       'primaryTextColor': '#4a148c',
       'lineColor': '#7b1fa2',
-      'secondaryColor': '#e1bee7',
-      'tertiaryColor': '#f3e5f5'
+      'secondaryColor': '#7B1FA2',
+      'tertiaryColor': '#7B1FA2'
     }
   }
 }%%
@@ -924,10 +924,10 @@ graph TD
     G2 -.Enhances.-> T1
     G3 -.Enhances.-> T3
     
-    classDef external fill:#e0f7fa,stroke:#00838f,stroke-width:2px,color:#000000
-    classDef threats fill:#ffccbc,stroke:#d84315,stroke-width:3px,color:#000000
-    classDef boundaries fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000000
-    classDef gaps fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef external fill:#1565C0,stroke:#00838f,stroke-width:2px,color:#000000
+    classDef threats fill:#FF9800,stroke:#F57C00,stroke-width:3px,color:#000000
+    classDef boundaries fill:#4CAF50,stroke:#2e7d32,stroke-width:2px,color:#000000
+    classDef gaps fill:#FFC107,stroke:#f57f17,stroke-width:2px,color:#000000
     
     class E1,E2,E3,E4 external
     class T1,T2,T3 threats
@@ -952,11 +952,11 @@ Operational threats impact the reliability, accuracy, and resource consumption o
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#ffe0b2',
-      'tertiaryColor': '#fff9c4'
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -1028,11 +1028,11 @@ This diagram shows how Hack23's security controls provide defense-in-depth acros
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8eaf6',
-      'primaryTextColor': '#283593',
-      'lineColor': '#5c6bc0',
-      'secondaryColor': '#c5e1a5',
-      'tertiaryColor': '#fff9c4'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -1088,11 +1088,11 @@ quadrantChart
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -1146,11 +1146,11 @@ Visual representation of control implementation status across all OWASP LLM cate
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#1b5e20',
       'lineColor': '#4caf50',
-      'secondaryColor': '#fff9c4',
-      'tertiaryColor': '#ffccbc'
+      'secondaryColor': '#FFC107',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -1197,783 +1197,196 @@ quadrantChart
 
 
 
+---
 
+## 🛡️ **Common Security Controls (All LLM Threats)**
+
+### 📋 **Cross-Cutting Preventive Controls**
+
+These controls apply across multiple OWASP LLM threats and form the foundation of our LLM security posture:
+
+| Control | Description | Implementation | Applies To |
+|---------|-------------|----------------|------------|
+| **Input Validation** | Sanitize and validate all user inputs, prompts, and external data | ⏭️ Planned Q2 2026 | LLM01, LLM02, LLM05, LLM06, LLM07 |
+| **Access Control** | Least privilege, RBAC, privilege separation | ✅ Implemented | All threats |
+| **Data Classification** | Classify data before LLM processing per [Data Classification Policy](./Data_Classification_Policy.md) | ✅ Implemented | LLM02, LLM04, LLM08 |
+| **Encryption** | Encrypt sensitive data at rest and in transit per [Cryptography Policy](./Cryptography_Policy.md) | ✅ Implemented | LLM02, LLM08 |
+| **Output Filtering** | Filter and post-process LLM outputs (content filtering) to prevent sensitive data leakage, prompt injection effects, and code injection | ⏭️ Planned Q2 2026 | LLM01, LLM02, LLM05, LLM07 |
+| **Rate Limiting** | API throttling and usage quotas | ✅ Implemented | LLM01, LLM04, LLM08, LLM09, LLM10 |
+| **Human Oversight** | Human-in-the-loop validation for critical actions | ✅ Implemented | LLM06, LLM09 |
+| **Vendor Assessment** | Third-party risk assessment per [Third Party Management](./Third_Party_Management.md) | ✅ Implemented | LLM03, LLM04 |
+| **Pre-trained Models Only** | Use only trusted pre-trained models, no custom training | ✅ Implemented | LLM02, LLM04 |
+
+### 🔍 **Cross-Cutting Detective Controls**
+
+| Control | Description | Implementation | Applies To |
+|---------|-------------|----------------|------------|
+| **Comprehensive Logging** | Log all LLM interactions and API calls | 📋 Documented (Framework ready) | All threats |
+| **Anomaly Detection** | Monitor for unexpected patterns in prompts, outputs, and usage | ⏭️ Planned Q3 2026 | LLM01, LLM04, LLM10 |
+| **Output Scanning** | Automated scanning for PII, credentials, and sensitive data | ✅ Implemented (General tools) | LLM02, LLM05, LLM07 |
+| **Usage Monitoring** | Track API consumption, costs, and resource utilization | ✅ Implemented | LLM10 |
+| **Security Audits** | Regular reviews of LLM configurations and outputs | 📋 Documented | All threats |
+
+### 🚨 **Cross-Cutting Corrective Controls**
+
+| Control | Description | Implementation | Applies To |
+|---------|-------------|----------------|------------|
+| **Incident Response** | Documented procedures per [Incident Response Plan](./Incident_Response_Plan.md) | 📋 Documented | All threats |
+| **Model Fallback** | Rapid fallback to safe mode or alternative models | ⏭️ Planned Q1 2026 | LLM01, LLM09, LLM10 |
+| **GDPR Compliance** | 72-hour breach notification for data disclosure events | 📋 Documented | LLM02 |
+| **Recovery Procedures** | Business continuity per [Business Continuity Plan](./Business_Continuity_Plan.md) | 📋 Documented | All threats |
+
+**Legend**: ✅ Implemented | 📋 Documented | ⏭️ Planned
+
+---
 
 ## 🚨 **LLM01:2025 Prompt Injection**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) | **Implementation:** 30% | **Status:** ⏭️ Q2 2026
 
-Prompt Injection occurs when user prompts alter the LLM's behavior beyond intended parameters, potentially causing:
-- **Direct Injection**: Malicious prompts overriding system instructions
-- **Indirect Injection**: Hidden instructions in external data sources
-- **Jailbreak Attacks**: Bypassing content filters and safety guardrails
+**Description:** Malicious inputs manipulate LLM behavior, bypassing safety controls via direct injection, indirect injection (poisoned documents), or jailbreak attacks.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Prompt templates with instruction boundaries (⏭️ Q2 2026), Content filtering (⏭️ Q2 2026) + [Common Controls: Input Validation, Access Control, Output Filtering, Rate Limiting]
+- **Detective:** Output validation for policy violations (⏭️ Q2 2026) + [Common Controls: Logging, Anomaly Detection]
+- **Corrective:** [Common Controls: Incident Response, Model Fallback]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **✅ Integrity** | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **⏱️ Availability** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM01-01** | Input validation and sanitization for all user prompts | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future development |
-| **PC-LLM01-02** | Prompt templates with explicit instruction boundaries | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Architecture design |
-| **PC-LLM01-03** | Privilege separation between system and user contexts | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Access_Control_Policy.md) | Access control policy |
-| **PC-LLM01-04** | Content filtering on LLM inputs and outputs | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future implementation |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM01-01** | Logging and monitoring of all LLM interactions | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | General logging framework |
-| **DC-LLM01-02** | Anomaly detection for unexpected prompt patterns | [![Planned](https://img.shields.io/badge/Status-Planned_Q3_2026-yellow?style=flat-square)](./Security_Metrics.md) | Future monitoring |
-| **DC-LLM01-03** | Output validation to detect policy violations | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future testing |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM01-01** | Incident response procedures for prompt injection | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR playbooks |
-| **CC-LLM01-02** | Rapid model fallback and safe mode activation | [![Planned](https://img.shields.io/badge/Status-Planned_Q1_2026-yellow?style=flat-square)](./Business_Continuity_Plan.md) | BCP procedures |
-
-### 🎯 **Implementation Approach**
-
-**Current State (Q4 2025)**:
-- ✅ Access control and privilege separation implemented
-- ✅ Incident response procedures documented
-- ⏭️ LLM-specific input validation in design phase
-
-**Future Development (Q2 2026)**:
-```python
-# Planned secure prompt handling implementation
-class SecurePromptHandler:
-    """
-    Implements OWASP LLM01 controls for prompt injection prevention.
-    Planned for Q2 2026 deployment.
-    """
-    
-    def __init__(self, system_context: str):
-        self.system_context = system_context
-        self.validator = PromptValidator()  # To be implemented
-        self.logger = SecurityLogger()      # Framework exists
-    
-    def process_user_prompt(self, user_input: str) -> str:
-        """
-        Securely processes user prompts with injection prevention.
-        
-        Planned Security Controls:
-        - PC-LLM01-01: Input validation (Q2 2026)
-        - PC-LLM01-02: Prompt templates (Q2 2026)
-        - DC-LLM01-01: Security logging (Framework ready)
-        """
-        # Implementation planned for Q2 2026
-        pass
-```
-
-### 📊 **Monitoring and Metrics**
-
-| Metric | Target | Current | Status |
-|--------|--------|---------|--------|
-| **Injection Attempt Detection Rate** | 100% | N/A | [![Planned](https://img.shields.io/badge/Status-Planned_Q3_2026-yellow?style=flat-square)]() |
-| **False Positive Rate** | <5% | N/A | [![Planned](https://img.shields.io/badge/Status-Planned_Q3_2026-yellow?style=flat-square)]() |
-| **Response Time to Incidents** | <15 minutes | Framework ready | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)]() |
+**Implementation:** Access control ✅ operational; LLM-specific input validation ⏭️ Q2 2026
 
 ---
 
 ## 📂 **LLM02:2025 Sensitive Information Disclosure**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](./Risk_Register.md) | **Implementation:** 50% | **Status:** ⏭️ Q2 2026
 
-Sensitive Information Disclosure occurs when LLMs inadvertently reveal:
-- **Training Data Leakage**: Confidential information from training datasets
-- **System Information**: Internal configurations, API keys, credentials
-- **User Data**: Personal information from previous interactions
-- **Business Secrets**: Proprietary algorithms, strategies, or competitive data
+**Description:** LLMs inadvertently reveal training data, system information, credentials, or user data from previous interactions.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Output filtering for sensitive data (⏭️ Q2 2026) + [Common Controls: Data Classification ✅, Encryption ✅, Pre-trained Models Only ✅, Input Validation]
+- **Detective:** DLP monitoring on outputs (⏭️ Q2 2026), PII/credentials scanning ✅ + [Common Controls: Logging, Security Audits]
+- **Corrective:** GDPR 72-hour breach notification 📋, Model replacement (⏭️ Planned) + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![High](https://img.shields.io/badge/Likelihood-High-orange?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Critical](https://img.shields.io/badge/Risk-Critical-red?style=flat-square)](./Risk_Register.md) |
-| **⚖️ Compliance** | [![Very High](https://img.shields.io/badge/Impact-Very_High-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **💼 Reputation** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM02-01** | Data classification before LLM processing per [Data Classification Policy](./Data_Classification_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Data_Classification_Policy.md) | Classification procedures |
-| **PC-LLM02-02** | Data minimization and anonymization for LLM training | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | Pre-trained models only |
-| **PC-LLM02-03** | Encryption of sensitive data at rest and in transit per [Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Cryptography_Policy.md) | Encryption standards |
-| **PC-LLM02-04** | Output filtering to prevent sensitive data leakage | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future implementation |
-| **PC-LLM02-05** | Secure model selection (no training on sensitive data) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | AI governance procedures |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM02-01** | DLP (Data Loss Prevention) monitoring on LLM outputs | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Security_Metrics.md) | Future DLP integration |
-| **DC-LLM02-02** | Regular audits of LLM outputs for sensitive data | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Audit framework |
-| **DC-LLM02-03** | Automated scanning for PII, credentials, and secrets | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Vulnerability_Management.md) | General scanning tools |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM02-01** | Incident response for data disclosure events | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR procedures |
-| **CC-LLM02-02** | GDPR breach notification procedures (72-hour timeline) | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | Compliance procedures |
-| **CC-LLM02-03** | Model retraining or replacement after disclosure | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)](./Business_Continuity_Plan.md) | Recovery procedures |
-
-### 🔍 **Data Classification Integration**
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
-    }
-  }
-}%%
-flowchart TD
-    START[📋 Data Input] --> CLASSIFY{🏷️ Data Classification}
-    
-    CLASSIFY -->|🔴 Extreme/Very High| BLOCK[❌ Block LLM Processing]
-    CLASSIFY -->|🟠 High| ANONYMIZE[🔐 Anonymize Data]
-    CLASSIFY -->|🟡 Moderate| FILTER[🛡️ Apply Output Filters]
-    CLASSIFY -->|🟢 Low/Public| PROCESS[✅ Standard Processing]
-    
-    BLOCK --> LOG1[📝 Log Block Event]
-    ANONYMIZE --> PROCESS
-    FILTER --> PROCESS
-    
-    PROCESS --> SCAN[🔍 Output Scanning]
-    SCAN --> DETECT{🚨 Sensitive Data?}
-    
-    DETECT -->|Yes| ALERT[⚠️ Security Alert]
-    DETECT -->|No| OUTPUT[📤 Approved Output]
-    
-    ALERT --> REVIEW[👁️ Human Review]
-    REVIEW --> INCIDENT[🚨 Incident Response]
-    
-    LOG1 --> METRICS[📊 Security Metrics]
-    OUTPUT --> METRICS
-    INCIDENT --> METRICS
-    
-    classDef critical fill:#ffcdd2,stroke:#c62828,stroke-width:2px,color:#000000
-    classDef high fill:#ffe0b2,stroke:#ef6c00,stroke-width:2px,color:#000000
-    classDef moderate fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
-    classDef safe fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000000
-    classDef control fill:#e1bee7,stroke:#7b1fa2,stroke-width:2px,color:#000000
-    
-    class BLOCK,ALERT,INCIDENT critical
-    class ANONYMIZE,REVIEW high
-    class FILTER,DETECT moderate
-    class PROCESS,OUTPUT safe
-    class CLASSIFY,SCAN,METRICS control
-```
-
-**Current Implementation**: Data classification and encryption policies fully operational. LLM-specific output filtering and DLP planned for Q2 2026.
+**Implementation:** Data classification ✅, encryption ✅, scanning ✅ operational; LLM-specific output filtering ⏭️ Q2 2026
 
 ---
 
 ## 🔗 **LLM03:2025 Supply Chain Vulnerabilities**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) | **Implementation:** 73% | **Status:** ✅ Strong
 
-LLM supply chains are susceptible to vulnerabilities from:
-- **Third-Party Models**: Compromised pre-trained models or model components
-- **Training Data**: Poisoned or malicious training datasets from untrusted sources
-- **Development Dependencies**: Vulnerable libraries, frameworks, and plugins
-- **Deployment Infrastructure**: Compromised hosting platforms and APIs
+**Description:** Compromised third-party models, training data, deployment platforms, or development dependencies.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Model provenance verification ✅, Secure model registry 📋, SCA scanning ✅ + [Common Controls: Vendor Assessment ✅]
+- **Detective:** Security advisory monitoring ✅, Model behavior monitoring 📋, Third-party audits ✅ + [Common Controls: Security Audits]
+- **Corrective:** Model rollback (⏭️), Vendor migration 📋 + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **✅ Integrity** | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **⏱️ Availability** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM03-01** | Vendor risk assessment per [Third Party Management](./Third_Party_Management.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Third_Party_Management.md) | Vendor assessments |
-| **PC-LLM03-02** | Model provenance verification and checksums | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Secure_Development_Policy.md) | Build procedures |
-| **PC-LLM03-03** | Dependency scanning and vulnerability management | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Vulnerability_Management.md) | Scanning reports |
-| **PC-LLM03-04** | Software composition analysis (SCA) for all AI dependencies | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Secure_Development_Policy.md) | SCA tools |
-| **PC-LLM03-05** | Secure model registry with access controls | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Access_Control_Policy.md) | Access control framework |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM03-01** | Continuous monitoring of supply chain security advisories | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Vulnerability_Management.md) | Security feeds |
-| **DC-LLM03-02** | Model behavior monitoring for anomalies | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Monitoring framework |
-| **DC-LLM03-03** | Regular security audits of third-party components | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Third_Party_Management.md) | Audit schedules |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM03-01** | Incident response for supply chain compromises | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR playbooks |
-| **CC-LLM03-02** | Model rollback and replacement procedures | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)](./Business_Continuity_Plan.md) | Recovery procedures |
-| **CC-LLM03-03** | Vendor termination and migration processes | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Third_Party_Management.md) | Contract procedures |
-
-### 🏢 **AI Vendor Security Matrix**
-
-| AI Vendor | Service | Security Assessment | Supply Chain Controls | Last Review |
-|-----------|---------|-------------------|---------------------|-------------|
-| **OpenAI** | GPT Models | [![Approved](https://img.shields.io/badge/Status-Approved-green?style=flat-square)](./Third_Party_Management.md) | PC-LLM03-01, DC-LLM03-01, DC-LLM03-03 | 2025-09-15 |
-| **GitHub** | Copilot | [![Approved](https://img.shields.io/badge/Status-Approved-green?style=flat-square)](./Third_Party_Management.md) | PC-LLM03-01, DC-LLM03-01, DC-LLM03-03 | 2025-09-16 |
-| **AWS** | Bedrock | [![Approved](https://img.shields.io/badge/Status-Approved-green?style=flat-square)](./Third_Party_Management.md) | PC-LLM03-01, DC-LLM03-01, DC-LLM03-03 | 2025-09-10 |
-| **Stability AI** | Image Generation | [![Approved](https://img.shields.io/badge/Status-Approved-green?style=flat-square)](./Third_Party_Management.md) | PC-LLM03-01, DC-LLM03-01, DC-LLM03-03 | 2025-09-12 |
-| **ElevenLabs** | Voice AI | [![Approved](https://img.shields.io/badge/Status-Approved-green?style=flat-square)](./Third_Party_Management.md) | PC-LLM03-01, DC-LLM03-01, DC-LLM03-03 | 2025-09-14 |
-
-**Implementation Strength**: Supply chain controls are among the most mature LLM security controls at Hack23, with comprehensive vendor management fully operational.
+**Implementation:** Vendor assessments ✅, model provenance ✅, SCA scanning ✅ operational; model rollback ⏭️ planned (vendors approved 2025-Q3: OpenAI, GitHub, AWS, Stability AI, ElevenLabs)
 
 ---
 
 ## ☠️ **LLM04:2025 Data and Model Poisoning**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) | **Implementation:** 67% | **Status:** ✅ Strong
 
-Data poisoning occurs when pre-training, fine-tuning, or embedding data is manipulated to:
-- **Backdoor Injection**: Trigger malicious behavior with specific inputs
-- **Bias Amplification**: Introduce discriminatory or harmful biases
-- **Performance Degradation**: Reduce model accuracy and reliability
-- **Prompt Injection**: Embed persistent injection attacks in training data
+**Description:** Manipulation of training/embedding data causing backdoors, bias amplification, or performance degradation.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Model versioning ✅, No untrusted datasets ✅, Data validation (N/A - no custom training) + [Common Controls: Pre-trained Models Only ✅, Vendor Assessment ✅, Rate Limiting ✅]
+- **Detective:** Model behavior testing 📋, Performance benchmarking 📋 + [Common Controls: Anomaly Detection]
+- **Corrective:** Model rollback 📋 + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **✅ Integrity** | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Low](https://img.shields.io/badge/Risk-Low-lightgreen?style=flat-square)](./Risk_Register.md) |
-| **⏱️ Availability** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Low](https://img.shields.io/badge/Risk-Low-lightgreen?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM04-01** | Use only pre-trained models from trusted vendors | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | Vendor approval list |
-| **PC-LLM04-02** | No fine-tuning on untrusted or external datasets | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | Development procedures |
-| **PC-LLM04-03** | Data validation and sanitization before model training | [![Not Applicable](https://img.shields.io/badge/Status-N/A-lightgrey?style=flat-square)](./AI_Policy.md) | No custom training |
-| **PC-LLM04-04** | Model versioning and provenance tracking | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Asset_Register.md) | Version control |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM04-01** | Model behavior testing and validation | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Secure_Development_Policy.md) | Test procedures |
-| **DC-LLM04-02** | Anomaly detection in model outputs | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Monitoring framework |
-| **DC-LLM04-03** | Regular model performance benchmarking | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Performance framework |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM04-01** | Model rollback to known-good versions | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Business_Continuity_Plan.md) | Recovery procedures |
-| **CC-LLM04-02** | Incident investigation for poisoning attempts | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR procedures |
-
-### 🎯 **Hack23 Approach: Pre-trained Models Only**
-
-**Strategic Decision**: Hack23 exclusively uses pre-trained models from trusted enterprise vendors (OpenAI, AWS, GitHub) and does **not** perform custom model training or fine-tuning.
-
-**Risk Mitigation Benefits**:
-- ✅ **Eliminates data poisoning risks** from custom training
-- ✅ **Leverages vendor security** investments and expertise
-- ✅ **Reduces operational complexity** and security overhead
-- ✅ **Ensures consistent behavior** and reliability
-
-**Implementation Status**: This approach is **fully implemented** per AI_Policy.md, making LLM04 controls highly effective despite lower technical complexity.
+**Implementation:** Pre-trained models only ✅ (OpenAI, AWS, GitHub) eliminates data poisoning risk
 
 ---
 
 ## ⚠️ **LLM05:2025 Improper Output Handling**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) | **Implementation:** 55% | **Status:** ⏭️ Q2 2026
 
-Improper Output Handling refers to insufficient validation, sanitization, and handling of LLM-generated outputs before downstream processing, leading to:
-- **Cross-Site Scripting (XSS)**: Malicious scripts in web applications
-- **SQL Injection**: Unsafe database queries from LLM outputs
-- **Command Injection**: System command execution via LLM outputs
-- **Path Traversal**: Unauthorized file access through generated paths
+**Description:** Insufficient validation of LLM outputs before processing, enabling XSS, SQL injection, command injection, path traversal.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Output encoding (⏭️ Q2 2026), Parameterized queries ✅, CSP headers ✅ + [Common Controls: Input Validation, Access Control ✅, Output Filtering]
+- **Detective:** WAF monitoring ✅, SAST/DAST ✅ + [Common Controls: Logging, Output Scanning]
+- **Corrective:** Emergency output filtering (⏭️) + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **✅ Integrity** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **⏱️ Availability** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM05-01** | Output encoding for all LLM-generated content | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future development |
-| **PC-LLM05-02** | Input validation on LLM outputs before processing | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Secure_Development_Policy.md) | General validation framework |
-| **PC-LLM05-03** | Parameterized queries for database operations | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Secure_Development_Policy.md) | Code review standards |
-| **PC-LLM05-04** | Principle of least privilege for LLM-initiated actions | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Access_Control_Policy.md) | Access control matrix |
-| **PC-LLM05-05** | Content Security Policy (CSP) for web applications | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | Security headers |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM05-01** | Web Application Firewall (WAF) monitoring | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | AWS WAF |
-| **DC-LLM05-02** | Security testing (SAST/DAST) for output handling | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Vulnerability_Management.md) | Testing procedures |
-| **DC-LLM05-03** | Logging of all LLM output processing | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Logging framework |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM05-01** | Incident response for injection attacks | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR procedures |
-| **CC-LLM05-02** | Emergency output filtering activation | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)](./Incident_Response_Plan.md) | Emergency procedures |
-
-**Implementation Status**: General secure development practices operational; LLM-specific output encoding planned for Q2 2026.
+**Implementation:** Secure development practices ✅ operational; LLM-specific output encoding ⏭️ Q2 2026
 
 ---
 
 ## 🤖 **LLM06:2025 Excessive Agency**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) | **Implementation:** 67% | **Status:** ✅ Strong
 
-Excessive Agency occurs when LLM-based systems are granted permissions or autonomy beyond necessary requirements, enabling:
-- **Unauthorized Actions**: LLM performing operations without user consent
-- **Privilege Escalation**: LLM accessing resources beyond intended scope
-- **Uncontrolled Automation**: LLM making decisions without human oversight
-- **System-Wide Impact**: Single LLM compromise affecting multiple systems
+**Description:** LLMs granted excessive permissions or autonomy, enabling unauthorized actions, privilege escalation, uncontrolled automation.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Scope limitation for function calling 📋 + [Common Controls: Input Validation, Access Control ✅, Human Oversight ✅]
+- **Detective:** User activity monitoring ✅, Privileged operation audits ✅ + [Common Controls: Logging]
+- **Corrective:** Emergency privilege revocation (⏭️) + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-| **✅ Integrity** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-| **⏱️ Availability** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Low](https://img.shields.io/badge/Risk-Low-lightgreen?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM06-01** | Principle of least privilege for all LLM integrations | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Access_Control_Policy.md) | Access control matrix |
-| **PC-LLM06-02** | Human-in-the-loop validation for critical actions | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | AI governance procedures |
-| **PC-LLM06-03** | Scope limitation for LLM function calling | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Secure_Development_Policy.md) | API design standards |
-| **PC-LLM06-04** | Action whitelisting and approval workflows | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Access_Control_Policy.md) | Authorization framework |
-| **PC-LLM06-05** | Rate limiting and usage quotas for LLM actions | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | API rate limits |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM06-01** | Comprehensive logging of all LLM-initiated actions | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Logging framework |
-| **DC-LLM06-02** | Anomaly detection for unusual LLM behavior | [![Planned](https://img.shields.io/badge/Status-Planned_Q3_2026-yellow?style=flat-square)](./Security_Metrics.md) | Future monitoring |
-| **DC-LLM06-03** | Regular access reviews for LLM permissions | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Access_Control_Policy.md) | Access review procedures |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM06-01** | Emergency LLM access revocation procedures | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR playbooks |
-| **CC-LLM06-02** | Action rollback and remediation procedures | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)](./Business_Continuity_Plan.md) | Recovery procedures |
-
-### 🔒 **LLM Access Control Matrix**
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#e8eaf6',
-      'primaryTextColor': '#283593',
-      'lineColor': '#5c6bc0',
-      'secondaryColor': '#c5e1a5',
-      'tertiaryColor': '#fff9c4'
-    }
-  }
-}%%
-flowchart LR
-    subgraph USER["👤 User Access"]
-        U1[Public User]
-        U2[Authenticated User]
-        U3[Admin User]
-    end
-    
-    subgraph LLM["🤖 LLM Agents"]
-        L1[🔧 Code Assistant]
-        L2[💬 Content Generator]
-        L3[🏛️ Data Analyst]
-    end
-    
-    subgraph RESOURCES["💾 Protected Resources"]
-        R1[📖 Public Data]
-        R2[🔒 User Data]
-        R3[🔐 System Data]
-    end
-    
-    U1 -->|Read Only| L2
-    U2 -->|Controlled| L1
-    U2 -->|Controlled| L2
-    U3 -->|Supervised| L3
-    
-    L1 -->|Read| R1
-    L1 -->|No Access| R2
-    L1 -->|No Access| R3
-    
-    L2 -->|Read| R1
-    L2 -->|Human Approved| R2
-    L2 -->|No Access| R3
-    
-    L3 -->|Read| R1
-    L3 -->|Aggregated Only| R2
-    L3 -->|Human Approved| R3
-    
-    classDef userClass fill:#bbdefb,stroke:#1976d2,stroke-width:2px,color:#000000
-    classDef llmClass fill:#c5e1a5,stroke:#558b2f,stroke-width:2px,color:#000000
-    classDef resourceClass fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
-    
-    class U1,U2,U3 userClass
-    class L1,L2,L3 llmClass
-    class R1,R2,R3 resourceClass
-```
-
-**Implementation Strength**: Excessive Agency controls are well-implemented thanks to strong foundational access control and AI governance policies requiring human oversight.
+**Implementation:** Least privilege ✅ and mandatory human review ✅
 
 ---
 
 ## 🔓 **LLM07:2025 System Prompt Leakage**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) | **Implementation:** 33% | **Status:** ⏭️ Q2 2026
 
-System Prompt Leakage occurs when internal system instructions, configurations, or prompts are inadvertently revealed to users, exposing:
-- **System Architecture**: Internal design and implementation details
-- **Business Logic**: Proprietary algorithms and decision-making processes
-- **Security Controls**: Details of security mechanisms and filters
-- **Sensitive Instructions**: Internal guidelines and operational procedures
+**Description:** Internal system instructions inadvertently revealed, exposing system architecture, business logic, security controls.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Prompt context separation 📋, Immutable system prompts (⏭️ Q2 2026), Generic error messages ✅ + [Common Controls: Input Validation, Output Filtering]
+- **Detective:** Prompt leakage scanning (⏭️ Q2 2026), Penetration testing ✅ + [Common Controls: Logging]
+- **Corrective:** Prompt redesign (⏭️) + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![High](https://img.shields.io/badge/Likelihood-High-orange?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **💼 Reputation** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM07-01** | Separate system and user prompt contexts | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Secure_Development_Policy.md) | Architecture design |
-| **PC-LLM07-02** | Instruction hierarchy with immutable system prompts | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future implementation |
-| **PC-LLM07-03** | Output filtering to remove system prompt fragments | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future development |
-| **PC-LLM07-04** | Generic error messages without implementation details | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Secure_Development_Policy.md) | Error handling standards |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM07-01** | Automated scanning for system prompt leakage | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Vulnerability_Management.md) | Future scanning |
-| **DC-LLM07-02** | User interaction monitoring for extraction attempts | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Monitoring framework |
-| **DC-LLM07-03** | Regular penetration testing of LLM applications | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Vulnerability_Management.md) | Pentest procedures |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM07-01** | Incident response for prompt leakage events | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR procedures |
-| **CC-LLM07-02** | Prompt redesign and system updates | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)](./Change_Management.md) | Change procedures |
+**Implementation:** Error handling ✅ operational; LLM-specific prompt protection ⏭️ Q2 2026
 
 ---
 
 ## 📍 **LLM08:2025 Vector and Embedding Weaknesses**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) | **Implementation:** 30% | **Status:** ⏭️ Q1 2026
 
-Vector and embedding vulnerabilities present significant security risks in systems using:
-- **Vector Database Attacks**: Unauthorized access to embedding stores
-- **Embedding Manipulation**: Poisoned embeddings affecting retrieval results
-- **Semantic Search Bypass**: Adversarial inputs evading content filters
-- **Cross-Context Leakage**: Information disclosure through embedding similarity
+**Description:** Vector database attacks, embedding manipulation, semantic search bypass, cross-context leakage in RAG systems.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Input validation for vector queries (⏭️ Q1 2026), VPC endpoint isolation (⏭️ Q1 2026) + [Common Controls: Access Control ✅, Encryption ✅, Data Classification ✅, Rate Limiting ✅]
+- **Detective:** Vector access monitoring (⏭️ Q1 2026), Embedding audits (⏭️ Q2 2026) + [Common Controls: Anomaly Detection]
+- **Corrective:** Vector database rebuild (⏭️ Q1 2026) + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **🔐 Confidentiality** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **✅ Integrity** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Low](https://img.shields.io/badge/Likelihood-Low-lightgreen?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM08-01** | Access control on vector databases per [Access Control Policy](./Access_Control_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Access_Control_Policy.md) | Access control framework |
-| **PC-LLM08-02** | Encryption of embeddings at rest per [Cryptography Policy](./Cryptography_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Cryptography_Policy.md) | Encryption standards |
-| **PC-LLM08-03** | Data classification enforcement for embedding sources | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Data_Classification_Policy.md) | Classification procedures |
-| **PC-LLM08-04** | Input validation for vector search queries | [![Planned](https://img.shields.io/badge/Status-Planned_Q1_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | AWS Bedrock deployment |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM08-01** | Monitoring of vector database access patterns | [![Planned](https://img.shields.io/badge/Status-Planned_Q1_2026-yellow?style=flat-square)](./Security_Metrics.md) | AWS Bedrock monitoring |
-| **DC-LLM08-02** | Anomaly detection in embedding retrieval | [![Planned](https://img.shields.io/badge/Status-Planned_Q3_2026-yellow?style=flat-square)](./Security_Metrics.md) | Future implementation |
-| **DC-LLM08-03** | Regular audits of embedding data sources | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Security_Metrics.md) | Future audits |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM08-01** | Incident response for embedding compromises | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR procedures |
-| **CC-LLM08-02** | Vector database rebuild and re-indexing | [![Planned](https://img.shields.io/badge/Status-Planned_Q1_2026-yellow?style=flat-square)](./Business_Continuity_Plan.md) | AWS Bedrock recovery |
-
-### 🎯 **AWS Bedrock Knowledge Base Security** (continued)
-
-**Implementation Status**: Planned for Q1 2026 deployment with comprehensive security controls
-
-#### **Planned Security Architecture**
-- ✅ **AWS-managed encryption at rest** (AES-256)
-- ✅ **IAM-based access control** with least privilege principles
-- ✅ **VPC endpoint isolation** for private network access
-- ✅ **Data classification enforcement** before embedding generation
-- ✅ **Comprehensive audit logging** via AWS CloudTrail
-- ✅ **Automated backup and recovery** procedures
-
-#### **Q1 2026 Deployment Roadmap**
-
-| Week | Activity | Controls Activated | Status |
-|------|----------|-------------------|--------|
-| **Weeks 1-2** | AWS Bedrock service setup and configuration | PC-LLM08-01, PC-LLM08-02, PC-LLM08-03 | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() |
-| **Weeks 3-4** | Vector database security hardening | PC-LLM08-04, DC-LLM08-01 | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() |
-| **Weeks 5-6** | Monitoring and alerting integration | DC-LLM08-01, DC-LLM08-03 | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() |
-| **Weeks 7-8** | Testing and validation | All LLM08 controls | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() |
-
-**Current Status**: Foundation policies (Access Control, Cryptography, Data Classification) fully operational and ready for AWS Bedrock integration.
+**Implementation:** Foundation policies ✅ operational; Q1 2026 AWS Bedrock deployment with IAM-based access, AES-256 encryption, CloudTrail logging
 
 ---
 
 ## ❌ **LLM09:2025 Misinformation**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) | **Implementation:** 45% | **Status:** ⏭️ Q2-Q3 2026
 
-Misinformation from LLMs poses core vulnerability for applications relying on generated content accuracy:
-- **Hallucinations**: LLM generating false or fabricated information
-- **Outdated Information**: Stale training data leading to incorrect responses
-- **Bias and Inaccuracy**: Systematic errors in model outputs
-- **Inconsistent Responses**: Contradictory information across interactions
+**Description:** LLM hallucinations, outdated information, bias/inaccuracy, inconsistent responses undermining content reliability.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Source citation 📋, Confidence scoring (⏭️ Q2 2026), Fact-checking integration (⏭️ Q3 2026), AI content disclaimers ✅ + [Common Controls: Human Oversight ✅, Rate Limiting ✅]
+- **Detective:** User feedback mechanisms 📋, QA testing 📋, Accuracy audits 📋 + [Common Controls: Security Audits]
+- **Corrective:** Content correction procedures 📋, Public disclosure 📋 + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **✅ Integrity** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![High](https://img.shields.io/badge/Likelihood-High-orange?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **💼 Reputation** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **⚖️ Compliance** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM09-01** | Human review and validation of all LLM outputs per [AI Policy](./AI_Policy.md) | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | AI governance procedures |
-| **PC-LLM09-02** | Source citation and reference verification | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Secure_Development_Policy.md) | Content standards |
-| **PC-LLM09-03** | Confidence scoring and uncertainty indicators | [![Planned](https://img.shields.io/badge/Status-Planned_Q2_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future implementation |
-| **PC-LLM09-04** | Fact-checking integration for critical information | [![Planned](https://img.shields.io/badge/Status-Planned_Q3_2026-yellow?style=flat-square)](./Secure_Development_Policy.md) | Future integration |
-| **PC-LLM09-05** | Clear disclaimers on AI-generated content | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./AI_Policy.md) | Transparency requirements |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM09-01** | User feedback mechanisms for misinformation reporting | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Feedback framework |
-| **DC-LLM09-02** | Quality assurance testing of LLM outputs | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Secure_Development_Policy.md) | Testing procedures |
-| **DC-LLM09-03** | Periodic accuracy audits and benchmarking | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Audit framework |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM09-01** | Content correction and retraction procedures | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | Correction procedures |
-| **CC-LLM09-02** | Model replacement for persistent accuracy issues | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)](./Business_Continuity_Plan.md) | Replacement procedures |
-| **CC-LLM09-03** | Public disclosure of misinformation incidents | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./ISMS_Transparency_Plan.md) | Transparency plan |
-
-### 🔍 **Misinformation Control Framework**
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#fff8e1',
-      'primaryTextColor': '#f57f17',
-      'lineColor': '#fbc02d',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
-    }
-  }
-}%%
-flowchart TD
-    INPUT[📝 LLM Input] --> GENERATE[🤖 LLM Generation]
-    GENERATE --> VALIDATE{✅ Validation Check}
-    
-    VALIDATE -->|Failed| REJECT[❌ Reject Output]
-    VALIDATE -->|Passed| REVIEW{👁️ Human Review Required?}
-    
-    REVIEW -->|Yes - Critical| HUMAN[👤 Human Validation]
-    REVIEW -->|No - Standard| AUTOMATED[🔍 Automated Checks]
-    
-    HUMAN --> APPROVE{✅ Approved?}
-    APPROVE -->|Yes| PUBLISH[📤 Publish with Disclaimer]
-    APPROVE -->|No| REJECT
-    
-    AUTOMATED --> CITE[📚 Add Citations]
-    CITE --> DISCLAIMER[⚠️ Add AI Disclaimer]
-    DISCLAIMER --> PUBLISH
-    
-    PUBLISH --> MONITOR[📊 Monitor Feedback]
-    MONITOR --> ISSUES{🚨 Issues Detected?}
-    
-    ISSUES -->|Yes| INCIDENT[🚨 Incident Response]
-    ISSUES -->|No| METRICS[📈 Quality Metrics]
-    
-    INCIDENT --> CORRECT[🔧 Content Correction]
-    CORRECT --> DISCLOSE[📢 Public Disclosure]
-    DISCLOSE --> METRICS
-    
-    REJECT --> LOG[📝 Log Rejection]
-    LOG --> METRICS
-    
-    classDef input fill:#e3f2fd,stroke:#1976d2,stroke-width:2px,color:#000000
-    classDef process fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,color:#000000
-    classDef decision fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000000
-    classDef critical fill:#ffccbc,stroke:#d84315,stroke-width:2px,color:#000000
-    classDef success fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px,color:#000000
-    
-    class INPUT input
-    class GENERATE,AUTOMATED,CITE,DISCLAIMER process
-    class VALIDATE,REVIEW,APPROVE,ISSUES decision
-    class REJECT,INCIDENT,CORRECT critical
-    class PUBLISH,METRICS,DISCLOSE success
-    class HUMAN,MONITOR process
-```
-
-### 📋 **EU AI Act Article 50 Compliance**
-
-As per [🤖 AI Policy](./AI_Policy.md), Hack23 AB's Political OSINT system (Citizen Intelligence Agency) provides transparent disclosure of AI-generated analysis:
-
-- ✅ **Public Transparency**: Clear indication of AI-generated content (Implemented)
-- ✅ **Human Oversight**: All AI analysis validated by human experts (Implemented)
-- ✅ **Methodology Disclosure**: Published analysis methods and data sources (Implemented)
-- ✅ **Accuracy Standards**: Documented quality assurance procedures (Documented)
-
-**Implementation Strength**: Misinformation controls benefit from strong AI governance policy mandating human review - a key differentiator for Hack23.
+**Implementation:** Mandatory human review ✅ and AI disclaimers ✅ per AI_Policy.md; automated fact-checking ⏭️ Q2-Q3 2026
 
 ---
 
 ## 💥 **LLM10:2025 Unbounded Consumption**
 
-### 📋 **Vulnerability Description**
+**Risk:** [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) | **Implementation:** 80% | **Status:** ✅ Strong
 
-Unbounded Consumption refers to the process where LLM usage leads to excessive resource utilization:
-- **Denial of Service (DoS)**: Resource exhaustion from malicious or accidental overuse
-- **Economic DoS**: Excessive API costs from uncontrolled usage
-- **Model Context Abuse**: Oversized inputs causing processing delays
-- **Inference Flooding**: High-volume requests overwhelming systems
+**Description:** Resource exhaustion via excessive API calls, denial-of-service attacks, cost exploitation through unbounded LLM usage.
 
-### ⚠️ **Risk Assessment**
+**Specific Controls:**
+- **Preventive:** Input size limits ✅, Request throttling ✅ + [Common Controls: Rate Limiting ✅]
+- **Detective:** Cost monitoring dashboards ✅ + [Common Controls: Usage Monitoring ✅, Anomaly Detection]
+- **Corrective:** Emergency throttling ✅, Circuit breakers ✅ + [Common Controls: Incident Response]
 
-| Risk Factor | Impact | Likelihood | Risk Level |
-|-------------|--------|------------|------------|
-| **⏱️ Availability** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **💰 Financial** | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![High](https://img.shields.io/badge/Risk-High-orange?style=flat-square)](./Risk_Register.md) |
-| **🏢 Operational** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) | [![Moderate](https://img.shields.io/badge/Likelihood-Moderate-yellow?style=flat-square)](./Risk_Assessment_Methodology.md) | [![Moderate](https://img.shields.io/badge/Risk-Moderate-yellow?style=flat-square)](./Risk_Register.md) |
-
-### 🛡️ **Security Controls**
-
-#### **Preventive Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **PC-LLM10-01** | Rate limiting on all LLM API endpoints | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | AWS API Gateway rate limits |
-| **PC-LLM10-02** | Request throttling and queuing mechanisms | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | Throttling configuration |
-| **PC-LLM10-03** | Input size limitations and validation | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Secure_Development_Policy.md) | Input validation rules |
-| **PC-LLM10-04** | Budget caps and cost monitoring | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Cost management framework |
-| **PC-LLM10-05** | Authentication and authorization for API access | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Access_Control_Policy.md) | Access control matrix |
-| **PC-LLM10-06** | Timeouts for long-running LLM operations | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | Timeout configuration |
-
-#### **Detective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **DC-LLM10-01** | Real-time monitoring of LLM resource usage | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | AWS CloudWatch framework |
-| **DC-LLM10-02** | Cost anomaly detection and alerting | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Security_Metrics.md) | AWS Cost Anomaly Detection |
-| **DC-LLM10-03** | Pattern analysis for abuse detection | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Analytics framework |
-| **DC-LLM10-04** | Performance degradation monitoring | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Security_Metrics.md) | Performance metrics |
-
-#### **Corrective Controls**
-| Control ID | Control Description | Implementation Status | Evidence |
-|------------|---------------------|----------------------|----------|
-| **CC-LLM10-01** | Automated circuit breakers for excessive usage | [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)](./Network_Security_Policy.md) | Circuit breaker config |
-| **CC-LLM10-02** | Emergency API throttling and blocking | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | Emergency procedures |
-| **CC-LLM10-03** | Incident response for DoS attacks | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Incident_Response_Plan.md) | IR playbooks |
-| **CC-LLM10-04** | Cost containment and budget override procedures | [![Documented](https://img.shields.io/badge/Status-Documented-blue?style=flat-square)](./Business_Continuity_Plan.md) | Financial procedures |
-
-### 💰 **Cost Control Framework**
-
-| LLM Service | Monthly Budget | Alert Threshold | Action Threshold | Enforcement |
-|-------------|----------------|-----------------|------------------|-------------|
-| **GitHub Copilot** | $10/user | 80% ($8) | 95% ($9.50) | Automatic throttling |
-| **OpenAI GPT-4** | $100 | 80% ($80) | 95% ($95) | Manual review required |
-| **AWS Bedrock** | $500 (planned) | 75% ($375) | 90% ($450) | Circuit breaker activation |
-| **Stability AI** | $50 | 80% ($40) | 95% ($47.50) | Usage suspension |
-
-### 📊 **Resource Monitoring Dashboard**
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#e0f7fa',
-      'primaryTextColor': '#006064',
-      'lineColor': '#00acc1',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#f3e5f5'
-    }
-  }
-}%%
-graph TD
-    subgraph METRICS["📊 Monitoring Metrics"]
-        M1[💰 Cost per Service]
-        M2[⚡ Request Rate]
-        M3[⏱️ Latency]
-        M4[📈 Token Usage]
-    end
-    
-    subgraph THRESHOLDS["⚠️ Alert Thresholds"]
-        T1[🟢 Normal: 0-75%]
-        T2[🟡 Warning: 75-90%]
-        T3[🟠 Critical: 90-95%]
-        T4[🔴 Emergency: >95%]
-    end
-    
-    subgraph ACTIONS["🎯 Automated Actions"]
-        A1[📧 Email Alert]
-        A2[🔔 Slack Notification]
-        A3[⏸️ Throttle Requests]
-        A4[🚫 Block Service]
-    end
-    
-    METRICS --> THRESHOLDS
-    T1 --> A1
-    T2 --> A2
-    T3 --> A3
-    T4 --> A4
-    
-    style METRICS fill:#e0f7fa
-    style THRESHOLDS fill:#fff3e0
-    style ACTIONS fill:#ffccbc
-```
-
-**Implementation Strength**: Unbounded Consumption controls are the most mature in the policy, with comprehensive AWS infrastructure protections operational.
+**Implementation:** AWS API Gateway rate limits ✅ and CloudWatch cost monitoring ✅ operational
 
 ---
 
@@ -1986,11 +1399,11 @@ graph TD
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#c8e6c9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#1b5e20',
       'lineColor': '#4caf50',
-      'secondaryColor': '#fff9c4',
-      'tertiaryColor': '#ffccbc'
+      'secondaryColor': '#FFC107',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -2100,11 +1513,11 @@ pie title "🛡️ OWASP LLM Top 10 Control Implementation Status (Realistic Ass
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8eaf6',
-      'primaryTextColor': '#283593',
-      'lineColor': '#5c6bc0',
-      'secondaryColor': '#f3e5f5',
-      'tertiaryColor': '#e0f7fa'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#7B1FA2',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -2155,10 +1568,10 @@ graph TB
     OPERATIONAL --> MONITORING
     TACTICAL --> MONITORING
     
-    style GOVERNANCE fill:#e8eaf6
-    style OPERATIONAL fill:#f3e5f5
-    style TACTICAL fill:#e0f7fa
-    style MONITORING fill:#c8e6c9
+    style GOVERNANCE fill:#1565C0
+    style OPERATIONAL fill:#7B1FA2
+    style TACTICAL fill:#1565C0
+    style MONITORING fill:#4CAF50
 ```
 
 ### 📚 **ISMS Document References**
@@ -2166,7 +1579,7 @@ graph TB
 #### **🏛️ Governance Documents**
 - **[🤖 AI Governance Policy](./AI_Policy.md)** — Parent AI governance framework [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)]()
 - **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)]()
-- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Risk and impact classifications [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)]()
+- **[🏷️ Classification Framework](./CLASSIFICATION.md)** — Risk and impact classifications [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)]()
 
 #### **⚙️ Operational Policies**
 - **[🔑 Access Control Policy](./Access_Control_Policy.md)** — LLM access management (LLM06) [![Implemented](https://img.shields.io/badge/Status-Implemented-green?style=flat-square)]()
@@ -2249,9 +1662,10 @@ This policy will be reviewed and updated when:
 ## 📚 **Related Documents**
 
 ### 🏛️ **Core Governance**
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic LLM security direction
 - [🤖 AI Governance Policy](./AI_Policy.md) — Parent AI governance framework
-- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Risk classifications
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance and AI-First Operations Governance
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Risk classifications
 
 ### ⚙️ **Operational Policies**
 - [🔑 Access Control Policy](./Access_Control_Policy.md) — Access management
@@ -2278,13 +1692,14 @@ This policy will be reviewed and updated when:
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-02-16  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM-2025_Aligned-darkred?style=flat-square&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM-2025_Aligned-darkred?style=flat-square&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 <p align="center">
   <a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/"><img src="https://img.shields.io/badge/OWASP_LLM_Top_10-2025_Aligned-darkred?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP LLM Top 10 2025 Aligned"/></a>
   <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689"><img src="https://img.shields.io/badge/EU_AI_Act-2024_Aligned-blue?style=for-the-badge&logo=european-union&logoColor=white" alt="EU AI Act 2024 Aligned"/></a>
   <a href="https://www.iso.org/standard/81230.html"><img src="https://img.shields.io/badge/ISO_42001-2023_Aligned-green?style=for-the-badge&logo=iso&logoColor=white" alt="ISO/IEC 42001:2023 Aligned"/></a>
 </p>
+

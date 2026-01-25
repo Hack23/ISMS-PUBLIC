@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -39,7 +39,7 @@ This policy establishes transparent practices for collecting, using, protecting,
 - [🎯 Purpose & Legal Basis](#-purpose--legal-basis)
 - [🔒 How We Protect Your Data](#-how-we-protect-your-data)
 - [🤝 Data Sharing & Transfers](#-data-sharing--transfers)
-- [⏱️ Data Retention](#%EF%B8%8F-data-retention)
+- [⏱️ Data Retention](#-data-retention)
 - [✅ Your Rights Under GDPR](#-your-rights-under-gdpr)
 - [🍪 Cookies & Tracking](#-cookies--tracking)
 - [👶 Children's Privacy](#-childrens-privacy)
@@ -113,10 +113,10 @@ Professional cybersecurity consulting and advisory services.
 
 ## 📊 **Data We Collect**
 
-We implement data minimization principles, collecting only data necessary for legitimate purposes. All data is classified per our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels).
+We implement data minimization principles, collecting only data necessary for legitimate purposes. All data is classified per our [🏷️ Classification Framework](./CLASSIFICATION.md#privacy-levels).
 
 ### 👤 **Personal Identifiers**
-[![Privacy Level](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square&logo=fingerprint)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels)
+[![Privacy Level](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square&logo=fingerprint)](./CLASSIFICATION.md#privacy-levels)
 
 | Data Type | Purpose | Legal Basis | Retention |
 |-----------|---------|-------------|-----------|
@@ -126,7 +126,7 @@ We implement data minimization principles, collecting only data necessary for le
 | **Device ID** | Session management, security | Legitimate Interest | Session duration |
 
 ### 🎮 **Activity & Usage Data**
-[![Privacy Level](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square&logo=user-shield)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels)
+[![Privacy Level](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square&logo=user-shield)](./CLASSIFICATION.md#privacy-levels)
 
 | Data Type | Purpose | Legal Basis | Retention |
 |-----------|---------|-------------|-----------|
@@ -136,7 +136,7 @@ We implement data minimization principles, collecting only data necessary for le
 | **Preferences** | Personalization, settings | Contract | Account lifetime |
 
 ### 📊 **Analytics Data**
-[![Privacy Level](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square&logo=mask)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels)
+[![Privacy Level](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square&logo=mask)](./CLASSIFICATION.md#privacy-levels)
 
 | Data Type | Purpose | Legal Basis | Retention |
 |-----------|---------|-------------|-----------|
@@ -146,7 +146,7 @@ We implement data minimization principles, collecting only data necessary for le
 | **Performance Metrics** | System optimization | Legitimate Interest | 6 months |
 
 ### 🌐 **Technical & System Data**
-[![Privacy Level](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square&logo=mask)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels)
+[![Privacy Level](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square&logo=mask)](./CLASSIFICATION.md#privacy-levels)
 
 | Data Type | Purpose | Legal Basis | Retention |
 |-----------|---------|-------------|-----------|
@@ -157,7 +157,7 @@ We implement data minimization principles, collecting only data necessary for le
 | **Language Preference** | Localization | Contract | Account lifetime |
 
 ### 💳 **Financial Data** (If Applicable)
-[![Privacy Level](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square&logo=credit-card)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels)
+[![Privacy Level](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square&logo=credit-card)](./CLASSIFICATION.md#privacy-levels)
 
 | Data Type | Purpose | Legal Basis | Retention |
 |-----------|---------|-------------|-----------|
@@ -166,7 +166,7 @@ We implement data minimization principles, collecting only data necessary for le
 | **Invoice Data** | Billing, accounting | Contract / Legal Obligation | 7 years (Swedish accounting law) |
 
 ### 📧 **Communication Data**
-[![Privacy Level](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square&logo=envelope)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels)
+[![Privacy Level](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square&logo=envelope)](./CLASSIFICATION.md#privacy-levels)
 
 | Data Type | Purpose | Legal Basis | Retention |
 |-----------|---------|-------------|-----------|
@@ -187,11 +187,11 @@ We process personal data only for specified, explicit, and legitimate purposes u
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
-      'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#0D47A1',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -221,7 +221,7 @@ flowchart TD
     
     classDef purposeStyle fill:#1565C0,stroke:#0D47A1,color:#fff
     classDef basisStyle fill:#2E7D32,stroke:#1B5E20,color:#fff
-    classDef itemStyle fill:#0288D1,stroke:#01579B,color:#fff
+    classDef itemStyle fill:#1565C0,stroke:#1565C0,color:#fff
     
     class PURPOSE purposeStyle
     class CONTRACT,CONSENT,LEGAL,LEGIT basisStyle
@@ -250,11 +250,11 @@ We implement comprehensive technical and organizational measures aligned with ou
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#ffebee',
-      'primaryTextColor': '#c62828',
-      'lineColor': '#ef5350',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'primaryColor': '#D32F2F',
+      'primaryTextColor': '#C62828',
+      'lineColor': '#D32F2F',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -282,7 +282,7 @@ flowchart LR
     
     classDef dataStyle fill:#D32F2F,stroke:#B71C1C,color:#fff
     classDef accessStyle fill:#FF9800,stroke:#F57C00,color:#fff
-    classDef monitorStyle fill:#2196F3,stroke:#1976D2,color:#fff
+    classDef monitorStyle fill:#1565C0,stroke:#1565C0,color:#fff
     
     class DATA dataStyle
     class ACCESS accessStyle
@@ -293,11 +293,11 @@ flowchart LR
 
 | Privacy Level | Encryption | Access Control | Monitoring | Backup |
 |---------------|-----------|---------------|------------|--------|
-| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | AES-256-GCM + AWS KMS | MFA required, break-glass only | Real-time alerting | Encrypted, immutable, tested monthly |
-| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | AES-256 + TLS 1.3 | MFA for admin, RBAC | Audit all access | Encrypted, daily, tested quarterly |
-| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | AES-256 + TLS 1.3 | RBAC, least privilege | Audit changes | Encrypted, daily |
-| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | AES-256 + TLS 1.2+ | Standard RBAC | Sampled audit | Standard backup |
-| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) | TLS 1.2+ | Standard access | Aggregate monitoring | Standard backup |
+| [![Special Category](https://img.shields.io/badge/Privacy-Special_Category-darkred?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | AES-256-GCM + AWS KMS | MFA required, break-glass only | Real-time alerting | Encrypted, immutable, tested monthly |
+| [![Personal Identifier](https://img.shields.io/badge/Privacy-Personal_Identifier-red?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | AES-256 + TLS 1.3 | MFA for admin, RBAC | Audit all access | Encrypted, daily, tested quarterly |
+| [![Personal](https://img.shields.io/badge/Privacy-Personal-orange?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | AES-256 + TLS 1.3 | RBAC, least privilege | Audit changes | Encrypted, daily |
+| [![Pseudonymized](https://img.shields.io/badge/Privacy-Pseudonymized-yellow?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | AES-256 + TLS 1.2+ | Standard RBAC | Sampled audit | Standard backup |
+| [![Anonymized](https://img.shields.io/badge/Privacy-Anonymized-lightgreen?style=flat-square)](./CLASSIFICATION.md#privacy-levels) | TLS 1.2+ | Standard access | Aggregate monitoring | Standard backup |
 
 ### 🏢 **Organizational Security Measures**
 
@@ -337,11 +337,11 @@ We prioritize EU/EEA data residency. When transfers outside EU/EEA are necessary
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8eaf6',
-      'primaryTextColor': '#1a237e',
-      'lineColor': '#5c6bc0',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff9c4'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1A237E',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -393,11 +393,11 @@ We retain personal data only as long as necessary for the purposes collected or 
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff3e0',
-      'primaryTextColor': '#e65100',
-      'lineColor': '#ff9800',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'primaryColor': '#FF9800',
+      'primaryTextColor': '#F57C00',
+      'lineColor': '#FF9800',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -493,9 +493,9 @@ We use cookies and similar technologies to improve user experience, analyze usag
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8eaf6',
-      'primaryTextColor': '#1a237e',
-      'lineColor': '#5c6bc0'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1A237E',
+      'lineColor': '#1565C0'
     }
   }
 }%%
@@ -595,9 +595,9 @@ We may update this Privacy Policy to reflect changes in our practices, legal req
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
-      'primaryTextColor': '#1b5e20',
-      'lineColor': '#66bb6a'
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#1B5E20',
+      'lineColor': '#4CAF50'
     }
   }
 }%%
@@ -614,7 +614,7 @@ flowchart LR
     
     classDef changeStyle fill:#2E7D32,stroke:#1B5E20,color:#fff
     classDef processStyle fill:#4CAF50,stroke:#388E3C,color:#fff
-    classDef notifyStyle fill:#66BB6A,stroke:#43A047,color:#fff
+    classDef notifyStyle fill:#4CAF50,stroke:#43A047,color:#fff
     
     class CHANGE changeStyle
     class REVIEW,APPROVE,PUBLISH processStyle
@@ -692,23 +692,30 @@ If you reside in another EU/EEA country, you may also contact your local data pr
 
 ## 📚 **Related Documents**
 
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#privacy-levels) — Privacy data classification levels
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic privacy direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI-assisted privacy protection and GDPR compliance automation
+- [🏷️ Classification Framework](./CLASSIFICATION.md#privacy-levels) — Privacy data classification levels
+- [✅ Compliance Checklist](./Compliance_Checklist.md) — ISO 27001 A.5.34 & GDPR compliance tracking
+
+### 🔐 Security Policies & Controls
 - [🏷️ Data Classification Policy](./Data_Classification_Policy.md) — Comprehensive data handling procedures
-- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance framework
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) — Encryption standards protecting personal data
 - [🔑 Access Control Policy](./Access_Control_Policy.md) — Access management for personal data systems
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Privacy by design requirements
+
+### ⚙️ Operational Integration
 - [🤝 Third Party Management](./Third_Party_Management.md) — Vendor GDPR compliance verification
 - [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Data breach notification procedures
-- [✅ Compliance Checklist](./Compliance_Checklist.md) — ISO 27001 A.5.34 & GDPR compliance tracking
 - [💻 Asset Register](./Asset_Register.md) — Systems processing personal data inventory
-- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Privacy by design requirements
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-11-05  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![GDPR](https://img.shields.io/badge/GDPR-Compliant-green?style=flat-square&logo=eu&logoColor=white)](https://gdpr.eu/) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![GDPR](https://img.shields.io/badge/GDPR-Compliant-green?style=flat-square&logo=eu&logoColor=white)](https://gdpr.eu/) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md)

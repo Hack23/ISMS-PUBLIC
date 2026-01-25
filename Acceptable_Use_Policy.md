@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -67,7 +67,7 @@ Hack23 AB operates as a single-person Swedish company with the CEO/Founder servi
 
 [![Professional Use](https://img.shields.io/badge/🎯_Professional_Use-Business_Purpose_Primary-blue?style=flat-square)]() [![Security First](https://img.shields.io/badge/🔐_Security_First-Protection_Mandatory-red?style=flat-square)]() [![Compliance](https://img.shields.io/badge/⚖️_Compliance-Legal_Standards-green?style=flat-square)]() [![Transparency](https://img.shields.io/badge/🌟_Transparency-Clear_Expectations-orange?style=flat-square)]()
 
-[![ISO 27001 A.8.1.3](https://img.shields.io/badge/ISO_A.8.1.3-Acceptable_Use-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 16.8](https://img.shields.io/badge/CIS_16.8-Acceptable_Use_Policy-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![GDPR Art. 5](https://img.shields.io/badge/GDPR_Art._5-Data_Processing_Principles-blue?style=flat-square&logo=shield&logoColor=white)](./Privacy_Policy.md)
+[![ISO 27001 A.5.10](https://img.shields.io/badge/ISO_27001-A.5.10_Acceptable_Use-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 16.8](https://img.shields.io/badge/CIS_16.8-Acceptable_Use_Policy-darkgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) [![GDPR Art. 5](https://img.shields.io/badge/GDPR_Art._5-Data_Processing_Principles-blue?style=flat-square&logo=shield&logoColor=white)](./Privacy_Policy.md) [![NIS2](https://img.shields.io/badge/NIS2-Art.21-purple?style=flat-square&logo=european-union&logoColor=white)](./CLASSIFICATION.md)
 
 ### 1. **🎯 Business Purpose Primary**
 
@@ -92,6 +92,8 @@ All system usage must comply with security controls defined in:
 
 All usage must comply with applicable laws and regulations including:
 - **GDPR:** Personal data protection and privacy requirements
+- **NIS2 Directive:** Network and information security requirements for essential services
+- **EU Cyber Resilience Act:** Security requirements for products with digital elements
 - **Copyright Law:** Respect for intellectual property rights
 - **Employment Law:** Professional conduct standards
 - **Computer Crime Laws:** Prohibition against unauthorized access
@@ -131,10 +133,10 @@ All technology use reflects professional standards appropriate for:
 
 ### 📊 **Data Handling and Privacy**
 
-[![Data Classification](https://img.shields.io/badge/🏷️_Classification-Framework_Required-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![GDPR Compliant](https://img.shields.io/badge/⚖️_GDPR-Privacy_Required-green?style=flat-square)](./Privacy_Policy.md) [![Encryption](https://img.shields.io/badge/🔒_Encryption-Data_Protection-purple?style=flat-square)](./Cryptography_Policy.md)
+[![Data Classification](https://img.shields.io/badge/🏷️_Classification-Framework_Required-blue?style=flat-square)](./CLASSIFICATION.md) [![GDPR Compliant](https://img.shields.io/badge/⚖️_GDPR-Privacy_Required-green?style=flat-square)](./Privacy_Policy.md) [![Encryption](https://img.shields.io/badge/🔒_Encryption-Data_Protection-purple?style=flat-square)](./Cryptography_Policy.md)
 
 **✅ Acceptable:**
-- Handling data according to [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- Handling data according to [Classification Framework](./CLASSIFICATION.md)
 - Encrypting sensitive data in transit and at rest per [Cryptography Policy](./Cryptography_Policy.md)
 - Following GDPR requirements for personal data per [Privacy Policy](./Privacy_Policy.md)
 - Using approved cloud storage with appropriate security controls
@@ -363,7 +365,7 @@ Monitoring data is retained and accessed according to:
 - **Access:** CEO/Founder as sole employee has full access
 - **Privacy:** Third-party service logs protected per vendor agreements
 - **Compliance:** Audit trails maintained for regulatory requirements
-- **Security:** Monitoring data classified per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **Security:** Monitoring data classified per [Classification Framework](./CLASSIFICATION.md)
 
 ---
 
@@ -474,7 +476,13 @@ As a CISM/CISSP certified cybersecurity professional, the CEO maintains awarenes
 
 ## 📚 **Related Documents**
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security framework
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic acceptable use direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI-assisted systems usage governance and acceptable AI practices
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Risk and impact classification
+
+### 🔐 Security Policies & Controls
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Authentication and authorization standards
 - [🏠 Physical Security Policy](./Physical_Security_Policy.md) - Home office security requirements
 - [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) - Mobile device standards
@@ -483,9 +491,10 @@ As a CISM/CISSP certified cybersecurity professional, the CEO maintains awarenes
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) - Encryption and data protection
 - [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Data handling requirements
 - [🔐 Privacy Policy](./Privacy_Policy.md) - Personal data protection
+
+### ⚙️ Operational Integration
 - [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Security incident procedures
 - [💻 Asset Register](./Asset_Register.md) - Systems and software inventory
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Risk and impact classification
 - [📊 Security Metrics](./Security_Metrics.md) - Monitoring and compliance tracking
 
 ---
@@ -493,7 +502,7 @@ As a CISM/CISSP certified cybersecurity professional, the CEO maintains awarenes
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-11-05  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

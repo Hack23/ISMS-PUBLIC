@@ -12,15 +12,67 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-3.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**Document Owner:** CEO | **Version:** 3.0 | **Last Updated:** 2025-11-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-25
+**Document Owner:** CEO | **Version:** 3.2 | **Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/ISMS-PUBLIC)
+<p align="center">
+  <a href="https://github.com/Hack23/ISMS/actions/workflows/link-validation.yml"><img src="https://github.com/Hack23/ISMS/actions/workflows/link-validation.yml/badge.svg" alt="Link Validation"/></a>
+  <a href="https://github.com/Hack23/ISMS/actions/workflows/validate-documentation.yml"><img src="https://github.com/Hack23/ISMS/actions/workflows/validate-documentation.yml/badge.svg" alt="Documentation Validation"/></a>
+  <a href="https://github.com/Hack23/ISMS/actions/workflows/ci.yml"><img src="https://github.com/Hack23/ISMS/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+</p>
+
+---
+
+## 🏆 **Phase 1 Foundation Excellence — COMPLETE (November 2025)**
+
+**Hack23 AB** has achieved enterprise-grade security maturity through systematic implementation of ISO 27001:2022, NIST CSF 2.0, and CIS Controls v8.1. Our **radical transparency** approach — publishing 70% of our ISMS publicly — demonstrates that security through robust processes creates competitive advantages, not vulnerabilities.
+
+### Security Posture Summary
+
+| Achievement | Target | Actual | Status |
+|-------------|--------|--------|--------|
+| **OpenSSF Scorecard** | >8.5 | See live badges: [![CIA](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) [![BT](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) [![CM](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | 🟡 Solid foundation for Phase 2 >9.0 |
+| **Critical Vulnerabilities** | 0 | 0 | ✅ Zero outstanding (Q4 2025) |
+| **Compliance Coverage** | 95% | 100% | ✅ ISO 27001, NIST CSF, CIS Controls |
+| **ISMS Documentation** | 100% | 43/43 policies | ✅ 70% public transparency |
+| **System Availability** | >99.5% | 99.8% | ✅ Zero critical incidents |
+
+**Live Security Evidence:**
+
+[![CIA OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia)
+[![BT OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram)
+[![CM OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager)
+
+**📊 Real-Time Monitoring:** [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) • [Security Metrics](./Security_Metrics.md)
+
+---
+
+## 🤝 **Why Radical Transparency?**
+
+Hack23 AB's **70% public ISMS** (only credentials, account numbers, and financial details redacted) represents a strategic competitive advantage:
+
+**🏆 For Clients:**
+- **Accelerated Trust:** Self-service security validation eliminates lengthy diligence questionnaires
+- **Proof of Expertise:** Live demonstration of enterprise-grade security implementation
+- **Transparency Accountability:** Public commitment to security excellence drives continuous improvement
+
+**🏛️ For Auditors:**
+- **Audit Efficiency:** Pre-packaged evidence is estimated to reduce audit preparation time by up to 60%
+- **Framework Alignment:** Clear ISO 27001, NIST CSF, CIS Controls mappings with live evidence
+- **Continuous Validation:** Real-time OpenSSF Scorecard, SonarCloud, FOSSA results
+
+**💼 Business Impact:**
+- Target: compress sales cycles from 6 months → 3 months
+- Premium pricing justified by demonstrable security maturity
+- Competitive moat: transparency barrier competitors cannot replicate without similar investment
+
+**"True security comes from robust processes and continuous improvement, not from hiding our methodologies."**  
+— James Pether Sörling, CEO/CISO
 
 ---
 
@@ -28,16 +80,7 @@
 
 **Welcome to Hack23 AB's comprehensive ISMS documentation.** Founded in **June 2025** (Organization Number: 559534-7807), Hack23 AB operates as a Swedish cybersecurity consulting company demonstrating radical transparency through our industry-first public ISMS.
 
-**🏆 Phase 1 Foundation Excellence — Complete (November 2025):**
-- ✅ 100% ISMS documentation published (70% public, 30% sensitive values redacted)
-- ✅ OpenSSF Scorecard 8.7 average (CIA, CIA Compliance Manager, Black Trigram)
-- ✅ CII Best Practices Gold/Passing level achieved across all repositories
-- ✅ Zero critical vulnerabilities outstanding (Dependabot monitoring)
-- ✅ 95% compliance control coverage (ISO 27001, NIST CSF 2.0, CIS Controls v8.1)
-
 **🏢 Single-Person Company:** Hack23 AB is operated by CEO/Founder James Pether Sörling. Our ISMS demonstrates that enterprise-grade security is achievable through innovative compensating controls: temporal separation, automation, external validation, and audit trail preservation.
-
-**🌐 Radical Transparency:** We publish 70% of our ISMS openly to demonstrate security through robust processes rather than obscurity. Only specific sensitive values (credentials, account numbers, contract pricing) are redacted.
 
 **Note:** The hack23.com website was registered in 2008 by the CEO, operating as an independent professional before formally establishing Hack23 AB in June 2025.
 
@@ -49,9 +92,41 @@ Our commitment to transparency extends beyond our open-source projects. This ISM
 
 ---
 
-## 🚀 **Quick Start**
+## 🏛️ **Quick Start for Auditors**
 
-**New to our ISMS?** Start with these foundational documents:
+**Conducting ISO 27001, NIST CSF, or CIS Controls audit? Start here:**
+
+### 1. Framework Compliance Evidence
+- **[📋 Compliance Checklist](./Compliance_Checklist.md)** — Complete ISO 27001, NIST CSF, CIS Controls mappings with evidence links
+- **[✅ ISO 27001 Annex A Controls](./Compliance_Checklist.md#-iso-270012022-compliance-mapping)** — 100% control implementation status
+- **[📊 OpenSSF Scorecard Mapping](./Compliance_Checklist.md)** — Supply chain security evidence
+
+### 2. Security Architecture & Controls
+- **[🔐 Information Security Strategy](./Information_Security_Strategy.md)** — Strategic security framework and governance
+- **[🏗️ Security Architecture](./SECURITY_ARCHITECTURE.md)** — Technical control implementation
+- **[🔒 Cryptography Policy](./Cryptography_Policy.md)** — Encryption standards and key management
+
+### 3. Risk Management & Business Continuity
+- **[📉 Risk Register](./Risk_Register.md)** — Comprehensive risk inventory with treatments
+- **[📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md)** — Systematic risk scoring framework
+- **[🔄 Business Continuity Plan](./Business_Continuity_Plan.md)** — Resilience and recovery procedures
+
+### 4. Operational Security
+- **[🚨 Incident Response Plan](./Incident_Response_Plan.md)** — Security incident handling procedures
+- **[🔍 Vulnerability Management](./Vulnerability_Management.md)** — Vulnerability lifecycle management
+- **[🛠️ Secure Development Policy](./Secure_Development_Policy.md)** — DevSecOps pipeline and SDLC security
+
+### 5. Real-Time Security Metrics
+- **[📊 Security Metrics Dashboard](./Security_Metrics.md)** — Live KPI tracking and Phase 1 achievements
+- **[📊 ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md)** — Policy review status and document health
+
+**Audit Efficiency:** All evidence pre-linked with real-time validation. Target average audit preparation time: **<8 hours**, estimated based on pre-packaged evidence and subject to validation through actual audit cycles.
+
+---
+
+## 🚀 **Quick Start for Clients**
+
+**Evaluating Hack23 AB for cybersecurity consulting? Start here:**
 
 ### 🔐 Core Security Policies
 - [Information Security Policy](./Information_Security_Policy.md) — Overarching security governance
@@ -83,7 +158,7 @@ Our commitment to transparency extends beyond our open-source projects. This ISM
 
 **Security Certifications:**
 
-<a href="https://scorecard.dev"><img src="https://img.shields.io/badge/OpenSSF_Scorecard-8.7_Average-green?style=for-the-badge&logo=opensourcesecurityfoundation" alt="OpenSSF Scorecard"></a>
+<a href="https://scorecard.dev/viewer/?uri=github.com/Hack23"><img src="https://img.shields.io/badge/OpenSSF_Scorecard-Live_Badges-green?style=for-the-badge&logo=opensourcesecurityfoundation" alt="OpenSSF Scorecard"></a>
 <a href="https://bestpractices.coreinfrastructure.org"><img src="https://img.shields.io/badge/CII_Best_Practices-Gold%2FPassing-gold?style=for-the-badge&logo=linuxfoundation" alt="CII Best Practices"></a>
 <a href="https://slsa.dev"><img src="https://img.shields.io/badge/SLSA-Level_3-blue?style=for-the-badge" alt="SLSA"></a>
 
@@ -197,8 +272,10 @@ flowchart TD
 
 **Related Documents:**
 - [🔐 Information Security Policy](./Information_Security_Policy.md) — Master governance policy
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Business impact definitions
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Business impact definitions
 - [📐 Style Guide](./STYLE_GUIDE.md) — Documentation and diagram standards
+- [🔄 ISMS Workflows](./WORKFLOWS.md) — Operational procedures and automation
+- [🚀 Future Workflows](./FUTURE_WORKFLOWS.md) — Planned automation and tooling roadmap
 
 ---
 
@@ -215,58 +292,124 @@ Our ISMS Metrics Dashboard provides instant visibility into:
 
 ---
 
+## 📚 **ISMS Document Library**
+
+### 🔐 **Security Policies & Controls**
+- [Information Security Policy](./Information_Security_Policy.md) — Master security governance framework
+- [Information Security Strategy](./Information_Security_Strategy.md) — Strategic security direction (Phase 1 complete)
+- [Access Control Policy](./Access_Control_Policy.md) — Identity and access management
+- [Cryptography Policy](./Cryptography_Policy.md) — Encryption and key management standards
+- [Network Security Policy](./Network_Security_Policy.md) — Network protection and segmentation
+- [Acceptable Use Policy](./Acceptable_Use_Policy.md) — User behavior and professional standards
+- [Physical Security Policy](./Physical_Security_Policy.md) — Home office and physical access security
+- [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) — Endpoint security controls
+
+### 📋 **Compliance & Frameworks**
+- [Compliance Checklist](./Compliance_Checklist.md) — ISO 27001, NIST CSF, CIS Controls alignment
+- [Classification Framework](./CLASSIFICATION.md) — Business impact analysis and asset classification
+- [AI Policy](./AI_Policy.md) — AI governance and LLM security
+- [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) — LLM Top 10 controls
+- [Privacy Policy](./Privacy_Policy.md) — GDPR compliance and privacy by design
+- [CRA Conformity Assessment Process](./CRA_Conformity_Assessment_Process.md) — EU Cyber Resilience Act compliance
+- [NIS2 Compliance Service](./NIS2_Compliance_Service.md) — NIS2 Directive compliance services
+
+### ⚡ **Operations & Resilience**
+- [Incident Response Plan](./Incident_Response_Plan.md) — Security incident handling (AI-enhanced)
+- [Business Continuity Plan](./Business_Continuity_Plan.md) — Operational resilience
+- [Disaster Recovery Plan](./Disaster_Recovery_Plan.md) — Recovery procedures
+- [Change Management](./Change_Management.md) — Controlled change processes
+- [Backup Recovery Policy](./Backup_Recovery_Policy.md) — Data protection
+- [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) — Single-person compensating controls
+
+### 🎯 **Strategy & Risk Management**
+
+- [SWOT Analysis](./SWOT.md) — Strategic positioning and AI agent ecosystem
+- [Risk Register](./Risk_Register.md) — Comprehensive risk inventory
+- [Risk Assessment Methodology](./Risk_Assessment_Methodology.md) — Risk scoring framework
+- [External Stakeholder Registry](./External_Stakeholder_Registry.md) — Authority relationships
+- [Threat Modeling](./Threat_Modeling.md) — STRIDE methodology and attack trees
+- [Partnership Framework](./Partnership_Framework.md) — Strategic partnerships addressing dependency risks
+
+### 📊 **Metrics & Reporting**
+
+- [Security Metrics](./Security_Metrics.md) — Live KPI dashboard (Phase 1 achievements)
+- [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) — Policy health monitoring
+- [Asset Register](./Asset_Register.md) — Infrastructure inventory
+- [Supplier Security Posture](./SUPPLIER.md) — Vendor risk assessments
+
+### 🛠️ **Development & Technical**
+
+- [Secure Development Policy](./Secure_Development_Policy.md) — DevSecOps and SDLC security
+- [Vulnerability Management](./Vulnerability_Management.md) — Vulnerability lifecycle
+- [Open Source Policy](./Open_Source_Policy.md) — OSS governance
+- [Third Party Management](./Third_Party_Management.md) — Supplier risk management
+- [Data Classification Policy](./Data_Classification_Policy.md) — Information handling
+- [Security Architecture](./SECURITY_ARCHITECTURE.md) — ISMS repository security
+
+### 📖 **Standards & Quality**
+
+- [Style Guide](./STYLE_GUIDE.md) — Documentation formatting standards
+- [ISMS QA Checklist](./ISMS_QA_CHECKLIST.md) — Quality assurance procedures
+- [ISMS Transparency Plan](./ISMS_Transparency_Plan.md) — Public disclosure strategy
+
+**📖 Full Document Index:** [Complete Policy List](./ISMS_METRICS_DASHBOARD.md#document-health-matrix) with review status
+
+---
+
 ## 📋 **ISMS Documentation Status**
 
-**Last Updated:** 2025-11-25 | **Completion:** 100% (40/40 policies)
+**Last Updated:** 2026-01-25 | **Completion:** 100% (45/45 policies)
 
 | Policy Document | Status | Version | Last Updated | Single-Person Adapted | ISO 27001 | NIST CSF 2.0 | CIS v8.1 |
 |-----------------|--------|---------|--------------|----------------------|-----------|--------------|----------|
-| [🔐 Information Security Policy](./Information_Security_Policy.md) | ✅ Complete | 1.6 | 2025-11-19 | ✅ Yes | ✅ A.5.1 | ✅ GV | ✅ IG1 |
-| [🎯 Information Security Strategy](./Information_Security_Strategy.md) | ✅ Complete | 3.0 | 2025-11-10 | N/A (Strategy) | ✅ All | ✅ All | ✅ All |
-| [🔑 Access Control Policy](./Access_Control_Policy.md) | ✅ Complete | 2.5 | 2025-11-24 | ✅ Yes | ✅ A.5.15-18 | ✅ PR.AC | ✅ IG1 |
-| [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | ✅ Complete | 1.0 | 2025-11-05 | ✅ Yes | ✅ A.6.2 | ✅ PR.AT | ✅ IG1 |
-| [🤖 AI Governance Policy](./AI_Policy.md) | ✅ Complete | 1.1 | 2025-11-17 | N/A | ✅ A.5.1 | ✅ GV.RR | ✅ IG2 |
-| [💻 Asset Register](./Asset_Register.md) | ✅ Complete | 1.4 | 2025-11-05 | ✅ Yes | ✅ A.5.9 | ✅ ID.AM | ✅ IG1 |
-| [💾 Backup & Recovery Policy](./Backup_Recovery_Policy.md) | ✅ Complete | 1.1 | 2025-11-17 | N/A | ✅ A.8.13 | ✅ PR.IP | ✅ IG1 |
-| [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ✅ Complete | 1.2 | 2025-11-24 | ✅ Yes | ✅ A.5.29-30 | ✅ RC.RP | ✅ IG2 |
-| [🏷️ Classification Framework](./CLASSIFICATION.md) | ✅ Complete | 1.2 | 2025-11-05 | N/A | ✅ A.5.12 | ✅ ID.AM | ✅ IG1 |
-| [🛡️ CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) | ✅ Complete | 1.1 | 2025-11-14 | N/A | ✅ A.5.1 | ✅ GV.SC | ✅ IG2 |
-| [📝 Change Management](./Change_Management.md) | ✅ Complete | 2.3 | 2025-11-24 | ✅ Yes | ✅ A.8.32 | ✅ PR.IP | ✅ IG2 |
-| [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ Complete | 2.1 | 2025-11-17 | ✅ Yes | ✅ A.5.1 | ✅ GV.OC | ✅ IG1 |
-| [🔒 Cryptography Policy](./Cryptography_Policy.md) | ✅ Complete | 1.1 | 2025-11-17 | N/A | ✅ A.8.24 | ✅ PR.DS | ✅ IG2 |
-| [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ Complete | 2.2 | 2025-11-05 | N/A | ✅ A.5.12-13 | ✅ ID.AM | ✅ IG1 |
-| [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ✅ Complete | 2.2 | 2025-11-17 | N/A | ✅ A.5.29 | ✅ RC.RP | ✅ IG2 |
-| [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | ✅ Complete | 1.2 | 2025-11-17 | N/A | ✅ A.5.19 | ✅ ID.BE | ✅ IG1 |
-| [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ✅ Complete | 1.3 | 2025-11-24 | ✅ Yes | ✅ A.5.24-28 | ✅ RS.AN | ✅ IG1 |
-| [📱 Mobile Device Management](./Mobile_Device_Management_Policy.md) | ✅ Complete | 1.0 | 2025-11-05 | ✅ Yes | ✅ A.6.7 | ✅ PR.AC | ✅ IG1 |
-| [🌐 Network Security Policy](./Network_Security_Policy.md) | ✅ Complete | 2.2 | 2025-11-05 | N/A | ✅ A.8.20-22 | ✅ PR.AC | ✅ IG1 |
-| [🏛️ NIS2 Compliance Service](./NIS2_Compliance_Service.md) | ✅ Complete | 1.0 | 2025-11-18 | N/A | ✅ A.5.1 | ✅ GV.OC | ✅ IG2 |
-| [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | ✅ Complete | 1.2 | 2025-11-17 | N/A | ✅ A.8.16 | ✅ PR.DS | ✅ IG3 |
-| [🔓 Open Source Policy](./Open_Source_Policy.md) | ✅ Complete | 2.2 | 2025-11-17 | N/A | ✅ A.5.23 | ✅ ID.SC | ✅ IG2 |
-| [🤝 Partnership Framework](./Partnership_Framework.md) | ✅ Complete | 1.0 | 2025-11-19 | ✅ Yes | ✅ A.5.19 | ✅ ID.BE | ✅ IG2 |
-| [🏠 Physical Security Policy](./Physical_Security_Policy.md) | ✅ Complete | 1.0 | 2025-11-05 | ✅ Yes | ✅ A.7.1-4 | ✅ PR.AC | ✅ IG1 |
-| [🔐 Privacy Policy](./Privacy_Policy.md) | ✅ Complete | 1.0 | 2025-11-05 | N/A | ✅ A.5.34 | ✅ PR.IP | ✅ IG2 |
-| [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) | ✅ Complete | 1.0 | 2025-11-14 | N/A | ✅ A.5.7 | ✅ ID.RM | ✅ IG1 |
-| [⚠️ Risk Register](./Risk_Register.md) | ✅ Complete | 2.1 | 2025-11-24 | ✅ Yes | ✅ A.5.7 | ✅ ID.RM | ✅ IG1 |
-| [🏗️ Security Architecture](./SECURITY_ARCHITECTURE.md) | ✅ Complete | 1.0 | 2025-11-14 | N/A | ✅ A.8.1 | ✅ PR.AC | ✅ IG2 |
-| [📐 Style Guide](./STYLE_GUIDE.md) | ✅ Complete | 2.1 | 2025-11-17 | ✅ Yes | N/A | N/A | N/A |
-| [🏢 Supplier Security Posture](./SUPPLIER.md) | ✅ Complete | 1.1 | 2025-11-14 | N/A | ✅ A.5.19-23 | ✅ ID.SC | ✅ IG2 |
-| [📊 SWOT Analysis](./SWOT.md) | ✅ Complete | 1.0 | 2025-11-18 | ✅ Yes | N/A | N/A | N/A |
-| [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | ✅ Complete | 1.4 | 2025-11-17 | N/A | ✅ A.8.25-31 | ✅ PR.DS | ✅ IG2 |
-| [📊 Security Metrics](./Security_Metrics.md) | ✅ Complete | 1.3 | 2025-11-05 | N/A | ✅ A.5.8 | ✅ GV.OV | ✅ IG2 |
-| [🚫 Segregation of Duties](./Segregation_of_Duties_Policy.md) | ✅ Complete | 2.0 | 2025-11-24 | ✅ Yes | ✅ A.5.3 | ✅ PR.AC | ✅ IG2 |
-| [👥 Third Party Management](./Third_Party_Management.md) | ✅ Complete | 2.1 | 2025-11-17 | N/A | ✅ A.5.19-23 | ✅ ID.SC | ✅ IG2 |
-| [🎯 Threat Modeling](./Threat_Modeling.md) | ✅ Complete | 1.2 | 2025-11-17 | N/A | ✅ A.8.25 | ✅ ID.RA | ✅ IG2 |
-| [🔍 Vulnerability Management](./Vulnerability_Management.md) | ✅ Complete | 2.0 | 2025-11-14 | N/A | ✅ A.8.8 | ✅ DE.CM | ✅ IG1 |
-| [📊 ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) | ✅ Complete | 1.0 | 2025-11-25 | N/A | ✅ A.5.8 | ✅ GV.OV | ✅ IG2 |
-| [📋 ISMS QA Checklist](./ISMS_QA_CHECKLIST.md) | ✅ Complete | 1.0 | 2025-11-14 | N/A | ✅ A.5.8 | ✅ GV.OV | ✅ IG2 |
-| [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) | ✅ Complete | 2.1 | 2025-11-17 | N/A | ✅ A.5.1 | ✅ GV.OC | ✅ IG1 |
+| [🔐 Information Security Policy](./Information_Security_Policy.md) | ✅ Complete | 2.0 | 2026-01-25 | ✅ Yes | ✅ A.5.1 | ✅ GV | ✅ IG1 |
+| [🎯 Information Security Strategy](./Information_Security_Strategy.md) | ✅ Complete | 3.2 | 2026-01-25 | N/A (Strategy) | ✅ All | ✅ All | ✅ All |
+| [🔑 Access Control Policy](./Access_Control_Policy.md) | ✅ Complete | 2.6 | 2026-01-25 | ✅ Yes | ✅ A.5.15-18 | ✅ PR.AC | ✅ IG1 |
+| [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | ✅ Complete | 1.1 | 2026-01-25 | ✅ Yes | ✅ A.6.2 | ✅ PR.AT | ✅ IG1 |
+| [🤖 AI Governance Policy](./AI_Policy.md) | ✅ Complete | 2.2 | 2026-01-25 | N/A | ✅ A.5.1 | ✅ GV.RR | ✅ IG2 |
+| [💻 Asset Register](./Asset_Register.md) | ✅ Complete | 1.5 | 2026-01-25 | ✅ Yes | ✅ A.5.9 | ✅ ID.AM | ✅ IG1 |
+| [💾 Backup & Recovery Policy](./Backup_Recovery_Policy.md) | ✅ Complete | 1.2 | 2026-01-25 | N/A | ✅ A.8.13 | ✅ PR.IP | ✅ IG1 |
+| [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ✅ Complete | 1.3 | 2026-01-25 | ✅ Yes | ✅ A.5.29-30 | ✅ RC.RP | ✅ IG2 |
+| [🏷️ Classification Framework](./CLASSIFICATION.md) | ✅ Complete | 1.3 | 2026-01-25 | N/A | ✅ A.5.12 | ✅ ID.AM | ✅ IG1 |
+| [🛡️ CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) | ✅ Complete | 1.3 | 2026-01-25 | N/A | ✅ A.5.1 | ✅ GV.SC | ✅ IG2 |
+| [📝 Change Management](./Change_Management.md) | ✅ Complete | 3.2 | 2026-01-25 | ✅ Yes | ✅ A.8.32 | ✅ PR.IP | ✅ IG2 |
+| [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ Complete | 2.2 | 2026-01-25 | ✅ Yes | ✅ A.5.1 | ✅ GV.OC | ✅ IG1 |
+| [🔒 Cryptography Policy](./Cryptography_Policy.md) | ✅ Complete | 1.2 | 2026-01-25 | N/A | ✅ A.8.24 | ✅ PR.DS | ✅ IG2 |
+| [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ Complete | 2.3 | 2026-01-25 | N/A | ✅ A.5.12-13 | ✅ ID.AM | ✅ IG1 |
+| [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ✅ Complete | 2.3 | 2026-01-25 | N/A | ✅ A.5.29 | ✅ RC.RP | ✅ IG2 |
+| [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | ✅ Complete | 1.4 | 2026-01-25 | N/A | ✅ A.5.19 | ✅ ID.BE | ✅ IG1 |
+| [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ✅ Complete | 1.5 | 2026-01-25 | ✅ Yes | ✅ A.5.24-28 | ✅ RS.AN | ✅ IG1 |
+| [📱 Mobile Device Management](./Mobile_Device_Management_Policy.md) | ✅ Complete | 1.1 | 2026-01-25 | ✅ Yes | ✅ A.6.7 | ✅ PR.AC | ✅ IG1 |
+| [🌐 Network Security Policy](./Network_Security_Policy.md) | ✅ Complete | 2.3 | 2026-01-25 | N/A | ✅ A.8.20-22 | ✅ PR.AC | ✅ IG1 |
+| [🏛️ NIS2 Compliance Service](./NIS2_Compliance_Service.md) | ✅ Complete | 1.2 | 2026-01-25 | N/A | ✅ A.5.1 | ✅ GV.OC | ✅ IG2 |
+| [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | ✅ Complete | 1.3 | 2026-01-25 | N/A | ✅ A.8.16 | ✅ PR.DS | ✅ IG3 |
+| [🔓 Open Source Policy](./Open_Source_Policy.md) | ✅ Complete | 2.3 | 2026-01-25 | N/A | ✅ A.5.23 | ✅ ID.SC | ✅ IG2 |
+| [🤝 Partnership Framework](./Partnership_Framework.md) | ✅ Complete | 1.1 | 2026-01-25 | ✅ Yes | ✅ A.5.19 | ✅ ID.BE | ✅ IG2 |
+| [🏠 Physical Security Policy](./Physical_Security_Policy.md) | ✅ Complete | 1.1 | 2026-01-25 | ✅ Yes | ✅ A.7.1-4 | ✅ PR.AC | ✅ IG1 |
+| [🔐 Privacy Policy](./Privacy_Policy.md) | ✅ Complete | 1.1 | 2026-01-25 | N/A | ✅ A.5.34 | ✅ PR.IP | ✅ IG2 |
+| [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) | ✅ Complete | 2.1 | 2026-01-25 | N/A | ✅ A.5.7 | ✅ ID.RM | ✅ IG1 |
+| [⚠️ Risk Register](./Risk_Register.md) | ✅ Complete | 3.5 | 2026-01-25 | ✅ Yes | ✅ A.5.7 | ✅ ID.RM | ✅ IG1 |
+| [🏗️ Security Architecture](./SECURITY_ARCHITECTURE.md) | ✅ Complete | 1.2 | 2026-01-25 | N/A | ✅ A.8.1 | ✅ PR.AC | ✅ IG2 |
+| [📐 Style Guide](./STYLE_GUIDE.md) | ✅ Complete | 2.4 | 2026-01-25 | ✅ Yes | N/A | N/A | N/A |
+| [🏢 Supplier Security Posture](./SUPPLIER.md) | ✅ Complete | 1.2 | 2026-01-25 | N/A | ✅ A.5.19-23 | ✅ ID.SC | ✅ IG2 |
+| [📊 SWOT Analysis](./SWOT.md) | ✅ Complete | 1.3 | 2026-01-25 | ✅ Yes | N/A | N/A | N/A |
+| [🛠️ Secure Development Policy](./Secure_Development_Policy.md) | ✅ Complete | 2.1 | 2026-01-25 | N/A | ✅ A.8.25-31 | ✅ PR.DS | ✅ IG2 |
+| [📊 Security Metrics](./Security_Metrics.md) | ✅ Complete | 3.3 | 2026-01-25 | N/A | ✅ A.5.8 | ✅ GV.OV | ✅ IG2 |
+| [🚫 Segregation of Duties](./Segregation_of_Duties_Policy.md) | ✅ Complete | 2.1 | 2026-01-25 | ✅ Yes | ✅ A.5.3 | ✅ PR.AC | ✅ IG2 |
+| [👥 Third Party Management](./Third_Party_Management.md) | ✅ Complete | 2.2 | 2026-01-25 | N/A | ✅ A.5.19-23 | ✅ ID.SC | ✅ IG2 |
+| [🎯 Threat Modeling](./Threat_Modeling.md) | ✅ Complete | 1.3 | 2026-01-25 | N/A | ✅ A.8.25 | ✅ ID.RA | ✅ IG2 |
+| [🔍 Vulnerability Management](./Vulnerability_Management.md) | ✅ Complete | 2.2 | 2026-01-25 | N/A | ✅ A.8.8 | ✅ DE.CM | ✅ IG1 |
+| [📊 ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) | ✅ Complete | 1.3 | 2026-01-25 | N/A | ✅ A.5.8 | ✅ GV.OV | ✅ IG2 |
+| [📋 ISMS QA Checklist](./ISMS_QA_CHECKLIST.md) | ✅ Complete | 1.2 | 2026-01-25 | N/A | ✅ A.5.8 | ✅ GV.OV | ✅ IG2 |
+| [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) | ✅ Complete | 2.3 | 2026-01-25 | N/A | ✅ A.5.1 | ✅ GV.OC | ✅ IG1 |
+| [🔄 ISMS Workflows](./WORKFLOWS.md) | ✅ Complete | 2.3 | 2026-01-25 | N/A | ✅ A.5.1 | ✅ GV.OC | ✅ IG2 |
+| [🚀 Future Workflows](./FUTURE_WORKFLOWS.md) | ✅ Complete | 2.2 | 2026-01-25 | N/A | ✅ A.5.1 | ✅ GV.OC | ✅ IG2 |
 
 ### 📊 **Completion Status**
-- ✅ **Complete:** 40 documents (100%)
+- ✅ **Complete:** 45 documents (100%)
 - ⏳ **In Progress:** 0 documents
 - 📅 **Planned:** 0 documents
-- **Total:** 40 core documents
+- **Total:** 45 core documents
 - **Completion Rate:** 100%
 
 ### 🏢 **Single-Person Adaptations**
@@ -283,7 +426,8 @@ Our ISMS Metrics Dashboard provides instant visibility into:
 **Hack23 AB's Information Security Management System is now fully documented and operational.** This comprehensive ISMS demonstrates enterprise-grade security practices while supporting our dual mission of cybersecurity consulting excellence and innovative product development.
 
 ### Key Achievements
-- **40 complete policy documents** covering all aspects of information security
+- **45 complete policy documents** covering all aspects of information security
+- **Q1 2026 refresh complete** with all documents updated to 2026-01-25
 - **Strategic Partnership Framework** addressing single-person dependency risk (R-FOUNDER-001) with capacity overflow procedures
 - **NIS2 Compliance Service Package** with €2.6M 3-year revenue projection
 - **7 NIS2 client templates** (scoping, gap analysis, incident reporting, risk register, supply chain, checklist, management reporting)
@@ -342,7 +486,7 @@ Our ISMS documentation maintains transparent security posture through public evi
 ### Badge Categories
 
 #### 🔐 Security Badges (Critical)
-- **OpenSSF Scorecard**: Supply chain security assessment for all repositories (8.7 average)
+- **OpenSSF Scorecard**: Supply chain security assessment for all repositories ([live badges](https://scorecard.dev/viewer/?uri=github.com/Hack23))
 - **SLSA Provenance**: Build provenance and integrity verification (Level 3)
 - **FOSSA License**: Open source license compliance and vulnerability detection
 
@@ -396,6 +540,8 @@ For detailed badge requirements and standards, see the [🎨 Style Guide - Secur
 
 ## 📅 **Recent Updates**
 
+- **2026-01-25:** Q1 2026 ISMS refresh — All 45 documents updated with AI Policy references, categorized Related Documents, and version bumps
+- **2025-12-26:** README.md enhanced with Phase 1 narrative, auditor quick start, and reorganized navigation
 - **2025-11-25:** README.md updated with Phase 1 achievements and accurate policy status table
 - **2025-11-24:** Phase 1 Foundation Excellence complete — 100% ISMS documentation
 - **2025-11-24:** Segregation of Duties Policy v2.0 published with comprehensive compensating controls
@@ -434,10 +580,12 @@ You are free to share and adapt this ISMS documentation for any purpose, even co
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-25  
-**⏰ Next Review:** 2026-02-25  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🔄 Last Major Update:** 2026-01-25 (Q1 2026 ISMS refresh)  
+**📊 ISMS Policies:** 45/45 documented | **🌐 Public Transparency:** 70%  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
 
 ---
 

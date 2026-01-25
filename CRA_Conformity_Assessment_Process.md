@@ -13,13 +13,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--23-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/📋_TEMPLATE-Copy_for_Projects-blueviolet?style=for-the-badge" alt="Template Document"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2025-08-23 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-11-23
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
 ---
 
@@ -39,7 +40,7 @@ Our commitment to transparency means our conformity assessment practices become 
 
 This process provides a concise, repeatable CRA Conformity Assessment format (pre‑market & ongoing) for the three initial products (CIA, Black Trigram, CIA Compliance Manager). Aligns with CRA Annex I & V, Hack23 classification, secure development, and transparency policies.
 
-**Scope:** All products within [Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md) requiring EU market placement.
+**Scope:** All products within [Asset Register](./Asset_Register.md) requiring EU market placement.
 
 ---
 
@@ -97,22 +98,22 @@ All reference implementations follow the standardized evidence pattern:
 | 🏪 Market | **Select one:** |
 
 ### 🏪 Market Category (Select One):
-[![OSS](https://img.shields.io/badge/Market-Open_Source-lightgreen?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Commercial](https://img.shields.io/badge/Market-Commercial-blue?style=flat-square&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Internal](https://img.shields.io/badge/Market-Internal-orange?style=flat-square&logo=building&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
+[![OSS](https://img.shields.io/badge/Market-Open_Source-lightgreen?style=flat-square&logo=github&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Commercial](https://img.shields.io/badge/Market-Commercial-blue?style=flat-square&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Internal](https://img.shields.io/badge/Market-Internal-orange?style=flat-square&logo=building&logoColor=white)](./CLASSIFICATION.md#project-type-classifications)
 
 ### 🛡️ Confidentiality Level (Select One):
-[![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) [![Low](https://img.shields.io/badge/C-Low-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
+[![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) [![Low](https://img.shields.io/badge/C-Low-yellow?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)
 
 ### ✅ Integrity Level (Select One):
-[![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) [![High](https://img.shields.io/badge/I-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) [![Moderate](https://img.shields.io/badge/I-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) [![Low](https://img.shields.io/badge/I-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) [![Minimal](https://img.shields.io/badge/I-Minimal-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
+[![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md#integrity-levels) [![High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md#integrity-levels) [![Moderate](https://img.shields.io/badge/I-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md#integrity-levels) [![Low](https://img.shields.io/badge/I-Low-lightgreen?style=flat-square)](./CLASSIFICATION.md#integrity-levels) [![Minimal](https://img.shields.io/badge/I-Minimal-lightgrey?style=flat-square)](./CLASSIFICATION.md#integrity-levels)
 
 ### ⏱️ Availability Level (Select One):
-[![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) [![High](https://img.shields.io/badge/A-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) [![Moderate](https://img.shields.io/badge/A-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) [![Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+[![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md#availability-levels) [![High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md#availability-levels) [![Moderate](https://img.shields.io/badge/A-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md#availability-levels) [![Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](./CLASSIFICATION.md#availability-levels) [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](./CLASSIFICATION.md#availability-levels)
 
 ### 🕐 Recovery Time Objective (Select One):
-[![Instant](https://img.shields.io/badge/RTO-Instant_(<5min)-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) [![Critical](https://img.shields.io/badge/RTO-Critical_(5--60min)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) [![High](https://img.shields.io/badge/RTO-High_(1--4hrs)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) [![Medium](https://img.shields.io/badge/RTO-Medium_(4--24hrs)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) [![Low](https://img.shields.io/badge/RTO-Low_(24--72hrs)-lightblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) [![Standard](https://img.shields.io/badge/RTO-Standard_(>72hrs)-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications)
+[![Instant](https://img.shields.io/badge/RTO-Instant_(<5min)-red?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Critical](https://img.shields.io/badge/RTO-Critical_(5--60min)-orange?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![High](https://img.shields.io/badge/RTO-High_(1--4hrs)-yellow?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Medium](https://img.shields.io/badge/RTO-Medium_(4--24hrs)-lightgreen?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Low](https://img.shields.io/badge/RTO-Low_(24--72hrs)-lightblue?style=flat-square)](./CLASSIFICATION.md#rto-classifications) [![Standard](https://img.shields.io/badge/RTO-Standard_(>72hrs)-lightgrey?style=flat-square)](./CLASSIFICATION.md#rto-classifications)
 
 ### 🔄 Recovery Point Objective (Select One):
-[![Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss_(<1min)-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) [![Near Real-time](https://img.shields.io/badge/RPO-Near_Realtime_(1--15min)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) [![Minimal](https://img.shields.io/badge/RPO-Minimal_(15--60min)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) [![Hourly](https://img.shields.io/badge/RPO-Hourly_(1--4hrs)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) [![Daily](https://img.shields.io/badge/RPO-Daily_(4--24hrs)-lightblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) [![Extended](https://img.shields.io/badge/RPO-Extended_(>24hrs)-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications)
+[![Zero Loss](https://img.shields.io/badge/RPO-Zero_Loss_(<1min)-red?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) [![Near Real-time](https://img.shields.io/badge/RPO-Near_Realtime_(1--15min)-orange?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) [![Minimal](https://img.shields.io/badge/RPO-Minimal_(15--60min)-yellow?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) [![Hourly](https://img.shields.io/badge/RPO-Hourly_(1--4hrs)-lightgreen?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) [![Daily](https://img.shields.io/badge/RPO-Daily_(4--24hrs)-lightblue?style=flat-square)](./CLASSIFICATION.md#rpo-classifications) [![Extended](https://img.shields.io/badge/RPO-Extended_(>24hrs)-lightgrey?style=flat-square)](./CLASSIFICATION.md#rpo-classifications)
 
 ---
 
@@ -121,13 +122,13 @@ All reference implementations follow the standardized evidence pattern:
 *Supports CRA Article 6 - Scope and Article 7 - Product Classification Assessment*
 
 ### 🏢 CRA Applicability (Select One):
-[![Non-commercial OSS](https://img.shields.io/badge/Applicability-Non--commercial_OSS-lightgreen?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Commercial](https://img.shields.io/badge/Applicability-Commercial-blue?style=flat-square&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
+[![Non-commercial OSS](https://img.shields.io/badge/Applicability-Non--commercial_OSS-lightgreen?style=flat-square&logo=github&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Commercial](https://img.shields.io/badge/Applicability-Commercial-blue?style=flat-square&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#project-type-classifications)
 
 ### 🌐 Distribution Method (Select One):
-[![Community](https://img.shields.io/badge/Distribution-Community-green?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Commercial](https://img.shields.io/badge/Distribution-Commercial-blue?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Internal](https://img.shields.io/badge/Distribution-Internal-orange?style=flat-square&logo=building&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
+[![Community](https://img.shields.io/badge/Distribution-Community-green?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Commercial](https://img.shields.io/badge/Distribution-Commercial-blue?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Internal](https://img.shields.io/badge/Distribution-Internal-orange?style=flat-square&logo=building&logoColor=white)](./CLASSIFICATION.md#project-type-classifications)
 
 ### 📋 CRA Classification (Select One):
-[![Standard](https://img.shields.io/badge/CRA-Standard-green?style=flat-square&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Class I](https://img.shields.io/badge/CRA-Class_I-orange?style=flat-square&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications) [![Class II](https://img.shields.io/badge/CRA-Class_II-red?style=flat-square&logo=warning&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
+[![Standard](https://img.shields.io/badge/CRA-Standard-green?style=flat-square&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Class I](https://img.shields.io/badge/CRA-Class_I-orange?style=flat-square&logo=exclamation-triangle&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Class II](https://img.shields.io/badge/CRA-Class_II-red?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md#project-type-classifications)
 
 **📝 CRA Scope Justification:** {{JUSTIFICATION}}
 
@@ -145,19 +146,19 @@ All reference implementations follow the standardized evidence pattern:
 |----------------------|-------------------------|---------------------|
 | 🎨 **Product Architecture** *(Annex V § 2.1)* | High-level data & trust boundaries | Repository `/docs/architecture/` or README |
 | 📦 **SBOM & Components** *(Annex I § 1.1)* | Complete dependency enumeration | GitHub Release includes signed SBOM |
-| 🔐 **Cybersecurity Controls** *(Annex I § 1.2)* | Authentication, authorization, encryption | [🔑 Access Control Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Access_Control_Policy.md) + [🔒 Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md) |
+| 🔐 **Cybersecurity Controls** *(Annex I § 1.2)* | Authentication, authorization, encryption | [🔑 Access Control Policy](./Access_Control_Policy.md) + [🔒 Cryptography Policy](./Cryptography_Policy.md) |
 | 🛡️ **Supply Chain Security** *(Annex I § 1.3)* | Signed builds + provenance attestation | GitHub Release includes attestations |
-| 🔄 **Update Mechanism** *(Annex I § 1.4)* | Secure software updates with rollback | [📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) |
-| 📊 **Security Monitoring** *(Annex I § 1.5)* | Logging, audit trails, incident detection | [🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md) |
-| 🏷️ **Data Protection** *(Annex I § 2.1)* | Classification and protection controls | [🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md) |
+| 🔄 **Update Mechanism** *(Annex I § 1.4)* | Secure software updates with rollback | [📝 Change Management](./Change_Management.md) |
+| 📊 **Security Monitoring** *(Annex I § 1.5)* | Logging, audit trails, incident detection | [🚨 Incident Response Plan](./Incident_Response_Plan.md) |
+| 🏷️ **Data Protection** *(Annex I § 2.1)* | Classification and protection controls | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) |
 | 📚 **User Guidance** *(Annex I § 2.2)* | Security configuration documentation | Repository: `USER_SECURITY_GUIDE.md` |
-| 🔍 **Vulnerability Disclosure** *(Annex I § 2.3)* | Coordinated vulnerability disclosure | Repository: `SECURITY.md` + [⚠️ Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) |
+| 🔍 **Vulnerability Disclosure** *(Annex I § 2.3)* | Coordinated vulnerability disclosure | Repository: `SECURITY.md` + [⚠️ Vulnerability Management](./Vulnerability_Management.md) |
 
 **📋 ISMS Policy Integration:**
-- **🏗️ Architecture & Design:** Implementation aligned with [🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md)
-- **📦 Asset Management:** All components documented in [💻 Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md)
-- **🔒 Encryption Standards:** Cryptographic requirements per [🔒 Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md)
-- **🌐 Network Security:** Infrastructure controls via [🌐 Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Network_Security_Policy.md)
+- **🏗️ Architecture & Design:** Implementation aligned with [🔐 Information Security Policy](./Information_Security_Policy.md)
+- **📦 Asset Management:** All components documented in [💻 Asset Register](./Asset_Register.md)
+- **🔒 Encryption Standards:** Cryptographic requirements per [🔒 Cryptography Policy](./Cryptography_Policy.md)
+- **🌐 Network Security:** Infrastructure controls via [🌐 Network Security Policy](./Network_Security_Policy.md)
 
 ---
 
@@ -165,7 +166,7 @@ All reference implementations follow the standardized evidence pattern:
 
 *Supports CRA Annex V § 3 - Risk Assessment Documentation*
 
-Reference: [📊 Risk Assessment Methodology](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Assessment_Methodology.md) and [⚠️ Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)
+Reference: [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) and [⚠️ Risk Register](./Risk_Register.md)
 
 | 🚨 **CRA Risk Category** | 🎯 Asset | 📊 Likelihood | 💥 Impact (C/I/A) | 🛡️ CRA Control Implementation | ⚖️ Residual | 📋 Evidence |
 |--------------------------|----------|---------------|------------------|------------------------------|-------------|-------------|
@@ -179,10 +180,10 @@ Reference: [📊 Risk Assessment Methodology](https://github.com/Hack23/ISMS-PUB
 **✅ Risk Acceptance:** {{OWNER_NAME}} - {{DATE}}
 
 **📋 Risk Management Framework:**
-- **📊 Methodology:** Risk assessment per [📊 Risk Assessment Methodology](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Assessment_Methodology.md)
-- **⚠️ Risk Tracking:** All risks documented in [⚠️ Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)
-- **🔄 Business Impact:** Continuity planning via [🔄 Business Continuity Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Business_Continuity_Plan.md)
-- **🆘 Recovery Planning:** Technical recovery per [🆘 Disaster Recovery Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Disaster_Recovery_Plan.md)
+- **📊 Methodology:** Risk assessment per [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md)
+- **⚠️ Risk Tracking:** All risks documented in [⚠️ Risk Register](./Risk_Register.md)
+- **🔄 Business Impact:** Continuity planning via [🔄 Business Continuity Plan](./Business_Continuity_Plan.md)
+- **🆘 Recovery Planning:** Technical recovery per [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md)
 
 ---
 
@@ -194,11 +195,11 @@ Reference: [📊 Risk Assessment Methodology](https://github.com/Hack23/ISMS-PUB
 |--------------------------------|-----------|---------------------------|
 | **🛡️ § 1.1 - Secure by Design** | [ ] | Minimal attack surface via `SECURITY_ARCHITECTURE.md` |
 | **🔒 § 1.2 - Secure by Default** | [ ] | Hardened default configurations documented |
-| **🏷️ § 2.1 - Personal Data Protection** | [ ] | GDPR compliance via [🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md) |
-| **🔍 § 2.2 - Vulnerability Disclosure** | [ ] | Public VDP via Repository `SECURITY.md` + [⚠️ Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) |
+| **🏷️ § 2.1 - Personal Data Protection** | [ ] | GDPR compliance via [🏷️ Data Classification Policy](./Data_Classification_Policy.md) |
+| **🔍 § 2.2 - Vulnerability Disclosure** | [ ] | Public VDP via Repository `SECURITY.md` + [⚠️ Vulnerability Management](./Vulnerability_Management.md) |
 | **📦 § 2.3 - Software Bill of Materials** | [ ] | Automated SBOM generation: GitHub Release includes signed SBOM |
 | **🔐 § 2.4 - Secure Updates** | [ ] | Signed updates: GitHub Release includes attestations |
-| **📊 § 2.5 - Security Monitoring** | [ ] | Comprehensive logging via [🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md) |
+| **📊 § 2.5 - Security Monitoring** | [ ] | Comprehensive logging via [🚨 Incident Response Plan](./Incident_Response_Plan.md) |
 | **📚 § 2.6 - Security Documentation** | [ ] | User security guidance: `USER_SECURITY_GUIDE.md` |
 
 **🎯 CRA Self-Assessment Status:** {{REQUIREMENTS_DOCUMENTED / IN_PROGRESS / EVIDENCE_GATHERED}}
@@ -212,7 +213,7 @@ Each project includes standardized security reporting via `SECURITY.md` followin
 - **🔄 Continuous Support:** Latest version maintained with security updates
 - **📋 Vulnerability Scope:** Authentication bypass, injection attacks, remote code execution, data exposure
 
-**ISMS Integration:** All vulnerability reports processed through [⚠️ Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) procedures
+**ISMS Integration:** All vulnerability reports processed through [⚠️ Vulnerability Management](./Vulnerability_Management.md) procedures
 
 ---
 
@@ -222,7 +223,7 @@ Each project includes standardized security reporting via `SECURITY.md` followin
 
 ### 📊 **Quality & Security Automation Status:**
 
-Reference: [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)
+Reference: [🛠️ Secure Development Policy](./Secure_Development_Policy.md)
 
 | 🧪 Control | 🎯 Requirement | ✅ Implementation | 📋 Evidence |
 |-------------|---------------|------------------|-------------|
@@ -309,7 +310,7 @@ curl -s https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2F{{REPO_NAM
 
 *Supports CRA Article 23 - Obligations of Economic Operators*
 
-Reference: [🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md) and [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
+Reference: [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) and [📊 Security Metrics](./Security_Metrics.md)
 
 | 📡 **CRA Monitoring Obligation** | 🔧 Implementation | ⏱️ Frequency | 🎯 Action Trigger | 📋 Evidence |
 |----------------------------------|-------------------|-------------|------------------|-------------|
@@ -318,14 +319,239 @@ Reference: [🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/b
 | **📊 Security Posture Tracking** *(Art. 23.3)* | OpenSSF Scorecard monitoring | Weekly | Score decline investigation | Security metrics |
 | **🔄 Update Distribution** *(Art. 23.4)* | Automated security updates | As needed | Critical vulnerability patches | Release management |
 
-**📋 CRA Reporting Readiness:** Documentation and procedures prepared for ENISA incident reporting per [🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)
+**📋 CRA Reporting Readiness:** Documentation and procedures prepared for ENISA incident reporting per [🚨 Incident Response Plan](./Incident_Response_Plan.md)
 
 **🔗 ISMS Monitoring Integration:**
-- **📊 Continuous Monitoring:** Security posture tracking per [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
-- **🌐 Transparency Framework:** Public disclosure strategy via [🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md)
-- **🤝 Third-Party Monitoring:** Supplier surveillance per [🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md)
-- **✅ Compliance Tracking:** Regulatory adherence via [✅ Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md)
-- **💾 Data Protection:** Backup and recovery per [💾 Backup Recovery Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Backup_Recovery_Policy.md)
+- **📊 Continuous Monitoring:** Security posture tracking per [📊 Security Metrics](./Security_Metrics.md)
+- **🌐 Transparency Framework:** Public disclosure strategy via [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md)
+- **🤝 Third-Party Monitoring:** Supplier surveillance per [🤝 Third Party Management](./Third_Party_Management.md)
+- **✅ Compliance Tracking:** Regulatory adherence via [✅ Compliance Checklist](./Compliance_Checklist.md)
+- **💾 Data Protection:** Backup and recovery per [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md)
+
+---
+
+## 🤖 **AI Agent-Driven CRA Compliance**
+
+*Supports CRA Article 16 - Quality Management System through Automated Evidence Generation*
+
+### 📋 **Automated Compliance Workflow**
+
+Hack23 AB's curated agent ecosystem (per [🔐 Information Security Strategy](./Information_Security_Strategy.md)) **monitors and validates** CRA evidence generated by automated workflows:
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#0d47a1',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800',
+      'background': '#ffffff',
+      'mainBkg': '#1565C0',
+      'secondBkg': '#4CAF50',
+      'tertiaryBkg': '#FF9800'
+    }
+  }
+}%%
+flowchart TD
+    BUILD[🔨 Build Process<br/>GitHub Actions Workflow] --> SBOM_GEN[📦 SBOM Generation<br/>Workflow: FOSSA + Dependency Graph]
+    SBOM_GEN --> AGENT_REVIEW[🤖 Task Agent<br/>SBOM Validation & Gap Detection]
+    
+    AGENT_REVIEW --> VULN_SCAN[🔍 Vulnerability Scanning<br/>Workflow: Dependabot + GitHub Security]
+    VULN_SCAN --> AGENT_TRIAGE[🤖 Agent Triage<br/>CRA Disclosure Requirements]
+    
+    AGENT_TRIAGE --> SLSA[🎖️ SLSA Attestation<br/>Workflow: Automated Level 3]
+    SLSA --> EVIDENCE[📊 GitHub Actions<br/>Evidence Package Consolidation]
+    
+    EVIDENCE --> CE{✅ CE Marking<br/>Ready?}
+    CE -->|Yes| APPROVAL[👨‍💼 CEO Final Approval]
+    CE -->|No| GAP[📋 Compliance Gap<br/>Agent Issue Creation]
+    
+    GAP --> REMEDIATE[👷 Specialist Agent<br/>Gap Remediation]
+    REMEDIATE --> SBOM_GEN
+    APPROVAL --> PUBLISH[🌐 CE Marking Published]
+    
+    style BUILD fill:#1565C0,color:#fff
+    style SBOM_GEN fill:#4CAF50,color:#fff
+    style AGENT_REVIEW fill:#FF9800,color:#fff
+    style VULN_SCAN fill:#4CAF50,color:#fff
+    style AGENT_TRIAGE fill:#FF9800,color:#fff
+    style SLSA fill:#1565C0,color:#fff
+    style EVIDENCE fill:#4CAF50,color:#fff
+    style CE fill:#FFC107,color:#000
+    style APPROVAL fill:#2E7D32,color:#fff
+    style GAP fill:#D32F2F,color:#fff
+    style REMEDIATE fill:#FF9800,color:#fff
+    style PUBLISH fill:#1565C0,color:#fff
+```
+
+### 🎯 **Agent Responsibilities Matrix**
+
+| Agent Type | CRA Compliance Responsibilities | Escalation Criteria | Evidence Generation |
+|------------|--------------------------------|---------------------|---------------------|
+| **🔧 Curator-Agent** | CRA tool configuration (FOSSA, SLSA)<br/>MCP server management<br/>Agent profile maintenance | Tool configuration changes require CEO approval | Agent configuration documentation |
+| **📋 Task Agents** | Compliance gap identification<br/>**SBOM validation** (generated by workflows)<br/>Evidence collection automation<br/>Issue creation with ISMS mapping | Critical compliance violations:<br/>- Missing SBOM<br/>- Undisclosed vulnerabilities<br/>- Essential requirements gaps | Automated compliance issues<br/>Gap analysis reports |
+| **👷 Security Specialist** | Vulnerability remediation<br/>Security attestation generation<br/>SLSA provenance validation<br/>CRA security controls implementation | Breaking changes<br/>Architectural modifications<br/>Security control failures | Security scan reports<br/>Remediation tracking |
+| **📝 Documentation Specialist** | CE marking documentation<br/>CRA disclosure updates<br/>Technical file maintenance<br/>Annex V documentation | Policy conflicts<br/>Regulatory interpretation needs<br/>Documentation completeness gaps | Technical documentation<br/>Compliance evidence packages |
+| **👨‍💼 CEO (Human)** | Final CE marking approval<br/>Regulatory sign-off<br/>Legal decisions<br/>Strategic compliance direction | All CE marking publications<br/>Regulatory submissions<br/>Material compliance decisions | Formal approvals<br/>Regulatory submissions |
+
+### 📊 **Automated Compliance Evidence Generation**
+
+**GitHub Actions CRA Evidence Packages:**
+
+| Evidence Type | Automation Level | Generation Method | Agent Role |
+|--------------|------------------|-------------------|------------|
+| **📦 SBOM Generation** | 100% Automated | **Workflows**: FOSSA + GitHub Dependency Graph | Task agent **validation** & gap detection |
+| **🔍 Vulnerability Status** | 100% Automated | **Workflows**: Dependabot + GitHub Security | Automated triage + specialist remediation |
+| **🎖️ Security Attestations** | 100% Automated | **Workflows**: SLSA Level 3 build provenance | Automated signature verification |
+| **📋 CE Marking Documentation** | 80% Automated | Compliance checklist with automated evidence links | Human review + CEO approval |
+| **🌐 Public Disclosure** | 90% Automated | **Workflows**: GitHub Security advisory generation | Coordinated disclosure review |
+
+**🔗 Evidence Integration:**
+- **Workflow Generation:** GitHub Actions workflows generate SBOM, attestations, and vulnerability scans per [🛠️ Secure Development Policy](./Secure_Development_Policy.md)
+- **Agent Monitoring:** Task agents continuously monitor workflow outputs for CRA compliance indicators
+- **Gap Detection:** Agents automatically create issues for missing evidence or requirements
+- **Evidence Linking:** GitHub Actions consolidates workflow-generated evidence into release packages
+- **Audit Trail:** All workflow runs and agent actions logged in GitHub with immutable provenance
+
+### 🔄 **Agent-Enhanced Conformity Assessment Workflow**
+
+**Integration with Section 2-7 Assessment Process:**
+
+1. **📋 Section 2 (CRA Classification):** Task agent validates classification based on product features
+2. **🏗️ Section 3 (Technical Documentation):** Documentation specialist maintains Annex V compliance
+3. **⚠️ Section 4 (Risk Assessment):** Security specialist updates risk register with CRA risks
+4. **✅ Section 5 (Essential Requirements):** Task agent tracks requirement completion status
+5. **📊 Section 6 (Conformity Evidence):** Automated badge and attestation generation
+6. **📡 Section 7 (Post-Market Surveillance):** Continuous monitoring via agent ecosystem
+
+**Agent Escalation Workflow:**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#fff',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#D32F2F'
+    }
+  }
+}%%
+flowchart LR
+    DETECT[🔍 Gap Detection<br/>Task Agent] --> CLASSIFY{📊 Severity?}
+    CLASSIFY -->|Low-Medium| AUTO[🤖 Automated Fix<br/>Specialist Agent]
+    CLASSIFY -->|High| REVIEW[👨‍💼 CEO Review<br/>Manual Decision]
+    CLASSIFY -->|Critical| ESCALATE[🚨 Immediate Escalation<br/>CEO + Issue Creation]
+    
+    AUTO --> PR[📝 Pull Request<br/>Automated Evidence]
+    REVIEW --> DECISION{✅ Approve?}
+    DECISION -->|Yes| PR
+    DECISION -->|No| MANUAL[👷 Manual Remediation]
+    ESCALATE --> MANUAL
+    
+    PR --> MERGE[✅ Merge + Evidence Update]
+    MANUAL --> MERGE
+    
+    style DETECT fill:#1565C0,color:#fff
+    style CLASSIFY fill:#FFC107,color:#000
+    style AUTO fill:#4CAF50,color:#fff
+    style REVIEW fill:#FF9800,color:#fff
+    style ESCALATE fill:#D32F2F,color:#fff
+    style PR fill:#1565C0,color:#fff
+    style DECISION fill:#FFC107,color:#000
+    style MANUAL fill:#8D6E63,color:#fff
+    style MERGE fill:#2E7D32,color:#fff
+```
+
+---
+
+## 🇪🇺 **EU AI Act Integration**
+
+*Supports EU AI Act (2024/1689) Transparency and Human Oversight Requirements*
+
+### 📋 **AI System Transparency Requirements**
+
+Hack23 AB's AI agent ecosystem must comply with EU AI Act transparency obligations (per [🤖 AI Policy](./AI_Policy.md)):
+
+**Minimal Risk AI Systems (GitHub Copilot, OpenAI):**
+
+| AI System | Risk Classification | Transparency Obligations | Human Oversight |
+|-----------|-------------------|-------------------------|-----------------|
+| **🤖 GitHub Copilot** | Minimal Risk | AI-generated code clearly marked in commits | All code reviewed by CEO before merge |
+| **💬 OpenAI GPT** | Minimal Risk | AI-generated content documented in issues | Human validation of all outputs |
+
+**🔐 Transparency Implementation:**
+- **Clear Attribution:** All AI-generated content includes agent attribution in commits/issues
+- **Audit Trail:** Complete provenance chain for all agent actions via GitHub
+- **Documentation:** AI usage documented in agent profiles (`.github/agents/*.md`)
+- **Version Control:** All AI-generated changes subject to Git history and review
+
+### 🤖 **Agent-Assisted CRA Compliance Framework**
+
+**Human Oversight Framework (Aligned with EU AI Act Best Practices):**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#fff',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
+    }
+  }
+}%%
+flowchart TD
+    AGENT[🤖 AI Agent<br/>Compliance Analysis] --> GENERATE[📋 Evidence Generation<br/>Automated Collection]
+    GENERATE --> REVIEW[👨‍💼 CEO Review<br/>Human Validation]
+    
+    REVIEW --> APPROVE{✅ Approve<br/>Evidence?}
+    APPROVE -->|Yes| SIGN[✍️ CEO Sign-off<br/>Compliance Attestation]
+    APPROVE -->|No| CORRECT[🔧 Correction<br/>Manual Adjustment]
+    
+    CORRECT --> GENERATE
+    SIGN --> PUBLISH[🌐 CE Marking<br/>Public Declaration]
+    
+    style AGENT fill:#FF9800,color:#fff
+    style GENERATE fill:#1565C0,color:#fff
+    style REVIEW fill:#2E7D32,color:#fff
+    style APPROVE fill:#FFC107,color:#000
+    style SIGN fill:#2E7D32,color:#fff
+    style CORRECT fill:#D32F2F,color:#fff
+    style PUBLISH fill:#1565C0,color:#fff
+```
+
+**🎯 Key Principles:**
+- **🤖 Agents Assist:** AI generates evidence and identifies gaps, but does NOT make compliance decisions
+- **👨‍💼 Human Decides:** CEO maintains final authority for all CE marking and regulatory decisions
+- **✅ Validation Required:** All agent recommendations subject to human validation before action
+- **📋 Explicit Approval:** Compliance sign-off requires explicit CEO approval signature
+
+### 📊 **EU AI Act Compliance Evidence**
+
+**Transparency Documentation:**
+
+| Requirement | Implementation | Evidence Location |
+|-------------|----------------|-------------------|
+| **AI System Documentation** | Agent profiles and MCP configurations | `.github/agents/*.md`, `.github/copilot-mcp.json` |
+| **Human Oversight Procedures** | CEO approval workflow for all PRs | GitHub PR review history |
+| **Risk Assessment** | AI risk classification per AI Policy | [🤖 AI Policy](./AI_Policy.md) Section 4 |
+| **Transparency Obligations** | Clear AI attribution in all outputs | Git commit messages, issue descriptions |
+| **Accountability Framework** | CEO ultimate responsibility documented | This policy + [🔐 Information Security Strategy](./Information_Security_Strategy.md) |
+
+**🔗 Cross-Reference:** See [🤖 AI Policy](./AI_Policy.md) for complete EU AI Act compliance framework including:
+- Article 50: Transparency obligations for limited risk/general-purpose AI systems
+- Article 14: Human oversight requirements (high-risk AI systems framework, applied as best practice)
+- Article 53: AI system documentation and record-keeping
+- Annex IV: Technical documentation requirements
 
 ---
 
@@ -405,6 +631,24 @@ CRA assessment updated only when changes constitute "substantial modification" u
 
 ---
 
+## 📚 Related Documents
+
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic CRA direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - EU AI Act compliance and transparency obligations for AI systems
+- [✅ Compliance Checklist](./Compliance_Checklist.md) - Multi-framework regulatory compliance tracking
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Data and asset classification methodology
+- [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) - Risk evaluation framework for CRA assessments
+
+### 🔐 Security Policies & Controls
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security architecture and SDLC requirements for CRA compliance
+- [🔍 Vulnerability Management](./Vulnerability_Management.md) - Security testing and remediation procedures
+- [🎯 Threat Modeling](./Threat_Modeling.md) - STRIDE analysis and threat assessment methodology
+- [🔓 Open Source Policy](./Open_Source_Policy.md) - OSS governance and SBOM requirements
+
+---
+
 ## 📚 **CRA Regulatory Alignment**
 
 ### **🔐 CRA Article Cross-References**
@@ -425,35 +669,35 @@ CRA assessment updated only when changes constitute "substantial modification" u
 ### **📋 Complete ISMS Policy Framework**
 
 #### **🔐 Core Security Governance**
-- **[🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md)** — Overall security governance and business value framework
-- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Data and asset classification methodology with business impact analysis
-- **[🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md)** — Public disclosure strategy and stakeholder communication
+- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance and business value framework
+- **[🏷️ Classification Framework](./CLASSIFICATION.md)** — Data and asset classification methodology with business impact analysis
+- **[🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md)** — Public disclosure strategy and stakeholder communication
 
 #### **🛡️ Security Control Implementation**
-- **[🔒 Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md)** — Encryption standards, key management, and post-quantum readiness
-- **[🔑 Access Control Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Access_Control_Policy.md)** — Identity management, MFA requirements, and privilege management
-- **[🌐 Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Network_Security_Policy.md)** — Network segmentation, firewall rules, and perimeter security
-- **[🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md)** — Information handling, protection levels, and retention requirements
+- **[🔒 Cryptography Policy](./Cryptography_Policy.md)** — Encryption standards, key management, and post-quantum readiness
+- **[🔑 Access Control Policy](./Access_Control_Policy.md)** — Identity management, MFA requirements, and privilege management
+- **[🌐 Network Security Policy](./Network_Security_Policy.md)** — Network segmentation, firewall rules, and perimeter security
+- **[🏷️ Data Classification Policy](./Data_Classification_Policy.md)** — Information handling, protection levels, and retention requirements
 
 #### **⚙️ Operational Excellence Framework**
-- **[🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)** — SDLC security, testing requirements, and automation gates
-- **[📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md)** — Controlled modification procedures and release management
-- **[🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md)** — Security testing, coordinated disclosure, and remediation
-- **[🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md)** — Supplier risk assessment and ongoing monitoring
-- **[🔓 Open Source Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Open_Source_Policy.md)** — OSS governance, license compliance, and contribution management
+- **[🛠️ Secure Development Policy](./Secure_Development_Policy.md)** — SDLC security, testing requirements, and automation gates
+- **[📝 Change Management](./Change_Management.md)** — Controlled modification procedures and release management
+- **[🔍 Vulnerability Management](./Vulnerability_Management.md)** — Security testing, coordinated disclosure, and remediation
+- **[🤝 Third Party Management](./Third_Party_Management.md)** — Supplier risk assessment and ongoing monitoring
+- **[🔓 Open Source Policy](./Open_Source_Policy.md)** — OSS governance, license compliance, and contribution management
 
 #### **🚨 Incident Response & Recovery**
-- **[🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)** — Security event handling, communication, and forensics
-- **[🔄 Business Continuity Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Business_Continuity_Plan.md)** — Business resilience, recovery objectives, and continuity strategies
-- **[🆘 Disaster Recovery Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Disaster_Recovery_Plan.md)** — Technical recovery procedures and system restoration
-- **[💾 Backup Recovery Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Backup_Recovery_Policy.md)** — Data protection, backup validation, and restore procedures
+- **[🚨 Incident Response Plan](./Incident_Response_Plan.md)** — Security event handling, communication, and forensics
+- **[🔄 Business Continuity Plan](./Business_Continuity_Plan.md)** — Business resilience, recovery objectives, and continuity strategies
+- **[🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md)** — Technical recovery procedures and system restoration
+- **[💾 Backup Recovery Policy](./Backup_Recovery_Policy.md)** — Data protection, backup validation, and restore procedures
 
 #### **📊 Performance Management & Compliance**
-- **[📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)** — KPI tracking, performance measurement, and continuous improvement
-- **[💻 Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md)** — Comprehensive asset inventory with risk classifications
-- **[📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)** — Risk identification, assessment, treatment, and monitoring
-- **[📊 Risk Assessment Methodology](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Assessment_Methodology.md)** — Systematic risk evaluation framework
-- **[✅ Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md)** — Regulatory requirement tracking and attestation
+- **[📊 Security Metrics](./Security_Metrics.md)** — KPI tracking, performance measurement, and continuous improvement
+- **[💻 Asset Register](./Asset_Register.md)** — Comprehensive asset inventory with risk classifications
+- **[📉 Risk Register](./Risk_Register.md)** — Risk identification, assessment, treatment, and monitoring
+- **[📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md)** — Systematic risk evaluation framework
+- **[✅ Compliance Checklist](./Compliance_Checklist.md)** — Regulatory requirement tracking and attestation
 
 **🎯 Framework Benefits for CRA Compliance:**
 - **🔄 Process Maturity:** Established ISMS demonstrates systematic security management capabilities
@@ -469,7 +713,7 @@ CRA assessment updated only when changes constitute "substantial modification" u
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-23  
-**⏰ Next Review:** 2025-11-23  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

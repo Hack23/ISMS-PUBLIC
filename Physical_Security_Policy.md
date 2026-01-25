@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-05
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -83,7 +83,7 @@ Hack23 AB operates as a single-person Swedish company with the CEO/Founder worki
 
 [![Defense in Depth](https://img.shields.io/badge/🛡️_Defense-Layered_Protection-red?style=flat-square)]() [![Asset Protection](https://img.shields.io/badge/💻_Assets-Physical_Protection-blue?style=flat-square)]() [![Access Control](https://img.shields.io/badge/🔐_Access-Controlled_Entry-orange?style=flat-square)]() [![Environmental Security](https://img.shields.io/badge/🏠_Environment-Secure_Workspace-green?style=flat-square)]()
 
-[![ISO 27001 A.7.1](https://img.shields.io/badge/ISO_A.7.1-Physical_Security_Perimeters-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![ISO 27001 A.7.2](https://img.shields.io/badge/ISO_A.7.2-Physical_Entry-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 12.6](https://img.shields.io/badge/CIS_12.6-Physical_Asset_Management-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.7.1](https://img.shields.io/badge/ISO_A.7.1-Physical_Security_Perimeters-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![ISO 27001 A.7.2](https://img.shields.io/badge/ISO_A.7.2-Physical_Entry-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 12.6](https://img.shields.io/badge/CIS_12.6-Physical_Asset_Management-darkgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md)
 
 ### 1. **🛡️ Layered Defense Strategy**
 
@@ -110,7 +110,7 @@ Physical security focused on protecting devices and media:
 - Sensitive documents and materials
 - Hardware security tokens and authentication devices
 
-Asset protection requirements per [💻 Asset Register](./Asset_Register.md) and [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md).
+Asset protection requirements per [💻 Asset Register](./Asset_Register.md) and [🏷️ Classification Framework](./CLASSIFICATION.md).
 
 ### 3. **🔐 Access Control Integration**
 
@@ -156,7 +156,7 @@ Home office environment protection addressing:
 
 **Clean Desk Requirements:**
 
-[![ISO 27001 A.7.7](https://img.shields.io/badge/ISO_A.7.7-Clear_Desk_&_Screen-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.7.7](https://img.shields.io/badge/ISO_A.7.7-Clear_Desk_&_Screen-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Mandatory Clean Desk Practices:**
 - Lock computer screens when leaving workspace unattended
@@ -180,7 +180,7 @@ While living alone reduces insider threats, clean desk practices remain importan
 
 **Device Physical Security:**
 
-[![ISO 27001 A.7.9](https://img.shields.io/badge/ISO_A.7.9-Security_of_Assets_Off_Premises-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 2.1](https://img.shields.io/badge/CIS_2.1-Software_Asset_Inventory-darkgreen?style=flat-square&logo=list&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.7.9](https://img.shields.io/badge/ISO_A.7.9-Security_of_Assets_Off_Premises-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 2.1](https://img.shields.io/badge/CIS_2.1-Software_Asset_Inventory-darkgreen?style=flat-square&logo=list&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Required Controls:**
 - **Full Disk Encryption:** All computing devices must use full disk encryption per [Cryptography Policy](./Cryptography_Policy.md)
@@ -212,7 +212,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Home Network Physical Security:**
 
-[![ISO 27001 A.13.1](https://img.shields.io/badge/ISO_A.13.1-Network_Security_Management-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.13.1](https://img.shields.io/badge/ISO_A.13.1-Network_Security_Management-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Required Controls:**
 - **Router Placement:** Located in secure area of home (not easily accessible from outside)
@@ -236,13 +236,13 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Physical Backup Media Security:**
 
-[![ISO 27001 A.8.3.3](https://img.shields.io/badge/ISO_A.8.3.3-Physical_Media_Handling-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 3.3](https://img.shields.io/badge/CIS_3.3-Data_Protection-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.8.3.3](https://img.shields.io/badge/ISO_A.8.3.3-Physical_Media_Handling-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 3.3](https://img.shields.io/badge/CIS_3.3-Data_Protection-darkgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Required Controls:**
 - **Encrypted Backups:** All backup media encrypted per [Cryptography Policy](./Cryptography_Policy.md)
 - **Secure Storage:** Backup media stored in locked cabinet or safe
 - **Off-Site Backups:** Cloud backups preferred; if physical off-site, use secure location
-- **Media Labeling:** Clear labels with data classification per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **Media Labeling:** Clear labels with data classification per [Classification Framework](./CLASSIFICATION.md)
 - **Access Control:** Only authorized user (CEO) has access to backup media
 - **Regular Testing:** Backup media tested per [Backup Recovery Policy](./Backup_Recovery_Policy.md)
 
@@ -255,7 +255,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Secure Disposal Procedures:**
 
-[![ISO 27001 A.8.3.2](https://img.shields.io/badge/ISO_A.8.3.2-Disposal_of_Media-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.8.3.2](https://img.shields.io/badge/ISO_A.8.3.2-Disposal_of_Media-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Disposal Requirements:**
 - **Data Wiping:** Secure wipe using NIST-approved methods before disposal
@@ -275,7 +275,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Fire Detection and Prevention:**
 
-[![ISO 27001 A.7.10](https://img.shields.io/badge/ISO_A.7.10-Delivery_and_Loading_Areas-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.7.10](https://img.shields.io/badge/ISO_A.7.10-Delivery_and_Loading_Areas-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Required Controls:**
 - **Smoke Detectors:** Working smoke detectors in home office area
@@ -295,7 +295,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Power Protection:**
 
-[![CIS Control 12.3](https://img.shields.io/badge/CIS_12.3-Use_Dedicated_Devices-darkgreen?style=flat-square&logo=plug&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 12.3](https://img.shields.io/badge/CIS_12.3-Use_Dedicated_Devices-darkgreen?style=flat-square&logo=plug&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Required Controls:**
 - **Surge Protection:** Quality surge protectors for all IT equipment
@@ -343,7 +343,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Home Visitor Categories and Risks:**
 
-[![ISO 27001 A.7.3](https://img.shields.io/badge/ISO_A.7.3-Securing_Offices_Rooms_Facilities-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.7.3](https://img.shields.io/badge/ISO_A.7.3-Securing_Offices_Rooms_Facilities-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **1. Social Visitors (Friends, Family):**
 - ✅ **Workspace Protocol:** Lock computer screens before allowing into workspace
@@ -388,7 +388,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **✅ Defense Strategies:**
 
-[![CIS Control 14.2](https://img.shields.io/badge/CIS_14.2-Train_Workforce-darkgreen?style=flat-square&logo=graduation-cap&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![CIS Control 14.2](https://img.shields.io/badge/CIS_14.2-Train_Workforce-darkgreen?style=flat-square&logo=graduation-cap&logoColor=white)](./CLASSIFICATION.md)
 
 - **Verify Identity:** Always verify caller identity through independent contact
 - **Question Requests:** Legitimate organizations don't request credentials
@@ -459,7 +459,7 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **Secure Procurement:**
 
-[![ISO 27001 A.7.8](https://img.shields.io/badge/ISO_A.7.8-Equipment_Siting_Protection-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Control 4.1](https://img.shields.io/badge/CIS_4.1-Secure_Configuration-darkgreen?style=flat-square&logo=cog&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.7.8](https://img.shields.io/badge/ISO_A.7.8-Equipment_Siting_Protection-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![CIS Control 4.1](https://img.shields.io/badge/CIS_4.1-Secure_Configuration-darkgreen?style=flat-square&logo=cog&logoColor=white)](./CLASSIFICATION.md)
 
 **✅ Requirements:**
 - **Trusted Vendors:** Purchase from reputable vendors per [Third Party Management](./Third_Party_Management.md)
@@ -507,17 +507,17 @@ Per [Mobile Device Management Policy](./Mobile_Device_Management_Policy.md):
 
 **End of Life Procedures:**
 
-[![ISO 27001 A.8.3.2](https://img.shields.io/badge/ISO_A.8.3.2-Disposal_of_Media-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001 A.8.3.2](https://img.shields.io/badge/ISO_A.8.3.2-Disposal_of_Media-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
 
 **Classification-Based Disposal:**
 
 | Device Classification | Data Sensitivity | Disposal Method | Verification Required |
 |----------------------|------------------|-----------------|----------------------|
-| [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Critical business data | Physical destruction | Certificate of destruction |
-| [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Financial, customer data | Secure wipe + physical destruction | Wipe verification report |
-| [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Business sensitive | DOD 5220.22-M wipe (3-pass minimum) | Wipe completion log |
-| [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Internal use only | Single-pass secure wipe | Basic verification |
-| [![Low/Public](https://img.shields.io/badge/C-Low-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Public information | Factory reset | Standard reset procedure |
+| [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md) | Critical business data | Physical destruction | Certificate of destruction |
+| [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md) | Financial, customer data | Secure wipe + physical destruction | Wipe verification report |
+| [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | Business sensitive | DOD 5220.22-M wipe (3-pass minimum) | Wipe completion log |
+| [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](./CLASSIFICATION.md) | Internal use only | Single-pass secure wipe | Basic verification |
+| [![Low/Public](https://img.shields.io/badge/C-Low-yellow?style=flat-square)](./CLASSIFICATION.md) | Public information | Factory reset | Standard reset procedure |
 
 **✅ Disposal Checklist:**
 1. **Data Backup:** Verify critical data backed up to cloud
@@ -581,7 +581,7 @@ Follow [Incident Response Plan](./Incident_Response_Plan.md) with physical secur
 2. **Assessment:**
    - Determine what data was on device
    - Assess data protection (encryption status)
-   - Evaluate business impact per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+   - Evaluate business impact per [Classification Framework](./CLASSIFICATION.md)
    - Identify required notifications (GDPR breach reporting if applicable)
 
 3. **Recovery:**
@@ -600,26 +600,33 @@ Follow [Incident Response Plan](./Incident_Response_Plan.md) with physical secur
 
 ## 📚 **Related Documents**
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security framework
-- [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) - System usage standards
-- [🔑 Access Control Policy](./Access_Control_Policy.md) - Logical access controls
-- [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) - Mobile device security
-- [🔒 Cryptography Policy](./Cryptography_Policy.md) - Encryption requirements
-- [🌐 Network Security Policy](./Network_Security_Policy.md) - Network protection standards
-- [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) - Backup and recovery procedures
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Security incident procedures
-- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Business continuity procedures
-- [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) - Disaster recovery procedures
-- [💻 Asset Register](./Asset_Register.md) - Physical asset inventory
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Risk and impact classification
-- [🤝 Third Party Management](./Third_Party_Management.md) - Vendor security requirements
+### 🔐 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic physical security direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security framework and AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI agent governance for physical security monitoring
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Risk and impact classification
+
+### 🔒 Security Policies
+- [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) — System usage standards
+- [🔑 Access Control Policy](./Access_Control_Policy.md) — Logical access controls
+- [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) — Mobile device security
+- [🔒 Cryptography Policy](./Cryptography_Policy.md) — Encryption requirements
+- [🌐 Network Security Policy](./Network_Security_Policy.md) — Network protection standards
+
+### ⚙️ Operational Integration
+- [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) — Backup and recovery procedures
+- [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Security incident procedures
+- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) — Business continuity procedures
+- [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) — Disaster recovery procedures
+- [💻 Asset Register](./Asset_Register.md) — Physical asset inventory
+- [🤝 Third Party Management](./Third_Party_Management.md) — Vendor security requirements
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-11-05  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

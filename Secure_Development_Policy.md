@@ -5,20 +5,20 @@
 <h1 align="center">🛡️ Hack23 AB — Secure Development Policy</h1>
 
 <p align="center">
-  <strong>Building Security In, Not Bolting It On</strong><br>
-  <em>Demonstrating DevSecOps Excellence Through Transparent Implementation</em>
+  <strong>🛡️ Building Security In, Not Bolting It On</strong><br>
+  <em>🎯 Demonstrating DevSecOps Excellence Through Transparent Implementation</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--27-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-27 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-27
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -73,15 +73,15 @@ This policy establishes the comprehensive framework for developing secure softwa
 ## 🔄 **Secure Development Lifecycle (SDLC)**
 
 ### **📋 Phase 1: Planning & Design**
-- **🏷️ Project Classification:** Comprehensive classification per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) including CIA triad, RTO/RPO, and business impact analysis
+- **🏷️ Project Classification:** Comprehensive classification per [Classification Framework](./CLASSIFICATION.md) including CIA triad, RTO/RPO, and business impact analysis
 - **🏗️ Security Architecture:** Design patterns aligned with classification levels and business value requirements
-- **📊 Risk Assessment:** Integration with [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) for classification-driven security decisions
+- **📊 Risk Assessment:** Integration with [Risk Register](./Risk_Register.md) for classification-driven security decisions
 - **💰 Cost-Benefit Analysis:** Security investments supporting **💰 cost efficiency** objectives based on classification ROI
 
 ### **💻 Phase 2: Development**
 - **🛡️ Secure Coding Guidelines:** OWASP Top 10 and language-specific best practices aligned with project classification
 - **🔍 Code Review Requirements:** Security-focused peer review for critical components based on integrity and confidentiality levels
-- **🗂️ Asset Classification:** Apply [Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md) and project classification to all code assets
+- **🗂️ Asset Classification:** Apply [Data Classification Policy](./Data_Classification_Policy.md) and project classification to all code assets
 - **🔐 Secret Management:** No hardcoded credentials; systematic secret rotation aligned with classification requirements
 
 ### **🧪 Phase 3: Security Testing**
@@ -127,10 +127,10 @@ All AI-assisted development activities (including GitHub Copilot, custom agents,
 - **📊 Security Metrics:** Real-time monitoring supporting **🛡️ risk reduction** goals with classification-appropriate SLAs
 
 ### **🔧 Phase 5: Maintenance & Operations**
-- **🆘 Vulnerability Management:** Classification-based remediation per [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) with appropriate SLAs
-- **📈 Performance Monitoring:** Security metrics integration with [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) aligned with availability requirements
+- **🆘 Vulnerability Management:** Classification-based remediation per [Vulnerability Management](./Vulnerability_Management.md) with appropriate SLAs
+- **📈 Performance Monitoring:** Security metrics integration with [Security Metrics](./Security_Metrics.md) aligned with availability requirements
 - **🔄 Regular Updates:** Security patches and dependency updates based on classification and business continuity requirements
-- **📋 Incident Response:** Integration with [Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md) with classification-driven escalation procedures
+- **📋 Incident Response:** Integration with [Incident Response Plan](./Incident_Response_Plan.md) with classification-driven escalation procedures
 
 ---
 
@@ -203,14 +203,14 @@ Comprehensive E2E testing ensures **🔄 operational excellence** across all use
 ## 🕷️ **Advanced Security Testing Framework**
 
 ### **🎯 Threat Modeling Requirements**
-All projects **MUST** implement comprehensive threat modeling aligned with [🎯 Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md):
+All projects **MUST** implement comprehensive threat modeling aligned with [🎯 Threat Modeling Policy](./Threat_Modeling.md):
 
 #### **📋 Threat Modeling Standards**
 - **🎭 STRIDE Framework Application:** Systematic threat categorization for all system components
 - **🎖️ MITRE ATT&CK Integration:** Advanced threat intelligence and attack vector analysis
 - **🌳 Attack Tree Development:** Structured attack path analysis with business impact assessment
 - **👥 Threat Agent Classification:** External, internal, and supply chain threat actor evaluation
-- **📊 Risk-Based Prioritization:** Threat ranking aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **📊 Risk-Based Prioritization:** Threat ranking aligned with [🏷️ Classification Framework](./CLASSIFICATION.md)
 
 #### **📚 Required Threat Model Documentation**
 Every project repository **MUST** include:
@@ -397,7 +397,7 @@ All projects must maintain comprehensive workflow documentation demonstrating **
 ### **🔄 Continuous Integration Security Gates**
 - **📋 Documentation Validation:** Verify presence and completeness of security architecture files
 - **🔍 Security Scanning Pipeline:** SAST, SCA, and secret scanning on all pull requests
-- **🚫 Critical Issue Blocking:** High/critical vulnerabilities prevent merge per [Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md) SLAs
+- **🚫 Critical Issue Blocking:** High/critical vulnerabilities prevent merge per [Vulnerability Management](./Vulnerability_Management.md) SLAs
 - **🎖️ Badge Generation:** Automated security posture reporting via public badges
 
 ### **📊 Security Evidence & Metrics**
@@ -818,7 +818,7 @@ All projects **MUST** maintain comprehensive business continuity and lifecycle d
 - **🌍 Multi-Availability Zone Deployment:** Stateful components distributed for resilience  
 - **❤️ Health Check Integration:** Automated failure detection and recovery triggering
 - **🔄 Blue/Green Deployment Patterns:** Zero-downtime updates for critical application paths
-- **🎯 RTO/RPO Target Alignment:** Recovery objectives per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **🎯 RTO/RPO Target Alignment:** Recovery objectives per [Classification Framework](./CLASSIFICATION.md)
 
 ### **📊 High Availability Evidence**
 - **🎨 HA Architecture Diagrams:** Multi-zone deployment visualization with failover flows
@@ -1013,8 +1013,8 @@ Any feature impacting authentication, data handling, network access, or recovery
 ### **👥 Pull Request Security Requirements**
 - **🛡️ Security Architecture Impact Section:** Mandatory for security-relevant changes
 - **🔍 Automated Security Scanning:** SAST/SCA/secret scanning must pass
-- **👨‍💻 Security-Focused Code Review:** Required for sensitive components per [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md)
-- **📊 Risk Documentation:** Updates to [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) when applicable
+- **👨‍💻 Security-Focused Code Review:** Required for sensitive components per [Change Management](./Change_Management.md)
+- **📊 Risk Documentation:** Updates to [Risk Register](./Risk_Register.md) when applicable
 
 ### **🚀 Release Security Checklist**
 - **✅ Security Architecture Documentation Updated:** Current and future state aligned
@@ -1027,7 +1027,7 @@ Any feature impacting authentication, data handling, network access, or recovery
 
 ## 🧭 **Public Security Documentation Strategy**
 
-Aligned with [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md), each project maintains transparent security documentation:
+Aligned with [ISMS Transparency Plan](./ISMS_Transparency_Plan.md), each project maintains transparent security documentation:
 
 ### **📚 Documentation Accessibility**
 - **🏗️ Repository-based Documentation:** Direct access via GitHub repository security files
@@ -1037,7 +1037,7 @@ Aligned with [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob
 
 ### **🎯 Strategic Documentation Examples**
 - **🏛️ Citizen Intelligence Agency:** [cia-docs.html](https://www.hack23.com/cia-docs.html) - Democratic transparency tools
-- **📊 CIA Compliance Manager:** [cia-compliance-manager-docs.html](https://www.hack23.com/cia-compliance-manager-docs.html) - Security management automation
+- **📊 CIA Compliance Manager:** [cia-compliance-manager-docs.html](https://www.hack23.com/cia-compliance-manager-docs.html) - Open-source compliance assessment platform
 - **🎮 Black Trigram:** [black-trigram-docs.html](https://www.hack23.com/black-trigram-docs.html) - Educational gaming security
 
 ---
@@ -1050,7 +1050,7 @@ When development activities are outsourced to third parties or utilize external 
 
 ### **🛡️ Outsourced Development Security Requirements**
 - **📝 Contractual Agreements:** All contracts with third-party developers MUST include binding clauses requiring adherence to this Secure Development Policy and other relevant ISMS policies.
-- **✅ Security Vetting:** Third-party suppliers undergo a security assessment as part of the vendor selection process, managed through our [Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md) procedures.
+- **✅ Security Vetting:** Third-party suppliers undergo a security assessment as part of the vendor selection process, managed through our [Third Party Management](./Third_Party_Management.md) procedures.
 - **🔍 Code Review & Scanning:** Code submitted by third parties is subject to the same mandatory code review, SAST, SCA, and DAST scanning requirements as internally developed code.
 - **🔐 Access Control:** Third-party developers are granted least-privilege access to development environments and source code repositories for the duration of their engagement only.
 - **🎓 Secure Coding Training:** Evidence of secure development training for third-party developers may be required based on the classification of the project.
@@ -1148,7 +1148,7 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 
 ### **📊 Annual Security Roadmap & Budget**
 - **💰 Investment Rationale:** ROI calculation based on risk reduction and business value creation
-- **📈 Success Metrics:** KPIs aligned with business objectives per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)  
+- **📈 Success Metrics:** KPIs aligned with business objectives per [Security Metrics](./Security_Metrics.md)  
 - **🔄 Continuous Optimization:** Regular review and adjustment based on threat landscape evolution
 - **🤝 Stakeholder Communication:** Transparent reporting on security investment outcomes
 
@@ -1156,29 +1156,31 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 
 ## 📚 **Related Documents & Integration Points**
 
-### **🔐 Core ISMS Integration**
-- **[🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md)** — Overall security governance framework
-- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Data and asset classification methodology  
-- **[🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md)** — Public disclosure strategy and implementation
+### **🎯 Strategic & Governance**
+- **[🎯 Information Security Strategy](./Information_Security_Strategy.md)** — Strategic secure development direction, AI-first operations, and Pentagon framework
+- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance framework and AI-First Operations Governance
+- **[🏷️ Classification Framework](./CLASSIFICATION.md)** — Data and asset classification methodology  
+- **[🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md)** — Public disclosure strategy and implementation
+- **[🤖 AI Policy](./AI_Policy.md)** — AI agent governance for development automation
 
 ### **🛡️ Security Policy Alignment**
-- **[🔒 Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md)** — Encryption standards and key management
-- **[🔑 Access Control Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Access_Control_Policy.md)** — Identity management and authorization  
-- **[🌐 Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Network_Security_Policy.md)** — Network protection and segmentation
-- **[🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md)** — Information handling requirements
-- **[🔐 Privacy Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Privacy_Policy.md)** — GDPR-compliant privacy framework and data protection
+- **[🔒 Cryptography Policy](./Cryptography_Policy.md)** — Encryption standards and key management
+- **[🔑 Access Control Policy](./Access_Control_Policy.md)** — Identity management and authorization  
+- **[🌐 Network Security Policy](./Network_Security_Policy.md)** — Network protection and segmentation
+- **[🏷️ Data Classification Policy](./Data_Classification_Policy.md)** — Information handling requirements
+- **[🔐 Privacy Policy](./Privacy_Policy.md)** — GDPR-compliant privacy framework and data protection
 
 ### **⚙️ Operational Process Integration**
-- **[📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md)** — Controlled modification procedures  
-- **[🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md)** — Security testing and remediation
-- **[🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)** — Security event handling procedures
+- **[📝 Change Management](./Change_Management.md)** — Controlled modification procedures  
+- **[🔍 Vulnerability Management](./Vulnerability_Management.md)** — Security testing and remediation
+- **[🚨 Incident Response Plan](./Incident_Response_Plan.md)** — Security event handling procedures
 - **[💾 Backup Recovery Policy](./Backup_Recovery_Policy.md)** — Data protection and recovery procedures
 
 ### **📊 Management & Monitoring**  
-- **[📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)** — Performance measurement and reporting
+- **[📊 Security Metrics](./Security_Metrics.md)** — Performance measurement and reporting
 - **[💻 Asset Register](./Asset_Register.md)** — Information asset inventory and tracking
-- **[📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)** — Risk identification and treatment documentation
-- **[🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md)** — Supplier risk management procedures
+- **[📉 Risk Register](./Risk_Register.md)** — Risk identification and treatment documentation
+- **[🤝 Third Party Management](./Third_Party_Management.md)** — Supplier risk management procedures
 
 ### **🔄 Business Continuity Alignment**
 - **[🔄 Business Continuity Plan](./Business_Continuity_Plan.md)** — Business resilience strategy
@@ -1193,7 +1195,7 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public    
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2025-11-27  
-**⏰ Next Review:** 2026-11-27  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)    
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

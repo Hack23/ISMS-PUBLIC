@@ -5,19 +5,19 @@
 <h1 align="center">🤝 Hack23 AB — Third Party Management Policy</h1>
 
 <p align="center">
-  <strong>Evidence-Based Supplier Risk Management Through Systematic Governance</strong><br>
-  <em>Converting Supply Chain Transparency Into Demonstrable Business Intelligence</em>
+  <strong>🛡️ Evidence-Based Supplier Risk Management Through Systematic Governance</strong><br>
+  <em>🎯 Converting Supply Chain Transparency Into Demonstrable Business Intelligence</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-02-16
+**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
 ---
 
@@ -49,7 +49,7 @@ This policy applies to:
 - **[🔗 SUPPLIER.md](./SUPPLIER.md)** — Authoritative evidence of detailed supplier assessments, Porter's Five Forces analysis, and strategic classification implementation
 - **[💻 Asset Register](./Asset_Register.md)** — Evidence of supplier onboarding, service integration, and comprehensive classification badge application
 - **[📉 Risk Register](./Risk_Register.md)** — Evidence of third-party risk identification, assessment, and treatment effectiveness
-- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Methodology for business impact analysis driving all supplier management decisions
+- **[🏷️ Classification Framework](./CLASSIFICATION.md)** — Methodology for business impact analysis driving all supplier management decisions
 
 ---
 
@@ -57,18 +57,18 @@ This policy applies to:
 
 ### 📊 **Strategic Classification Approach**
 
-Our third-party management operationalizes the [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) through systematic evidence collection documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
+Our third-party management operationalizes the [🏷️ Classification Framework](./CLASSIFICATION.md) through systematic evidence collection documented in [🔗 SUPPLIER.md](./SUPPLIER.md):
 
 ```mermaid
 %%{
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e3f2fd',
+      'primaryColor': '#1565C0',
       'primaryTextColor': '#0d47a1',
-      'lineColor': '#42a5f5',
-      'secondaryColor': '#c8e6c9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -97,10 +97,10 @@ flowchart TD
     TIERS --> PROCESS
     PROCESS --> EVIDENCE
     
-    style TIER1 fill:#ffcccb
-    style TIER2 fill:#ffeb9c
-    style TIER3 fill:#fff9c4
-    style TIER4 fill:#e8f5e9
+    style TIER1 fill:#D32F2F
+    style TIER2 fill:#FFC107
+    style TIER3 fill:#FFC107
+    style TIER4 fill:#4CAF50
 ```
 
 ### 🔗 **Evidence Collection Requirements**
@@ -141,11 +141,11 @@ Organizations SHALL execute systematic assessment with evidence documentation:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f1f8e9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#33691e',
       'lineColor': '#8bc34a',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff8e1'
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -173,15 +173,15 @@ flowchart TD
     
     F --> ASSESS
     
-    style A fill:#e3f2fd
-    style J fill:#e8f5e9
-    style K fill:#ffebee
-    style ASSESS fill:#fff3e0
+    style A fill:#1565C0
+    style J fill:#4CAF50
+    style K fill:#D32F2F
+    style ASSESS fill:#FF9800
 ```
 
 **Evidence Collection Requirements:**
 1. **🔍 Business Need Documentation:** Justify supplier requirement with measurable business case
-2. **📊 Classification Application:** Apply [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) with documented impact analysis
+2. **📊 Classification Application:** Apply [🏷️ Classification Framework](./CLASSIFICATION.md) with documented impact analysis
 3. **🏆 Porter's Five Forces Analysis:** Systematic market power assessment with scoring methodology
 4. **🔒 Security Assessment:** Evaluate publicly available supplier security information and certifications
 5. **📉 Risk Analysis:** Document comprehensive risk assessment in [📉 Risk Register](./Risk_Register.md)
@@ -196,11 +196,11 @@ Organizations SHALL conduct systematic market analysis for all suppliers:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e1f5fe',
-      'primaryTextColor': '#01579b',
-      'lineColor': '#0288d1',
-      'secondaryColor': '#f1f8e9',
-      'tertiaryColor': '#fff8e1'
+      'primaryColor': '#1565C0',
+      'primaryTextColor': '#1565C0',
+      'lineColor': '#1565C0',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FFC107'
     }
   }
 }%%
@@ -298,11 +298,11 @@ Organizations SHALL apply systematic security classification using documented me
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#ffebee',
+      'primaryColor': '#D32F2F',
       'primaryTextColor': '#b71c1c',
-      'lineColor': '#f44336',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff3e0'
+      'lineColor': '#D32F2F',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -330,10 +330,10 @@ flowchart LR
     D --> D4[🔵 High: Score 4]
     D --> D5[🔴 Mission Critical: Score 5]
     
-    style A fill:#e3f2fd
-    style B fill:#fff3e0
-    style C fill:#f1f8e9
-    style D fill:#fce4ec
+    style A fill:#1565C0
+    style B fill:#FF9800
+    style C fill:#4CAF50
+    style D fill:#D32F2F
 ```
 
 #### **📊 Data Classification Matrix**
@@ -355,11 +355,11 @@ Organizations SHALL define recovery requirements based on business impact analys
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff8e1',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FFC107',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#f3e5f5',
-      'tertiaryColor': '#e8f5e9'
+      'secondaryColor': '#7B1FA2',
+      'tertiaryColor': '#4CAF50'
     }
   }
 }%%
@@ -378,11 +378,11 @@ graph TB
     F --> F1[📅 Medium Recovery<br/>📦 Hourly Backup<br/>💰 Standard Investment]
     G --> G1[📋 Low Recovery<br/>📦 Daily Backup<br/>💰 Basic Investment]
     
-    style C fill:#ffcccb,stroke:#d32f2f,stroke-width:2px
-    style D fill:#ffeb9c,stroke:#ff9800,stroke-width:2px
-    style E fill:#fff9c4,stroke:#fbc02d,stroke-width:2px
-    style F fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style G fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
+    style C fill:#D32F2F,stroke:#d32f2f,stroke-width:2px
+    style D fill:#FFC107,stroke:#ff9800,stroke-width:2px
+    style E fill:#FFC107,stroke:#fbc02d,stroke-width:2px
+    style F fill:#4CAF50,stroke:#4caf50,stroke-width:2px
+    style G fill:#1565C0,stroke:#2196f3,stroke-width:2px
 ```
 
 ### 💰 **Business Impact Analysis Framework**
@@ -394,11 +394,11 @@ Organizations SHALL conduct multi-dimensional impact assessment:
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#f3e5f5',
+      'primaryColor': '#7B1FA2',
       'primaryTextColor': '#4a148c',
       'lineColor': '#7b1fa2',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#fff3e0'
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#FF9800'
     }
   }
 }%%
@@ -460,11 +460,11 @@ Organizations SHALL execute systematic onboarding recognizing power dynamics wit
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#2e7d32',
       'lineColor': '#4caf50',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#e3f2fd'
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -489,10 +489,10 @@ flowchart TD
     E1 --> G
     F1 --> G
     
-    style C fill:#ffcccb
-    style D fill:#ffeb9c
-    style E fill:#fff9c4
-    style F fill:#e8f5e9
+    style C fill:#D32F2F
+    style D fill:#FFC107
+    style E fill:#FFC107
+    style F fill:#4CAF50
 ```
 
 **Evidence Generation Requirements:**
@@ -512,11 +512,11 @@ As the sole decision-maker, supplier management workflow is optimized for effici
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#2e7d32',
       'lineColor': '#4caf50',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#e3f2fd'
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -542,12 +542,12 @@ flowchart TD
     MONITOR --> REVIEW[📅 Periodic Review]
     REVIEW --> START
     
-    style START fill:#e8f5e9
-    style EXECUTE fill:#c8e6c9
-    style TRANSITION fill:#fff3e0
-    style MONITOR fill:#e3f2fd
-    style SUPPLIER_UPDATE fill:#bbdefb
-    style ASSET_ADD fill:#ffecb3
+    style START fill:#4CAF50
+    style EXECUTE fill:#4CAF50
+    style TRANSITION fill:#FF9800
+    style MONITOR fill:#1565C0
+    style SUPPLIER_UPDATE fill:#1565C0
+    style ASSET_ADD fill:#FFC107
 ```
 
 **CEO Management Evidence Requirements:**
@@ -609,11 +609,11 @@ Organizations SHALL maintain continuous evidence collection through systematic m
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#2e7d32',
       'lineColor': '#4caf50',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#e3f2fd'
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -642,12 +642,12 @@ flowchart TD
     DOCUMENTATION --> REVIEW
     REVIEW --> CONTINUOUS
     
-    style PERFORMANCE fill:#e8f5e9
-    style SECURITY fill:#e3f2fd
-    style FINANCIAL fill:#fff3e0
-    style RELATIONSHIP fill:#f3e5f5
-    style UPDATE_SUPPLIER fill:#bbdefb
-    style WEEKLY fill:#c8e6c9
+    style PERFORMANCE fill:#4CAF50
+    style SECURITY fill:#1565C0
+    style FINANCIAL fill:#FF9800
+    style RELATIONSHIP fill:#7B1FA2
+    style UPDATE_SUPPLIER fill:#1565C0
+    style WEEKLY fill:#4CAF50
 ```
 
 **Continuous Evidence Requirements:**
@@ -686,7 +686,7 @@ Organizations SHALL maintain comprehensive security assessment evidence document
 
 ### 🎯 **Classification-Based Evidence Requirements**
 
-Evidence depth SHALL align with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) business impact analysis:
+Evidence depth SHALL align with [🏷️ Classification Framework](./CLASSIFICATION.md) business impact analysis:
 
 **🔴 Mission Critical Supplier Evidence Requirements:**
 - **📋 Comprehensive Documentation:** Full supplier research, enterprise certifications review, service validation
@@ -728,11 +728,11 @@ Organizations SHALL maintain performance evidence through metrics documented in 
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#fff8e1',
-      'primaryTextColor': '#e65100',
+      'primaryColor': '#FFC107',
+      'primaryTextColor': '#F57C00',
       'lineColor': '#ff9800',
-      'secondaryColor': '#f3e5f5',
-      'tertiaryColor': '#e8f5e9'
+      'secondaryColor': '#7B1FA2',
+      'tertiaryColor': '#4CAF50'
     }
   }
 }%%
@@ -786,11 +786,11 @@ Integration with [🚨 Incident Response Plan](./Incident_Response_Plan.md) SHAL
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#ffebee',
+      'primaryColor': '#D32F2F',
       'primaryTextColor': '#b71c1c',
-      'lineColor': '#f44336',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#e8f5e9'
+      'lineColor': '#D32F2F',
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#4CAF50'
     }
   }
 }%%
@@ -860,7 +860,7 @@ Organizations SHALL implement documented escalation with comprehensive evidence 
 
 All supplier-related incidents SHALL produce comprehensive evidence documentation:
 1. **🕐 Timeline Evidence:** Complete incident detection, escalation, and resolution timestamps with supporting logs
-2. **📊 Impact Evidence:** Quantified business impact using [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) with supporting calculations
+2. **📊 Impact Evidence:** Quantified business impact using [🏷️ Classification Framework](./CLASSIFICATION.md) with supporting calculations
 3. **🔄 Response Evidence:** Documented supplier actions, internal responses, and coordination activities
 4. **📈 Improvement Evidence:** Process improvements and relationship adjustments with implementation tracking
 5. **📉 Risk Evidence:** Risk register updates based on incident findings with treatment effectiveness analysis
@@ -926,11 +926,11 @@ Organizations SHALL manage supplier contracts through systematic processes docum
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#e8f5e9',
+      'primaryColor': '#4CAF50',
       'primaryTextColor': '#2e7d32',
       'lineColor': '#4caf50',
-      'secondaryColor': '#fff3e0',
-      'tertiaryColor': '#e3f2fd'
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -956,12 +956,12 @@ flowchart TD
     MONITOR --> REVIEW[📅 Periodic Review]
     REVIEW --> START
     
-    style START fill:#e8f5e9
-    style EXECUTE fill:#c8e6c9
-    style TRANSITION fill:#fff3e0
-    style MONITOR fill:#e3f2fd
-    style SUPPLIER_UPDATE fill:#bbdefb
-    style ASSET_ADD fill:#ffecb3
+    style START fill:#4CAF50
+    style EXECUTE fill:#4CAF50
+    style TRANSITION fill:#FF9800
+    style MONITOR fill:#1565C0
+    style SUPPLIER_UPDATE fill:#1565C0
+    style ASSET_ADD fill:#FFC107
 ```
 
 ### 💰 **Contract & Compliance Management Requirements**
@@ -1005,10 +1005,12 @@ Organizations SHALL execute compliance and contract validation:
 
 Our Third Party Management Policy integrates with the complete ISMS framework through evidence-based documentation:
 
-### 🏛️ **Core ISMS Framework**
-- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance framework defining third-party security requirements and standards
-- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Business impact analysis methodology for systematic supplier classification and evidence-based decision making
-- **[📊 Security Metrics](./Security_Metrics.md)** — Third-party performance measurement framework providing quantified evidence of supplier management effectiveness
+### 🏛️ **Strategic & Governance Framework**
+- **[🎯 Information Security Strategy](./Information_Security_Strategy.md)** — AI-first operations, Pentagon framework, and strategic direction for third-party security
+- **[🔐 Information Security Policy](./Information_Security_Policy.md)** — Overall security governance and AI-First Operations Governance defining third-party security requirements
+- **[🤖 AI Policy](./AI_Policy.md)** — AI agent governance for automated supplier assessment and monitoring
+- **[🏷️ Classification Framework](./CLASSIFICATION.md)** — Business impact analysis methodology for systematic supplier classification
+- **[📊 Security Metrics](./Security_Metrics.md)** — Third-party performance measurement providing quantified evidence of supplier management effectiveness
 
 ### 📊 **Evidence Documentation Sources**
 - **[💻 Asset Register](./Asset_Register.md)** — Primary evidence source for supplier service integration, asset dependencies, and classification badge application during onboarding
@@ -1030,7 +1032,7 @@ Our Third Party Management Policy integrates with the complete ISMS framework th
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-02-16  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

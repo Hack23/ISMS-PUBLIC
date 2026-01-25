@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.5-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--24-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.6-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.5 | **📅 Last Updated:** 2025-11-24 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-05-24
+**📋 Document Owner:** CEO | **📄 Version:** 2.6 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-07-25
 
 ---
 
@@ -25,7 +25,7 @@
 
 **🏢 Hack23 AB's** access control policy demonstrates how **🔧 systematic identity management directly enables both security excellence and operational transparency.** Our 📊 zero-trust access approach serves as both operational necessity and 👥 client demonstration of our cybersecurity consulting methodologies.
 
-This policy establishes mandatory access controls based on our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) and integrates with all systems documented in the [💻 Asset Register](./Asset_Register.md).
+This policy establishes mandatory access controls based on our [🏷️ Classification Framework](./CLASSIFICATION.md) and integrates with all systems documented in the [💻 Asset Register](./Asset_Register.md).
 
 *— 👨‍💼 James Pether Sörling, CEO/Founder*
 
@@ -88,15 +88,15 @@ flowchart TD
 
 ### 📊 Access Control Matrix
 
-Integration with [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Integration with [Classification Framework](./CLASSIFICATION.md):
 
 | 🎯 Asset Category | 🏷️ Classification | 🔐 Access Method | 🛡️ MFA Requirement | ⏰ Session Timeout | 📊 Review Frequency |
 |-------------------|------------------|------------------|-------------------|-------------------|-------------------|
-| **☁️ Cloud Core Infrastructure** | [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Identity Center SSO | Hardware + Software | 4 hours | Monthly |
-| **💰 Financial Systems** | [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Provider MFA + IdP | Hardware + SMS | 1 hour | Monthly |
-| **📝 Development Pipeline** | [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Platform MFA | TOTP + SSH Keys | 8 hours | Quarterly |
-| **📊 Business Intelligence** | [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | SSO Integration | TOTP | 24 hours | Semi-Annual |
-| **📢 Marketing Platforms** | [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Platform Native | Platform MFA | 7 days | Annual |
+| **☁️ Cloud Core Infrastructure** | [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md) | Identity Center SSO | Hardware + Software | 4 hours | Monthly |
+| **💰 Financial Systems** | [![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md) | Provider MFA + IdP | Hardware + SMS | 1 hour | Monthly |
+| **📝 Development Pipeline** | [![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md) | Platform MFA | TOTP + SSH Keys | 8 hours | Quarterly |
+| **📊 Business Intelligence** | [![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](./CLASSIFICATION.md) | SSO Integration | TOTP | 24 hours | Semi-Annual |
+| **📢 Marketing Platforms** | [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md) | Platform Native | Platform MFA | 7 days | Annual |
 
 ---
 
@@ -304,7 +304,7 @@ graph TD
 
 ### 💰 Financial Systems Access
 
-**Process Classification:** [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=flat-square&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+**Process Classification:** [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=flat-square&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#business-process-types)
 
 **Business Impact Justification:**
 - High financial impact potential (daily revenue at risk)
@@ -320,7 +320,7 @@ graph TD
 
 ### 🔧 Operations & Development Access
 
-**Process Classification:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=flat-square&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+**Process Classification:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=flat-square&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types)
 
 **Business Impact Justification:**
 - Service delivery continuity requirements
@@ -336,7 +336,7 @@ graph TD
 
 ### 📢 Marketing & Communications Access
 
-**Process Classification:** [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=flat-square&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+**Process Classification:** [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=flat-square&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types)
 
 **Business Impact Justification:**
 - Brand reputation management
@@ -441,28 +441,337 @@ This adaptation maintains control objectives of **A.5.18 (Access Rights Manageme
 
 ### **Risk Acceptance**
 
-**Risk ID**: R-ACCESS-001 (to be added to [Risk_Register.md](./Risk_Register.md))
-
 **Risk Description**: Single-person access administration increases risk of **self-review bias and excessive permissions** compared to independent security team review. CEO may not detect own errors in access grants or recognize privilege creep.
 
-**Risk Assessment**:
-- **Likelihood**: Low (2/5) - Automated IAM Access Analyzer provides independent machine validation
-- **Impact**: Low (2/5) - Limited users (CEO only), no customer data access risks currently
-- **Risk Score**: 80 (Low Risk per Risk Assessment Methodology)
+See [📉 Risk Register](./Risk_Register.md) for current risk assessment, likelihood/impact scoring, and treatment status.
 
-**Risk Acceptance Rationale**:
+**Compensating Controls Summary**:
 - **Automated superiority**: AWS IAM Access Analyzer continuous monitoring exceeds quarterly human review effectiveness
 - **Machine independence**: Automated tool provides independent validation without human bias
 - **Limited scope**: Single-user environment (CEO) has minimal access control complexity
 - **External validation**: Annual auditor review provides independent human oversight
 - **Complete audit trail**: CloudTrail + GitHub logs enable retrospective forensic review
-- **Cost-benefit**: Dedicated security team (€80K+/year) disproportionate to risk for single-person company
 
 **Monitoring & Review**:
 - **Real-Time**: AWS IAM Access Analyzer findings reviewed immediately when triggered
 - **Quarterly**: CEO comprehensive access review using IAM Access Analyzer findings dashboard
 - **Annual**: External auditor validates access control effectiveness and compensating controls
-- **Metrics Tracked**: Unused credentials count, excessive permissions detected, external access grants, MFA compliance rate
+
+---
+
+## 🚨 **Break-Glass Emergency Access Procedure**
+
+### 📋 Emergency Access Protocol
+
+When normal access methods fail during critical incidents, the break-glass procedure provides documented emergency access:
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#D32F2F',
+      'primaryTextColor': '#b71c1c',
+      'lineColor': '#D32F2F',
+      'secondaryColor': '#FF9800',
+      'tertiaryColor': '#4CAF50'
+    }
+  }
+}%%
+flowchart TD
+    subgraph Trigger["🚨 Emergency Trigger"]
+        INCIDENT[Critical Incident<br/>Normal Access Failed]
+        ASSESS[Assess Urgency<br/>Business Impact]
+    end
+    
+    subgraph BreakGlass["🔓 Break-Glass Activation"]
+        ROOT[AWS Root Account<br/>Recovery Email Access]
+        BACKUP[Backup Authentication<br/>Recovery Codes]
+        HARDWARE[Hardware Token<br/>Physical Recovery]
+    end
+    
+    subgraph Controls["🛡️ Compensating Controls"]
+        LOG[Immediate Logging<br/>Incident Documentation]
+        NOTIFY[Stakeholder Notification<br/>Within 1 Hour]
+        REVIEW[Post-Incident Review<br/>Within 24 Hours]
+    end
+    
+    subgraph Restore["🔄 Access Restoration"]
+        REVOKE[Revoke Emergency Access<br/>Immediately After Resolution]
+        ROTATE[Rotate All Credentials<br/>Used During Emergency]
+        AUDIT[Full Access Audit<br/>Within 48 Hours]
+    end
+    
+    INCIDENT --> ASSESS
+    ASSESS --> ROOT
+    ASSESS --> BACKUP
+    ASSESS --> HARDWARE
+    
+    ROOT --> LOG
+    BACKUP --> LOG
+    HARDWARE --> LOG
+    
+    LOG --> NOTIFY
+    NOTIFY --> REVIEW
+    
+    REVIEW --> REVOKE
+    REVOKE --> ROTATE
+    ROTATE --> AUDIT
+    
+    style Trigger fill:#D32F2F
+    style BreakGlass fill:#FF9800
+    style Controls fill:#1565C0
+    style Restore fill:#4CAF50
+```
+
+### 🔐 Break-Glass Credentials Storage
+
+| Credential Type | Storage Location | Access Method | Recovery Time |
+|-----------------|------------------|---------------|---------------|
+| **AWS Root Account Recovery** | CEO personal email (MFA-protected) | Email + phone recovery | <15 minutes |
+| **AWS Root MFA Backup Codes** | Encrypted USB (fireproof safe) | Physical access required | <30 minutes |
+| **GitHub Personal Access Token** | AWS Secrets Manager (backup: encrypted local) | CLI recovery | <10 minutes |
+| **Identity Provider Recovery** | Backup email + SMS | Multi-channel recovery | <15 minutes |
+| **Banking Recovery Codes** | Physical secure storage (bank safe deposit) | In-person retrieval | 4-24 hours |
+
+### 📊 Break-Glass Usage Requirements
+
+1. **Pre-Activation Checklist:**
+   - [ ] Confirm normal access methods exhausted
+   - [ ] Document business justification for emergency access
+   - [ ] Assess incident severity (Critical/High/Medium)
+   - [ ] Notify relevant stakeholders if time permits
+
+2. **During Emergency Access:**
+   - [ ] Log all actions taken with timestamps
+   - [ ] Use minimum necessary permissions
+   - [ ] Complete only essential tasks for incident resolution
+   - [ ] Maintain communication with any affected parties
+
+3. **Post-Emergency Requirements:**
+   - [ ] Revoke emergency credentials within 1 hour of resolution
+   - [ ] Rotate all credentials accessed during emergency
+   - [ ] Complete incident documentation within 24 hours
+   - [ ] Conduct root cause analysis for access failure
+   - [ ] Update procedures if systemic issue identified
+
+---
+
+## 🔄 **Account Lifecycle Management**
+
+### 📋 Account Provisioning Procedure
+
+**ISO 27001:2022 Controls:** A.5.16 (Identity Management), A.5.17 (Authentication Information)
+
+| Phase | Activities | Responsible | Timeline | Evidence |
+|-------|-----------|-------------|----------|----------|
+| **Request** | Document access need, business justification | Requester (CEO) | Day 0 | Access request log |
+| **Approval** | Verify business need, least privilege assessment | Approver (CEO) | Day 0 | Approval record |
+| **Provisioning** | Create account, configure MFA, assign permissions | Administrator (CEO) | Day 0-1 | Account creation log |
+| **Validation** | Verify access works correctly, confirm MFA active | User (CEO) | Day 1 | MFA enrollment confirmation |
+| **Documentation** | Update Asset Register, access matrix | Administrator (CEO) | Day 1 | Asset Register entry |
+| **Review** | Quarterly access appropriateness review | Administrator (CEO) | Quarterly | Review completion record |
+| **Termination** | Remove access when no longer needed | Administrator (CEO) | As needed | Deprovisioning log |
+
+### 🔑 Access Request Log Template
+
+For each new account or permission change:
+
+```
+Access Request Record
+=====================
+Request Date: YYYY-MM-DD
+Request ID: AR-YYYY-NNN
+
+Requester: [Name/Role]
+System/Service: [Target system]
+Access Level Requested: [Permission level]
+Business Justification: [Why access is needed]
+
+Approval Decision: [ ] Approved / [ ] Denied
+Approved By: [CEO signature/date]
+Provisioning Date: YYYY-MM-DD
+MFA Configured: [ ] Yes / [ ] N/A
+
+Next Review Date: YYYY-MM-DD
+```
+
+### 📊 Account Status Categories
+
+| Status | Definition | Action Required | Review Frequency |
+|--------|------------|-----------------|------------------|
+| **Active** | Account in regular use, MFA enabled | Standard monitoring | Quarterly |
+| **Dormant** | No activity in 60+ days | Verify continued need | Within 30 days |
+| **Suspended** | Temporarily disabled pending review | Investigate and resolve | Within 7 days |
+| **Terminated** | Permanently deactivated | Archive audit logs | N/A |
+| **Service** | Non-human automated account | Monitor for abuse | Monthly |
+
+---
+
+## 🤖 **Service Account Management**
+
+### 📋 Service Account Inventory
+
+**ISO 27001:2022 Control:** A.5.18 (Access Rights)
+
+| Service Account Type | Purpose | Permission Scope | Key Rotation | Monitoring |
+|---------------------|---------|------------------|--------------|------------|
+| **GitHub Actions** | CI/CD pipeline automation | Repository secrets, deployments | 90 days (via AWS OIDC) | Workflow run logs |
+| **AWS IAM Roles** | Service-to-service authentication | Least privilege per service | Automatic (STS) | CloudTrail |
+| **Maven Central** | Artifact publishing | Publish to group ID | 365 days (GPG key) | Release logs |
+| **External API Keys** | Third-party integrations | API-specific scope | 90-180 days | API usage logs |
+
+### 🔐 Service Account Security Requirements
+
+1. **No Long-Lived Credentials:** Prefer OIDC federation, IAM roles, or short-lived tokens
+2. **Least Privilege:** Grant minimum permissions for specific automation task
+3. **No Shared Secrets:** Each service/workflow gets unique credentials
+4. **Rotation Schedule:** Maximum 90 days for API keys, automatic for IAM roles
+5. **Audit Logging:** All service account actions logged to CloudTrail/audit system
+6. **Alerting:** Unusual activity triggers immediate notification
+
+### 🔄 Service Account Lifecycle
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#4CAF50',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
+      'secondaryColor': '#1565C0',
+      'tertiaryColor': '#FF9800'
+    }
+  }
+}%%
+flowchart LR
+    subgraph Create["🆕 Creation"]
+        REQ[Service Request<br/>Business Justification]
+        SCOPE[Define Scope<br/>Least Privilege]
+        PROV[Provision Account<br/>Configure Logging]
+    end
+    
+    subgraph Maintain["🔧 Maintenance"]
+        ROTATE[Key Rotation<br/>Scheduled/Automatic]
+        MONITOR[Usage Monitoring<br/>Anomaly Detection]
+        REVIEW[Quarterly Review<br/>Permission Audit]
+    end
+    
+    subgraph Retire["🗑️ Retirement"]
+        DEPRECATE[Mark Deprecated<br/>30-Day Notice]
+        DISABLE[Disable Account<br/>Test Impact]
+        DELETE[Delete & Archive<br/>Retain Logs 7 Years]
+    end
+    
+    REQ --> SCOPE --> PROV
+    PROV --> ROTATE --> MONITOR --> REVIEW
+    REVIEW --> DEPRECATE --> DISABLE --> DELETE
+    
+    style Create fill:#4CAF50
+    style Maintain fill:#1565C0
+    style Retire fill:#D32F2F
+```
+
+---
+
+## 🔐 **Privileged Access Management (PAM)**
+
+### 📋 Privileged Account Categories
+
+**ISO 27001:2022 Control:** A.8.2 (Privileged Access Rights)
+
+| Privilege Level | Access Scope | Use Cases | Session Controls | Monitoring Level |
+|-----------------|--------------|-----------|------------------|------------------|
+| **Root/Super Admin** | Full system control | Break-glass only | 1 hour max, full logging | Real-time + alerts |
+| **Organization Admin** | AWS Organization management | Account creation, SCPs | 4 hours max, CloudTrail | Real-time |
+| **Account Admin** | Individual AWS account admin | Resource management | 4 hours max, CloudTrail | Continuous |
+| **Power User** | Elevated development access | Testing, deployment | 8 hours max, standard logs | Daily review |
+| **Standard User** | Normal operational access | Daily operations | 24 hours max, standard logs | Weekly review |
+
+### 🔒 Just-In-Time (JIT) Privileged Access
+
+For elevated access beyond standard permissions:
+
+1. **Request Phase:**
+   - Document specific task requiring elevated access
+   - Define minimum permissions needed
+   - Specify time window (maximum 4 hours)
+
+2. **Activation Phase:**
+   - Enable temporary IAM role or permission set
+   - Start session recording (CloudTrail enhanced)
+   - Set automatic expiration timer
+
+3. **Execution Phase:**
+   - Perform only documented activities
+   - Log all actions taken
+   - Complete task within time window
+
+4. **Deactivation Phase:**
+   - Revoke elevated permissions (automatic or manual)
+   - Review session logs for anomalies
+   - Document completion and any issues
+
+### 📊 Privileged Access Metrics
+
+| Metric | Target | Alert Threshold | Response |
+|--------|--------|-----------------|----------|
+| **Root Account Usage** | 0 per month (except break-glass) | >1 per month | Immediate investigation |
+| **Admin Session Duration** | <2 hours average | >4 hours | Review session purpose |
+| **Elevated Access Requests** | <10 per month | >20 per month | Review access model |
+| **Failed Privileged Logins** | 0 | >0 | Immediate investigation |
+
+---
+
+## 📋 **Access Termination Checklist**
+
+### 🗑️ Account Deprovisioning Procedure
+
+**Trigger Events:**
+- Employee departure (N/A for single-person, but documented for future scaling)
+- Role change requiring access modification
+- System/service retirement
+- Security incident requiring immediate access revocation
+- Contract termination (for any future contractors)
+
+### ✅ Access Termination Checklist
+
+**Immediate Actions (Within 1 Hour of Trigger):**
+- [ ] Disable primary identity provider account
+- [ ] Revoke active sessions across all SSO-integrated systems
+- [ ] Disable AWS IAM Identity Center access
+- [ ] Revoke GitHub organization access
+- [ ] Change shared credentials (if any exist)
+
+**Same-Day Actions (Within 24 Hours):**
+- [ ] Remove from email distribution lists
+- [ ] Revoke access to financial systems (banking, accounting)
+- [ ] Disable marketing platform access
+- [ ] Revoke API keys and access tokens
+- [ ] Remove from any collaboration tools
+
+**Follow-Up Actions (Within 7 Days):**
+- [ ] Audit all access logs for terminated account
+- [ ] Verify no residual access permissions remain
+- [ ] Transfer ownership of any shared resources
+- [ ] Archive account audit history
+- [ ] Update Asset Register to reflect deprovisioning
+- [ ] Document termination in access control log
+
+### 📊 Termination Verification
+
+After access termination, verify complete removal:
+
+| Verification Check | Method | Timeline | Evidence |
+|-------------------|--------|----------|----------|
+| **No Active Sessions** | Session management console | Immediate | Screenshot/log |
+| **No IAM Permissions** | AWS IAM Access Analyzer | Within 24 hours | Analyzer report |
+| **No GitHub Access** | Organization audit log | Within 24 hours | Audit export |
+| **No API Access** | Attempt authentication | Within 48 hours | Failure confirmation |
+| **Access Log Review** | CloudTrail/audit analysis | Within 7 days | Analysis report |
+
+---
 
 ### **Access Control Performance Metrics**
 
@@ -474,7 +783,7 @@ This adaptation maintains control objectives of **A.5.18 (Access Rights Manageme
 | **External Access** | 0 unauthorized external shares | 0 (IAM Analyzer alerts) | ✅ On target |
 | **Excessive Permissions** | <5 findings per quarter | N/A (monitored continuously) | ✅ Monitored |
 | **Access Review Completion** | 100% quarterly | 100% (systematic process) | ✅ Compliant |
-| **Annual Audit Pass Rate** | 100% (no major findings) | Scheduled 2026 | ✅ Planned |
+| **Annual Audit Pass Rate** | 100% (no major findings) | Planned Q2 2026 | ⏳ Scheduled |
 
 **Business Value Demonstration**: Single-person access control with automated tool validation demonstrates:
 - 🏆 **Competitive Advantage**: Modern cloud-native access management showcasing automation expertise
@@ -488,22 +797,33 @@ This adaptation maintains control objectives of **A.5.18 (Access Rights Manageme
 
 ## 📚 **Related Documents**
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security framework
-- [💻 Asset Register](./Asset_Register.md) - Complete identity and system inventory
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Access control classifications
-- [📊 Security Metrics](./Security_Metrics.md) - Access monitoring and KPIs
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Access-related incident procedures
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - Strategic direction, AI-first operations, and access control strategy
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security framework and AI-First Operations Governance
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Access control classifications
+- [🤖 AI Policy](./AI_Policy.md) - AI agent access governance and least-privilege requirements
+
+### 🔑 Access & Identity Policies
+- [🚫 Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) - Role separation and compensating controls
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) - Encryption and key management
+- [🔐 Privacy Policy](./Privacy_Policy.md) - Personal data access governance
+
+### 💻 Asset & Operations
+- [💻 Asset Register](./Asset_Register.md) - Complete identity and system inventory
+- [📊 Security Metrics](./Security_Metrics.md) - Access monitoring and KPIs
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Development access controls
-- [🤝 Third Party Management](./Third_Party_Management.md) - Supplier access management
+
+### 🔄 Continuity & Response
+- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Access-related incident procedures
 - [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Access continuity procedures
+- [🤝 Third Party Management](./Third_Party_Management.md) - Supplier access management
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-24  
-**⏰ Next Review:** 2026-05-24  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-07-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

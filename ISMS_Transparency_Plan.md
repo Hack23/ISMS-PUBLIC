@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -48,9 +48,10 @@ This table defines the publication status of ISMS documents and the rationale.
 |-----------------------------|--------------------|-----------------------------|
 | **🔐 Core Policies & Frameworks** | | |
 | [🔐 Information Security Policy](./Information_Security_Policy.md) | ✅ **Public** | Demonstrates overall security posture. No sensitive details. |
-| [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | ✅ **Public** | Core to our methodology; showcases our approach to risk. |
+| [🏷️ Classification Framework](./CLASSIFICATION.md) | ✅ **Public** | Core to our methodology; showcases our approach to risk. |
 | [🔓 Open Source Policy](./Open_Source_Policy.md) | ✅ **Public** | Aligns with our open-source philosophy. |
 | [📐 Style Guide](./STYLE_GUIDE.md) | ✅ **Public** | Shows our commitment to quality and consistency. |
+| [🏗️ Security Architecture](./SECURITY_ARCHITECTURE.md) | ✅ **Public** | Zero-trust security architecture and infrastructure design public. |
 | **🛠️ Operational Policies** | | |
 | [🔑 Access Control Policy](./Access_Control_Policy.md) | ✅ **Public** | High-level policy is public. Specific roles and access lists are confidential. |
 | [✅ Acceptable Use Policy](./Acceptable_Use_Policy.md) | ✅ **Public** | Behavioral expectations and usage standards public. Demonstrates security culture and professional conduct. |
@@ -61,22 +62,37 @@ This table defines the publication status of ISMS documents and the rationale.
 | [📝 Change Management](./Change_Management.md) | ✅ **Public** | Process framework public. Specific change details confidential. |
 | [🔍 Vulnerability Management](./Vulnerability_Management.md) | ✅ **Public** | Process public. Active vulnerabilities confidential. |
 | [💾 Backup & Recovery Policy](./Backup_Recovery_Policy.md) | ✅ **Public** | Policy framework public. Specific procedures confidential. |
+| [🚫 Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) | ✅ **Public** | Single-person company compensating controls public. |
 | [🤖 AI Governance Policy](./AI_Policy.md) | ✅ **Public** | AI governance framework and EU AI Act compliance public. AI vendor assessments confidential. |
 | [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | ✅ **Public** | Comprehensive LLM security framework demonstrating OWASP Top 10 alignment and implementation transparency. Shows foundation strength while clearly identifying future development areas. |
 | [🎯 Threat Modeling Policy](./Threat_Modeling.md) | ✅ **Public** | STRIDE methodology and threat assessment framework public. Specific threat intelligence confidential. |
+| [🔄 ISMS Workflows](./WORKFLOWS.md) | ✅ **Public** | Operational workflow procedures and automation standards public. |
+| [🚀 Future Workflows](./FUTURE_WORKFLOWS.md) | ✅ **Public** | Planned automation and tooling roadmap public. |
+| [📱 Mobile Device Management Policy](./Mobile_Device_Management_Policy.md) | ✅ **Public** | Mobile device security framework and BYOD controls public. Specific device inventories confidential. |
 | **📋 Management & Governance** | | |
 | [💻 Asset Register](./Asset_Register.md) | ⚠️ **Redacted** | Complete asset inventory public including all systems, services, and configurations. Only specific credentials, API keys, and account numbers replaced with `[REDACTED]`. |
 | [📉 Risk Register](./Risk_Register.md) | ⚠️ **Redacted** | Complete risk framework and all risks public. Only specific financial impact values replaced with `[REDACTED]`. |
-| [🔗 Third-Party Management](./Third_Party_Management.md) | ✅ **Public**  | Complete policy framework and all procedures public. 
+| [� Risk Assessment Methodology](./Risk_Assessment_Methodology.md) | ✅ **Public** | Risk assessment framework and scoring methodology public. |
+| [�🔗 Third-Party Management](./Third_Party_Management.md) | ✅ **Public**  | Complete policy framework and all procedures public. 
 | [🏢 Supplier Security Posture](./SUPPLIER.md) | ⚠️ **Redacted** | Complete supplier assessments public including all details. Only specific contract pricing and sensitive commercial terms replaced with `[REDACTED]`. |
 | [🤝 External Stakeholder Registry](./External_Stakeholder_Registry.md) | ✅ **Public** | Professional network and regulatory contacts demonstrate stakeholder engagement and compliance readiness. |
 | **🚨 Response & Recovery Plans** | | |
 | [🚨 Incident Response Plan](./Incident_Response_Plan.md) | ✅ **Public**  | Complete process framework and all procedures public. 
 | [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) | ✅ **Public** | Complete strategies and all recovery procedures public. 
 | [🆘 Disaster Recovery Plan](./Disaster_Recovery_Plan.md) | ✅ **Public** | Complete architecture and all technical procedures public.
+| **📊 Metrics & Quality Assurance** | | |
+| [📊 Security Metrics](./Security_Metrics.md) | ✅ **Public** | Live KPI dashboard and performance measurement public. |
+| [📊 ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) | ✅ **Public** | Policy health monitoring and review tracking public. |
+| [📋 ISMS QA Checklist](./ISMS_QA_CHECKLIST.md) | ✅ **Public** | Quality assurance standards and checklist public. |
+| [📊 SWOT Analysis](./SWOT.md) | ✅ **Public** | Strategic positioning and assessment public. |
+| **📋 Service Offerings & Partnerships** | | |
+| [🏛️ NIS2 Compliance Service](./NIS2_Compliance_Service.md) | ✅ **Public** | NIS2 consulting service offerings and methodology public. |
+| [🛡️ CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) | ✅ **Public** | EU Cyber Resilience Act compliance process public. |
+| [🤝 Partnership Framework](./Partnership_Framework.md) | ✅ **Public** | Partnership models and collaboration framework public. |
 | **📊 Compliance & Legal** | | |
 | [✅ Compliance Checklist](./Compliance_Checklist.md) | ✅ **Public** | Demonstrates our commitment to transparency and provides a clear, auditable trail of our compliance posture against key frameworks. |
 | [🏷️ Data Classification Policy](./Data_Classification_Policy.md) | ✅ **Public** | The classification levels and handling rules are public. The classification of specific datasets is confidential. |
+| [🔒 Privacy Policy](./Privacy_Policy.md) | ✅ **Public** | Privacy framework and GDPR compliance public. Specific data processing agreements confidential. |
 | **🏢 Company Documentation** | | |
 | [📊 Aktiebok](./Hack23AB/Aktiebok.md) | ❌ **Confidential** | Share register details confidential. |
 | [📊 Annual Accounts](./Hack23AB/Annual_Accounts.md) | ✅ **Public** | Filed annual reports are public record. |
@@ -126,8 +142,31 @@ Hack23 AB practices **radical transparency** - we publish complete ISMS document
 1.  **Create Internal Version:** The complete document is created as the "source of truth."
 2.  **Create Public Version:** An identical copy is made for public release.
 3.  **Apply Minimal Redactions:** Only specific sensitive VALUES are replaced with `[REDACTED]` - structure and content remain intact.
-4.  **Review:** The CEO reviews to ensure only appropriate values are redacted.
-5.  **Publish:** The document is published to the public GitHub repository.
+4.  **Add Redaction Header:** Public versions include standardized header badges and notice (see below).
+5.  **Review:** The CEO reviews to ensure only appropriate values are redacted.
+6.  **Publish:** The document is published to the public GitHub repository.
+
+### ISMS-PUBLIC Header Requirements
+
+All documents in the [ISMS-PUBLIC](https://github.com/Hack23/ISMS-PUBLIC) repository must include the following elements after the standard document badges:
+
+**Required Header Badges:**
+```markdown
+<p align="center">
+  <a href="https://github.com/Hack23/ISMS/blob/main/ISMS_Transparency_Plan.md"><img src="https://img.shields.io/badge/🔓_PUBLIC_REDACTED_VERSION-Per_Transparency_Plan-blue?style=for-the-badge" alt="Public Redacted Version"/></a>
+  <a href="https://github.com/Hack23/ISMS/blob/main/ISMS_Transparency_Plan.md"><img src="https://img.shields.io/badge/📋_Redaction_Policy-ISMS__Transparency__Plan-informational?style=for-the-badge" alt="Transparency Plan"/></a>
+</p>
+```
+
+**Required Redaction Notice:**
+```markdown
+> ⚠️ **PUBLIC REDACTED VERSION:** This document has been redacted per our [ISMS Transparency Plan](https://github.com/Hack23/ISMS/blob/main/ISMS_Transparency_Plan.md). Sensitive values are replaced with `[REDACTED]`. Complete unredacted version maintained in private ISMS repository.
+```
+
+**Document-Specific Redaction Notices:**
+- **Asset Register:** "Sensitive values (personal emails, account IDs, financial amounts)"
+- **Risk Register:** "Sensitive values (financial impact amounts, ALE/SLE/VaR figures)"
+- **Supplier Security Posture:** "Sensitive values (contract pricing, monthly costs, financial impact amounts)"
 
 ### Redaction Examples
 - **Credentials:** `password: "abc123"` becomes `password: [REDACTED]`
@@ -185,21 +224,29 @@ Our systematic approach includes:
 
 ## 📚 Related Documents
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Master security policy framework
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Information classification and handling requirements
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic transparency direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Master security policy framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI-assisted transparency reporting and documentation
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Information classification and handling requirements
 - [📋 Style Guide](./STYLE_GUIDE.md) - Documentation standards and formatting requirements
+
+### 🔐 Security Policies & Controls
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Public security architecture requirements
+- [🔓 Open Source Policy](./Open_Source_Policy.md) - Open source transparency governance
+
+### ⚙️ Operational Integration
 - [💻 Asset Register](./Asset_Register.md) - Public asset inventory
 - [🔗 Supplier Security Posture](./SUPPLIER.md) - Public supplier assessments
 - [📉 Risk Register](./Risk_Register.md) - Public risk documentation
-- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Public security architecture requirements
-- [🔓 Open Source Policy](./Open_Source_Policy.md) - Open source transparency governance
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-11-17   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25   
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
+

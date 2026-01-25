@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--26-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2025-11-26 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-05-18
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-07-25
 
 ---
 
@@ -25,7 +25,7 @@
 
 **🏢 Hack23 AB's** external stakeholder registry demonstrates how **🔧 systematic relationship management directly enables both regulatory compliance and business innovation.** Our 📊 comprehensive stakeholder framework serves as evidence of our commitment to transparent cybersecurity leadership while ensuring rapid response capabilities during security incidents and business disruptions.
 
-This registry establishes mandatory contact procedures with authorities and professional communities based on our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) and integrates with our [🚨 Incident Response Plan](./Incident_Response_Plan.md) for coordinated crisis communication.
+This registry establishes mandatory contact procedures with authorities and professional communities based on our [🏷️ Classification Framework](./CLASSIFICATION.md) and integrates with our [🚨 Incident Response Plan](./Incident_Response_Plan.md) for coordinated crisis communication.
 
 Our commitment to transparency means this stakeholder engagement becomes a competitive differentiator, demonstrating to potential clients how proper external relationship management enables rather than constrains cybersecurity consulting excellence.
 
@@ -71,7 +71,7 @@ This registry covers:
 }%%
 flowchart TD
     subgraph NATIONAL["🇸🇪 National Authorities"]
-        MSB[🛡️ MSB<br/>Swedish Civil Contingencies<br/>Cybersecurity Authority]
+        MCF[🛡️ MCF<br/>Swedish Civil Defence<br/>Cybersecurity Authority]
         PTS[📡 PTS<br/>Post & Telecom Authority<br/>NIS2 Supervision]
         IMY[🔒 IMY<br/>Privacy Protection Authority<br/>GDPR Supervision]
         SKAT[💰 Skatteverket<br/>Swedish Tax Agency<br/>Business Registration]
@@ -98,7 +98,7 @@ flowchart TD
         STANDARD[🟡 Standard<br/><72 hours]
     end
     
-    MSB --> CYBER
+    MCF --> CYBER
     IMY --> PRIVACY
     SKAT --> TAX
     PTS --> TELECOM
@@ -113,7 +113,7 @@ flowchart TD
     AI_INCIDENT --> URGENT
     AI_COMPLIANCE --> STANDARD
     
-    style MSB fill:#D32F2F
+    style MCF fill:#D32F2F
     style IMY fill:#4CAF50
     style PTS fill:#1565C0
     style SKAT fill:#FF9800
@@ -122,29 +122,29 @@ flowchart TD
     style ENISA fill:#7B1FA2
 ```
 
-#### **🛡️ Myndigheten för samhällsskydd och beredskap (MSB)**
-**Primary Role:** National cybersecurity authority and incident coordination
+#### **🛡️ Myndigheten för civilt försvar (MCF)**
+**Primary Role:** National cybersecurity authority and incident coordination (formerly MSB, renamed January 1, 2026)
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **🚨 Incident Reporting** | [CERT-SE](https://cert.se/) via secure portal | Critical cybersecurity incidents | [![Immediate](https://img.shields.io/badge/Response-Immediate-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📧 General Contact** | cert@cert.se | Non-urgent cybersecurity matters | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📞 Emergency Hotline** | Available via CERT-SE portal | Active ongoing incidents | [![Immediate](https://img.shields.io/badge/Response-Immediate-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 Cybernode Network** | cybernode@ri.se | MSB cybersecurity briefings (bi-weekly Fridays 08:30-08:50) | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🚨 Incident Reporting** | [CERT-SE](https://cert.se/) via secure portal | Critical cybersecurity incidents | [![Immediate](https://img.shields.io/badge/Response-Immediate-red?style=flat-square)](./CLASSIFICATION.md) |
+| **📧 General Contact** | cert@cert.se | Non-urgent cybersecurity matters | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **📞 Emergency Hotline** | Available via CERT-SE portal | Active ongoing incidents | [![Immediate](https://img.shields.io/badge/Response-Immediate-red?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 Cybernode Network** | cybernode@ri.se | MCF cybersecurity briefings (bi-weekly Fridays 08:30-08:50) | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Reporting Obligations:**
 - **NIS2 Directive Implementation:** Significant cybersecurity incidents affecting essential services
 - **National Cybersecurity Strategy:** Threat intelligence sharing and coordination
-- **Cybernode Participation:** Regular attendance at MSB digital briefings for external cybersecurity network
+- **Cybernode Participation:** Regular attendance at MCF digital briefings for external cybersecurity network
 
 #### **🔒 Integritetsskyddsmyndigheten (IMY)**
 **Primary Role:** GDPR supervision and data protection authority
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **📋 Data Breach Notification** | [IMY Portal](https://www.imy.se/) | Personal data breaches (Art. 33 GDPR) | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📧 General Inquiries** | imy@imy.se | GDPR compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📞 Phone Support** | +46 8 657 61 00 | Urgent data protection matters | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📋 Data Breach Notification** | [IMY Portal](https://www.imy.se/) | Personal data breaches (Art. 33 GDPR) | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📧 General Inquiries** | imy@imy.se | GDPR compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **📞 Phone Support** | +46 8 657 61 00 | Urgent data protection matters | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](./CLASSIFICATION.md) |
 
 **Reporting Obligations:**
 - **72-hour breach notification** for personal data incidents per [🚨 Incident Response Plan](./Incident_Response_Plan.md)
@@ -155,8 +155,8 @@ flowchart TD
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **🌐 NIS2 Reporting** | [PTS Portal](https://www.pts.se/) | Significant network/information system incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📧 General Contact** | pts@pts.se | Telecom and digital service matters | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🌐 NIS2 Reporting** | [PTS Portal](https://www.pts.se/) | Significant network/information system incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📧 General Contact** | pts@pts.se | Telecom and digital service matters | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Reporting Obligations:**
 - **NIS2 incident reporting** for essential and important entities (when applicable)
@@ -167,8 +167,8 @@ flowchart TD
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **💼 Business Portal** | [Skatteverket.se](https://www.skatteverket.se/) | VAT reporting, business registration | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📞 Business Hotline** | 0771-567 567 | Tax and business compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **💼 Business Portal** | [Skatteverket.se](https://www.skatteverket.se/) | VAT reporting, business registration | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **📞 Business Hotline** | 0771-567 567 | Tax and business compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Reporting Obligations:**
 - **Monthly VAT reporting** via digital portal
@@ -181,8 +181,8 @@ flowchart TD
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **📧 General Contact** | info@enisa.europa.eu | EU cybersecurity initiatives and guidance | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🌐 Threat Landscape** | [ENISA Threat Landscape Reports](https://www.enisa.europa.eu/) | Strategic threat intelligence | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📧 General Contact** | info@enisa.europa.eu | EU cybersecurity initiatives and guidance | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🌐 Threat Landscape** | [ENISA Threat Landscape Reports](https://www.enisa.europa.eu/) | Strategic threat intelligence | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Engagement Areas:**
 - **EU Cybersecurity Strategy** implementation and best practices
@@ -193,9 +193,9 @@ flowchart TD
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **📧 AI Act Queries** | [AI Act Implementation Portal](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence) | EU AI Act compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🚨 AI Incident Reporting** | Via national competent authorities | Serious AI system incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📋 Conformity Assessment** | [AI Office Portal](https://digital-strategy.ec.europa.eu/en/policies/ai-office) | High-risk AI system notifications | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📧 AI Act Queries** | [AI Act Implementation Portal](https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence) | EU AI Act compliance questions | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🚨 AI Incident Reporting** | Via national competent authorities | Serious AI system incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📋 Conformity Assessment** | [AI Office Portal](https://digital-strategy.ec.europa.eu/en/policies/ai-office) | High-risk AI system notifications | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Reporting Obligations:**
 - **AI Act Article 62:** Serious incident reporting for high-risk AI systems
@@ -207,8 +207,8 @@ flowchart TD
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **📧 Technical Guidance** | Via EU AI Office channels | AI Act technical interpretation | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔍 Market Surveillance** | Coordination with national authorities | AI system compliance monitoring | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📧 Technical Guidance** | Via EU AI Office channels | AI Act technical interpretation | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🔍 Market Surveillance** | Coordination with national authorities | AI system compliance monitoring | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Engagement Areas:**
 - **AI Act Guidelines** and technical standards development
@@ -222,8 +222,8 @@ flowchart TD
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|
-| **🚨 Incident Reporting** | [CISA Incident Reporting](https://www.cisa.gov/report) | Significant international incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📊 Threat Intelligence** | [CISA Advisories](https://www.cisa.gov/advisories) | Proactive threat monitoring | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🚨 Incident Reporting** | [CISA Incident Reporting](https://www.cisa.gov/report) | Significant international incidents | [![Urgent](https://img.shields.io/badge/Response-Urgent-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📊 Threat Intelligence** | [CISA Advisories](https://www.cisa.gov/advisories) | Proactive threat monitoring | [![Standard](https://img.shields.io/badge/Response-Standard-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Engagement Areas:**
 - **International cybersecurity cooperation** and threat sharing
@@ -237,9 +237,9 @@ flowchart TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **📋 Research Monitoring** | AI ethics guidelines and best practices publications | EU AI Act alignment and responsible AI development guidance | [![Quarterly](https://img.shields.io/badge/Monitoring-Quarterly-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔬 Publication Access** | AI safety and bias research publications | Evidence-based AI risk management insights | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 Framework Monitoring** | AI accountability framework development tracking | Alignment with emerging AI regulations | [![Semi-Annual](https://img.shields.io/badge/Review-Semi--Annual-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **📋 Research Monitoring** | AI ethics guidelines and best practices publications | EU AI Act alignment and responsible AI development guidance | [![Quarterly](https://img.shields.io/badge/Monitoring-Quarterly-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **🔬 Publication Access** | AI safety and bias research publications | Evidence-based AI risk management insights | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 Framework Monitoring** | AI accountability framework development tracking | Alignment with emerging AI regulations | [![Semi-Annual](https://img.shields.io/badge/Review-Semi--Annual-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 **Business Impact:**
 - **⚖️ Compliance Awareness:** Proactive awareness of evolving AI governance requirements
@@ -251,9 +251,9 @@ flowchart TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **🔒 Framework Monitoring** | AI-specific security controls and standards tracking | Enhanced AI system security awareness | [![Quarterly](https://img.shields.io/badge/Review-Quarterly-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🚨 Publication Monitoring** | AI-specific attack vectors and mitigations research | Proactive AI security threat awareness | [![Continuous](https://img.shields.io/badge/Monitoring-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📊 Threat Intelligence Access** | AI system vulnerability information | Knowledge of emerging AI threats | [![Continuous](https://img.shields.io/badge/Access-Continuous-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔒 Framework Monitoring** | AI-specific security controls and standards tracking | Enhanced AI system security awareness | [![Quarterly](https://img.shields.io/badge/Review-Quarterly-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **🚨 Publication Monitoring** | AI-specific attack vectors and mitigations research | Proactive AI security threat awareness | [![Continuous](https://img.shields.io/badge/Monitoring-Continuous-green?style=flat-square)](./CLASSIFICATION.md) |
+| **📊 Threat Intelligence Access** | AI system vulnerability information | Knowledge of emerging AI threats | [![Continuous](https://img.shields.io/badge/Access-Continuous-orange?style=flat-square)](./CLASSIFICATION.md) |
 
 **Business Impact:**
 - **🛡️ Security Awareness:** AI-specific threat protection knowledge
@@ -297,10 +297,10 @@ flowchart TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **🏢 Full-Day Workshops** | 2-3 annual full-day workshops hosted by member organizations (Chatham House Rule) | Deep-dive into practical OSPO topics with peer organizations | [![Annual](https://img.shields.io/badge/Workshops-2--3_per_year-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🎯 Gothenburg Events** | Regional OSPO workshops (hosted by Ericsson, RISE, Volvo Cars) | Local professional community engagement with major Swedish organizations | [![Selective](https://img.shields.io/badge/Participation-Selective-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📡 National Coordination** | Facilitated by coordination group (RISE, Ericsson, Sony, Sundsvalls kommun) | Align with national open source initiatives and governance standards | [![Continuous](https://img.shields.io/badge/Monitoring-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 Community Collaboration** | Mailing list and asynchronous communication (Chatham House Rule) | Safe environment for sharing challenges and best practices | [![Active](https://img.shields.io/badge/Engagement-Active-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🏢 Full-Day Workshops** | 2-3 annual full-day workshops hosted by member organizations (Chatham House Rule) | Deep-dive into practical OSPO topics with peer organizations | [![Annual](https://img.shields.io/badge/Workshops-2--3_per_year-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🎯 Gothenburg Events** | Regional OSPO workshops (hosted by Ericsson, RISE, Volvo Cars) | Local professional community engagement with major Swedish organizations | [![Selective](https://img.shields.io/badge/Participation-Selective-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **📡 National Coordination** | Facilitated by coordination group (RISE, Ericsson, Sony, Sundsvalls kommun) | Align with national open source initiatives and governance standards | [![Continuous](https://img.shields.io/badge/Monitoring-Continuous-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 Community Collaboration** | Mailing list and asynchronous communication (Chatham House Rule) | Safe environment for sharing challenges and best practices | [![Active](https://img.shields.io/badge/Engagement-Active-green?style=flat-square)](./CLASSIFICATION.md) |
 
 **Network Focus:** Swedish Open Source Program Offices and organizations establishing open source governance
 
@@ -355,7 +355,7 @@ graph TD
     
     subgraph NORDIC["🇸🇪 Nordic/Swedish Networks"]
         CYBERNODE[🤝 Cybernode.se<br/>Swedish Cybersecurity Network<br/>AI & Cybersecurity Working Group - MEMBER]
-        MSB_NET[📡 MSB External Network<br/>Government Cybersecurity Briefings]
+        MCF_NET[📡 MCF External Network<br/>Government Cybersecurity Briefings]
         NOSAD[🇸🇪 Swedish OSPO Network<br/>NOSAD Open Source Community<br/>Gothenburg Events - PARTICIPANT]
     end
     
@@ -372,7 +372,7 @@ graph TD
     ISC2 --> EDUCATION
     SIGSEC --> INTELLIGENCE
     CYBERNODE --> NETWORKING
-    MSB_NET --> INTELLIGENCE
+    MCF_NET --> INTELLIGENCE
     PAI -.-> AI_MONITORING
     AI_SEC -.-> AI_MONITORING
     OSPO_ALLIANCE --> OSPO_KNOWLEDGE
@@ -400,9 +400,9 @@ graph TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **🏆 CISM Certification** | Certified Information Security Manager | Executive-level security management expertise | [![Annual CPE](https://img.shields.io/badge/CPE-Annual_Requirements-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📚 Professional Development** | ISACA conferences, webinars, research | Latest security governance practices | [![Quarterly](https://img.shields.io/badge/Engagement-Quarterly-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 Local Chapter** | Nordic/Stockholm ISACA chapter | Regional networking and compliance insights | [![Monthly](https://img.shields.io/badge/Meetings-Monthly-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🏆 CISM Certification** | Certified Information Security Manager | Executive-level security management expertise | [![Annual CPE](https://img.shields.io/badge/CPE-Annual_Requirements-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **📚 Professional Development** | ISACA conferences, webinars, research | Latest security governance practices | [![Quarterly](https://img.shields.io/badge/Engagement-Quarterly-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 Local Chapter** | Nordic/Stockholm ISACA chapter | Regional networking and compliance insights | [![Monthly](https://img.shields.io/badge/Meetings-Monthly-orange?style=flat-square)](./CLASSIFICATION.md) |
 
 **Business Impact:**
 - **🏆 Competitive Advantage:** CISM certification demonstrates enterprise-grade security management expertise
@@ -414,9 +414,9 @@ graph TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **🎖️ CISSP Certification** | Certified Information Systems Security Professional | Technical security expertise across all domains | [![Annual CPE](https://img.shields.io/badge/CPE-Annual_Requirements-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📊 Research & Resources** | (ISC)² research papers, threat reports | Evidence-based security practices | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🌍 Global Community** | International cybersecurity professional network | Global threat intelligence and best practices | [![Active](https://img.shields.io/badge/Participation-Active-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🎖️ CISSP Certification** | Certified Information Systems Security Professional | Technical security expertise across all domains | [![Annual CPE](https://img.shields.io/badge/CPE-Annual_Requirements-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **📊 Research & Resources** | (ISC)² research papers, threat reports | Evidence-based security practices | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](./CLASSIFICATION.md) |
+| **🌍 Global Community** | International cybersecurity professional network | Global threat intelligence and best practices | [![Active](https://img.shields.io/badge/Participation-Active-orange?style=flat-square)](./CLASSIFICATION.md) |
 **Business Impact:**
 - **💡 Innovation Enablement:** Access to cutting-edge security research and methodologies
 - **🛡️ Risk Reduction:** Proven security expertise across all technical domains
@@ -427,9 +427,9 @@ graph TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **🎓 Academic Research** | Security research publications and collaboration | Thought leadership and innovation insights | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📝 Research Contributions** | Security research papers and methodologies | Demonstrable expertise and thought leadership | [![Periodic](https://img.shields.io/badge/Contributions-Periodic-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 Academic Network** | University researchers and security academics | Cutting-edge security research and innovation | [![Active](https://img.shields.io/badge/Collaboration-Active-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🎓 Academic Research** | Security research publications and collaboration | Thought leadership and innovation insights | [![Continuous](https://img.shields.io/badge/Access-Continuous-green?style=flat-square)](./CLASSIFICATION.md) |
+| **📝 Research Contributions** | Security research papers and methodologies | Demonstrable expertise and thought leadership | [![Periodic](https://img.shields.io/badge/Contributions-Periodic-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 Academic Network** | University researchers and security academics | Cutting-edge security research and innovation | [![Active](https://img.shields.io/badge/Collaboration-Active-green?style=flat-square)](./CLASSIFICATION.md) |
 
 **Business Impact:**
 - **💡 Innovation Enablement:** Early access to emerging security research and trends
@@ -443,10 +443,10 @@ graph TD
 
 | Engagement Type | Details | Business Value | Frequency |
 |-----------------|---------|----------------|-----------|
-| **🤖 AI & Cybersecurity Working Group** | Temagruppen AI och cybersäkerhet | AI security expertise and innovation | [![Monthly](https://img.shields.io/badge/Meetings-Monthly-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🏢 Swedish Industry Network** | National cybersecurity professional community | Local market intelligence and partnerships | [![Active](https://img.shields.io/badge/Participation-Active-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **📡 MSB Coordination** | Access to MSB digital briefings via Cybernode | Government threat intelligence and policy updates | [![Bi-weekly](https://img.shields.io/badge/Briefings-Bi--weekly-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🌐 Industry Collaboration** | Cross-sector cybersecurity initiatives | Best practice sharing and joint initiatives | [![Continuous](https://img.shields.io/badge/Collaboration-Continuous-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🤖 AI & Cybersecurity Working Group** | Temagruppen AI och cybersäkerhet | AI security expertise and innovation | [![Monthly](https://img.shields.io/badge/Meetings-Monthly-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🏢 Swedish Industry Network** | National cybersecurity professional community | Local market intelligence and partnerships | [![Active](https://img.shields.io/badge/Participation-Active-green?style=flat-square)](./CLASSIFICATION.md) |
+| **📡 MCF Coordination** | Access to MCF digital briefings via Cybernode | Government threat intelligence and policy updates | [![Bi-weekly](https://img.shields.io/badge/Briefings-Bi--weekly-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **🌐 Industry Collaboration** | Cross-sector cybersecurity initiatives | Best practice sharing and joint initiatives | [![Continuous](https://img.shields.io/badge/Collaboration-Continuous-green?style=flat-square)](./CLASSIFICATION.md) |
 
 **Business Impact:**
 - **🤝 Partnership Value:** Direct access to Swedish cybersecurity market and potential clients
@@ -454,10 +454,10 @@ graph TD
 - **💡 Innovation Enablement:** AI and cybersecurity integration expertise
 - **🛡️ Risk Reduction:** Government-coordinated threat awareness and response
 
-**MSB Briefing Schedule:**
+**MCF Briefing Schedule:**
 - **📅 Schedule:** Every other Friday, even weeks, 08:30-08:50
 - **📧 Access:** Contact cybernode@ri.se for meeting invitations
-- **📋 Content:** MSB cybersecurity situational awareness, two-week threat landscape summary
+- **📋 Content:** MCF cybersecurity situational awareness, two-week threat landscape summary
 - **📝 Follow-up:** Summary distribution post-meeting to all participants
 
 ---
@@ -491,7 +491,7 @@ flowchart TD
     end
     
     subgraph AUTHORITIES["🏛️ Authority Notification"]
-        MSB_CERT[🛡️ MSB/CERT-SE<br/>Immediate]
+        MCF_CERT[🛡️ MCF/CERT-SE<br/>Immediate]
         IMY_GDPR[🔒 IMY<br/>72 hours]
         PTS_NIS[📡 PTS<br/>24 hours]
         ENISA[🇪🇺 ENISA<br/>Coordination]
@@ -509,12 +509,12 @@ flowchart TD
         PAI_MONITOR[🤖 Partnership on AI<br/>Incident Pattern Analysis]
     end
     
-    CRITICAL --> MSB_CERT
+    CRITICAL --> MCF_CERT
     CRITICAL --> IMY_GDPR
     CRITICAL --> PTS_NIS
     CRITICAL --> ENISA
     
-    HIGH --> MSB_CERT
+    HIGH --> MCF_CERT
     HIGH --> IMY_GDPR
     HIGH --> CYBERNODE_ALERT
     
@@ -525,7 +525,7 @@ flowchart TD
     LOW --> ACADEMIC
     
     AI_SERIOUS --> EU_AI_AUTH
-    AI_SERIOUS --> MSB_CERT
+    AI_SERIOUS --> MCF_CERT
     AI_SERIOUS -.-> AI_SEC_MONITOR
     AI_SERIOUS -.-> PAI_MONITOR
     
@@ -541,17 +541,17 @@ flowchart TD
 
 | Authority | Notification Method | Information Required | Follow-up Actions |
 |-----------|-------------------|---------------------|------------------|
-| **🛡️ MSB/CERT-SE** | Secure portal + phone | Full incident details, impact assessment | Technical coordination, threat intelligence sharing |
+| **🛡️ MCF/CERT-SE** | Secure portal + phone | Full incident details, impact assessment | Technical coordination, threat intelligence sharing |
 | **🔒 IMY** | GDPR portal + email | Personal data breach scope, affected individuals | Formal breach notification, corrective measures |
 | **📡 PTS** | NIS2 portal | Network/system impact, service disruption | Regulatory compliance verification |
-| **🇪🇺 ENISA** | Via MSB coordination | Cross-border implications | EU-wide threat coordination |
+| **🇪🇺 ENISA** | Via MCF coordination | Cross-border implications | EU-wide threat coordination |
 
 #### **High Incident Notification (🟠)**
 **Timeframe:** Urgent (≤24 hours)
 
 | Authority | Notification Method | Information Required | Follow-up Actions |
 |-----------|-------------------|---------------------|------------------|
-| **🛡️ MSB/CERT-SE** | Secure portal | Incident summary, potential national impact | Threat assessment, guidance |
+| **🛡️ MCF/CERT-SE** | Secure portal | Incident summary, potential national impact | Threat assessment, guidance |
 | **🔒 IMY** | GDPR portal | Data protection impact assessment | Compliance monitoring |
 | **🤝 Cybernode** | Network alert | Threat indicators, protection measures | Community threat sharing |
 
@@ -573,7 +573,7 @@ flowchart TD
 sequenceDiagram
     participant CEO as 👨‍💼 CEO
     participant SYSTEMS as 💻 Systems
-    participant MSB as 🛡️ MSB/CERT-SE
+    participant MCF as 🛡️ MCF/CERT-SE
     participant IMY as 🔒 IMY
     participant EU_AI as 🤖 EU AI Authorities
     participant COMMUNITY as 🤝 Community
@@ -582,8 +582,8 @@ sequenceDiagram
     CEO->>CEO: 📊 Classify Incident Severity & Type
     
     alt Critical/High Incident
-        CEO->>MSB: 📞 Immediate Notification
-        MSB-->>CEO: 📋 Incident Reference Number
+        CEO->>MCF: 📞 Immediate Notification
+        MCF-->>CEO: 📋 Incident Reference Number
         
         CEO->>IMY: 📧 GDPR Assessment
         IMY-->>CEO: ✅ Compliance Confirmation
@@ -609,27 +609,27 @@ sequenceDiagram
 
 ### 🎯 **Strategic Relationship Management**
 
-Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) stakeholder analysis:
+Based on [🏷️ Classification Framework](./CLASSIFICATION.md) stakeholder analysis:
 
 | Stakeholder Category | Influence Level | Engagement Frequency | Communication Channel | Business Impact |
 |---------------------|----------------|---------------------|----------------------|-----------------|
-| **🏛️ Regulatory Authorities** | [![Very High](https://img.shields.io/badge/Influence-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Incident-driven + Quarterly | Official portals, secure email | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤝 Professional Organizations** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monthly engagement | Member portals, events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🇸🇪 National Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Bi-weekly + Monthly | Network communications | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔓 OSPO Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Bi-monthly + Event-based | Online meetings, local events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔐 Research Community** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Continuous access | Academic platforms | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🤖 AI Intelligence Sources** | [![Low](https://img.shields.io/badge/Influence-Low-lightgray?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monitoring only | Public publications, reports | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🌍 International Bodies** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Quarterly monitoring | Public resources | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🏛️ Regulatory Authorities** | [![Very High](https://img.shields.io/badge/Influence-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md) | Incident-driven + Quarterly | Official portals, secure email | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=flat-square)](./CLASSIFICATION.md) |
+| **🤝 Professional Organizations** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](./CLASSIFICATION.md) | Monthly engagement | Member portals, events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🇸🇪 National Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](./CLASSIFICATION.md) | Bi-weekly + Monthly | Network communications | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🔓 OSPO Networks** | [![High](https://img.shields.io/badge/Influence-High-blue?style=flat-square)](./CLASSIFICATION.md) | Bi-monthly + Event-based | Online meetings, local events | [![High](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **🔐 Research Community** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](./CLASSIFICATION.md) | Continuous access | Academic platforms | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) |
+| **🤖 AI Intelligence Sources** | [![Low](https://img.shields.io/badge/Influence-Low-lightgray?style=flat-square)](./CLASSIFICATION.md) | Monitoring only | Public publications, reports | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=flat-square)](./CLASSIFICATION.md) |
+| **🌍 International Bodies** | [![Moderate](https://img.shields.io/badge/Influence-Moderate-orange?style=flat-square)](./CLASSIFICATION.md) | Quarterly monitoring | Public resources | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) |
 
 ### 📅 **Annual Engagement Calendar**
 
 | Quarter | Primary Activities | Key Deliverables | Success Metrics |
 |---------|-------------------|------------------|-----------------|
-| **Q3 2025** | MSB briefing participation, ISACA chapter engagement | Cybernode active membership visibility | [![Active](https://img.shields.io/badge/Status-Active-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Q3 2025** | Professional certification maintenance, IMY compliance review | CPE requirements completion | [![Compliant](https://img.shields.io/badge/Status-Compliant-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Q4 2025** | AI & Cybersecurity working group leadership, OSPO Alliance membership activation | Thought leadership contributions, OSPO OnRamp participation | [![Leading](https://img.shields.io/badge/Status-Leading-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Q4 2025** | Annual compliance reporting, stakeholder review, Swedish OSPO network engagement | Registry updates, relationship assessment, NOSAD event attendance | [![Updated](https://img.shields.io/badge/Status-Updated-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Q1 2026** | OSPO OnRamp continued participation, Swedish OSPO meetup attendance | Open source governance best practices adoption | [![Engaged](https://img.shields.io/badge/Status-Engaged-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **Q3 2025** | MCF briefing participation, ISACA chapter engagement | Cybernode active membership visibility | [![Active](https://img.shields.io/badge/Status-Active-green?style=flat-square)](./CLASSIFICATION.md) |
+| **Q3 2025** | Professional certification maintenance, IMY compliance review | CPE requirements completion | [![Compliant](https://img.shields.io/badge/Status-Compliant-blue?style=flat-square)](./CLASSIFICATION.md) |
+| **Q4 2025** | AI & Cybersecurity working group leadership, OSPO Alliance membership activation | Thought leadership contributions, OSPO OnRamp participation | [![Leading](https://img.shields.io/badge/Status-Leading-purple?style=flat-square)](./CLASSIFICATION.md) |
+| **Q4 2025** | Annual compliance reporting, stakeholder review, Swedish OSPO network engagement | Registry updates, relationship assessment, NOSAD event attendance | [![Updated](https://img.shields.io/badge/Status-Updated-orange?style=flat-square)](./CLASSIFICATION.md) |
+| **Q1 2026** | OSPO OnRamp continued participation, Swedish OSPO meetup attendance | Open source governance best practices adoption | [![Engaged](https://img.shields.io/badge/Status-Engaged-green?style=flat-square)](./CLASSIFICATION.md) |
 
 ---
 
@@ -655,7 +655,7 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 |-----------------|-----|--------|-------------------|------------------|
 | **🚨 Incident Response** | Authority notification time | <4 hours critical | Incident response logs | Per incident |
 | **🤝 Professional Engagement** | CPE requirements compliance | 100% on time | Certification tracking | Annual |
-| **🇸🇪 Network Participation** | MSB briefing attendance | >80% sessions | Meeting logs | Quarterly |
+| **🇸🇪 Network Participation** | MCF briefing attendance | >80% sessions | Meeting logs | Quarterly |
 | **📊 Stakeholder Satisfaction** | Relationship effectiveness | High value rating | Annual survey | Annual |
 | **🔄 Registry Currency** | Contact accuracy | 100% verified | Quarterly validation | Quarterly |
 
@@ -677,14 +677,21 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 
 ## 📚 **Related Documents**
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall governance framework and stakeholder management principles
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Detailed incident coordination procedures and authority notification requirements
-- [✅ Compliance Checklist](./Compliance_Checklist.md) — Regulatory compliance tracking and authority relationship requirements
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Business impact analysis and stakeholder influence assessment
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic stakeholder engagement direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall governance framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI-assisted stakeholder communication and relationship management
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Business impact analysis and stakeholder influence assessment
 - [📉 Risk Register](./Risk_Register.md) — Risk identification including regulatory and stakeholder relationship risks
+- [✅ Compliance Checklist](./Compliance_Checklist.md) — Regulatory compliance tracking and authority relationship requirements
+
+### 🔐 Security Policies & Controls
 - [🤝 Third Party Management](./Third_Party_Management.md) — Supplier and partner relationship management procedures
 - [🤝 Partnership Framework](./Partnership_Framework.md) — Strategic partnership development and management
 - [🔓 Open Source Policy](./Open_Source_Policy.md) — Open source governance and community engagement
+
+### ⚙️ Operational Integration
+- [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Detailed incident coordination procedures and authority notification requirements
 - [💻 Asset Register](./Asset_Register.md) — Complete asset inventory including stakeholder-dependent systems
 - [📊 Security Metrics](./Security_Metrics.md) — Performance measurement including stakeholder relationship KPIs
 - [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) — Crisis communication and stakeholder coordination during disruptions
@@ -695,7 +702,7 @@ Based on [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLI
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-26  
-**⏰ Next Review:** 2026-05-18   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-07-25   
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

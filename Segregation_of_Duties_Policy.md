@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--24-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2025-11-24 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-24
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -546,15 +546,22 @@ Validation results are reported in:
 
 ## 📚 **Related Documents**
 
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall ISMS framework
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic SoD direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall ISMS framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI-assisted compensating controls and automation
+- [📉 Risk Register](./Risk_Register.md) - Risk assessment and acceptance documentation
+- [✅ Compliance Checklist](./Compliance_Checklist.md) - ISO 27001:2022 A.5.3, SOC 2 CC6.8 compliance
+
+### 🔐 Security Policies & Controls
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Least privilege and access reviews
 - [📝 Change Management](./Change_Management.md) - Change approval workflows
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Incident handling separation
-- [📉 Risk Register](./Risk_Register.md) - Risk assessment and acceptance documentation
-- [📊 Security Metrics](./Security_Metrics.md) - SoD compliance monitoring metrics
 - [🔍 Vulnerability Management](./Vulnerability_Management.md) - Vulnerability and remediation separation
 - [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) - Backup and restore validation separation
-- [✅ Compliance Checklist](./Compliance_Checklist.md) - ISO 27001:2022 A.5.3, SOC 2 CC6.8 compliance
+
+### ⚙️ Operational Integration
+- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Incident handling separation
+- [📊 Security Metrics](./Security_Metrics.md) - SoD compliance monitoring metrics
 - [🔍 SoD Compensating Controls Validation Checklist](./templates/SoD_Compensating_Controls_Validation_Checklist.md) - Quarterly validation checklist
 
 ---
@@ -562,7 +569,7 @@ Validation results are reported in:
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** All Personnel, External Auditors  
-**🏷️ Classification:** [![Confidentiality: Low](https://img.shields.io/badge/C-Low-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-24  
-**⏰ Next Review:** 2026-11-24  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![SOC 2](https://img.shields.io/badge/SOC_2-CC6.8_Compliant-purple?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Low](https://img.shields.io/badge/C-Low-green?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![SOC 2](https://img.shields.io/badge/SOC_2-CC6.8_Compliant-purple?style=flat-square)](./CLASSIFICATION.md)

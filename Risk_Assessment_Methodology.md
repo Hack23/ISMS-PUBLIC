@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--08--20-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-08-20 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2025-11-20
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
 
 ---
 
@@ -37,13 +37,13 @@ Our commitment to transparency means our risk assessment practices become a show
 
 This methodology establishes the quantitative framework for assessing all risks within Hack23 AB's enterprise risk management program, ensuring consistent evaluation, prioritization, and treatment of risks across all business functions.
 
-**Scope:** All risk assessments supporting the [Risk Register](./Risk_Register.md), integrated with [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) impact levels, and applied to assets in the [Asset Register](./Asset_Register.md).
+**Scope:** All risk assessments supporting the [Risk Register](./Risk_Register.md), integrated with [Classification Framework](./CLASSIFICATION.md) impact levels, and applied to assets in the [Asset Register](./Asset_Register.md).
 
 ---
 
 ## 📊 **Quantitative Risk Scoring Framework**
 
-Risk assessment combines **probability (likelihood)** with **impact severity** using statistical methods aligned with our [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+Risk assessment combines **probability (likelihood)** with **impact severity** using statistical methods aligned with our [Classification Framework](./CLASSIFICATION.md):
 
 ### **📈 Likelihood Assessment Framework**
 
@@ -51,25 +51,25 @@ All risks are evaluated using descriptive probability categories with defined nu
 
 | Likelihood Category | Badge | Probability Range | Annual Frequency Range | ARO Range | Statistical Definition | Business Examples |
 |-------------------|-------|------------------|----------------------|-----------|----------------------|-------------------|
-| **🔥 Almost Certain** | [![Almost Certain](https://img.shields.io/badge/Likelihood-Almost_Certain-red?style=for-the-badge&logo=fire&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 80-99% | 292-361 events/year | 0.8-0.99 | >3 standard deviations above mean | Daily operational issues, routine maintenance |
-| **🎯 Likely** | [![Likely](https://img.shields.io/badge/Likelihood-Likely-orange?style=for-the-badge&logo=target&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 60-79% | 219-291 events/year | 0.6-0.79 | 1-3 standard deviations above mean | Weekly service disruptions, staff availability |
-| **⚖️ Possible** | [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 40-59% | 146-218 events/year | 0.4-0.59 | Within 1 standard deviation of mean | Monthly supplier issues, seasonal variations |
-| **🛡️ Unlikely** | [![Unlikely](https://img.shields.io/badge/Likelihood-Unlikely-lightgreen?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 20-39% | 73-145 events/year | 0.2-0.39 | 1-2 standard deviations below mean | Quarterly security incidents, annual changes |
-| **💎 Rare** | [![Rare](https://img.shields.io/badge/Likelihood-Rare-lightblue?style=for-the-badge&logo=gem&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 5-19% | 18-72 events/year | 0.05-0.19 | 2-3 standard deviations below mean | Multi-year events, rare external factors |
-| **🌟 Exceptional** | [![Exceptional](https://img.shields.io/badge/Likelihood-Exceptional-lightgrey?style=for-the-badge&logo=star&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | <5% | <18 events/year | <0.05 | >3 standard deviations below mean | Once-in-decade events, extreme scenarios |
+| **🔥 Almost Certain** | [![Almost Certain](https://img.shields.io/badge/Likelihood-Almost_Certain-red?style=for-the-badge&logo=fire&logoColor=white)](./CLASSIFICATION.md) | 80-99% | 292-361 events/year | 0.8-0.99 | >3 standard deviations above mean | Daily operational issues, routine maintenance |
+| **🎯 Likely** | [![Likely](https://img.shields.io/badge/Likelihood-Likely-orange?style=for-the-badge&logo=target&logoColor=white)](./CLASSIFICATION.md) | 60-79% | 219-291 events/year | 0.6-0.79 | 1-3 standard deviations above mean | Weekly service disruptions, staff availability |
+| **⚖️ Possible** | [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./CLASSIFICATION.md) | 40-59% | 146-218 events/year | 0.4-0.59 | Within 1 standard deviation of mean | Monthly supplier issues, seasonal variations |
+| **🛡️ Unlikely** | [![Unlikely](https://img.shields.io/badge/Likelihood-Unlikely-lightgreen?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md) | 20-39% | 73-145 events/year | 0.2-0.39 | 1-2 standard deviations below mean | Quarterly security incidents, annual changes |
+| **💎 Rare** | [![Rare](https://img.shields.io/badge/Likelihood-Rare-lightblue?style=for-the-badge&logo=gem&logoColor=white)](./CLASSIFICATION.md) | 5-19% | 18-72 events/year | 0.05-0.19 | 2-3 standard deviations below mean | Multi-year events, rare external factors |
+| **🌟 Exceptional** | [![Exceptional](https://img.shields.io/badge/Likelihood-Exceptional-lightgrey?style=for-the-badge&logo=star&logoColor=black)](./CLASSIFICATION.md) | <5% | <18 events/year | <0.05 | >3 standard deviations below mean | Once-in-decade events, extreme scenarios |
 
 ### **📊 Impact Assessment Framework**
 
-Building on our existing [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) impact levels:
+Building on our existing [Classification Framework](./CLASSIFICATION.md) impact levels:
 
 | Impact Category | Badge | Financial Range | Operational Description | Reputational Scope | Regulatory Consequences | Business Value Impact |
 |----------------|-------|----------------|------------------------|-------------------|----------------------|---------------------|
-| **🔥 Catastrophic** | [![Catastrophic](https://img.shields.io/badge/Impact-Catastrophic-black?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | >€50K/event | Complete business shutdown | International media coverage | Criminal charges, license revocation | **💰 Revenue protection** failure |
-| **🚨 Critical** | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=for-the-badge&logo=exclamation-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €10K-50K/event | Major service disruption | National media attention | Significant regulatory fines | **🔄 Operational excellence** compromise |
-| **⚠️ High** | [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €1K-10K/event | Significant degradation | Industry-wide attention | Moderate penalties | **🤝 Trust enhancement** challenges |
-| **🟡 Moderate** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €500-1K/event | Partial service impact | Regional visibility | Minor warnings | **⚙️ Operational efficiency** reduction |
-| **🟢 Low** | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €100-500/event | Minor inconvenience | Limited local impact | Verbal guidance | **💰 Cost efficiency** minor impact |
-| **⚪ Minimal** | [![Minimal](https://img.shields.io/badge/Impact-Minimal-lightgrey?style=for-the-badge&logo=circle&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | <€100/event | No significant impact | No external visibility | No regulatory implications | Negligible business impact |
+| **🔥 Catastrophic** | [![Catastrophic](https://img.shields.io/badge/Impact-Catastrophic-black?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./CLASSIFICATION.md) | >€50K/event | Complete business shutdown | International media coverage | Criminal charges, license revocation | **💰 Revenue protection** failure |
+| **🚨 Critical** | [![Critical](https://img.shields.io/badge/Impact-Critical-red?style=for-the-badge&logo=exclamation-circle&logoColor=white)](./CLASSIFICATION.md) | €10K-50K/event | Major service disruption | National media attention | Significant regulatory fines | **🔄 Operational excellence** compromise |
+| **⚠️ High** | [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./CLASSIFICATION.md) | €1K-10K/event | Significant degradation | Industry-wide attention | Moderate penalties | **🤝 Trust enhancement** challenges |
+| **🟡 Moderate** | [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./CLASSIFICATION.md) | €500-1K/event | Partial service impact | Regional visibility | Minor warnings | **⚙️ Operational efficiency** reduction |
+| **🟢 Low** | [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./CLASSIFICATION.md) | €100-500/event | Minor inconvenience | Limited local impact | Verbal guidance | **💰 Cost efficiency** minor impact |
+| **⚪ Minimal** | [![Minimal](https://img.shields.io/badge/Impact-Minimal-lightgrey?style=for-the-badge&logo=circle&logoColor=black)](./CLASSIFICATION.md) | <€100/event | No significant impact | No external visibility | No regulatory implications | Negligible business impact |
 
 ---
 
@@ -119,11 +119,11 @@ graph TD
     E -->|Score 50-99| I[🟢 Low Risk<br/>Monitor and accept]
     E -->|Score 1-49| J[⚪ Minimal Risk<br/>Accept risk]
     
-    style F fill:#ffebee,stroke:#c62828,stroke-width:3px
-    style G fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    style H fill:#fffde7,stroke:#f9a825,stroke-width:2px
-    style I fill:#e8f5e9,stroke:#2e7d32,stroke-width:1px
-    style J fill:#fafafa,stroke:#616161,stroke-width:1px
+    style F fill:#D32F2F,stroke:#c62828,stroke-width:3px
+    style G fill:#FF9800,stroke:#F57C00,stroke-width:2px
+    style H fill:#FFC107,stroke:#f9a825,stroke-width:2px
+    style I fill:#4CAF50,stroke:#2e7d32,stroke-width:1px
+    style J fill:#9E9E9E,stroke:#616161,stroke-width:1px
 ```
 
 ### **📈 Risk Level Categories with Descriptive Scoring**
@@ -152,19 +152,19 @@ Where:
 
 | Asset Category | Badge | Value Range | Typical Assets | Valuation Method |
 |----------------|-------|-------------|----------------|------------------|
-| **Mission Critical** | [![Mission Critical Assets](https://img.shields.io/badge/Assets-Mission_Critical-red?style=flat-square&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €100K-500K | Core infrastructure, customer data | Revenue impact + replacement cost |
-| **High Value** | [![High Value Assets](https://img.shields.io/badge/Assets-High_Value-orange?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €50K-100K | Business applications, IP | Development cost + competitive value |
-| **Standard** | [![Standard Assets](https://img.shields.io/badge/Assets-Standard-yellow?style=flat-square&logo=folder&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €10K-50K | Supporting systems, processes | Replacement cost + downtime |
-| **Low Value** | [![Low Value Assets](https://img.shields.io/badge/Assets-Low_Value-lightgreen?style=flat-square&logo=file&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | €1K-10K | Documentation, utilities | Direct replacement cost |
+| **Mission Critical** | [![Mission Critical Assets](https://img.shields.io/badge/Assets-Mission_Critical-red?style=flat-square&logo=server&logoColor=white)](./CLASSIFICATION.md) | €100K-500K | Core infrastructure, customer data | Revenue impact + replacement cost |
+| **High Value** | [![High Value Assets](https://img.shields.io/badge/Assets-High_Value-orange?style=flat-square&logo=database&logoColor=white)](./CLASSIFICATION.md) | €50K-100K | Business applications, IP | Development cost + competitive value |
+| **Standard** | [![Standard Assets](https://img.shields.io/badge/Assets-Standard-yellow?style=flat-square&logo=folder&logoColor=black)](./CLASSIFICATION.md) | €10K-50K | Supporting systems, processes | Replacement cost + downtime |
+| **Low Value** | [![Low Value Assets](https://img.shields.io/badge/Assets-Low_Value-lightgreen?style=flat-square&logo=file&logoColor=white)](./CLASSIFICATION.md) | €1K-10K | Documentation, utilities | Direct replacement cost |
 
 #### **⚠️ Exposure Factor Guidelines**
 
 | Exposure Level | Badge | Factor Range | Description | Example Scenarios |
 |----------------|-------|--------------|-------------|-------------------|
-| **Complete Loss** | [![Complete Exposure](https://img.shields.io/badge/Exposure-Complete-red?style=flat-square&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 0.8-1.0 | Total asset destruction/compromise | Ransomware, physical destruction, theft |
-| **Major Loss** | [![Major Exposure](https://img.shields.io/badge/Exposure-Major-orange?style=flat-square&logo=warning&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 0.5-0.8 | Significant damage requiring rebuild | Data corruption, system compromise |
-| **Moderate Loss** | [![Moderate Exposure](https://img.shields.io/badge/Exposure-Moderate-yellow?style=flat-square&logo=info-circle&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 0.2-0.5 | Partial damage with recovery possible | Service disruption, minor breaches |
-| **Minor Loss** | [![Minor Exposure](https://img.shields.io/badge/Exposure-Minor-lightgreen?style=flat-square&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 0.1-0.2 | Limited impact with quick recovery | Performance degradation, brief outages |
+| **Complete Loss** | [![Complete Exposure](https://img.shields.io/badge/Exposure-Complete-red?style=flat-square&logo=exclamation-triangle&logoColor=white)](./CLASSIFICATION.md) | 0.8-1.0 | Total asset destruction/compromise | Ransomware, physical destruction, theft |
+| **Major Loss** | [![Major Exposure](https://img.shields.io/badge/Exposure-Major-orange?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md) | 0.5-0.8 | Significant damage requiring rebuild | Data corruption, system compromise |
+| **Moderate Loss** | [![Moderate Exposure](https://img.shields.io/badge/Exposure-Moderate-yellow?style=flat-square&logo=info-circle&logoColor=black)](./CLASSIFICATION.md) | 0.2-0.5 | Partial damage with recovery possible | Service disruption, minor breaches |
+| **Minor Loss** | [![Minor Exposure](https://img.shields.io/badge/Exposure-Minor-lightgreen?style=flat-square&logo=check-circle&logoColor=white)](./CLASSIFICATION.md) | 0.1-0.2 | Limited impact with quick recovery | Performance degradation, brief outages |
 
 ### **📈 Annual Rate of Occurrence (ARO) Mapping**
 
@@ -197,11 +197,11 @@ graph LR
     F --> H[🛡️ Conservative ALE<br/>95th percentile]
     F --> I[🚨 Worst Case ALE<br/>99th percentile]
     
-    style E fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    style F fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style G fill:#fff3e0,stroke:#f57c00,stroke-width:1px
-    style H fill:#ffecb3,stroke:#ffa000,stroke-width:1px
-    style I fill:#ffebee,stroke:#d32f2f,stroke-width:1px
+    style E fill:#1565C0,stroke:#1565C0,stroke-width:2px
+    style F fill:#4CAF50,stroke:#388e3c,stroke-width:2px
+    style G fill:#FF9800,stroke:#f57c00,stroke-width:1px
+    style H fill:#FFC107,stroke:#ffa000,stroke-width:1px
+    style I fill:#D32F2F,stroke:#d32f2f,stroke-width:1px
 ```
 
 #### **📊 Risk-Adjusted ALE Calculations**
@@ -210,10 +210,10 @@ Each risk includes comprehensive statistical analysis:
 
 | ALE Category | Badge | Percentile | Purpose | Business Use |
 |--------------|-------|------------|---------|--------------|
-| **Expected ALE** | [![Expected ALE](https://img.shields.io/badge/ALE-Expected-blue?style=flat-square&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 50th percentile | Most likely annual loss | Budget planning, KPI tracking |
-| **Conservative ALE** | [![Conservative ALE](https://img.shields.io/badge/ALE-Conservative-orange?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 95th percentile | Risk management planning figure | Control investment decisions |
-| **Worst Case ALE** | [![Worst Case ALE](https://img.shields.io/badge/ALE-Worst_Case-red?style=flat-square&logo=exclamation-triangle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 99th percentile | Stress testing and insurance planning | Crisis planning, insurance coverage |
-| **Confidence Interval** | [![Confidence Interval](https://img.shields.io/badge/CI-80%25_Confidence-lightblue?style=flat-square&logo=trending-up&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 10th-90th percentile | Range of potential outcomes | Uncertainty quantification |
+| **Expected ALE** | [![Expected ALE](https://img.shields.io/badge/ALE-Expected-blue?style=flat-square&logo=chart-line&logoColor=white)](./CLASSIFICATION.md) | 50th percentile | Most likely annual loss | Budget planning, KPI tracking |
+| **Conservative ALE** | [![Conservative ALE](https://img.shields.io/badge/ALE-Conservative-orange?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) | 95th percentile | Risk management planning figure | Control investment decisions |
+| **Worst Case ALE** | [![Worst Case ALE](https://img.shields.io/badge/ALE-Worst_Case-red?style=flat-square&logo=exclamation-triangle&logoColor=white)](./CLASSIFICATION.md) | 99th percentile | Stress testing and insurance planning | Crisis planning, insurance coverage |
+| **Confidence Interval** | [![Confidence Interval](https://img.shields.io/badge/CI-80%25_Confidence-lightblue?style=flat-square&logo=trending-up&logoColor=white)](./CLASSIFICATION.md) | 10th-90th percentile | Range of potential outcomes | Uncertainty quantification |
 
 ---
 
@@ -229,26 +229,26 @@ VaR represents the maximum expected loss over a specified time period at a given
 
 | Parameter | Badge | Value | Rationale | Application |
 |-----------|-------|-------|-----------|-------------|
-| **Time Horizon** | [![12 Month Horizon](https://img.shields.io/badge/Horizon-12_Months-blue?style=flat-square&logo=calendar&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 12 months | Annual assessment cycle | Budget and planning alignment |
-| **Confidence Levels** | [![Multi-Confidence](https://img.shields.io/badge/Confidence-90%2F95%2F99%25-green?style=flat-square&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | 90%, 95%, 99% | Enterprise risk management standards | Risk tolerance matching |
-| **Currency** | [![EUR Currency](https://img.shields.io/badge/Currency-EUR_(€)-gold?style=flat-square&logo=euro-sign&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Euros (€) | Aligned with business operations | Financial reporting consistency |
-| **Simulation Method** | [![Monte Carlo](https://img.shields.io/badge/Method-Monte_Carlo-purple?style=flat-square&logo=dice-five&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Monte Carlo (10,000+ iterations) | Statistical robustness | Correlation analysis inclusion |
+| **Time Horizon** | [![12 Month Horizon](https://img.shields.io/badge/Horizon-12_Months-blue?style=flat-square&logo=calendar&logoColor=white)](./CLASSIFICATION.md) | 12 months | Annual assessment cycle | Budget and planning alignment |
+| **Confidence Levels** | [![Multi-Confidence](https://img.shields.io/badge/Confidence-90%2F95%2F99%25-green?style=flat-square&logo=check-circle&logoColor=white)](./CLASSIFICATION.md) | 90%, 95%, 99% | Enterprise risk management standards | Risk tolerance matching |
+| **Currency** | [![EUR Currency](https://img.shields.io/badge/Currency-EUR_(€)-gold?style=flat-square&logo=euro-sign&logoColor=black)](./CLASSIFICATION.md) | Euros (€) | Aligned with business operations | Financial reporting consistency |
+| **Simulation Method** | [![Monte Carlo](https://img.shields.io/badge/Method-Monte_Carlo-purple?style=flat-square&logo=dice-five&logoColor=white)](./CLASSIFICATION.md) | Monte Carlo (10,000+ iterations) | Statistical robustness | Correlation analysis inclusion |
 
 #### **📈 VaR Risk Categories**
 
 | Risk Category | VaR Range (€) | Likelihood + Impact Combination | Management Response | Executive Attention |
 |---------------|---------------|--------------------------------|-------------------|-------------------|
-| **🔴 Critical** | >€200K | [![Almost Certain + Catastrophic](https://img.shields.io/badge/Risk-Almost_Certain_+_Catastrophic-red?style=flat-square&logo=fire&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | CEO immediate action, board escalation | Daily monitoring |
-| **🟠 High** | €50K-200K | [![Likely + Critical](https://img.shields.io/badge/Risk-Likely_+_Critical-orange?style=flat-square&logo=warning&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Executive committee, quarterly review | Weekly review |
-| **🟡 Medium** | €10K-50K | [![Possible + High](https://img.shields.io/badge/Risk-Possible_+_High-yellow?style=flat-square&logo=balance-scale&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Risk committee, semi-annual review | Monthly assessment |
-| **🟢 Low** | €1K-10K | [![Unlikely + Moderate](https://img.shields.io/badge/Risk-Unlikely_+_Moderate-lightgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Management monitoring, annual review | Quarterly monitoring |
-| **⚪ Minimal** | <€1K | [![Rare + Low](https://img.shields.io/badge/Risk-Rare_+_Low-lightgrey?style=flat-square&logo=gem&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) | Acceptance, periodic review | Annual review |
+| **🔴 Critical** | >€200K | [![Almost Certain + Catastrophic](https://img.shields.io/badge/Risk-Almost_Certain_+_Catastrophic-red?style=flat-square&logo=fire&logoColor=white)](./CLASSIFICATION.md) | CEO immediate action, board escalation | Daily monitoring |
+| **🟠 High** | €50K-200K | [![Likely + Critical](https://img.shields.io/badge/Risk-Likely_+_Critical-orange?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md) | Executive committee, quarterly review | Weekly review |
+| **🟡 Medium** | €10K-50K | [![Possible + High](https://img.shields.io/badge/Risk-Possible_+_High-yellow?style=flat-square&logo=balance-scale&logoColor=black)](./CLASSIFICATION.md) | Risk committee, semi-annual review | Monthly assessment |
+| **🟢 Low** | €1K-10K | [![Unlikely + Moderate](https://img.shields.io/badge/Risk-Unlikely_+_Moderate-lightgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) | Management monitoring, annual review | Quarterly monitoring |
+| **⚪ Minimal** | <€1K | [![Rare + Low](https://img.shields.io/badge/Risk-Rare_+_Low-lightgrey?style=flat-square&logo=gem&logoColor=black)](./CLASSIFICATION.md) | Acceptance, periodic review | Annual review |
 
 ---
 
 ## 📊 **Classification-Based Risk Assessment Framework**
 
-All risks undergo systematic evaluation using our [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) methodology:
+All risks undergo systematic evaluation using our [Classification Framework](./CLASSIFICATION.md) methodology:
 
 ### 🎯 **Risk Category Classifications** {#risk-category-classifications}
 
@@ -273,10 +273,10 @@ Risk categories provide systematic classification enabling consistent assessment
 
 | Impact Category | Assessment Criteria | Measurement Scale | Strategic Implications | Badge |
 |-----------------|-------------------|------------------|----------------------|-------|
-| **💸 Financial** | Revenue loss, recovery costs, fines, penalties | €0-€50K+ per incident | **💰 Cost avoidance** and **💰 revenue protection** | [![Financial Impact](https://img.shields.io/badge/Impact-Financial-green?style=flat-square&logo=dollar-sign&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels) |
-| **🏢 Operational** | Service disruption, efficiency loss, process impact | Complete outage to minor inconvenience | **🔄 Operational excellence** and **⚙️ operational efficiency** | [![Operational Impact](https://img.shields.io/badge/Impact-Operational-blue?style=flat-square&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels) |
-| **🤝 Reputational** | Brand damage, customer trust, market position | International media to no impact | **🤝 Trust enhancement** and **🏆 service reliability** | [![Reputational Impact](https://img.shields.io/badge/Impact-Reputational-purple?style=flat-square&logo=newspaper&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels) |
-| **📜 Regulatory** | Compliance violations, legal consequences | Criminal charges to no implications | **📋 Compliance posture** and **🛡️ risk reduction** | [![Regulatory Impact](https://img.shields.io/badge/Impact-Regulatory-red?style=flat-square&logo=gavel&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels) |
+| **💸 Financial** | Revenue loss, recovery costs, fines, penalties | €0-€50K+ per incident | **💰 Cost avoidance** and **💰 revenue protection** | [![Financial Impact](https://img.shields.io/badge/Impact-Financial-green?style=flat-square&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#financial-impact-levels) |
+| **🏢 Operational** | Service disruption, efficiency loss, process impact | Complete outage to minor inconvenience | **🔄 Operational excellence** and **⚙️ operational efficiency** | [![Operational Impact](https://img.shields.io/badge/Impact-Operational-blue?style=flat-square&logo=cogs&logoColor=white)](./CLASSIFICATION.md#operational-impact-levels) |
+| **🤝 Reputational** | Brand damage, customer trust, market position | International media to no impact | **🤝 Trust enhancement** and **🏆 service reliability** | [![Reputational Impact](https://img.shields.io/badge/Impact-Reputational-purple?style=flat-square&logo=newspaper&logoColor=white)](./CLASSIFICATION.md#reputational-impact-levels) |
+| **📜 Regulatory** | Compliance violations, legal consequences | Criminal charges to no implications | **📋 Compliance posture** and **🛡️ risk reduction** | [![Regulatory Impact](https://img.shields.io/badge/Impact-Regulatory-red?style=flat-square&logo=gavel&logoColor=white)](./CLASSIFICATION.md#regulatory-impact-levels) |
 
 ### **🔒 Security Classification Alignment**
 
@@ -284,16 +284,16 @@ Risk categories provide systematic classification enabling consistent assessment
 
 | Security Dimension | Risk Assessment Criteria | Impact Range | Badge |
 |--------------------|-------------------------|---------------|-------|
-| **🔐 Confidentiality Risks** | Public disclosure to extreme data exposure requiring quantum encryption | [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) to [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) | [![Confidentiality Risk](https://img.shields.io/badge/Risk-Confidentiality-darkblue?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **✅ Integrity Risks** | Minor data inconsistencies to critical system compromise requiring immutable validation | [![Minimal](https://img.shields.io/badge/I-Minimal-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) to [![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) | [![Integrity Risk](https://img.shields.io/badge/Risk-Integrity-orange?style=flat-square&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **⏱️ Availability Risks** | Best effort service to mission-critical 99.99% uptime requirements | [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) to [![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) | [![Availability Risk](https://img.shields.io/badge/Risk-Availability-red?style=flat-square&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🔐 Confidentiality Risks** | Public disclosure to extreme data exposure requiring quantum encryption | [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) to [![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | [![Confidentiality Risk](https://img.shields.io/badge/Risk-Confidentiality-darkblue?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) |
+| **✅ Integrity Risks** | Minor data inconsistencies to critical system compromise requiring immutable validation | [![Minimal](https://img.shields.io/badge/I-Minimal-lightgrey?style=flat-square)](./CLASSIFICATION.md#integrity-levels) to [![Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md#integrity-levels) | [![Integrity Risk](https://img.shields.io/badge/Risk-Integrity-orange?style=flat-square&logo=check-circle&logoColor=white)](./CLASSIFICATION.md) |
+| **⏱️ Availability Risks** | Best effort service to mission-critical 99.99% uptime requirements | [![Best Effort](https://img.shields.io/badge/A-Best_Effort-lightgrey?style=flat-square)](./CLASSIFICATION.md#availability-levels) to [![Mission Critical](https://img.shields.io/badge/A-Mission_Critical-red?style=flat-square)](./CLASSIFICATION.md#availability-levels) | [![Availability Risk](https://img.shields.io/badge/Risk-Availability-red?style=flat-square&logo=server&logoColor=white)](./CLASSIFICATION.md) |
 
 #### **⏱️ Business Continuity Risk Assessment**
 
 | Continuity Dimension | Risk Assessment Focus | Time Range | Badge |
 |----------------------|----------------------|-------------|-------|
-| **🚨 RTO Impact** | Service restoration time objectives | [![Instant <5min](https://img.shields.io/badge/RTO-Instant_<5min-red?style=flat-square&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) to [![Standard >72hrs](https://img.shields.io/badge/RTO-Standard_>72hrs-lightgrey?style=flat-square&logo=clock&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | [![RTO Risk](https://img.shields.io/badge/Risk-RTO_Impact-orange?style=flat-square&logo=clock&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔄 RPO Impact** | Data loss tolerance levels | [![Zero Loss <1min](https://img.shields.io/badge/RPO-Zero_Loss_<1min-red?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) to [![Extended >24hrs](https://img.shields.io/badge/RPO-Extended_>24hrs-lightgrey?style=flat-square&logo=database&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) | [![RPO Risk](https://img.shields.io/badge/Risk-RPO_Impact-blue?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **🚨 RTO Impact** | Service restoration time objectives | [![Instant <5min](https://img.shields.io/badge/RTO-Instant_<5min-red?style=flat-square&logo=clock&logoColor=white)](./CLASSIFICATION.md#rto-classifications) to [![Standard >72hrs](https://img.shields.io/badge/RTO-Standard_>72hrs-lightgrey?style=flat-square&logo=clock&logoColor=black)](./CLASSIFICATION.md#rto-classifications) | [![RTO Risk](https://img.shields.io/badge/Risk-RTO_Impact-orange?style=flat-square&logo=clock&logoColor=white)](./CLASSIFICATION.md) |
+| **🔄 RPO Impact** | Data loss tolerance levels | [![Zero Loss <1min](https://img.shields.io/badge/RPO-Zero_Loss_<1min-red?style=flat-square&logo=database&logoColor=white)](./CLASSIFICATION.md#rpo-classifications) to [![Extended >24hrs](https://img.shields.io/badge/RPO-Extended_>24hrs-lightgrey?style=flat-square&logo=database&logoColor=black)](./CLASSIFICATION.md#rpo-classifications) | [![RPO Risk](https://img.shields.io/badge/Risk-RPO_Impact-blue?style=flat-square&logo=database&logoColor=white)](./CLASSIFICATION.md) |
 
 ### **🎯 Porter's Five Forces Risk Analysis**
 
@@ -303,11 +303,11 @@ Risk assessment incorporates strategic market positioning analysis:
 
 | Force | Risk Assessment Focus | Impact Range | Badge |
 |-------|----------------------|---------------|-------|
-| **👥 Buyer Power Shifts** | Market changes affecting customer leverage and pricing power | [![Minimal](https://img.shields.io/badge/Buyer_Power-Minimal-success?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) to [![Extreme](https://img.shields.io/badge/Buyer_Power-Extreme-red?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | [![Buyer Power Risk](https://img.shields.io/badge/Risk-Buyer_Power-blue?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🏪 Supplier Power Dependencies** | Critical supplier concentration and switching cost risks | [![Minimal](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) to [![Extreme](https://img.shields.io/badge/Supplier_Power-Extreme-red?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | [![Supplier Power Risk](https://img.shields.io/badge/Risk-Supplier_Power-orange?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🚪 New Market Entrants** | Competitive threats and barrier erosion analysis | [![Insurmountable](https://img.shields.io/badge/Entry_Barriers-Insurmountable-darkred?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) to [![Low](https://img.shields.io/badge/Entry_Barriers-Low-lightgreen?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | [![Entry Threat Risk](https://img.shields.io/badge/Risk-Entry_Threat-yellow?style=flat-square&logo=door-open&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🔄 Substitute Technologies** | Disruptive innovation and technology replacement risks | [![Minimal](https://img.shields.io/badge/Substitute_Threat-Minimal-success?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) to [![Critical](https://img.shields.io/badge/Substitute_Threat-Critical-red?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | [![Substitute Risk](https://img.shields.io/badge/Risk-Substitute_Threat-purple?style=flat-square&logo=exchange-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **🏆 Competitive Position** | Market share threats and competitive response capabilities | [![Dominant](https://img.shields.io/badge/Rivalry-Dominant_Advantage-darkblue?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) to [![Disadvantage](https://img.shields.io/badge/Rivalry-Disadvantage-red?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) | [![Competitive Risk](https://img.shields.io/badge/Risk-Competitive_Position-red?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **👥 Buyer Power Shifts** | Market changes affecting customer leverage and pricing power | [![Minimal](https://img.shields.io/badge/Buyer_Power-Minimal-success?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) to [![Extreme](https://img.shields.io/badge/Buyer_Power-Extreme-red?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | [![Buyer Power Risk](https://img.shields.io/badge/Risk-Buyer_Power-blue?style=flat-square&logo=users&logoColor=white)](./CLASSIFICATION.md) |
+| **🏪 Supplier Power Dependencies** | Critical supplier concentration and switching cost risks | [![Minimal](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) to [![Extreme](https://img.shields.io/badge/Supplier_Power-Extreme-red?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | [![Supplier Power Risk](https://img.shields.io/badge/Risk-Supplier_Power-orange?style=flat-square&logo=handshake&logoColor=white)](./CLASSIFICATION.md) |
+| **🚪 New Market Entrants** | Competitive threats and barrier erosion analysis | [![Insurmountable](https://img.shields.io/badge/Entry_Barriers-Insurmountable-darkred?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) to [![Low](https://img.shields.io/badge/Entry_Barriers-Low-lightgreen?style=flat-square&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | [![Entry Threat Risk](https://img.shields.io/badge/Risk-Entry_Threat-yellow?style=flat-square&logo=door-open&logoColor=black)](./CLASSIFICATION.md) |
+| **🔄 Substitute Technologies** | Disruptive innovation and technology replacement risks | [![Minimal](https://img.shields.io/badge/Substitute_Threat-Minimal-success?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) to [![Critical](https://img.shields.io/badge/Substitute_Threat-Critical-red?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | [![Substitute Risk](https://img.shields.io/badge/Risk-Substitute_Threat-purple?style=flat-square&logo=exchange-alt&logoColor=white)](./CLASSIFICATION.md) |
+| **🏆 Competitive Position** | Market share threats and competitive response capabilities | [![Dominant](https://img.shields.io/badge/Rivalry-Dominant_Advantage-darkblue?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) to [![Disadvantage](https://img.shields.io/badge/Rivalry-Disadvantage-red?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | [![Competitive Risk](https://img.shields.io/badge/Risk-Competitive_Position-red?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md) |
 
 ---
 
@@ -337,10 +337,20 @@ Use this standardized template for all risk assessments:
 - [![Strategic](https://img.shields.io/badge/Category-Strategic-indigo?style=for-the-badge&logo=target&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) - Strategic positioning risks
 - [![Physical](https://img.shields.io/badge/Category-Physical-gray?style=for-the-badge&logo=building&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) - Physical security risks
 
+- **🏆 Pentagon Dimension:** [Select: 🔒 Security | ✨ Quality | 🚀 Functionality | 🧪 QA | 📋 ISMS Controls]
+- **🤖 Agent Identified:** [Yes/No] - [Task Agent Name if applicable, e.g., "ISMS Task Agent", "CIA Task Agent"]
+- **📊 Automated Evidence:** 
+  - [CIA Compliance Manager link if applicable]
+  - [OpenSSF Scorecard: `https://api.securityscorecards.dev/projects/github.com/Hack23/{repo}/badge`]
+  - [SonarCloud Quality Gate if applicable]
+  - [FOSSA License Status if applicable]
+
 - **📈 Quantitative Risk Assessment:**
   - **Probability Score:** X/5 ([Likelihood Level] - [Supporting rationale])
   - **Impact Score:** X/5 ([Impact Level] - [Supporting rationale])
-  - **Total Risk Score:** XX ([Risk Level] with trend direction)
+  - **Base Risk Score:** XX ([Risk Level] with trend direction)
+  - **Pentagon Priority Multiplier:** X.X× (based on Pentagon dimension)
+  - **Adjusted Risk Score:** XXX ([Final Risk Level] after Pentagon adjustment)
 
 - **💰 Financial Risk Analysis:**
   - **Single Loss Expectancy (SLE):** €XXK ([breakdown of costs])
@@ -349,22 +359,22 @@ Use this standardized template for all risk assessments:
   - **Value at Risk (95% confidence):** €XXK over 12 months
 
 - **📊 Business Impact Analysis:**
-  - **Financial:** [![Impact Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#financial-impact-levels)
-  - **Operational:** [![Impact Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#operational-impact-levels)
-  - **Reputational:** [![Impact Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#reputational-impact-levels)
-  - **Regulatory:** [![Impact Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#regulatory-impact-levels)
+  - **Financial:** [![Impact Badge](URL)](./CLASSIFICATION.md#financial-impact-levels)
+  - **Operational:** [![Impact Badge](URL)](./CLASSIFICATION.md#operational-impact-levels)
+  - **Reputational:** [![Impact Badge](URL)](./CLASSIFICATION.md#reputational-impact-levels)
+  - **Regulatory:** [![Impact Badge](URL)](./CLASSIFICATION.md#regulatory-impact-levels)
 
 - **🔒 Security Classification Impact:**
-  - **Confidentiality:** [![C Level Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels) - [Impact description]
-  - **Integrity:** [![I Level Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels) - [Impact description]
-  - **Availability:** [![A Level Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels) - [Impact description]
+  - **Confidentiality:** [![C Level Badge](URL)](./CLASSIFICATION.md#confidentiality-levels) - [Impact description]
+  - **Integrity:** [![I Level Badge](URL)](./CLASSIFICATION.md#integrity-levels) - [Impact description]
+  - **Availability:** [![A Level Badge](URL)](./CLASSIFICATION.md#availability-levels) - [Impact description]
 
 - **⏱️ Business Continuity Impact:**
-  - **RTO:** [![RTO Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) - [Recovery requirement]
-  - **RPO:** [![RPO Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rpo-classifications) - [Data loss tolerance]
+  - **RTO:** [![RTO Badge](URL)](./CLASSIFICATION.md#rto-classifications) - [Recovery requirement]
+  - **RPO:** [![RPO Badge](URL)](./CLASSIFICATION.md#rpo-classifications) - [Data loss tolerance]
 
 - **🎯 Strategic Impact (Porter's Five Forces):**
-  - **[Force] Risk:** [![Force Badge](URL)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) - [Strategic impact]
+  - **[Force] Risk:** [![Force Badge](URL)](./CLASSIFICATION.md#porters-five-forces) - [Strategic impact]
   - **[Additional forces as relevant]**
 
 - **🛡️ Current Controls:** 
@@ -418,22 +428,237 @@ Ensure each risk assessment meets these quality criteria:
 
 ---
 
+## 🤖 **AI Agent-Driven Risk Assessment**
+
+Hack23 AB's curated agent ecosystem (per [Information Security Strategy](./Information_Security_Strategy.md)) systematically identifies risks during repository analysis, coordinating across the Pentagon of Continuous Improvement framework.
+
+### 📋 **Agent Risk Identification Workflow**
+
+Task agents perform continuous risk discovery through systematic repository and ISMS analysis:
+
+```mermaid
+flowchart TD
+    ANALYSIS[📊 Task Agent Repository Analysis] --> PENTAGON{🏆 Pentagon Dimension<br>Assignment}
+    
+    PENTAGON -->|Security| SEC_RISK[🔒 Security Risk Identified]
+    PENTAGON -->|Quality| QUAL_RISK[✨ Quality Risk Identified]
+    PENTAGON -->|Functionality| FUNC_RISK[🚀 Functionality Risk Identified]
+    PENTAGON -->|QA| QA_RISK[🧪 QA Risk Identified]
+    PENTAGON -->|ISMS Controls| ISMS_RISK[📋 ISMS Control Gap Identified]
+    
+    SEC_RISK --> SCORE[📊 Agent Risk Scoring<br>Likelihood × Impact × 100]
+    QUAL_RISK --> SCORE
+    FUNC_RISK --> SCORE
+    QA_RISK --> SCORE
+    ISMS_RISK --> SCORE
+    
+    SCORE --> CRITICAL{🚨 Critical Risk?<br>Score > 400}
+    CRITICAL -->|Yes| HUMAN[👨‍💼 CEO Immediate Assessment]
+    CRITICAL -->|No| REGISTER[📋 Automated Risk Register Entry]
+    
+    REGISTER --> ASSIGN[👷 Specialist Agent Assignment]
+    HUMAN --> REGISTER
+    
+    style ANALYSIS fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#ffffff
+    style PENTAGON fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff
+    style SEC_RISK fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#ffffff
+    style QUAL_RISK fill:#1976D2,stroke:#0D47A1,stroke-width:2px,color:#ffffff
+    style FUNC_RISK fill:#388E3C,stroke:#1B5E20,stroke-width:2px,color:#ffffff
+    style QA_RISK fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#ffffff
+    style ISMS_RISK fill:#F57C00,stroke:#E65100,stroke-width:2px,color:#ffffff
+    style SCORE fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#ffffff
+    style CRITICAL fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff
+    style HUMAN fill:#FFD700,stroke:#F57F17,stroke-width:3px,color:#000000
+    style REGISTER fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#ffffff
+    style ASSIGN fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#ffffff
+```
+
+### 🏆 **Pentagon of Continuous Improvement Integration**
+
+The Pentagon framework drives systematic risk prioritization across ISMS dimensions per [Information Security Strategy](./Information_Security_Strategy.md#pentagon-of-continuous-improvement):
+
+| Pentagon Dimension | Risk Category Mapping | Agent Responsibility | Priority Multiplier |
+|--------------------|----------------------|---------------------|-------------------|
+| **🔒 Security** | Cybersecurity, Infrastructure, Supply Chain | Security Architect Agent | 2.0× (highest) |
+| **✨ Quality** | Technology, Process | Code Quality Engineer | 1.5× |
+| **🚀 Functionality** | Strategic Business, Financial | Business Development Specialist | 1.8× |
+| **🧪 QA** | Operational, Compliance | Test Specialist | 1.3× |
+| **📋 ISMS Controls** | Regulatory Compliance, Legal | ISMS Ninja | 2.0× (highest) |
+
+**Strategic Value Alignment:**
+- **Security & ISMS Controls:** Highest priority multiplier (2.0×) reflecting critical business impact of control failures
+- **Functionality:** High multiplier (1.8×) ensuring business value delivery and strategic objectives
+- **Quality:** Moderate multiplier (1.5×) supporting long-term maintainability and technical excellence
+- **QA:** Standard multiplier (1.3×) ensuring systematic validation and compliance
+
+### 📊 **Agent Risk Scoring Methodology**
+
+Agents apply this methodology's quantitative framework automatically, integrating Pentagon dimension priorities:
+
+**Automated Risk Calculation:**
+- **Likelihood Assessment:** Agent analyzes historical data, industry benchmarks, expert system rules
+- **Impact Assessment:** Cross-references [Classification Framework](./CLASSIFICATION.md) impact badges
+- **Risk Score Calculation:** `Probability (0.02-0.99) × Impact (1-6) × 100`
+- **Pentagon Priority Adjustment:** Base score × Pentagon dimension multiplier
+- **Final Risk Level:** Categorical assignment (Critical >400, High 200-399, Medium 100-199, Low 50-99, Minimal <50)
+
+**Example Risk Calculations:**
+
+| Base Risk Assessment | Pentagon Dimension | Priority Multiplier | Adjusted Score | Final Classification |
+|---------------------|-------------------|-------------------|---------------|---------------------|
+| Probability: 0.7, Impact: 4 (280) | 🔒 Security | 2.0× | 560 | [![Critical Risk](https://img.shields.io/badge/Risk-Critical-red?style=for-the-badge&logo=exclamation-triangle&logoColor=white)](./Risk_Register.md) |
+| Probability: 0.5, Impact: 3 (150) | 🚀 Functionality | 1.8× | 270 | [![High Risk](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md) |
+| Probability: 0.3, Impact: 2 (60) | ✨ Quality | 1.5× | 90 | [![Low Risk](https://img.shields.io/badge/Risk-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Register.md) |
+
+### 🤝 **Agent-Human Risk Assessment Handoff**
+
+Clear governance structure defines agent autonomy levels and CEO oversight requirements:
+
+**Agent Autonomy Levels:**
+- **Critical Risks (>400):** Agent identifies, CEO assesses and approves treatment
+- **High Risks (200-399):** Agent proposes assessment, CEO reviews within 48 hours
+- **Medium Risks (100-199):** Agent creates issue, specialist agent implements treatment with CEO periodic review
+- **Low/Minimal (<100):** Agent documents and monitors, quarterly CEO review
+
+**Human Oversight Triggers:**
+- **Financial Impact:** >€5K requires CEO approval regardless of risk score
+- **Regulatory Impact:** Any regulatory compliance risk requires CEO assessment
+- **Reputational Impact:** National/international media potential requires CEO approval
+- **Strategic Impact:** Business continuity or market positioning risks require CEO assessment
+
+### 📊 **Agent Risk Evidence Generation**
+
+Agents automatically integrate quantified evidence into risk assessments:
+
+**Automated Evidence Links:**
+- **OpenSSF Scorecard:** Real-time supply chain security scores from `https://api.securityscorecards.dev/projects/github.com/Hack23/{repo}/badge`
+- **GitHub Actions:** Automated CI/CD workflows with compliance evidence generation
+- **SonarCloud Quality Gate:** Code quality and security vulnerability metrics
+- **FOSSA License Compliance:** Open source license and dependency vulnerability status
+- **GitHub Security Alerts:** Dependabot and secret scanning findings
+
+**Evidence Validation Criteria:**
+- **Freshness:** Evidence <30 days preferred, >90 days triggers re-assessment
+- **Accuracy:** Automated evidence cross-referenced with manual validation quarterly
+- **Completeness:** All risk categories must have at least one evidence source
+- **Auditability:** Evidence links maintained with timestamps and agent identification
+
+---
+
+## 📊 **Agent Risk Monitoring Dashboard**
+
+Automated risk KPI tracking enables data-driven risk management and continuous improvement:
+
+### 📈 **Agent-Generated Risk Metrics**
+
+| Metric Category | KPI | Measurement Method | Target | Review Frequency |
+|-----------------|-----|-------------------|--------|------------------|
+| **Risk Discovery Rate** | Risks identified per agent analysis cycle | Agent issue creation logs | 5-10 new risks per quarterly analysis | Quarterly |
+| **Agent Triage Accuracy** | % of agent-identified risks confirmed by CEO | CEO risk assessment approvals | >85% confirmation rate | Quarterly |
+| **Pentagon Distribution** | Risk count by Pentagon dimension | Risk Register category analysis | Balanced across all 5 dimensions | Monthly |
+| **Treatment Velocity** | Average time from agent identification to mitigation | Risk Register status tracking | <30 days for High risks | Monthly |
+| **Evidence Automation Rate** | % of risks with automated evidence links | Risk assessment template validation | >80% with automated evidence | Quarterly |
+
+### 🎯 **Quarterly Risk Review Agent Coordination**
+
+Systematic agent-driven quarterly risk assessment workflow:
+
+```mermaid
+sequenceDiagram
+    participant CEO as 👔 CEO
+    participant TaskAgent as 📋 Task Agent
+    participant RiskReg as 📉 Risk Register
+    participant ISMS as 📚 ISMS-PUBLIC
+    participant Specialist as 👷 Specialist Agent
+    
+    Note over CEO,Specialist: Quarterly Risk Review Cycle
+    
+    CEO->>TaskAgent: Initiate quarterly risk review
+    TaskAgent->>ISMS: Load Risk_Assessment_Methodology.md
+    TaskAgent->>RiskReg: Analyze existing risks
+    
+    TaskAgent->>TaskAgent: Calculate risk scores<br>Apply Pentagon multipliers
+    TaskAgent->>TaskAgent: Identify new risks<br>Assess control effectiveness
+    
+    TaskAgent->>RiskReg: Update risk scores and trends
+    TaskAgent->>CEO: Generate review report<br>Critical risks, trends, recommendations
+    
+    CEO->>CEO: Review critical risk assessments
+    CEO->>TaskAgent: Approve/modify risk treatments
+    
+    TaskAgent->>Specialist: Assign treatment implementation
+    Specialist->>RiskReg: Update treatment status
+    Specialist->>CEO: Report treatment completion
+    
+    CEO->>RiskReg: Approve quarterly review
+    RiskReg->>ISMS: Update next review date
+```
+
+### 🤝 **Agent-Human Risk Management Handoff Criteria**
+
+**When Agents Operate Autonomously:**
+- Risk scoring and Pentagon dimension assignment
+- Evidence collection from automated sources (OpenSSF, SonarCloud, FOSSA)
+- Low/Minimal risk monitoring and quarterly reporting
+- Risk trend analysis and dashboard updates
+
+**When CEO Assessment Required:**
+- Critical risk identification (score >400)
+- High risk treatment strategy approval
+- Financial impact assessment (>€5K)
+- Regulatory compliance risks
+- Reputational impact risks (media potential)
+- Strategic business continuity risks
+
+**When Specialist Agents Execute:**
+- Medium risk treatment implementation (100-199 score)
+- Technical control implementation
+- Process improvement execution
+- Documentation updates
+- Automated testing and validation
+
+### 📊 **Agent Risk Analytics Dashboard**
+
+Automated analytics tracking Pentagon-aligned risk management performance:
+
+**Dashboard Components:**
+1. **Pentagon Risk Heatmap:** Risk distribution across 5 Pentagon dimensions with severity color coding
+2. **Risk Trend Analysis:** 12-month rolling risk score trends with treatment velocity indicators
+3. **Agent Performance Metrics:** Triage accuracy, evidence automation rate, treatment velocity by agent type
+4. **Critical Risk Alerts:** Real-time monitoring of risks >400 score requiring CEO assessment
+5. **Compliance Risk Summary:** ISO 27001, NIST CSF, CIS Controls, GDPR, NIS2 compliance gap tracking
+
+**Dashboard Access:**
+- **CEO View:** Strategic risk overview with critical risk alerts and Pentagon dimension balance
+- **Task Agent View:** Risk discovery opportunities and assessment queue
+- **Specialist Agent View:** Assigned treatment tasks and implementation deadlines
+- **Public Transparency View:** Aggregated risk trends and treatment effectiveness (no sensitive details)
+
+---
+
 ## 📚 **Related Documents**
 
-- [📉 Risk Register](./Risk_Register.md) - Application of this methodology
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Impact level definitions and business analysis matrix
-- [💻 Asset Register](./Asset_Register.md) - Asset valuations for SLE calculations
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Security risk management context
-- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - RTO/RPO requirements
-- [🤝 Third Party Management](./Third_Party_Management.md) - Supplier risk assessment
-- [📊 Security Metrics](./Security_Metrics.md) - Risk monitoring and measurement
+### 🔐 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon of Continuous Improvement, and agent ecosystem
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Security risk management context and AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI agent governance and least-privilege requirements
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Impact level definitions and business analysis matrix
+
+### 📉 Risk Management
+- [📉 Risk Register](./Risk_Register.md) — Application of this methodology
+- [💻 Asset Register](./Asset_Register.md) — Asset valuations for SLE calculations
+- [🤝 Third Party Management](./Third_Party_Management.md) — Supplier risk assessment
+
+### ⚙️ Operational Integration
+- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) — RTO/RPO requirements
+- [📊 Security Metrics](./Security_Metrics.md) — Risk monitoring and measurement
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-08-20  
-**⏰ Next Review:** 2025-11-20  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)    
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-04-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)    

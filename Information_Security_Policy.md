@@ -5,19 +5,19 @@
 <h1 align="center">🔐 Hack23 AB — Information Security Policy</h1>
 
 <p align="center">
-  <strong>Security Through Transparency and Excellence</strong><br>
-  <em>Enterprise-grade Security for Innovation-driven Consulting</em>
+  <strong>🛡️ Security Through Transparency and Excellence</strong><br>
+  <em>🎯 Enterprise-grade Security for Innovation-driven Consulting</em>
 </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.6-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--19-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.6 | **📅 Last Updated:** 2025-11-19 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-19
+**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -41,7 +41,7 @@ This policy establishes the information security framework for Hack23 AB, ensuri
 ### Scope
 This policy applies to:
 - All information systems documented in [Asset Register](./Asset_Register.md)
-- All business processes and data classifications per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- All business processes and data classifications per [Classification Framework](./CLASSIFICATION.md)
 - All third-party suppliers per [Supplier Management](./SUPPLIER.md)
 - All employees, contractors, and business partners
 
@@ -49,10 +49,11 @@ This policy applies to:
 
 ## 🏢 **Organizational Context**
 
-Hack23 AB is a Swedish innovation hub specializing in:
-- **🎮 Gaming Innovation:** Black Trigram - immersive Korean martial arts educational game
-- **🔐 Cybersecurity Consulting:** Enterprise-grade security services
-- **🏛️ Democratic Transparency:** Open-source tools for civic engagement (Citizen Intelligence Agency)
+Hack23 AB is a Swedish innovation hub with **four strategic business lines**:
+- **🔐 Cybersecurity Consulting:** Enterprise-grade security advisory and implementation services
+- **📋 CIA Compliance Manager:** Automated compliance tracking and ISMS management platform
+- **🏛️ Citizen Intelligence Agency:** Open-source political transparency and democratic accountability tools
+- **🎮 Black Trigram:** Immersive Korean martial arts educational gaming experience
 
 Our security approach reflects our business model: demonstrating security excellence through transparent implementation.
 
@@ -94,7 +95,7 @@ As the sole employee and decision-maker, the CEO maintains comprehensive respons
 - **Cryptography Management:** Implement encryption standards per [Cryptography Policy](./Cryptography_Policy.md)
 
 #### 📋 **Compliance and Governance**
-- **Regulatory Compliance:** Ensure adherence to GDPR, NIS2, and other regulations per [Compliance Checklist](./Compliance_Checklist.md)
+- **Regulatory Compliance:** Ensure adherence to GDPR, NIS2, EU CRA, and other regulations per [Compliance Checklist](./Compliance_Checklist.md)
 - **Asset Management:** Maintain accurate inventory in [Asset Register](./Asset_Register.md)
 - **Supplier Management:** Assess and monitor third parties per [Third Party Management](./Third_Party_Management.md) and [Supplier Security Posture](./SUPPLIER.md)
 - **Stakeholder Engagement:** Maintain regulatory and professional relationships per [External Stakeholder Registry](./External_Stakeholder_Registry.md)
@@ -116,7 +117,7 @@ As the sole employee and decision-maker, the CEO maintains comprehensive respons
 #### 📊 **Monitoring and Measurement**
 - **Security Metrics:** Track KPIs and performance per [Security Metrics](./Security_Metrics.md)
 - **Transparency Management:** Maintain public documentation per [ISMS Transparency Plan](./ISMS_Transparency_Plan.md)
-- **Classification Framework:** Apply consistent impact analysis per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **Classification Framework:** Apply consistent impact analysis per [Classification Framework](./CLASSIFICATION.md)
 
 ### External Responsibilities
 While Hack23 AB operates as a single-person company, certain specialized responsibilities may be delegated to external parties:
@@ -135,6 +136,35 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 - Conduct independent ISMS assessments
 - Validate compliance with ISO 27001 requirements
 - Provide recommendations for improvement
+
+---
+
+## 🤖 **AI-First Operations Governance**
+
+Hack23 AB operates an AI-first operating model where GitHub Copilot custom agents are core strategic enablers for enterprise-grade delivery. This section establishes governance requirements; detailed architecture and workflows are documented in [Information Security Strategy](./Information_Security_Strategy.md#-ai-first-operations-strategy).
+
+### Governance Principles
+
+**Human Oversight:** CEO maintains ultimate authority over all agent activities. All agent-created pull requests require CEO approval before merge.
+
+**ISMS Integration:** All agents load ISMS-PUBLIC policies as mandatory context, ensuring compliance with [AI Policy](./AI_Policy.md), [Secure Development Policy](./Secure_Development_Policy.md), and [Open Source Policy](./Open_Source_Policy.md).
+
+**Least Privilege:** Agents operate with minimal tool sets and permissions required for their designated functions.
+
+**Audit Trail:** All agent activities are logged through GitHub's audit mechanisms, enabling complete traceability.
+
+### Agent Tiers
+
+1. **Curator-Agent** — Maintains agent fleet configuration (profiles, MCP configs, workflows)
+2. **Task Agents** — Product-specific analysis and issue creation with ISMS policy mappings
+3. **Specialist Agents** — Domain-specific implementation (security, development, testing, documentation)
+
+### CEO Control Points
+
+- Sets strategic direction for agent analysis priorities
+- Approves all agent-created pull requests
+- Approves all workflow and configuration changes
+- Retains responsibility for production changes and policy evolution
 
 ---
 
@@ -327,11 +357,13 @@ This Information Security Policy integrates with and references the complete ISM
 
 ### 🏛️ Primary ISMS Framework
 
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Business impact and classification methodology
+- [📈 Information Security Strategy](./Information_Security_Strategy.md) - Strategic direction, AI-first operations, and roadmap
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Business impact and classification methodology
+- [🏗️ Security Architecture](./SECURITY_ARCHITECTURE.md) - Technical security implementation patterns
 - [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Public disclosure strategy
 - [📝 Style Guide](./STYLE_GUIDE.md) - Documentation standards
 - [📊 Security Metrics](./Security_Metrics.md) - Performance measurement framework
-
+- [📈 ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) - Operational KPI tracking
 
 ### 🔐 **Core Security Policies**
 
@@ -363,19 +395,28 @@ This Information Security Policy integrates with and references the complete ISM
 
 - [💻 Asset Register](./Asset_Register.md) - Comprehensive information asset inventory and management
 - [📉 Risk Register](./Risk_Register.md) - Enterprise risk identification, assessment, and treatment
+- [📊 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) - Quantified risk analysis framework
+- [🌐 External Stakeholder Registry](./External_Stakeholder_Registry.md) - Regulatory and professional relationships
+
+### 🤝 Third Party & Supply Chain
+
 - [🤝 Third Party Management](./Third_Party_Management.md) - Systematic supplier risk management and governance
 - [🔗 Supplier Security Posture](./SUPPLIER.md) - Detailed third-party security assessments and monitoring
+- [🤝 Partnership Framework](./Partnership_Framework.md) - Strategic partnership governance
 
 ### ✅ Compliance and Governance
 
 - [✅ Compliance Checklist](./Compliance_Checklist.md) - Multi-framework regulatory compliance tracking and management
+- [📋 CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) - EU Cyber Resilience Act compliance
+- [🇪🇺 NIS2 Compliance Service](./NIS2_Compliance_Service.md) - NIS2 directive alignment
 
 
 
-**📋 Document Control:**
-**✅ Approved by:** James Pether Sörling, CEO
-**📤 Distribution:** Public
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
-**📅 Effective Date:** 2025-11-18
-**⏰ Next Review:** 2026-11-18
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**📋 Document Control:**  
+**✅ Approved by:** James Pether Sörling, CEO  
+**📤 Distribution:** Public  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2027-01-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
+

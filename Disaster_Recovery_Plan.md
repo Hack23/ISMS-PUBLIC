@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-05-18
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-07-25
 
 ---
 
@@ -44,11 +44,11 @@ Our disaster recovery strategy is built on AWS Resilience Hub policies that enfo
   init: {
     'theme': 'base',
     'themeVariables': {
-      'primaryColor': '#ff6f00',
+      'primaryColor': '#F57C00',
       'primaryTextColor': '#ffffff',
-      'lineColor': '#ff8f00',
-      'secondaryColor': '#e8f5e9',
-      'tertiaryColor': '#e3f2fd'
+      'lineColor': '#FF9800',
+      'secondaryColor': '#4CAF50',
+      'tertiaryColor': '#1565C0'
     }
   }
 }%%
@@ -96,21 +96,21 @@ graph TD
     VALIDATE --> HIGH
     AUDIT --> STANDARD
     
-    style RESILIENCE fill:#ff6f00,color:#fff
-    style CHAOS fill:#7c4dff,color:#fff
-    style BACKUP fill:#00acc1,color:#fff
+    style RESILIENCE fill:#F57C00,color:#fff
+    style CHAOS fill:#7B1FA2,color:#fff
+    style BACKUP fill:#1565C0,color:#fff
     style APPLICATIONS fill:#4caf50,color:#fff
 ```
 
 ### 📊 AWS Resilience Hub Policy Framework
 
-**Policy Tiers Mapped to [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):**
+**Policy Tiers Mapped to [Classification Framework](./CLASSIFICATION.md):**
 
 | Resilience Tier | RTO Requirement | RPO Requirement | Application Coverage | Gating Requirement | Evidence Retention |
 |-----------------|-----------------|-----------------|---------------------|-------------------|-------------------|
-| **🔴 Mission Critical** | [![RTO Critical](https://img.shields.io/badge/RTO-Critical_(5--60min)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | [![RPO Near Real-time](https://img.shields.io/badge/RPO-Near_Realtime_(1--15min)-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | API Gateway, Lambda, DynamoDB | 100% compliance required | 3 years |
-| **🟠 High Priority** | [![RTO High](https://img.shields.io/badge/RTO-High_(1--4hrs)-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | [![RPO Hourly](https://img.shields.io/badge/RPO-Hourly_(1--4hrs)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | RDS, S3, CloudFront | 95% compliance required | 2 years |
-| **🟡 Standard** | [![RTO Medium](https://img.shields.io/badge/RTO-Medium_(4--24hrs)-lightgreen?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | [![RPO Daily](https://img.shields.io/badge/RPO-Daily_(4--24hrs)-lightblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#rto-classifications) | DNS, monitoring, alarms | 90% compliance required | 1 year |
+| **🔴 Mission Critical** | [![RTO Critical](https://img.shields.io/badge/RTO-Critical_(5--60min)-orange?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | [![RPO Near Real-time](https://img.shields.io/badge/RPO-Near_Realtime_(1--15min)-orange?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | API Gateway, Lambda, DynamoDB | 100% compliance required | 3 years |
+| **🟠 High Priority** | [![RTO High](https://img.shields.io/badge/RTO-High_(1--4hrs)-yellow?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | [![RPO Hourly](https://img.shields.io/badge/RPO-Hourly_(1--4hrs)-lightgreen?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | RDS, S3, CloudFront | 95% compliance required | 2 years |
+| **🟡 Standard** | [![RTO Medium](https://img.shields.io/badge/RTO-Medium_(4--24hrs)-lightgreen?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | [![RPO Daily](https://img.shields.io/badge/RPO-Daily_(4--24hrs)-lightblue?style=flat-square)](./CLASSIFICATION.md#rto-classifications) | DNS, monitoring, alarms | 90% compliance required | 1 year |
 
 **Deployment Gating Process:**
 - Production releases require Resilience Hub assessment "GREEN" status
@@ -627,21 +627,29 @@ EvidenceCollectionFunction:
 
 ## 📚 Related Documents
 
-- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Business resilience and operational continuity strategy
-- [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) - Data protection and backup validation procedures
-- [🚨 Incident Response Plan](./Incident_Response_Plan.md) - Security incident management and crisis response
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework
-- [💻 Asset Register](./Asset_Register.md) - Critical asset inventory and recovery priorities
-- [📉 Risk Register](./Risk_Register.md) - Business continuity risks and treatment strategies
-- [🌐 Network Security Policy](./Network_Security_Policy.md) - Network recovery and security restoration
-- [📊 Security Metrics](./Security_Metrics.md) - Recovery performance measurement and RTO/RPO tracking
+### 🔐 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — AI-first operations, Pentagon framework, and strategic disaster recovery direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance and AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) — AI agent governance for recovery automation and chaos engineering
+- [🏷️ Classification Framework](./CLASSIFICATION.md) — Business impact definitions and RTO/RPO classifications
+
+### 🔄 Business Continuity Framework
+- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) — Business resilience and operational continuity strategy
+- [💾 Backup Recovery Policy](./Backup_Recovery_Policy.md) — Data protection and backup validation procedures
+- [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Security incident management and crisis response
+
+### ⚙️ Operational Integration
+- [💻 Asset Register](./Asset_Register.md) — Critical asset inventory and recovery priorities
+- [📉 Risk Register](./Risk_Register.md) — Business continuity risks and treatment strategies
+- [🌐 Network Security Policy](./Network_Security_Policy.md) — Network recovery and security restoration
+- [📊 Security Metrics](./Security_Metrics.md) — Recovery performance measurement and RTO/RPO tracking
 
 ---
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-17  
-**⏰ Next Review:** 2026-05-18   
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Resilience Hub](https://img.shields.io/badge/AWS-Resilience_Hub-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-07-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md) [![AWS Resilience Hub](https://img.shields.io/badge/AWS-Resilience_Hub-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md)

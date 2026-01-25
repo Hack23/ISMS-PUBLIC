@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.0 | **📅 Last Updated:** 2025-11-05 (UTC)  
-**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-05-05
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-07-25
 
 ---
 
@@ -138,7 +138,7 @@ Our implementation of industry-standard mobile device management controls, adapt
       'primaryColor': '#4CAF50',
       'primaryTextColor': '#000',
       'lineColor': '#2E7D32',
-      'secondaryColor': '#8BC34A'
+      'secondaryColor': '#4CAF50'
     }
   }
 }%%
@@ -181,11 +181,11 @@ flowchart LR
 
 | 🎯 Control | 📱 Mobile (iOS/Android) | 🖥️ Workstation (Ubuntu) | 🏷️ Classification Impact |
 |------------|------------------------|-------------------------|------------------------|
-| **Encryption** | Device-level (enforced by MDM) | LUKS full disk (verified at boot) | [![Critical](https://img.shields.io/badge/I-Critical-D32F2F?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Screen Lock** | 5 min timeout, biometric/PIN | 5 min timeout, password required | [![High](https://img.shields.io/badge/C-High-FF9800?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Updates** | Auto-update encouraged, 30-day max lag | Unattended security updates | [![Critical](https://img.shields.io/badge/A-Critical-D32F2F?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Malware Protection** | OS-native + app sandboxing | ClamAV scanning | [![High](https://img.shields.io/badge/I-High-FF9800?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
-| **Remote Wipe** | AWS WorkMail remote wipe capability | Data backed up to AWS, manual wipe if lost | [![Critical](https://img.shields.io/badge/C-Critical-D32F2F?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) |
+| **Encryption** | Device-level (enforced by MDM) | LUKS full disk (verified at boot) | [![Critical](https://img.shields.io/badge/I-Critical-D32F2F?style=flat-square)](./CLASSIFICATION.md) |
+| **Screen Lock** | 5 min timeout, biometric/PIN | 5 min timeout, password required | [![High](https://img.shields.io/badge/C-High-FF9800?style=flat-square)](./CLASSIFICATION.md) |
+| **Updates** | Auto-update encouraged, 30-day max lag | Unattended security updates | [![Critical](https://img.shields.io/badge/A-Critical-D32F2F?style=flat-square)](./CLASSIFICATION.md) |
+| **Malware Protection** | OS-native + app sandboxing | ClamAV scanning | [![High](https://img.shields.io/badge/I-High-FF9800?style=flat-square)](./CLASSIFICATION.md) |
+| **Remote Wipe** | AWS WorkMail remote wipe capability | Data backed up to AWS, manual wipe if lost | [![Critical](https://img.shields.io/badge/C-Critical-D32F2F?style=flat-square)](./CLASSIFICATION.md) |
 
 ### 3️⃣ **App Management & Containerization**
 
@@ -331,7 +331,7 @@ flowchart LR
       'primaryColor': '#2E7D32',
       'primaryTextColor': '#fff',
       'lineColor': '#4CAF50',
-      'secondaryColor': '#8BC34A'
+      'secondaryColor': '#4CAF50'
     }
   }
 }%%
@@ -535,10 +535,10 @@ flowchart TD
 
 | 🎯 Risk | ⚠️ Without MDM | ✅ With MDM | 📉 Risk Reduction |
 |--------|---------------|------------|------------------|
-| **Device Loss/Theft** | [![Extreme](https://img.shields.io/badge/Risk-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Unencrypted data exposure | [![Low](https://img.shields.io/badge/Risk-Low-4CAF50?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Encrypted + remote wipe | 🔻 90% reduction |
-| **Malware Infection** | [![Very High](https://img.shields.io/badge/Risk-Very_High-8B0000?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Corporate data compromise | [![Moderate](https://img.shields.io/badge/Risk-Moderate-FFC107?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Containerization limits impact | 🔻 70% reduction |
-| **Unauthorized Access** | [![High](https://img.shields.io/badge/Risk-High-FF9800?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) No device controls | [![Low](https://img.shields.io/badge/Risk-Low-4CAF50?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Passcode + MFA required | 🔻 80% reduction |
-| **Data Leakage** | [![High](https://img.shields.io/badge/Risk-High-FF9800?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) Uncontrolled data sharing | [![Moderate](https://img.shields.io/badge/Risk-Moderate-FFC107?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) App restrictions + monitoring | 🔻 60% reduction |
+| **Device Loss/Theft** | [![Extreme](https://img.shields.io/badge/Risk-Extreme-black?style=flat-square)](./CLASSIFICATION.md) Unencrypted data exposure | [![Low](https://img.shields.io/badge/Risk-Low-4CAF50?style=flat-square)](./CLASSIFICATION.md) Encrypted + remote wipe | 🔻 90% reduction |
+| **Malware Infection** | [![Very High](https://img.shields.io/badge/Risk-Very_High-8B0000?style=flat-square)](./CLASSIFICATION.md) Corporate data compromise | [![Moderate](https://img.shields.io/badge/Risk-Moderate-FFC107?style=flat-square)](./CLASSIFICATION.md) Containerization limits impact | 🔻 70% reduction |
+| **Unauthorized Access** | [![High](https://img.shields.io/badge/Risk-High-FF9800?style=flat-square)](./CLASSIFICATION.md) No device controls | [![Low](https://img.shields.io/badge/Risk-Low-4CAF50?style=flat-square)](./CLASSIFICATION.md) Passcode + MFA required | 🔻 80% reduction |
+| **Data Leakage** | [![High](https://img.shields.io/badge/Risk-High-FF9800?style=flat-square)](./CLASSIFICATION.md) Uncontrolled data sharing | [![Moderate](https://img.shields.io/badge/Risk-Moderate-FFC107?style=flat-square)](./CLASSIFICATION.md) App restrictions + monitoring | 🔻 60% reduction |
 
 ---
 
@@ -570,7 +570,9 @@ flowchart TD
 This Mobile Device Management Policy integrates with the complete ISMS framework:
 
 ### 🔐 Core Security Policies
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Master security framework
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic mobile security direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Master security framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI-assisted mobile device management and security automation
 - [🔑 Access Control Policy](./Access_Control_Policy.md) - Identity and authentication standards
 - [🏷️ Data Classification Policy](./Data_Classification_Policy.md) - Information protection requirements
 - [🔒 Cryptography Policy](./Cryptography_Policy.md) - Encryption standards and key management
@@ -588,7 +590,7 @@ This Mobile Device Management Policy integrates with the complete ISMS framework
 
 ### ✅ Compliance & Governance
 - [✅ Compliance Checklist](./Compliance_Checklist.md) - ISO 27001/NIST CSF control mapping
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) - Risk assessment methodology
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Risk assessment methodology
 
 ---
 
@@ -609,7 +611,7 @@ Our approach proves that **enterprise-grade mobile security is achievable withou
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2025-11-05  
-**⏰ Next Review:** 2026-05-05  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
+**📅 Effective Date:** 2026-01-25  
+**⏰ Next Review:** 2026-07-25  
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md)

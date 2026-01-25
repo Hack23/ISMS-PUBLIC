@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2025--11--17-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2025-11-17 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2026-11-17
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
 
 ---
 
@@ -80,10 +80,10 @@ Every ISMS document MUST end with this standardized footer. This section is crit
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** [Audience - e.g., All Personnel, Key Suppliers]  
-**🏷️ Classification:** [![Confidentiality: Level](https://img.shields.io/badge/C-[Level]-[Color]?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**🏷️ Classification:** [![Confidentiality: Level](https://img.shields.io/badge/C-[Level]-[Color]?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **📅 Effective Date:** 2025-11-17  
 **⏰ Next Review:** 2026-11-17  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md)
 ```
 
 ---
@@ -164,10 +164,10 @@ Example:
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** All Personnel  
-**🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **📅 Effective Date:** 2025-11-17  
 **⏰ Next Review:** 2026-11-17  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
 ```
 
 ### 4) Icon and link conventions
@@ -760,6 +760,294 @@ For comprehensive quality assurance across all document aspects (header, content
 
 ---
 
+## 📊 **Diagram Type Selection Guide**
+
+Choose the right diagram type based on what you're communicating:
+
+| Information Type | Recommended Diagram | Use When | Example Documents |
+|------------------|-------------------|----------|-------------------|
+| **Process Flow / Decision Logic** | `flowchart TD` | Showing sequential steps, decision points, branching logic | Incident_Response_Plan.md, Risk_Assessment_Methodology.md |
+| **Strategic Positioning** | `quadrantChart` | Comparing items across two dimensions (e.g., impact vs likelihood, internal vs external) | SWOT.md, Risk_Register.md |
+| **System Interactions** | `sequenceDiagram` | Showing communication between actors/systems over time | Incident_Response_Plan.md, Information_Security_Strategy.md |
+| **Project Timeline** | `gantt` | Displaying schedules, milestones, and dependencies | Information_Security_Strategy.md (roadmap) |
+| **Concept Hierarchy** | `mindmap` | Organizing related concepts, frameworks, or taxonomies | Asset_Register.md, SECURITY_ARCHITECTURE.md |
+| **Data Relationships** | `erDiagram` | Showing entity relationships and data models | Asset_Register.md, Risk_Register.md |
+| **Distribution / Proportions** | `pie` | Showing percentage breakdown or allocation | Budget, resource allocation sections |
+| **User Experience** | `journey` | Mapping user/stakeholder experience through a process | Customer onboarding, compliance assessment |
+
+**Selection Principles:**
+
+- **Simplicity First:** Choose the simplest diagram type that conveys your message
+- **Audience Alignment:** Match diagram complexity to stakeholder technical level
+- **Cross-Reference Consistency:** Use same diagram type for similar concepts across documents
+- **Accessibility:** Ensure diagrams are understandable without color (use labels, shapes, patterns)
+
+
+---
+
+## 📏 **Diagram Complexity Guidelines**
+
+**Maximum Complexity Targets:**
+
+| Diagram Type | Max Nodes/Elements | Max Nesting Levels | Max Width (chars) | When to Split |
+|--------------|-------------------|-------------------|-------------------|---------------|
+| **Flowchart** | 15-20 nodes | 3 levels | 100 chars | >20 nodes or >3 decision branches |
+| **Sequence** | 6-8 participants | 15-20 interactions | 80 chars | >8 actors or >20 messages |
+| **Quadrant** | 25-30 points | N/A | Chart-specific | >30 points becomes unreadable |
+| **Mindmap** | 20-25 nodes | 4 levels | 60 chars per node | >4 levels deep |
+| **Gantt** | 15-20 tasks | 3 levels | 100 chars | >20 tasks |
+
+**Splitting Strategies:**
+
+- **Hierarchical:** Create overview diagram linking to detailed sub-diagrams
+- **Sequential:** Split into phases (e.g., "Incident Detection" → "Incident Response" → "Incident Recovery")
+- **Categorical:** Group by domain (e.g., separate diagrams for "Network Security" vs "Application Security")
+
+
+**Example: Splitting an Overloaded Flowchart**
+
+Instead of one 30-node diagram, create:
+
+```markdown
+## Overview: Risk Management Workflow (High-Level)
+[Simple 10-node diagram showing: Identify → Assess → Treat → Monitor]
+
+## Detail: Risk Assessment Process
+[15-node flowchart showing detailed assessment steps]
+
+## Detail: Risk Treatment Options
+[12-node flowchart showing treatment selection logic]
+```
+
+---
+
+## 🔗 **Cross-Document Diagram References**
+
+**Linking Strategy:**
+
+When diagrams span multiple documents, use consistent linking patterns:
+
+#### 1. Anchor Links for Same-Document Navigation
+
+```markdown
+See [Risk Management Workflow](#-risk-management-workflow) below for detailed process.
+```
+
+#### 2. Cross-Document Mermaid References
+
+```markdown
+For risk scoring methodology, see the [Risk Assessment Process in Risk_Assessment_Methodology.md](./Risk_Assessment_Methodology.md#-risk-assessment-process).
+```
+
+#### 3. Narrative Transitions Between Diagrams
+
+```markdown
+This strategic framework (diagram above) is implemented through the [Product Security Architecture in Information_Security_Strategy.md](./Information_Security_Strategy.md#️-product-security-architecture-comparison).
+```
+
+**Consistency Rules:**
+
+- Use same node IDs for same concepts across documents (e.g., `RISK_ASSESS`, `INCIDENT`, `CEO`)
+- Maintain consistent color schemes per STYLE_GUIDE.md standards
+- Reference diagrams by section header, not "above" or "below" (for portability)
+
+---
+
+## ♿ **Diagram Accessibility**
+
+**Color-Blind Considerations:**
+
+- **Don't rely solely on color** to convey information (use shapes, labels, patterns)
+- **Test with color-blind simulators** (e.g., Coblis Color Blindness Simulator)
+- **Provide text alternatives** in surrounding paragraphs
+
+### Example: Accessible Status Indicators
+
+```markdown
+<!-- ❌ Bad: Color-only status -->
+node1[Task] --> node2[Complete]:::green
+node2 --> node3[Failed]:::red
+
+<!-- ✅ Good: Color + Symbol + Label -->
+node1[📋 Task] --> node2[✅ Complete: Task A]:::green
+node2 --> node3[❌ Failed: Task B]:::red
+```
+
+**Alt-Text Best Practices:**
+
+- **Always provide** narrative description of diagram content after the diagram
+- **Format:** "**Key Takeaways:** - [Bullet list of main points]"
+- **Recommended format example:**
+
+```markdown
+\```mermaid
+[Quadrant diagram showing SWOT analysis]
+\```
+
+**Key Takeaways:**
+
+- **Strengths:** Deep cybersecurity expertise, transparent ISMS, cloud-native architecture
+- **Weaknesses:** Single-person dependency, limited financial resources
+- **Opportunities:** NIS2 implementation wave, EU CRA compliance demand
+- **Threats:** Large competitor entry, economic downturn
+```
+
+---
+
+## 🔄 **Diagram Versioning and Evolution**
+
+**When to Update Diagrams:**
+
+- Process changes (add/remove steps)
+- New framework integration (add compliance mappings)
+- Stakeholder feedback (clarity improvements)
+- Quarterly/annual policy reviews
+
+**Update Strategy:**
+
+1. **Preserve Anchors:** Don't change diagram section header anchors (breaks external links)
+2. **Document Changes:** Add version note in surrounding text
+3. **Maintain Backward Compatibility:** If removing nodes, add "deprecated" note
+
+### Example: Evolving a Diagram
+
+```markdown
+<!-- Version 1.0 (2025-01-01) -->
+
+## 🔄 Risk Management Workflow
+
+\```mermaid
+flowchart TD
+    IDENTIFY --> ASSESS
+    ASSESS --> TREAT
+    TREAT --> MONITOR
+\```
+
+<!-- Version 1.1 (2025-06-01) - Added AI agent triage -->
+
+## 🔄 Risk Management Workflow
+
+**Updated 2025-06-01:** Added AI agent triage step between Identify and Assess phases.
+
+\```mermaid
+flowchart TD
+    IDENTIFY --> AI_TRIAGE[🤖 AI Agent Triage]
+    AI_TRIAGE --> ASSESS
+    ASSESS --> TREAT
+    TREAT --> MONITOR
+\```
+```
+
+**Diagram Naming Conventions:**
+
+- **Node IDs:** Use UPPERCASE_UNDERSCORE format (e.g., `RISK_ASSESS`, `CEO_APPROVAL`)
+- **Class Names:** Use lowercase hyphen format (e.g., `high-priority`, `approved-status`)
+- **Section Anchors:** Keep stable over time; use descriptive names (e.g., `#-risk-management-workflow`)
+
+---
+
+## ❌ **Diagram Anti-Patterns (What NOT to Do)**
+
+| Anti-Pattern | Problem | Solution |
+|--------------|---------|----------|
+| **Color-Only Differentiation** | Inaccessible to color-blind users | Add icons, labels, patterns |
+| **Too Many Decision Branches** | Analysis paralysis | Consolidate similar branches, split diagram |
+| **Inconsistent Node IDs** | Confusion across documents | Use standard IDs (e.g., `CEO`, `RISK_ASSESS`) |
+| **Overly Abstract Labels** | Unclear meaning | Use descriptive, action-oriented labels |
+| **Missing Context** | Diagram stands alone | Provide narrative introduction and key takeaways |
+| **Unlinked References** | Dead ends | Every referenced diagram should be linkable |
+| **Diagram-in-Diagram** | Mermaid limitations | Split into separate diagrams with cross-links |
+| **Temporal References** | "Above" or "below" breaks portability | Reference by section header or anchor |
+| **Excessive Nesting** | Readability issues | Flatten structure or split into multiple diagrams |
+| **Generic Node Names** | Lacks specificity | Use domain-specific, meaningful names |
+
+### Example: Avoiding Over-Complexity
+
+```markdown
+<!-- ❌ Bad: 40-node monolithic flowchart -->
+\```mermaid
+flowchart TD
+    [... 40 nodes in single diagram ...]
+\```
+
+<!-- ✅ Good: Split into focused diagrams -->
+
+## Overview: Risk Management
+
+\```mermaid
+flowchart TD
+    [... 10-node high-level view ...]
+\```
+
+## Detail: Risk Assessment
+
+\```mermaid
+flowchart TD
+    [... 15-node assessment detail ...]
+\```
+```
+
+---
+
+## 📱 **Mobile Responsiveness Guidelines**
+
+**Diagram Sizing for Small Screens:**
+
+- **Max Width:** Keep diagrams under 800px width for mobile readability
+- **Orientation:** Prefer vertical (`TD`) over horizontal (`LR`) layouts for mobile
+- **Font Size:** Use minimum 12px font size in Mermaid config
+- **Touch Targets:** Ensure clickable elements are at least 44x44px
+
+**Responsive Diagram Patterns:**
+
+| Device Type | Recommended Approach | Example |
+|-------------|---------------------|---------|
+| **Desktop (>1024px)** | Full complexity allowed | Quadrant chart with 25+ points |
+| **Tablet (768-1024px)** | Moderate complexity | Flowchart with 15 nodes |
+| **Mobile (<768px)** | Minimal complexity | Simplified 5-8 node flowchart |
+
+### Mobile-Friendly Example
+
+```markdown
+<!-- Desktop: Full detail -->
+
+## Risk Assessment Workflow (Full)
+
+\```mermaid
+flowchart TD
+    [... 20-node detailed diagram ...]
+\```
+
+<!-- Mobile: Simplified -->
+
+## Risk Assessment Workflow (Simplified)
+
+\```mermaid
+flowchart TD
+    START[📋 Identify] --> ASSESS[🔍 Assess]
+    ASSESS --> TREAT[🛡️ Treat]
+    TREAT --> MONITOR[📈 Monitor]
+\```
+```
+
+**Configuration for Mobile:**
+
+```yaml
+%%{init: {
+  "theme": "default",
+  "themeVariables": {
+    "fontSize": "14px"
+  },
+  "flowchart": {
+    "nodeSpacing": 50,
+    "rankSpacing": 50,
+    "curve": "basis"
+  }
+}}%%
+```
+
+---
+
 ## 🎖️ **Security Badge Standards**
 
 ### Overview
@@ -849,8 +1137,8 @@ Include compliance badges in the document control footer:
 
 ```markdown
 **🎯 Framework Compliance:** 
-[![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) 
-[![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+[![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square)](./CLASSIFICATION.md) 
+[![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square)](./CLASSIFICATION.md)
 ```
 
 #### In Architecture Documentation
@@ -893,10 +1181,30 @@ Examples of proper badge usage across Hack23 projects:
 
 ---
 
+## 📚 Related Documents
+
+### 🎯 Strategic & Governance
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic documentation direction
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Master security policy framework with AI-First Operations Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI-assisted documentation generation and quality assurance
+- [🏷️ Classification Framework](./CLASSIFICATION.md) - Information classification standards
+- [📋 ISMS QA Checklist](./ISMS_QA_CHECKLIST.md) - Documentation quality assurance procedures
+- [✅ Compliance Checklist](./Compliance_Checklist.md) - Regulatory compliance tracking
+
+### 🔐 Security Policies & Controls
+- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Security architecture documentation requirements
+- [🔐 SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) - Reference implementation of documentation standards
+
+### ⚙️ Operational Integration
+- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Public disclosure and transparency strategy
+- [📊 Security Metrics](./Security_Metrics.md) - Security monitoring and measurement
+
+---
+
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
+**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **📅 Effective Date:** 2025-11-17  
 **⏰ Next Review:** 2026-11-17  
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
