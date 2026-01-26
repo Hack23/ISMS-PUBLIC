@@ -153,13 +153,13 @@ All projects must maintain comprehensive unit testing plan with public coverage 
 [![Code Quality](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
 
 **🎮 Black Trigram:**
-[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=jest&logoColor=white)](https://blacktrigram.com/test-results/)
+[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=jest&logoColor=white)](https://blacktrigram.com/coverage/)
 [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square&logo=jest&logoColor=white)](https://blacktrigram.com/test-results/)
 [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/UnitTestPlan.md)
 [![Code Quality](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
 
 **📊 CIA Compliance Manager:**
-[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://ciacompliancemanager.com/test-results/)
+[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://ciacompliancemanager.com/coverage/)
 [![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://ciacompliancemanager.com/test-results/)
 [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/UnitTestPlan.md)
 [![Code Quality](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
