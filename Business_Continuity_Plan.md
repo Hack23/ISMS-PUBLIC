@@ -698,6 +698,9 @@ All Hack23 AB projects maintain detailed business continuity documentation demon
 | **🏛️ CIA** | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/BCPPlan.md) | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/End-of-Life-Strategy.md) | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/FinancialSecurityPlan.md) | ✅ High Priority | ✅ Java 21-25 LTS |
 | **🎮 Black Trigram** | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/BCPPlan.md) | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/End-of-Life-Strategy.md) | N/A (Zero Cost) | ✅ Standard | ✅ Unity/TypeScript |
 | **📊 CIA Compliance** | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/BCPPlan.md) | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/End-of-Life-Strategy.md) | [![Complete](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/FinancialSecurityPlan.md) | ✅ High Priority | ✅ React/TypeScript |
+| **🇪🇺 EP MCP Server** | ⏳ Planned | ⏳ Planned | N/A (Zero Cost) | ✅ Standard | ✅ TypeScript/Node.js |
+| **🇪🇺 EU Parliament Monitor** | ⏳ Planned | ⏳ Planned | N/A (Zero Cost) | ✅ Standard | ✅ TypeScript |
+| **🗳️ Riksdagsmonitor** | ⏳ Planned | ⏳ Planned | N/A (Zero Cost) | ✅ Standard | ✅ TypeScript |
 
 ---
 

@@ -43,7 +43,7 @@ By maintaining **🌐 live security dashboards** with **📊 public accountabili
 
 | Metric | Target (2025) | Actual (Dec 2025) | Variance | Status | Evidence |
 |--------|---------------|-------------------|----------|--------|----------|
-| **OpenSSF Scorecard (Avg)** | >8.5 | See live badges below | — | 🟡 Solid Foundation | [![CIA](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) [![BT](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) [![CM](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) |
+| **OpenSSF Scorecard (Avg)** | >8.5 | See live badges below | — | 🟡 Solid Foundation | [![CIA](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) [![BT](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) [![CM](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) [![EP](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) [![EPM](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) [![RM](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) |
 | **CII Best Practices** | Gold/Passing | Achieved | 100% | ✅ Achieved | [CIA: Gold](https://bestpractices.coreinfrastructure.org/projects/770), [CM: Passing](https://bestpractices.coreinfrastructure.org/projects/10365), [BT: Passing](https://bestpractices.coreinfrastructure.org/projects/10777) |
 | **Critical Vulnerabilities >7d** | 0 | 0 | 100% | ✅ Maintained | [Dependabot Monitoring](https://github.com/orgs/Hack23/security/overview) |
 | **ISMS Documentation** | 100% | 100% (70% public) | 100% | ✅ Achieved | [Public ISMS Repository](https://github.com/Hack23/ISMS) |
@@ -661,6 +661,15 @@ Our metrics directly support business value creation:
 #### **📊 CIA Compliance Manager**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | **Target: 9.5+**
 
+#### **🇪🇺 European Parliament MCP Server**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | **Target: 9.0+**
+
+#### **🇪🇺 EU Parliament Monitor**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | **Target: 9.0+**
+
+#### **🗳️ Riksdagsmonitor**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | **Target: 9.0+**
+
 **See live badges above for current scores** _(values may change; badges reflect real-time data)_ | For check descriptions, see [OpenSSF Scorecard Documentation](https://github.com/ossf/scorecard#scorecard-checks)
 
 ---
@@ -715,6 +724,23 @@ Aligned with [Vulnerability Management Policy](./Vulnerability_Management.md) re
 [![Scorecards](https://github.com/Hack23/cia-compliance-manager/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/cia-compliance-manager/actions/workflows/scorecards.yml)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365/badge)](https://bestpractices.coreinfrastructure.org/projects/10365)
 
+### **🇪🇺 European Parliament MCP Server**
+[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
+[![CI](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml/badge.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml)
+
+### **🇪🇺 EU Parliament Monitor**
+[![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
+[![News Generation](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml)
+
+### **🗳️ Riksdagsmonitor**
+[![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
+[![Quality Checks](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml)
+
 ### **🔧 Sonar-CloudFormation-Plugin** ⚠️ *Archived - No Longer Maintained*
 [![License](https://img.shields.io/github/license/Hack23/sonar-cloudformation-plugin.svg)](https://github.com/Hack23/sonar-cloudformation-plugin/raw/master/LICENSE.txt)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/sonar-cloudformation-plugin/badge)](https://api.securityscorecards.dev/projects/github.com/Hack23/sonar-cloudformation-plugin)
@@ -753,6 +779,9 @@ Aligned with [Vulnerability Management Policy](./Vulnerability_Management.md) re
 - **🏛️ CIA:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/cia/security/code-scanning) • [Secrets](https://github.com/Hack23/cia/security/secret-scanning) • [Dependabot](https://github.com/Hack23/cia/security/dependabot)
 - **🎮 Black Trigram:** [Overview](https://github.com/Hack23/blacktrigram/security/overview) • [Code Scanning](https://github.com/Hack23/blacktrigram/security/code-scanning) • [Secrets](https://github.com/Hack23/blacktrigram/security/secret-scanning) • [Dependabot](https://github.com/Hack23/blacktrigram/security/dependabot)
 - **📊 CIA Compliance Manager:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/cia-compliance-manager/security/code-scanning) • [Secrets](https://github.com/Hack23/cia-compliance-manager/security/secret-scanning) • [Dependabot](https://github.com/Hack23/cia-compliance-manager/security/dependabot)
+- **🇪🇺 EP MCP Server:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/European-Parliament-MCP-Server/security/code-scanning) • [Secrets](https://github.com/Hack23/European-Parliament-MCP-Server/security/secret-scanning) • [Dependabot](https://github.com/Hack23/European-Parliament-MCP-Server/security/dependabot)
+- **🇪🇺 EU Parliament Monitor:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Dependabot](https://github.com/Hack23/euparliamentmonitor/security/dependabot)
+- **🗳️ Riksdagsmonitor:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Dependabot](https://github.com/Hack23/riksdagsmonitor/security/dependabot)
 - **🎮 Game:** [Overview](https://github.com/Hack23/game/security/overview) • [Code Scanning](https://github.com/Hack23/game/security/code-scanning) • [Secrets](https://github.com/Hack23/game/security/secret-scanning) • [Dependabot](https://github.com/Hack23/game/security/dependabot)
 - **🔧 Sonar-CloudFormation-Plugin:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/sonar-cloudformation-plugin/security/code-scanning) • [Secrets](https://github.com/Hack23/sonar-cloudformation-plugin/security/secret-scanning) • [Dependabot](https://github.com/Hack23/sonar-cloudformation-plugin/security/dependabot)
 - **📡 Lambda in Private VPC:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/lambda-in-private-vpc/security/code-scanning) • [Secrets](https://github.com/Hack23/lambda-in-private-vpc/security/secret-scanning) • [Dependabot](https://github.com/Hack23/lambda-in-private-vpc/security/dependabot)

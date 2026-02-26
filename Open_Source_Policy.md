@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--02--26-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 2.4 | **📅 Last Updated:** 2026-02-26 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-05-26
 
 ---
 
@@ -133,6 +133,24 @@ All repositories **MUST** demonstrate security excellence through public badges 
 [![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#quantitative-risk-assessment)
 [![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#security-control-mapping)
 
+**🇪🇺 European Parliament MCP Server:**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
+[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md)
+[![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://hack23.github.io/European-Parliament-MCP-Server/)
+
+**🇪🇺 EU Parliament Monitor:**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
+[![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md)
+
+**🗳️ Riksdagsmonitor:**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
+[![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md)
+
 ---
 
 ### 📋 **2) Governance Artifacts**
@@ -150,6 +168,9 @@ Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-docu
 - **🏛️ CIA:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) • [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md) • [SECURITY.md](https://github.com/Hack23/cia/blob/master/SECURITY.md) • [WORKFLOWS.md](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md)
 - **🎮 Black Trigram:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) • [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SECURITY_ARCHITECTURE.md) • [SECURITY.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY.md) • [WORKFLOWS.md](https://github.com/Hack23/blacktrigram/blob/main/WORKFLOWS.md)
 - **📊 CIA Compliance Manager:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) • [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md) • [SECURITY.md](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY.md) • [WORKFLOWS.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/WORKFLOWS.md)
+- **🇪🇺 EP MCP Server:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) • [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SECURITY_ARCHITECTURE.md) • [SECURITY.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY.md)
+- **🇪🇺 EU Parliament Monitor:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) • [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+- **🗳️ Riksdagsmonitor:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) • [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
 
 #### **📜 License & Compliance Documentation**
 - **LICENSE:** OSI-approved license clearly stated
@@ -162,6 +183,9 @@ Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-docu
 - **🏛️ CIA:** [LICENSE](https://github.com/Hack23/cia/blob/master/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) • [NOTICE](https://github.com/Hack23/cia/blob/master/NOTICE)
 - **🎮 Black Trigram:** [LICENSE](https://github.com/Hack23/blacktrigram/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md)
 - **📊 CIA Compliance Manager:** [LICENSE](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md)
+- **🇪🇺 EP MCP Server:** [LICENSE](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
+- **🇪🇺 EU Parliament Monitor:** [LICENSE](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
+- **🗳️ Riksdagsmonitor:** [LICENSE](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
 
 #### **🤝 Community Documentation**
 - **CODE_OF_CONDUCT.md:** Community behavior standards
@@ -172,6 +196,9 @@ Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-docu
 - **🏛️ CIA:** [CODE_OF_CONDUCT.md](https://github.com/Hack23/cia/blob/master/CODE_OF_CONDUCT.md) • [CONTRIBUTING.md](https://github.com/Hack23/cia/blob/master/CONTRIBUTING.md) • [README.md](https://github.com/Hack23/cia/blob/master/README.md)
 - **🎮 Black Trigram:** [CODE_OF_CONDUCT.md](https://github.com/Hack23/blacktrigram/blob/main/CODE_OF_CONDUCT.md) • [CONTRIBUTING.md](https://github.com/Hack23/blacktrigram/blob/main/CONTRIBUTING.md) • [README.md](https://github.com/Hack23/blacktrigram/blob/main/README.md)
 - **📊 CIA Compliance Manager:** [CODE_OF_CONDUCT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CODE_OF_CONDUCT.md) • [CONTRIBUTING.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CONTRIBUTING.md) • [README.md](https://github.com/Hack23/cia-compliance-manager/blob/main/README.md)
+- **🇪🇺 EP MCP Server:** [CODE_OF_CONDUCT.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CODE_OF_CONDUCT.md) • [CONTRIBUTING.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CONTRIBUTING.md) • [README.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/README.md)
+- **🇪🇺 EU Parliament Monitor:** [README.md](https://github.com/Hack23/euparliamentmonitor/blob/main/README.md)
+- **🗳️ Riksdagsmonitor:** [README.md](https://github.com/Hack23/riksdagsmonitor/blob/main/README.md)
 
 ---
 
@@ -188,6 +215,9 @@ Aligned with [Secure Development Policy](./Secure_Development_Policy.md#software
 - **🏛️ CIA:** [Dependabot Config](https://github.com/Hack23/cia/blob/master/.github/dependabot.yml) • [SBOM Workflow](https://github.com/Hack23/cia/blob/master/.github/workflows/codeql-analysis.yml) • [Release Signing](https://github.com/Hack23/cia/attestations)
 - **🎮 Black Trigram:** [Dependabot Config](https://github.com/Hack23/blacktrigram/blob/main/.github/dependabot.yml) • [Security Workflow](https://github.com/Hack23/blacktrigram/blob/main/.github/workflows/ci.yml) • [Release Signing](https://github.com/Hack23/blacktrigram/attestations)
 - **📊 CIA Compliance Manager:** [Dependabot Config](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/dependabot.yml) • [Security Workflow](https://github.com/Hack23/cia-compliance-manager/blob/main/.github/workflows/ci.yml) • [Release Signing](https://github.com/Hack23/cia-compliance-manager/attestations)
+- **🇪🇺 EP MCP Server:** [Dependabot Config](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/.github/dependabot.yml) • [Release Signing](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
+- **🇪🇺 EU Parliament Monitor:** [Release Signing](https://github.com/Hack23/euparliamentmonitor/attestations)
+- **🗳️ Riksdagsmonitor:** [Dependency Review](https://github.com/Hack23/riksdagsmonitor/actions/workflows/dependency-review.yml)
 
 #### **🔍 Vulnerability Management**
 Per [Vulnerability Management](./Vulnerability_Management.md) SLAs:
@@ -200,6 +230,9 @@ Per [Vulnerability Management](./Vulnerability_Management.md) SLAs:
 - **🏛️ CIA:** [Security Overview](https://github.com/Hack23/cia/security) • [Code Scanning](https://github.com/Hack23/cia/security/code-scanning) • [Dependabot Alerts](https://github.com/Hack23/cia/security/dependabot)
 - **🎮 Black Trigram:** [Security Overview](https://github.com/Hack23/blacktrigram/security) • [Code Scanning](https://github.com/Hack23/blacktrigram/security/code-scanning) • [Dependabot Alerts](https://github.com/Hack23/blacktrigram/security/dependabot)
 - **📊 CIA Compliance Manager:** [Security Overview](https://github.com/Hack23/cia-compliance-manager/security) • [Code Scanning](https://github.com/Hack23/cia-compliance-manager/security/code-scanning) • [Dependabot Alerts](https://github.com/Hack23/cia-compliance-manager/security/dependabot)
+- **🇪🇺 EP MCP Server:** [Security Overview](https://github.com/Hack23/European-Parliament-MCP-Server/security) • [Code Scanning](https://github.com/Hack23/European-Parliament-MCP-Server/security/code-scanning) • [Dependabot Alerts](https://github.com/Hack23/European-Parliament-MCP-Server/security/dependabot)
+- **🇪🇺 EU Parliament Monitor:** [Security Overview](https://github.com/Hack23/euparliamentmonitor/security) • [Dependabot Alerts](https://github.com/Hack23/euparliamentmonitor/security/dependabot)
+- **🗳️ Riksdagsmonitor:** [Security Overview](https://github.com/Hack23/riksdagsmonitor/security) • [Dependabot Alerts](https://github.com/Hack23/riksdagsmonitor/security/dependabot)
 
 #### **📊 Security Testing Integration**
 As defined in [Secure Development Policy](./Secure_Development_Policy.md#automated-security-integration):
@@ -212,6 +245,7 @@ As defined in [Secure Development Policy](./Secure_Development_Policy.md#automat
 - **🏛️ CIA:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_cia) • [Test Results](https://hack23.github.io/cia/surefire.html) • [Coverage Report](https://hack23.github.io/cia/jacoco/)
 - **🎮 Black Trigram:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_blacktrigram) • [Test Results](https://blacktrigram.com/test-results/) • [E2E Tests](https://blacktrigram.com/cypress/mochawesome/)
 - **📊 CIA Compliance Manager:** [SonarCloud Dashboard](https://sonarcloud.io/project/overview?id=Hack23_cia-compliance-manager) • [Test Results](https://ciacompliancemanager.com/test-results/) • [E2E Tests](https://ciacompliancemanager.com/cypress/mochawesome/)
+- **🇪🇺 EP MCP Server:** [Test Coverage](https://hack23.github.io/European-Parliament-MCP-Server/coverage/) • [Unit Tests](https://hack23.github.io/European-Parliament-MCP-Server/test-results/) • [E2E Tests](https://hack23.github.io/European-Parliament-MCP-Server/e2e-results/)
 
 ---
 
@@ -242,6 +276,9 @@ As defined in [Secure Development Policy](./Secure_Development_Policy.md#automat
 - **🏛️ CIA:** [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHack23%2Fcia.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia?ref=badge_shield) • [License Report](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia/refs/branch/master)
 - **🎮 Black Trigram:** [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram?ref=badge_shield) • [License Report](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram/refs/branch/main)
 - **📊 CIA Compliance Manager:** [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager?ref=badge_shield) • [License Report](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager/refs/branch/main)
+- **🇪🇺 EP MCP Server:** [![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
+- **🇪🇺 EU Parliament Monitor:** [![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
+- **🗳️ Riksdagsmonitor:** [![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
 
 ---
 
@@ -260,6 +297,9 @@ Each project README **MUST** declare:
 - **🏛️ CIA:** [README Classification Section](https://github.com/Hack23/cia/blob/master/README.md#project-classification-hack23) • Links to canonical framework
 - **🎮 Black Trigram:** [README Classification Section](https://github.com/Hack23/blacktrigram/blob/main/README.md#project-classification-hack23) • References framework definitions
 - **📊 CIA Compliance Manager:** [README Classification Section](https://github.com/Hack23/cia-compliance-manager/blob/main/README.md#project-classification-hack23) • Aligned with ISMS standards
+- **🇪🇺 EP MCP Server:** [README](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/README.md) • ISMS-compliant, GDPR-ready
+- **🇪🇺 EU Parliament Monitor:** [README](https://github.com/Hack23/euparliamentmonitor/blob/main/README.md) • SLSA Level 3 provenance
+- **🗳️ Riksdagsmonitor:** [README](https://github.com/Hack23/riksdagsmonitor/blob/main/README.md) • Quality checks and dependency review
 
 ---
 
@@ -293,6 +333,9 @@ Aligned with [Data Classification Policy](./Data_Classification_Policy.md):
 - **🏛️ CIA:** [Contributors List](https://github.com/Hack23/cia/graphs/contributors) • [Pull Request History](https://github.com/Hack23/cia/pulls?q=is%3Apr+is%3Aclosed)
 - **🎮 Black Trigram:** [Contributors List](https://github.com/Hack23/blacktrigram/graphs/contributors) • [Pull Request History](https://github.com/Hack23/blacktrigram/pulls?q=is%3Apr+is%3Aclosed)
 - **📊 CIA Compliance Manager:** [Contributors List](https://github.com/Hack23/cia-compliance-manager/graphs/contributors) • [Pull Request History](https://github.com/Hack23/cia-compliance-manager/pulls?q=is%3Apr+is%3Aclosed)
+- **🇪🇺 EP MCP Server:** [Contributors List](https://github.com/Hack23/European-Parliament-MCP-Server/graphs/contributors) • [Pull Request History](https://github.com/Hack23/European-Parliament-MCP-Server/pulls?q=is%3Apr+is%3Aclosed)
+- **🇪🇺 EU Parliament Monitor:** [Contributors List](https://github.com/Hack23/euparliamentmonitor/graphs/contributors) • [Pull Request History](https://github.com/Hack23/euparliamentmonitor/pulls?q=is%3Apr+is%3Aclosed)
+- **🗳️ Riksdagsmonitor:** [Contributors List](https://github.com/Hack23/riksdagsmonitor/graphs/contributors) • [Pull Request History](https://github.com/Hack23/riksdagsmonitor/pulls?q=is%3Apr+is%3Aclosed)
 
 ---
 
@@ -320,6 +363,9 @@ Demonstrating **EU Cyber Resilience Act** compliance readiness through systemati
 - **🏛️ CIA:** [Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md) • [Threat Model](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)
 - **🎮 Black Trigram:** [Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SECURITY_ARCHITECTURE.md) • [Threat Model](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md)
 - **📊 CIA Compliance Manager:** [Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md) • [Threat Model](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md)
+- **🇪🇺 EP MCP Server:** [Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+- **🇪🇺 EU Parliament Monitor:** [Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/euparliamentmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+- **🗳️ Riksdagsmonitor:** [Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) • [Future Security](https://github.com/Hack23/riksdagsmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
 
 **🎯 Threat Modeling Maturity Matrix:**
 
@@ -328,18 +374,21 @@ Demonstrating **EU Cyber Resilience Act** compliance readiness through systemati
 | **🏛️ CIA** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
 | **🎮 Black Trigram** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) |
 | **📊 CIA Compliance** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
+| **🇪🇺 EP MCP Server** | [![Architecture](https://img.shields.io/badge/Security-Architecture-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [![Architecture](https://img.shields.io/badge/Trees-Architecture-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [![SLSA](https://img.shields.io/badge/SLSA-Level_3-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) |
+| **🇪🇺 EU Parliament Monitor** | [![Architecture](https://img.shields.io/badge/Security-Architecture-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Architecture](https://img.shields.io/badge/Trees-Architecture-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![SLSA](https://img.shields.io/badge/SLSA-Level_3-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/attestations) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| **🗳️ Riksdagsmonitor** | [![Architecture](https://img.shields.io/badge/Security-Architecture-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Architecture](https://img.shields.io/badge/Trees-Architecture-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Scorecard](https://img.shields.io/badge/Supply_Chain-Scorecard-success?style=flat-square)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
 
 ### **📊 Evidence Dashboard**
 
 **🏆 Security Excellence Metrics:**
 
-| Evidence Category | CIA | Black Trigram | CIA Compliance Manager |
-|-------------------|-----|---------------|----------------------|
-| **🛡️ Threat Models** | [THREAT_MODEL.md](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [THREAT_MODEL.md](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [THREAT_MODEL.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
-| **🏗️ Security Architecture** | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) |
-| **⚖️ CRA Assessment** | [CRA-ASSESSMENT.md](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) | [CRA-ASSESSMENT.md](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) | [CRA-ASSESSMENT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) |
-| **🔐 Security Policy** | [SECURITY.md](https://github.com/Hack23/cia/blob/master/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY.md) |
-| **🏷️ License** | [LICENSE](https://github.com/Hack23/cia/blob/master/LICENSE) | [LICENSE](https://github.com/Hack23/blacktrigram/blob/main/LICENSE) | [LICENSE](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE) |
+| Evidence Category | CIA | Black Trigram | CIA Compliance Manager | EP MCP Server | EU Parliament Monitor | Riksdagsmonitor |
+|-------------------|-----|---------------|----------------------|---------------|----------------------|-----------------|
+| **🛡️ Threat Models** | [THREAT_MODEL.md](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [THREAT_MODEL.md](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [THREAT_MODEL.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | — | — | — |
+| **🏗️ Security Architecture** | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| **⚖️ CRA Assessment** | [CRA-ASSESSMENT.md](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) | [CRA-ASSESSMENT.md](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) | [CRA-ASSESSMENT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) | — | — | — |
+| **🔐 Security Policy** | [SECURITY.md](https://github.com/Hack23/cia/blob/master/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY.md) | [SECURITY.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY.md) | — | — |
+| **🏷️ License** | [LICENSE](https://github.com/Hack23/cia/blob/master/LICENSE) | [LICENSE](https://github.com/Hack23/blacktrigram/blob/main/LICENSE) | [LICENSE](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE) | [LICENSE](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE) | [LICENSE](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE) | [LICENSE](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE) |
 
 **🔍 Live Security Monitoring:**
 - **📊 GitHub Security:** Organization-wide security posture via [Security Overview](https://github.com/orgs/Hack23/security/overview)
@@ -364,6 +413,9 @@ Tracked via [Security Metrics](./Security_Metrics.md):
 - **🏛️ CIA:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770) 
 - **🎮 Black Trigram:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777) 
 - **📊 CIA Compliance Manager:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) • [CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365) 
+- **🇪🇺 EP MCP Server:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
+- **🇪🇺 EU Parliament Monitor:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
+- **🗳️ Riksdagsmonitor:** [OpenSSF Scorecard](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
 ### **📈 Continuous Monitoring**
 - **Weekly:** Automated security scanning results review
 - **Monthly:** License compliance report from FOSSA
@@ -372,8 +424,8 @@ Tracked via [Security Metrics](./Security_Metrics.md):
 
 **📊 Monitoring Evidence:**
 - **GitHub Organization Security:** [Security Overview](https://github.com/orgs/Hack23/security/overview) • [Risk Dashboard](https://github.com/orgs/Hack23/security/risk)
-- **Workflow Runs:** [CIA Actions](https://github.com/Hack23/cia/actions) • [Black Trigram Actions](https://github.com/Hack23/blacktrigram/actions) • [CIA Compliance Manager Actions](https://github.com/Hack23/cia-compliance-manager/actions)
-- **Release History:** [CIA Releases](https://github.com/Hack23/cia/releases) • [Black Trigram Releases](https://github.com/Hack23/blacktrigram/releases) • [CIA Compliance Manager Releases](https://github.com/Hack23/cia-compliance-manager/releases)
+- **Workflow Runs:** [CIA Actions](https://github.com/Hack23/cia/actions) • [Black Trigram Actions](https://github.com/Hack23/blacktrigram/actions) • [CIA Compliance Manager Actions](https://github.com/Hack23/cia-compliance-manager/actions) • [EP MCP Server Actions](https://github.com/Hack23/European-Parliament-MCP-Server/actions) • [EU Parliament Monitor Actions](https://github.com/Hack23/euparliamentmonitor/actions) • [Riksdagsmonitor Actions](https://github.com/Hack23/riksdagsmonitor/actions)
+- **Release History:** [CIA Releases](https://github.com/Hack23/cia/releases) • [Black Trigram Releases](https://github.com/Hack23/blacktrigram/releases) • [CIA Compliance Manager Releases](https://github.com/Hack23/cia-compliance-manager/releases) • [EP MCP Server Releases](https://github.com/Hack23/European-Parliament-MCP-Server/releases) • [EU Parliament Monitor Releases](https://github.com/Hack23/euparliamentmonitor/releases) • [Riksdagsmonitor Releases](https://github.com/Hack23/riksdagsmonitor/releases)
 
 ### **📊 Public Transparency Dashboard**
 Live metrics available at:
@@ -383,6 +435,7 @@ Live metrics available at:
   - **🏛️ CIA:** [Documentation Portal](https://www.hack23.com/cia-docs.html) • [API Documentation](https://hack23.github.io/cia/)
   - **🎮 Black Trigram:** [Documentation Portal](https://www.hack23.com/black-trigram-docs.html) • [Game Portal](https://blacktrigram.com)
   - **📊 CIA Compliance Manager:** [Documentation Portal](https://www.hack23.com/cia-compliance-manager-docs.html) • [Live Demo](https://ciacompliancemanager.com/)
+  - **🇪🇺 EP MCP Server:** [Documentation Portal](https://hack23.github.io/European-Parliament-MCP-Server/) • [API Docs](https://hack23.github.io/European-Parliament-MCP-Server/api/)
 
 ---
 
@@ -396,7 +449,7 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 - Community engagement planning
 
 **📊 Planning Evidence:**
-- **Architecture Docs:** [CIA Architecture](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md) • [Black Trigram Architecture](https://github.com/Hack23/blacktrigram/blob/main/ARCHITECTURE.md) • [CIA Compliance Manager Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/ARCHITECTURE.md)
+- **Architecture Docs:** [CIA Architecture](https://github.com/Hack23/cia/blob/master/ARCHITECTURE.md) • [Black Trigram Architecture](https://github.com/Hack23/blacktrigram/blob/main/ARCHITECTURE.md) • [CIA Compliance Manager Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/ARCHITECTURE.md) • [EP MCP Server Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/ARCHITECTURE.md)
 - **Future Planning:** [CIA Future Architecture](https://github.com/Hack23/cia/blob/master/FUTURE_ARCHITECTURE.md) • [Black Trigram Future](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_ARCHITECTURE.md) • [CIA Compliance Manager Future](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_ARCHITECTURE.md)
 
 ### **💻 Development Phase**
@@ -414,7 +467,7 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 - Security badge verification
 
 **📊 Release Evidence:**
-- **Attestations:** [CIA Attestations](https://github.com/Hack23/cia/attestations) • [Black Trigram Attestations](https://github.com/Hack23/blacktrigram/attestations) • [CIA Compliance Manager Attestations](https://github.com/Hack23/cia-compliance-manager/attestations)
+- **Attestations:** [CIA Attestations](https://github.com/Hack23/cia/attestations) • [Black Trigram Attestations](https://github.com/Hack23/blacktrigram/attestations) • [CIA Compliance Manager Attestations](https://github.com/Hack23/cia-compliance-manager/attestations) • [EP MCP Server Attestations](https://github.com/Hack23/European-Parliament-MCP-Server/attestations) • [EU Parliament Monitor Attestations](https://github.com/Hack23/euparliamentmonitor/attestations)
 - **Package Registries:** [Maven Central](https://mvnrepository.com/artifact/com.hack23.cia) • [NPM Registry](https://www.npmjs.com/~hack23) • [Docker Hub](https://hub.docker.com/u/hack23)
 
 ### **🔧 Maintenance Phase**
@@ -423,8 +476,8 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 - Community support and engagement
 
 **📊 Maintenance Evidence:**
-- **Security Advisories:** [CIA Advisories](https://github.com/Hack23/cia/security/advisories) • [Black Trigram Advisories](https://github.com/Hack23/blacktrigram/security/advisories) • [CIA Compliance Manager Advisories](https://github.com/Hack23/cia-compliance-manager/security/advisories)
-- **Issue Tracking:** [CIA Issues](https://github.com/Hack23/cia/issues) • [Black Trigram Issues](https://github.com/Hack23/blacktrigram/issues) • [CIA Compliance Manager Issues](https://github.com/Hack23/cia-compliance-manager/issues)
+- **Security Advisories:** [CIA Advisories](https://github.com/Hack23/cia/security/advisories) • [Black Trigram Advisories](https://github.com/Hack23/blacktrigram/security/advisories) • [CIA Compliance Manager Advisories](https://github.com/Hack23/cia-compliance-manager/security/advisories) • [EP MCP Server Advisories](https://github.com/Hack23/European-Parliament-MCP-Server/security/advisories)
+- **Issue Tracking:** [CIA Issues](https://github.com/Hack23/cia/issues) • [Black Trigram Issues](https://github.com/Hack23/blacktrigram/issues) • [CIA Compliance Manager Issues](https://github.com/Hack23/cia-compliance-manager/issues) • [EP MCP Server Issues](https://github.com/Hack23/European-Parliament-MCP-Server/issues) • [EU Parliament Monitor Issues](https://github.com/Hack23/euparliamentmonitor/issues) • [Riksdagsmonitor Issues](https://github.com/Hack23/riksdagsmonitor/issues)
 
 ---
 
@@ -479,6 +532,6 @@ This policy integrates with our development lifecycle as defined in [Secure Deve
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-02-26  
+**⏰ Next Review:** 2026-05-26  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

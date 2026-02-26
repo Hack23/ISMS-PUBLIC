@@ -11,20 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--02--26-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Hack23/ISMS/blob/main/ISMS_Transparency_Plan.md"><img src="https://img.shields.io/badge/🔓_PUBLIC_REDACTED_VERSION-Per_Transparency_Plan-blue?style=for-the-badge" alt="Public Redacted Version"/></a>
-  <a href="https://github.com/Hack23/ISMS/blob/main/ISMS_Transparency_Plan.md"><img src="https://img.shields.io/badge/📋_Redaction_Policy-ISMS__Transparency__Plan-informational?style=for-the-badge" alt="Transparency Plan"/></a>
-</p>
-
-> ⚠️ **PUBLIC REDACTED VERSION:** This document has been redacted per our [ISMS Transparency Plan](https://github.com/Hack23/ISMS/blob/main/ISMS_Transparency_Plan.md). Sensitive values (personal emails, account IDs, financial amounts) are replaced with `[REDACTED]`. Complete unredacted version maintained in private ISMS repository.
-
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
+**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2026-02-26 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-02-26
 
 
 ---
@@ -77,7 +70,7 @@ mindmap
     AWS Org (Control Tower)
       Audit: 810580475124
       Log Archive: 241765033212
-      hack23master: [REDACTED]
+      hack23master: 172017021075
       Permission Sets: Admin · PowerUser · ReadOnly · ServiceCatalog
     Domains
       hack23.com
@@ -88,9 +81,12 @@ mindmap
       Black Trigram
       CIA Compliance Manager
       Citizen Intelligence Agency
+      European Parliament MCP Server
+      EU Parliament Monitor
       Game Template
       Hack23 Homepage
       Lambda in Private VPC
+      Riksdagsmonitor
       Sonar CloudFormation Plugin
 ```
 
@@ -100,15 +96,15 @@ mindmap
 ### 1.1 Human identities
 | #️⃣ ID | 👤 Person | ✉️ Email | 🛠️ Platforms | 🔐 MFA | 📝 Notes | 🏷️ Types |
 |-------|-----------|----------|---------------|--------|----------|----------|
-| U-001 | James Pether Sörling | [REDACTED] | 🔎 Google • 🐙 GitHub (pethers) • ☁️ AWS SSO | Enabled | Google account is the hub for SaaS sign-ins listed below | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](./CLASSIFICATION.md#business-process-types) |
+| U-001 | James Pether Sörling | pether.sorling@gmail.com | 🔎 Google • 🐙 GitHub (pethers) • ☁️ AWS SSO | Enabled | Google account is the hub for SaaS sign-ins listed below | [![Executive](https://img.shields.io/badge/Process-Executive-gold?style=for-the-badge&logo=university&logoColor=black)](./CLASSIFICATION.md#business-process-types) |
 
 ### 1.2 Linked services (via Google account)
 | #️⃣ ID | 🧩 Service | 👤 Account/Handle | ✅ Status | 🔐 MFA/2FA | 📝 Notes | 🏷️ Types |
 |-------|------------|-------------------|-----------|------------|----------|----------|
 | G-001 | 🧾 Bokio | Google login | Active ✅ | N/A (IdP) | Connected via Google | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Finance](https://img.shields.io/badge/Process-Finance-darkblue?style=for-the-badge&logo=dollar-sign&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | G-002 | 💳 Stripe | Google login | Active ✅ | N/A (IdP) | Connected via Google | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| G-003 | 🔎 Google Search Console | [REDACTED] | Active ✅ | Google MFA | Site verification | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| G-004 | 🔎 Bing Webmaster Tools | [REDACTED] | Active ✅ | Google MFA | Site verification | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| G-003 | 🔎 Google Search Console | pether.sorling@gmail.com | Active ✅ | Google MFA | Site verification | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| G-004 | 🔎 Bing Webmaster Tools | pether.sorling@gmail.com | Active ✅ | Google MFA | Site verification | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | G-005 | ▶️ YouTube | @ via Google | Active ✅ | Google MFA | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | G-006 | 🦄 Product Hunt | Google login | Active ✅ | N/A (IdP) | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | G-007 | 🎵 TikTok | Google login | Active ✅ | N/A (IdP) | Connected | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
@@ -139,8 +135,8 @@ See SUPPLIER.md for detailed posture (costs, SLAs, risks).
 | S-006 | 🎙️ ElevenLabs | Subscription | Active ✅ | CEO | Platform MFA | Audio/voice | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
 | S-007 | 🤖 OpenAI | API | Active ✅ | CEO | API / Account MFA | AI services | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Process Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Moderate](https://img.shields.io/badge/Availability-Moderate-yellow?style=for-the-badge&logo=server&logoColor=black)](./CLASSIFICATION.md#availability-levels) |
 | S-008 | 💳 Stripe | Platform | Active ✅ | CEO | Platform MFA | Payments | [![API](https://img.shields.io/badge/Type-API_Services-purple?style=for-the-badge&logo=cloud&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Process Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Mission Critical](https://img.shields.io/badge/Availability-Mission_Critical-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| S-009 | 🔎 Google Search Console | [REDACTED] | Active (Free) ✅ | CEO | Google MFA | SEO verification & metrics | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
-| S-010 | 🔎 Bing Webmaster Tools | [REDACTED] | Active (Free) ✅ | CEO | Google MFA | SEO coverage for Bing | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
+| S-009 | 🔎 Google Search Console | pether.sorling@gmail.com | Active (Free) ✅ | CEO | Google MFA | SEO verification & metrics | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
+| S-010 | 🔎 Bing Webmaster Tools | pether.sorling@gmail.com | Active (Free) ✅ | CEO | Google MFA | SEO coverage for Bing | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
 | S-011 | ▶️ YouTube | Channel via Google | Active (Free) ✅ | CEO | Google MFA | Marketing channel | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
 | S-012 | 🦄 Product Hunt | hack23 | Active (Free) ✅ | CEO | IdP (Google) | Launch listings | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
 | S-013 | 🎵 TikTok | hack23 | Active (Free) ✅ | CEO | IdP (Google) | Social marketing | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Process Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Availability Standard](https://img.shields.io/badge/Availability-Standard-lightgreen?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#availability-levels) |
@@ -162,7 +158,7 @@ Note: AWS WorkMail uses MFA through Identity Center.
 |-------|------------------|---------------|---------------|-----------|----------|
 | AWS-001 | Audit | 810580475124 | audit@hack23.com | Security/audit (CT Log/Audit pattern) | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | AWS-002 | Log archive | 241765033212 | log-archive@hack23.com | Central immutable logs | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| AWS-003 | hack23master | [REDACTED] | [REDACTED] | Primary workload/management | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| AWS-003 | hack23master | 172017021075 | pether.sorling@gmail.com | Primary workload/management | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 
 ### 3.2 Permission sets / access
 | #️⃣ ID | 🛡️ Permission Set | 📍 Scope | 🔑 Keys |
@@ -179,7 +175,7 @@ flowchart LR
   A["Control Tower Org"]
   AU["Audit\n810580475124\naudit&#64;hack23.com"]
   LA["Log Archive\n241765033212\nlog-archive&#64;hack23.com"]
-  HM["hack23master\n[REDACTED]\n[REDACTED]"]
+  HM["hack23master\n172017021075\npether.sorling&#64;gmail.com"]
 
   A --> AU
   A --> LA
@@ -348,9 +344,12 @@ Statement: All copyrights remain with the CEO and sole owner of Hack23.com.
 | 🎮 Black Trigram | https://github.com/Hack23/blacktrigram | https://blacktrigram.com | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🛡️ CIA Compliance Manager | https://github.com/Hack23/cia-compliance-manager | https://ciacompliancemanager.com/ | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🏛️ Citizen Intelligence Agency | https://github.com/Hack23/cia | https://hack23.com/cia-features.html | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| 🇪🇺 European Parliament MCP Server | https://github.com/Hack23/European-Parliament-MCP-Server | https://hack23.github.io/European-Parliament-MCP-Server/ | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| 🇪🇺 EU Parliament Monitor | https://github.com/Hack23/euparliamentmonitor | - | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🎮 Game Template | https://github.com/Hack23/game | - | [![Template](https://img.shields.io/badge/Type-Template-lightblue?style=for-the-badge&logo=template&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🌐 Hack23 Homepage | https://github.com/Hack23/homepage | https://hack23.com | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | ☁️ Lambda in Private VPC | https://github.com/Hack23/lambda-in-private-vpc | - | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| 🗳️ Riksdagsmonitor | https://github.com/Hack23/riksdagsmonitor | https://riksdagsmonitor.com | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🔍 Sonar CloudFormation Plugin ⚠️ | https://github.com/Hack23/sonar-cloudformation-plugin | - | [![Security](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Archived](https://img.shields.io/badge/Status-Archived-lightgrey?style=for-the-badge&logo=archive&logoColor=white)](https://github.com/Hack23/sonar-cloudformation-plugin) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 
 ### 🔐 Repository Security Evidence
@@ -362,9 +361,12 @@ Live security posture badges for all Hack23 intellectual property assets:
 | **Black Trigram** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) | [![License](https://img.shields.io/github/license/Hack23/blacktrigram.svg)](https://github.com/Hack23/blacktrigram/blob/main/LICENSE) | [![Scorecards](https://github.com/Hack23/blacktrigram/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/blacktrigram/actions/workflows/scorecards.yml) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777/badge)](https://bestpractices.coreinfrastructure.org/projects/10777) |
 | **CIA Compliance Manager** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | [![License](https://img.shields.io/github/license/Hack23/cia-compliance-manager.svg)](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE) | [![Scorecards](https://github.com/Hack23/cia-compliance-manager/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/cia-compliance-manager/actions/workflows/scorecards.yml) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365/badge)](https://bestpractices.coreinfrastructure.org/projects/10365) |
 | **Citizen Intelligence Agency** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) | [![License](https://img.shields.io/github/license/Hack23/cia.svg)](https://github.com/Hack23/cia/blob/master/LICENSE) | [![Scorecards](https://github.com/Hack23/cia/actions/workflows/scorecards.yml/badge.svg?branch=master)](https://github.com/Hack23/cia/actions/workflows/scorecards.yml) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770/badge)](https://bestpractices.coreinfrastructure.org/projects/770) |
+| **European Parliament MCP Server** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | [![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE) | [![CI/CD](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml/badge.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/actions) | [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations) |
+| **EU Parliament Monitor** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | [![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE) | [![News Generation](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml) | [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations) |
 | **Game Template** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) | [![License](https://img.shields.io/github/license/Hack23/game.svg)](https://github.com/Hack23/game/blob/main/LICENSE) | [![Scorecards](https://github.com/Hack23/game/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/game/actions/workflows/scorecards.yml) | Template repo |
 | **Hack23 Homepage** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) | [![License](https://img.shields.io/github/license/Hack23/homepage.svg)](https://github.com/Hack23/homepage/blob/main/LICENSE) | [![CI/CD](https://github.com/Hack23/homepage/actions/workflows/main.yml/badge.svg)](https://github.com/Hack23/homepage/actions/workflows/main.yml) | Corporate website |
 | **Lambda in Private VPC** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) | [![License](https://img.shields.io/github/license/Hack23/lambda-in-private-vpc.svg)](https://github.com/Hack23/lambda-in-private-vpc/blob/main/LICENSE.md) | [![CI/CD](https://github.com/Hack23/lambda-in-private-vpc/actions/workflows/main.yml/badge.svg)](https://github.com/Hack23/lambda-in-private-vpc/actions/workflows/main.yml) | AWS Reference Architecture |
+| **Riksdagsmonitor** | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | [![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE) | [![Quality Checks](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml) | [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/riksdagsmonitor/attestations) |
 | **Sonar CloudFormation Plugin** ⚠️ | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/sonar-cloudformation-plugin/badge)](https://api.securityscorecards.dev/projects/github.com/Hack23/sonar-cloudformation-plugin) | [![License](https://img.shields.io/github/license/Hack23/sonar-cloudformation-plugin.svg)](https://github.com/Hack23/sonar-cloudformation-plugin/raw/master/LICENSE.txt) | [![Archived](https://img.shields.io/badge/Status-Archived-lightgrey)](https://github.com/Hack23/sonar-cloudformation-plugin) | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4545/badge)](https://bestpractices.coreinfrastructure.org/projects/4545) |
 
 ---
@@ -605,11 +607,14 @@ mindmap
     Domains 2
       hack23.com
       blacktrigram.com
-    IP Assets 5
+    IP Assets 8
       Black Trigram game
       CIA Compliance Manager
       Citizen Intelligence Agency
+      European Parliament MCP Server
+      EU Parliament Monitor
       Lambda in Private VPC
+      Riksdagsmonitor
       Sonar CloudFormation Plugin
 ```
 
@@ -704,6 +709,7 @@ graph LR
 ## 7) Change Log
 | Date (UTC) | Change |
 |------------|--------|
+| 2026-02-26 | **v2.2:** Added European Parliament MCP Server, EU Parliament Monitor (euparliamentmonitor), and Riksdagsmonitor to IP assets; Updated mindmaps and security evidence tables; Total 10 IP assets registered |
 | 2026-01-25 | **v2.0:** Added domains D-003 (ciacompliancemanager.com) and D-004 (riksdagsmonitor.com); Added Game Template to IP; Added comprehensive domain security evidence links (DNSSEC, SPF/DKIM/DMARC, SSL); Marked Sonar CloudFormation Plugin as archived; Updated for ISMS-PUBLIC publication |
 | 2025-11-05 | Added § 5.1 IPR Handling and § 5.2 Asset Return/Termination procedures (ISO 27001 A.5.11, A.5.32, A.6.5) |
 | 2025-08-14 | Stripe status confirmed active (removed 'planned'); Insurance (Trygg Hansa) planned start 2025-09-01 |
@@ -717,6 +723,7 @@ graph LR
 | 2025-08-14 | 27 AWS services documented | Complete service inventory | ✅ Completed |
 | 2025-08-14 | 8 security services active | Enterprise-grade security posture | ✅ Active |
 | 2025-08-14 | 18 SaaS services integrated | Documented dependencies | ✅ Completed |
+| 2026-02-26 | 10 IP assets registered | Added European Parliament MCP Server, EU Parliament Monitor, Riksdagsmonitor | ✅ Active |
 | 2026-01-25 | 7 IP assets registered | Added Game Template; Copyright protection confirmed (see Open Source Policy) | ✅ Active |
 | 2025-08-14 | 2 domains with DNSSEC | Enhanced DNS security | ✅ Completed |
 | 2026-01-25 | 4 domains with DNSSEC | Added ciacompliancemanager.com and riksdagsmonitor.com | ✅ Completed |

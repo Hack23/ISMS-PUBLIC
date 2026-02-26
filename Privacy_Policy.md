@@ -100,6 +100,36 @@ Security compliance and assessment tool for enterprise customers.
 - Compliance reports and metrics
 - System configuration information
 
+### 🇪🇺 **European Parliament MCP Server**
+[![Product](https://img.shields.io/badge/Product-EP_MCP_Server-6366F1?style=flat-square&logo=typescript)](https://github.com/Hack23/European-Parliament-MCP-Server)
+
+Model Context Protocol server providing AI assistants with structured access to European Parliament open data.
+
+**Data Scope:**
+- Public European Parliament data only (MEPs, sessions, documents)
+- No personal user data collected
+- No authentication or user accounts
+
+### 🇪🇺 **EU Parliament Monitor**
+[![Product](https://img.shields.io/badge/Product-EU_Parliament_Monitor-003399?style=flat-square&logo=european-union)](https://github.com/Hack23/euparliamentmonitor)
+
+Automated multi-language news platform monitoring EU Parliament activities.
+
+**Data Scope:**
+- Public European Parliament data only
+- No personal user data collected
+- Automated news generation from public sources
+
+### 🗳️ **Riksdagsmonitor**
+[![Product](https://img.shields.io/badge/Product-Riksdagsmonitor-00338D?style=flat-square&logo=data)](https://github.com/Hack23/riksdagsmonitor)
+
+Swedish Parliament intelligence platform monitoring political activity.
+
+**Data Scope:**
+- Public Swedish Riksdag data only
+- No personal user data collected
+- Statistical analysis from public sources
+
 ### 🤝 **Consulting Services**
 Professional cybersecurity consulting and advisory services.
 

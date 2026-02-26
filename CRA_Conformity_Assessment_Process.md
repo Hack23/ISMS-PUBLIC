@@ -59,8 +59,11 @@ The following Hack23 AB projects demonstrate completed CRA assessments using thi
 | 🚀 **Project** | 📦 **Product Type** | 🏷️ **CRA Classification** | 📋 **Assessment Status** | 🔗 **Reference Link** |
 |---------------|-------------------|------------------------|------------------------|---------------------|
 | **🕵️ CIA (Citizen Intelligence Agency)** | Political transparency platform | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) |
-| **⚫ Black Trigram** | Korean martial atts game | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) |
+| **⚫ Black Trigram** | Korean martial arts game | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) |
 | **🛡️ CIA Compliance Manager** | Compliance automation tool | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) |
+| **🇪🇺 European Parliament MCP Server** | Political intelligence MCP server | Standard (Non-commercial OSS) | ⏳ Planned | — |
+| **🇪🇺 EU Parliament Monitor** | Automated intelligence platform | Standard (Non-commercial OSS) | ⏳ Planned | — |
+| **🗳️ Riksdagsmonitor** | Swedish parliament monitor | Standard (Non-commercial OSS) | ⏳ Planned | — |
 
 ### 🎯 **Implementation Examples**
 

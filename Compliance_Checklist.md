@@ -475,6 +475,9 @@ The following products have completed CRA conformity assessments, demonstrating 
 | **🕵️ CIA (Citizen Intelligence Agency)** | Political transparency platform | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) |
 | **⚫ Black Trigram** | Korean martial arts game | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) |
 | **🛡️ CIA Compliance Manager** | Compliance automation tool | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) |
+| **🇪🇺 European Parliament MCP Server** | Political intelligence MCP server | Standard (Non-commercial OSS) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() | Planned |
+| **🇪🇺 EU Parliament Monitor** | Automated intelligence platform | Standard (Non-commercial OSS) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() | Planned |
+| **🗳️ Riksdagsmonitor** | Swedish parliament monitor | Standard (Non-commercial OSS) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() | Planned |
 
 ---
 
@@ -1030,6 +1033,9 @@ The **OpenSSF (Open Source Security Foundation) Scorecard** provides automated s
 | **🏛️ Citizen Intelligence Agency** | 🟡 Good | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) |
 | **🎮 Black Trigram** | 🟡 Good | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) |
 | **📊 CIA Compliance Manager** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) |
+| **🇪🇺 European Parliament MCP Server** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) |
+| **🇪🇺 EU Parliament Monitor** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) |
+| **🗳️ Riksdagsmonitor** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) |
 | **🎮 Game Template** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) |
 | **☁️ Lambda in Private VPC** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) |
 | **🌐 Hack23 Homepage** | 🟡 Fair | [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) |

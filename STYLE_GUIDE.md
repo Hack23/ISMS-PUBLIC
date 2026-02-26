@@ -1160,6 +1160,9 @@ Examples of proper badge usage across Hack23 projects:
 - **🏛️ Citizen Intelligence Agency**: [README.md](https://github.com/Hack23/cia)
 - **🎮 Black Trigram**: [README.md](https://github.com/Hack23/blacktrigram)
 - **📊 CIA Compliance Manager**: [README.md](https://github.com/Hack23/cia-compliance-manager)
+- **🇪🇺 European Parliament MCP Server**: [README.md](https://github.com/Hack23/European-Parliament-MCP-Server)
+- **🇪🇺 EU Parliament Monitor**: [README.md](https://github.com/Hack23/euparliamentmonitor)
+- **🗳️ Riksdagsmonitor**: [README.md](https://github.com/Hack23/riksdagsmonitor)
 
 ### Badge Troubleshooting
 

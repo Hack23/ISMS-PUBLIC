@@ -36,7 +36,7 @@
 
 | Achievement | Target | Actual | Status |
 |-------------|--------|--------|--------|
-| **OpenSSF Scorecard** | >8.5 | See live badges: [![CIA](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) [![BT](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) [![CM](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | 🟡 Solid foundation for Phase 2 >9.0 |
+| **OpenSSF Scorecard** | >8.5 | See live badges: [![CIA](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) [![BT](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) [![CM](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) [![EP](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) [![EPM](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) [![RM](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | 🟡 Solid foundation for Phase 2 >9.0 |
 | **Critical Vulnerabilities** | 0 | 0 | ✅ Zero outstanding (Q4 2025) |
 | **Compliance Coverage** | 95% | 100% | ✅ ISO 27001, NIST CSF, CIS Controls |
 | **ISMS Documentation** | 100% | 43/43 policies | ✅ 70% public transparency |
@@ -47,6 +47,9 @@
 [![CIA OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia)
 [![BT OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram)
 [![CM OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager)
+[![EP OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
+[![EPM OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
+[![RM OpenSSF](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
 
 **📊 Real-Time Monitoring:** [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) • [Security Metrics](./Security_Metrics.md)
 
@@ -147,6 +150,9 @@ Our commitment to transparency extends beyond our open-source projects. This ISM
 - [CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) — Enterprise authentication
 - [CIA Compliance Manager Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) — Frontend-only rationale
 - [Black Trigram Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) — Gaming platform security
+- [European Parliament MCP Server Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) — MCP server security
+- [EU Parliament Monitor Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) — Intelligence platform
+- [Riksdagsmonitor Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) — Swedish parliament monitor
 
 ### 📖 Documentation Standards
 - [Style Guide](./STYLE_GUIDE.md) — Formatting and consistency standards
@@ -183,6 +189,53 @@ All ISMS documentation is continuously validated against:
 - 📋 Document structure requirements
 - 🔒 Security and sensitive data scanning
 - 🎨 STYLE_GUIDE.md v2.1 compliance (with documented exemptions for 12 legacy files)
+
+---
+
+## 🤖 **GitHub Copilot Integration**
+
+**AI-Powered ISMS Development:** Hack23 AB leverages GitHub Copilot with **8 specialized custom agents** and a **comprehensive skills library** for intelligent, security-by-design automation.
+
+### 🎯 Custom Agents
+
+We've developed **8 domain-expert agents** that understand Hack23's ISMS framework and execute with minimal clarification:
+
+| Agent | Domain | Key Capabilities |
+|-------|--------|------------------|
+| 🔐 **[security-documentation-specialist](.github/agents/security-documentation-specialist.md)** | ISMS Documentation | ISO 27001 policies, security procedures, execution-first approach |
+| 📋 **[compliance-reviewer](.github/agents/compliance-reviewer.md)** | Regulatory Compliance | ISO 27001, GDPR, NIS2 gap analysis, audit readiness |
+| ⚠️ **[risk-assessment-specialist](.github/agents/risk-assessment-specialist.md)** | Risk Management | ISO 27005, NIST RMF, STRIDE threat modeling |
+| 📈 **[business-development-specialist](.github/agents/business-development-specialist.md)** | Business Growth | Sales strategy, partnerships, market analysis |
+| 📢 **[marketing-specialist](.github/agents/marketing-specialist.md)** | Marketing Strategy | Digital marketing, content strategy, brand positioning |
+| 🌐 **[political-analyst-intelligence-specialist](.github/agents/political-analyst-intelligence-specialist.md)** | Intelligence Analysis | OSINT, strategic communications, transparency platforms |
+| 🎨 **[ui-enhancement-specialist](.github/agents/ui-enhancement-specialist.md)** | UI/UX Development | Frontend development, accessibility, responsive design |
+| 📦 **[product-task-agent](.github/agents/product-task-agent.md)** | Product Quality | GitHub automation, AWS/Playwright integration, quality orchestration |
+
+**[📖 Full Agent Documentation →](.github/agents/README.md)**
+
+### 🎓 Skills Library
+
+**65+ enforceable rules** across 5 strategic skills that guide all agent behavior:
+
+| Skill | Rules | Coverage |
+|-------|-------|----------|
+| 🔐 **[security-by-design](.github/skills/security-by-design.md)** | R1-R13 | Security requirements, threat modeling, SAST/SCA/DAST, secure deployment |
+| 📋 **[isms-compliance](.github/skills/isms-compliance.md)** | R1-R10 | Policy awareness, classification, evidence generation, Risk Register integration |
+| 🏗️ **[architecture-documentation](.github/skills/architecture-documentation.md)** | R1-R7 | C4 models, security architecture, 14-document portfolio requirement |
+| 🔄 **[devsecops-workflow](.github/skills/devsecops-workflow.md)** | R1-R20 | CI/CD security gates, pre-commit hooks, container scanning, monitoring |
+| 🧪 **[testing-strategy](.github/skills/testing-strategy.md)** | R1-R12 | Test pyramid, ≥80% coverage, public evidence, WCAG 2.1 compliance |
+
+**[🔍 Skills Quick Reference →](.github/skills/SKILLS_INDEX.md)** | **[📚 Skills Library Overview →](.github/skills/README.md)**
+
+### 💡 Key Features
+
+- **Execution-First Approach:** 80% reduction in clarifying questions through intelligent pattern recognition
+- **Rule-Based Enforcement:** Explicit, auditable rules ensure ISO 27001/NIST/CIS alignment
+- **Skills-Based Architecture:** Strategic rules separated from tactical agent implementation
+- **Pattern Recognition:** Agents learn from 3-5 similar files to infer structure and style automatically
+- **Evidence Generation:** All changes linked to ISMS policies and compliance frameworks
+
+**[🚀 Complete Implementation Summary →](.github/IMPROVEMENTS.md)**
 
 ---
 
@@ -514,6 +567,9 @@ Our badge standards are demonstrated across Hack23 projects:
 | [🏛️ CIA](https://github.com/Hack23/cia) | OpenSSF, SLSA, FOSSA | SonarCloud, Coverage | ✅ Complete |
 | [🎮 Black Trigram](https://github.com/Hack23/blacktrigram) | OpenSSF, SLSA, FOSSA | SonarCloud, Lighthouse | ✅ Complete |
 | [📊 CIA Compliance](https://github.com/Hack23/cia-compliance-manager) | OpenSSF, SLSA, FOSSA | SonarCloud, Coverage | ✅ Complete |
+| [🇪🇺 EP MCP Server](https://github.com/Hack23/European-Parliament-MCP-Server) | OpenSSF, SLSA | Vitest, E2E Tests | ✅ Complete |
+| [🇪🇺 EU Parliament Monitor](https://github.com/Hack23/euparliamentmonitor) | OpenSSF, SLSA | News Generation | ✅ Complete |
+| [🗳️ Riksdagsmonitor](https://github.com/Hack23/riksdagsmonitor) | OpenSSF | Quality Checks | ✅ Complete |
 
 For detailed badge requirements and standards, see the [🎨 Style Guide - Security Badge Standards](./STYLE_GUIDE.md#%EF%B8%8F-security-badge-standards).
 
