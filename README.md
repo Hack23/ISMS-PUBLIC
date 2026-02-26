@@ -645,5 +645,5 @@ You are free to share and adapt this ISMS documentation for any purpose, even co
 
 ---
 
-**© 2025 Hack23 AB (559534-7807) — Stockholm, Sweden**  
+**© 2025 Hack23 AB (559534-7807) — Gothenburg, Sweden**  
 **Transparency in Security. Security through Transparency.**
