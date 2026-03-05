@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-4.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 4.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
+**📋 Document Owner:** CEO | **📄 Version:** 4.3 | **📅 Last Updated:** 2026-03-05 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-05
 
 ---
 
@@ -39,7 +39,7 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 ### 🏢 **Organizational Context**
 
-**Hack23 AB** operates as a Swedish innovation hub with four integrated business lines, each classified according to our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+**Hack23 AB** operates as a Swedish innovation hub with five integrated business lines, each classified according to our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
 
 #### 1. **🔐 Cybersecurity Consulting** — Enterprise security implementation and ISMS advisory services
 
@@ -151,6 +151,41 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 ---
 
+#### 5. **📡 Political Intelligence & AI News Media** — AI-disrupted political intelligence, OSINT/INTOP data-driven automated news generation
+
+**Project Classification:**
+   - **Project Type:** [![Data Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
+   - **Business Process:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+
+**Security Classification:**
+   - **Confidentiality:** [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
+   - **Integrity:** [![Very High](https://img.shields.io/badge/Integrity-Very_High-darkblue?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
+   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+
+**Porter's Five Forces Strategic Impact:**
+   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Low-lightgreen?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Unique AI-generated political intelligence
+   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Open parliamentary data sources
+   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) 15+ year domain expertise + proprietary AI pipelines
+   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=exchange-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Traditional journalism cannot match speed/coverage
+   - [![Rivalry](https://img.shields.io/badge/Rivalry-Market_Creator-purple?style=flat-square&logo=crown&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) First-mover in AI political news generation
+
+**Strategic Response:** Category creation through AI-disrupted political intelligence combining OSINT data with agentic AI news generation
+
+**Platform Components:**
+- **🗳️ [Riksdagsmonitor](https://riksdagsmonitor.com):** Swedish parliament monitoring with AI-generated political news, agentic intelligence workflows, and automated political analysis ([Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md))
+- **🇪🇺 [EU Parliament Monitor](https://euparliamentmonitor.com):** European Parliament monitoring with AI-disrupted news generation and agentic intelligence ([Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md))
+- **🔧 [European Parliament MCP Server](https://github.com/Hack23/European-Parliament-MCP-Server):** AI-powered political intelligence data platform providing MCP (Model Context Protocol) server for EU parliamentary data analysis ([Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md))
+
+**Security Implications & Risk Considerations:**
+- Very High integrity classification reflects the critical importance of accurate, unbiased political reporting—misinformation risks require robust data validation pipelines
+- AI-generated content undergoes automated quality checks and source verification against official parliamentary records
+- OSINT data collection limited to publicly available parliamentary data sources (Riksdagen Open Data, European Parliament Open Data Portal)
+- No processing of personal data beyond publicly available parliamentary records and voting data
+- SLSA Level 3 build provenance ensures supply chain integrity for all news generation workflows
+- Automated news generation pipelines operate with comprehensive audit trails per [AI Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/AI_Policy.md)
+
+---
+
 ## 🏗️ **Product Security Architecture Comparison**
 
 Visual comparison of security controls across Hack23's product portfolio, demonstrating risk-based security control selection aligned with business impact classifications.
@@ -161,6 +196,7 @@ flowchart TD
         CIA[🏛️ Citizen Intelligence<br/>Agency<br/>Democratic Transparency]
         CIA_CM[📊 CIA Compliance<br/>Manager<br/>Assessment Platform]
         BT[🎮 Black Trigram<br/>Educational Gaming]
+        POLINT[📡 Political Intelligence<br/>AI News Media<br/>OSINT/INTOP Platform]
     end
     
     subgraph SECURITY_CONTROLS["🔐 Security Control Domains"]
@@ -185,19 +221,27 @@ flowchart TD
     BT -->|✅ TLS 1.3<br/>CDN Enforced| ENCRYPT
     BT -->|⚠️ Browser Only<br/>Local Storage| SESSION
     
+    POLINT -->|❌ No Auth<br/>Public News Content| AUTH
+    POLINT -->|✅ Build Provenance<br/>GitHub Actions + SLSA3| AUDIT
+    POLINT -->|✅ TLS 1.3<br/>CDN Enforced| ENCRYPT
+    POLINT -->|⚠️ Static Site<br/>No Sessions| SESSION
+    
     subgraph RATIONALE["🛡️ Risk-Based Security Justification"]
         CIA_RISK[CIA: Moderate Confidentiality<br/>→ Full Authentication<br/>→ User accounts & data]
         CM_RISK[CIA CM: Low Confidentiality<br/>→ No Authentication<br/>→ Public frameworks only]
         BT_RISK[Black Trigram: Low Confidentiality<br/>→ No Authentication<br/>→ Public educational content]
+        POLINT_RISK[Political Intelligence: Moderate Confidentiality<br/>→ No User Auth, Very High Integrity<br/>→ Public OSINT news, verified sources]
     end
     
     CIA --> CIA_RISK
     CIA_CM --> CM_RISK
     BT --> BT_RISK
+    POLINT --> POLINT_RISK
     
     style CIA fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff
     style CIA_CM fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style BT fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
+    style POLINT fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff
     style AUTH fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
     style AUDIT fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
     style ENCRYPT fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
@@ -206,12 +250,14 @@ flowchart TD
     style CIA_RISK fill:#FFC107,stroke:#F9A825,stroke-width:1px,color:#000
     style CM_RISK fill:#FFC107,stroke:#F9A825,stroke-width:1px,color:#000
     style BT_RISK fill:#FFC107,stroke:#F9A825,stroke-width:1px,color:#000
+    style POLINT_RISK fill:#FFC107,stroke:#F9A825,stroke-width:1px,color:#000
 ```
 
 **Key Takeaways:**
 - **🏛️ CIA (Moderate Confidentiality):** Full authentication stack with MFA, RBAC, comprehensive audit logging, and server-side session management reflects higher business impact
 - **📊 CIA Compliance Manager (Low Confidentiality):** No authentication required as application processes only public compliance framework data with no sensitive information
 - **🎮 Black Trigram (Low Confidentiality):** Educational gaming content is intentionally public; authentication omitted to maximize accessibility
+- **📡 Political Intelligence (Moderate Confidentiality, Very High Integrity):** No user authentication required as all content is public AI-generated news; Very High integrity controls ensure accuracy of political reporting through SLSA3 build provenance and automated source verification
 - **🔒 Encryption Standard:** All products enforce TLS 1.3 for data in transit regardless of authentication requirements
 - **🎯 Risk-Based Approach:** Security control selection driven by [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) business impact analysis, not one-size-fits-all mandates
 
@@ -256,6 +302,107 @@ Achieve security excellence characterized by:
 
 ---
 
+### 📈 **AI Model Evolution Strategy — Future Outlook (2026–2037)**
+
+**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). All AI usage governed by [AI Policy](./AI_Policy.md), [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md), and [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689).
+
+Projected workflow counts below include all CI/CD workflow definitions, agentic workflow sources, and planned variants across the platform. The 2026 baseline (~44) builds on the current organization-wide total of 21 deployed `.yml` workflows across Hack23 repositories (including 5 primary workflows documented in [WORKFLOWS.md](./WORKFLOWS.md) for this repository) + 8 agentic `.md` sources (29 today) plus planned security, localization, and data-pipeline additions.
+
+| Year | Projected Workflow Definitions | AI Model | Key Capability |
+|------|-------------------------------|----------|----------------|
+| **2026** | 44–50 | Opus 4.6–4.9 | 🟢 Agentic news generation |
+| **2027** | 50–55 | Opus 5.x | 🔵 Predictive analytics |
+| **2028** | 55–65 | Opus 6.x | 🟣 Multi-modal content |
+| **2029** | 65–75 | Opus 7.x | 🟠 Autonomous pipeline |
+| **2030** | 75–85 | Opus 8.x | 🔴 Near-expert analysis |
+| **2031–2033** | 85–100 | Opus 9–10.x / Pre-AGI | ⚪ Global coverage |
+| **2034–2037** | 100–120+ | AGI / Post-AGI | ⭐ Transformative platform |
+
+#### 🔐 Security Perspective — AI Advancement Impact
+
+| Capability Area | 2026–2027 | 2028–2030 | 2031–2037 |
+|----------------|-----------|-----------|-----------|
+| **Threat Detection** | AI-assisted anomaly detection, automated alert triage | Predictive threat intelligence, autonomous incident correlation | Near-real-time autonomous threat hunting and response |
+| **Vulnerability Management** | AI-prioritized CVE triage, automated patch assessment | Predictive vulnerability discovery, auto-remediation proposals | Autonomous vulnerability remediation with human oversight |
+| **Compliance Automation** | Evidence collection automation, policy gap analysis | Continuous compliance monitoring, predictive audit readiness | Self-healing compliance posture, autonomous regulatory adaptation |
+| **ISMS Evidence Generation** | Automated badge generation, metric dashboards | AI-generated audit reports, cross-framework mapping | Autonomous ISMS maintenance and continuous improvement |
+| **Supply Chain Security** | SBOM automation, dependency risk scoring | Predictive supply chain threat modeling, automated vetting | Autonomous supply chain governance with zero-day anticipation |
+| **Incident Response** | AI-assisted playbook execution, automated triage | Autonomous initial response, predictive impact assessment | Autonomous incident containment and recovery orchestration |
+
+#### ⚙️ Operations Perspective — AI Advancement Impact
+
+| Capability Area | 2026–2027 | 2028–2030 | 2031–2037 |
+|----------------|-----------|-----------|-----------|
+| **CI/CD Pipelines** | AI-optimized build pipelines, automated test generation | Self-healing pipelines, predictive failure prevention | Autonomous release management with quality assurance |
+| **Infrastructure Management** | AI-assisted capacity planning, automated scaling | Predictive infrastructure optimization, self-configuring systems | Autonomous infrastructure evolution and cost optimization |
+| **Monitoring & Observability** | AI-enhanced log analysis, anomaly detection | Predictive performance management, root cause automation | Autonomous system health management and optimization |
+| **Documentation & Knowledge** | AI-generated documentation, automated updates | Living documentation with semantic consistency validation | Autonomous knowledge management and institutional memory |
+
+#### 📣 Marketing Perspective — AI Advancement Impact
+
+| Capability Area | 2026–2027 | 2028–2030 | 2031–2037 |
+|----------------|-----------|-----------|-----------|
+| **Content Generation** | AI-assisted blog posts, social media, SEO content | Multi-modal content (video, audio, interactive), automated campaigns | Autonomous personalized content at scale, hyper-targeted outreach |
+| **Authority Positioning** | AI-generated thought leadership, automated LinkedIn posts | Predictive trend positioning, AI-curated conference proposals | Autonomous brand management and market positioning |
+| **Market Intelligence** | AI-powered competitor monitoring, sentiment analysis | Predictive market analysis, opportunity identification | Autonomous market strategy adaptation and revenue optimization |
+| **Campaign Operations** | Automated A/B testing, email personalization | Self-optimizing campaigns, predictive conversion modeling | Autonomous multi-channel campaign orchestration |
+
+#### 💼 Business Perspective — AI Advancement Impact (All Five Business Lines)
+
+| Business Line | 2026–2027 | 2028–2030 | 2031–2037 |
+|--------------|-----------|-----------|-----------|
+| **🔐 Cybersecurity Consulting** | AI-assisted assessments, automated report generation, evidence pack creation | AI-led gap analysis, predictive risk modeling, autonomous compliance mapping | Near-autonomous security advisory with human strategic oversight |
+| **📊 CIA Compliance Manager** | AI-powered evidence automation, natural language compliance queries | Predictive compliance posture, cross-framework auto-mapping | Autonomous compliance management platform with self-updating controls |
+| **🏛️ Citizen Intelligence Agency** | AI-enhanced data analysis, automated political trend reporting | Multi-modal civic analytics, predictive policy impact modeling | Autonomous democratic transparency platform with global coverage |
+| **🎮 Black Trigram** | AI-generated training content, dynamic difficulty adaptation | AI-driven personalized learning paths, multi-modal instruction | Autonomous educational content ecosystem with real-time adaptation |
+| **📡 Political Intelligence Media** | AI-disrupted news generation across Swedish and EU parliaments | Multi-modal political intelligence (video, audio, interactive), predictive political analysis | Autonomous global parliamentary monitoring and transformative intelligence platform |
+
+#### 🛡️ ISMS Perspective — AI Advancement Impact
+
+| Capability Area | 2026–2027 | 2028–2030 | 2031–2037 |
+|----------------|-----------|-----------|-----------|
+| **Policy Management** | AI-assisted policy drafting, automated consistency checks | Predictive policy evolution, cross-regulation gap analysis | Autonomous policy lifecycle management with regulatory anticipation |
+| **Risk Assessment** | AI-augmented risk scoring, automated threat modeling | Predictive risk landscape analysis, dynamic risk treatment plans | Autonomous risk management with continuous real-time assessment |
+| **Audit Preparation** | AI-generated evidence packages, automated control testing | Predictive audit readiness scoring, autonomous gap remediation | Continuous autonomous audit readiness with zero preparation overhead |
+| **Agent Governance** | Curated agent ecosystem under CEO oversight per [AI Policy](./AI_Policy.md) | Advanced agent orchestration with autonomous task decomposition | Multi-tier autonomous governance with human strategic oversight only |
+
+```mermaid
+gantt
+    dateFormat YYYY-MM-DD
+    title AI Model Evolution — Cross-Perspective Capability Roadmap
+    
+    section 🔐 Security
+    AI-Assisted Threat Detection       :done, sec1, 2026-01-01, 2027-12-31
+    Predictive Threat Intelligence     :active, sec2, 2027-01-01, 2030-12-31
+    Autonomous Security Operations     :sec3, 2030-01-01, 2037-12-31
+    
+    section ⚙️ Operations
+    Agentic CI/CD & Documentation      :done, ops1, 2026-01-01, 2027-12-31
+    Self-Healing Pipelines             :active, ops2, 2027-01-01, 2030-12-31
+    Autonomous Infrastructure          :ops3, 2030-01-01, 2037-12-31
+    
+    section 📣 Marketing
+    AI Content & SEO Automation        :done, mkt1, 2026-01-01, 2027-12-31
+    Multi-Modal Campaign Automation    :active, mkt2, 2027-01-01, 2030-12-31
+    Autonomous Brand Management        :mkt3, 2030-01-01, 2037-12-31
+    
+    section 💼 Business
+    AI-Assisted Consulting & News Gen  :done, biz1, 2026-01-01, 2027-12-31
+    Predictive Analytics & Compliance  :active, biz2, 2027-01-01, 2030-12-31
+    Autonomous Platform Operations     :biz3, 2030-01-01, 2037-12-31
+    
+    section 🛡️ ISMS
+    Automated Evidence & Badges        :done, isms1, 2026-01-01, 2027-12-31
+    Predictive Compliance & Audit      :active, isms2, 2027-01-01, 2030-12-31
+    Autonomous ISMS Governance         :isms3, 2030-01-01, 2037-12-31
+```
+
+**Model Evaluation Cadence:** Annual AI model review with competitor benchmarking (OpenAI, Google, Meta, Anthropic, EU sovereign AI initiatives). Model selection criteria: security posture, data residency, performance benchmarks, cost efficiency, and alignment with [AI Policy](./AI_Policy.md) risk classification. Architecture designed for model-agnostic operation to accommodate paradigm shifts (quantum AI, neuromorphic computing, federated AI).
+
+**Governance:** All AI advancement adoption governed by CEO approval per [AI Policy](./AI_Policy.md) § Agent Lifecycle Management, with mandatory security review per [Secure Development Policy](./Secure_Development_Policy.md) and risk assessment per [Risk Assessment Methodology](./Risk_Assessment_Methodology.md).
+
+---
+
 # 🎨 **Strategic Framework Architecture**
 
 ### 📋 **Core Strategic Pillars**
@@ -266,7 +413,7 @@ Security investments are evaluated against six strategic pillars that directly e
 |------------------|------------------|---------------------|
 | **🤝 Trust Enhancement** | Faster client acquisition, premium pricing | Public ISMS eliminates buyer hesitation — prospects verify expertise before first call. Transparency converts security investment into marketing asset. |
 | **⚙️ Operational Efficiency** | Single-person enterprise delivery | AI agent ecosystem multiplies CEO capacity. What traditionally requires security team becomes automated governance, enabling sole-proprietor to deliver enterprise-grade services. |
-| **💡 Innovation Enablement** | Faster product releases, competitive edge | Security-by-design removes deployment friction. DevSecOps pipeline enables rapid iteration without security bottlenecks — accelerating all four business lines. |
+| **💡 Innovation Enablement** | Faster product releases, competitive edge | Security-by-design removes deployment friction. DevSecOps pipeline enables rapid iteration without security bottlenecks — accelerating all five business lines. |
 | **📊 Decision Quality** | Better resource allocation | Quantified risk enables prioritization. CEO makes investment decisions based on data, not fear. Limited resources directed to highest-impact security investments. |
 | **🏆 Competitive Advantage** | Market differentiation, thought leadership | Industry-first transparency creates barrier competitors cannot replicate. Living ISMS becomes proof engine that validates consulting expertise continuously. |
 | **🛡️ Risk Reduction** | Business continuity, client confidence | Comprehensive risk management protects revenue streams. Demonstrable resilience becomes client-facing credential for consulting engagements. |
@@ -597,7 +744,36 @@ Our security architecture varies by project based on classification and business
 
 ---
 
-### 🌐 **Common AWS-Native Infrastructure**
+#### **📡 Political Intelligence & AI News Media - Automated Intelligence Architecture**
+
+**Architecture Status:** ✅ AI-powered automated news generation with SLSA3 supply chain security
+
+**Platform Components per Security Architectures ([Riksdagsmonitor](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md), [EU Parliament Monitor](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md), [European Parliament MCP Server](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md)):**
+
+**Current Implementation:**
+- **🤖 AI News Generation:** GitHub Actions-based agentic workflows for automated political news generation from official parliamentary data
+- **📊 OSINT Data Pipeline:** Automated ingestion of open parliamentary data (Riksdagen Open Data, European Parliament Open Data Portal)
+- **🔒 Supply Chain Security:** SLSA Level 3 build provenance and attestation for all news generation workflows
+- **🌐 Static Site Delivery:** CloudFront CDN delivery with TLS 1.3 for all published content
+- **📡 MCP Server:** Model Context Protocol server enabling AI-powered political intelligence queries
+
+**Security Advantages:**
+- **✅ Very High Integrity Controls:** Automated source verification against official parliamentary records ensures accuracy
+- **✅ SLSA3 Provenance:** Complete build attestation provides tamper-evident news generation pipeline
+- **✅ No User Data:** No personal data collection—all content is publicly available political information
+- **✅ Automated Quality Gates:** AI-generated content undergoes systematic quality checks before publication
+- **✅ OpenSSF Scorecard:** Continuous supply chain security assessment across all repositories
+
+**Security Considerations:**
+- **⚠️ AI Content Accuracy:** Misinformation risk mitigated through source verification and official data validation
+- **⚠️ Data Freshness:** Parliamentary data update frequency dependent on official API availability
+- **⚠️ AI Governance:** All AI-generated content subject to [AI Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/AI_Policy.md) and [OWASP LLM Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/OWASP_LLM_Security_Policy.md)
+
+**Strategic Rationale:** AI-disrupted political intelligence creates first-mover advantage in automated parliamentary monitoring while maintaining Very High integrity through verified open data sources
+
+---
+
+### 🏗️ Common AWS-Native Infrastructure
 
 **Shared Security Foundation across all projects:**
 
@@ -1305,6 +1481,6 @@ This Information Security Strategy will evolve continuously based on threat inte
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **🔒 Rationale:** Strategic security framework demonstrating methodology and approach; no proprietary tactics, financial details, or operational vulnerabilities disclosed. Transparency serves as competitive differentiator and client trust accelerator.  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2027-01-25   
+**📅 Effective Date:** 2026-03-05 
+**⏰ Next Review:** 2027-03-05   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
