@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.iso.org/standard/81230.html"><img src="https://img.shields.io/badge/📋_ISO/IEC_42001-2023_Aligned-green?style=for-the-badge&logo=iso&logoColor=white" alt="ISO/IEC 42001:2023"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2026-03-05 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-06-05
 
 ---
 
@@ -1659,6 +1659,36 @@ This policy will be reviewed and updated when:
 
 ---
 
+## 📈 **AI Model Evolution — LLM Security Perspective (2026–2037)**
+
+**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
+
+### 🔐 LLM Security Evolution Through Model Advancement
+
+| Year | AI Model | LLM Security Impact |
+|------|----------|---------------------|
+| **2026** | Opus 4.6–4.9 | 🟢 Improved prompt injection resistance, enhanced output validation, stronger guardrails for agentic workflows |
+| **2027** | Opus 5.x | 🔵 Predictive jailbreak detection, autonomous prompt security monitoring, reduced hallucination rates |
+| **2028** | Opus 6.x | 🟣 Multi-modal input validation (text + code + image), automated OWASP LLM compliance verification |
+| **2029** | Opus 7.x | 🟠 Autonomous LLM security orchestration, self-healing prompt pipelines, real-time training data integrity |
+| **2030** | Opus 8.x | 🔴 Near-expert LLM security posture, autonomous threat detection for model-level attacks |
+| **2031–2033** | Opus 9–10.x / Pre-AGI | ⚪ Autonomous LLM governance with predictive regulatory compliance |
+| **2034–2037** | AGI / Post-AGI | ⭐ Transformative AI security requiring new governance paradigms |
+
+### 🛡️ OWASP LLM Top 10 Defense Evolution
+
+| OWASP LLM Risk | 2026–2027 Defense | 2028–2030 Defense | 2031–2037 Defense |
+|----------------|-------------------|-------------------|-------------------|
+| **LLM01: Prompt Injection** | AI-enhanced input sanitization, agentic workflow sandboxing | Autonomous prompt injection detection, multi-layer defense | Self-healing prompt security with anticipatory defense |
+| **LLM02: Insecure Output Handling** | AI-validated output filtering, automated sanitization | Predictive output risk scoring, context-aware sanitization | Autonomous output governance with zero-leakage assurance |
+| **LLM03: Training Data Poisoning** | AI-assisted data quality validation, provenance tracking | Autonomous training data integrity monitoring | Self-validating training pipelines with tamper-proof data |
+| **LLM06: Sensitive Information Disclosure** | AI-powered data classification in LLM outputs, automated PII detection | Predictive data leakage prevention, autonomous redaction | Zero-disclosure assurance through semantic understanding |
+| **LLM09: Overreliance** | Human-in-the-loop requirement, confidence scoring | Graduated autonomy with trust scoring, automated validation | Calibrated AI-human collaboration with appropriate autonomy levels |
+
+**Update Trigger:** Each major AI model release triggers OWASP LLM policy review per [AI Policy](./AI_Policy.md) § AI Model Evolution Evaluation Framework.
+
+---
+
 ## 📚 **Related Documents**
 
 ### 🏛️ **Core Governance**
@@ -1693,8 +1723,8 @@ This policy will be reviewed and updated when:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-03-05  
+**⏰ Next Review:** 2026-06-05  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM-2025_Aligned-darkred?style=flat-square&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 <p align="center">

@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--02--26-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2026-02-26 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-02-26
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-03-05 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-05
 
 
 ---
@@ -77,6 +77,7 @@ mindmap
       blacktrigram.com
       ciacompliancemanager.com
       riksdagsmonitor.com
+      euparliamentmonitor.com
     IP & Repos
       Black Trigram
       CIA Compliance Manager
@@ -332,6 +333,7 @@ graph TB
 | D-002 | blacktrigram.com | Hack23 AB | Active ✅ | DNS: Route 53 • DNSSEC: ON | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](./CLASSIFICATION.md#business-process-types) | [DNSSEC](https://dnsviz.net/d/blacktrigram.com/dnssec/) • [Email](https://mxtoolbox.com/SuperTool.aspx?action=mx%3ablacktrigram.com) • [SSL](https://www.ssllabs.com/ssltest/analyze.html?d=blacktrigram.com) |
 | D-003 | ciacompliancemanager.com | Hack23 AB | Active ✅ | DNS: Route 53 • DNSSEC: ON | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) | [DNSSEC](https://dnsviz.net/d/ciacompliancemanager.com/dnssec/) • [SSL](https://www.ssllabs.com/ssltest/analyze.html?d=ciacompliancemanager.com) |
 | D-004 | riksdagsmonitor.com | Hack23 AB | Active ✅ | DNS: Route 53 • DNSSEC: ON | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) | [DNSSEC](https://dnsviz.net/d/riksdagsmonitor.com/dnssec/) • [SSL](https://www.ssllabs.com/ssltest/analyze.html?d=riksdagsmonitor.com) |
+| D-005 | euparliamentmonitor.com | Hack23 AB | Active ✅ | DNS: Route 53 • DNSSEC: ON | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) | [DNSSEC](https://dnsviz.net/d/euparliamentmonitor.com/dnssec/) • [SSL](https://www.ssllabs.com/ssltest/analyze.html?d=euparliamentmonitor.com) |
 
 ---
 
@@ -345,7 +347,7 @@ Statement: All copyrights remain with the CEO and sole owner of Hack23.com.
 | 🛡️ CIA Compliance Manager | https://github.com/Hack23/cia-compliance-manager | https://ciacompliancemanager.com/ | [![Compliance](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🏛️ Citizen Intelligence Agency | https://github.com/Hack23/cia | https://hack23.com/cia-features.html | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🇪🇺 European Parliament MCP Server | https://github.com/Hack23/European-Parliament-MCP-Server | https://hack23.github.io/European-Parliament-MCP-Server/ | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
-| 🇪🇺 EU Parliament Monitor | https://github.com/Hack23/euparliamentmonitor | - | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
+| 🇪🇺 EU Parliament Monitor | https://github.com/Hack23/euparliamentmonitor | https://euparliamentmonitor.com | [![Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🎮 Game Template | https://github.com/Hack23/game | - | [![Template](https://img.shields.io/badge/Type-Template-lightblue?style=for-the-badge&logo=template&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | 🌐 Hack23 Homepage | https://github.com/Hack23/homepage | https://hack23.com | [![Frontend](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](./CLASSIFICATION.md#project-type-classifications) | [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
 | ☁️ Lambda in Private VPC | https://github.com/Hack23/lambda-in-private-vpc | - | [![Core](https://img.shields.io/badge/Type-Core_Infrastructure-red?style=for-the-badge&logo=server&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](./CLASSIFICATION.md#business-process-types) |
@@ -510,7 +512,7 @@ mindmap
       Alternative suppliers mapped
     Domains & DNS
       Route 53 hosted zones
-      DNSSEC all 4 domains
+      DNSSEC all 5 domains
       Registrar locks active
       Auto-renewal configured
       Expiry alerts CloudWatch
@@ -539,7 +541,7 @@ mindmap
       CloudTrail complete audit
       KMS encryption at rest
       Automated threat detection
-      5 IP assets documented
+      10 IP assets documented
     Weaknesses
       Single person dependency
       Access keys still active
@@ -604,15 +606,20 @@ mindmap
         Suno, ElevenLabs
       Security 2
         SonarCloud, FOSSA
-    Domains 2
+    Domains 5
       hack23.com
       blacktrigram.com
-    IP Assets 8
+      ciacompliancemanager.com
+      riksdagsmonitor.com
+      euparliamentmonitor.com
+    IP Assets 10
       Black Trigram game
       CIA Compliance Manager
       Citizen Intelligence Agency
       European Parliament MCP Server
       EU Parliament Monitor
+      Game Template
+      Hack23 Homepage
       Lambda in Private VPC
       Riksdagsmonitor
       Sonar CloudFormation Plugin
@@ -675,6 +682,9 @@ graph LR
         WEB2[blacktrigram.com]
         WEB3[Route 53 DNSSEC]
         WEB4[CloudFront CDN]
+        WEB5[ciacompliancemanager.com]
+        WEB6[riksdagsmonitor.com]
+        WEB7[euparliamentmonitor.com]
     end
     
     subgraph "💼 Business Systems"
@@ -686,7 +696,7 @@ graph LR
     
     subgraph "🚀 Development"
         DEV1[GitHub Repos]
-        DEV2[5 IP Assets]
+        DEV2[10 IP Assets]
         DEV3[Lambda Functions]
         DEV4[CI/CD Pipeline]
     end
@@ -696,6 +706,9 @@ graph LR
     SEC3 --> SEC4
     WEB3 --> WEB1
     WEB3 --> WEB2
+    WEB3 --> WEB5
+    WEB3 --> WEB6
+    WEB3 --> WEB7
     
     style ID1 fill:#4CAF50
     style SEC1 fill:#1565C0
@@ -709,6 +722,7 @@ graph LR
 ## 7) Change Log
 | Date (UTC) | Change |
 |------------|--------|
+| 2026-03-05 | **v2.3:** Added euparliamentmonitor.com domain (D-005); Updated EU Parliament Monitor website URL; Updated all mindmaps and security posture diagrams to reflect 5 domains and 10 IP assets |
 | 2026-02-26 | **v2.2:** Added European Parliament MCP Server, EU Parliament Monitor (euparliamentmonitor), and Riksdagsmonitor to IP assets; Updated mindmaps and security evidence tables; Total 10 IP assets registered |
 | 2026-01-25 | **v2.0:** Added domains D-003 (ciacompliancemanager.com) and D-004 (riksdagsmonitor.com); Added Game Template to IP; Added comprehensive domain security evidence links (DNSSEC, SPF/DKIM/DMARC, SSL); Marked Sonar CloudFormation Plugin as archived; Updated for ISMS-PUBLIC publication |
 | 2025-11-05 | Added § 5.1 IPR Handling and § 5.2 Asset Return/Termination procedures (ISO 27001 A.5.11, A.5.32, A.6.5) |
@@ -727,6 +741,7 @@ graph LR
 | 2026-01-25 | 7 IP assets registered | Added Game Template; Copyright protection confirmed (see Open Source Policy) | ✅ Active |
 | 2025-08-14 | 2 domains with DNSSEC | Enhanced DNS security | ✅ Completed |
 | 2026-01-25 | 4 domains with DNSSEC | Added ciacompliancemanager.com and riksdagsmonitor.com | ✅ Completed |
+| 2026-03-05 | 5 domains with DNSSEC | Added euparliamentmonitor.com (D-005) | ✅ Completed |
 | 2025-08-14 | Access keys in use | Plan migration to SSO tokens | ⏳ In Progress |
 | 2025-08-14 | No SCPs configured | Implement organizational policies | 🔴 Not Started |
 | 2025-08-14 | No break-glass procedure | Document emergency access | 🔴 Not Started |
@@ -776,6 +791,6 @@ graph LR
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** CEO, Insurance Company, Legal Counsel    
 **🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2027-01-25  
+**📅 Effective Date:** 2026-03-05  
+**⏰ Next Review:** 2027-03-05  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md)

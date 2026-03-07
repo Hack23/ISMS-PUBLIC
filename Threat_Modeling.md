@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--02--26-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2026-02-26 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-02-26
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-03-05 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-05
 
 ---
 
@@ -1136,6 +1136,35 @@ Structured approach to threat modeling capability development:
 
 ---
 
+## 📈 **AI Model Evolution — Threat Landscape Perspective (2026–2037)**
+
+**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
+
+### 🔴 Evolving AI-Enabled Threat Vectors
+
+| Threat Category | 2026–2027 (Agentic AI) | 2028–2030 (Autonomous AI) | 2031–2037 (Pre-AGI/AGI) |
+|----------------|------------------------|--------------------------|-------------------------|
+| **Social Engineering** | AI-generated phishing, deepfake voice/video for targeted attacks | Autonomous multi-vector social engineering campaigns, real-time conversation manipulation | AGI-enabled hyper-personalized social engineering indistinguishable from genuine communication |
+| **Code-Level Attacks** | AI-discovered vulnerabilities in open source dependencies, automated exploit generation | Autonomous zero-day discovery and weaponization, AI-generated polymorphic malware | Self-evolving attack code that adapts to defenses in real-time |
+| **Supply Chain Threats** | AI-crafted malicious packages mimicking legitimate libraries, automated typosquatting | Autonomous supply chain infiltration through AI-compromised maintainer accounts | AI-orchestrated coordinated supply chain attacks across multiple vectors |
+| **Prompt Injection & LLM Attacks** | Direct/indirect prompt injection against agentic workflows, training data poisoning | Multi-step autonomous jailbreaking, model manipulation through API exploitation | AGI-level adversarial attacks against AI defenses |
+| **Infrastructure Attacks** | AI-optimized credential stuffing, automated lateral movement | Autonomous infrastructure reconnaissance and exploitation, AI-driven DDoS | Self-orchestrating infrastructure attacks with autonomous adaptation |
+
+### 🛡️ AI-Powered Defense Maturity Progression
+
+| Defense Capability | 2026–2027 | 2028–2030 | 2031–2037 |
+|-------------------|-----------|-----------|-----------|
+| **Threat Detection** | AI-assisted anomaly detection, automated alert triage, STRIDE analysis augmentation | Predictive threat intelligence, autonomous incident correlation across repositories | Near-real-time autonomous threat hunting with anticipatory defense |
+| **Vulnerability Analysis** | AI-prioritized CVE triage, automated DREAD/STRIDE scoring | Predictive vulnerability discovery, autonomous impact assessment | Autonomous vulnerability prevention through predictive code analysis |
+| **Attack Surface Management** | AI-mapped attack surfaces per repository, automated exposure monitoring | Autonomous attack surface reduction, predictive exposure management | Self-healing attack surface with zero-exposure architecture |
+| **Incident Response** | AI-assisted playbook execution, automated evidence collection | Autonomous initial response, predictive impact containment | Autonomous incident containment and recovery orchestration |
+
+**Threat Modeling Integration:** AI capabilities are integrated into all five maturity levels (Level 1–5), with Level 5 (Optimized/Intelligence) progressively achieved through AI model advancement by 2030. See [Security Metrics](./Security_Metrics.md) for measurement.
+
+**Governance:** Threat model updates triggered by each major AI model release per [AI Policy](./AI_Policy.md) § AI Model Evolution Evaluation Framework.
+
+---
+
 ## 📊 **Evidence-Based Threat Model Implementation**
 
 ### 🌟 **Public Threat Model Portfolio**
@@ -1201,6 +1230,6 @@ Demonstrating our **🌟 transparency principle** and **🏆 competitive advanta
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-02-26  
-**⏰ Next Review:** 2027-02-26   
+**📅 Effective Date:** 2026-03-05  
+**⏰ Next Review:** 2027-03-05   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
