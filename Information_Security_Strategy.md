@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-4.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--24-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 4.3 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-05
+**📋 Document Owner:** CEO | **📄 Version:** 4.4 | **📅 Last Updated:** 2026-03-24 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-24
 
 ---
 
@@ -866,6 +866,7 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 
 #### **🗳️ Riksdagsmonitor**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/riksdagsmonitor/attestations)
 [![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
 
 ### 🤖 **AI Governance & LLM Security**
@@ -885,7 +886,7 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 
 ### 🤖 **AI Agent Governance & Curated Automation**
 
-Hack23 AB operates a curated ecosystem of GitHub Copilot custom agents across all ISMS-scoped repositories (CIA, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS).
+Hack23 AB operates a curated ecosystem of GitHub Copilot custom agents across all ISMS-scoped repositories (CIA, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS, Riksdagsmonitor, EU Parliament Monitor, European Parliament MCP Server).
 
 The ecosystem is intentionally **tiered**:
 
@@ -901,7 +902,7 @@ The ecosystem is intentionally **tiered**:
    - Proposes improvements to agent prompts and tools based on observed gaps and false-positive/false-negative patterns.
 
 2. **Task / Product Task Agents (Per Product / Repo)**  
-   - One or more task agents per product (Citizen Intelligence Agency, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS).  
+   - One or more task agents per product (Citizen Intelligence Agency, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS, Riksdagsmonitor, EU Parliament Monitor, European Parliament MCP Server).  
    - Responsibilities:
      - Analyze repositories, documentation, ISMS-PUBLIC and live systems per CEO direction
      - Run MCP-powered checks (GitHub, filesystem, git, Playwright, AWS where applicable)  
@@ -951,6 +952,9 @@ graph TB
         TASK_CM[📊 CIA CM Task Agent]:::task
         TASK_BT[🎮 Black Trigram Task Agent]:::task
         TASK_HP[🌐 Homepage Task Agent]:::task
+        TASK_RM[🗳️ Riksdagsmonitor Task Agent]:::task
+        TASK_EPM[🇪🇺 EU Parliament Monitor Task Agent]:::task
+        TASK_EPMCP[🔧 EU Parliament MCP Task Agent]:::task
     end
     
     subgraph "👷 Implementation Layer"
@@ -975,6 +979,9 @@ graph TB
     CEO -->|Directs| TASK_CM
     CEO -->|Directs| TASK_BT
     CEO -->|Directs| TASK_HP
+    CEO -->|Directs| TASK_RM
+    CEO -->|Directs| TASK_EPM
+    CEO -->|Directs| TASK_EPMCP
     
     CURATOR -->|Maintains| CONFIG
     CONFIG -->|Defines| TASK_ISMS
@@ -987,6 +994,9 @@ graph TB
     TASK_CM -->|Creates| ISSUES
     TASK_BT -->|Creates| ISSUES
     TASK_HP -->|Creates| ISSUES
+    TASK_RM -->|Creates| ISSUES
+    TASK_EPM -->|Creates| ISSUES
+    TASK_EPMCP -->|Creates| ISSUES
     
     ISSUES -->|Assigns| SEC
     ISSUES -->|Assigns| DEV
@@ -1092,7 +1102,7 @@ graph TB
         ISMS_DIM -.->|Mandates| SEC
     end
     
-    classDef center fill:#FFD700,stroke:#F57F17,stroke-width:4px,color:#000,font-weight:bold
+    classDef center fill:#FFC107,stroke:#F57C00,stroke-width:4px,color:#000,font-weight:bold
     classDef security fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff,font-weight:bold
     classDef quality fill:#1976D2,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
     classDef functionality fill:#388E3C,stroke:#1B5E20,stroke-width:3px,color:#fff,font-weight:bold
@@ -1237,7 +1247,6 @@ Our strategy success measurement framework aligned with [📊 Security Metrics](
 | Metric Category | KPI | Target | Measurement | Review Frequency |
 |-----------------|-----|--------|-------------|------------------|
 | **🎖️ Security Scorecard** | OpenSSF Score | >9.0 | Automated monitoring | Weekly |
-| ****|**|**|**|**|
 | **🔍 Vulnerability SLA** | Critical vulns >7d | 0 | Vulnerability tracking | Daily |
 | **⏱️ Incident Response** | Mean time to detect | <5 min | Incident logs | Per incident |
 | **📋 Compliance Posture** | Framework alignment | 100% | Compliance checklist | Quarterly |
@@ -1481,6 +1490,6 @@ This Information Security Strategy will evolve continuously based on threat inte
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **🔒 Rationale:** Strategic security framework demonstrating methodology and approach; no proprietary tactics, financial details, or operational vulnerabilities disclosed. Transparency serves as competitive differentiator and client trust accelerator.  
-**📅 Effective Date:** 2026-03-05  
-**⏰ Next Review:** 2027-03-05   
+**📅 Effective Date:** 2026-03-24  
+**⏰ Next Review:** 2027-03-24   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
