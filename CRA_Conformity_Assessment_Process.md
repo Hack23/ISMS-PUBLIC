@@ -13,14 +13,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--27-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
   <a href="#"><img src="https://img.shields.io/badge/📋_TEMPLATE-Copy_for_Projects-blueviolet?style=for-the-badge" alt="Template Document"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2026-03-27 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-06-27
 
 ---
 
@@ -38,7 +38,7 @@ Our commitment to transparency means our conformity assessment practices become 
 
 ## 🔍 **Purpose & Scope**
 
-This process provides a concise, repeatable CRA Conformity Assessment format (pre‑market & ongoing) for the three initial products (CIA, Black Trigram, CIA Compliance Manager). Aligns with CRA Annex I & V, Hack23 classification, secure development, and transparency policies.
+This process provides a concise, repeatable CRA Conformity Assessment format (pre‑market & ongoing) for all six Hack23 AB products (CIA, Black Trigram, CIA Compliance Manager, European Parliament MCP Server, EU Parliament Monitor, Riksdagsmonitor). Aligns with CRA Annex I & V, Hack23 classification, secure development, and transparency policies.
 
 **Scope:** All products within [Asset Register](./Asset_Register.md) requiring EU market placement.
 
@@ -61,9 +61,9 @@ The following Hack23 AB projects demonstrate completed CRA assessments using thi
 | **🕵️ CIA (Citizen Intelligence Agency)** | Political transparency platform | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) |
 | **⚫ Black Trigram** | Korean martial arts game | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) |
 | **🛡️ CIA Compliance Manager** | Compliance automation tool | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) |
-| **🇪🇺 European Parliament MCP Server** | Political intelligence MCP server | Standard (Non-commercial OSS) | ⏳ Planned | — |
-| **🇪🇺 EU Parliament Monitor** | Automated intelligence platform | Standard (Non-commercial OSS) | ⏳ Planned | — |
-| **🗳️ Riksdagsmonitor** | Swedish parliament monitor | Standard (Non-commercial OSS) | ⏳ Planned | — |
+| **🇪🇺 European Parliament MCP Server** | Political intelligence MCP server | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CRA-ASSESSMENT.md) |
+| **🇪🇺 EU Parliament Monitor** | Automated news generation platform | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/euparliamentmonitor/blob/main/CRA-ASSESSMENT.md) |
+| **🗳️ Riksdagsmonitor** | Swedish parliament intelligence platform | Standard (Non-commercial OSS) | ✅ Complete | [📄 CRA Assessment](https://github.com/Hack23/riksdagsmonitor/blob/main/CRA-ASSESSMENT.md) |
 
 ### 🎯 **Implementation Examples**
 
@@ -717,6 +717,6 @@ CRA assessment updated only when changes constitute "substantial modification" u
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-03-27  
+**⏰ Next Review:** 2026-06-27  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

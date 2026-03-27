@@ -135,21 +135,30 @@ All repositories **MUST** demonstrate security excellence through public badges 
 
 **🇪🇺 European Parliament MCP Server:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12067/badge)](https://bestpractices.coreinfrastructure.org/projects/12067)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
 [![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
 [![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md)
+[![CRA Self Assessment Complete](https://img.shields.io/badge/CRA-Self_Assessment_Complete-green?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CRA-ASSESSMENT.md)
 [![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://hack23.github.io/European-Parliament-MCP-Server/)
 
 **🇪🇺 EU Parliament Monitor:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12068/badge)](https://bestpractices.coreinfrastructure.org/projects/12068)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
 [![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
 [![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md)
+[![CRA Self Assessment Complete](https://img.shields.io/badge/CRA-Self_Assessment_Complete-green?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/CRA-ASSESSMENT.md)
+[![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://hack23.github.io/euparliamentmonitor/)
 
 **🗳️ Riksdagsmonitor:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12069/badge)](https://bestpractices.coreinfrastructure.org/projects/12069)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/riksdagsmonitor/attestations)
 [![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
 [![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md)
+[![CRA Self Assessment Complete](https://img.shields.io/badge/CRA-Self_Assessment_Complete-green?style=flat-square&logo=european-union&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/CRA-ASSESSMENT.md)
+[![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://hack23.github.io/riksdagsmonitor/)
 
 ---
 
@@ -183,9 +192,9 @@ Per [Secure Development Policy](./Secure_Development_Policy.md#architecture-docu
 - **🏛️ CIA:** [LICENSE](https://github.com/Hack23/cia/blob/master/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) • [NOTICE](https://github.com/Hack23/cia/blob/master/NOTICE)
 - **🎮 Black Trigram:** [LICENSE](https://github.com/Hack23/blacktrigram/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md)
 - **📊 CIA Compliance Manager:** [LICENSE](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md)
-- **🇪🇺 EP MCP Server:** [LICENSE](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
-- **🇪🇺 EU Parliament Monitor:** [LICENSE](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
-- **🗳️ Riksdagsmonitor:** [LICENSE](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
+- **🇪🇺 EP MCP Server:** [LICENSE](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CRA-ASSESSMENT.md)
+- **🇪🇺 EU Parliament Monitor:** [LICENSE](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/euparliamentmonitor/blob/main/CRA-ASSESSMENT.md)
+- **🗳️ Riksdagsmonitor:** [LICENSE](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE) • [CRA-ASSESSMENT.md](https://github.com/Hack23/riksdagsmonitor/blob/main/CRA-ASSESSMENT.md)
 
 #### **🤝 Community Documentation**
 - **CODE_OF_CONDUCT.md:** Community behavior standards

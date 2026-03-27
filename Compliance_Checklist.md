@@ -461,7 +461,7 @@ Hack23 AB's comprehensive CRA Annex II readiness enables consulting services for
 
 **🔗 Evidence of Expertise:**
 
-- 3 completed CRA conformity assessments (Standard classification)
+- 6 completed CRA conformity assessments (Standard classification)
 - Comprehensive ISMS framework aligned with ISO 27001, NIST CSF 2.0, CIS Controls v8.1
 - Public transparency: All security documentation available for client review
 - Technical implementation: SLSA 3, SBOM generation, security scanning in CI/CD
@@ -475,9 +475,9 @@ The following products have completed CRA conformity assessments, demonstrating 
 | **🕵️ CIA (Citizen Intelligence Agency)** | Political transparency platform | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/cia/blob/master/CRA-ASSESSMENT.md) |
 | **⚫ Black Trigram** | Korean martial arts game | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/blacktrigram/blob/main/CRA-ASSESSMENT.md) |
 | **🛡️ CIA Compliance Manager** | Compliance automation tool | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/cia-compliance-manager/blob/main/CRA-ASSESSMENT.md) |
-| **🇪🇺 European Parliament MCP Server** | Political intelligence MCP server | Standard (Non-commercial OSS) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() | Planned |
-| **🇪🇺 EU Parliament Monitor** | Automated intelligence platform | Standard (Non-commercial OSS) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() | Planned |
-| **🗳️ Riksdagsmonitor** | Swedish parliament monitor | Standard (Non-commercial OSS) | [![Planned](https://img.shields.io/badge/Status-Planned-yellow?style=flat-square)]() | Planned |
+| **🇪🇺 European Parliament MCP Server** | Political intelligence MCP server | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/CRA-ASSESSMENT.md) |
+| **🇪🇺 EU Parliament Monitor** | Automated news generation platform | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/euparliamentmonitor/blob/main/CRA-ASSESSMENT.md) |
+| **🗳️ Riksdagsmonitor** | Swedish parliament intelligence platform | Standard (Non-commercial OSS) | [![Implemented](https://img.shields.io/badge/Status-Implemented-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/main/CRA-ASSESSMENT.md) | [📄 CRA Assessment](https://github.com/Hack23/riksdagsmonitor/blob/main/CRA-ASSESSMENT.md) |
 
 ---
 
