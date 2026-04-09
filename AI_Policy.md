@@ -143,7 +143,7 @@ graph TD
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#7B1FA2',
-      'primaryTextColor': '#4a148c',
+      'primaryTextColor': '#4A148C',
       'lineColor': '#7B1FA2',
       'secondaryColor': '#4CAF50',
       'tertiaryColor': '#FFC107'
@@ -317,12 +317,12 @@ graph TB
     TASK -.->|❌ Cannot Modify| PROFILES
     SPEC -.->|❌ Cannot Modify| MCP
     
-    classDef ceo fill:#2E7D32,stroke:#1B5E20,stroke-width:4px,color:#fff,font-weight:bold
+    classDef ceo fill:#2E7D32,stroke:#2E7D32,stroke-width:4px,color:#fff,font-weight:bold
     classDef security fill:#1565C0,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
     classDef curator fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
     classDef task fill:#FFC107,stroke:#F57C00,stroke-width:2px,color:#000,font-weight:bold
     classDef specialist fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef config fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    classDef config fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
     classDef control fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
 ```
 
@@ -367,7 +367,7 @@ graph LR
     A5 -.->|Never| P2
     
     classDef allowed fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
-    classDef prohibited fill:#F44336,stroke:#C62828,stroke-width:3px,color:#fff,font-weight:bold
+    classDef prohibited fill:#D32F2F,stroke:#C62828,stroke-width:3px,color:#fff,font-weight:bold
 ```
 
 #### **👥 Task & Specialist Agent Automation**
@@ -484,11 +484,11 @@ flowchart TD
     classDef start fill:#9E9E9E,stroke:#616161,stroke-width:3px,color:#fff,font-weight:bold
     classDef decision fill:#FFC107,stroke:#F57C00,stroke-width:3px,color:#000,font-weight:bold
     classDef change fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    classDef review fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    classDef process fill:#00BCD4,stroke:#00838F,stroke-width:2px,color:#fff
+    classDef review fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    classDef process fill:#2196F3,stroke:#455A64,stroke-width:2px,color:#fff
     classDef ceo fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
     classDef success fill:#4CAF50,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
-    classDef failure fill:#F44336,stroke:#C62828,stroke-width:3px,color:#fff,font-weight:bold
+    classDef failure fill:#D32F2F,stroke:#C62828,stroke-width:3px,color:#fff,font-weight:bold
     classDef feedback fill:#FF5722,stroke:#D84315,stroke-width:2px,color:#fff
 ```
 

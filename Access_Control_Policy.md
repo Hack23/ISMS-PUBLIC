@@ -178,7 +178,7 @@ Integration with cloud organization structure:
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#7B1FA2',
-      'primaryTextColor': '#4a148c',
+      'primaryTextColor': '#4A148C',
       'lineColor': '#7B1FA2',
       'secondaryColor': '#4CAF50',
       'tertiaryColor': '#FFC107'

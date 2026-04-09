@@ -121,7 +121,7 @@ graph TD
     
     style F fill:#D32F2F,stroke:#c62828,stroke-width:3px
     style G fill:#FF9800,stroke:#F57C00,stroke-width:2px
-    style H fill:#FFC107,stroke:#f9a825,stroke-width:2px
+    style H fill:#FFC107,stroke:#F9A825,stroke-width:2px
     style I fill:#4CAF50,stroke:#2e7d32,stroke-width:1px
     style J fill:#9E9E9E,stroke:#616161,stroke-width:1px
 ```
@@ -463,12 +463,12 @@ flowchart TD
     style PENTAGON fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff
     style SEC_RISK fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#ffffff
     style QUAL_RISK fill:#1976D2,stroke:#0D47A1,stroke-width:2px,color:#ffffff
-    style FUNC_RISK fill:#388E3C,stroke:#1B5E20,stroke-width:2px,color:#ffffff
+    style FUNC_RISK fill:#388E3C,stroke:#2E7D32,stroke-width:2px,color:#ffffff
     style QA_RISK fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#ffffff
-    style ISMS_RISK fill:#F57C00,stroke:#E65100,stroke-width:2px,color:#ffffff
+    style ISMS_RISK fill:#F57C00,stroke:#F57C00,stroke-width:2px,color:#ffffff
     style SCORE fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#ffffff
     style CRITICAL fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff
-    style HUMAN fill:#FFD700,stroke:#F57F17,stroke-width:3px,color:#000000
+    style HUMAN fill:#FFC107,stroke:#F57C00,stroke-width:3px,color:#000000
     style REGISTER fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#ffffff
     style ASSIGN fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#ffffff
 ```

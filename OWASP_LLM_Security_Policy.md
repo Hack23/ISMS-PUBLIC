@@ -366,13 +366,13 @@ flowchart TD
     
     classDef recon fill:#1565C0,stroke:#1565C0,stroke-width:2px
     classDef resource fill:#7B1FA2,stroke:#7b1fa2,stroke-width:2px
-    classDef access fill:#FF9800,stroke:#f57f17,stroke-width:2px
+    classDef access fill:#FF9800,stroke:#F57C00,stroke-width:2px
     classDef execute fill:#FF9800,stroke:#F57C00,stroke-width:2px
     classDef persist fill:#4CAF50,stroke:#388e3c,stroke-width:2px
-    classDef lateral fill:#FFC107,stroke:#fbc02d,stroke-width:2px
-    classDef intel fill:#1565C0,stroke:#00838f,stroke-width:2px
-    classDef collect fill:#D32F2F,stroke:#c2185b,stroke-width:2px
-    classDef exfil fill:#7B1FA2,stroke:#8e24aa,stroke-width:2px
+    classDef lateral fill:#FFC107,stroke:#FFA000,stroke-width:2px
+    classDef intel fill:#1565C0,stroke:#455A64,stroke-width:2px
+    classDef collect fill:#D32F2F,stroke:#C62828,stroke-width:2px
+    classDef exfil fill:#7B1FA2,stroke:#7B1FA2,stroke-width:2px
     classDef impact fill:#D32F2F,stroke:#c62828,stroke-width:3px
     
     class RECON,R1,R2,R3,R4,R5,R6 recon
@@ -395,7 +395,7 @@ flowchart TD
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#4CAF50',
-      'primaryTextColor': '#1b5e20',
+      'primaryTextColor': '#2E7D32',
       'lineColor': '#4caf50'
     }
   }
@@ -762,7 +762,7 @@ graph TB
     classDef attack fill:#FF9800,stroke:#F57C00,stroke-width:3px,color:#000000
     classDef control fill:#4CAF50,stroke:#388e3c,stroke-width:2px,color:#000000
     classDef monitoring fill:#1565C0,stroke:#1565C0,stroke-width:2px,color:#000000
-    classDef impact fill:#FFC107,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef impact fill:#FFC107,stroke:#F57C00,stroke-width:2px,color:#000000
     
     class A1,A2,A3,A4 attack
     class C1,C2,C3,C4 control
@@ -846,7 +846,7 @@ flowchart LR
     classDef lifecycle fill:#1565C0,stroke:#1565C0,stroke-width:2px,color:#000000
     classDef threats fill:#D32F2F,stroke:#c62828,stroke-width:3px,color:#000000
     classDef controls fill:#4CAF50,stroke:#2e7d32,stroke-width:2px,color:#000000
-    classDef planned fill:#FFC107,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef planned fill:#FFC107,stroke:#F57C00,stroke-width:2px,color:#000000
     
     class L1,L2,L3,L4,L5 lifecycle
     class T1,T2,T3 threats
@@ -872,7 +872,7 @@ Integration threats exploit vulnerabilities at the boundaries where LLMs connect
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#7B1FA2',
-      'primaryTextColor': '#4a148c',
+      'primaryTextColor': '#4A148C',
       'lineColor': '#7b1fa2',
       'secondaryColor': '#7B1FA2',
       'tertiaryColor': '#7B1FA2'
@@ -924,10 +924,10 @@ graph TD
     G2 -.Enhances.-> T1
     G3 -.Enhances.-> T3
     
-    classDef external fill:#1565C0,stroke:#00838f,stroke-width:2px,color:#000000
+    classDef external fill:#1565C0,stroke:#455A64,stroke-width:2px,color:#000000
     classDef threats fill:#FF9800,stroke:#F57C00,stroke-width:3px,color:#000000
     classDef boundaries fill:#4CAF50,stroke:#2e7d32,stroke-width:2px,color:#000000
-    classDef gaps fill:#FFC107,stroke:#f57f17,stroke-width:2px,color:#000000
+    classDef gaps fill:#FFC107,stroke:#F57C00,stroke-width:2px,color:#000000
     
     class E1,E2,E3,E4 external
     class T1,T2,T3 threats
@@ -1147,7 +1147,7 @@ Visual representation of control implementation status across all OWASP LLM cate
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#4CAF50',
-      'primaryTextColor': '#1b5e20',
+      'primaryTextColor': '#2E7D32',
       'lineColor': '#4caf50',
       'secondaryColor': '#FFC107',
       'tertiaryColor': '#FF9800'
@@ -1400,7 +1400,7 @@ These controls apply across multiple OWASP LLM threats and form the foundation o
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#4CAF50',
-      'primaryTextColor': '#1b5e20',
+      'primaryTextColor': '#2E7D32',
       'lineColor': '#4caf50',
       'secondaryColor': '#FFC107',
       'tertiaryColor': '#FF9800'

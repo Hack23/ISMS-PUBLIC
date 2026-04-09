@@ -142,8 +142,8 @@ Organizations SHALL execute systematic assessment with evidence documentation:
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#4CAF50',
-      'primaryTextColor': '#33691e',
-      'lineColor': '#8bc34a',
+      'primaryTextColor': '#2E7D32',
+      'lineColor': '#4CAF50',
       'secondaryColor': '#4CAF50',
       'tertiaryColor': '#FFC107'
     }
@@ -380,7 +380,7 @@ graph TB
     
     style C fill:#D32F2F,stroke:#d32f2f,stroke-width:2px
     style D fill:#FFC107,stroke:#ff9800,stroke-width:2px
-    style E fill:#FFC107,stroke:#fbc02d,stroke-width:2px
+    style E fill:#FFC107,stroke:#FFA000,stroke-width:2px
     style F fill:#4CAF50,stroke:#4caf50,stroke-width:2px
     style G fill:#1565C0,stroke:#2196f3,stroke-width:2px
 ```
@@ -395,7 +395,7 @@ Organizations SHALL conduct multi-dimensional impact assessment:
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#7B1FA2',
-      'primaryTextColor': '#4a148c',
+      'primaryTextColor': '#4A148C',
       'lineColor': '#7b1fa2',
       'secondaryColor': '#4CAF50',
       'tertiaryColor': '#FF9800'

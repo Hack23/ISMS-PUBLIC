@@ -250,7 +250,7 @@ flowchart TD
     LEGIT --> LI3[System Operations]
     
     classDef purposeStyle fill:#1565C0,stroke:#0D47A1,color:#fff
-    classDef basisStyle fill:#2E7D32,stroke:#1B5E20,color:#fff
+    classDef basisStyle fill:#2E7D32,stroke:#2E7D32,color:#fff
     classDef itemStyle fill:#1565C0,stroke:#1565C0,color:#fff
     
     class PURPOSE purposeStyle
@@ -368,7 +368,7 @@ We prioritize EU/EEA data residency. When transfers outside EU/EEA are necessary
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#1565C0',
-      'primaryTextColor': '#1A237E',
+      'primaryTextColor': '#0D47A1',
       'lineColor': '#1565C0',
       'secondaryColor': '#4CAF50',
       'tertiaryColor': '#FFC107'
@@ -395,7 +395,7 @@ flowchart TD
     
     classDef startStyle fill:#1565C0,stroke:#0D47A1,color:#fff
     classDef decisionStyle fill:#FF9800,stroke:#F57C00,color:#fff
-    classDef safeStyle fill:#2E7D32,stroke:#1B5E20,color:#fff
+    classDef safeStyle fill:#2E7D32,stroke:#2E7D32,color:#fff
     classDef approveStyle fill:#4CAF50,stroke:#388E3C,color:#fff
     
     class START startStyle
@@ -524,7 +524,7 @@ We use cookies and similar technologies to improve user experience, analyze usag
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#1565C0',
-      'primaryTextColor': '#1A237E',
+      'primaryTextColor': '#0D47A1',
       'lineColor': '#1565C0'
     }
   }
@@ -626,7 +626,7 @@ We may update this Privacy Policy to reflect changes in our practices, legal req
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#4CAF50',
-      'primaryTextColor': '#1B5E20',
+      'primaryTextColor': '#2E7D32',
       'lineColor': '#4CAF50'
     }
   }
@@ -642,7 +642,7 @@ flowchart LR
     NOTIFY --> BANNER[🔔 In-App Notification]
     NOTIFY --> CHANGELOG[📋 Version History]
     
-    classDef changeStyle fill:#2E7D32,stroke:#1B5E20,color:#fff
+    classDef changeStyle fill:#2E7D32,stroke:#2E7D32,color:#fff
     classDef processStyle fill:#4CAF50,stroke:#388E3C,color:#fff
     classDef notifyStyle fill:#4CAF50,stroke:#43A047,color:#fff
     

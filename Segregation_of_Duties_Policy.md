@@ -324,7 +324,7 @@ flowchart TD
     O --> Q[📅 Quarterly<br/>Control Validation]
     
     style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
-    style B fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style B fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
     style C fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff
     style D fill:#FFC107,stroke:#F57C00,stroke-width:2px,color:#000
     style E fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
@@ -335,7 +335,7 @@ flowchart TD
     style J fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
     style K fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style L fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
-    style M fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style M fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
     style N fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
     style O fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style P fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#fff

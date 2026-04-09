@@ -322,11 +322,11 @@ flowchart LR
     
     Auditors["👨‍💼 External Auditors"] -.->|Validate| CEO
     
-    style CEO fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style CEO fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
     style Approve fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
     style Follow fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#fff
-    style Review fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
-    style Improve fill:#FF9800,stroke:#E65100,stroke-width:2px,color:#fff
+    style Review fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    style Improve fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
     style Auditors fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
 ```
 

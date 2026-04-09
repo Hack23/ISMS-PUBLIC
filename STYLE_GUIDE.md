@@ -431,21 +431,21 @@ quadrantChart
     quadrant-2 KEY PLAYERS
     quadrant-3 MONITOR
     quadrant-4 KEEP INFORMED
-    "🏦 SEB Bank": [0.45, 0.75] radius: 8
-    "📊 Bokio Accounting": [0.50, 0.70] radius: 7
-    "🛡️ Insurance Provider": [0.35, 0.80] radius: 7
-    "☁️ AWS Platform": [0.85, 0.90] radius: 10
-    "📝 GitHub Services": [0.80, 0.75] radius: 9
-    "💳 Stripe Payment": [0.60, 0.65] radius: 6
-    "🤝 Consulting Clients": [0.90, 0.95] radius: 12
-    "🌐 OSS Community": [0.75, 0.40] radius: 8
-    "🎯 Prospects": [0.85, 0.60] radius: 7
-    "🏛️ Bolagsverket": [0.25, 0.85] radius: 6
-    "💰 Skatteverket": [0.30, 0.90] radius: 7
-    "🔒 GDPR Authorities": [0.20, 0.95] radius: 8
-    "⚖️ Legal Counsel": [0.40, 0.85] radius: 5
-    "🎮 Game Players": [0.70, 0.25] radius: 6
-    "👨‍💼 CEO (Self)": [0.95, 0.98] radius: 15
+    "🏦 SEB Bank": [0.45, 0.75]
+    "📊 Bokio Accounting": [0.50, 0.70]
+    "🛡️ Insurance Provider": [0.35, 0.80]
+    "☁️ AWS Platform": [0.85, 0.90]
+    "📝 GitHub Services": [0.80, 0.75]
+    "💳 Stripe Payment": [0.60, 0.65]
+    "🤝 Consulting Clients": [0.90, 0.95]
+    "🌐 OSS Community": [0.75, 0.40]
+    "🎯 Prospects": [0.85, 0.60]
+    "🏛️ Bolagsverket": [0.25, 0.85]
+    "💰 Skatteverket": [0.30, 0.90]
+    "🔒 GDPR Authorities": [0.20, 0.95]
+    "⚖️ Legal Counsel": [0.40, 0.85]
+    "🎮 Game Players": [0.70, 0.25]
+    "👨‍💼 CEO (Self)": [0.95, 0.98]
 ```
 
 #### Strategic SWOT Analysis (Quadrant Format)
@@ -481,30 +481,30 @@ quadrantChart
     quadrant-2 WEAKNESSES
     quadrant-3 OPPORTUNITIES
     quadrant-4 THREATS
-    "🔐 Deep Cybersecurity Expertise": [0.15, 0.85] radius: 8
-    "🎯 Unique Market Position": [0.25, 0.90] radius: 7
-    "☁️ Cloud-Native Architecture": [0.30, 0.80] radius: 7
-    "🌟 Open Source Leadership": [0.20, 0.75] radius: 6
-    "🛡️ Transparent Security Posture": [0.10, 0.70] radius: 7
-    "🏆 Enterprise-Grade Standards": [0.25, 0.85] radius: 8
-    "👤 Single-Person Dependency": [0.25, 0.20] radius: 8
-    "💰 Limited Financial Resources": [0.35, 0.25] radius: 7
-    "📢 Brand Recognition Gap": [0.20, 0.15] radius: 7
-    "🤝 Customer Acquisition Challenges": [0.30, 0.30] radius: 6
-    "⏱️ Time Resource Constraints": [0.15, 0.10] radius: 6
-    "🔧 Technical Scaling Limitations": [0.25, 0.35] radius: 7
-    "📈 Growing Cybersecurity Market": [0.75, 0.85] radius: 8
-    "🏛️ Government Digitalization": [0.85, 0.90] radius: 7
-    "🎮 Educational Gaming Growth": [0.70, 0.80] radius: 6
-    "🤝 Partnership Potential": [0.80, 0.75] radius: 7
-    "⚖️ NIS2 Implementation Wave": [0.90, 0.85] radius: 8
-    "🌍 Remote Work Security Demand": [0.65, 0.70] radius: 6
-    "🏢 Large Competitor Entry": [0.75, 0.25] radius: 7
-    "📉 Economic Downturn Impact": [0.85, 0.30] radius: 8
-    "⚖️ Regulatory Changes": [0.70, 0.15] radius: 6
-    "🔒 Security Incident Risk": [0.80, 0.20] radius: 7
-    "💼 Enterprise Vendor Expansion": [0.90, 0.25] radius: 7
-    "🎯 Market Commoditization": [0.65, 0.10] radius: 6
+    "🔐 Deep Cybersecurity Expertise": [0.15, 0.85]
+    "🎯 Unique Market Position": [0.25, 0.90]
+    "☁️ Cloud-Native Architecture": [0.30, 0.80]
+    "🌟 Open Source Leadership": [0.20, 0.75]
+    "🛡️ Transparent Security Posture": [0.10, 0.70]
+    "🏆 Enterprise-Grade Standards": [0.25, 0.85]
+    "👤 Single-Person Dependency": [0.25, 0.20]
+    "💰 Limited Financial Resources": [0.35, 0.25]
+    "📢 Brand Recognition Gap": [0.20, 0.15]
+    "🤝 Customer Acquisition Challenges": [0.30, 0.30]
+    "⏱️ Time Resource Constraints": [0.15, 0.10]
+    "🔧 Technical Scaling Limitations": [0.25, 0.35]
+    "📈 Growing Cybersecurity Market": [0.75, 0.85]
+    "🏛️ Government Digitalization": [0.85, 0.90]
+    "🎮 Educational Gaming Growth": [0.70, 0.80]
+    "🤝 Partnership Potential": [0.80, 0.75]
+    "⚖️ NIS2 Implementation Wave": [0.90, 0.85]
+    "🌍 Remote Work Security Demand": [0.65, 0.70]
+    "🏢 Large Competitor Entry": [0.75, 0.25]
+    "📉 Economic Downturn Impact": [0.85, 0.30]
+    "⚖️ Regulatory Changes": [0.70, 0.15]
+    "🔒 Security Incident Risk": [0.80, 0.20]
+    "💼 Enterprise Vendor Expansion": [0.90, 0.25]
+    "🎯 Market Commoditization": [0.65, 0.10]
 ```
 
 #### Process Flow (Risk Assessment Pattern)

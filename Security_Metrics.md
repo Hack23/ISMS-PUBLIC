@@ -413,12 +413,12 @@ graph TB
         CENTER --- ISMS_DIM
     end
     
-    classDef center fill:#FFD700,stroke:#F57F17,stroke-width:4px,color:#000,font-weight:bold
+    classDef center fill:#FFC107,stroke:#F57C00,stroke-width:4px,color:#000,font-weight:bold
     classDef security fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff,font-weight:bold
     classDef quality fill:#1976D2,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
-    classDef functionality fill:#388E3C,stroke:#1B5E20,stroke-width:3px,color:#fff,font-weight:bold
+    classDef functionality fill:#388E3C,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
     classDef qa fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
-    classDef isms fill:#F57C00,stroke:#E65100,stroke-width:3px,color:#fff,font-weight:bold
+    classDef isms fill:#F57C00,stroke:#F57C00,stroke-width:3px,color:#fff,font-weight:bold
     
     class CENTER center
     class SEC security
@@ -483,7 +483,7 @@ The [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) serves as the central 
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#2E7D32',
-      'primaryTextColor': '#1B5E20',
+      'primaryTextColor': '#2E7D32',
       'lineColor': '#4CAF50',
       'secondaryColor': '#1565C0'
     }

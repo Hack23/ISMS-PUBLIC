@@ -485,13 +485,13 @@ flowchart TD
 
 ### ❌ Incorrect Mermaid Diagram
 
-```mermaid
+```text
 flowchart TD
     A[Start] --> B[Process]
     B --> C{Decision}
     C --> D[End]
     
-    style A fill:#abc123
+    style A fill:#4CAF50
     style D fill:#random
 ```
 <!-- Missing: Emojis, STYLE_GUIDE colors, descriptive labels, proper classDefs -->

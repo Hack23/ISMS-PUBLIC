@@ -526,7 +526,7 @@ Implementation of ISO 27001 A.8.17 (Clock synchronization) for accurate audit lo
     'themeVariables': {
       'primaryColor': '#1565C0',
       'primaryTextColor': '#1565C0',
-      'lineColor': '#039be5',
+      'lineColor': '#2196F3',
       'secondaryColor': '#4CAF50',
       'tertiaryColor': '#FFC107'
     }

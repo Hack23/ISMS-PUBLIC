@@ -199,7 +199,7 @@ flowchart LR
   HM --- PS4
   HM --- PS5
 
-  classDef ct fill:#FFC107,stroke:#ffa000,stroke-width:2px,color:#333;
+  classDef ct fill:#FFC107,stroke:#FFA000,stroke-width:2px,color:#000000;
   classDef acct fill:#1565C0,stroke:#1565C0,color:#0d47a1;
 
   class A ct;

@@ -254,7 +254,7 @@ flowchart TD
     
     classDef agent fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     classDef critical fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff
-    classDef human fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    classDef human fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
     
     class CURATOR,CLASSIFY agent
     class ALERT_CEO critical
@@ -280,7 +280,7 @@ flowchart TD
     'themeVariables': {
       'primaryColor': '#1565C0',
       'primaryTextColor': '#1565C0',
-      'lineColor': '#03a9f4'
+      'lineColor': '#2196F3'
     }
   }
 }%%
@@ -342,8 +342,8 @@ flowchart TD
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#FFC107',
-      'primaryTextColor': '#f57f17',
-      'lineColor': '#ffb300'
+      'primaryTextColor': '#F57C00',
+      'lineColor': '#FFA000'
     }
   }
 }%%
@@ -446,8 +446,8 @@ When an incident is detected, the Task Agent (ISMS) performs automated initial t
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#FF9800',
-      'primaryTextColor': '#f57f17',
-      'lineColor': '#ffb300'
+      'primaryTextColor': '#F57C00',
+      'lineColor': '#FFA000'
     }
   }
 }%%
@@ -478,7 +478,7 @@ flowchart TD
     
     style TASK_AGENT fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style ISMS_NINJA fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
-    style CEO_REVIEW fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style CEO_REVIEW fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
     style EXECUTE fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
 ```
 
@@ -558,8 +558,8 @@ flowchart TD
     
     style SEC_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style DEV_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
-    style CEO_REVIEW fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
-    style CEO_EXEC fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style CEO_REVIEW fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
+    style CEO_EXEC fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
 ```
 
 **🔐 Human-in-the-Loop Containment Enforcement:**
@@ -676,7 +676,7 @@ flowchart TD
     style ISMS_NINJA fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style SEC_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style BIZ_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
-    style CEO_REVIEW fill:#2E7D32,stroke:#1B5E20,stroke-width:3px,color:#fff
+    style CEO_REVIEW fill:#2E7D32,stroke:#2E7D32,stroke-width:3px,color:#fff
 ```
 
 #### **📝 AI-Generated Incident Documentation**
@@ -1038,8 +1038,8 @@ When AI agents are unavailable or degraded (API outage, system failure, security
     'theme': 'base',
     'themeVariables': {
       'primaryColor': '#FF9800',
-      'primaryTextColor': '#f57f17',
-      'lineColor': '#ffb300'
+      'primaryTextColor': '#F57C00',
+      'lineColor': '#FFA000'
     }
   }
 }%%

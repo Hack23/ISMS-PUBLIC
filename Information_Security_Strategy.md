@@ -1019,7 +1019,7 @@ graph TB
     DOCS -->|Review| PM
     PM -->|Approval| CEO
     
-    classDef human fill:#2E7D32,stroke:#1B5E20,stroke-width:4px,color:#fff,font-weight:bold
+    classDef human fill:#2E7D32,stroke:#2E7D32,stroke-width:4px,color:#fff,font-weight:bold
     classDef curator fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
     classDef task fill:#FFC107,stroke:#F57C00,stroke-width:3px,color:#000,font-weight:bold
     classDef specialist fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
@@ -1108,9 +1108,9 @@ graph TB
     classDef center fill:#FFC107,stroke:#F57C00,stroke-width:4px,color:#000,font-weight:bold
     classDef security fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff,font-weight:bold
     classDef quality fill:#1976D2,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
-    classDef functionality fill:#388E3C,stroke:#1B5E20,stroke-width:3px,color:#fff,font-weight:bold
+    classDef functionality fill:#388E3C,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
     classDef qa fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
-    classDef isms fill:#F57C00,stroke:#E65100,stroke-width:3px,color:#fff,font-weight:bold
+    classDef isms fill:#F57C00,stroke:#F57C00,stroke-width:3px,color:#fff,font-weight:bold
 ```
 
 #### 🏛️ **Governance Summary**

@@ -56,7 +56,7 @@ This register documents all identified risks affecting Hack23 AB operations, app
 ### 📈 **Updated Risk Heat Matrix**
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#F8F9FA'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FFFFFF'}}}%%
 graph TB
     subgraph "Impact →"
         subgraph "6 - Catastrophic"
@@ -246,7 +246,7 @@ flowchart TD
     style RECALC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style CONTINUE fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style CRITICAL fill:#FF9800,stroke:#F57C00,stroke-width:3px,color:#fff
-    style CEO fill:#FFD700,stroke:#F57F17,stroke-width:3px,color:#000
+    style CEO fill:#FFC107,stroke:#F57C00,stroke-width:3px,color:#000
     style UPDATE fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style REVIEW fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style EVIDENCE fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
