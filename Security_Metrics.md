@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.4-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-3.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--04--19-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Monthly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 3.4 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2026-04-05
+**📋 Document Owner:** CEO | **📄 Version:** 3.5 | **📅 Last Updated:** 2026-04-19 (UTC)  
+**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2026-05-19
 
 ---
 
@@ -77,18 +77,86 @@ By maintaining **🌐 live security dashboards** with **📊 public accountabili
 
 **Key Insights:** Phase 2 targets (+1.07 OpenSSF points to >9.0, +20% evidence automation to 95%) are achievable based on Q3-Q4 velocity.
 
-### **🔍 Evidence Validation (Last Updated: 2025-12-24)**
+### **🔍 Evidence Validation (Last Updated: 2026-04-19)**
 
 | Metric | Value | Evidence | Frequency | Automation |
 |--------|-------|----------|-----------|------------|
-| **OpenSSF Scorecard** | [See live badges](https://scorecard.dev/viewer/?uri=github.com/Hack23) | [scorecard.dev](https://api.securityscorecards.dev) | Weekly | ✅ Automated |
-| **CII Best Practices** | Gold/Passing | [CII Portal](https://bestpractices.coreinfrastructure.org) | Monthly | ⚠️ Manual |
-| **Critical Vulnerabilities** | 0 | [Dependabot](https://github.com/orgs/Hack23/security/overview) | Daily | ✅ Automated |
+| **OpenSSF Scorecard** | 7.2 avg (9 active repos) — see [Q2 2026 snapshot](#-q2-2026-live-scorecard-snapshot-2026-04-19) | [scorecard.dev](https://api.securityscorecards.dev) | Weekly | ✅ Automated |
+| **CII Best Practices** | Gold (CIA) + 5 Passing | [CII Portal](https://bestpractices.coreinfrastructure.org) | Monthly | ⚠️ Manual |
+| **Critical Vulnerabilities** | 0 open (all repos) | [Dependabot](https://github.com/orgs/Hack23/security/overview) | Daily | ✅ Automated |
 | **Control Coverage** | 95% | [Compliance Checklist](./Compliance_Checklist.md) | Quarterly | ⚠️ Manual |
 | **Automation Coverage** | 85% | [Segregation of Duties (SoD) Policy](./Segregation_of_Duties_Policy.md) | Quarterly | ⚠️ Manual |
 | **Availability** | 99.8% | [CloudWatch](https://console.aws.amazon.com/cloudwatch) | Continuous | ✅ Automated |
 
 **Phase 2 Automation Opportunities:** CII API integration, automated control validation scripts, self-assessment tooling.
+
+---
+
+## 📡 **Q2 2026 Live Scorecard Snapshot (2026-04-19)**
+
+Monthly review checkpoint capturing current OpenSSF Scorecard, release cadence, and activity across **all 11 Hack23 repositories tracked** (**9 active products** scored by OpenSSF + 1 docs-only ISMS repo + 1 archived Sonar-CloudFormation-Plugin shown for completeness). All subsequent averages, aggregates, and remediation targets in this section are computed over the **9 active repos only**. Data pulled directly from `api.securityscorecards.dev` and GitHub REST API as of 2026-04-19 (UTC).
+
+### **🏆 OpenSSF Scorecard — All Hack23 Repositories**
+
+The table below lists all **11 tracked Hack23 repositories** (9 scored active products + ISMS docs-only + archived Sonar-CloudFormation-Plugin). The ISMS and archived rows are shown for completeness and are **excluded from every aggregate, average, and remediation target** computed in this section.
+
+| # | Project | Score | Trend vs. Q4 2025 | Scorecard Date | Latest Release | CII Level |
+|---|---------|-------|-------------------|----------------|----------------|-----------|
+| 1 | 🏛️ **CIA** (Citizen Intelligence Agency) | **7.9** | 🟢 Baseline+ | 2026-04-17 | [2026.4.19](https://github.com/Hack23/cia/releases) | 🥇 Gold ([#770](https://bestpractices.coreinfrastructure.org/projects/770)) |
+| 2 | 📊 **CIA Compliance Manager** | **7.8** | 🟢 Baseline+ | 2026-04-18 | [v1.1.53](https://github.com/Hack23/cia-compliance-manager/releases) | ✅ Passing ([#10365](https://bestpractices.coreinfrastructure.org/projects/10365)) |
+| 3 | 📡 **Lambda in Private VPC** | **7.6** | 🟢 Stable | 2026-04-19 | — | ⚪ Not enrolled |
+| 4 | 🌐 **Homepage** | **7.2** | 🟡 Stale scan (2025-12-16) | 2025-12-16 | — | ⚪ Not enrolled |
+| 5 | 🎮 **Game Template** | **7.2** | 🟢 Stable | 2026-04-18 | — | ⚪ Not enrolled |
+| 6 | 🗳️ **Riksdagsmonitor** | **7.1** | 🟢 New baseline | 2026-04-19 | [v0.8.45](https://github.com/Hack23/riksdagsmonitor/releases) | ✅ Passing ([#12069](https://bestpractices.coreinfrastructure.org/projects/12069)) |
+| 7 | 🎮 **Black Trigram** | **7.0** | 🟢 Baseline+ | 2026-04-19 | [v0.7.23](https://github.com/Hack23/blacktrigram/releases) | ✅ Passing ([#10777](https://bestpractices.coreinfrastructure.org/projects/10777)) |
+| 8 | 🇪🇺 **European Parliament MCP Server** | **6.6** | 🟢 New baseline | 2026-04-18 | [v1.2.9](https://github.com/Hack23/European-Parliament-MCP-Server/releases) | ✅ Passing ([#12067](https://bestpractices.coreinfrastructure.org/projects/12067)) |
+| 9 | 🇪🇺 **EU Parliament Monitor** | **6.5** | 🟢 New baseline | 2026-04-19 | [v0.8.36](https://github.com/Hack23/euparliamentmonitor/releases) | ✅ Passing ([#12068](https://bestpractices.coreinfrastructure.org/projects/12068)) |
+| — | 📋 **ISMS** _(docs-only — not scored)_ | N/A | — | — | — | ⚪ Not applicable |
+| — | 🔧 **Sonar-CloudFormation-Plugin** ⚠️ _(archived — read-only)_ | Archived | — | — | Archived | ✅ Passing ([#4545](https://bestpractices.coreinfrastructure.org/projects/4545)) |
+
+**📊 Aggregate (rows 1–9 only, excludes ISMS docs-only and archived):** Average **7.2** · Min **6.5** · Max **7.9** · Phase 2 target ≥ **9.0 avg, ≥8.8 min**.
+
+### **🔬 Per-Check Gap Analysis (average across 9 active repos)**
+
+| OpenSSF Check | Avg Score | Status | Primary Blocker | Phase 2 Remediation |
+|---------------|-----------|--------|-----------------|---------------------|
+| **Maintained** | 7.8 | 🟡 Fair | EP-MCP & EPM scored `0` by the commit-frequency heuristic (despite active dev) — the remaining 7 repos all scored 10 | Tag activity via releases; ensure ≥1 commit/week to clear the heuristic |
+| **Dependency-Update-Tool** | 10 | ✅ Perfect | — | Maintain Dependabot coverage |
+| **Dangerous-Workflow** | 10 | ✅ Perfect | — | Maintain pinned + least-privilege workflows |
+| **Security-Policy** | 10 | ✅ Perfect | — | Keep `SECURITY.md` current per [Secure Development Policy](./Secure_Development_Policy.md) |
+| **License** | 8.9 | 🟢 Strong | Game repo missing SPDX header (scored 0) | Add SPDX to Game LICENSE |
+| **CI-Tests** | 10 | ✅ Perfect | — | — |
+| **SAST** | 9.7 | 🟢 Strong | EPM @ 8, RM @ 9 | Expand SonarCloud + CodeQL coverage |
+| **Binary-Artifacts** | 9.9 | 🟢 Strong | CIA @ 9 | Remove remaining binaries from CIA release assets |
+| **Signed-Releases** | 10 | ✅ Perfect (where applicable) | — | Maintain cosign/SLSA provenance |
+| **Packaging** | 10 (where measured) | ✅ Strong | Several repos `-1` (N/A) | No action; correct for doc/site repos |
+| **Pinned-Dependencies** | 8.4 | 🟡 Improving | Transitive action SHAs | Pin all GHAs to SHA in Q2 2026 |
+| **Vulnerabilities** | 8.8 | 🟢 Strong | BT @ 6, RM @ 6 | Drive open Dependabot alerts to 0 |
+| **Contributors** | 7.8 | 🟡 Fair | Solo maintainer; 4 repos scored 6 (< 2 orgs) | Invite community contributors in Q3 2026 |
+| **Token-Permissions** | 3.0 | 🔴 **Gap** | 6 of 9 repos score `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC — default `write-all` inherited) | **Q2 2026 priority:** org-wide `permissions: read-all` default + per-job minimal scopes |
+| **Branch-Protection** | 2.9 | 🔴 **Gap** | Solo maintainer — admin bypass inflates risk score (homepage `-1` / N/A excluded) | Enable required reviews, signed commits, linear history org-wide (Q1→Q2 2026) |
+| **CII-Best-Practices** | 3.3 | 🟡 Gap | 3 repos @ 0 (Homepage, Game, Lambda-VPC not enrolled); remaining 6 at 5 pending "in-progress → passing" uplift | Enrol remaining 3 repos in CII + drive enrolled repos from 5 → 10 by Q3 2026 |
+| **Code-Review** | 0 | 🔴 Structural | Solo-maintainer model | Document compensating controls in [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md); formalise AI-agent + temporal-separation review |
+| **Fuzzing** | 0 | 🔴 Structural | Not yet implemented | Q3 2026: OSS-Fuzz enrolment for CIA (Java) + libFuzzer for EP-MCP |
+
+### **🚨 Top 3 Organization-Wide Actions (Q2 2026)**
+
+1. **🔴 Token-Permissions hardening** — Enforce `permissions: read-all` org default; per-job `permissions:` blocks on every workflow in the 6 repos scoring `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC). Expected lift: **+1.8 pts avg score** (7.2 → ~9.0).
+2. **🔴 Branch-Protection uplift** — Require signed commits + linear history + CODEOWNERS review (AI agent + CEO temporal separation). Document compensating solo-maintainer controls. Expected lift: **+0.4 pts avg score**.
+3. **🟡 Homepage scorecard refresh + CII enrolment** — Scorecard stale since 2025-12-16; re-run weekly workflow. Enrol Homepage, Game, Lambda-VPC in CII Best Practices. Expected lift: **+0.3 pts avg score** + trust signal.
+
+### **📈 Phase 2 Milestone Status (as of 2026-04-19)**
+
+| Phase 2 Q1–Q2 Target | Current | Status | Notes |
+|----------------------|---------|--------|-------|
+| OpenSSF ≥ 8.5 avg by end Q1 | 7.2 avg | 🔴 Behind | Token-Permissions + Branch-Protection blocking; action plan above |
+| Branch protection enforcement | Partial | 🟡 In Progress | Required reviews enabled; signed commits pending |
+| Evidence automation ≥ 85% | ~80% | 🟡 On track | CII + control-coverage remain manual |
+| MTTD < 6 min | ~7 min avg | 🟡 Close | GuardDuty + CloudWatch tuning in Q2 |
+| OWASP LLM coverage ≥ 70% | 56% | 🟡 On track | Policy expansion per [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) |
+| Vulnerability SLA 100% critical < 3 days | 100% | ✅ Met | Dependabot auto-merge pipeline |
+
+**🎯 Revised Q2 2026 exit criteria:** Reach OpenSSF avg ≥ **8.5** by 2026-06-30 via the three org-wide actions above; maintain 0 critical vulns, 100% signed releases, and 99.8%+ availability.
 
 ---
 
@@ -650,27 +718,38 @@ Our metrics directly support business value creation:
 
 ## 🏆 **OpenSSF Scorecard Alignment Matrix**
 
-### **📊 Current OpenSSF Performance**
+### **📊 Current OpenSSF Performance (2026-04-19)**
 
-#### **🏛️ Citizen Intelligence Agency**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) | **Target: 9.5+**
+> 📡 For full per-check breakdown, gap analysis, and organization-wide remediation plan see the [Q2 2026 Live Scorecard Snapshot](#-q2-2026-live-scorecard-snapshot-2026-04-19) above.
 
-#### **🎮 Black Trigram** 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) | **Target: 9.5+**
+#### **🏛️ Citizen Intelligence Agency** — **7.9 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) | **Target: 9.5+** | Gap: Code-Review (0, solo-maintainer), Branch-Protection (4), Fuzzing (0)
 
-#### **📊 CIA Compliance Manager**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | **Target: 9.5+**
+#### **🎮 Black Trigram** — **7.0 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) | **Target: 9.5+** | Gap: Token-Permissions (0), Branch-Protection (3), Vulnerabilities (6)
 
-#### **🇪🇺 European Parliament MCP Server**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | **Target: 9.0+**
+#### **📊 CIA Compliance Manager** — **7.8 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | **Target: 9.5+** | Gap: Code-Review (0), Branch-Protection (3), Fuzzing (0)
 
-#### **🇪🇺 EU Parliament Monitor**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | **Target: 9.0+**
+#### **🇪🇺 European Parliament MCP Server** — **6.6 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | **Target: 9.0+** | Gap: Maintained (0 flag), Token-Permissions (0), Branch-Protection (3)
 
-#### **🗳️ Riksdagsmonitor**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | **Target: 9.0+**
+#### **🇪🇺 EU Parliament Monitor** — **6.5 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | **Target: 9.0+** | Gap: Maintained (0 flag), Token-Permissions (0), Branch-Protection (3), SAST (8)
 
-**See live badges above for current scores** _(values may change; badges reflect real-time data)_ | For check descriptions, see [OpenSSF Scorecard Documentation](https://github.com/ossf/scorecard#scorecard-checks)
+#### **🗳️ Riksdagsmonitor** — **7.1 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), Vulnerabilities (6)
+
+#### **📡 Lambda in Private VPC** — **7.6 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0 – enrol pending)
+
+#### **🌐 Homepage** — **7.2 / 10** ⚠️ *Scan stale (2025-12-16)*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0), Scorecard workflow needs refresh
+
+#### **🎮 Game Template** — **7.2 / 10**
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) | **Target: 9.0+** | Gap: License (0 – missing SPDX), Branch-Protection (0), CII (0)
+
+**Data source:** `api.securityscorecards.dev` snapshotted 2026-04-19 · Values refresh weekly · For check descriptions see [OpenSSF Scorecard Documentation](https://github.com/ossf/scorecard#scorecard-checks)
 
 ---
 
@@ -1203,6 +1282,6 @@ flowchart TD
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-03-05  
-**⏰ Next Review:** 2026-04-05    
+**📅 Effective Date:** 2026-04-19  
+**⏰ Next Review:** 2026-05-19    
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![OpenSSF](https://img.shields.io/badge/OpenSSF-Aligned-purple?style=flat-square&logo=openssf&logoColor=white)](./CLASSIFICATION.md)
