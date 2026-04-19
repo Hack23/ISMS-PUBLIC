@@ -16,7 +16,7 @@
   <a href="#"><img src="https://img.shields.io/badge/Update-Weekly-orange?style=for-the-badge" alt="Update Frequency"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **🤖 Last Generated:** 2026-04-08 10:41 UTC  
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **🤖 Last Generated:** 2026-04-19 13:09 UTC  
 **🔄 Update Frequency:** Weekly (Automated) | **📊 Data Source:** All ISMS *.md files
 
 ---
@@ -35,19 +35,19 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 ## 🚦 **Review Status Summary**
 
-**Current Status as of 2026-04-08:**
+**Current Status as of 2026-04-19:**
 
 | Status | Count | Description |
 |--------|-------|-------------|
 | 🔴 **Overdue** | 1 | Policy reviews past their due date - immediate action required |
 | 🟡 **Due Soon (< 30 days)** | 10 | Policy reviews approaching deadline - plan review activities |
-| 🟢 **Current** | 29 | Policy reviews on schedule - no immediate action needed |
-| **📊 Total Documents** | 40 | Total active ISMS policy documents |
+| 🟢 **Current** | 30 | Policy reviews on schedule - no immediate action needed |
+| **📊 Total Documents** | 41 | Total active ISMS policy documents |
 
 
 ### 🚨 **Overdue Policy Reviews - Action Required**
 
-- **[Security_Metrics.md](./Security_Metrics.md)** - 3 days overdue (Due: 2026-04-05)
+- **[Security_Metrics.md](./Security_Metrics.md)** - 14 days overdue (Due: 2026-04-05)
 
 ---
 
@@ -67,6 +67,7 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 | [Threat_Modeling.md](./Threat_Modeling.md) | 78 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | 76 KB | 🔴 Oversized | Split into focused sub-documents |
 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 75 KB | 🔴 Oversized | Split into focused sub-documents |
+| [ISO_5230_Self_Certification.md](./ISO_5230_Self_Certification.md) | 69 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Asset_Register.md](./Asset_Register.md) | 67 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Data_Classification_Policy.md](./Data_Classification_Policy.md) | 61 KB | 🔴 Oversized | Split into focused sub-documents |
 | [CLASSIFICATION.md](./CLASSIFICATION.md) | 61 KB | 🔴 Oversized | Split into focused sub-documents |
@@ -97,23 +98,23 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 | Review Date | Document | Review Cycle | Days Until Due | Status |
 |-------------|----------|--------------|----------------|--------|
-| 2026-04-25 | [Compliance_Checklist.md](./Compliance_Checklist.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [ISMS_QA_CHECKLIST.md](./ISMS_QA_CHECKLIST.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [NIS2_Compliance_Service.md](./NIS2_Compliance_Service.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [Third_Party_Management.md](./Third_Party_Management.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [Risk_Assessment_Methodology.md](./Risk_Assessment_Methodology.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [Partnership_Framework.md](./Partnership_Framework.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [CLASSIFICATION.md](./CLASSIFICATION.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-04-25 | [SUPPLIER.md](./SUPPLIER.md) | Quarterly | 16 | 🟡 Due Soon |
-| 2026-05-26 | [Open_Source_Policy.md](./Open_Source_Policy.md) | Quarterly | 47 | 🟢 Current |
-| 2026-06-05 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | Quarterly | 57 | 🟢 Current |
-| 2026-06-05 | [AI_Policy.md](./AI_Policy.md) | Quarterly | 57 | 🟢 Current |
-| 2026-06-05 | [FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md) | Quarterly | 57 | 🟢 Current |
-| 2026-06-05 | [Risk_Register.md](./Risk_Register.md) | Quarterly | 57 | 🟢 Current |
-| 2026-06-24 | [Vulnerability_Management.md](./Vulnerability_Management.md) | Quarterly | 76 | 🟢 Current |
-| 2026-06-27 | [CRA_Conformity_Assessment_Process.md](./CRA_Conformity_Assessment_Process.md) | Quarterly | 79 | 🟢 Current |
+| 2026-04-25 | [Compliance_Checklist.md](./Compliance_Checklist.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [ISMS_QA_CHECKLIST.md](./ISMS_QA_CHECKLIST.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [NIS2_Compliance_Service.md](./NIS2_Compliance_Service.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [Third_Party_Management.md](./Third_Party_Management.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [Risk_Assessment_Methodology.md](./Risk_Assessment_Methodology.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [Partnership_Framework.md](./Partnership_Framework.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [CLASSIFICATION.md](./CLASSIFICATION.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-04-25 | [SUPPLIER.md](./SUPPLIER.md) | Quarterly | 5 | 🟡 Due Soon |
+| 2026-05-26 | [Open_Source_Policy.md](./Open_Source_Policy.md) | Quarterly | 36 | 🟢 Current |
+| 2026-06-05 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | Quarterly | 46 | 🟢 Current |
+| 2026-06-05 | [AI_Policy.md](./AI_Policy.md) | Quarterly | 46 | 🟢 Current |
+| 2026-06-05 | [FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md) | Quarterly | 46 | 🟢 Current |
+| 2026-06-05 | [Risk_Register.md](./Risk_Register.md) | Quarterly | 46 | 🟢 Current |
+| 2026-06-24 | [Vulnerability_Management.md](./Vulnerability_Management.md) | Quarterly | 65 | 🟢 Current |
+| 2026-06-27 | [CRA_Conformity_Assessment_Process.md](./CRA_Conformity_Assessment_Process.md) | Quarterly | 68 | 🟢 Current |
 
 ---
 
@@ -163,6 +164,7 @@ Complete status of all ISMS documentation:
 | [Asset_Register.md](./Asset_Register.md) | 2.3 | 2026-03-05 | 2027-03-05 | Annual | 🟢 Current | ISO NIST CIS |
 | [Threat_Modeling.md](./Threat_Modeling.md) | 1.5 | 2026-03-05 | 2027-03-05 | Annual | 🟢 Current | ISO NIST CIS |
 | [Information_Security_Strategy.md](./Information_Security_Strategy.md) | 4.4 | 2026-03-24 | 2027-03-24 | Annual | 🟢 Current | ISO NIST CIS |
+| [ISO_5230_Self_Certification.md](./ISO_5230_Self_Certification.md) | 1.0 | 2026-04-10 | 2027-04-10 | Annual | 🟢 Current | ISO NIST CIS |
 
 ---
 
@@ -172,9 +174,9 @@ Our ISMS documentation alignment with major security frameworks:
 
 | Framework | Coverage | Documents | Percentage |
 |-----------|----------|-----------|------------|
-| **ISO 27001:2022** | 40/40 | Information Security Management | 100% |
-| **NIST CSF 2.0** | 39/40 | Cybersecurity Framework | 97% |
-| **CIS Controls v8.1** | 38/40 | Center for Internet Security | 95% |
+| **ISO 27001:2022** | 41/41 | Information Security Management | 100% |
+| **NIST CSF 2.0** | 40/41 | Cybersecurity Framework | 97% |
+| **CIS Controls v8.1** | 39/41 | Center for Internet Security | 95% |
 
 **Note:** All ISMS documents are designed to align with ISO 27001:2022, NIST CSF 2.0, and CIS Controls v8.1 requirements. Framework badges in individual documents indicate explicit alignment.
 
@@ -189,14 +191,14 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 
 | Size Range | Count | Percentage | Status |
 |------------|-------|------------|--------|
-| **🔴 Oversized (>40KB)** | 23 | 57% | ❌ Requires consolidation |
+| **🔴 Oversized (>40KB)** | 24 | 58% | ❌ Requires consolidation |
 | **🟡 Large (30-40KB)** | 7 | 17% | ⚠️ Monitor for growth |
-| **🟢 Normal (<30KB)** | 10 | 25% | ✅ Optimal size |
+| **🟢 Normal (<30KB)** | 10 | 24% | ✅ Optimal size |
 
 **Target Metrics:**
 - **Average Document Size:** 56 KB (Target: <25 KB)
 - **Maximum Document Size:** 242 KB (Target: <35 KB)
-- **Oversized Documents:** 23 (Target: 0)
+- **Oversized Documents:** 24 (Target: 0)
 
 ### 📋 **Detailed Size Listing**
 
@@ -212,6 +214,7 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 | [Threat_Modeling.md](./Threat_Modeling.md) | 78 | 🔴 Oversized | 🟢 Current | 2026-03-05 |
 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | 76 | 🔴 Oversized | 🟡 Due Soon | 2026-01-25 |
 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 75 | 🔴 Oversized | 🟢 Current | 2026-03-05 |
+| [ISO_5230_Self_Certification.md](./ISO_5230_Self_Certification.md) | 69 | 🔴 Oversized | 🟢 Current | 2026-04-10 |
 | [Asset_Register.md](./Asset_Register.md) | 67 | 🔴 Oversized | 🟢 Current | 2026-03-05 |
 | [Data_Classification_Policy.md](./Data_Classification_Policy.md) | 61 | 🔴 Oversized | 🟢 Current | 2026-01-25 |
 | [CLASSIFICATION.md](./CLASSIFICATION.md) | 61 | 🔴 Oversized | 🟡 Due Soon | 2026-01-25 |
@@ -268,12 +271,12 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 
 | Metric | Status | Description |
 |--------|--------|-------------|
-| **📝 Document Completeness** | ✅ 40/40 | All ISMS documents have complete metadata |
+| **📝 Document Completeness** | ✅ 41/41 | All ISMS documents have complete metadata |
 | **🔄 Review Cycle Defined** | ✅ 100% | All documents have defined review frequencies |
 | **📅 Review Dates Set** | ✅ 100% | All documents have scheduled next review dates |
 | **🏷️ Version Control** | ✅ Active | All documents maintain version numbers |
 | **📊 Dashboard Automation** | ✅ Active | Weekly automated updates via GitHub Actions |
-| **📏 Size Monitoring** | ⚠️ 23 oversized | Automated document size tracking and alerts |
+| **📏 Size Monitoring** | ⚠️ 24 oversized | Automated document size tracking and alerts |
 
 **Quality Standards:**
 - ✅ All documents follow [STYLE_GUIDE.md](./STYLE_GUIDE.md) formatting
@@ -327,6 +330,6 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 **✅ Generated by:** Automated GitHub Actions Workflow  
 **📤 Distribution:** Public (GitHub Repository)  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-green?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)  
-**📅 Last Generated:** 2026-04-08 10:41 UTC  
+**📅 Last Generated:** 2026-04-19 13:09 UTC  
 **⏰ Next Update:** Weekly (Automated)  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
