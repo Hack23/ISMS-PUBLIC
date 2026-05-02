@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-4.4-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--24-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--02-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 4.4 | **📅 Last Updated:** 2026-03-24 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-24
+**📋 Document Owner:** CEO | **📄 Version:** 4.5 | **📅 Last Updated:** 2026-05-02 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-05-02
 
 ---
 
@@ -39,7 +39,73 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 ### 🏢 **Organizational Context**
 
-**Hack23 AB** operates as a Swedish innovation hub with five integrated business lines, each classified according to our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md):
+**Hack23 AB** operates as a Swedish innovation hub with five integrated business lines encompassing nine public repositories, each classified according to our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md).
+
+#### 🌐 **Product Ecosystem & Intelligence Architecture**
+
+The Hack23 ecosystem forms an integrated political intelligence pipeline — from open parliamentary data sources through structured analysis to published intelligence products:
+
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"primaryColor":"#7B1FA2","primaryTextColor":"#fff","primaryBorderColor":"#9C27B0","lineColor":"#616161","secondaryColor":"#0D47A1","tertiaryColor":"#01579B","background":"#000000"}}}%%
+graph LR
+    subgraph SOURCES["📡 Open Parliamentary Data Sources"]
+        EP["🇪🇺 European Parliament<br/>Open Data Portal v2"]
+        RD["🇸🇪 Riksdagen Open Data<br/>+ Valmyndigheten · World Bank · ESV"]
+    end
+
+    subgraph MCP["🔌 MCP Data Layer"]
+        EPMCP["European-Parliament-MCP-Server<br/>62 tools · 9 resources<br/>7 prompts · TypeScript strict"]
+    end
+
+    subgraph INTELLIGENCE["🧠 Political Intelligence Platforms"]
+        EUPM["🏛️ EU Parliament Monitor<br/>euparliamentmonitor.com<br/>8 gh-aw workflows<br/>51-artifact analysis · 14 languages"]
+        RM["🗳️ Riksdagsmonitor<br/>riksdagsmonitor.com<br/>11 agentic workflows<br/>91 skills · 14 languages"]
+        CIA["🕵️ Citizen Intelligence Agency<br/>Java/Spring backend<br/>15 subsystems · 1971–2024<br/>3.5M+ votes · 109K+ docs"]
+    end
+
+    subgraph TOOLS["🛠️ Security & Education Products"]
+        CCM["📊 CIA Compliance Manager<br/>ciacompliancemanager.com<br/>7-framework mapping · npm library"]
+        BT["🎮 Black Trigram<br/>blacktrigram.com<br/>Combat sim · Three.js"]
+    end
+
+    subgraph OUTPUT["📰 Published Intelligence Output"]
+        NEWS["AI-generated political intelligence<br/>14 languages · Daily refresh<br/>Structured analysis artifacts"]
+    end
+
+    EP --> EPMCP
+    RD --> CIA
+    EPMCP --> EUPM
+    CIA -->|"JSON exports<br/>nightly sync"| RM
+    EUPM --> NEWS
+    RM --> NEWS
+
+    style EPMCP fill:#7B1FA2,stroke:#9C27B0,color:#fff,stroke-width:3px
+    style EP fill:#0D47A1,stroke:#FFC107,color:#fff
+    style RD fill:#01579B,stroke:#FFC107,color:#fff
+    style EUPM fill:#0D47A1,stroke:#FFC107,color:#fff
+    style RM fill:#01579B,stroke:#FFC107,color:#fff
+    style CIA fill:#1B5E20,stroke:#43A047,color:#fff
+    style CCM fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style BT fill:#E65100,stroke:#D32F2F,color:#fff
+    style NEWS fill:#7B1FA2,stroke:#9C27B0,color:#fff
+```
+
+**🚀 Flagship Political Intelligence Platforms:**
+
+| Platform | Daily Output | Languages | Key Differentiator |
+| -------- | ------------ | --------- | ------------------ |
+| [![Riksdagsmonitor](https://img.shields.io/badge/🗳️-riksdagsmonitor.com-00338D?style=for-the-badge&logoColor=FECC00)](https://riksdagsmonitor.com) | AI-generated political intelligence articles + risk heat maps | 14 (inc. RTL) | World's first fully autonomous political-intelligence newsroom |
+| [![EU Parliament Monitor](https://img.shields.io/badge/🇪🇺-euparliamentmonitor.com-003399?style=for-the-badge&logoColor=FFCC00)](https://euparliamentmonitor.com) | 1,700+ structured analysis artifacts | 14 (inc. RTL) | AI-disrupted EP monitoring with 51-artifact analytical baseline |
+
+#### 🎯 Vision: AI-Powered Political Intelligence
+
+Hack23 AB produces **automated political intelligence** through open-source platforms that apply structured OSINT tradecraft to public parliamentary data. By combining MCP servers, agentic AI newsrooms, and open parliamentary data, we generate intelligence products — coalition analysis, voting-pattern decoding, MEP/MP influence scoring, legislative-pipeline forecasting — at a speed and depth that previously required well-funded lobbying organisations or in-house policy units.
+
+> *"Democratising access to political intelligence — structured OSINT applied to parliamentary open data at scale."*
+
+The portfolio is **non-partisan, fully open-source (Apache-2.0)**, operated under the [Hack23 ISMS](https://github.com/Hack23/ISMS-PUBLIC) with full ISO 27001:2022 / NIST CSF 2.0 / CIS Controls v8.1 alignment, GDPR-by-design, and architecturally engineered so it cannot be weaponised for partisan influence: equal treatment of all political groups, public-data only, no user accounts, no ads, no tracking.
+
+---
 
 #### 1. **🔐 Cybersecurity Consulting** — Enterprise security implementation and ISMS advisory services
 
@@ -83,7 +149,7 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 **Strategic Response:** Evidence automation lock-in and first-mover advantage
 
-**Current Architecture:** Frontend-only web application with no authentication system. See [Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
+**Current Architecture:** Frontend-only web application (React 19.x, TypeScript 5.9.x, Vite 8.x, Tailwind 4.x) with no authentication system, deployed on AWS CloudFront + S3. Available as both a [live platform](https://ciacompliancemanager.com) and a [reusable npm library](https://www.npmjs.com/package/cia-compliance-manager) (v1.1.62) with 10 subpath exports. Supports 7-framework compliance mapping (ISO 27001, NIST 800-53, GDPR, HIPAA, SOC 2, PCI DSS, EU CRA), integrated STRIDE threat modeling, Porter's Five Forces strategic analysis, and CIA triad assessment with 5-level maturity model. See [Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
 
 **Security Implications & Risk Acceptance:**
 - The absence of an authentication system means all features and data are accessible to any user
@@ -92,6 +158,19 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 - The Low confidentiality classification reflects this intentional risk acceptance per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 - If future requirements include handling sensitive organizational data, authentication and access controls will be implemented accordingly
 - Risk documented in [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) with periodic review
+
+**Security Posture Evidence:**
+
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365/badge)](https://bestpractices.coreinfrastructure.org/projects/10365)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia-compliance-manager/attestations)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager?ref=badge_shield)
+[![npm](https://img.shields.io/npm/v/cia-compliance-manager?color=4CAF50)](https://www.npmjs.com/package/cia-compliance-manager)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/cia-compliance-manager)
+
+**Resources:** [🌐 ciacompliancemanager.com](https://ciacompliancemanager.com) · [🗺️ Sitemap](https://ciacompliancemanager.com/sitemap.html) · [📚 API](https://ciacompliancemanager.com/docs/api/) · [📊 Coverage](https://ciacompliancemanager.com/docs/coverage/index.html) · [🎭 E2E Report](https://ciacompliancemanager.com/docs/cypress/mochawesome/index.html)
 
 ---
 
@@ -115,11 +194,23 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 **Strategic Response:** Category leadership with unique positioning
 
-**Current Architecture:** Multi-layered authentication with MFA, role-based access control, and comprehensive audit trails. See [Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md)
+**Current Architecture:** Multi-layered Java 21/26 application (Spring/Vaadin/PostgreSQL 18) with 49 Maven modules, MFA authentication, role-based access control, and comprehensive audit trails. Features 50 risk rules, 110 database views, 6 analytical frameworks, and 4 OSINT data sources (Riksdagen, Valmyndigheten, World Bank, ESV) covering 1971–2024. Serves as the canonical data backbone for the Hack23 civic tech ecosystem with JSON export specifications consumed by Riksdagsmonitor. Zero critical CVEs for 5+ consecutive years. See [Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md)
+
+**Security Posture Evidence:**
+
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770/badge)](https://bestpractices.coreinfrastructure.org/projects/770)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia/attestations)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHack23%2Fcia.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia?ref=badge_shield)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/cia)
+
+**Resources:** [🌐 Maven Site](https://hack23.github.io/cia/) · [🏗️ Architecture](https://hack23.github.io/cia/architecture.html) · [📚 API Docs](https://hack23.github.io/cia/apidocs/index.html) · [📊 Coverage](https://hack23.github.io/cia/jacoco/) · [📦 DB Schema](https://hack23.github.io/cia/service.data.impl/dbDoc/index.html) · [✨ Features](https://hack23.com/cia-features.html) · [📄 Docs](https://hack23.com/cia-docs.html)
 
 ---
 
-#### 4. **🎮 Black Trigram Educational Gaming** — Immersive Korean martial arts learning platform
+#### 4. **🎮 Black Trigram Educational Gaming** — Korean martial arts precision combat simulator
 
 **Project Classification:**
    - **Project Type:** [![Frontend Apps](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
@@ -139,19 +230,35 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 **Strategic Response:** Educational focus and authenticity moat
 
-**Current Architecture:** Frontend-only web application with no authentication system. See [Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
+**Current Architecture:** Frontend-only 3D precision combat simulator (React 19, Three.js 0.184, @react-three/fiber 9, TypeScript 5.9.x, Vite 8) deployed on AWS CloudFront + S3 with Route 53 health-checked failover to GitHub Pages. Version 0.7.35 with 13/13 combat realism systems, 70 anatomically-precise vital points, 8 I Ching trigram stances, 51 authentic techniques from 11 Korean martial arts, 518 tests (75%+ coverage), 60fps desktop / 55fps+ mobile performance, WCAG 2.1 AA accessibility. See [Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
 
 **Security Implications & Risk Acceptance:**
 - This project intentionally omits authentication because it is designed for public, educational use and does not process or store sensitive or personal data
 - The Low confidentiality classification reflects this intentional risk acceptance per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
 - All game content is intended to be openly accessible for martial arts education
 - No user-specific actions or persistent data are supported; game state is session-only
+- Zero backend, zero PII, GDPR-clean architecture with full ISMS alignment
 - This architectural choice is reviewed periodically, and any future introduction of sensitive features will trigger a reassessment of authentication requirements
 - Risk acceptance documented in [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) with annual review
+
+**Security Posture Evidence:**
+
+[![Website](https://img.shields.io/website?url=https://blacktrigram.com&label=blacktrigram.com)](https://blacktrigram.com/)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777/badge)](https://bestpractices.coreinfrastructure.org/projects/10777)
+[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/blacktrigram/attestations)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram?ref=badge_shield)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Hack23/blacktrigram)
+
+**Resources:** [🌐 blacktrigram.com](https://blacktrigram.com/)
 
 ---
 
 #### 5. **📡 Political Intelligence & AI News Media** — AI-disrupted political intelligence, OSINT/INTOP data-driven automated news generation
+
+> *Hack23 AB disrupts parliamentary journalism with AI-generated political intelligence and real-time accountability analysis — increasing democratic transparency through structured open-source intelligence (OSINT) tradecraft applied to public legislative data.*
 
 **Project Classification:**
    - **Project Type:** [![Data Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
@@ -171,10 +278,184 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 **Strategic Response:** Category creation through AI-disrupted political intelligence combining OSINT data with agentic AI news generation
 
-**Platform Components:**
-- **🗳️ [Riksdagsmonitor](https://riksdagsmonitor.com):** Swedish parliament monitoring with AI-generated political news, agentic intelligence workflows, and automated political analysis ([Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md))
-- **🇪🇺 [EU Parliament Monitor](https://euparliamentmonitor.com):** European Parliament monitoring with AI-disrupted news generation and agentic intelligence ([Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md))
-- **🔧 [European Parliament MCP Server](https://github.com/Hack23/European-Parliament-MCP-Server):** AI-powered political intelligence data platform providing MCP (Model Context Protocol) server for EU parliamentary data analysis ([Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md))
+---
+
+##### 🇪🇺 EU Parliament Monitor — `euparliamentmonitor.com`
+
+> **European Parliament Political Intelligence Platform** — *🧠 Political intelligence · 🔍 Radical transparency · 🗳️ Democratic accountability · 🤖 AI-generated news in 14 languages*
+
+<table>
+  <tr>
+    <td>
+      <a href="https://euparliamentmonitor.com"><img src="https://img.shields.io/badge/EU-Parliament-003399?style=for-the-badge&logo=european-union&logoColor=FFCC00" alt="EU Parliament"></a>
+    </td>
+    <td>
+      <p><strong>EU Parliament Monitor turns the EP's own open data into auditable political intelligence — and publishes it as readable news in 14 languages, every day, fully sourced.</strong> An AI-driven newsroom that monitors plenary sessions, committee work, motions, propositions, urgency files and the forward calendar; produces <em>Economist-style</em> analytical articles backed by 51 structured analysis artifacts per run; and exposes <strong>every</strong> methodology, template and analysis tree publicly so any reader, journalist or NGO can verify the analysis behind the prose.</p>
+      <ul>
+        <li>📰 <strong>8 unified <a href="https://github.com/githubnext/gh-aw">gh-aw</a> pipelines</strong> — <code>breaking</code>, <code>week-ahead</code>, <code>month-ahead</code>, <code>week-in-review</code>, <code>month-in-review</code>, <code>committee-reports</code>, <code>motions</code>, <code>propositions</code> — running Stages A → E in a single 45-minute session, plus <code>news-translate</code> for 14-language flush translation</li>
+        <li>📚 <strong>17 published methodologies + 52 analysis templates + 19 tradecraft references</strong> — ICD-203 Key Judgments · Admiralty source grades · WEP probability bands · ACH · 5-framework political-threat model · 6-dimension threat landscape · electoral domain methodology (361-seat threshold) · IMF/World Bank indicator mappings</li>
+        <li>🌍 <strong>14 languages</strong> — EN · SV · DA · NO · FI · DE · FR · ES · NL · AR (RTL) · HE (RTL) · JA · KO · ZH — WCAG 2.1 AA, JSON-LD <code>NewsArticle.isBasedOn</code> provenance, <code>hreflang</code> alternates</li>
+        <li>🛡️ <strong>Deterministic aggregator</strong> — agents author Markdown only; TypeScript renders HTML deterministically (no AI-authored HTML, fully reproducible)</li>
+        <li>📦 <strong>npm package</strong> — published with <a href="https://docs.npmjs.com/generating-provenance-statements">npm provenance</a> and SLSA Level 3 build attestations</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<a href="https://euparliamentmonitor.com"><img src="https://img.shields.io/badge/🌐_Live_Site-euparliamentmonitor.com-003399?style=flat-square&logoColor=FFCC00" alt="Live Site"></a>
+<a href="https://euparliamentmonitor.com/political-intelligence.html"><img src="https://img.shields.io/badge/🧠_Political_Intelligence-Hub-7B1FA2?style=flat-square" alt="Intelligence Hub"></a>
+<a href="https://euparliamentmonitor.com/sitemap.html"><img src="https://img.shields.io/badge/🗺️_Site_Map-14_languages-0A66C2?style=flat-square" alt="Sitemap"></a>
+<a href="https://euparliamentmonitor.com/docs/api/"><img src="https://img.shields.io/badge/📚_API-Reference-1565C0?style=flat-square" alt="API"></a>
+<a href="https://euparliamentmonitor.com/docs/coverage/index.html"><img src="https://img.shields.io/badge/📊_Coverage-82%25-4CAF50?style=flat-square" alt="Coverage"></a>
+<a href="https://euparliamentmonitor.com/playwright-report/index.html"><img src="https://img.shields.io/badge/🎭_E2E-Report-FF9800?style=flat-square" alt="E2E"></a>
+<a href="https://hack23.com/euparliamentmonitor-features.html"><img src="https://img.shields.io/badge/✨_Features-hack23.com-003399?style=flat-square" alt="Features"></a>
+<a href="https://hack23.com/euparliamentmonitor-docs.html"><img src="https://img.shields.io/badge/📄_Docs-hack23.com-003399?style=flat-square" alt="Docs"></a>
+
+<a href="https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor"><img src="https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge" alt="OpenSSF"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/12068"><img src="https://bestpractices.coreinfrastructure.org/projects/12068/badge" alt="CII"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/attestations"><img src="https://slsa.dev/images/gh-badge-level3.svg" alt="SLSA 3"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Hack23/euparliamentmonitor" alt="License"></a>
+<a href="https://deepwiki.com/Hack23/euparliamentmonitor"><img src="https://deepwiki.com/badge.svg" alt="DeepWiki"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/actions/workflows/compile-agentic-workflows.yml"><img src="https://github.com/Hack23/euparliamentmonitor/actions/workflows/compile-agentic-workflows.yml/badge.svg" alt="News"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/actions/workflows/codeql.yml"><img src="https://github.com/Hack23/euparliamentmonitor/actions/workflows/codeql.yml/badge.svg" alt="CodeQL"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/actions/workflows/test-and-report.yml"><img src="https://github.com/Hack23/euparliamentmonitor/actions/workflows/test-and-report.yml/badge.svg" alt="Test"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/actions/workflows/e2e.yml"><img src="https://github.com/Hack23/euparliamentmonitor/actions/workflows/e2e.yml/badge.svg" alt="E2E"></a>
+<a href="https://github.com/Hack23/euparliamentmonitor/actions/workflows/release.yml"><img src="https://github.com/Hack23/euparliamentmonitor/actions/workflows/release.yml/badge.svg" alt="Release"></a>
+
+---
+
+##### 🗳️ Riksdagsmonitor — `riksdagsmonitor.com`
+
+> **Swedish Political Intelligence Platform** — *🕵️ Political intelligence · 🔍 Democratic transparency · 🤖 AI-generated news · 📊 50+ years of evidence*
+
+<table>
+  <tr>
+    <td>
+      <a href="https://riksdagsmonitor.com"><img src="https://img.shields.io/badge/Riksdag-Monitor-00338D?style=for-the-badge&logoColor=FECC00" alt="Riksdagsmonitor"></a>
+    </td>
+    <td>
+      <p><strong>Riksdagsmonitor monitors Sweden's Riksdag, the Government and public agencies with structured intelligence techniques</strong> — ACH, SWOT, PESTLE, STRIDE, political-risk scoring and OSINT/INTOP tradecraft — applied to <strong>349 current MPs</strong>, <strong>2,494 historical politicians (1971–2024)</strong>, <strong>3.5M+ votes</strong> and <strong>109,000+ parliamentary documents</strong>.</p>
+      <p>An autonomous AI newsroom — <strong>11 agentic workflows</strong>, Claude Opus, zero human editors — turns this evidence into <strong>publication-ready intelligence articles in 14 languages, every day</strong>. Front-loads the live <strong>Tidö Agreement coalition status</strong> (176/349 seats, fragility indicators, CIA risk alerts) and dives into 40 years of election-cycle intelligence.</p>
+      <ul>
+        <li>📰 <strong>11 agentic workflows</strong> — committee reports · propositions · motions · interpellations · week-ahead · month-ahead · real-time monitor · evening analysis · weekly review · monthly review · translate</li>
+        <li>🧠 <strong>91 skills across 12 categories</strong> + <strong>23 Copilot agents</strong> (14 personas + 9 workflow specialists)</li>
+        <li>📚 <strong>11 published methodologies + 23 templates</strong> — AI-Driven Analysis Guide · OSINT Tradecraft Standards · Political Risk · Political SWOT · Political Threat Framework · Electoral Domain · Synthesis · Strategic Extensions</li>
+        <li>📊 <strong>5 flagship Chart.js / D3.js dashboards</strong> — Seasonal Activity (2002–2025 · Z-score anomaly) · 349-MP Politician Dashboard · Pre-Election Monitor · Party Performance (1990–2026) · Anomaly & Early Warning</li>
+        <li>🌍 <strong>14 languages</strong> — EN · SV · DA · NO · FI · DE · FR · ES · NL · AR (RTL) · HE (RTL) · JA · KO · ZH — daily refresh at 03:00 CET, WCAG 2.1 AA, CSP-hardened with SRI</li>
+        <li>📦 <strong>npm package</strong> — Theme System · Chart Factory · Resilient Data Loader · 12 dashboard modules — published with SLSA build provenance</li>
+        <li>🛡️ <a href="https://bestpractices.coreinfrastructure.org/projects/12069"><img src="https://bestpractices.coreinfrastructure.org/projects/12069/badge" alt="CII Best Practices"></a> · Risk level 🟢 LOW (5.52 / 10.0 — 99.7% risk reduction) · ISO 27001:2022 · NIST CSF 2.0 · CIS Controls v8.1 · GDPR Art. 9(2)(e/g)</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<a href="https://riksdagsmonitor.com"><img src="https://img.shields.io/badge/🌐_Live_Site-riksdagsmonitor.com-00338D?style=flat-square&logoColor=FECC00" alt="Live Site"></a>
+<a href="https://riksdagsmonitor.com/political-intelligence.html"><img src="https://img.shields.io/badge/🧠_Political_Intelligence-Hub-7B1FA2?style=flat-square" alt="Intelligence"></a>
+<a href="https://riksdagsmonitor.com/news/index.html"><img src="https://img.shields.io/badge/📰_AI_Newsroom-Daily-00338D?style=flat-square" alt="Newsroom"></a>
+<a href="https://riksdagsmonitor.com/dashboard/index.html"><img src="https://img.shields.io/badge/📊_Dashboard-5_Charts-1565C0?style=flat-square" alt="Dashboard"></a>
+<a href="https://riksdagsmonitor.com/sitemap.html"><img src="https://img.shields.io/badge/🗺️_Site_Map-14_languages-0A66C2?style=flat-square" alt="Sitemap"></a>
+<a href="https://riksdagsmonitor.com/rss.xml"><img src="https://img.shields.io/badge/📡_RSS-Feed-FF6600?style=flat-square&logo=rss&logoColor=white" alt="RSS"></a>
+<a href="https://riksdagsmonitor.com/docs/api/"><img src="https://img.shields.io/badge/📚_API-Reference-1565C0?style=flat-square" alt="API"></a>
+<a href="https://riksdagsmonitor.com/docs/coverage/"><img src="https://img.shields.io/badge/📊_Coverage-Report-4CAF50?style=flat-square" alt="Coverage"></a>
+<a href="https://hack23.com/riksdagsmonitor-features.html"><img src="https://img.shields.io/badge/✨_Features-hack23.com-00338D?style=flat-square" alt="Features"></a>
+<a href="https://hack23.com/riksdagsmonitor-docs.html"><img src="https://img.shields.io/badge/📄_Docs-hack23.com-00338D?style=flat-square" alt="Docs"></a>
+
+<a href="https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor"><img src="https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge" alt="OpenSSF"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/12069"><img src="https://bestpractices.coreinfrastructure.org/projects/12069/badge" alt="CII"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/attestations"><img src="https://slsa.dev/images/gh-badge-level3.svg" alt="SLSA 3"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Hack23/riksdagsmonitor" alt="License"></a>
+<a href="https://github.com/Hack23/ISMS-PUBLIC"><img src="https://img.shields.io/badge/Hack23-ISMS-blue?logo=shield" alt="ISMS"></a>
+<a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md"><img src="https://img.shields.io/badge/ISO-27001:2022-purple?logo=iso" alt="ISO"></a>
+<a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md"><img src="https://img.shields.io/badge/NIST-CSF_2.0-orange?logo=nist" alt="NIST"></a>
+<a href="https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md"><img src="https://img.shields.io/badge/CIS-Controls_v8.1-red?logo=cisecurity" alt="CIS"></a>
+<a href="https://deepwiki.com/Hack23/riksdagsmonitor"><img src="https://deepwiki.com/badge.svg" alt="DeepWiki"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml"><img src="https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg" alt="Quality"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/actions/workflows/codeql.yml"><img src="https://github.com/Hack23/riksdagsmonitor/actions/workflows/codeql.yml/badge.svg" alt="CodeQL"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/actions/workflows/javascript-testing.yml"><img src="https://github.com/Hack23/riksdagsmonitor/actions/workflows/javascript-testing.yml/badge.svg" alt="JS Tests"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/actions/workflows/translation-validation.yml"><img src="https://github.com/Hack23/riksdagsmonitor/actions/workflows/translation-validation.yml/badge.svg" alt="Translations"></a>
+<a href="https://github.com/Hack23/riksdagsmonitor/actions/workflows/release.yml"><img src="https://github.com/Hack23/riksdagsmonitor/actions/workflows/release.yml/badge.svg" alt="Release"></a>
+
+---
+
+##### 🔌 European Parliament MCP Server — AI Data Layer
+
+> **Model Context Protocol Server for European Parliament Open Data** — *the canonical, type-safe TypeScript bridge between the EP Open Data Portal and any MCP-aware AI client*
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Hack23/European-Parliament-MCP-Server"><img src="https://img.shields.io/badge/MCP-Server-6366F1?style=for-the-badge" alt="MCP Server"></a>
+    </td>
+    <td>
+      <p><strong>The upstream data layer that powers the EU Parliament Monitor newsroom.</strong> Every tool is Zod-validated, audit-logged, GDPR-aware, and SLSA Level 3 attested. Provides AI agents (Claude Desktop, GitHub Copilot) with structured access to EU parliamentary data.</p>
+      <ul>
+        <li>🔧 <strong>62 MCP tools</strong> — 8 core + 3 advanced + 15 OSINT + 8 Phase 4 + 15 Phase 5 + 13 feed</li>
+        <li>📦 <strong>9 resources + 7 prompts</strong> — MEP influence scoring (5-dimension model), coalition cohesion analysis, party defection detection</li>
+        <li>🧪 <strong>1,130+ unit tests + 71 E2E tests</strong> — 80%+ coverage, TypeScript strict mode + Zod runtime validation</li>
+        <li>🛡️ <strong>SLSA Level 3</strong> — npm provenance-signed · <a href="https://bestpractices.coreinfrastructure.org/projects/12067"><img src="https://bestpractices.coreinfrastructure.org/projects/12067/badge" alt="CII Best Practices"></a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<a href="https://www.npmjs.com/package/european-parliament-mcp-server"><img src="https://img.shields.io/npm/v/european-parliament-mcp-server?label=npm&color=6366F1&style=flat-square" alt="npm"></a>
+<a href="https://hack23.github.io/European-Parliament-MCP-Server/api/"><img src="https://img.shields.io/badge/📚_API-Docs-6366F1?style=flat-square" alt="API"></a>
+<a href="https://hack23.github.io/European-Parliament-MCP-Server/coverage/"><img src="https://img.shields.io/badge/📊_Coverage-80%25+-4CAF50?style=flat-square" alt="Coverage"></a>
+<a href="https://hack23.github.io/European-Parliament-MCP-Server/e2e-results/"><img src="https://img.shields.io/badge/🎭_E2E-71_tests-FF9800?style=flat-square" alt="E2E"></a>
+<a href="https://hack23.github.io/European-Parliament-MCP-Server/SBOM.md"><img src="https://img.shields.io/badge/📦_SBOM-Supply_Chain-1565C0?style=flat-square" alt="SBOM"></a>
+<a href="https://hack23.github.io/European-Parliament-MCP-Server/ATTESTATIONS.md"><img src="https://img.shields.io/badge/🔏_Attestations-SLSA3-2E7D32?style=flat-square" alt="Attestations"></a>
+<a href="https://hack23.com/european-parliament-mcp-features.html"><img src="https://img.shields.io/badge/✨_Features-hack23.com-6366F1?style=flat-square" alt="Features"></a>
+<a href="https://hack23.com/european-parliament-mcp-docs.html"><img src="https://img.shields.io/badge/📄_Docs-hack23.com-6366F1?style=flat-square" alt="Docs"></a>
+
+<a href="https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server"><img src="https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge" alt="OpenSSF"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/12067"><img src="https://bestpractices.coreinfrastructure.org/projects/12067/badge" alt="CII"></a>
+<a href="https://github.com/Hack23/European-Parliament-MCP-Server/attestations"><img src="https://slsa.dev/images/gh-badge-level3.svg" alt="SLSA 3"></a>
+<a href="https://deepwiki.com/Hack23/European-Parliament-MCP-Server"><img src="https://deepwiki.com/badge.svg" alt="DeepWiki"></a>
+
+---
+
+**Autonomous AI Newsroom Pipeline:**
+
+```mermaid
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#0D47A1',
+      'primaryTextColor': '#fff',
+      'lineColor': '#1565C0'
+    }
+  }
+}%%
+flowchart LR
+    subgraph MCP_LAYER["🔌 MCP Infrastructure"]
+        MCP_EP[EU Parliament<br/>MCP Server<br/>62 tools]
+    end
+
+    subgraph ANALYSIS["📐 Structured Analysis"]
+        METHODS[17 Methodologies<br/>ACH • SWOT • PESTLE<br/>STRIDE • ICD-203]
+        TEMPLATES[52 Templates<br/>Artifact Generation]
+        GATE[🚦 Analysis Gate<br/>Quality Threshold]
+    end
+
+    subgraph PUBLICATION["📰 Daily Publication"]
+        ARTICLES[AI-Generated Articles<br/>14 Languages<br/>RTL Support]
+        SEO[JSON-LD • hreflang<br/>Sitemaps • RSS]
+        CDN[CloudFront CDN<br/>TLS 1.3 • CSP • SRI]
+    end
+
+    MCP_EP --> ANALYSIS
+    METHODS --> TEMPLATES
+    TEMPLATES --> GATE
+    GATE -->|Pass| ARTICLES
+    GATE -->|Fail — retry| TEMPLATES
+    ARTICLES --> SEO
+    SEO --> CDN
+
+    style MCP_LAYER fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px,color:#000
+    style ANALYSIS fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#000
+    style PUBLICATION fill:#FFF8E1,stroke:#F57C00,stroke-width:2px,color:#000
+```
 
 **Security Implications & Risk Considerations:**
 - Very High integrity classification reflects the critical importance of accurate, unbiased political reporting—misinformation risks require robust data validation pipelines
@@ -278,26 +559,37 @@ flowchart TD
 
 **"To demonstrate that enterprise-grade security creates competitive advantages by operationalizing transparency as continuous proof of professional expertise, enabling accelerated innovation, enhanced stakeholder trust, and sustainable business growth across all product lines."**
 
-**Strategic Security Achievements (Completed 2025):**
-- **🤖 AI-Enabled Operations:** Curated agent ecosystem operational across all products with CEO governance
-- **🎖️ OpenSSF Scorecard:** >8.5 average across all repositories
-- **🏆 CII Best Practices:** Gold/Passing level for all major projects
-- **✅ SLSA Level 3:** Build provenance and attestation for all releases
-- **📊 Compliance Coverage:** 100% framework alignment (ISO 27001, NIST CSF 2.0, CIS v8.1)
-- **🌐 Public ISMS:** 70% complete documentation with radical transparency
-- **🔒 Zero Critical Incidents:** No security breaches or unauthorized access events
+**Strategic Security Achievements (Completed 2025, Updated Q2 2026):**
+- **🤖 AI-Enabled Operations:** Curated agent ecosystem operational across all 9 repositories with CEO governance — 8 specialist agents, 30 Copilot skills, task agents per product
+- **🎖️ OpenSSF Scorecard:** Active across all repositories with continuous monitoring (CIA: 7.9, Black Trigram: 7.0, CIA CM: 7.8)
+- **🏆 CII Best Practices:** Gold/Passing level for all major projects — <a href="https://bestpractices.coreinfrastructure.org/projects/770"><img src="https://bestpractices.coreinfrastructure.org/projects/770/badge" alt="CII Best Practices for Citizen Intelligence Agency"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/10777"><img src="https://bestpractices.coreinfrastructure.org/projects/10777/badge" alt="CII Best Practices for Black Trigram"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/10365"><img src="https://bestpractices.coreinfrastructure.org/projects/10365/badge" alt="CII Best Practices for CIA Compliance Manager"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/12067"><img src="https://bestpractices.coreinfrastructure.org/projects/12067/badge" alt="CII Best Practices for European Parliament MCP Server"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/12068"><img src="https://bestpractices.coreinfrastructure.org/projects/12068/badge" alt="CII Best Practices for EU Parliament Monitor"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/12069"><img src="https://bestpractices.coreinfrastructure.org/projects/12069/badge" alt="CII Best Practices for Riksdagsmonitor"></a>
+- **✅ SLSA Level 3:** Build provenance and attestation for all releases across all product repositories
+- **📊 Compliance Coverage:** 100% framework alignment (ISO 27001:2022, NIST CSF 2.0, CIS v8.1, GDPR, NIS2, EU CRA)
+- **🌐 Public ISMS:** 100% complete documentation (45 core policies) with 70% public transparency — only credentials, account numbers, and financial details redacted
+- **🔒 Zero Critical Incidents:** No security breaches or unauthorized access events; CIA maintains 5+ years zero critical CVEs
 - **⚡ Availability Achievement:** >99.5% uptime across all critical systems
+- **📡 AI News Media:** Fully autonomous newsrooms operational — Riksdagsmonitor (11 workflows, 14 languages) and EU Parliament Monitor (8 workflows, 14 languages, 1,700+ daily artifacts)
+- **🔧 MCP Infrastructure:** European Parliament MCP Server operational with 62 tools, 1,130+ unit tests, serving AI agents for political intelligence
+
+**🆕 Q1 2026 Achievements:**
+- **📡 Riksdagsmonitor Expanded:** 11 agentic workflows fully operational with Claude Opus autonomous newsroom, 91 skills across 12 categories, 23 Copilot agents (14 personas + 9 workflow specialists), 45-rule × 349-MP live risk heat map, Tidö Agreement coalition fragility tracker (176/349 seats), and OSINT/INTOP tradecraft (ACH, SWOT, PESTLE, STRIDE, ICD-203)
+- **🇪🇺 EU Parliament Monitor Scaled:** 8 unified gh-aw workflows producing 51-artifact analytical baseline per run, 17 published methodologies + 52 analysis templates + 19 tradecraft references, 1,700+ structured artifacts daily, deterministic aggregator (agents author Markdown only, TypeScript renders HTML), 82% test coverage
+- **🔌 EP MCP Server Production:** 62 MCP tools (8 core + 3 advanced + 15 OSINT + 8 Phase 4 + 15 Phase 5 + 13 feed), 9 resources, 7 prompts, MEP influence scoring (5-dimension model), coalition cohesion analysis, party defection detection, Zod-validated with rate limiting, 1,130+ unit tests + 71 E2E tests
+- **📦 npm Ecosystem:** Three provenance-signed npm packages operational — riksdagsmonitor, euparliamentmonitor, european-parliament-mcp-server — all with SLSA Level 3 build attestations
+- **🌍 14-Language Publication:** Both political intelligence platforms publishing daily in EN, SV, DA, NO, FI, DE, FR, ES, NL, AR (RTL), HE (RTL), JA, KO, ZH with WCAG 2.1 AA, JSON-LD provenance, hreflang alternates
+- **📊 Dashboard Infrastructure:** 5 flagship Chart.js/D3.js dashboards operational on Riksdagsmonitor — Seasonal Activity (2002–2025, Z-score anomaly), 349-MP Politician Dashboard, Pre-Election Monitor, Party Performance (1990–2026), Anomaly & Early Warning
+- **🧠 Intelligence Tradecraft:** ICD-203 Key Judgments, Admiralty source grades, WEP probability bands, ACH, 5-framework political-threat model, 6-dimension threat landscape, electoral domain methodology (361-seat threshold), IMF/World Bank indicator mappings — all published as reproducible methodologies
 
 ### 🌟 **Security Vision (2026-2028)**
 
 Achieve security excellence characterized by:
 
-- **🤖 AI-Enabled Operations:** Curated AI agent ecosystem delivering enterprise capabilities with <1 FTE overhead—specialist agents for security, development, testing, documentation, business, and marketing operating under CEO governance
-- **🌐 Radical Transparency:** Complete public ISMS as operational demonstration (70% public, complete processes with only sensitive values redacted)
-- **📊 Evidence-Driven Operations:** Quantified security outcomes supporting continuous improvement (OpenSSF >9.0, 100% compliance coverage)
+- **🤖 AI-Enabled Operations:** Curated AI agent ecosystem delivering enterprise capabilities with <1 FTE overhead—specialist agents for security, development, testing, documentation, business, and marketing operating under CEO governance. GitHub Agentic Workflows (gh-aw) enabling fully autonomous newsrooms and intelligence pipelines.
+- **🌐 Radical Transparency:** Complete public ISMS as operational demonstration (100% complete, 70% public, complete processes with only sensitive values redacted) — 45 policy documents, 9 product repositories with public SECURITY_ARCHITECTURE.md
+- **📊 Evidence-Driven Operations:** Quantified security outcomes supporting continuous improvement (OpenSSF >9.0, 100% compliance coverage, CII Best Practices across all 6+ active product repos)
 - **🎯 Classification-Based Decisions:** Systematic impact analysis driving proportional controls per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
-- **💡 Security-Enabled Innovation:** Architecture that accelerates rather than constrains development (security review <2 hours, zero deployment delays)
-- **🏆 Industry Leadership:** Recognition as Nordic security thought leader through open source contributions and transparency excellence
+- **💡 Security-Enabled Innovation:** Architecture that accelerates rather than constrains development (security review <2 hours, zero deployment delays) with reusable security patterns (MCP servers, gh-aw workflows, npm packages)
+- **🏆 Industry Leadership:** Recognition as Nordic security thought leader through open source contributions, transparency excellence, and pioneering AI-disrupted political intelligence media
 - **🔐 Zero Trust Maturity:** Complete zero trust architecture implementation with network micro-segmentation by Q4 2027
 
 ---
@@ -306,17 +598,17 @@ Achieve security excellence characterized by:
 
 **Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). All AI usage governed by [AI Policy](./AI_Policy.md), [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md), and [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689).
 
-Projected workflow counts below include all CI/CD workflow definitions, agentic workflow sources, and planned variants across the platform. The 2026 baseline (~44) builds on the current organization-wide total of 21 deployed `.yml` workflows across Hack23 repositories (including 5 primary workflows documented in [WORKFLOWS.md](./WORKFLOWS.md) for this repository) + 8 agentic `.md` sources (29 today) plus planned security, localization, and data-pipeline additions.
+Projected workflow counts below include all CI/CD and agentic `.yml` workflow definitions across the platform. The 2026 baseline (~50) reflects the current organization-wide total of 30+ deployed workflows (Riksdagsmonitor 11, EU Parliament Monitor 8, CIA 9, plus standard CI/CD across remaining repos) with planned security, localization, and data-pipeline additions.
 
 | Year | Projected Workflow Definitions | AI Model | Key Capability |
 |------|-------------------------------|----------|----------------|
-| **2026** | 44–50 | Opus 4.6–4.9 | 🟢 Agentic news generation |
-| **2027** | 50–55 | Opus 5.x | 🔵 Predictive analytics |
-| **2028** | 55–65 | Opus 6.x | 🟣 Multi-modal content |
-| **2029** | 65–75 | Opus 7.x | 🟠 Autonomous pipeline |
-| **2030** | 75–85 | Opus 8.x | 🔴 Near-expert analysis |
-| **2031–2033** | 85–100 | Opus 9–10.x / Pre-AGI | ⚪ Global coverage |
-| **2034–2037** | 100–120+ | AGI / Post-AGI | ⭐ Transformative platform |
+| **2026** | 50–60 | Opus 4.7 (current) | ✅ Agentic news generation + predictive analytics operational — 19 workflows, 14 languages, 1,700+ daily artifacts, 62 MCP tools, week/month/season-ahead forecasting |
+| **2027** | 60–70 | Opus 5.x | 🔵 Multi-modal political intelligence (video, audio briefings) |
+| **2028** | 70–80 | Opus 6.x | 🟣 Autonomous global coverage expansion |
+| **2029** | 80–90 | Opus 7.x | 🟠 Near-expert autonomous analysis |
+| **2030** | 90–100 | Opus 8.x | 🔴 Self-improving intelligence pipelines |
+| **2031–2033** | 100–120 | Opus 9–10.x / Pre-AGI | ⚪ Global parliamentary coverage |
+| **2034–2037** | 120–150+ | AGI / Post-AGI | ⭐ Transformative platform |
 
 #### 🔐 Security Perspective — AI Advancement Impact
 
@@ -352,10 +644,10 @@ Projected workflow counts below include all CI/CD workflow definitions, agentic 
 | Business Line | 2026–2027 | 2028–2030 | 2031–2037 |
 |--------------|-----------|-----------|-----------|
 | **🔐 Cybersecurity Consulting** | AI-assisted assessments, automated report generation, evidence pack creation | AI-led gap analysis, predictive risk modeling, autonomous compliance mapping | Near-autonomous security advisory with human strategic oversight |
-| **📊 CIA Compliance Manager** | AI-powered evidence automation, natural language compliance queries | Predictive compliance posture, cross-framework auto-mapping | Autonomous compliance management platform with self-updating controls |
-| **🏛️ Citizen Intelligence Agency** | AI-enhanced data analysis, automated political trend reporting | Multi-modal civic analytics, predictive policy impact modeling | Autonomous democratic transparency platform with global coverage |
+| **📊 CIA Compliance Manager** | ✅ AI-powered framework mapping, natural language compliance queries (operational) | Advanced cross-framework auto-mapping, automated control recommendation engine | Autonomous compliance management platform with self-updating controls |
+| **🏛️ Citizen Intelligence Agency** | ✅ AI-enhanced data analysis, automated political trend reporting, 45-rule risk engine (operational) | Multi-modal civic analytics, predictive policy impact modeling | Autonomous democratic transparency platform with global coverage |
 | **🎮 Black Trigram** | AI-generated training content, dynamic difficulty adaptation | AI-driven personalized learning paths, multi-modal instruction | Autonomous educational content ecosystem with real-time adaptation |
-| **📡 Political Intelligence Media** | AI-disrupted news generation across Swedish and EU parliaments | Multi-modal political intelligence (video, audio, interactive), predictive political analysis | Autonomous global parliamentary monitoring and transformative intelligence platform |
+| **📡 Political Intelligence Media** | ✅ AI-disrupted news generation + predictive forecasting across Swedish and EU parliaments (operational) | Multi-modal political intelligence (video, audio, interactive dashboards), global parliamentary expansion | Autonomous global parliamentary monitoring and transformative intelligence platform |
 
 #### 🛡️ ISMS Perspective — AI Advancement Impact
 
@@ -371,27 +663,27 @@ gantt
     dateFormat YYYY-MM-DD
     title AI Model Evolution — Cross-Perspective Capability Roadmap
     
-    section 🔐 Security
+    section Security
     AI-Assisted Threat Detection       :done, sec1, 2026-01-01, 2027-12-31
     Predictive Threat Intelligence     :active, sec2, 2027-01-01, 2030-12-31
     Autonomous Security Operations     :sec3, 2030-01-01, 2037-12-31
     
-    section ⚙️ Operations
+    section Operations
     Agentic CI/CD & Documentation      :done, ops1, 2026-01-01, 2027-12-31
     Self-Healing Pipelines             :active, ops2, 2027-01-01, 2030-12-31
     Autonomous Infrastructure          :ops3, 2030-01-01, 2037-12-31
     
-    section 📣 Marketing
+    section Marketing
     AI Content & SEO Automation        :done, mkt1, 2026-01-01, 2027-12-31
     Multi-Modal Campaign Automation    :active, mkt2, 2027-01-01, 2030-12-31
     Autonomous Brand Management        :mkt3, 2030-01-01, 2037-12-31
     
-    section 💼 Business
+    section Business
     AI-Assisted Consulting & News Gen  :done, biz1, 2026-01-01, 2027-12-31
     Predictive Analytics & Compliance  :active, biz2, 2027-01-01, 2030-12-31
     Autonomous Platform Operations     :biz3, 2030-01-01, 2037-12-31
     
-    section 🛡️ ISMS
+    section ISMS
     Automated Evidence & Badges        :done, isms1, 2026-01-01, 2027-12-31
     Predictive Compliance & Audit      :active, isms2, 2027-01-01, 2030-12-31
     Autonomous ISMS Governance         :isms3, 2030-01-01, 2037-12-31
@@ -419,16 +711,6 @@ Security investments are evaluated against six strategic pillars that directly e
 | **🛡️ Risk Reduction** | Business continuity, client confidence | Comprehensive risk management protects revenue streams. Demonstrable resilience becomes client-facing credential for consulting engagements. |
 
 **Performance Tracking:** See [Security Metrics](./Security_Metrics.md) for operational KPIs and [Risk Register](./Risk_Register.md) for quantified risk analysis.
-
-### 📊 **Classification-Driven Security Architecture**
-
-Our security strategy operationalizes the [Classification Framework](./CLASSIFICATION.md) through systematic application across all security domains:
-
-**Asset Protection:** Security investment levels scale from Transparency Focus (Public) → Basic Protection (Low) → Proportional Protection (Moderate) → Standard Protection (High) → Advanced Protection (Very High) → Maximum Protection (Extreme) based on confidentiality classification and business impact.
-
-**Business Continuity:** Recovery objectives aligned with availability classification from Mission Critical through Standard tiers. See [Classification Framework](./CLASSIFICATION.md) for specific RTO/RPO targets.
-
-**Detailed Classification Framework:** See [Classification Framework](./CLASSIFICATION.md) for complete business impact analysis and RTO/RPO target definitions.
 
 ---
 
@@ -641,22 +923,22 @@ Recovery objectives aligned with business impact through classification-based RT
   }
 }%%
 flowchart LR
-    subgraph CRITICAL["🔴 Mission Critical"]
-        RTO_INSTANT[⚡ RTO: <5min]
-        RPO_ZERO[📦 RPO: <1min]
-        COST_MAX[💰 Cost: Maximum]
+    subgraph CRITICAL["Mission Critical"]
+        RTO_INSTANT["RTO less than 5min"]
+        RPO_ZERO["RPO less than 1min"]
+        COST_MAX["Cost: Maximum"]
     end
     
-    subgraph HIGH["🟠 High Priority"]
-        RTO_CRITICAL[🕐 RTO: 5-60min]
-        RPO_REALTIME[📦 RPO: 1-15min]
-        COST_HIGH[💰 Cost: High]
+    subgraph HIGH["High Priority"]
+        RTO_CRITICAL["RTO: 5-60min"]
+        RPO_REALTIME["RPO: 1-15min"]
+        COST_HIGH["Cost: High"]
     end
     
-    subgraph STANDARD["🟡 Standard"]
-        RTO_MEDIUM[🕐 RTO: 4-24hrs]
-        RPO_HOURLY[📦 RPO: 1-4hrs]
-        COST_MOD[💰 Cost: Moderate]
+    subgraph STANDARD["Standard"]
+        RTO_MEDIUM["RTO: 4-24hrs"]
+        RPO_HOURLY["RPO: 1-4hrs"]
+        COST_MOD["Cost: Moderate"]
     end
     
     CRITICAL --> |"Customer-facing services"| HIGH
@@ -673,103 +955,15 @@ flowchart LR
 
 ### 📊 **Project-Specific Security Architecture**
 
-Our security architecture varies by project based on classification and business requirements. Each project maintains its own comprehensive SECURITY_ARCHITECTURE.md document.
+Security architecture varies by project based on classification and business requirements. Each product maintains a comprehensive `SECURITY_ARCHITECTURE.md` document — see the authoritative product descriptions in Section 1–5 above for architecture details, security classifications, and risk acceptance rationale.
 
-#### **🏛️ Citizen Intelligence Agency - Enterprise Security Architecture**
-
-**Architecture Status:** ✅ Full-stack application with comprehensive security controls
-
-**Key Security Features per [CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md):**
-
-- **🔐 Multi-Factor Authentication:** Google Authenticator OTP integration with session management
-- **🚫 Brute Force Protection:** IP, session, and user-based blocking with configurable thresholds
-- **👥 Role-Based Access Control:** Three security tiers (Anonymous, User, Admin) with method-level security annotations
-- **📜 Comprehensive Audit Trails:** Full data integrity tracking with author/timestamp logging
-- **📊 Session & Action Tracking:** Real-time monitoring of user actions and security events
-- **🔍 Security Event Monitoring:** Integrated logging with security-focused event capture
-- **💾 Data Protection:** Encryption at rest and in transit with PostgreSQL backend
-- **☁️ AWS Infrastructure:** Multi-AZ deployment with VPC security, CloudWatch monitoring
-- **🔰 AWS Security Best Practices:** GuardDuty, Security Hub, WAF, and comprehensive logging
-- **🏗️ High Availability:** Auto-scaling, load balancing, and disaster recovery capabilities
-
-**Security Investment:** Comprehensive enterprise-grade security demonstrating consulting expertise
-
----
-
-#### **📊 CIA Compliance Manager - Client-Side Security Architecture**
-
-**Architecture Status:** ⚠️ Frontend-only application with minimal backend security per [CIA Compliance Manager Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
-
-**Current Implementation:**
-- **🌐 No Authentication System:** Direct browser access without login requirements
-- **💾 No Persistent Data Storage:** All application state stored in browser session only
-- **🔄 No Backend Services:** Purely static content delivery via CDN
-- **⚠️ No Access Controls:** All compliance content publicly accessible
-
-**Security Advantages:**
-- **✅ Reduced Attack Surface:** No user accounts or authentication mechanisms to compromise
-- **✅ No Credential Storage:** No passwords or sensitive user authentication data
-- **✅ Client-Side Privacy:** All processing occurs in user's browser
-
-**Security Limitations:**
-- **❌ No Session Protection:** Application state lost on browser refresh
-- **❌ No User Privacy:** Cannot protect individual user-specific compliance data
-- **❌ No Audit Trails:** No server-side logging or tracking capabilities
-
-**Strategic Rationale:** Simplified architecture reduces operational overhead while maintaining transparency principles for compliance assessment tool
-
----
-
-#### **🎮 Black Trigram - Client-Side Gaming Architecture**
-
-**Architecture Status:** ⚠️ Frontend-only application with minimal backend security per [Black Trigram Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
-
-**Current Implementation:**
-- **🌐 No Authentication System:** Direct browser access for gaming without user accounts
-- **💾 No Persistent Data Storage:** All game state stored in browser local storage only
-- **🔄 No Backend Services:** Purely static content delivery optimized for gaming performance
-- **⚠️ No Access Controls:** All game content publicly accessible
-
-**Security Advantages:**
-- **✅ Reduced Attack Surface:** No user accounts to compromise or credential theft risk
-- **✅ No Personal Data:** No storage of personal information or sensitive player data
-- **✅ Performance Optimized:** Client-side processing for responsive gameplay
-
-**Security Limitations:**
-- **❌ No Progress Persistence:** Game progress lost between sessions
-- **❌ No User Profiles:** Cannot track individual player advancement
-- **❌ No Anti-Cheat:** Client-side game logic vulnerable to manipulation
-
-**Strategic Rationale:** Educational focus prioritizes accessibility and performance over user account management
-
----
-
-#### **📡 Political Intelligence & AI News Media - Automated Intelligence Architecture**
-
-**Architecture Status:** ✅ AI-powered automated news generation with SLSA3 supply chain security
-
-**Platform Components per Security Architectures ([Riksdagsmonitor](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md), [EU Parliament Monitor](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md), [European Parliament MCP Server](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md)):**
-
-**Current Implementation:**
-- **🤖 AI News Generation:** GitHub Actions-based agentic workflows for automated political news generation from official parliamentary data
-- **📊 OSINT Data Pipeline:** Automated ingestion of open parliamentary data (Riksdagen Open Data, European Parliament Open Data Portal)
-- **🔒 Supply Chain Security:** SLSA Level 3 build provenance and attestation for all news generation workflows
-- **🌐 Static Site Delivery:** CloudFront CDN delivery with TLS 1.3 for all published content
-- **📡 MCP Server:** Model Context Protocol server enabling AI-powered political intelligence queries
-
-**Security Advantages:**
-- **✅ Very High Integrity Controls:** Automated source verification against official parliamentary records ensures accuracy
-- **✅ SLSA3 Provenance:** Complete build attestation provides tamper-evident news generation pipeline
-- **✅ No User Data:** No personal data collection—all content is publicly available political information
-- **✅ Automated Quality Gates:** AI-generated content undergoes systematic quality checks before publication
-- **✅ OpenSSF Scorecard:** Continuous supply chain security assessment across all repositories
-
-**Security Considerations:**
-- **⚠️ AI Content Accuracy:** Misinformation risk mitigated through source verification and official data validation
-- **⚠️ Data Freshness:** Parliamentary data update frequency dependent on official API availability
-- **⚠️ AI Governance:** All AI-generated content subject to [AI Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/AI_Policy.md) and [OWASP LLM Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/OWASP_LLM_Security_Policy.md)
-
-**Strategic Rationale:** AI-disrupted political intelligence creates first-mover advantage in automated parliamentary monitoring while maintaining Very High integrity through verified open data sources
+**Security Architecture References:**
+- [🏛️ CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) — Enterprise full-stack with MFA, RBAC, comprehensive audit trails
+- [📊 CIA Compliance Manager Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) — Public data, no authentication required
+- [🎮 Black Trigram Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) — Educational access, no authentication required
+- [🇪🇺 EU Parliament Monitor Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) — SLSA3 supply chain, deterministic rendering
+- [🗳️ Riksdagsmonitor Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) — Autonomous AI newsroom with verified sources
+- [🔌 European Parliament MCP Server Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) — Zod-validated MCP tools, audit-logged
 
 ---
 
@@ -813,7 +1007,7 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 - **Vulnerability Tracking:** Continuous monitoring of known CVEs in dependencies
 
 #### **⚡ Dynamic Analysis (DAST)**
-- **OWASP ZAP:** Automated web application security testing (CIA project only)
+- **OWASP ZAP:** Automated web application security testing (CIA project staging environment)
 - **Staging Environment:** Isolated testing environment for security scans
 - **API Security Testing:** Automated endpoint vulnerability scanning
 
@@ -823,54 +1017,22 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 - **Rotation Procedures:** Automated secret rotation per classification requirements
 
 #### **🎖️ Supply Chain Security**
-- **SLSA Level 3:** Build provenance and attestation for all releases
-- **OpenSSF Scorecard:** Continuous supply chain security assessment (>8.5 average)
-- **CII Best Practices:** Gold/Passing level compliance verification
+- **SLSA Level 3:** Build provenance and attestation for all releases across all product repositories
+- **OpenSSF Scorecard:** Continuous supply chain security assessment across all repos (CIA: 7.9, BT: 7.0, CM: 7.8 — per Q2 2026 snapshot)
+- **CII Best Practices:** Gold/Passing level compliance verification (6 active projects registered: #770, #10777, #10365, #12067, #12068, #12069)
 - **Signed Releases:** Cryptographic signing of all production artifacts
+- **npm Provenance:** SLSA 3 provenance-signed npm packages (riksdagsmonitor, euparliamentmonitor, european-parliament-mcp-server)
 
 ### 📊 **Current Security Posture Evidence**
 
-#### **🏛️ Citizen Intelligence Agency**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770/badge)](https://bestpractices.coreinfrastructure.org/projects/770)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia/attestations)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHack23%2Fcia.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia?ref=badge_shield)
+**Portfolio-Wide Security Metrics (Q2 2026):**
+- **🔒 Total Tests:** 3,000+ across all repositories (CIA: JaCoCo, BT: 518, CM: Vitest, EP MCP: 1,130+ unit + 71 E2E, EUPM: 82% coverage)
+- **📊 Code Coverage:** All active products maintain ≥75% coverage (CIA: ≥80%, EP MCP: 80%+, EUPM: 82%)
+- **🛡️ Security Scanning:** CodeQL + ZAP DAST (CIA staging) + SonarCloud SAST + FOSSA SCA across all repos
+- **📦 Supply Chain:** SLSA 3 + OpenSSF Scorecard + CII Best Practices + Dependabot + SBOM generation
+- **🌐 Compliance Frameworks:** ISO 27001:2022, NIST CSF 2.0, CIS Controls v8.1, GDPR, NIS2, EU CRA
 
-#### **🎮 Black Trigram**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777/badge)](https://bestpractices.coreinfrastructure.org/projects/10777)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/blacktrigram/attestations)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fblacktrigram?ref=badge_shield)
-
-#### **📊 CIA Compliance Manager**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365/badge)](https://bestpractices.coreinfrastructure.org/projects/10365)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia-compliance-manager/attestations)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHack23%2Fcia-compliance-manager?ref=badge_shield)
-
-#### **🇪🇺 European Parliament MCP Server**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12067/badge)](https://bestpractices.coreinfrastructure.org/projects/12067)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
-[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
-
-#### **🇪🇺 EU Parliament Monitor**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12068/badge)](https://bestpractices.coreinfrastructure.org/projects/12068)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
-[![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
-
-#### **🗳️ Riksdagsmonitor**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12069/badge)](https://bestpractices.coreinfrastructure.org/projects/12069)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/riksdagsmonitor/attestations)
-[![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
+> Per-product security posture badges and resource links are consolidated within each product's authoritative section above (Sections 1–5).
 
 ### 🤖 **AI Governance & LLM Security**
 
@@ -886,10 +1048,12 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 - **⏱️ LLM-Specific Controls:** Planned Q1-Q3 2026
 - **✅ Risk Assessment:** All AI systems classified and risk-assessed
 - **✅ Vendor Management:** AI suppliers assessed per third-party management policy
+- **✅ Agentic Workflows:** 19+ autonomous agentic workflows operational (Riksdagsmonitor: 11, EUPM: 8) with audit trails
+- **✅ MCP Infrastructure:** European Parliament MCP Server production-ready with type-safe Zod validation and rate limiting
 
 ### 🤖 **AI Agent Governance & Curated Automation**
 
-Hack23 AB operates a curated ecosystem of GitHub Copilot custom agents across all ISMS-scoped repositories (CIA, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS, Riksdagsmonitor, EU Parliament Monitor, European Parliament MCP Server).
+Hack23 AB operates a curated ecosystem of GitHub Copilot custom agents across all ISMS-scoped repositories (CIA, CIA Compliance Manager, Black Trigram, Game, Homepage, ISMS, Riksdagsmonitor, EU Parliament Monitor, European Parliament MCP Server). The ecosystem includes 8 specialist agents and 30 Copilot skills covering security, compliance, testing, architecture, intelligence, UI/UX, cloud, and business domains.
 
 The ecosystem is intentionally **tiered**:
 
@@ -1209,11 +1373,16 @@ graph TB
 - ⏱️ **Q4 2026:** 100% RTO/RPO achievement in DR tests
 - ⏱️ **Q3 2026:** OpenSSF Scorecard >9.0 across all repositories
 
-**Current Progress (Q1 2026):**
+**Current Progress (Q2 2026):**
 - ✅ **Foundation Automation:** 85% security operations automated
-- ✅ **Evidence Automation:** 75% automated evidence collection via CIA Compliance Manager
-- 🔄 **Advanced MTTD:** Currently 8 minutes average (target <5 min)
+- ✅ **Evidence Automation:** 80% automated evidence collection via CI/CD pipelines with 7-framework compliance tracking
+- 🔄 **Advanced MTTD:** Currently 7 minutes average (target <5 min)
 - 🔄 **LLM Security:** 54% OWASP LLM controls implemented (foundation complete, AWS Bedrock deployment in progress)
+- ✅ **AI Newsrooms:** Fully autonomous — Riksdagsmonitor (11 workflows, 91 skills, 23 agents, 45-rule risk heat map) and EU Parliament Monitor (8 workflows, 51-artifact baseline, 17 methodologies, 52 templates) operational with 14-language daily publication
+- ✅ **MCP Infrastructure:** European Parliament MCP Server production-ready (62 tools, 9 resources, 7 prompts, 1,130+ unit tests + 71 E2E, 80%+ coverage, Zod-validated, rate-limited)
+- ✅ **npm Ecosystem:** Three SLSA 3 provenance-signed packages published (riksdagsmonitor, euparliamentmonitor, european-parliament-mcp-server)
+- ✅ **Intelligence Tradecraft:** 17 methodologies + 52 templates + 19 tradecraft references operationalized across both newsrooms
+- ✅ **Dashboard Analytics:** 5 flagship Chart.js/D3.js dashboards with Z-score anomaly detection, pre-election monitoring, 1990–2026 party performance tracking
 
 ### **🌟 Phase 3: Security Excellence (2027-2028)** 📅 **PLANNED**
 
@@ -1486,6 +1655,11 @@ This Information Security Strategy will evolve continuously based on threat inte
 - [📋 CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) - EU compliance process
 - [Third Party Management](./Third_Party_Management.md) - Vendor risk governance
 
+### 🤖 AI Governance
+- [🤖 AI Policy](./AI_Policy.md) - AI governance framework and EU AI Act compliance
+- [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) - LLM security controls
+- [🌐 Open Source Policy](./Open_Source_Policy.md) - License compliance and supply chain security
+
 ---
 
 **📋 Document Control:**  
@@ -1493,6 +1667,6 @@ This Information Security Strategy will evolve continuously based on threat inte
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **🔒 Rationale:** Strategic security framework demonstrating methodology and approach; no proprietary tactics, financial details, or operational vulnerabilities disclosed. Transparency serves as competitive differentiator and client trust accelerator.  
-**📅 Effective Date:** 2026-03-24  
-**⏰ Next Review:** 2027-03-24   
+**📅 Effective Date:** 2026-05-02  
+**⏰ Next Review:** 2027-05-02   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
