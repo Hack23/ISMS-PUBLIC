@@ -123,7 +123,7 @@ flowchart TD
 ```
 
 #### **🛡️ Myndigheten för civilt försvar (MCF)**
-**Primary Role:** National cybersecurity authority and incident coordination (formerly MSB, renamed January 1, 2026)
+**Primary Role:** National cybersecurity authority and incident coordination
 
 | Contact Type | Details | Usage Context | Response Time |
 |-------------|---------|---------------|---------------|

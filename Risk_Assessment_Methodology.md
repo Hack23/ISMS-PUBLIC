@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-05-10 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-05-10
 
 ---
 
@@ -238,11 +238,11 @@ VaR represents the maximum expected loss over a specified time period at a given
 
 | Risk Category | VaR Range (€) | Likelihood + Impact Combination | Management Response | Executive Attention |
 |---------------|---------------|--------------------------------|-------------------|-------------------|
-| **🔴 Critical** | >€200K | [![Almost Certain + Catastrophic](https://img.shields.io/badge/Risk-Almost_Certain_+_Catastrophic-red?style=flat-square&logo=fire&logoColor=white)](./CLASSIFICATION.md) | CEO immediate action, board escalation | Daily monitoring |
-| **🟠 High** | €50K-200K | [![Likely + Critical](https://img.shields.io/badge/Risk-Likely_+_Critical-orange?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md) | Executive committee, quarterly review | Weekly review |
-| **🟡 Medium** | €10K-50K | [![Possible + High](https://img.shields.io/badge/Risk-Possible_+_High-yellow?style=flat-square&logo=balance-scale&logoColor=black)](./CLASSIFICATION.md) | Risk committee, semi-annual review | Monthly assessment |
-| **🟢 Low** | €1K-10K | [![Unlikely + Moderate](https://img.shields.io/badge/Risk-Unlikely_+_Moderate-lightgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) | Management monitoring, annual review | Quarterly monitoring |
-| **⚪ Minimal** | <€1K | [![Rare + Low](https://img.shields.io/badge/Risk-Rare_+_Low-lightgrey?style=flat-square&logo=gem&logoColor=black)](./CLASSIFICATION.md) | Acceptance, periodic review | Annual review |
+| **🔴 Critical** | >€200K | [![Almost Certain + Catastrophic](https://img.shields.io/badge/Risk-Almost_Certain_+_Catastrophic-red?style=flat-square&logo=fire&logoColor=white)](./CLASSIFICATION.md) | CEO immediate action; [risk-assessment-specialist](./.github/agents/README.md) agent re-scores Monte Carlo VaR same-day; external advisor consulted per [Information Security Strategy](./Information_Security_Strategy.md) operating model | Daily CEO review of agent-generated risk dashboard |
+| **🟠 High** | €50K-200K | [![Likely + Critical](https://img.shields.io/badge/Risk-Likely_+_Critical-orange?style=flat-square&logo=warning&logoColor=white)](./CLASSIFICATION.md) | CEO weekly review with [risk-assessment-specialist](./.github/agents/README.md) agent dashboard; treatment decisions logged via PR per [Change Management](./Change_Management.md) | Weekly CEO review |
+| **🟡 Medium** | €10K-50K | [![Possible + High](https://img.shields.io/badge/Risk-Possible_+_High-yellow?style=flat-square&logo=balance-scale&logoColor=black)](./CLASSIFICATION.md) | CEO scheduled review (per document Review Cycle) with [risk-assessment-specialist](./.github/agents/README.md) agent monitoring continuous indicators | Monthly CEO assessment |
+| **🟢 Low** | €1K-10K | [![Unlikely + Moderate](https://img.shields.io/badge/Risk-Unlikely_+_Moderate-lightgreen?style=flat-square&logo=shield&logoColor=white)](./CLASSIFICATION.md) | Continuous [risk-assessment-specialist](./.github/agents/README.md) agent monitoring with annual CEO review; threshold breach auto-escalates | Quarterly CEO monitoring |
+| **⚪ Minimal** | <€1K | [![Rare + Low](https://img.shields.io/badge/Risk-Rare_+_Low-lightgrey?style=flat-square&logo=gem&logoColor=black)](./CLASSIFICATION.md) | CEO acceptance with periodic [risk-assessment-specialist](./.github/agents/README.md) agent re-screening | Annual CEO review |
 
 ---
 
@@ -559,9 +559,11 @@ Automated risk KPI tracking enables data-driven risk management and continuous i
 | **Treatment Velocity** | Average time from agent identification to mitigation | Risk Register status tracking | <30 days for High risks | Monthly |
 | **Evidence Automation Rate** | % of risks with automated evidence links | Risk assessment template validation | >80% with automated evidence | Quarterly |
 
-### 🎯 **Quarterly Risk Review Agent Coordination**
+### 🎯 **Risk Review Agent Coordination**
 
-Systematic agent-driven quarterly risk assessment workflow:
+> **Cadence model:** This **methodology** defines *how* risk is assessed and is structurally stable. The live **[Risk Register](./Risk_Register.md)** is the operational artefact and is reviewed quarterly using the workflow below, anchored by this methodology.
+
+Systematic agent-driven quarterly risk-register review workflow, governed by this methodology:
 
 ```mermaid
 sequenceDiagram
@@ -659,6 +661,6 @@ Automated analytics tracking Pentagon-aligned risk management performance:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-05-10  
+**⏰ Next Review:** 2027-05-10  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)    

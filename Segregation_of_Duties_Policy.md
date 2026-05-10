@@ -448,7 +448,7 @@ All compensating controls undergo systematic validation to ensure operational ef
 ### **Validation Frequency**
 
 - **Quarterly Comprehensive**: All controls validated against detailed checklist (focus on manual controls)
-- **Monthly Spot-Check**: Random sample of **3 controls** validated for continuous monitoring (reduced from 5 for efficiency)
+- **Monthly Spot-Check**: Random sample of **3 controls** validated for continuous monitoring
 - **Post-Incident**: Relevant controls validated after any SoD-related security incident
 - **Annual External Audit**: Independent assessment by external auditor validates all controls
 
@@ -506,19 +506,13 @@ These controls are **self-validating** through tool enforcement and require mini
 
 **Validation Method**: Verify alert configurations; review recent findings for appropriate response
 
-### **Validation Efficiency Improvements**
+### **Validation Efficiency Profile**
 
-**Before Simplification:**
-- 23 individual controls requiring detailed quarterly validation
-- Estimated effort: 4-6 hours per quarter
-- All controls validated regardless of automation level
-
-**After Simplification:**
-- **Total Controls**: 22 (reduced from 23 through elimination of 1 redundant control)
+- **Total Controls**: 22
 - **11 Automated Controls** (Tool-Based: 7 + Anomaly Detection: 4): Self-validating via configuration checks (~30 min)
 - **11 Manual Controls** (Temporal: 3 + Audit Trails: 4 + External Validation: 4): Focused validation effort (~2 hours)
-- **Total Quarterly Effort**: ~2.5-3 hours (40% reduction)
-- **Monthly Spot-Check**: 3 random controls (from 5) for continuous monitoring
+- **Total Quarterly Effort**: ~2.5–3 hours
+- **Monthly Spot-Check**: 3 random controls for continuous monitoring
 
 ### **Key Performance Indicators**
 

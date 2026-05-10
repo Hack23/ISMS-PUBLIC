@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.1-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-05-10 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-05-10
 
 ---
 
@@ -27,7 +27,7 @@ This Quality Assurance Checklist ensures **systematic consistency and profession
 
 As CEO, I've observed that **manual verification without standardized checklists leads to inconsistent quality** across document updates. This checklist transforms subjective "looks good" judgments into objective quality verification, ensuring every document update maintains the enterprise-grade standards our clients expect.
 
-Quality assurance is not bureaucracy - it's the systematic approach that enables us to maintain professional documentation at scale while allowing rapid updates when security requirements evolve.
+Quality assurance is not bureaucracy - it's the systematic approach that enables us to maintain professional documentation at scale while allowing rapid updates when security requirements evolve. Under our [AI-augmented operating model](./Information_Security_Strategy.md), this checklist is enforced continuously by the [specialist Copilot agent ecosystem](./.github/agents/README.md) and the validation scripts under `.github/scripts/` — agents handle the mechanical conformance items so the CEO's manual checklist effort concentrates on judgement-heavy items (classification level, framework mapping correctness, business-impact phrasing).
 
 _— James Pether Sörling, CEO/Founder_
 
@@ -50,6 +50,38 @@ _— James Pether Sörling, CEO/Founder_
 3. **Post-Update:** Run through complete checklist before commit
 4. **Final Verification:** Execute `./update_dates.sh` and test all links
 5. **Commit:** Use descriptive commit message following git workflow standards
+
+### 🤖 Automated Validation Companion (AI-augmented operating model)
+
+This human checklist is **enforced continuously** by the Hack23 specialist Copilot agent ecosystem and the validation scripts under `.github/scripts/`. The CEO no longer needs to walk every PR through the full checklist by hand — the agents and scripts catch the routine issues, and the CEO focuses checklist effort on judgement-heavy items (classification, framework mapping, business impact phrasing).
+
+| Checklist Domain | Automated Enforcement | Human Decision Required |
+|------------------|----------------------|-------------------------|
+| **🎨 Header Section Quality** | `validate-style-guide.sh` (logo, H1+emoji, 4 required badges, metadata line) | Tagline / sub-tagline wording quality |
+| **📚 Related Documents Section** | `validate-style-guide.sh` (section presence) + `validate-cross-references.sh` (link target existence) | Choice of *which* related docs to link |
+| **📋 Document Control Footer** | `validate-style-guide.sh` (Approved/Distribution/Classification/Effective/Next Review/Framework fields) | Distribution audience and classification level |
+| **🔄 Review Cycle Format** | `validate-review-cycles.sh` (parses standard `**🔄 Review Cycle&#58;** [Monthly\|Quarterly\|Semi-Annual\|Annual] \| **⏰ Next Review&#58;** YYYY-MM-DD` line — `&#58;` shown here is the HTML entity for `:` used only to prevent the validator's `grep "Review Cycle&#58;"` from matching this illustrative row; the literal colon `:` is required in real document metadata) | Whether the cadence itself is appropriate |
+| **🎨 Mermaid Diagram Quality** | `validate-mermaid-diagrams.sh` (lowercase APPROVED_COLORS palette only inside ` ```mermaid ` blocks) | Diagram structure / clarity |
+| **📝 Content Quality Standards** | Documentation specialist agent (style, terminology, clarity) on every PR | Technical accuracy and policy alignment |
+| **📐 Compliance Framework Mapping** | Compliance specialist agent + `Compliance_Checklist.md` cross-check | Mapping correctness and ISO/NIST/CIS interpretation |
+| **🔐 Classification Application** | Documentation specialist agent surfaces missing badge | Selecting the appropriate confidentiality/integrity/availability level |
+| **📅 Date Updates** | `update_dates.sh --date YYYY-MM-DD` recomputes Effective/Next Review | Whether a content change actually warrants a date bump |
+
+**Quick gate (run locally before commit):**
+
+```bash
+bash .github/scripts/validate-style-guide.sh
+bash .github/scripts/validate-mermaid-diagrams.sh
+bash .github/scripts/validate-review-cycles.sh
+bash .github/scripts/validate-cross-references.sh
+bash .github/scripts/generate-metrics.sh   # refreshes ISMS_METRICS_DASHBOARD.md
+```
+
+The full manual checklist below remains the **authoritative quality bar** — it is the source-of-truth that the agents and scripts implement. Use it whenever:
+- Working on a new policy where the agents have no prior pattern to follow
+- Performing the Annual review of this checklist
+- Onboarding a new specialist agent or contributor
+- Investigating a regression in automated validation
 
 ### Checklist Interpretation
 
@@ -575,6 +607,6 @@ Future enhancements could automate:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** All Personnel  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-05-10  
+**⏰ Next Review:** 2027-05-10  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

@@ -11,15 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
-
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-05-10 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-05-10
 
 ---
 
@@ -29,7 +27,7 @@
 
 This document outlines the classification framework and business impact analysis matrix for Hack23, focusing on security, compliance, and business continuity. It provides a structured approach to assess the impact of incidents across various dimensions including confidentiality, integrity, availability, recovery time objective (RTO), and recovery point objective (RPO).
 
-Our transparent classification approach showcases how methodical risk assessment and impact analysis create competitive advantages through informed decision-making and systematic security implementation.
+Our transparent classification approach showcases how methodical risk assessment and impact analysis create competitive advantages through informed decision-making and systematic security implementation. Under Hack23 AB's [AI-augmented operating model](./Information_Security_Strategy.md), classification is applied at scale by the documentation and risk-assessment specialist agents — every new asset, supplier, risk entry, or repository receives a CIA / RTO / RPO / Privacy badge proposal during PR review, with the CEO making the final classification decision (the agents cannot promote/demote a classification without merge approval).
 
 *— James Pether Sörling, CEO/Founder*
 
@@ -169,6 +167,9 @@ This document outlines the classification framework and business impact analysis
 | **DevSecOps** | [![DevSecOps](https://img.shields.io/badge/Type-DevSecOps-CB2029?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Security integrated development tools | High to Very High |
 | **License Compliance** | [![License](https://img.shields.io/badge/Type-License_Compliance-663399?style=for-the-badge&logo=balance-scale&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Open source license management | Moderate to High |
 | **AI Analytics** | [![AI](https://img.shields.io/badge/Type-AI_Analytics-orange?style=for-the-badge&logo=brain&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Artificial intelligence and ML services | Moderate to High |
+| **AI Agent / Persona** | [![AI Agent](https://img.shields.io/badge/Type-AI_Agent-7B1FA2?style=for-the-badge&logo=robot&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Specialist Copilot agent persona definitions in `.github/agents/` and product-level agents under CEO oversight; subject to [AI Policy](./AI_Policy.md) and [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) | Moderate to High |
+| **Agentic Workflow (gh-aw)** | [![Agentic Workflow](https://img.shields.io/badge/Type-Agentic_Workflow-7B1FA2?style=for-the-badge&logo=github-actions&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | GitHub Agentic Workflow (`.github/workflows/*-agentic*.yml` / `gh-aw`) — autonomous CI/agent jobs with safe-output controls; aligned with [github-agentic-workflows skill (R1–R28)](./.github/skills/github-agentic-workflows.md) | High to Very High |
+| **MCP Server** | [![MCP Server](https://img.shields.io/badge/Type-MCP_Server-1565C0?style=for-the-badge&logo=plug&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Model Context Protocol servers exposing tools/resources/prompts to AI agents (e.g. European-Parliament-MCP-Server); aligned with [mcp-server-development skill](./.github/skills/mcp-server-development.md) | High to Very High |
 | **Content Creation** | [![Content](https://img.shields.io/badge/Type-Content_Creation-pink?style=for-the-badge&logo=music&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Media and content generation tools | Low to Moderate |
 | **Payment Processing** | [![Payment](https://img.shields.io/badge/Type-Payment_Processing-008CDD?style=for-the-badge&logo=credit-card&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Payment and transaction systems | Very High to Mission Critical |
 | **Insurance** | [![Insurance](https://img.shields.io/badge/Type-Insurance-555?style=for-the-badge&logo=shield&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Insurance and risk management | High to Very High |
@@ -188,7 +189,6 @@ This document outlines the classification framework and business impact analysis
 | **Development** | [![Development](https://img.shields.io/badge/Process-Development-cyan?style=for-the-badge&logo=code&logoColor=white)](./CLASSIFICATION.md#project-type-classifications) | Software development processes | Moderate to High |
 
 ---
-
 
 ## 📊 Business Value Classification Framework
 
@@ -260,8 +260,6 @@ This document outlines the classification framework and business impact analysis
 | **Disadvantage** | [![Rivalry Disadvantage](https://img.shields.io/badge/Rivalry-Disadvantage-red?style=flat-square&logo=trophy&logoColor=white)](./CLASSIFICATION.md#porters-five-forces) | Market disadvantage |
 
 ---
-
-
 
 ## 🔧 How to Use This Classification Framework
 
@@ -889,6 +887,6 @@ Use this checklist to ensure complete project template implementation:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25     
+**📅 Effective Date:** 2026-05-10  
+**⏰ Next Review:** 2027-05-10     
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)    

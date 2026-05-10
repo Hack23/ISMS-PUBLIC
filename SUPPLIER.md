@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.3 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-05-10 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-11-10
 
 ---
 
@@ -27,12 +27,12 @@ This document provides comprehensive security posture assessment of all critical
 
 ---
 
-
 # 🏢 Hack23 Supplier Management & Strategic Assessment
 _See governance process: [Third Party Management](./Third_Party_Management.md)_
 
-## 📊 **Supplier Classification Matrix 
-**Document Owner:** CEO | **Last Updated:** 2026-01-25 09:00:00 UTC | **Total Monthly Spend:** $360 | **Active Suppliers:** 12 | **Planned:** 2
+## 📊 **Supplier Classification Matrix**
+
+**Document Owner:** CEO | **Last Updated:** 2026-05-10 09:00:00 UTC | **Total Monthly Spend:** $360 | **Active Suppliers:** 12 | **Planned:** 2
 
 ---
 
@@ -54,7 +54,6 @@ _See governance process: [Third Party Management](./Third_Party_Management.md)_
 | **🟢 Trygg Hansa** | Insurance: Cyber liability • Key person • Business interruption<br/><br/>**Processes:**<br/>[![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=flat-square&logo=gavel&logoColor=white)](./CLASSIFICATION.md#business-process-types)<br/>[![Executive](https://img.shields.io/badge/Process-Executive-gold?style=flat-square&logo=university&logoColor=black)](./CLASSIFICATION.md#business-process-types) | [![Active](https://img.shields.io/badge/Status-Active-success?style=flat-square)](#)<br/>[![Cost: Policy](https://img.shields.io/badge/Cost-See_Policy-blue?style=flat-square&logo=dollar-sign&logoColor=white)](#)<br/>[![Annual](https://img.shields.io/badge/Billing-Annual-green?style=flat-square)](#)<br/>[![Duration: Active](https://img.shields.io/badge/Phase-Active-success?style=flat-square)](#) | [![Buyer Power: Moderate](https://img.shields.io/badge/Buyer_Power-Moderate-yellow?style=flat-square)](#)<br/>[![Supplier Power: High](https://img.shields.io/badge/Supplier_Power-High-orange?style=flat-square)](#)<br/>[![Entry Barriers: High](https://img.shields.io/badge/Entry_Barriers-High-orange?style=flat-square)](#)<br/>[![Substitute Threat: Low](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square)](#)<br/>[![Rivalry: Parity](https://img.shields.io/badge/Rivalry-Parity-yellow?style=flat-square)](#) | [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](#)<br/>[![Integrity: High](https://img.shields.io/badge/I-High-orange?style=flat-square)](#)<br/>[![Availability: High](https://img.shields.io/badge/A-High-orange?style=flat-square)](#)<br/>[![ISO 27001](https://img.shields.io/badge/ISO-27001-darkgreen?style=flat-square)](#) | [![RTO: Medium](https://img.shields.io/badge/RTO-4--24hrs-lightgreen?style=flat-square)](#)<br/>[![RPO: Hourly](https://img.shields.io/badge/RPO-1--4hrs-lightgreen?style=flat-square)](#)<br/>[![SLA: Policy Terms](https://img.shields.io/badge/SLA-Policy_Terms-lightblue?style=flat-square)](#)<br/>[![Support: Business](https://img.shields.io/badge/Support-Business_Hours-yellow?style=flat-square)](#)<br/>[![Lock-in: Annual](https://img.shields.io/badge/Lock--in-Annual-yellow?style=flat-square)](#) | [![Financial: $1-5K/day](https://img.shields.io/badge/Financial-$1--5K/day-orange?style=flat-square)](#)<br/>[![Operational: Low](https://img.shields.io/badge/Operational-Low-lightgreen?style=flat-square)](#)<br/>[![Reputational: Low](https://img.shields.io/badge/Reputational-Low-lightgreen?style=flat-square)](#)<br/>[![Regulatory: High](https://img.shields.io/badge/Regulatory-High-orange?style=flat-square)](#) | [![ROI: Moderate](https://img.shields.io/badge/ROI-Moderate-yellow?style=flat-square)](#)<br/>[![Position: Established](https://img.shields.io/badge/Position-Established-blue?style=flat-square)](#)<br/>[![Type: Insurance](https://img.shields.io/badge/Type-Insurance-555?style=flat-square)](#)<br/>[![Alternatives: 3-4](https://img.shields.io/badge/Alternatives-Länsförsäkringar,_IF-blue?style=flat-square)](#) |
 
 ---
-
 
 ## 📈 Supplier Comparative Analysis Table
 
@@ -366,9 +365,7 @@ mindmap
         Multiple providers
 ```
 
-
 ---
-
 
 ---
 
@@ -414,7 +411,6 @@ mindmap
 
 ---
 
-
 ---
 
 ## 📋 Supplier Contract & Commercial Details
@@ -436,10 +432,11 @@ mindmap
 | **FOSSA** | Open Source Plan | Ongoing | Free | N/A | N/A | Community Support |
 | **StepSecurity** | Open Source Plan | Ongoing | Free | N/A | N/A | Community Support |
 
-
 ---
 
 ## 📈 Supplier Relationship Matrix
+
+The matrix below shows how each supplier tier maps to a CEO-led review cadence augmented by a named specialist agent from the [agent ecosystem](./.github/agents/README.md) per the [Information Security Strategy § AI-Enabled Operations](./Information_Security_Strategy.md). Hack23 AB has no procurement, vendor-management, or DevSecOps teams: agents draft assessments, monitor SLA / billing / security posture continuously via GitHub Actions, and surface anomalies; the CEO disposes via PR merge.
 
 ```mermaid
 graph LR
@@ -472,11 +469,11 @@ graph LR
         TryggHansa[Trygg Hansa<br/>Insurance]
     end
     
-    Strategic -->|Quarterly Reviews| Executive[Executive Sponsor]
-    Operational -->|Monthly Reviews| Management[Management Team]
-    Security -->|Continuous Monitoring| DevSecOps[DevSecOps Team]
-    Tactical -->|As Needed| Operational_Team[Operational Team]
-    Support -->|Annual Reviews| Executive
+    Strategic -->|Quarterly Reviews| CEO_BD[CEO + Business Development Agent]
+    Operational -->|Monthly Reviews| CEO_Compliance[CEO + Compliance Reviewer Agent]
+    Security -->|Continuous Monitoring| SecArch[Security Documentation Specialist Agent + GitHub-native Automation]
+    Tactical -->|As Needed| CEO_Product[CEO + Product Task Agent]
+    Support -->|Annual Reviews| CEO_BD
     
     style AWS fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff
     style GitHub fill:#455A64,stroke:#455A64,stroke-width:2px,color:#ffffff
@@ -484,6 +481,10 @@ graph LR
     style SonarSource fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#ffffff
     style FOSSA fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#ffffff
     style StepSecurity fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#ffffff
+    style CEO_BD fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#ffffff
+    style CEO_Compliance fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#ffffff
+    style SecArch fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#ffffff
+    style CEO_Product fill:#1565C0,stroke:#0D47A1,stroke-width:2px,color:#ffffff
 ```
 
 ---
@@ -506,7 +507,6 @@ graph LR
 | **Ludo.ai** | • Machinations<br>• GameMaker AI<br>• Unity AI tools | Low ($500) | 1 day | High - Simple switch |
 | **Google** | • Auth0<br>• Okta<br>• Azure AD | Medium ($5k) | 2 weeks | Medium - Identity migration |
 | **Trygg Hansa** | • Länsförsäkringar<br>• IF Skadeförsäkring<br>• Folksam | Low (€1k) | 2 weeks | High - Policy transfer |
-
 
 ## 🔐 Supplier Data Handling Matrix
 
@@ -543,7 +543,6 @@ graph LR
 | **StepSecurity** | [docs.stepsecurity.io](https://docs.stepsecurity.io) | [status.stepsecurity.io](https://status.stepsecurity.io) | [API Reference](https://docs.stepsecurity.io/api) | [Support](https://stepsecurity.io/support) |
 
 ---
-
 
 ## 📈 Porter's Five Forces Analysis Summary
 
@@ -646,6 +645,6 @@ Critical suppliers (AWS, SEB, Stripe) have very high entry barriers, providing s
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** CEO, Insurance Company, Legal Counsel  
 **🏷️ Classification:** Confidential - Internal Use Only  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-05-10  
+**⏰ Next Review:** 2026-11-10  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

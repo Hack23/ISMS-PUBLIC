@@ -223,7 +223,7 @@ graph TD
 
 **📝 Assessment Detail:**
 
-Hack23 AB maintains a comprehensive [Open Source Policy](./Open_Source_Policy.md) (v2.4, last updated 2026-02-26) that explicitly governs open source license compliance for all supplied software. The policy covers:
+Hack23 AB maintains a comprehensive [Open Source Policy](./Open_Source_Policy.md) that explicitly governs open source license compliance for all supplied software. The policy covers:
 
 - **License Classification Framework:** Permissive (Apache-2.0, MIT, BSD), Copyleft (GPL, LGPL, AGPL), Non-standard, and Commercial categories — documented in [Open Source Policy § License Classification](./Open_Source_Policy.md)
 - **Automated License Scanning:** FOSSA integration on the 3 primary repositories (CIA, Black Trigram, CIA Compliance Manager); remaining projects use GitHub's built-in license detection and manual review per [Open Source Policy § License Classification](./Open_Source_Policy.md)

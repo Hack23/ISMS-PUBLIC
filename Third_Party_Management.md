@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 2.4 | **📅 Last Updated:** 2026-05-10 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-11-10
 
 ---
 
@@ -27,7 +27,7 @@
 
 Every supplier assessment documented in [🔗 SUPPLIER.md](./SUPPLIER.md), every service cataloged in [💻 Asset Register](./Asset_Register.md), and every risk treatment decision showcases our cybersecurity consulting methodology in practice. Our transparency in third-party management creates unprecedented supply chain visibility that differentiates us in the cybersecurity consulting market.
 
-This evidence-based approach demonstrates that comprehensive third-party risk management enables rather than constrains business innovation and growth, transforming what is typically hidden compliance overhead into visible competitive advantage through documented excellence.
+This evidence-based approach demonstrates that comprehensive third-party risk management enables rather than constrains business innovation and growth, transforming what is typically hidden compliance overhead into visible competitive advantage through documented excellence. As a single-CEO consultancy with no procurement, vendor, or finance teams, every supplier decision flows through the CEO directly — with the [compliance-reviewer, security-documentation-specialist, and business-development-specialist agents](./.github/agents/README.md) providing continuous monitoring, evidence drafting, and SLA tracking under the [Information Security Strategy § AI-Enabled Operations](./Information_Security_Strategy.md) operating model.
 
 *— James Pether Sörling, CEO/Founder*
 
@@ -278,7 +278,6 @@ graph TD
     I --> N[Risk: Minimal dependency]
 ```
 
-
 #### **🔍 Assessment Scoring Methodology**
 
 | Force | Evaluation Questions | Risk Indicators | Score Range |
@@ -503,7 +502,11 @@ flowchart TD
 5. **📊 Baseline Monitoring:** Establish performance baselines and monitoring approach
 6. **🧪 Continuity Planning:** Identify alternatives and document backup procedures where feasible
 
-### 🎯 **Streamlined CEO Management Process**
+### 🎯 **Streamlined CEO + Agents Management Process (default path)**
+
+For Hack23 AB's actual supplier portfolio (~12 active suppliers, ~$360/month total spend, no enterprise multi-vendor procurement complexity), this **streamlined CEO + agents flow is the default path** for High / Medium / Low classified suppliers. The heavy 4-phase framework above (Identification → Onboarding → Ongoing Mgmt → Strategic Review) remains the formal model invoked **only for Critical-classified suppliers** (currently AWS, SEB, and Stripe) and for any new supplier where the agent risk-screen surfaces material concerns.
+
+**Why this is appropriate for a single-CEO consultancy:** Multi-team supplier-management frameworks assume separation of duties between procurement, security, finance, and legal teams. A single-CEO operation collapses these roles; a parallel agent ecosystem (security-documentation-specialist, compliance-reviewer, business-development-specialist) provides the equivalent independent-perspective challenge under explicit CEO sign-off, with audit trail preserved in PR history.
 
 As the sole decision-maker, supplier management workflow is optimized for efficiency:
 
@@ -1033,6 +1036,6 @@ Our Third Party Management Policy integrates with the complete ISMS framework th
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-05-10  
+**⏰ Next Review:** 2026-11-10  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

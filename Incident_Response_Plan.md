@@ -11,14 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.7-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--10-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Semi_Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-
-**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-04-25
+**📋 Document Owner:** CEO | **📄 Version:** 1.7 | **📅 Last Updated:** 2026-05-10 (UTC)  
+**🔄 Review Cycle:** Semi-Annual | **⏰ Next Review:** 2026-11-10
 
 ---
 
@@ -1000,7 +999,7 @@ When AI agents are unavailable or degraded (API outage, system failure, security
 
 **Trigger & Declaration:**
 - Detect AI degradation via monitoring alerts, repeated agent errors, or manual identification
-- Incident Manager declares **"AI Degraded Mode"** and logs start time
+- CEO declares **"AI Degraded Mode"** and logs start time (Hack23 has no separate Incident Manager role — the CEO is sole accountable owner of incident response, with the external [security consultant retainer](./Information_Security_Strategy.md) available as facilitator for declared major incidents)
 
 **Manual Fallback Process:**
 1. **Detection:** Rely on traditional monitoring (CloudWatch, GuardDuty, Security Hub, manual log review)
@@ -1011,7 +1010,7 @@ When AI agents are unavailable or degraded (API outage, system failure, security
 6. **Communication:** Manual stakeholder notifications per communication matrix
 
 **Restoration:**
-- When AI capabilities restore, Incident Manager logs end time and transitions back to AI-assisted mode
+- When AI capabilities restore, the CEO logs end time and transitions back to AI-assisted mode
 - Post-incident review includes analysis of AI unavailability impact on response times
 
 ### **📊 AI Agent Contribution Tracking**
@@ -1369,6 +1368,6 @@ This adaptation maintains the **control objectives** of **A.5.24 - A.5.28 (Incid
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-05-10  
+**⏰ Next Review:** 2026-11-10  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
