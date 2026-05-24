@@ -137,22 +137,22 @@ Minor updates improve documentation quality without affecting security or busine
 
 ```mermaid
 flowchart TD
-    START[📝 Policy Update Needed] --> Q1{Does change affect<br/>security controls<br/>or compliance?}
+    START["📝 Policy Update Needed"] --> Q1{Does change affect<br/>security controls<br/>or compliance?}
     
-    Q1 -->|Yes| MAJOR[🔴 Major Change<br/>7-Day Reflection]
+    Q1 -->|Yes| MAJOR["🔴 Major Change<br/>7-Day Reflection"]
     Q1 -->|No| Q2{Does change expand<br/>policy scope or<br/>add requirements?}
     
     Q2 -->|Yes| MAJOR
     Q2 -->|No| Q3{Is change purely<br/>clarification,<br/>formatting, or typos?}
     
-    Q3 -->|Yes| MINOR[🟢 Minor Update<br/>24-Hour Review]
+    Q3 -->|Yes| MINOR["🟢 Minor Update<br/>24-Hour Review"]
     Q3 -->|No| MAJOR
     
-    MAJOR --> MAJOR_PROCESS[📋 Major Process:<br/>• Draft with rationale<br/>• 7-day waiting period<br/>• External review if critical<br/>• CEO approval<br/>• Version increment]
+    MAJOR --> MAJOR_PROCESS["📋 Major Process:<br/>• Draft with rationale<br/>• 7-day waiting period<br/>• External review if critical<br/>• CEO approval<br/>• Version increment"]
     
-    MINOR --> MINOR_PROCESS[✅ Minor Process:<br/>• Draft with description<br/>• 24-hour review<br/>• CEO approval<br/>• Minor version increment]
+    MINOR --> MINOR_PROCESS["✅ Minor Process:<br/>• Draft with description<br/>• 24-hour review<br/>• CEO approval<br/>• Minor version increment"]
     
-    MAJOR_PROCESS --> COMPLETE[✅ Update Complete]
+    MAJOR_PROCESS --> COMPLETE["✅ Update Complete"]
     MINOR_PROCESS --> COMPLETE
     
     classDef major fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#fff
@@ -294,34 +294,34 @@ The following diagram illustrates the simplified risk-based segregation of dutie
 
 ```mermaid
 flowchart TD
-    A[🎯 Change Request<br/>CEO submits request] --> B{🏷️ Risk Level<br/>Classification}
+    A["🎯 Change Request<br/>CEO submits request"] --> B{"🏷️ Risk Level<br/>Classification"}
     
-    B -->|🔴 High Risk| C[⏱️ 48-Hour<br/>Reflection Period]
-    B -->|🟡 Medium Risk| D[⏱️ 24-Hour<br/>Review Period]
-    B -->|🟢 Low Risk| E[✅ Same-Day<br/>with Enhanced Logging]
+    B -->|🔴 High Risk| C["⏱️ 48-Hour<br/>Reflection Period"]
+    B -->|🟡 Medium Risk| D["⏱️ 24-Hour<br/>Review Period"]
+    B -->|🟢 Low Risk| E["✅ Same-Day<br/>with Enhanced Logging"]
     
-    C --> F[📋 Document<br/>Rationale & Controls]
-    F --> G[🔍 External Review<br/>if Risk ≥8/10]
-    G --> H[🛠️ Implementation<br/>with Audit Trail]
+    C --> F["📋 Document<br/>Rationale & Controls"]
+    F --> G["🔍 External Review<br/>if Risk ≥8/10"]
+    G --> H["🛠️ Implementation<br/>with Audit Trail"]
     
-    D --> I[🤖 Automated<br/>Validation Gates]
-    I -->|✅ Pass| J[👤 CEO Approval<br/>Next Business Day]
+    D --> I["🤖 Automated<br/>Validation Gates"]
+    I -->|✅ Pass| J["👤 CEO Approval<br/>Next Business Day"]
     I -->|❌ Fail| A
     
-    E --> K[📊 Enhanced Logging<br/>Immutable Record]
-    K --> L[🚀 Immediate<br/>Implementation]
+    E --> K["📊 Enhanced Logging<br/>Immutable Record"]
+    K --> L["🚀 Immediate<br/>Implementation"]
     
-    J --> M[🚀 Production<br/>Deployment]
+    J --> M["🚀 Production<br/>Deployment"]
     H --> M
     L --> M
     
-    M --> N[🔎 Post-Implementation<br/>Validation]
-    N -->|✅ Success| O[📈 Continuous<br/>Monitoring]
-    N -->|❌ Issues| P[🔄 Rollback<br/>& Review]
+    M --> N["🔎 Post-Implementation<br/>Validation"]
+    N -->|✅ Success| O["📈 Continuous<br/>Monitoring"]
+    N -->|❌ Issues| P["🔄 Rollback<br/>& Review"]
     
     P --> A
     
-    O --> Q[📅 Quarterly<br/>Control Validation]
+    O --> Q["📅 Quarterly<br/>Control Validation"]
     
     style A fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
     style B fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff

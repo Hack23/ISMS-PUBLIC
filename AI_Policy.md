@@ -86,28 +86,28 @@ Based on [🏷️ Classification Framework](./CLASSIFICATION.md):
 }%%
 graph TD
     subgraph DEVELOPMENT["🔧 Development AI"]
-        COPILOT[🔧 GitHub Copilot<br/>Code Generation<br/>📊 Minimal Risk]
+        COPILOT["🔧 GitHub Copilot<br/>Code Generation<br/>📊 Minimal Risk"]
     end
     
     subgraph CREATIVE["🎨 Creative AI"]
-        STABILITY[🎨 Stability AI<br/>Visual Content<br/>📊 Minimal Risk]
-        VOICE[🎙️ ElevenLabs<br/>Voice Generation<br/>📊 Minimal Risk]
-        MUSIC[🎶 Suno<br/>Music Creation<br/>📊 Minimal Risk]
+        STABILITY["🎨 Stability AI<br/>Visual Content<br/>📊 Minimal Risk"]
+        VOICE["🎙️ ElevenLabs<br/>Voice Generation<br/>📊 Minimal Risk"]
+        MUSIC["🎶 Suno<br/>Music Creation<br/>📊 Minimal Risk"]
     end
     
     subgraph ANALYSIS["📊 Analysis AI"]
-        OSINT[🏛️ Political OSINT<br/>Democratic Data<br/>⚠️ Limited Risk]
-        CHATGPT[💬 OpenAI GPT<br/>Content Generation<br/>📊 Minimal Risk]
+        OSINT["🏛️ Political OSINT<br/>Democratic Data<br/>⚠️ Limited Risk"]
+        CHATGPT["💬 OpenAI GPT<br/>Content Generation<br/>📊 Minimal Risk"]
     end
     
     subgraph PLANNED["🧠 Planned AI"]
-        BEDROCK[🧠 AWS Bedrock<br/>Knowledge Platform<br/>⚠️ Limited Risk]
+        BEDROCK["🧠 AWS Bedrock<br/>Knowledge Platform<br/>⚠️ Limited Risk"]
     end
     
     subgraph GOVERNANCE["🛡️ AI Governance"]
-        CONTROLS[🔐 Security Controls<br/>ISMS Integration]
-        MONITORING[📊 Performance Metrics<br/>Risk Management]
-        COMPLIANCE[✅ Regulatory Alignment<br/>EU AI Act, GDPR]
+        CONTROLS["🔐 Security Controls<br/>ISMS Integration"]
+        MONITORING["📊 Performance Metrics<br/>Risk Management"]
+        COMPLIANCE["✅ Regulatory Alignment<br/>EU AI Act, GDPR"]
     end
     
     DEVELOPMENT --> GOVERNANCE
@@ -221,24 +221,24 @@ AI risks are evaluated using the comprehensive [📊 Risk Assessment Methodology
 }%%
 graph TD
     subgraph AI_RISKS["🤖 AI Risk Categories"]
-        TECHNICAL[🔧 Technical Risks<br/>System reliability, security]
-        OPERATIONAL[⚙️ Operational Risks<br/>Process integration, human factors]
-        COMPLIANCE[⚖️ Compliance Risks<br/>Regulatory alignment, legal]
-        STRATEGIC[🎯 Strategic Risks<br/>Business impact, reputation]
+        TECHNICAL["🔧 Technical Risks<br/>System reliability, security"]
+        OPERATIONAL["⚙️ Operational Risks<br/>Process integration, human factors"]
+        COMPLIANCE["⚖️ Compliance Risks<br/>Regulatory alignment, legal"]
+        STRATEGIC["🎯 Strategic Risks<br/>Business impact, reputation"]
     end
     
     subgraph ISMS_EVALUATION["🛡️ ISMS Evaluation Framework"]
-        RISK_ASSESS[📊 Risk Assessment<br/>Standard methodology]
-        CONTROLS[🔐 Security Controls<br/>Established framework]
-        MONITORING[📈 Performance Metrics<br/>Continuous measurement]
-        REVIEW[🔄 Regular Review<br/>Systematic improvement]
+        RISK_ASSESS["📊 Risk Assessment<br/>Standard methodology"]
+        CONTROLS["🔐 Security Controls<br/>Established framework"]
+        MONITORING["📈 Performance Metrics<br/>Continuous measurement"]
+        REVIEW["🔄 Regular Review<br/>Systematic improvement"]
     end
     
     subgraph EVIDENCE["📋 Evidence Sources"]
-        REGISTERS[📚 Risk & Asset Registers<br/>Comprehensive documentation]
-        POLICIES[📋 Policy Framework<br/>Integrated controls]
-        METRICS[📊 Security Metrics<br/>Performance tracking]
-        AUDITS[✅ Compliance Checks<br/>Regular validation]
+        REGISTERS["📚 Risk & Asset Registers<br/>Comprehensive documentation"]
+        POLICIES["📋 Policy Framework<br/>Integrated controls"]
+        METRICS["📊 Security Metrics<br/>Performance tracking"]
+        AUDITS["✅ Compliance Checks<br/>Regular validation"]
     end
     
     AI_RISKS --> ISMS_EVALUATION
@@ -269,29 +269,29 @@ Hack23 AB implements a curated ecosystem of GitHub Copilot custom agents with ex
 ```mermaid
 graph TB
     subgraph "🎯 Governance Layer"
-        CEO[👔 CEO<br/>Ultimate Authority]:::ceo
-        SEC[🛡️ Security Owner<br/>Delegated Review]:::security
+        CEO["👔 CEO<br/>Ultimate Authority"]:::ceo
+        SEC["🛡️ Security Owner<br/>Delegated Review"]:::security
     end
     
     subgraph "🔧 Meta-Agent Layer"
-        CURATOR[🔧 Curator-Agent<br/>Configuration Manager]:::curator
+        CURATOR["🔧 Curator-Agent<br/>Configuration Manager"]:::curator
     end
     
     subgraph "📋 Agent Fleet"
-        TASK[📋 Task Agents<br/>Analysis & Issues]:::task
-        SPEC[👷 Specialist Agents<br/>Implementation]:::specialist
+        TASK["📋 Task Agents<br/>Analysis & Issues"]:::task
+        SPEC["👷 Specialist Agents<br/>Implementation"]:::specialist
     end
     
     subgraph "⚙️ Configuration"
-        PROFILES[🤖 Agent Profiles<br/>.github/agents/*.md]:::config
-        MCP[🔌 MCP Config<br/>copilot-mcp.json]:::config
-        WORKFLOW[⚙️ Workflows<br/>copilot-setup-steps.yml]:::config
+        PROFILES["🤖 Agent Profiles<br/>.github/agents/*.md"]:::config
+        MCP["🔌 MCP Config<br/>copilot-mcp.json"]:::config
+        WORKFLOW["⚙️ Workflows<br/>copilot-setup-steps.yml"]:::config
     end
     
     subgraph "🔒 Enforcement"
-        PR[🔀 Pull Request<br/>Required]:::control
-        CI[✅ CI/CD Gates<br/>Automated Checks]:::control
-        REVIEW[👀 Human Review<br/>Final Approval]:::control
+        PR["🔀 Pull Request<br/>Required"]:::control
+        CI["✅ CI/CD Gates<br/>Automated Checks"]:::control
+        REVIEW["👀 Human Review<br/>Final Approval"]:::control
     end
     
     CEO -->|Approves| CURATOR
@@ -348,16 +348,16 @@ The **curator-agent** is the only agent authorized to systematically create or m
 ```mermaid
 graph LR
     subgraph "✅ Allowed Actions with Automation"
-        A1[🔧 Curator-Agent:<br/>Modify agent configs<br/>with CEO approval]:::allowed
-        A2[📋 Task Agents:<br/>Create & auto-assign<br/>ISMS-aligned issues]:::allowed
-        A3[👷 Specialist Agents:<br/>Implement changes<br/>via PR workflow]:::allowed
-        A4[🤖 All Agents:<br/>Generate proposals<br/>for CEO review]:::allowed
-        A5[📋 Task Agents:<br/>Coordinate specialist<br/>agent assignments]:::allowed
+        A1["🔧 Curator-Agent:<br/>Modify agent configs<br/>with CEO approval"]:::allowed
+        A2["📋 Task Agents:<br/>Create & auto-assign<br/>ISMS-aligned issues"]:::allowed
+        A3["👷 Specialist Agents:<br/>Implement changes<br/>via PR workflow"]:::allowed
+        A4["🤖 All Agents:<br/>Generate proposals<br/>for CEO review"]:::allowed
+        A5["📋 Task Agents:<br/>Coordinate specialist<br/>agent assignments"]:::allowed
     end
     
     subgraph "❌ Prohibited Actions"
-        P1[❌ Bypass CEO<br/>PR approval]:::prohibited
-        P2[❌ Self-modify<br/>permissions/MCP]:::prohibited
+        P1["❌ Bypass CEO<br/>PR approval"]:::prohibited
+        P2["❌ Self-modify<br/>permissions/MCP"]:::prohibited
     end
     
     A1 -.->|Never| P2
@@ -433,28 +433,28 @@ Per [Change Management](./Change_Management.md), agent configuration files are t
 
 ```mermaid
 flowchart TD
-    Start([🆕 Agent Change Request]):::start
+    Start(["🆕 Agent Change Request"]):::start
     
     Type{Change Type?}:::decision
     
-    Profile[📝 Agent Profile<br/>Modification]:::change
-    MCP[🔌 MCP Config<br/>Change]:::change
-    Capability[⚡ Capability<br/>Expansion]:::change
-    NewAgent[🤖 New Agent<br/>Creation]:::change
+    Profile["📝 Agent Profile<br/>Modification"]:::change
+    MCP["🔌 MCP Config<br/>Change"]:::change
+    Capability["⚡ Capability<br/>Expansion"]:::change
+    NewAgent["🤖 New Agent<br/>Creation"]:::change
     
-    Review1[👀 Security<br/>Impact Assessment]:::review
-    Review2[📊 Risk<br/>Evaluation]:::review
-    Review3[💼 Business<br/>Justification]:::review
+    Review1["👀 Security<br/>Impact Assessment"]:::review
+    Review2["📊 Risk<br/>Evaluation"]:::review
+    Review3["💼 Business<br/>Justification"]:::review
     
-    PR[🔀 Create Pull Request]:::process
-    CI[✅ CI/CD Validation<br/>• YAML syntax check<br/>• Security patterns<br/>• Tool constraints]:::process
+    PR["🔀 Create Pull Request"]:::process
+    CI["✅ CI/CD Validation<br/>• YAML syntax check<br/>• Security patterns<br/>• Tool constraints"]:::process
     
-    CEOReview{👔 CEO<br/>Approval?}:::ceo
+    CEOReview{"👔 CEO<br/>Approval?"}:::ceo
     
-    Approved[✅ Merge & Deploy]:::success
-    Rejected[❌ Rejected<br/>Document Rationale]:::failure
+    Approved["✅ Merge & Deploy"]:::success
+    Rejected["❌ Rejected<br/>Document Rationale"]:::failure
     
-    Feedback[💬 Revise & Resubmit]:::feedback
+    Feedback["💬 Revise & Resubmit"]:::feedback
     
     Start --> Type
     
@@ -597,9 +597,9 @@ AI governance performance is measured through [📊 Security Metrics](./Security
   }
 }%%
 flowchart LR
-    MONITOR[📊 Monitor Performance<br/>ISMS metrics integration] --> ASSESS[⚠️ Assess Effectiveness<br/>Risk-based evaluation]
-    ASSESS --> IMPROVE[🔧 Implement Improvements<br/>Evidence-based changes]
-    IMPROVE --> VALIDATE[✅ Validate Results<br/>Measurable outcomes]
+    MONITOR["📊 Monitor Performance<br/>ISMS metrics integration"] --> ASSESS["⚠️ Assess Effectiveness<br/>Risk-based evaluation"]
+    ASSESS --> IMPROVE["🔧 Implement Improvements<br/>Evidence-based changes"]
+    IMPROVE --> VALIDATE["✅ Validate Results<br/>Measurable outcomes"]
     VALIDATE --> MONITOR
     
     style MONITOR fill:#1565C0

@@ -114,7 +114,7 @@ flowchart LR
     A8 --> NETWORK
     A8 --> ACCESS_CTRL
     
-    INFO_SEC --> COMPLIANCE_CHECK[✅ 95% Controls<br/>Implemented]
+    INFO_SEC --> COMPLIANCE_CHECK["✅ 95% Controls<br/>Implemented"]
     SOD --> COMPLIANCE_CHECK
     ACCESS_CTRL --> COMPLIANCE_CHECK
     PHYSICAL --> COMPLIANCE_CHECK
@@ -159,7 +159,7 @@ flowchart LR
 
 ```mermaid
 mindmap
-  root((✅ ISMS Compliance))
+  root(("✅ ISMS Compliance"))
     ISO_27001_2022(("🔵 ISO 27001:2022"))
       A5_Organizational(("🟢 A.5 Organizational – strong coverage"))
       A6_People(("🟡 A.6 People – some controls planned"))
@@ -528,7 +528,7 @@ All control implementations include frequency of execution, monitoring mechanism
 
 ```mermaid
 mindmap
-  root((🛡️ SOC 2 TSC))
+  root(("🛡️ SOC 2 TSC"))
     (🔐 Common Criteria)
       CC1 COSO Principles
       CC2 Communication
@@ -740,7 +740,7 @@ The Payment Card Industry Data Security Standard (PCI DSS) v4.0 establishes comp
 
 ```mermaid
 mindmap
-  root((💳 PCI DSS v4.0))
+  root(("💳 PCI DSS v4.0"))
     🔒 Build & Maintain Secure Network
       Req 1: Firewalls
       Req 2: Secure Configuration

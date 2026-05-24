@@ -52,24 +52,24 @@ Our backup strategy is directly driven by business impact assessment from the [�
 }%%
 graph TD
     subgraph BIA["📊 Business Impact Analysis"]
-        FIN[💰 Financial Impact<br/>Revenue & Cost Impact]
-        OPS[⚙️ Operational Impact<br/>Service Disruption]
-        REP[🤝 Reputational Impact<br/>Trust & Brand]
-        REG[⚖️ Regulatory Impact<br/>Compliance Risk]
+        FIN["💰 Financial Impact<br/>Revenue & Cost Impact"]
+        OPS["⚙️ Operational Impact<br/>Service Disruption"]
+        REP["🤝 Reputational Impact<br/>Trust & Brand"]
+        REG["⚖️ Regulatory Impact<br/>Compliance Risk"]
     end
     
     subgraph BACKUP["💾 Backup Requirements"]
-        CRITICAL[🔴 Critical Backup<br/>Real-time/Continuous]
-        HIGH[🟠 High Priority<br/>Hourly/Daily]
-        MEDIUM[🟡 Medium Priority<br/>Daily/Weekly]
-        STANDARD[🟢 Standard Backup<br/>Weekly/Monthly]
+        CRITICAL["🔴 Critical Backup<br/>Real-time/Continuous"]
+        HIGH["🟠 High Priority<br/>Hourly/Daily"]
+        MEDIUM["🟡 Medium Priority<br/>Daily/Weekly"]
+        STANDARD["🟢 Standard Backup<br/>Weekly/Monthly"]
     end
     
     subgraph BUSINESS["🏢 Business Functions"]
-        CORE[🏗️ Core Operations<br/>Revenue Generation]
-        FINANCE[💰 Financial Systems<br/>Compliance Critical]
-        SUPPORT[🛠️ Support Functions<br/>Business Enablement]
-        ADMIN[📋 Administrative<br/>Record Keeping]
+        CORE["🏗️ Core Operations<br/>Revenue Generation"]
+        FINANCE["💰 Financial Systems<br/>Compliance Critical"]
+        SUPPORT["🛠️ Support Functions<br/>Business Enablement"]
+        ADMIN["📋 Administrative<br/>Record Keeping"]
     end
     
     FIN -->|Very High/Critical| CRITICAL

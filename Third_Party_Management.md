@@ -74,23 +74,23 @@ Our third-party management operationalizes the [🏷️ Classification Framework
 }%%
 flowchart TD
     subgraph EVIDENCE["📋 Evidence Sources"]
-        SUPPLIER_DOC[🔗 SUPPLIER.md<br/>Strategic Analysis<br/>Financial Assessment<br/>Security Posture]
-        ASSET_DOC[💻 Asset Register<br/>Service Integration<br/>Classification Badges<br/>Lifecycle Tracking]
-        RISK_DOC[📉 Risk Register<br/>Risk Assessment<br/>Treatment Plans<br/>Monitoring Results]
+        SUPPLIER_DOC["🔗 SUPPLIER.md<br/>Strategic Analysis<br/>Financial Assessment<br/>Security Posture"]
+        ASSET_DOC["💻 Asset Register<br/>Service Integration<br/>Classification Badges<br/>Lifecycle Tracking"]
+        RISK_DOC["📉 Risk Register<br/>Risk Assessment<br/>Treatment Plans<br/>Monitoring Results"]
     end
     
     subgraph TIERS["🎯 Strategic Tiers"]
-        TIER1[🔴 Tier 1: Mission Critical<br/>CEO Direct Oversight<br/>Quarterly Executive Review]
-        TIER2[🟠 Tier 2: Business Essential<br/>CEO Management Review<br/>Monthly Assessment]
-        TIER3[🟡 Tier 3: Operational Support<br/>CEO Operational Check<br/>Quarterly Review]
-        TIER4[🟢 Tier 4: Supporting Services<br/>Automated Monitoring<br/>Annual Review]
+        TIER1["🔴 Tier 1: Mission Critical<br/>CEO Direct Oversight<br/>Quarterly Executive Review"]
+        TIER2["🟠 Tier 2: Business Essential<br/>CEO Management Review<br/>Monthly Assessment"]
+        TIER3["🟡 Tier 3: Operational Support<br/>CEO Operational Check<br/>Quarterly Review"]
+        TIER4["🟢 Tier 4: Supporting Services<br/>Automated Monitoring<br/>Annual Review"]
     end
     
     subgraph PROCESS["⚙️ Evidence-Based Process"]
-        ASSESS[📊 Evidence Collection<br/>Document in SUPPLIER.md]
-        CLASSIFY[🏷️ Impact Analysis<br/>Apply Classification Framework]
-        REGISTER[💻 Asset Integration<br/>Update Asset Register]
-        MONITOR[📈 Continuous Evidence<br/>Update All Registers]
+        ASSESS["📊 Evidence Collection<br/>Document in SUPPLIER.md"]
+        CLASSIFY["🏷️ Impact Analysis<br/>Apply Classification Framework"]
+        REGISTER["💻 Asset Integration<br/>Update Asset Register"]
+        MONITOR["📈 Continuous Evidence<br/>Update All Registers"]
     end
     
     EVIDENCE --> TIERS
@@ -265,11 +265,11 @@ graph TD
     B --> C[Assess Buyer Power]
     C --> D{Our Negotiation Leverage}
     
-    D -->|High Market Share| E[Minimal Buyer Power<br/>📊 Score: 1-2]
-    D -->|Few Alternatives| F[Reduced Buyer Power<br/>📊 Score: 2-3]
-    D -->|Standard Market| G[Moderate Buyer Power<br/>📊 Score: 3-4]
-    D -->|Many Options| H[High Buyer Power<br/>📊 Score: 4-5]
-    D -->|Commodity Service| I[Very High Buyer Power<br/>📊 Score: 5]
+    D -->|High Market Share| E["Minimal Buyer Power<br/>📊 Score: 1-2"]
+    D -->|Few Alternatives| F["Reduced Buyer Power<br/>📊 Score: 2-3"]
+    D -->|Standard Market| G["Moderate Buyer Power<br/>📊 Score: 3-4"]
+    D -->|Many Options| H["High Buyer Power<br/>📊 Score: 4-5"]
+    D -->|Commodity Service| I["Very High Buyer Power<br/>📊 Score: 5"]
     
     E --> J[Risk: High dependency]
     F --> K[Risk: Medium dependency]
@@ -310,24 +310,24 @@ flowchart LR
     A --> C{Integrity Analysis}  
     A --> D{Availability Analysis}
     
-    B --> B1[📋 Public: Score 1]
-    B --> B2[🟡 Low: Score 2]
-    B --> B3[🟠 Moderate: Score 3]
-    B --> B4[🔵 High: Score 4]
-    B --> B5[🔷 Very High: Score 5]
-    B --> B6[⚫ Extreme: Score 6]
+    B --> B1["📋 Public: Score 1"]
+    B --> B2["🟡 Low: Score 2"]
+    B --> B3["🟠 Moderate: Score 3"]
+    B --> B4["🔵 High: Score 4"]
+    B --> B5["🔷 Very High: Score 5"]
+    B --> B6["⚫ Extreme: Score 6"]
     
-    C --> C1[📝 Minimal: Score 1]
-    C --> C2[🟡 Low: Score 2]
-    C --> C3[🟠 Moderate: Score 3]
-    C --> C4[🔵 High: Score 4]
-    C --> C5[🔴 Critical: Score 5]
+    C --> C1["📝 Minimal: Score 1"]
+    C --> C2["🟡 Low: Score 2"]
+    C --> C3["🟠 Moderate: Score 3"]
+    C --> C4["🔵 High: Score 4"]
+    C --> C5["🔴 Critical: Score 5"]
     
-    D --> D1[📋 Best Effort: Score 1]
-    D --> D2[🟡 Standard: Score 2]
-    D --> D3[🟠 Moderate: Score 3]
-    D --> D4[🔵 High: Score 4]
-    D --> D5[🔴 Mission Critical: Score 5]
+    D --> D1["📋 Best Effort: Score 1"]
+    D --> D2["🟡 Standard: Score 2"]
+    D --> D3["🟠 Moderate: Score 3"]
+    D --> D4["🔵 High: Score 4"]
+    D --> D5["🔴 Mission Critical: Score 5"]
     
     style A fill:#1565C0
     style B fill:#FF9800
@@ -365,17 +365,17 @@ Organizations SHALL define recovery requirements based on business impact analys
 graph TB
     A[Service Impact Analysis] --> B{Business Process Impact Assessment}
     
-    B -->|Revenue Generating| C[🔴 Mission Critical<br/>RTO: <5min, RPO: <1min]
-    B -->|Operations Critical| D[🟠 High Priority<br/>RTO: 5-60min, RPO: 1-15min]
-    B -->|Support Process| E[🟡 Medium Priority<br/>RTO: 1-4hrs, RPO: 15-60min]
-    B -->|Administrative| F[🟢 Low Priority<br/>RTO: 4-24hrs, RPO: 1-4hrs]
-    B -->|Optional Service| G[🔵 Standard<br/>RTO: >24hrs, RPO: >4hrs]
+    B -->|Revenue Generating| C["🔴 Mission Critical<br/>RTO: <5min, RPO: <1min"]
+    B -->|Operations Critical| D["🟠 High Priority<br/>RTO: 5-60min, RPO: 1-15min"]
+    B -->|Support Process| E["🟡 Medium Priority<br/>RTO: 1-4hrs, RPO: 15-60min"]
+    B -->|Administrative| F["🟢 Low Priority<br/>RTO: 4-24hrs, RPO: 1-4hrs"]
+    B -->|Optional Service| G["🔵 Standard<br/>RTO: >24hrs, RPO: >4hrs"]
     
-    C --> C1[⚡ Instant Recovery<br/>📦 Zero Data Loss<br/>💰 Maximum Investment]
-    D --> D1[🕐 Critical Recovery<br/>📦 Near Real-time<br/>💰 High Investment]
-    E --> E1[⏱️ High Recovery<br/>📦 Minimal Data Loss<br/>💰 Moderate Investment]
-    F --> F1[📅 Medium Recovery<br/>📦 Hourly Backup<br/>💰 Standard Investment]
-    G --> G1[📋 Low Recovery<br/>📦 Daily Backup<br/>💰 Basic Investment]
+    C --> C1["⚡ Instant Recovery<br/>📦 Zero Data Loss<br/>💰 Maximum Investment"]
+    D --> D1["🕐 Critical Recovery<br/>📦 Near Real-time<br/>💰 High Investment"]
+    E --> E1["⏱️ High Recovery<br/>📦 Minimal Data Loss<br/>💰 Moderate Investment"]
+    F --> F1["📅 Medium Recovery<br/>📦 Hourly Backup<br/>💰 Standard Investment"]
+    G --> G1["📋 Low Recovery<br/>📦 Daily Backup<br/>💰 Basic Investment"]
     
     style C fill:#D32F2F,stroke:#d32f2f,stroke-width:2px
     style D fill:#FFC107,stroke:#ff9800,stroke-width:2px
@@ -402,7 +402,7 @@ Organizations SHALL conduct multi-dimensional impact assessment:
   }
 }%%
 mindmap
-  root((💰 Business Impact))
+  root(("💰 Business Impact"))
     Financial Impact
       Direct Revenue Loss
         Payment processing halt
@@ -470,18 +470,18 @@ Organizations SHALL execute systematic onboarding recognizing power dynamics wit
 flowchart TD
     A[Assessment Complete] --> B{Overall Risk Score Calculation}
     
-    B -->|Score: 20-25| C[🔴 Critical Risk Onboarding]
-    B -->|Score: 15-19| D[🟠 High Risk Onboarding]
-    B -->|Score: 10-14| E[🟡 Medium Risk Onboarding]
-    B -->|Score: 5-9| F[🟢 Low Risk Onboarding]
+    B -->|Score: 20-25| C["🔴 Critical Risk Onboarding"]
+    B -->|Score: 15-19| D["🟠 High Risk Onboarding"]
+    B -->|Score: 10-14| E["🟡 Medium Risk Onboarding"]
+    B -->|Score: 5-9| F["🟢 Low Risk Onboarding"]
     
-    C --> C1[📋 Comprehensive Security Audit<br/>💰 Financial Due Diligence<br/>⚖️ Legal Review<br/>📞 Reference Verification<br/>🛡️ Insurance Validation]
+    C --> C1["📋 Comprehensive Security Audit<br/>💰 Financial Due Diligence<br/>⚖️ Legal Review<br/>📞 Reference Verification<br/>🛡️ Insurance Validation"]
     
-    D --> D1[📝 Security Questionnaire<br/>💼 Financial Health Check<br/>📄 Contract Review<br/>📊 SLA Validation<br/>✅ Compliance Verification]
+    D --> D1["📝 Security Questionnaire<br/>💼 Financial Health Check<br/>📄 Contract Review<br/>📊 SLA Validation<br/>✅ Compliance Verification"]
     
-    E --> E1[🔍 Standard Security Review<br/>💰 Basic Financial Check<br/>📋 Terms Review<br/>📞 Support Verification]
+    E --> E1["🔍 Standard Security Review<br/>💰 Basic Financial Check<br/>📋 Terms Review<br/>📞 Support Verification"]
     
-    F --> F1[📝 Minimal Assessment<br/>✅ Terms Acceptance<br/>📋 Basic Validation]
+    F --> F1["📝 Minimal Assessment<br/>✅ Terms Acceptance<br/>📋 Basic Validation"]
     
     C1 --> G[Contract Execution & Asset Registration]
     D1 --> G
@@ -524,25 +524,25 @@ As the sole decision-maker, supplier management workflow is optimized for effici
   }
 }%%
 flowchart TD
-    START[📋 Contract Review Trigger] --> ASSESS[📊 CEO Performance Assessment]
-    ASSESS --> MARKET[🏪 Market Analysis]
-    MARKET --> NEGOTIATE[🤝 CEO Negotiation Strategy]
+    START["📋 Contract Review Trigger"] --> ASSESS["📊 CEO Performance Assessment"]
+    ASSESS --> MARKET["🏪 Market Analysis"]
+    MARKET --> NEGOTIATE["🤝 CEO Negotiation Strategy"]
     
-    NEGOTIATE --> TERMS{💰 Terms Acceptable?}
-    TERMS -->|✅ Yes| EXECUTE[📄 Contract Execution]
-    TERMS -->|❌ No| ALTERNATIVE[🔄 Alternative Evaluation]
+    NEGOTIATE --> TERMS{"💰 Terms Acceptable?"}
+    TERMS -->|✅ Yes| EXECUTE["📄 Contract Execution"]
+    TERMS -->|❌ No| ALTERNATIVE["🔄 Alternative Evaluation"]
     
-    ALTERNATIVE --> SWITCH{🔄 Switch Supplier?}
-    SWITCH -->|✅ Yes| TRANSITION[🚚 Migration Planning]
+    ALTERNATIVE --> SWITCH{"🔄 Switch Supplier?"}
+    SWITCH -->|✅ Yes| TRANSITION["🚚 Migration Planning"]
     SWITCH -->|❌ No| NEGOTIATE
     
-    EXECUTE --> MONITOR[📈 Performance Monitoring]
-    TRANSITION --> ONBOARD[📝 New Supplier Assessment]
-    ONBOARD --> SUPPLIER_UPDATE[🔗 Update SUPPLIER.md]
-    SUPPLIER_UPDATE --> ASSET_ADD[💻 Add to Asset Register]
+    EXECUTE --> MONITOR["📈 Performance Monitoring"]
+    TRANSITION --> ONBOARD["📝 New Supplier Assessment"]
+    ONBOARD --> SUPPLIER_UPDATE["🔗 Update SUPPLIER.md"]
+    SUPPLIER_UPDATE --> ASSET_ADD["💻 Add to Asset Register"]
     ASSET_ADD --> MONITOR
     
-    MONITOR --> REVIEW[📅 Periodic Review]
+    MONITOR --> REVIEW["📅 Periodic Review"]
     REVIEW --> START
     
     style START fill:#4CAF50
@@ -622,23 +622,23 @@ Organizations SHALL maintain continuous evidence collection through systematic m
 }%%
 flowchart TD
     subgraph CONTINUOUS["🔄 Continuous Evidence Collection"]
-        PERFORMANCE[📈 Performance Evidence<br/>SLA Compliance Tracking<br/>Quality Metrics Documentation]
-        SECURITY[🔍 Security Evidence<br/>Periodic Security Reviews<br/>Compliance Validation]
-        FINANCIAL[💰 Financial Evidence<br/>Cost Monitoring<br/>Budget Variance Analysis]
-        RELATIONSHIP[🤝 Relationship Evidence<br/>Communication Records<br/>Issue Resolution Tracking]
+        PERFORMANCE["📈 Performance Evidence<br/>SLA Compliance Tracking<br/>Quality Metrics Documentation"]
+        SECURITY["🔍 Security Evidence<br/>Periodic Security Reviews<br/>Compliance Validation"]
+        FINANCIAL["💰 Financial Evidence<br/>Cost Monitoring<br/>Budget Variance Analysis"]
+        RELATIONSHIP["🤝 Relationship Evidence<br/>Communication Records<br/>Issue Resolution Tracking"]
     end
     
     subgraph DOCUMENTATION["📚 Evidence Documentation"]
-        UPDATE_SUPPLIER[🔗 Update SUPPLIER.md<br/>Strategic Analysis Refresh<br/>Market Position Review]
-        UPDATE_ASSETS[💻 Update Asset Register<br/>Service Classification<br/>Performance Metrics]
-        UPDATE_RISKS[📉 Update Risk Register<br/>Risk Status Assessment<br/>Treatment Effectiveness]
+        UPDATE_SUPPLIER["🔗 Update SUPPLIER.md<br/>Strategic Analysis Refresh<br/>Market Position Review"]
+        UPDATE_ASSETS["💻 Update Asset Register<br/>Service Classification<br/>Performance Metrics"]
+        UPDATE_RISKS["📉 Update Risk Register<br/>Risk Status Assessment<br/>Treatment Effectiveness"]
     end
     
     subgraph REVIEW["🔍 Evidence Review Cycles"]
-        WEEKLY[📅 Weekly Evidence<br/>Critical Supplier Status<br/>Incident Documentation]
-        MONTHLY[📊 Monthly Evidence<br/>Performance Analysis<br/>Cost Review]
-        QUARTERLY[📋 Quarterly Evidence<br/>Strategic Assessment<br/>Contract Review]
-        ANNUAL[📈 Annual Evidence<br/>Comprehensive Review<br/>Contract Renewal]
+        WEEKLY["📅 Weekly Evidence<br/>Critical Supplier Status<br/>Incident Documentation"]
+        MONTHLY["📊 Monthly Evidence<br/>Performance Analysis<br/>Cost Review"]
+        QUARTERLY["📋 Quarterly Evidence<br/>Strategic Assessment<br/>Contract Review"]
+        ANNUAL["📈 Annual Evidence<br/>Comprehensive Review<br/>Contract Renewal"]
     end
     
     CONTINUOUS --> DOCUMENTATION
@@ -938,25 +938,25 @@ Organizations SHALL manage supplier contracts through systematic processes docum
   }
 }%%
 flowchart TD
-    START[📋 Contract Review Trigger] --> ASSESS[📊 CEO Performance Assessment]
-    ASSESS --> MARKET[🏪 Market Analysis]
-    MARKET --> NEGOTIATE[🤝 CEO Negotiation Strategy]
+    START["📋 Contract Review Trigger"] --> ASSESS["📊 CEO Performance Assessment"]
+    ASSESS --> MARKET["🏪 Market Analysis"]
+    MARKET --> NEGOTIATE["🤝 CEO Negotiation Strategy"]
     
-    NEGOTIATE --> TERMS{💰 Terms Acceptable?}
-    TERMS -->|✅ Yes| EXECUTE[📄 Contract Execution]
-    TERMS -->|❌ No| ALTERNATIVE[🔄 Alternative Evaluation]
+    NEGOTIATE --> TERMS{"💰 Terms Acceptable?"}
+    TERMS -->|✅ Yes| EXECUTE["📄 Contract Execution"]
+    TERMS -->|❌ No| ALTERNATIVE["🔄 Alternative Evaluation"]
     
-    ALTERNATIVE --> SWITCH{🔄 Switch Supplier?}
-    SWITCH -->|✅ Yes| TRANSITION[🚚 Migration Planning]
+    ALTERNATIVE --> SWITCH{"🔄 Switch Supplier?"}
+    SWITCH -->|✅ Yes| TRANSITION["🚚 Migration Planning"]
     SWITCH -->|❌ No| NEGOTIATE
     
-    EXECUTE --> MONITOR[📈 Performance Monitoring]
-    TRANSITION --> ONBOARD[📝 New Supplier Assessment]
-    ONBOARD --> SUPPLIER_UPDATE[🔗 Update SUPPLIER.md]
-    SUPPLIER_UPDATE --> ASSET_ADD[💻 Add to Asset Register]
+    EXECUTE --> MONITOR["📈 Performance Monitoring"]
+    TRANSITION --> ONBOARD["📝 New Supplier Assessment"]
+    ONBOARD --> SUPPLIER_UPDATE["🔗 Update SUPPLIER.md"]
+    SUPPLIER_UPDATE --> ASSET_ADD["💻 Add to Asset Register"]
     ASSET_ADD --> MONITOR
     
-    MONITOR --> REVIEW[📅 Periodic Review]
+    MONITOR --> REVIEW["📅 Periodic Review"]
     REVIEW --> START
     
     style START fill:#4CAF50

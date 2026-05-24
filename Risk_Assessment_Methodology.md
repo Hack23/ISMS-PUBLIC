@@ -84,19 +84,19 @@ graph TD
     A[Risk Identification] --> B[Likelihood Assessment]
     A --> C[Impact Assessment]
     
-    B --> B1[🔥 Almost Certain: 90%<br/>Score: 0.9]
-    B --> B2[🎯 Likely: 70%<br/>Score: 0.7]
-    B --> B3[⚖️ Possible: 50%<br/>Score: 0.5]
-    B --> B4[🛡️ Unlikely: 30%<br/>Score: 0.3]
-    B --> B5[💎 Rare: 12%<br/>Score: 0.12]
-    B --> B6[🌟 Exceptional: 2%<br/>Score: 0.02]
+    B --> B1["🔥 Almost Certain: 90%<br/>Score: 0.9"]
+    B --> B2["🎯 Likely: 70%<br/>Score: 0.7"]
+    B --> B3["⚖️ Possible: 50%<br/>Score: 0.5"]
+    B --> B4["🛡️ Unlikely: 30%<br/>Score: 0.3"]
+    B --> B5["💎 Rare: 12%<br/>Score: 0.12"]
+    B --> B6["🌟 Exceptional: 2%<br/>Score: 0.02"]
     
-    C --> C1[🔥 Catastrophic: 6<br/>€50K+ impact]
-    C --> C2[🚨 Critical: 5<br/>€10K-50K impact]
-    C --> C3[⚠️ High: 4<br/>€1K-10K impact]
-    C --> C4[🟡 Moderate: 3<br/>€500-1K impact]
-    C --> C5[🟢 Low: 2<br/>€100-500 impact]
-    C --> C6[⚪ Minimal: 1<br/><€100 impact]
+    C --> C1["🔥 Catastrophic: 6<br/>€50K+ impact"]
+    C --> C2["🚨 Critical: 5<br/>€10K-50K impact"]
+    C --> C3["⚠️ High: 4<br/>€1K-10K impact"]
+    C --> C4["🟡 Moderate: 3<br/>€500-1K impact"]
+    C --> C5["🟢 Low: 2<br/>€100-500 impact"]
+    C --> C6["⚪ Minimal: 1<br/><€100 impact"]
     
     B1 --> D[Risk Score Calculation<br/>Probability × Impact × 100]
     B2 --> D
@@ -113,11 +113,11 @@ graph TD
     
     D --> E{Risk Level Assignment}
     
-    E -->|Score 400-600| F[🔴 Critical Risk<br/>Immediate action required]
-    E -->|Score 200-399| G[🟠 High Risk<br/>Priority mitigation needed]
-    E -->|Score 100-199| H[🟡 Medium Risk<br/>Planned controls required]
-    E -->|Score 50-99| I[🟢 Low Risk<br/>Monitor and accept]
-    E -->|Score 1-49| J[⚪ Minimal Risk<br/>Accept risk]
+    E -->|Score 400-600| F["🔴 Critical Risk<br/>Immediate action required"]
+    E -->|Score 200-399| G["🟠 High Risk<br/>Priority mitigation needed"]
+    E -->|Score 100-199| H["🟡 Medium Risk<br/>Planned controls required"]
+    E -->|Score 50-99| I["🟢 Low Risk<br/>Monitor and accept"]
+    E -->|Score 1-49| J["⚪ Minimal Risk<br/>Accept risk"]
     
     style F fill:#D32F2F,stroke:#c62828,stroke-width:3px
     style G fill:#FF9800,stroke:#F57C00,stroke-width:2px
@@ -183,19 +183,19 @@ Where:
 
 ```mermaid
 graph LR
-    A[📊 Historical Data<br/>3-5 years] --> B[📈 Probability Distribution<br/>Modeling]
+    A["📊 Historical Data<br/>3-5 years"] --> B["📈 Probability Distribution<br/>Modeling"]
     
-    C[🏢 Industry Benchmarks<br/>Sector Analysis] --> B
+    C["🏢 Industry Benchmarks<br/>Sector Analysis"] --> B
     
-    D[👨‍💼 Expert Assessment<br/>Scenario Analysis] --> B
+    D["👨‍💼 Expert Assessment<br/>Scenario Analysis"] --> B
     
-    B --> E[🎲 Monte Carlo<br/>Simulation<br/>10,000 iterations]
+    B --> E["🎲 Monte Carlo<br/>Simulation<br/>10,000 iterations"]
     
-    E --> F[💰 ALE Calculation<br/>with Confidence Bands]
+    E --> F["💰 ALE Calculation<br/>with Confidence Bands"]
     
-    F --> G[💹 Expected ALE<br/>50th percentile]
-    F --> H[🛡️ Conservative ALE<br/>95th percentile]
-    F --> I[🚨 Worst Case ALE<br/>99th percentile]
+    F --> G["💹 Expected ALE<br/>50th percentile"]
+    F --> H["🛡️ Conservative ALE<br/>95th percentile"]
+    F --> I["🚨 Worst Case ALE<br/>99th percentile"]
     
     style E fill:#1565C0,stroke:#1565C0,stroke-width:2px
     style F fill:#4CAF50,stroke:#388e3c,stroke-width:2px
@@ -438,25 +438,25 @@ Task agents perform continuous risk discovery through systematic repository and 
 
 ```mermaid
 flowchart TD
-    ANALYSIS[📊 Task Agent Repository Analysis] --> PENTAGON{🏆 Pentagon Dimension<br>Assignment}
+    ANALYSIS["📊 Task Agent Repository Analysis"] --> PENTAGON{"🏆 Pentagon Dimension<br>Assignment"}
     
-    PENTAGON -->|Security| SEC_RISK[🔒 Security Risk Identified]
-    PENTAGON -->|Quality| QUAL_RISK[✨ Quality Risk Identified]
-    PENTAGON -->|Functionality| FUNC_RISK[🚀 Functionality Risk Identified]
-    PENTAGON -->|QA| QA_RISK[🧪 QA Risk Identified]
-    PENTAGON -->|ISMS Controls| ISMS_RISK[📋 ISMS Control Gap Identified]
+    PENTAGON -->|Security| SEC_RISK["🔒 Security Risk Identified"]
+    PENTAGON -->|Quality| QUAL_RISK["✨ Quality Risk Identified"]
+    PENTAGON -->|Functionality| FUNC_RISK["🚀 Functionality Risk Identified"]
+    PENTAGON -->|QA| QA_RISK["🧪 QA Risk Identified"]
+    PENTAGON -->|ISMS Controls| ISMS_RISK["📋 ISMS Control Gap Identified"]
     
-    SEC_RISK --> SCORE[📊 Agent Risk Scoring<br>Likelihood × Impact × 100]
+    SEC_RISK --> SCORE["📊 Agent Risk Scoring<br>Likelihood × Impact × 100"]
     QUAL_RISK --> SCORE
     FUNC_RISK --> SCORE
     QA_RISK --> SCORE
     ISMS_RISK --> SCORE
     
-    SCORE --> CRITICAL{🚨 Critical Risk?<br>Score > 400}
-    CRITICAL -->|Yes| HUMAN[👨‍💼 CEO Immediate Assessment]
-    CRITICAL -->|No| REGISTER[📋 Automated Risk Register Entry]
+    SCORE --> CRITICAL{"🚨 Critical Risk?<br>Score > 400"}
+    CRITICAL -->|Yes| HUMAN["👨‍💼 CEO Immediate Assessment"]
+    CRITICAL -->|No| REGISTER["📋 Automated Risk Register Entry"]
     
-    REGISTER --> ASSIGN[👷 Specialist Agent Assignment]
+    REGISTER --> ASSIGN["👷 Specialist Agent Assignment"]
     HUMAN --> REGISTER
     
     style ANALYSIS fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#ffffff

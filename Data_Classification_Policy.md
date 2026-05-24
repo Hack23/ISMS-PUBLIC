@@ -74,28 +74,28 @@ Our data classification directly implements the [🏷️ Classification Framewor
 }%%
 flowchart TD
     subgraph CIA["🔐 CIA Triad Assessment"]
-        CONF[🔒 Confidentiality<br/>Public to Extreme]
-        INTEG[✅ Integrity<br/>Low to Critical]
-        AVAIL[⚡ Availability<br/>Standard to Mission Critical]
+        CONF["🔒 Confidentiality<br/>Public to Extreme"]
+        INTEG["✅ Integrity<br/>Low to Critical"]
+        AVAIL["⚡ Availability<br/>Standard to Mission Critical"]
     end
     
     subgraph IMPACT["📊 Business Impact Analysis"]
-        FIN[💰 Financial Impact<br/>Negligible to Very High]
-        OPS[⚙️ Operational Impact<br/>No Impact to Critical]
-        REP[🤝 Reputational Impact<br/>No Impact to Critical]
-        REG[⚖️ Regulatory Impact<br/>No Impact to Critical]
+        FIN["💰 Financial Impact<br/>Negligible to Very High"]
+        OPS["⚙️ Operational Impact<br/>No Impact to Critical"]
+        REP["🤝 Reputational Impact<br/>No Impact to Critical"]
+        REG["⚖️ Regulatory Impact<br/>No Impact to Critical"]
     end
     
     subgraph RECOVERY["🔄 Recovery Requirements"]
-        RTO[⏰ Recovery Time<br/>Instant to Standard]
-        RPO[💾 Recovery Point<br/>Zero Loss to Extended]
+        RTO["⏰ Recovery Time<br/>Instant to Standard"]
+        RPO["💾 Recovery Point<br/>Zero Loss to Extended"]
     end
     
     subgraph CONTROLS["🛡️ Security Controls"]
-        ENCRYPTION[🔒 Encryption Level]
-        ACCESS[🔑 Access Control]
-        MONITORING[📊 Monitoring Level]
-        BACKUP[💾 Backup Strategy]
+        ENCRYPTION["🔒 Encryption Level"]
+        ACCESS["🔑 Access Control"]
+        MONITORING["📊 Monitoring Level"]
+        BACKUP["💾 Backup Strategy"]
     end
     
     CONF --> ENCRYPTION
@@ -150,33 +150,33 @@ Implementation of confidentiality controls per [🏷️ Classification Framework
 }%%
 graph TD
     subgraph EXTREME["🔴 Extreme Classification"]
-        HSM[🔐 Hardware Security Modules]
-        AIRGAP[🏝️ Air-Gapped Systems]
-        BIOMETRIC[👁️ Biometric Authentication]
+        HSM["🔐 Hardware Security Modules"]
+        AIRGAP["🏝️ Air-Gapped Systems"]
+        BIOMETRIC["👁️ Biometric Authentication"]
     end
     
     subgraph VERYHIGH["🔵 Very High Classification"]
-        CMK[🔑 Customer Managed Keys]
-        MFA[🛡️ Multi-Factor Authentication]
-        AUDIT[📋 Comprehensive Audit Logging]
+        CMK["🔑 Customer Managed Keys"]
+        MFA["🛡️ Multi-Factor Authentication"]
+        AUDIT["📋 Comprehensive Audit Logging"]
     end
     
     subgraph HIGH["🟡 High Classification"]
-        AES256[🔒 AES-256 Encryption]
-        RBAC[👥 Role-Based Access Control]
-        MONITORING[📊 Activity Monitoring]
+        AES256["🔒 AES-256 Encryption"]
+        RBAC["👥 Role-Based Access Control"]
+        MONITORING["📊 Activity Monitoring"]
     end
     
     subgraph MODERATE["🟠 Moderate Classification"]
-        STANDARD[🔐 Standard Encryption]
-        BASIC[🔑 Basic Access Control]
-        LOGGING[📝 Standard Logging]
+        STANDARD["🔐 Standard Encryption"]
+        BASIC["🔑 Basic Access Control"]
+        LOGGING["📝 Standard Logging"]
     end
     
     subgraph LOW["🟢 Low/Public Classification"]
-        MINIMAL[🔓 Minimal Protection]
-        INTEGRITY[✅ Integrity Verification]
-        PUBLIC[🌟 Public Disclosure Ready]
+        MINIMAL["🔓 Minimal Protection"]
+        INTEGRITY["✅ Integrity Verification"]
+        PUBLIC["🌟 Public Disclosure Ready"]
     end
     
     style EXTREME fill:#D32F2F
@@ -389,26 +389,26 @@ Based on [🏷️ Classification Framework](./CLASSIFICATION.md#rpo-classificati
   }
 }%%
 flowchart TD
-    START[📝 Data Creation/Receipt] --> IDENTIFY[🔍 Data Identification]
-    IDENTIFY --> CIA_ASSESS[🔐 CIA Assessment]
-    CIA_ASSESS --> IMPACT_ASSESS[📊 Business Impact Assessment]
-    IMPACT_ASSESS --> RECOVERY_ASSESS[🔄 Recovery Assessment]
-    RECOVERY_ASSESS --> CLASSIFY{🏷️ Classification Decision}
+    START["📝 Data Creation/Receipt"] --> IDENTIFY["🔍 Data Identification"]
+    IDENTIFY --> CIA_ASSESS["🔐 CIA Assessment"]
+    CIA_ASSESS --> IMPACT_ASSESS["📊 Business Impact Assessment"]
+    IMPACT_ASSESS --> RECOVERY_ASSESS["🔄 Recovery Assessment"]
+    RECOVERY_ASSESS --> CLASSIFY{"🏷️ Classification Decision"}
     
-    CLASSIFY -->|Extreme/Very High| CRITICAL_HANDLE[🔴 Critical Handling]
-    CLASSIFY -->|High/Moderate| STANDARD_HANDLE[🟡 Standard Handling]
-    CLASSIFY -->|Low/Public| BASIC_HANDLE[🟢 Basic Handling]
+    CLASSIFY -->|Extreme/Very High| CRITICAL_HANDLE["🔴 Critical Handling"]
+    CLASSIFY -->|High/Moderate| STANDARD_HANDLE["🟡 Standard Handling"]
+    CLASSIFY -->|Low/Public| BASIC_HANDLE["🟢 Basic Handling"]
     
-    CRITICAL_HANDLE --> LABEL[🏷️ Apply Labels]
+    CRITICAL_HANDLE --> LABEL["🏷️ Apply Labels"]
     STANDARD_HANDLE --> LABEL
     BASIC_HANDLE --> LABEL
     
-    LABEL --> CONTROLS[🛡️ Apply Controls]
-    CONTROLS --> MONITOR[📊 Monitor & Review]
-    MONITOR --> REVIEW{🔍 Periodic Review}
+    LABEL --> CONTROLS["🛡️ Apply Controls"]
+    CONTROLS --> MONITOR["📊 Monitor & Review"]
+    MONITOR --> REVIEW{"🔍 Periodic Review"}
     
     REVIEW -->|Changes Required| IDENTIFY
-    REVIEW -->|No Changes| CONTINUE[✅ Continue Current Classification]
+    REVIEW -->|No Changes| CONTINUE["✅ Continue Current Classification"]
     
     style START fill:#1565C0
     style CLASSIFY fill:#FFC107
@@ -509,21 +509,21 @@ Physical documents require clear classification markings:
 }%%
 flowchart LR
     subgraph DIGITAL["💾 Digital Data Disposal"]
-        CRYPTO[🔒 Cryptographic Erasure]
-        OVERWRITE[📝 Multi-Pass Overwrite]
-        PHYSICAL[🔨 Physical Destruction]
+        CRYPTO["🔒 Cryptographic Erasure"]
+        OVERWRITE["📝 Multi-Pass Overwrite"]
+        PHYSICAL["🔨 Physical Destruction"]
     end
     
     subgraph PHYSICAL_DOC["📄 Physical Document Disposal"]
-        SHRED[🗃️ Cross-Cut Shredding]
-        INCINERATE[🔥 Incineration]
-        PULP[♻️ Pulping]
+        SHRED["🗃️ Cross-Cut Shredding"]
+        INCINERATE["🔥 Incineration"]
+        PULP["♻️ Pulping"]
     end
     
     subgraph VERIFICATION["✅ Disposal Verification"]
-        CERTIFICATE[📜 Disposal Certificate]
-        AUDIT[📋 Audit Trail]
-        COMPLIANCE[⚖️ Compliance Check]
+        CERTIFICATE["📜 Disposal Certificate"]
+        AUDIT["📋 Audit Trail"]
+        COMPLIANCE["⚖️ Compliance Check"]
     end
     
     CRYPTO --> CERTIFICATE
@@ -617,19 +617,19 @@ Implementation of ISO 27001 A.8.11 (Data masking) for production data protection
   }
 }%%
 flowchart TD
-    PROD[🔒 Production Data<br/>Sensitive Information]
+    PROD["🔒 Production Data<br/>Sensitive Information"]
     
     subgraph MASKING["🎭 Masking Techniques"]
-        STATIC[📝 Static Masking<br/>Permanent replacement]
-        DYNAMIC[⚡ Dynamic Masking<br/>Runtime obfuscation]
-        TOKENIZE[🔑 Tokenization<br/>Reversible substitution]
+        STATIC["📝 Static Masking<br/>Permanent replacement"]
+        DYNAMIC["⚡ Dynamic Masking<br/>Runtime obfuscation"]
+        TOKENIZE["🔑 Tokenization<br/>Reversible substitution"]
     end
     
     subgraph ENVIRONMENTS["🧪 Target Environments"]
-        DEV[💻 Development<br/>Fully masked]
-        TEST[🧪 Testing<br/>Format-preserved]
-        STAGE[📊 Staging<br/>Realistic but fake]
-        ANALYTICS[📈 Analytics<br/>Anonymized]
+        DEV["💻 Development<br/>Fully masked"]
+        TEST["🧪 Testing<br/>Format-preserved"]
+        STAGE["📊 Staging<br/>Realistic but fake"]
+        ANALYTICS["📈 Analytics<br/>Anonymized"]
     end
     
     PROD --> STATIC
@@ -797,22 +797,22 @@ Based on [🤝 Third Party Management](./Third_Party_Management.md) classificati
 }%%
 flowchart TD
     subgraph ASSESSMENT["📊 Risk Assessment"]
-        CLASSIFY[🏷️ Data Classification]
-        SUPPLIER[🤝 Supplier Risk Rating]
-        LEGAL[⚖️ Legal Requirements]
+        CLASSIFY["🏷️ Data Classification"]
+        SUPPLIER["🤝 Supplier Risk Rating"]
+        LEGAL["⚖️ Legal Requirements"]
     end
     
     subgraph CONTRACT["📝 Contract Terms"]
-        PURPOSE[🎯 Processing Purpose]
-        CONTROLS[🛡️ Security Controls]
-        RETENTION[📅 Retention Limits]
-        AUDIT[🔍 Audit Rights]
+        PURPOSE["🎯 Processing Purpose"]
+        CONTROLS["🛡️ Security Controls"]
+        RETENTION["📅 Retention Limits"]
+        AUDIT["🔍 Audit Rights"]
     end
     
     subgraph MONITORING["📊 Ongoing Monitoring"]
-        COMPLIANCE[✅ Compliance Checks]
-        INCIDENTS[🚨 Incident Reporting]
-        REVIEWS[🔄 Regular Reviews]
+        COMPLIANCE["✅ Compliance Checks"]
+        INCIDENTS["🚨 Incident Reporting"]
+        REVIEWS["🔄 Regular Reviews"]
     end
     
     CLASSIFY --> PURPOSE
@@ -861,28 +861,28 @@ All personal data is classified using the comprehensive [🏷️ Privacy Levels]
   }
 }%%
 flowchart TD
-    START[📊 Data Received/Created] --> IDENTIFY[🔍 Identify Data Type]
+    START["📊 Data Received/Created"] --> IDENTIFY["🔍 Identify Data Type"]
     
-    IDENTIFY --> GDPR_CHECK{🇪🇺 Contains Personal Data?}
+    IDENTIFY --> GDPR_CHECK{"🇪🇺 Contains Personal Data?"}
     
-    GDPR_CHECK -->|❌ No| NON_PERSONAL[🟢 Non-Personal Data<br/>Privacy: NA]
-    GDPR_CHECK -->|✅ Yes| PERSONAL_CHECK{👤 Type of Personal Data?}
+    GDPR_CHECK -->|❌ No| NON_PERSONAL["🟢 Non-Personal Data<br/>Privacy: NA"]
+    GDPR_CHECK -->|✅ Yes| PERSONAL_CHECK{"👤 Type of Personal Data?"}
     
-    PERSONAL_CHECK --> SPECIAL{🚨 Art. 9 Special Category?}
-    PERSONAL_CHECK --> IDENTIFIER{🆔 Direct Identifier?}
-    PERSONAL_CHECK --> BEHAVIORAL{📊 Behavioral/Preference?}
+    PERSONAL_CHECK --> SPECIAL{"🚨 Art. 9 Special Category?"}
+    PERSONAL_CHECK --> IDENTIFIER{"🆔 Direct Identifier?"}
+    PERSONAL_CHECK --> BEHAVIORAL{"📊 Behavioral/Preference?"}
     
-    SPECIAL -->|✅ Yes| SPECIAL_CAT[🔴 Special Category Data<br/>Health, Biometric, etc.]
-    IDENTIFIER -->|✅ Yes| PERS_ID[🔴 Personal Identifier<br/>Name, Email, SSN, IP]
-    BEHAVIORAL -->|✅ Yes| PERSONAL[🟠 Personal Data<br/>Activity, Preferences]
+    SPECIAL -->|✅ Yes| SPECIAL_CAT["🔴 Special Category Data<br/>Health, Biometric, etc."]
+    IDENTIFIER -->|✅ Yes| PERS_ID["🔴 Personal Identifier<br/>Name, Email, SSN, IP"]
+    BEHAVIORAL -->|✅ Yes| PERSONAL["🟠 Personal Data<br/>Activity, Preferences"]
     
-    SPECIAL_CAT --> PROTECT_SPECIAL[🛡️ Highest Protection<br/>Explicit Consent + Legal Basis]
-    PERS_ID --> PROTECT_HIGH[🛡️ High Protection<br/>Encryption, Access Control]
-    PERSONAL --> PROTECT_STANDARD[🛡️ Standard Protection<br/>GDPR Compliance]
+    SPECIAL_CAT --> PROTECT_SPECIAL["🛡️ Highest Protection<br/>Explicit Consent + Legal Basis"]
+    PERS_ID --> PROTECT_HIGH["🛡️ High Protection<br/>Encryption, Access Control"]
+    PERSONAL --> PROTECT_STANDARD["🛡️ Standard Protection<br/>GDPR Compliance"]
     
-    IDENTIFY --> PSEUDO_CHECK{🎭 Can Pseudonymize?}
-    PSEUDO_CHECK -->|✅ Yes| PSEUDO[🟡 Pseudonymized Data<br/>Key Separation]
-    PSEUDO_CHECK -->|❌ Keep Anonymous| ANON[🟢 Anonymized Data<br/>Aggregated/Statistical]
+    IDENTIFY --> PSEUDO_CHECK{"🎭 Can Pseudonymize?"}
+    PSEUDO_CHECK -->|✅ Yes| PSEUDO["🟡 Pseudonymized Data<br/>Key Separation"]
+    PSEUDO_CHECK -->|❌ Keep Anonymous| ANON["🟢 Anonymized Data<br/>Aggregated/Statistical"]
     
     classDef startStyle fill:#1565C0,stroke:#0D47A1,color:#fff
     classDef decisionStyle fill:#FF9800,stroke:#F57C00,color:#fff
@@ -952,28 +952,28 @@ Rights enforcement procedures per privacy classification:
   }
 }%%
 flowchart LR
-    REQUEST[📧 Data Subject Request] --> VERIFY[🔍 Identity Verification]
+    REQUEST["📧 Data Subject Request"] --> VERIFY["🔍 Identity Verification"]
     
-    VERIFY --> CLASSIFY{🏷️ Data Classification?}
+    VERIFY --> CLASSIFY{"🏷️ Data Classification?"}
     
-    CLASSIFY -->|🔴 Special/Identifier| PRIORITY[⚡ High Priority<br/>15 day target]
-    CLASSIFY -->|🟠 Personal| STANDARD[📅 Standard Process<br/>30 day target]
-    CLASSIFY -->|🟡 Pseudonymized| COMPLEX[🔍 Re-identification Check<br/>30-60 day target]
+    CLASSIFY -->|🔴 Special/Identifier| PRIORITY["⚡ High Priority<br/>15 day target"]
+    CLASSIFY -->|🟠 Personal| STANDARD["📅 Standard Process<br/>30 day target"]
+    CLASSIFY -->|🟡 Pseudonymized| COMPLEX["🔍 Re-identification Check<br/>30-60 day target"]
     
-    PRIORITY --> FULFILL[✅ Fulfill Request]
+    PRIORITY --> FULFILL["✅ Fulfill Request"]
     STANDARD --> FULFILL
     COMPLEX --> FULFILL
     
-    FULFILL --> ACCESS{📋 Request Type?}
+    FULFILL --> ACCESS{"📋 Request Type?"}
     
-    ACCESS -->|📥 Access| EXPORT[📦 Data Export]
-    ACCESS -->|✏️ Rectification| UPDATE[🔄 Data Update]
-    ACCESS -->|🗑️ Erasure| DELETE[❌ Data Deletion]
-    ACCESS -->|⏸️ Restriction| RESTRICT[🔒 Processing Restriction]
-    ACCESS -->|📤 Portability| PORT[📊 Machine-Readable Export]
-    ACCESS -->|❌ Object| STOP[🛑 Stop Processing]
+    ACCESS -->|📥 Access| EXPORT["📦 Data Export"]
+    ACCESS -->|✏️ Rectification| UPDATE["🔄 Data Update"]
+    ACCESS -->|🗑️ Erasure| DELETE["❌ Data Deletion"]
+    ACCESS -->|⏸️ Restriction| RESTRICT["🔒 Processing Restriction"]
+    ACCESS -->|📤 Portability| PORT["📊 Machine-Readable Export"]
+    ACCESS -->|❌ Object| STOP["🛑 Stop Processing"]
     
-    EXPORT --> RESPOND[📧 Response to Data Subject]
+    EXPORT --> RESPOND["📧 Response to Data Subject"]
     UPDATE --> RESPOND
     DELETE --> RESPOND
     RESTRICT --> RESPOND

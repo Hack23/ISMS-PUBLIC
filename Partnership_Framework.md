@@ -121,24 +121,24 @@ Our partnership model follows a tiered approach aligned with [🏷️ Classifica
 }%%
 graph TB
     subgraph TIERS["🎯 Partnership Tiers"]
-        TIER1[🔴 Tier 1: Strategic Partners<br/>Long-term Collaboration<br/>Quarterly Executive Review]
-        TIER2[🟠 Tier 2: Technology Partners<br/>Product Integration<br/>Semi-Annual Review]
-        TIER3[🟡 Tier 3: Referral Partners<br/>Lead Exchange<br/>Annual Review]
-        TIER4[🟢 Tier 4: Overflow Partners<br/>Emergency Capacity<br/>As-needed Activation]
+        TIER1["🔴 Tier 1: Strategic Partners<br/>Long-term Collaboration<br/>Quarterly Executive Review"]
+        TIER2["🟠 Tier 2: Technology Partners<br/>Product Integration<br/>Semi-Annual Review"]
+        TIER3["🟡 Tier 3: Referral Partners<br/>Lead Exchange<br/>Annual Review"]
+        TIER4["🟢 Tier 4: Overflow Partners<br/>Emergency Capacity<br/>As-needed Activation"]
     end
     
     subgraph TYPES["📋 Partnership Types"]
-        STRATEGIC[🤝 Strategic Partnerships<br/>• Shared clients<br/>• Joint ventures<br/>• Co-marketing<br/>• Revenue sharing]
-        TECH[🔌 Technology Partnerships<br/>• API integration<br/>• Co-developed tools<br/>• Platform synergies<br/>• Joint IP ownership]
-        REFERRAL[📢 Referral Partnerships<br/>• Lead exchange<br/>• Commission model<br/>• Network expansion<br/>• Cross-promotion]
-        OVERFLOW[⚡ Overflow Partnerships<br/>• Capacity support<br/>• Emergency delivery<br/>• Quality assurance<br/>• Client continuity]
+        STRATEGIC["🤝 Strategic Partnerships<br/>• Shared clients<br/>• Joint ventures<br/>• Co-marketing<br/>• Revenue sharing"]
+        TECH["🔌 Technology Partnerships<br/>• API integration<br/>• Co-developed tools<br/>• Platform synergies<br/>• Joint IP ownership"]
+        REFERRAL["📢 Referral Partnerships<br/>• Lead exchange<br/>• Commission model<br/>• Network expansion<br/>• Cross-promotion"]
+        OVERFLOW["⚡ Overflow Partnerships<br/>• Capacity support<br/>• Emergency delivery<br/>• Quality assurance<br/>• Client continuity"]
     end
     
     subgraph VALUE["💼 Business Value"]
-        CONTINUITY[🔄 Business Continuity<br/>RTO: 4 hours<br/>RPO: 1 hour]
-        CAPACITY[📈 Capacity Scaling<br/>2-3x project volume<br/>Larger engagements]
-        REVENUE[💰 Revenue Growth<br/>30% partnership revenue<br/>2027 target]
-        RISK[🛡️ Risk Mitigation<br/>R-FOUNDER-001<br/>Score: 480 → 180]
+        CONTINUITY["🔄 Business Continuity<br/>RTO: 4 hours<br/>RPO: 1 hour"]
+        CAPACITY["📈 Capacity Scaling<br/>2-3x project volume<br/>Larger engagements"]
+        REVENUE["💰 Revenue Growth<br/>30% partnership revenue<br/>2027 target"]
+        RISK["🛡️ Risk Mitigation<br/>R-FOUNDER-001<br/>Score: 480 → 180"]
     end
     
     TIER1 --> STRATEGIC
@@ -730,8 +730,8 @@ Detailed workflow for activating overflow partners during capacity constraints o
 flowchart TD
     TRIGGER([Overflow Trigger<br/>Detected]) --> ASSESS{Capacity<br/>Assessment}
     
-    ASSESS -->|Emergency| EMERGENCY[🔴 Emergency Protocol<br/>Response: 4 hours<br/>CEO unavailable]
-    ASSESS -->|Planned| PLANNED[🟡 Planned Overflow<br/>Response: 48 hours<br/>Capacity exceeded]
+    ASSESS -->|Emergency| EMERGENCY["🔴 Emergency Protocol<br/>Response: 4 hours<br/>CEO unavailable"]
+    ASSESS -->|Planned| PLANNED["🟡 Planned Overflow<br/>Response: 48 hours<br/>Capacity exceeded"]
     
     EMERGENCY --> SELECT_E[Partner Selection:<br/>• Check availability<br/>• Verify competency<br/>• Emergency contact]
     PLANNED --> SELECT_P[Partner Selection:<br/>• Match skills to need<br/>• Review availability<br/>• Capacity planning]

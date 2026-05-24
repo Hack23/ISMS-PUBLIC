@@ -360,22 +360,22 @@ Hack23 AB's curated agent ecosystem (per [🔐 Information Security Strategy](./
   }
 }%%
 flowchart TD
-    BUILD[🔨 Build Process<br/>GitHub Actions Workflow] --> SBOM_GEN[📦 SBOM Generation<br/>Workflow: FOSSA + Dependency Graph]
-    SBOM_GEN --> AGENT_REVIEW[🤖 Task Agent<br/>SBOM Validation & Gap Detection]
+    BUILD["🔨 Build Process<br/>GitHub Actions Workflow"] --> SBOM_GEN["📦 SBOM Generation<br/>Workflow: FOSSA + Dependency Graph"]
+    SBOM_GEN --> AGENT_REVIEW["🤖 Task Agent<br/>SBOM Validation & Gap Detection"]
     
-    AGENT_REVIEW --> VULN_SCAN[🔍 Vulnerability Scanning<br/>Workflow: Dependabot + GitHub Security]
-    VULN_SCAN --> AGENT_TRIAGE[🤖 Agent Triage<br/>CRA Disclosure Requirements]
+    AGENT_REVIEW --> VULN_SCAN["🔍 Vulnerability Scanning<br/>Workflow: Dependabot + GitHub Security"]
+    VULN_SCAN --> AGENT_TRIAGE["🤖 Agent Triage<br/>CRA Disclosure Requirements"]
     
-    AGENT_TRIAGE --> SLSA[🎖️ SLSA Attestation<br/>Workflow: Automated Level 3]
-    SLSA --> EVIDENCE[📊 GitHub Actions<br/>Evidence Package Consolidation]
+    AGENT_TRIAGE --> SLSA["🎖️ SLSA Attestation<br/>Workflow: Automated Level 3"]
+    SLSA --> EVIDENCE["📊 GitHub Actions<br/>Evidence Package Consolidation"]
     
-    EVIDENCE --> CE{✅ CE Marking<br/>Ready?}
-    CE -->|Yes| APPROVAL[👨‍💼 CEO Final Approval]
-    CE -->|No| GAP[📋 Compliance Gap<br/>Agent Issue Creation]
+    EVIDENCE --> CE{"✅ CE Marking<br/>Ready?"}
+    CE -->|Yes| APPROVAL["👨‍💼 CEO Final Approval"]
+    CE -->|No| GAP["📋 Compliance Gap<br/>Agent Issue Creation"]
     
-    GAP --> REMEDIATE[👷 Specialist Agent<br/>Gap Remediation]
+    GAP --> REMEDIATE["👷 Specialist Agent<br/>Gap Remediation"]
     REMEDIATE --> SBOM_GEN
-    APPROVAL --> PUBLISH[🌐 CE Marking Published]
+    APPROVAL --> PUBLISH["🌐 CE Marking Published"]
     
     style BUILD fill:#1565C0,color:#fff
     style SBOM_GEN fill:#4CAF50,color:#fff
@@ -447,18 +447,18 @@ flowchart TD
   }
 }%%
 flowchart LR
-    DETECT[🔍 Gap Detection<br/>Task Agent] --> CLASSIFY{📊 Severity?}
-    CLASSIFY -->|Low-Medium| AUTO[🤖 Automated Fix<br/>Specialist Agent]
-    CLASSIFY -->|High| REVIEW[👨‍💼 CEO Review<br/>Manual Decision]
-    CLASSIFY -->|Critical| ESCALATE[🚨 Immediate Escalation<br/>CEO + Issue Creation]
+    DETECT["🔍 Gap Detection<br/>Task Agent"] --> CLASSIFY{"📊 Severity?"}
+    CLASSIFY -->|Low-Medium| AUTO["🤖 Automated Fix<br/>Specialist Agent"]
+    CLASSIFY -->|High| REVIEW["👨‍💼 CEO Review<br/>Manual Decision"]
+    CLASSIFY -->|Critical| ESCALATE["🚨 Immediate Escalation<br/>CEO + Issue Creation"]
     
-    AUTO --> PR[📝 Pull Request<br/>Automated Evidence]
-    REVIEW --> DECISION{✅ Approve?}
+    AUTO --> PR["📝 Pull Request<br/>Automated Evidence"]
+    REVIEW --> DECISION{"✅ Approve?"}
     DECISION -->|Yes| PR
-    DECISION -->|No| MANUAL[👷 Manual Remediation]
+    DECISION -->|No| MANUAL["👷 Manual Remediation"]
     ESCALATE --> MANUAL
     
-    PR --> MERGE[✅ Merge + Evidence Update]
+    PR --> MERGE["✅ Merge + Evidence Update"]
     MANUAL --> MERGE
     
     style DETECT fill:#1565C0,color:#fff
@@ -513,15 +513,15 @@ Hack23 AB's AI agent ecosystem must comply with EU AI Act transparency obligatio
   }
 }%%
 flowchart TD
-    AGENT[🤖 AI Agent<br/>Compliance Analysis] --> GENERATE[📋 Evidence Generation<br/>Automated Collection]
-    GENERATE --> REVIEW[👨‍💼 CEO Review<br/>Human Validation]
+    AGENT["🤖 AI Agent<br/>Compliance Analysis"] --> GENERATE["📋 Evidence Generation<br/>Automated Collection"]
+    GENERATE --> REVIEW["👨‍💼 CEO Review<br/>Human Validation"]
     
-    REVIEW --> APPROVE{✅ Approve<br/>Evidence?}
-    APPROVE -->|Yes| SIGN[✍️ CEO Sign-off<br/>Compliance Attestation]
-    APPROVE -->|No| CORRECT[🔧 Correction<br/>Manual Adjustment]
+    REVIEW --> APPROVE{"✅ Approve<br/>Evidence?"}
+    APPROVE -->|Yes| SIGN["✍️ CEO Sign-off<br/>Compliance Attestation"]
+    APPROVE -->|No| CORRECT["🔧 Correction<br/>Manual Adjustment"]
     
     CORRECT --> GENERATE
-    SIGN --> PUBLISH[🌐 CE Marking<br/>Public Declaration]
+    SIGN --> PUBLISH["🌐 CE Marking<br/>Public Declaration"]
     
     style AGENT fill:#FF9800,color:#fff
     style GENERATE fill:#1565C0,color:#fff

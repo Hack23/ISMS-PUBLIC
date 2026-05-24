@@ -86,7 +86,7 @@ Mobile devices bypass perimeters. They roam networks. They install apps. They ge
   }
 }%%
 mindmap
-  root((📱 Mobile Security))
+  root(("📱 Mobile Security"))
     Reality
       Personal Devices
       BYOD is Mandatory
@@ -153,7 +153,7 @@ flowchart LR
     G --> I[Verify Policy Compliance]
     H --> I
     I --> J[Add to Asset Register]
-    J --> K[✅ Device Enrolled]
+    J --> K["✅ Device Enrolled"]
     
     style A fill:#FFC107
     style K fill:#4CAF50
@@ -359,7 +359,7 @@ flowchart TD
     P -->|Discard| R[Physical Destruction]
     Q --> S[Update Asset Register]
     R --> S
-    S --> T[✅ Lifecycle Complete]
+    S --> T["✅ Lifecycle Complete"]
     
     style A fill:#4CAF50
     style T fill:#2E7D32

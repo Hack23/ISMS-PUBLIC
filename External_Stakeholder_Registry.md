@@ -71,31 +71,31 @@ This registry covers:
 }%%
 flowchart TD
     subgraph NATIONAL["🇸🇪 National Authorities"]
-        MCF[🛡️ MCF<br/>Swedish Civil Defence<br/>Cybersecurity Authority]
-        PTS[📡 PTS<br/>Post & Telecom Authority<br/>NIS2 Supervision]
-        IMY[🔒 IMY<br/>Privacy Protection Authority<br/>GDPR Supervision]
-        SKAT[💰 Skatteverket<br/>Swedish Tax Agency<br/>Business Registration]
+        MCF["🛡️ MCF<br/>Swedish Civil Defence<br/>Cybersecurity Authority"]
+        PTS["📡 PTS<br/>Post & Telecom Authority<br/>NIS2 Supervision"]
+        IMY["🔒 IMY<br/>Privacy Protection Authority<br/>GDPR Supervision"]
+        SKAT["💰 Skatteverket<br/>Swedish Tax Agency<br/>Business Registration"]
     end
     
     subgraph EU["🇪🇺 EU Authorities"]
-        ENISA[🏛️ ENISA<br/>EU Cybersecurity Agency<br/>Strategic Guidance]
-        EU_AI[🤖 EC DG CONNECT<br/>AI Governance<br/>EU AI Act Implementation]
-        AI_OFFICE[🇪🇺 EU AI Office<br/>AI Act Enforcement<br/>Cross-border Coordination]
+        ENISA["🏛️ ENISA<br/>EU Cybersecurity Agency<br/>Strategic Guidance"]
+        EU_AI["🤖 EC DG CONNECT<br/>AI Governance<br/>EU AI Act Implementation"]
+        AI_OFFICE["🇪🇺 EU AI Office<br/>AI Act Enforcement<br/>Cross-border Coordination"]
     end
     
     subgraph SERVICES["📋 Services & Contact"]
-        CYBER[🚨 Cybersecurity Incidents]
-        PRIVACY[🔐 Data Breaches]
-        TAX[💼 Business Reporting]
-        TELECOM[📶 Telecom Incidents]
-        AI_INCIDENT[🤖 AI Incidents]
-        AI_COMPLIANCE[📋 AI Compliance]
+        CYBER["🚨 Cybersecurity Incidents"]
+        PRIVACY["🔐 Data Breaches"]
+        TAX["💼 Business Reporting"]
+        TELECOM["📶 Telecom Incidents"]
+        AI_INCIDENT["🤖 AI Incidents"]
+        AI_COMPLIANCE["📋 AI Compliance"]
     end
     
     subgraph RESPONSE["⚡ Response Times"]
-        IMMEDIATE[🔴 Immediate<br/><4 hours]
-        URGENT[🟠 Urgent<br/><24 hours]
-        STANDARD[🟡 Standard<br/><72 hours]
+        IMMEDIATE["🔴 Immediate<br/><4 hours"]
+        URGENT["🟠 Urgent<br/><24 hours"]
+        STANDARD["🟡 Standard<br/><72 hours"]
     end
     
     MCF --> CYBER
@@ -345,27 +345,27 @@ flowchart TD
 }%%
 graph TD
     subgraph INTL["🌍 International Organizations"]
-        ISACA[🎓 ISACA<br/>Information Systems Audit<br/>CISM Certification - MEMBER]
-        ISC2[🛡️ ISC2<br/>Information Security<br/>CISSP Certification - MEMBER]
-        SIGSEC[🔐 Special Interest Group Security<br/>Academic Research Network - MEMBER]
-        PAI[🤖 Partnership on AI<br/>AI Governance & Ethics<br/>Observer - Monitoring Only]
-        AI_SEC[🛡️ AI Security Alliance<br/>AI-Specific Security<br/>Observer - Monitoring Only]
-        OSPO_ALLIANCE[🔓 OSPO Alliance<br/>European OSPO Network<br/>OSPO OnRamp - MEMBER]
+        ISACA["🎓 ISACA<br/>Information Systems Audit<br/>CISM Certification - MEMBER"]
+        ISC2["🛡️ ISC2<br/>Information Security<br/>CISSP Certification - MEMBER"]
+        SIGSEC["🔐 Special Interest Group Security<br/>Academic Research Network - MEMBER"]
+        PAI["🤖 Partnership on AI<br/>AI Governance & Ethics<br/>Observer - Monitoring Only"]
+        AI_SEC["🛡️ AI Security Alliance<br/>AI-Specific Security<br/>Observer - Monitoring Only"]
+        OSPO_ALLIANCE["🔓 OSPO Alliance<br/>European OSPO Network<br/>OSPO OnRamp - MEMBER"]
     end
     
     subgraph NORDIC["🇸🇪 Nordic/Swedish Networks"]
-        CYBERNODE[🤝 Cybernode.se<br/>Swedish Cybersecurity Network<br/>AI & Cybersecurity Working Group - MEMBER]
-        MCF_NET[📡 MCF External Network<br/>Government Cybersecurity Briefings]
-        NOSAD[🇸🇪 Swedish OSPO Network<br/>NOSAD Open Source Community<br/>Gothenburg Events - PARTICIPANT]
+        CYBERNODE["🤝 Cybernode.se<br/>Swedish Cybersecurity Network<br/>AI & Cybersecurity Working Group - MEMBER"]
+        MCF_NET["📡 MCF External Network<br/>Government Cybersecurity Briefings"]
+        NOSAD["🇸🇪 Swedish OSPO Network<br/>NOSAD Open Source Community<br/>Gothenburg Events - PARTICIPANT"]
     end
     
     subgraph BENEFITS["💼 Professional Benefits"]
-        EDUCATION[🎓 Continuing Education]
-        NETWORKING[🤝 Professional Network]
-        INTELLIGENCE[📊 Threat Intelligence]
-        COMPLIANCE[✅ Best Practices]
-        AI_MONITORING[🤖 AI Intelligence Monitoring]
-        OSPO_KNOWLEDGE[🔓 Open Source Governance]
+        EDUCATION["🎓 Continuing Education"]
+        NETWORKING["🤝 Professional Network"]
+        INTELLIGENCE["📊 Threat Intelligence"]
+        COMPLIANCE["✅ Best Practices"]
+        AI_MONITORING["🤖 AI Intelligence Monitoring"]
+        OSPO_KNOWLEDGE["🔓 Open Source Governance"]
     end
     
     ISACA --> EDUCATION
@@ -483,30 +483,30 @@ Based on [🚨 Incident Response Plan](./Incident_Response_Plan.md) incident cla
 }%%
 flowchart TD
     subgraph INCIDENT["🚨 Incident Classification"]
-        CRITICAL[🔴 Critical<br/>National Security Impact]
-        HIGH[🟠 High<br/>Significant Business Impact]
-        MEDIUM[🟡 Medium<br/>Moderate Impact]
-        LOW[🟢 Low<br/>Minimal Impact]
-        AI_SERIOUS[🤖 AI Serious<br/>High-Risk AI System Incident]
+        CRITICAL["🔴 Critical<br/>National Security Impact"]
+        HIGH["🟠 High<br/>Significant Business Impact"]
+        MEDIUM["🟡 Medium<br/>Moderate Impact"]
+        LOW["🟢 Low<br/>Minimal Impact"]
+        AI_SERIOUS["🤖 AI Serious<br/>High-Risk AI System Incident"]
     end
     
     subgraph AUTHORITIES["🏛️ Authority Notification"]
-        MCF_CERT[🛡️ MCF/CERT-SE<br/>Immediate]
-        IMY_GDPR[🔒 IMY<br/>72 hours]
-        PTS_NIS[📡 PTS<br/>24 hours]
-        ENISA[🇪🇺 ENISA<br/>Coordination]
-        EU_AI_AUTH[🤖 EU AI Authorities<br/>Via National Competent Authority]
+        MCF_CERT["🛡️ MCF/CERT-SE<br/>Immediate"]
+        IMY_GDPR["🔒 IMY<br/>72 hours"]
+        PTS_NIS["📡 PTS<br/>24 hours"]
+        ENISA["🇪🇺 ENISA<br/>Coordination"]
+        EU_AI_AUTH["🤖 EU AI Authorities<br/>Via National Competent Authority"]
     end
     
     subgraph COMMUNITY["🤝 Community Notification"]
-        CYBERNODE_ALERT[🤝 Cybernode<br/>Threat Sharing]
-        ISACA_REPORT[🎓 ISACA<br/>Lessons Learned]
-        ACADEMIC[🔐 Academic<br/>Research Share]
+        CYBERNODE_ALERT["🤝 Cybernode<br/>Threat Sharing"]
+        ISACA_REPORT["🎓 ISACA<br/>Lessons Learned"]
+        ACADEMIC["🔐 Academic<br/>Research Share"]
     end
     
     subgraph MONITORING["📊 Intelligence Monitoring"]
-        AI_SEC_MONITOR[🛡️ AI Security Alliance<br/>Threat Intelligence Monitoring]
-        PAI_MONITOR[🤖 Partnership on AI<br/>Incident Pattern Analysis]
+        AI_SEC_MONITOR["🛡️ AI Security Alliance<br/>Threat Intelligence Monitoring"]
+        PAI_MONITOR["🤖 Partnership on AI<br/>Incident Pattern Analysis"]
     end
     
     CRITICAL --> MCF_CERT

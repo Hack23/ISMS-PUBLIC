@@ -510,20 +510,20 @@ quadrantChart
 #### Process Flow (Risk Assessment Pattern)
 ```mermaid
 flowchart TD
-    START[📋 Risk Identification] --> ASSESS[🔍 Risk Assessment]
-    ASSESS --> CLASSIFY{🏷️ Classification<br/>Decision}
+    START["📋 Risk Identification"] --> ASSESS["🔍 Risk Assessment"]
+    ASSESS --> CLASSIFY{"🏷️ Classification<br/>Decision"}
     
-    CLASSIFY -->|🔴 Critical| CRITICAL[⚡ Immediate Action]
-    CLASSIFY -->|🟠 High| HIGH[📅 Planned Response]
-    CLASSIFY -->|🟡 Medium| MEDIUM[📊 Monitoring]
-    CLASSIFY -->|🟢 Low| LOW[📝 Documented]
+    CLASSIFY -->|🔴 Critical| CRITICAL["⚡ Immediate Action"]
+    CLASSIFY -->|🟠 High| HIGH["📅 Planned Response"]
+    CLASSIFY -->|🟡 Medium| MEDIUM["📊 Monitoring"]
+    CLASSIFY -->|🟢 Low| LOW["📝 Documented"]
     
-    CRITICAL --> IMPLEMENT[🚀 Implementation]
+    CRITICAL --> IMPLEMENT["🚀 Implementation"]
     HIGH --> IMPLEMENT
     MEDIUM --> IMPLEMENT
     LOW --> IMPLEMENT
     
-    IMPLEMENT --> MONITOR[📈 Monitor & Review]
+    IMPLEMENT --> MONITOR["📈 Monitor & Review"]
     MONITOR --> ASSESS
     
     classDef start fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#ffffff
@@ -707,11 +707,11 @@ journey
 #### Basic Process Flow Template
 ```mermaid
 flowchart TD
-    START[🚀 Start Process] --> STEP1[📋 Step 1]
-    STEP1 --> DECISION{🤔 Decision Point}
-    DECISION -->|✅ Yes| SUCCESS[✅ Success Path]
-    DECISION -->|❌ No| FAILURE[❌ Failure Path]
-    SUCCESS --> FINISH[🏁 End]
+    START["🚀 Start Process"] --> STEP1["📋 Step 1"]
+    STEP1 --> DECISION{"🤔 Decision Point"}
+    DECISION -->|✅ Yes| SUCCESS["✅ Success Path"]
+    DECISION -->|❌ No| FAILURE["❌ Failure Path"]
+    SUCCESS --> FINISH["🏁 End"]
     FAILURE --> FINISH
     
     classDef start fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#ffffff
@@ -732,9 +732,9 @@ flowchart TD
 #### Stakeholder Relationship Template
 ```mermaid
 graph LR
-    CENTER[🎯 Central Entity] --> STAKE1[👤 Stakeholder 1]
-    CENTER --> STAKE2[🏢 Stakeholder 2]
-    CENTER --> STAKE3[⚖️ Stakeholder 3]
+    CENTER["🎯 Central Entity"] --> STAKE1["👤 Stakeholder 1"]
+    CENTER --> STAKE2["🏢 Stakeholder 2"]
+    CENTER --> STAKE3["⚖️ Stakeholder 3"]
     
     classDef center fill:#1565C0,stroke:#0D47A1,stroke-width:3px,color:#ffffff
     classDef stakeholder fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#ffffff

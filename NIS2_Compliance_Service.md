@@ -137,60 +137,60 @@ Unlike traditional consultancies that conduct NIS2 assessments in isolation, **H
   }
 }%%
 flowchart TD
-    START([🏛️ NIS2 Compliance Journey]) --> PHASE1
+    START(["🏛️ NIS2 Compliance Journey"]) --> PHASE1
     
     subgraph PHASE1["📋 Phase 1: Scope Determination (3-5 days)"]
-        S1[🎯 Identify Sector Classification]
-        S2[📊 Determine Entity Criticality]
-        S3[⚖️ Assess Regulatory Obligations]
-        S4[🌐 Map Geographic Jurisdictions]
+        S1["🎯 Identify Sector Classification"]
+        S2["📊 Determine Entity Criticality"]
+        S3["⚖️ Assess Regulatory Obligations"]
+        S4["🌐 Map Geographic Jurisdictions"]
         S1 --> S2 --> S3 --> S4
     end
     
-    PHASE1 --> DECISION{🏛️ NIS2<br/>Applicable?}
+    PHASE1 --> DECISION{"🏛️ NIS2<br/>Applicable?"}
     
-    DECISION -->|No| EXEMPT[⚪ Not in Scope<br/>Document Exemption Rationale]
+    DECISION -->|No| EXEMPT["⚪ Not in Scope<br/>Document Exemption Rationale"]
     DECISION -->|Yes| PHASE2
     
     subgraph PHASE2["🔍 Phase 2: Gap Analysis (8-12 days)"]
-        G1[📝 Inventory Current Controls]
-        G2[🔐 Map to Article 21 Requirements]
-        G3[📊 Assess Coverage Percentage]
-        G4[📋 Identify Control Gaps]
+        G1["📝 Inventory Current Controls"]
+        G2["🔐 Map to Article 21 Requirements"]
+        G3["📊 Assess Coverage Percentage"]
+        G4["📋 Identify Control Gaps"]
         G1 --> G2 --> G3 --> G4
     end
     
     PHASE2 --> PHASE3
     
     subgraph PHASE3["⚠️ Phase 3: Risk Assessment (5-8 days)"]
-        R1[🎯 Identify NIS2-Specific Threats]
-        R2[📊 Evaluate Risk Likelihood & Impact]
-        R3[💰 Quantify Business Consequences]
-        R4[📉 Prioritize Risk Treatment]
+        R1["🎯 Identify NIS2-Specific Threats"]
+        R2["📊 Evaluate Risk Likelihood & Impact"]
+        R3["💰 Quantify Business Consequences"]
+        R4["📉 Prioritize Risk Treatment"]
         R1 --> R2 --> R3 --> R4
     end
     
     PHASE3 --> PHASE4
     
     subgraph PHASE4["🛠️ Phase 4: Remediation Roadmap (3-5 days)"]
-        REM1[📅 Define Implementation Timeline]
-        REM2[💰 Estimate Resource Requirements]
-        REM3[👥 Assign Ownership & Accountability]
-        REM4[🎯 Set Measurable Success Criteria]
+        REM1["📅 Define Implementation Timeline"]
+        REM2["💰 Estimate Resource Requirements"]
+        REM3["👥 Assign Ownership & Accountability"]
+        REM4["🎯 Set Measurable Success Criteria"]
         REM1 --> REM2 --> REM3 --> REM4
     end
     
     PHASE4 --> PHASE5
     
     subgraph PHASE5["📚 Phase 5: Documentation Package (5-7 days)"]
-        D1[📝 Evidence Collection & Organization]
-        D2[📋 Compliance Report Generation]
-        D3[🏛️ Authority-Ready Documentation]
-        D4[📊 Continuous Monitoring Setup]
+        D1["📝 Evidence Collection & Organization"]
+        D2["📋 Compliance Report Generation"]
+        D3["🏛️ Authority-Ready Documentation"]
+        D4["📊 Continuous Monitoring Setup"]
         D1 --> D2 --> D3 --> D4
     end
     
-    PHASE5 --> COMPLIANT[✅ NIS2 Compliant<br/>Continuous Monitoring Active]
+    PHASE5 --> COMPLIANT["✅ NIS2 Compliant<br/>Continuous Monitoring Active"]
     
     style START fill:#1565C0,stroke:#0d47a1,stroke-width:3px,color:#fff
     style DECISION fill:#FF9800,stroke:#f57c00,stroke-width:3px,color:#fff

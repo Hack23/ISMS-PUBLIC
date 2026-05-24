@@ -158,30 +158,30 @@ Hack23's risk management process from identification to continuous monitoring, d
 
 ```mermaid
 flowchart TD
-    START[🔍 Risk Identified<br/>Internal/External Source] --> ASSESS{📊 Risk Assessment<br/>Likelihood × Impact × 100}
+    START["🔍 Risk Identified<br/>Internal/External Source"] --> ASSESS{"📊 Risk Assessment<br/>Likelihood × Impact × 100"}
     
-    ASSESS -->|Critical/High<br/>Score > 240| EXTERNAL[🤝 External Consultant<br/>Review Required<br/>Independent Validation]
-    ASSESS -->|Medium/Low<br/>Score ≤ 240| CEO_ASSESS[👨‍💼 CEO Risk Assessment<br/>Standardized Template<br/>Risk Methodology]
+    ASSESS -->|Critical/High<br/>Score > 240| EXTERNAL["🤝 External Consultant<br/>Review Required<br/>Independent Validation"]
+    ASSESS -->|Medium/Low<br/>Score ≤ 240| CEO_ASSESS["👨‍💼 CEO Risk Assessment<br/>Standardized Template<br/>Risk Methodology"]
     
-    EXTERNAL --> TREATMENT{🎯 Risk Treatment<br/>Decision Point}
+    EXTERNAL --> TREATMENT{"🎯 Risk Treatment<br/>Decision Point"}
     CEO_ASSESS --> TREATMENT
     
-    TREATMENT -->|Mitigate| CONTROL[✅ Implement Controls<br/>Reduce Likelihood/Impact<br/>Technical & Procedural]
-    TREATMENT -->|Accept| ACCEPT[⚠️ Risk Acceptance<br/>Document Justification<br/>CEO Approval Required]
-    TREATMENT -->|Transfer| INSURANCE[💼 Insurance/Partnership<br/>Transfer Risk<br/>Third Party Agreement]
-    TREATMENT -->|Avoid| AVOID[🚫 Avoid Activity<br/>Eliminate Risk Source<br/>Discontinue Operation]
+    TREATMENT -->|Mitigate| CONTROL["✅ Implement Controls<br/>Reduce Likelihood/Impact<br/>Technical & Procedural"]
+    TREATMENT -->|Accept| ACCEPT["⚠️ Risk Acceptance<br/>Document Justification<br/>CEO Approval Required"]
+    TREATMENT -->|Transfer| INSURANCE["💼 Insurance/Partnership<br/>Transfer Risk<br/>Third Party Agreement"]
+    TREATMENT -->|Avoid| AVOID["🚫 Avoid Activity<br/>Eliminate Risk Source<br/>Discontinue Operation"]
     
-    CONTROL --> REGISTER[📋 Risk Register<br/>Document & Track<br/>ALE Calculation]
+    CONTROL --> REGISTER["📋 Risk Register<br/>Document & Track<br/>ALE Calculation"]
     ACCEPT --> REGISTER
     INSURANCE --> REGISTER
     AVOID --> REGISTER
     
-    REGISTER --> MONITOR[📊 Quarterly Review<br/>Monitor Effectiveness<br/>Recalculate Risk Score]
+    REGISTER --> MONITOR["📊 Quarterly Review<br/>Monitor Effectiveness<br/>Recalculate Risk Score"]
     
     MONITOR -->|Risk Changed<br/>Score ±20%| ASSESS
-    MONITOR -->|Control Effective<br/>Score Stable| MAINTAIN[✅ Maintain Controls<br/>Annual Deep Review<br/>Documentation Update]
+    MONITOR -->|Control Effective<br/>Score Stable| MAINTAIN["✅ Maintain Controls<br/>Annual Deep Review<br/>Documentation Update"]
     
-    MAINTAIN --> ANNUAL{🔄 Annual<br/>Review Cycle}
+    MAINTAIN --> ANNUAL{"🔄 Annual<br/>Review Cycle"}
     ANNUAL --> ASSESS
     
     style START fill:#2196F3,stroke:#1565C0,stroke-width:3px,color:#fff
@@ -225,20 +225,20 @@ Hack23 AB's curated agent ecosystem (per [Information Security Strategy](./Infor
 
 ```mermaid
 flowchart TD
-    TASK[📋 Task Agent<br/>Weekly Analysis] --> MONITOR[📊 Risk KPI Monitoring]
-    MONITOR --> CHANGE{🚨 Risk Score<br/>Change > ±20%?}
-    CHANGE -->|Yes| RECALC[📊 Automated<br/>Score Recalculation]
-    CHANGE -->|No| CONTINUE[✅ Continue Monitoring]
+    TASK["📋 Task Agent<br/>Weekly Analysis"] --> MONITOR["📊 Risk KPI Monitoring"]
+    MONITOR --> CHANGE{"🚨 Risk Score<br/>Change > ±20%?"}
+    CHANGE -->|Yes| RECALC["📊 Automated<br/>Score Recalculation"]
+    CHANGE -->|No| CONTINUE["✅ Continue Monitoring"]
     
-    RECALC --> CRITICAL{🔴 Critical Risk?<br/>Score > 400}
-    CRITICAL -->|Yes| CEO[👨‍💼 CEO Immediate<br/>Notification]
-    CRITICAL -->|No| UPDATE[📝 Register<br/>Auto-Update]
+    RECALC --> CRITICAL{"🔴 Critical Risk?<br/>Score > 400"}
+    CRITICAL -->|Yes| CEO["👨‍💼 CEO Immediate<br/>Notification"]
+    CRITICAL -->|No| UPDATE["📝 Register<br/>Auto-Update"]
     
-    CEO --> REVIEW[🔍 Human Risk<br/>Assessment]
-    UPDATE --> EVIDENCE[📊 Evidence Update<br/>Automated Sources]
+    CEO --> REVIEW["🔍 Human Risk<br/>Assessment"]
+    UPDATE --> EVIDENCE["📊 Evidence Update<br/>Automated Sources"]
     REVIEW --> EVIDENCE
     
-    EVIDENCE --> REGISTER[📋 Risk Register<br/>Synchronized]
+    EVIDENCE --> REGISTER["📋 Risk Register<br/>Synchronized"]
     
     style TASK fill:#2196F3,stroke:#1565C0,stroke-width:2px,color:#fff
     style MONITOR fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff

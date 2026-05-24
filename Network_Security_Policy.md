@@ -133,21 +133,21 @@ flowchart TB
 ```mermaid
 graph LR
     subgraph "🛡️ Perimeter Defense Requirements"
-        DDOS[DDoS Protection<br/>✅ MUST: Automatic scaling]
-        FIREWALL[Firewall Rules<br/>✅ MUST: Default deny]
-        INTRUSION[Intrusion Detection<br/>✅ MUST: Real-time alerts]
+        DDOS["DDoS Protection<br/>✅ MUST: Automatic scaling"]
+        FIREWALL["Firewall Rules<br/>✅ MUST: Default deny"]
+        INTRUSION["Intrusion Detection<br/>✅ MUST: Real-time alerts"]
     end
     
     subgraph "🔒 Encryption Requirements"
-        TRANSIT[Data in Transit<br/>✅ MUST: TLS 1.2+]
-        VPN[Secure Tunnels<br/>✅ MUST: Strong ciphers]
-        KEYS[Key Management<br/>✅ MUST: Regular rotation]
+        TRANSIT["Data in Transit<br/>✅ MUST: TLS 1.2+"]
+        VPN["Secure Tunnels<br/>✅ MUST: Strong ciphers"]
+        KEYS["Key Management<br/>✅ MUST: Regular rotation"]
     end
     
     subgraph "📊 Monitoring Requirements"
-        LOGS[Network Logs<br/>✅ MUST: Complete capture]
-        ANALYSIS[Traffic Analysis<br/>✅ MUST: Behavioral detection]
-        RESPONSE[Incident Response<br/>✅ MUST: <15 min critical]
+        LOGS["Network Logs<br/>✅ MUST: Complete capture"]
+        ANALYSIS["Traffic Analysis<br/>✅ MUST: Behavioral detection"]
+        RESPONSE["Incident Response<br/>✅ MUST: <15 min critical"]
     end
     
     DDOS --> TRANSIT
@@ -178,21 +178,21 @@ graph LR
 ```mermaid
 flowchart TD
     subgraph "🌐 DNS Security Requirements"
-        DNSSEC[DNSSEC<br/>✅ MUST: Enabled all domains]
-        MONITORING[DNS Monitoring<br/>✅ MUST: Query logging]
-        PROTECTION[Domain Protection<br/>✅ MUST: Registrar locks]
+        DNSSEC["DNSSEC<br/>✅ MUST: Enabled all domains"]
+        MONITORING["DNS Monitoring<br/>✅ MUST: Query logging"]
+        PROTECTION["Domain Protection<br/>✅ MUST: Registrar locks"]
     end
     
     subgraph "📧 Email Security Requirements"
-        SPF[SPF Records<br/>✅ MUST: Strict policy]
-        DKIM[DKIM Signing<br/>✅ MUST: Key rotation]
-        DMARC[DMARC Policy<br/>✅ MUST: Reject mode]
+        SPF["SPF Records<br/>✅ MUST: Strict policy"]
+        DKIM["DKIM Signing<br/>✅ MUST: Key rotation"]
+        DMARC["DMARC Policy<br/>✅ MUST: Reject mode"]
     end
     
     subgraph "🔐 Certificate Management"
-        TLS[TLS Certificates<br/>✅ MUST: Auto-renewal]
-        TRANSPARENCY[Cert Transparency<br/>✅ MUST: Monitoring]
-        VALIDATION[Domain Validation<br/>✅ MUST: Automated checks]
+        TLS["TLS Certificates<br/>✅ MUST: Auto-renewal"]
+        TRANSPARENCY["Cert Transparency<br/>✅ MUST: Monitoring"]
+        VALIDATION["Domain Validation<br/>✅ MUST: Automated checks"]
     end
     
     DNSSEC --> SPF

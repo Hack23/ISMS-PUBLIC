@@ -387,30 +387,30 @@ Hack23 AB's curated agent ecosystem (per [Information Security Strategy](./Infor
 }%%
 flowchart TD
     subgraph SOURCES["📊 Metrics Sources"]
-        OPENSSF[🎖️ OpenSSF Scorecard<br/>Supply Chain Security]
-        SONAR[📊 SonarCloud<br/>Code Quality]
-        GITHUB[🔒 GitHub Security<br/>Vulnerabilities & Secrets]
-        AWS[☁️ AWS CloudWatch<br/>Infrastructure Metrics]
-        FOSSA[📜 FOSSA<br/>License Compliance]
+        OPENSSF["🎖️ OpenSSF Scorecard<br/>Supply Chain Security"]
+        SONAR["📊 SonarCloud<br/>Code Quality"]
+        GITHUB["🔒 GitHub Security<br/>Vulnerabilities & Secrets"]
+        AWS["☁️ AWS CloudWatch<br/>Infrastructure Metrics"]
+        FOSSA["📜 FOSSA<br/>License Compliance"]
     end
     
     subgraph AGENTS["🤖 Task Agents<br/>Automated Collection"]
-        SEC_AGENT[🛡️ Security Architect<br/>Hourly OpenSSF Scan]
-        QUAL_AGENT[✨ Code Quality Engineer<br/>Daily SonarCloud Check]
-        ISMS_AGENT[📋 ISMS Ninja<br/>Weekly Policy Compliance]
-        TEST_AGENT[🧪 Test Specialist<br/>Per-Build Coverage]
+        SEC_AGENT["🛡️ Security Architect<br/>Hourly OpenSSF Scan"]
+        QUAL_AGENT["✨ Code Quality Engineer<br/>Daily SonarCloud Check"]
+        ISMS_AGENT["📋 ISMS Ninja<br/>Weekly Policy Compliance"]
+        TEST_AGENT["🧪 Test Specialist<br/>Per-Build Coverage"]
     end
     
     subgraph PROCESSING["📊 Metrics Processing"]
-        PENTAGON[🏆 Pentagon Mapping<br/>5-Dimension Classification]
-        THRESHOLD{⚠️ Threshold<br/>Breach Detection}
+        PENTAGON["🏆 Pentagon Mapping<br/>5-Dimension Classification"]
+        THRESHOLD{"⚠️ Threshold<br/>Breach Detection"}
     end
     
     subgraph OUTPUTS["📈 Outputs"]
-        DASHBOARD[📊 ISMS Metrics Dashboard<br/>Security_Metrics.md]
-        ALERT[🚨 CEO Notification<br/>Escalation Workflow]
-        STORE[💾 Historical Storage<br/>Trend Analysis]
-        REMEDIATE[🔧 Automated<br/>Remediation Issues]
+        DASHBOARD["📊 ISMS Metrics Dashboard<br/>Security_Metrics.md"]
+        ALERT["🚨 CEO Notification<br/>Escalation Workflow"]
+        STORE["💾 Historical Storage<br/>Trend Analysis"]
+        REMEDIATE["🔧 Automated<br/>Remediation Issues"]
     end
     
     OPENSSF --> SEC_AGENT
@@ -472,13 +472,13 @@ Security metrics mapped to the Pentagon dimensions (per [Information Security St
 ```mermaid
 graph TB
     subgraph "⭐ Pentagon of Importance - Security Metrics"
-        CENTER[🎯 ISMS Alignment<br/>Central Goal]
+        CENTER["🎯 ISMS Alignment<br/>Central Goal"]
         
-        SEC[🔒 Security<br/>OpenSSF: Live<br/>MTTR: 18h<br/>Incidents: 0]
-        QUAL[✨ Quality<br/>SonarCloud: Pass<br/>Coverage: 85%<br/>Tech Debt: 3.2%]
-        FUNC[🚀 Functionality<br/>Velocity: 4.2/sprint<br/>Deploy Freq: 1.8/wk<br/>Success: 97%]
-        QA[🧪 Quality Assurance<br/>Test Success: 97.5%<br/>Automation: 82%<br/>Bug Escape: 1.3%]
-        ISMS_DIM[📋 ISMS Controls<br/>Compliance: 95%<br/>Evidence Auto: 75%<br/>Framework: 100%]
+        SEC["🔒 Security<br/>OpenSSF: Live<br/>MTTR: 18h<br/>Incidents: 0"]
+        QUAL["✨ Quality<br/>SonarCloud: Pass<br/>Coverage: 85%<br/>Tech Debt: 3.2%"]
+        FUNC["🚀 Functionality<br/>Velocity: 4.2/sprint<br/>Deploy Freq: 1.8/wk<br/>Success: 97%"]
+        QA["🧪 Quality Assurance<br/>Test Success: 97.5%<br/>Automation: 82%<br/>Bug Escape: 1.3%"]
+        ISMS_DIM["📋 ISMS Controls<br/>Compliance: 95%<br/>Evidence Auto: 75%<br/>Framework: 100%"]
         
         CENTER --- SEC
         CENTER --- QUAL
@@ -565,28 +565,28 @@ The [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) serves as the central 
 }%%
 flowchart LR
     subgraph COLLECTION["📥 Data Collection Layer"]
-        API[🔌 API Integrations<br/>OpenSSF, SonarCloud, GitHub]
-        AGENTS[🤖 Agent Reports<br/>Automated Collection]
-        MANUAL[📝 Manual Entry<br/>Quarterly Assessments]
+        API["🔌 API Integrations<br/>OpenSSF, SonarCloud, GitHub"]
+        AGENTS["🤖 Agent Reports<br/>Automated Collection"]
+        MANUAL["📝 Manual Entry<br/>Quarterly Assessments"]
     end
     
     subgraph PROCESSING["⚙️ Processing Layer"]
-        VALIDATE[✅ Data Validation<br/>Schema Compliance]
-        TRANSFORM[🔄 Transformation<br/>Pentagon Mapping]
-        AGGREGATE[📊 Aggregation<br/>Trend Calculation]
+        VALIDATE["✅ Data Validation<br/>Schema Compliance"]
+        TRANSFORM["🔄 Transformation<br/>Pentagon Mapping"]
+        AGGREGATE["📊 Aggregation<br/>Trend Calculation"]
     end
     
     subgraph STORAGE["💾 Storage Layer"]
-        CURRENT[📈 Current State<br/>Real-Time Metrics]
-        HISTORY[📚 Historical Data<br/>Trend Analysis]
-        CACHE[⚡ Cache Layer<br/>Dashboard Performance]
+        CURRENT["📈 Current State<br/>Real-Time Metrics"]
+        HISTORY["📚 Historical Data<br/>Trend Analysis"]
+        CACHE["⚡ Cache Layer<br/>Dashboard Performance"]
     end
     
     subgraph PRESENTATION["📺 Presentation Layer"]
-        PENTAGON_VIEW[🏆 Pentagon View<br/>Dimension Scores]
-        TREND_VIEW[📈 Trend Analysis<br/>Historical Graphs]
-        ALERT_VIEW[🚨 Alert Summary<br/>Threshold Breaches]
-        EVIDENCE_VIEW[📄 Evidence Links<br/>Audit Trail]
+        PENTAGON_VIEW["🏆 Pentagon View<br/>Dimension Scores"]
+        TREND_VIEW["📈 Trend Analysis<br/>Historical Graphs"]
+        ALERT_VIEW["🚨 Alert Summary<br/>Threshold Breaches"]
+        EVIDENCE_VIEW["📄 Evidence Links<br/>Audit Trail"]
     end
     
     API --> VALIDATE
@@ -660,26 +660,26 @@ Agents automatically create remediation issues for threshold breaches:
   }
 }%%
 flowchart TD
-    DETECT[🔍 Threshold Breach<br/>Detected by Agent] --> CLASSIFY{🏷️ Severity<br/>Classification}
+    DETECT["🔍 Threshold Breach<br/>Detected by Agent"] --> CLASSIFY{"🏷️ Severity<br/>Classification"}
     
-    CLASSIFY -->|🔴 Critical| CRITICAL_PATH[⚡ Critical Path<br/>CEO Immediate Notification]
-    CLASSIFY -->|🟠 High| HIGH_PATH[📧 High Path<br/>CEO Daily Summary]
-    CLASSIFY -->|🟡 Medium| MEDIUM_PATH[📊 Medium Path<br/>Dashboard Flag]
-    CLASSIFY -->|🟢 Low| LOW_PATH[🔧 Low Path<br/>Auto-Remediation]
+    CLASSIFY -->|🔴 Critical| CRITICAL_PATH["⚡ Critical Path<br/>CEO Immediate Notification"]
+    CLASSIFY -->|🟠 High| HIGH_PATH["📧 High Path<br/>CEO Daily Summary"]
+    CLASSIFY -->|🟡 Medium| MEDIUM_PATH["📊 Medium Path<br/>Dashboard Flag"]
+    CLASSIFY -->|🟢 Low| LOW_PATH["🔧 Low Path<br/>Auto-Remediation"]
     
-    CRITICAL_PATH --> CEO_ACTION[👔 CEO Action<br/>Manual Intervention]
-    HIGH_PATH --> CEO_REVIEW[👔 CEO Review<br/>Prioritization]
-    MEDIUM_PATH --> WEEKLY_REVIEW[📅 Weekly Review<br/>Planning Session]
-    LOW_PATH --> AUTO_ISSUE[🤖 Auto-Create Issue<br/>Agent Assignment]
+    CRITICAL_PATH --> CEO_ACTION["👔 CEO Action<br/>Manual Intervention"]
+    HIGH_PATH --> CEO_REVIEW["👔 CEO Review<br/>Prioritization"]
+    MEDIUM_PATH --> WEEKLY_REVIEW["📅 Weekly Review<br/>Planning Session"]
+    LOW_PATH --> AUTO_ISSUE["🤖 Auto-Create Issue<br/>Agent Assignment"]
     
-    CEO_ACTION --> RESOLVE[✅ Resolution<br/>Metric Restored]
+    CEO_ACTION --> RESOLVE["✅ Resolution<br/>Metric Restored"]
     CEO_REVIEW --> RESOLVE
     WEEKLY_REVIEW --> RESOLVE
-    AUTO_ISSUE --> SPECIALIST[👷 Specialist Agent<br/>Implementation]
+    AUTO_ISSUE --> SPECIALIST["👷 Specialist Agent<br/>Implementation"]
     SPECIALIST --> RESOLVE
     
-    RESOLVE --> VERIFY[🔍 Verification<br/>Threshold Check]
-    VERIFY -->|Pass| CLOSE[📋 Close Alert<br/>Update Dashboard]
+    RESOLVE --> VERIFY["🔍 Verification<br/>Threshold Check"]
+    VERIFY -->|Pass| CLOSE["📋 Close Alert<br/>Update Dashboard"]
     VERIFY -->|Fail| DETECT
     
     style CRITICAL_PATH fill:#D32F2F,color:#fff

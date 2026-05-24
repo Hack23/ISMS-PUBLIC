@@ -77,7 +77,7 @@ _See governance process: [Third Party Management](./Third_Party_Management.md)_
 
 ```mermaid
 mindmap
-  root((🎯 Supplier Tiers))
+  root(("🎯 Supplier Tiers"))
     Tier 1 Mission Critical
       AWS
         RTO under 5 min
@@ -174,7 +174,7 @@ mindmap
 
 ```mermaid
 mindmap
-  root((🔒 Security Posture))
+  root(("🔒 Security Posture"))
     Enterprise Grade
       AWS
         ISO 27001 27017 27018
@@ -272,7 +272,7 @@ mindmap
 
 ```mermaid
 mindmap
-  root((📊 Market Forces))
+  root(("📊 Market Forces"))
     🔴 Extreme Supplier Power
       AWS
         Market dominance 33 pct
@@ -373,7 +373,7 @@ mindmap
 
 ```mermaid
 mindmap
-  root((⚠️ Risk Assessment))
+  root(("⚠️ Risk Assessment"))
     🔴 Critical Risks
       AWS Outage
         Full service stop

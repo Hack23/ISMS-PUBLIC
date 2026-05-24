@@ -52,24 +52,24 @@ Our business continuity planning is directly driven by the [🏷️ Classificati
 }%%
 graph TB
     subgraph BIA["📊 Business Impact Analysis"]
-        FINANCIAL[💰 Financial Impact<br/>Revenue Loss Assessment]
-        OPERATIONAL[⚙️ Operational Impact<br/>Service Degradation]
-        REPUTATIONAL[🤝 Reputational Impact<br/>Trust & Brand Damage]
-        REGULATORY[⚖️ Regulatory Impact<br/>Compliance Violations]
+        FINANCIAL["💰 Financial Impact<br/>Revenue Loss Assessment"]
+        OPERATIONAL["⚙️ Operational Impact<br/>Service Degradation"]
+        REPUTATIONAL["🤝 Reputational Impact<br/>Trust & Brand Damage"]
+        REGULATORY["⚖️ Regulatory Impact<br/>Compliance Violations"]
     end
     
     subgraph RECOVERY["🔄 Recovery Prioritization"]
-        CRITICAL[🔴 Critical Recovery<br/>RTO < 1 hour]
-        HIGH[🟠 High Priority<br/>RTO 1-4 hours]
-        MEDIUM[🟡 Medium Priority<br/>RTO 4-24 hours]
-        STANDARD[🟢 Standard Recovery<br/>RTO > 24 hours]
+        CRITICAL["🔴 Critical Recovery<br/>RTO < 1 hour"]
+        HIGH["🟠 High Priority<br/>RTO 1-4 hours"]
+        MEDIUM["🟡 Medium Priority<br/>RTO 4-24 hours"]
+        STANDARD["🟢 Standard Recovery<br/>RTO > 24 hours"]
     end
     
     subgraph BUSINESS["🏢 Business Functions"]
-        CORE[🏗️ Core Operations<br/>Revenue Generation]
-        SUPPORT[🛠️ Support Functions<br/>Business Enablement]
-        ADMIN[📋 Administrative<br/>Compliance & Reporting]
-        MARKETING[📢 Marketing<br/>Brand & Growth]
+        CORE["🏗️ Core Operations<br/>Revenue Generation"]
+        SUPPORT["🛠️ Support Functions<br/>Business Enablement"]
+        ADMIN["📋 Administrative<br/>Compliance & Reporting"]
+        MARKETING["📢 Marketing<br/>Brand & Growth"]
     end
     
     FINANCIAL --> CRITICAL
@@ -118,30 +118,30 @@ Based on [Classification Framework](./CLASSIFICATION.md) impact levels:
   }
 }%%
 flowchart TD
-    INCIDENT[🚨 Business Disruption<br/>Event Detected] --> ASSESS[📊 Business Impact<br/>Assessment]
+    INCIDENT["🚨 Business Disruption<br/>Event Detected"] --> ASSESS["📊 Business Impact<br/>Assessment"]
     
-    ASSESS --> FINANCIAL{💰 Financial<br/>Impact Level?}
-    ASSESS --> OPERATIONAL{⚙️ Operational<br/>Impact Level?}
-    ASSESS --> REPUTATION{🤝 Reputational<br/>Impact Level?}
-    ASSESS --> REGULATORY{⚖️ Regulatory<br/>Impact Level?}
+    ASSESS --> FINANCIAL{"💰 Financial<br/>Impact Level?"}
+    ASSESS --> OPERATIONAL{"⚙️ Operational<br/>Impact Level?"}
+    ASSESS --> REPUTATION{"🤝 Reputational<br/>Impact Level?"}
+    ASSESS --> REGULATORY{"⚖️ Regulatory<br/>Impact Level?"}
     
-    FINANCIAL -->|Critical/Very High| IMMEDIATE[⚡ Immediate Response<br/>< 15 minutes]
+    FINANCIAL -->|Critical/Very High| IMMEDIATE["⚡ Immediate Response<br/>< 15 minutes"]
     OPERATIONAL -->|Critical| IMMEDIATE
     REGULATORY -->|Critical| IMMEDIATE
     
-    FINANCIAL -->|High/Moderate| URGENT[🔄 Urgent Response<br/>< 1 hour]
+    FINANCIAL -->|High/Moderate| URGENT["🔄 Urgent Response<br/>< 1 hour"]
     OPERATIONAL -->|High| URGENT
     REPUTATION -->|High/Moderate| URGENT
     REGULATORY -->|High| URGENT
     
-    FINANCIAL -->|Low| STANDARD[📅 Standard Response<br/>< 24 hours]
+    FINANCIAL -->|Low| STANDARD["📅 Standard Response<br/>< 24 hours"]
     OPERATIONAL -->|Moderate/Low| STANDARD
     REPUTATION -->|Low| STANDARD
     REGULATORY -->|Low/Negligible| STANDARD
     
-    IMMEDIATE --> CRITICAL_RECOVERY[🔴 Critical Recovery<br/>Full Resources]
-    URGENT --> HIGH_RECOVERY[🟠 High Priority Recovery<br/>Escalated Resources]
-    STANDARD --> NORMAL_RECOVERY[🟢 Normal Recovery<br/>Standard Resources]
+    IMMEDIATE --> CRITICAL_RECOVERY["🔴 Critical Recovery<br/>Full Resources"]
+    URGENT --> HIGH_RECOVERY["🟠 High Priority Recovery<br/>Escalated Resources"]
+    STANDARD --> NORMAL_RECOVERY["🟢 Normal Recovery<br/>Standard Resources"]
     
     classDef incident fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#ffffff
     classDef assessment fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff

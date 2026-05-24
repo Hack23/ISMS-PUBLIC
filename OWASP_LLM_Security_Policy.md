@@ -261,7 +261,7 @@ mindmap
   }
 }%%
 flowchart TD
-    START[🎯 AI/ML Attack Lifecycle]
+    START["🎯 AI/ML Attack Lifecycle"]
     
     subgraph RECON["🔍 Reconnaissance (6 techniques)"]
         R1[Search Open Technical<br/>Databases]
@@ -720,29 +720,29 @@ Input threats target the prompt interface, attempting to manipulate LLM behavior
 }%%
 graph TB
     subgraph ATTACK["🎯 Input Attack Vectors"]
-        A1[🚨 Direct Prompt Injection<br/>Malicious Instructions]
-        A2[🔄 Indirect Injection<br/>Hidden Instructions in Data]
-        A3[🔓 System Prompt Extraction<br/>Leakage Attempts]
-        A4[💣 Jailbreak Techniques<br/>Safety Bypass]
+        A1["🚨 Direct Prompt Injection<br/>Malicious Instructions"]
+        A2["🔄 Indirect Injection<br/>Hidden Instructions in Data"]
+        A3["🔓 System Prompt Extraction<br/>Leakage Attempts"]
+        A4["💣 Jailbreak Techniques<br/>Safety Bypass"]
     end
     
     subgraph CONTROLS["🛡️ Defense Controls"]
-        C1[✅ Input Validation<br/>Status: Planned Q2 2026]
-        C2[📋 Prompt Templates<br/>Status: Planned Q2 2026]
-        C3[🔒 Context Separation<br/>Status: Documented]
-        C4[🛡️ Output Filtering<br/>Status: Planned Q2 2026]
+        C1["✅ Input Validation<br/>Status: Planned Q2 2026"]
+        C2["📋 Prompt Templates<br/>Status: Planned Q2 2026"]
+        C3["🔒 Context Separation<br/>Status: Documented"]
+        C4["🛡️ Output Filtering<br/>Status: Planned Q2 2026"]
     end
     
     subgraph MONITORING["📊 Detection & Response"]
-        M1[📝 Interaction Logging<br/>Status: Documented]
-        M2[🚨 Anomaly Detection<br/>Status: Planned Q3 2026]
-        M3[🔍 Pattern Analysis<br/>Status: Documented]
+        M1["📝 Interaction Logging<br/>Status: Documented"]
+        M2["🚨 Anomaly Detection<br/>Status: Planned Q3 2026"]
+        M3["🔍 Pattern Analysis<br/>Status: Documented"]
     end
     
     subgraph IMPACT["⚠️ Potential Impact"]
-        I1[🔐 Confidentiality Breach<br/>Risk Level: High]
-        I2[✅ Integrity Compromise<br/>Risk Level: High]
-        I3[📢 Reputation Damage<br/>Risk Level: Moderate]
+        I1["🔐 Confidentiality Breach<br/>Risk Level: High"]
+        I2["✅ Integrity Compromise<br/>Risk Level: High"]
+        I3["📢 Reputation Damage<br/>Risk Level: Moderate"]
     end
     
     A1 --> C1
@@ -797,34 +797,34 @@ Data threats exploit vulnerabilities in how LLMs process, store, and retrieve in
 flowchart LR
     subgraph LIFECYCLE["📊 Data Lifecycle Stages"]
         direction TB
-        L1[📥 Data Ingestion]
-        L2[🔄 Training/Fine-tuning]
-        L3[💾 Storage & Embeddings]
-        L4[🔍 Retrieval]
-        L5[📤 Output Generation]
+        L1["📥 Data Ingestion"]
+        L2["🔄 Training/Fine-tuning"]
+        L3["💾 Storage & Embeddings"]
+        L4["🔍 Retrieval"]
+        L5["📤 Output Generation"]
     end
     
     subgraph THREATS["⚠️ Threat Types"]
         direction TB
-        T1[📂 LLM02: Info Disclosure<br/>50% Implemented]
-        T2[☠️ LLM04: Data Poisoning<br/>67% Implemented]
-        T3[📍 LLM08: Vector Weakness<br/>30% Implemented]
+        T1["📂 LLM02: Info Disclosure<br/>50% Implemented"]
+        T2["☠️ LLM04: Data Poisoning<br/>67% Implemented"]
+        T3["📍 LLM08: Vector Weakness<br/>30% Implemented"]
     end
     
     subgraph CONTROLS["🛡️ Implemented Controls"]
         direction TB
-        C1[🏷️ Data Classification<br/>✅ Active]
-        C2[🔒 Encryption<br/>✅ Active]
-        C3[🔐 Access Control<br/>✅ Active]
-        C4[🚫 No Custom Training<br/>✅ Policy]
+        C1["🏷️ Data Classification<br/>✅ Active"]
+        C2["🔒 Encryption<br/>✅ Active"]
+        C3["🔐 Access Control<br/>✅ Active"]
+        C4["🚫 No Custom Training<br/>✅ Policy"]
     end
     
     subgraph PLANNED["⏭️ Q1-Q2 2026 Roadmap"]
         direction TB
-        P1[🛡️ DLP Integration]
-        P2[🔍 Output Scanning]
-        P3[🗄️ Vector DB Security]
-        P4[📊 Embedding Monitoring]
+        P1["🛡️ DLP Integration"]
+        P2["🔍 Output Scanning"]
+        P3["🗄️ Vector DB Security"]
+        P4["📊 Embedding Monitoring"]
     end
     
     L1 --> T1
@@ -881,32 +881,32 @@ Integration threats exploit vulnerabilities at the boundaries where LLMs connect
 }%%
 graph TD
     subgraph EXTERNAL["🌐 External Integration Points"]
-        E1[🔗 Third-Party Models<br/>OpenAI, AWS, GitHub]
-        E2[📦 Dependencies<br/>Libraries & Frameworks]
-        E3[🗄️ Databases<br/>SQL, Vector, NoSQL]
-        E4[🌐 Web Applications<br/>User Interfaces]
+        E1["🔗 Third-Party Models<br/>OpenAI, AWS, GitHub"]
+        E2["📦 Dependencies<br/>Libraries & Frameworks"]
+        E3["🗄️ Databases<br/>SQL, Vector, NoSQL"]
+        E4["🌐 Web Applications<br/>User Interfaces"]
     end
     
     subgraph THREATS["⚠️ Integration Threat Vectors"]
         direction TB
-        T1[🔗 LLM03: Supply Chain<br/>73% Implemented<br/>✅ Strong]
-        T2[⚠️ LLM05: Output Handling<br/>55% Implemented<br/>🟡 Moderate]
-        T3[🤖 LLM06: Excessive Agency<br/>67% Implemented<br/>✅ Strong]
+        T1["🔗 LLM03: Supply Chain<br/>73% Implemented<br/>✅ Strong"]
+        T2["⚠️ LLM05: Output Handling<br/>55% Implemented<br/>🟡 Moderate"]
+        T3["🤖 LLM06: Excessive Agency<br/>67% Implemented<br/>✅ Strong"]
     end
     
     subgraph BOUNDARIES["🛡️ Boundary Protection"]
         direction TB
-        B1[✅ Vendor Assessment<br/>100% Complete]
-        B2[🔍 Dependency Scanning<br/>Active]
-        B3[🔒 Least Privilege<br/>Enforced]
-        B4[👤 Human-in-Loop<br/>Mandatory]
+        B1["✅ Vendor Assessment<br/>100% Complete"]
+        B2["🔍 Dependency Scanning<br/>Active"]
+        B3["🔒 Least Privilege<br/>Enforced"]
+        B4["👤 Human-in-Loop<br/>Mandatory"]
     end
     
     subgraph GAPS["⏭️ Planned Enhancements"]
         direction TB
-        G1[🛡️ LLM Output Encoding<br/>Q2 2026]
-        G2[🔍 Advanced Monitoring<br/>Q3 2026]
-        G3[🤖 Function Call Limits<br/>Q2 2026]
+        G1["🛡️ LLM Output Encoding<br/>Q2 2026"]
+        G2["🔍 Advanced Monitoring<br/>Q3 2026"]
+        G3["🤖 Function Call Limits<br/>Q2 2026"]
     end
     
     E1 --> T1
@@ -1523,31 +1523,31 @@ pie title "🛡️ OWASP LLM Top 10 Control Implementation Status (Realistic Ass
 }%%
 graph TB
     subgraph GOVERNANCE["🏛️ Governance Layer"]
-        AI[🤖 AI Policy<br/>✅ Implemented]
-        ISP[🔐 Information Security Policy<br/>✅ Implemented]
-        OWASP[🛡️ OWASP LLM Security Policy<br/>⏭️ 54% Complete]
+        AI["🤖 AI Policy<br/>✅ Implemented"]
+        ISP["🔐 Information Security Policy<br/>✅ Implemented"]
+        OWASP["🛡️ OWASP LLM Security Policy<br/>⏭️ 54% Complete"]
     end
     
     subgraph OPERATIONAL["⚙️ Operational Layer"]
-        ACCESS[🔑 Access Control<br/>✅ Implemented]
-        DATA[🏷️ Data Classification<br/>✅ Implemented]
-        NETWORK[🌐 Network Security<br/>✅ Implemented]
-        CRYPTO[🔒 Cryptography<br/>✅ Implemented]
-        SDLC[🛠️ Secure Development<br/>✅ Implemented]
+        ACCESS["🔑 Access Control<br/>✅ Implemented"]
+        DATA["🏷️ Data Classification<br/>✅ Implemented"]
+        NETWORK["🌐 Network Security<br/>✅ Implemented"]
+        CRYPTO["🔒 Cryptography<br/>✅ Implemented"]
+        SDLC["🛠️ Secure Development<br/>✅ Implemented"]
     end
     
     subgraph TACTICAL["🎯 Tactical Layer"]
-        RISK[📊 Risk Assessment<br/>✅ Implemented]
-        VULN[🔍 Vulnerability Mgmt<br/>✅ Implemented]
-        INCIDENT[🚨 Incident Response<br/>📋 Documented]
-        BCP[🔄 Business Continuity<br/>📋 Documented]
-        THIRD[🤝 Third-Party Mgmt<br/>✅ Implemented]
+        RISK["📊 Risk Assessment<br/>✅ Implemented"]
+        VULN["🔍 Vulnerability Mgmt<br/>✅ Implemented"]
+        INCIDENT["🚨 Incident Response<br/>📋 Documented"]
+        BCP["🔄 Business Continuity<br/>📋 Documented"]
+        THIRD["🤝 Third-Party Mgmt<br/>✅ Implemented"]
     end
     
     subgraph MONITORING["📈 Monitoring Layer"]
-        METRICS[📊 Security Metrics<br/>📋 Documented]
-        AUDIT[✅ Compliance Audits<br/>📋 Documented]
-        REPORTING[📋 Security Reporting<br/>📋 Documented]
+        METRICS["📊 Security Metrics<br/>📋 Documented"]
+        AUDIT["✅ Compliance Audits<br/>📋 Documented"]
+        REPORTING["📋 Security Reporting<br/>📋 Documented"]
     end
     
     AI --> OWASP

@@ -496,13 +496,13 @@ Classification: Confidential
 
 ```mermaid
 flowchart TD
-    START[📋 Risk Identification] --> ASSESS[🔍 Risk Assessment]
-    ASSESS --> CLASSIFY{🏷️ Classification<br/>Decision}
+    START["📋 Risk Identification"] --> ASSESS["🔍 Risk Assessment"]
+    ASSESS --> CLASSIFY{"🏷️ Classification<br/>Decision"}
     
-    CLASSIFY -->|🔴 Critical| CRITICAL[⚡ Immediate Action]
-    CLASSIFY -->|🟠 High| HIGH[📅 Planned Response]
-    CLASSIFY -->|🟡 Medium| MEDIUM[📊 Monitoring]
-    CLASSIFY -->|🟢 Low| LOW[📝 Documented]
+    CLASSIFY -->|🔴 Critical| CRITICAL["⚡ Immediate Action"]
+    CLASSIFY -->|🟠 High| HIGH["📅 Planned Response"]
+    CLASSIFY -->|🟡 Medium| MEDIUM["📊 Monitoring"]
+    CLASSIFY -->|🟢 Low| LOW["📝 Documented"]
     
     classDef critical fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#ffffff
     classDef high fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#ffffff

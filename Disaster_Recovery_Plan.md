@@ -54,30 +54,30 @@ Our disaster recovery strategy is built on AWS Resilience Hub policies that enfo
 }%%
 graph TD
     subgraph RESILIENCE["🔰 AWS Resilience Hub Policy Engine"]
-        POLICY[Resilience Policies<br/>📊 RTO/RPO Requirements]
-        ASSESS[Application Assessment<br/>🔍 Resilience Analysis]
-        GATE[Deployment Gating<br/>🚦 Compliance Validation]
-        EVIDENCE[Evidence Collection<br/>📋 Audit Documentation]
+        POLICY["Resilience Policies<br/>📊 RTO/RPO Requirements"]
+        ASSESS["Application Assessment<br/>🔍 Resilience Analysis"]
+        GATE["Deployment Gating<br/>🚦 Compliance Validation"]
+        EVIDENCE["Evidence Collection<br/>📋 Audit Documentation"]
     end
     
     subgraph CHAOS["🧪 AWS Fault Injection Service"]
-        EXPERIMENT[Experiment Templates<br/>⚡ Chaos Scenarios]
-        EXECUTE[Execution Engine<br/>🎯 Controlled Failures]
-        MONITOR[Real-time Monitoring<br/>📈 Impact Assessment]
-        VALIDATE[Recovery Validation<br/>✅ RTO/RPO Verification]
+        EXPERIMENT["Experiment Templates<br/>⚡ Chaos Scenarios"]
+        EXECUTE["Execution Engine<br/>🎯 Controlled Failures"]
+        MONITOR["Real-time Monitoring<br/>📈 Impact Assessment"]
+        VALIDATE["Recovery Validation<br/>✅ RTO/RPO Verification"]
     end
     
     subgraph BACKUP["💾 AWS Backup Orchestration"]
-        PLAN[Central Backup Plans<br/>🗓️ Schedule Management]
-        VAULT[Immutable Vaults<br/>🔒 Cross-region Storage]
-        RESTORE[Point-in-Time Recovery<br/>🔄 Automated Restoration]
-        AUDIT[Backup Audit Manager<br/>📊 Compliance Reporting]
+        PLAN["Central Backup Plans<br/>🗓️ Schedule Management"]
+        VAULT["Immutable Vaults<br/>🔒 Cross-region Storage"]
+        RESTORE["Point-in-Time Recovery<br/>🔄 Automated Restoration"]
+        AUDIT["Backup Audit Manager<br/>📊 Compliance Reporting"]
     end
     
     subgraph APPLICATIONS["🏗️ Application Portfolio"]
-        CRITICAL[Critical Systems<br/>🔴 < 5min RTO]
-        HIGH[High Priority<br/>🟠 < 1hr RTO]
-        STANDARD[Standard Systems<br/>🟡 < 24hr RTO]
+        CRITICAL["Critical Systems<br/>🔴 < 5min RTO"]
+        HIGH["High Priority<br/>🟠 < 1hr RTO"]
+        STANDARD["Standard Systems<br/>🟡 < 24hr RTO"]
     end
     
     POLICY --> ASSESS

@@ -307,7 +307,7 @@ The portfolio is **non-partisan, fully open-source (Apache-2.0)**, operated unde
 <a href="https://euparliamentmonitor.com/sitemap.html"><img src="https://img.shields.io/badge/🗺️_Site_Map-14_languages-0A66C2?style=flat-square" alt="Sitemap"></a>
 <a href="https://euparliamentmonitor.com/docs/api/"><img src="https://img.shields.io/badge/📚_API-Reference-1565C0?style=flat-square" alt="API"></a>
 <a href="https://euparliamentmonitor.com/docs/coverage/index.html"><img src="https://img.shields.io/badge/📊_Coverage-82%25-4CAF50?style=flat-square" alt="Coverage"></a>
-<a href="https://euparliamentmonitor.com/playwright-report/index.html"><img src="https://img.shields.io/badge/🎭_E2E-Report-FF9800?style=flat-square" alt="E2E"></a>
+<a href="https://euparliamentmonitor.com"><img src="https://img.shields.io/badge/🎭_E2E-Report-FF9800?style=flat-square" alt="E2E"></a>
 <a href="https://hack23.com/euparliamentmonitor-features.html"><img src="https://img.shields.io/badge/✨_Features-hack23.com-003399?style=flat-square" alt="Features"></a>
 <a href="https://hack23.com/euparliamentmonitor-docs.html"><img src="https://img.shields.io/badge/📄_Docs-hack23.com-003399?style=flat-square" alt="Docs"></a>
 
@@ -435,7 +435,7 @@ flowchart LR
     subgraph ANALYSIS["📐 Structured Analysis"]
         METHODS[17 Methodologies<br/>ACH • SWOT • PESTLE<br/>STRIDE • ICD-203]
         TEMPLATES[52 Templates<br/>Artifact Generation]
-        GATE[🚦 Analysis Gate<br/>Quality Threshold]
+        GATE["🚦 Analysis Gate<br/>Quality Threshold"]
     end
 
     subgraph PUBLICATION["📰 Daily Publication"]
@@ -474,10 +474,10 @@ Visual comparison of security controls across Hack23's product portfolio, demons
 ```mermaid
 flowchart TD
     subgraph PRODUCTS["📦 Hack23 Product Portfolio"]
-        CIA[🏛️ Citizen Intelligence<br/>Agency<br/>Democratic Transparency]
-        CIA_CM[📊 CIA Compliance<br/>Manager<br/>Assessment Platform]
-        BT[🎮 Black Trigram<br/>Educational Gaming]
-        POLINT[📡 Political Intelligence<br/>AI News Media<br/>OSINT/INTOP Platform]
+        CIA["🏛️ Citizen Intelligence<br/>Agency<br/>Democratic Transparency"]
+        CIA_CM["📊 CIA Compliance<br/>Manager<br/>Assessment Platform"]
+        BT["🎮 Black Trigram<br/>Educational Gaming"]
+        POLINT["📡 Political Intelligence<br/>AI News Media<br/>OSINT/INTOP Platform"]
     end
     
     subgraph SECURITY_CONTROLS["🔐 Security Control Domains"]
@@ -730,30 +730,30 @@ Security investments are evaluated against six strategic pillars that directly e
 }%%
 flowchart TD
     subgraph STRATEGIC["🎯 Strategic Security Framework"]
-        TRUST[🤝 Trust Enhancement<br/>Accelerated Buyer Confidence]
-        EFFICIENCY[⚙️ Operational Efficiency<br/>Lean Automated Governance]
-        INNOVATION[💡 Innovation Enablement<br/>Compliant Launch Acceleration]
-        DECISION[📊 Decision Quality<br/>Data-Driven Governance]
-        ADVANTAGE[🏆 Competitive Advantage<br/>Live Evidence Differentiation]
-        RISK[🛡️ Risk Reduction<br/>Quantified Impact Decrease]
+        TRUST["🤝 Trust Enhancement<br/>Accelerated Buyer Confidence"]
+        EFFICIENCY["⚙️ Operational Efficiency<br/>Lean Automated Governance"]
+        INNOVATION["💡 Innovation Enablement<br/>Compliant Launch Acceleration"]
+        DECISION["📊 Decision Quality<br/>Data-Driven Governance"]
+        ADVANTAGE["🏆 Competitive Advantage<br/>Live Evidence Differentiation"]
+        RISK["🛡️ Risk Reduction<br/>Quantified Impact Decrease"]
     end
     
     subgraph EVIDENCE["📋 Evidence Sources"]
-        ISMS_REPO[📚 Public ISMS Repository]
-        SECURITY_ARCH[🏗️ Security Architecture]
-        METRICS[📊 Security Metrics]
-        COMPLIANCE[✅ Compliance Checklist]
-        CLASSIFICATION[🏷️ Classification Framework]
-        RISK_REG[📉 Risk Register]
+        ISMS_REPO["📚 Public ISMS Repository"]
+        SECURITY_ARCH["🏗️ Security Architecture"]
+        METRICS["📊 Security Metrics"]
+        COMPLIANCE["✅ Compliance Checklist"]
+        CLASSIFICATION["🏷️ Classification Framework"]
+        RISK_REG["📉 Risk Register"]
     end
     
     subgraph SECURITY_OUTCOMES["🔐 Security Outcomes"]
-        CONFIDENTIALITY[🔒 Confidentiality<br/>Zero Unauthorized Access]
-        INTEGRITY[✅ Integrity<br/>100% Change Tracking]
-        AVAILABILITY[⚡ Availability<br/>>99.5% Uptime]
-        COMPLIANCE_OUT[📋 Compliance<br/>100% Framework Alignment]
-        RESILIENCE[🔄 Resilience<br/>RTO/RPO Achievement]
-        TRANSPARENCY[🌐 Transparency<br/>Public Evidence]
+        CONFIDENTIALITY["🔒 Confidentiality<br/>Zero Unauthorized Access"]
+        INTEGRITY["✅ Integrity<br/>100% Change Tracking"]
+        AVAILABILITY["⚡ Availability<br/>>99.5% Uptime"]
+        COMPLIANCE_OUT["📋 Compliance<br/>100% Framework Alignment"]
+        RESILIENCE["🔄 Resilience<br/>RTO/RPO Achievement"]
+        TRANSPARENCY["🌐 Transparency<br/>Public Evidence"]
     end
     
     TRUST --> CONFIDENTIALITY
@@ -1105,39 +1105,39 @@ This governance structure turns AI agents into **controlled, auditable technical
 ```mermaid
 graph TB
     subgraph "👤 Human Oversight Layer"
-        CEO[👔 CEO / Security Owner<br/>Ultimate Accountability]:::human
-        PM[👥 Project Maintainers<br/>PR Review & Approval]:::human
+        CEO["👔 CEO / Security Owner<br/>Ultimate Accountability"]:::human
+        PM["👥 Project Maintainers<br/>PR Review & Approval"]:::human
     end
     
     subgraph "🔧 Meta-Agent Layer"
-        CURATOR[🔧 Curator-Agent<br/>Agent Configuration Management]:::curator
+        CURATOR["🔧 Curator-Agent<br/>Agent Configuration Management"]:::curator
     end
     
     subgraph "📋 Orchestration Layer"
-        TASK_ISMS[📋 ISMS Task Agent]:::task
-        TASK_CIA[🏛️ CIA Task Agent]:::task
-        TASK_CM[📊 CIA CM Task Agent]:::task
-        TASK_BT[🎮 Black Trigram Task Agent]:::task
-        TASK_HP[🌐 Homepage Task Agent]:::task
-        TASK_RM[🗳️ Riksdagsmonitor Task Agent]:::task
-        TASK_EPM[🇪🇺 EU Parliament Monitor Task Agent]:::task
-        TASK_EPMCP[🔧 EU Parliament MCP Task Agent]:::task
+        TASK_ISMS["📋 ISMS Task Agent"]:::task
+        TASK_CIA["🏛️ CIA Task Agent"]:::task
+        TASK_CM["📊 CIA CM Task Agent"]:::task
+        TASK_BT["🎮 Black Trigram Task Agent"]:::task
+        TASK_HP["🌐 Homepage Task Agent"]:::task
+        TASK_RM["🗳️ Riksdagsmonitor Task Agent"]:::task
+        TASK_EPM["🇪🇺 EU Parliament Monitor Task Agent"]:::task
+        TASK_EPMCP["🔧 EU Parliament MCP Task Agent"]:::task
     end
     
     subgraph "👷 Implementation Layer"
-        SEC[🛡️ Security Specialist]:::specialist
-        DEV[💻 Development Specialist]:::specialist
-        TEST[🧪 Testing Specialist]:::specialist
-        UX[🎨 UI/UX Specialist]:::specialist
-        DOC[📝 Documentation Specialist]:::specialist
-        BIZ[💼 Business Specialist]:::specialist
+        SEC["🛡️ Security Specialist"]:::specialist
+        DEV["💻 Development Specialist"]:::specialist
+        TEST["🧪 Testing Specialist"]:::specialist
+        UX["🎨 UI/UX Specialist"]:::specialist
+        DOC["📝 Documentation Specialist"]:::specialist
+        BIZ["💼 Business Specialist"]:::specialist
     end
     
     subgraph "📊 Outputs & Evidence"
-        CONFIG[🤖 Agent Configurations<br/>.github/agents/*.md]:::output
-        ISSUES[📝 GitHub Issues<br/>ISMS-Aligned]:::output
-        CODE[💻 Code Changes<br/>PR Workflow]:::output
-        DOCS[📄 Documentation<br/>ISMS Updates]:::output
+        CONFIG["🤖 Agent Configurations<br/>.github/agents/*.md"]:::output
+        ISSUES["📝 GitHub Issues<br/>ISMS-Aligned"]:::output
+        CODE["💻 Code Changes<br/>PR Workflow"]:::output
+        DOCS["📄 Documentation<br/>ISMS Updates"]:::output
     end
     
     CEO -->|Approves| CURATOR
@@ -1248,13 +1248,13 @@ sequenceDiagram
 ```mermaid
 graph TB
     subgraph "⭐ Pentagon of Importance"
-        CENTER[🎯 ISMS Alignment<br/>Central Goal]:::center
+        CENTER["🎯 ISMS Alignment<br/>Central Goal"]:::center
         
-        SEC[🔒 Security<br/>Vulnerabilities, Threats,<br/>Control Implementation]:::security
-        QUAL[✨ Quality<br/>Code Excellence,<br/>Test Coverage, Tech Debt]:::quality
-        FUNC[🚀 Functionality<br/>Feature Completeness,<br/>User Value]:::functionality
-        QA[🧪 Quality Assurance<br/>Testing Rigor,<br/>Validation]:::qa
-        ISMS_DIM[📋 ISMS Controls<br/>Policy Compliance,<br/>Framework Adherence]:::isms
+        SEC["🔒 Security<br/>Vulnerabilities, Threats,<br/>Control Implementation"]:::security
+        QUAL["✨ Quality<br/>Code Excellence,<br/>Test Coverage, Tech Debt"]:::quality
+        FUNC["🚀 Functionality<br/>Feature Completeness,<br/>User Value"]:::functionality
+        QA["🧪 Quality Assurance<br/>Testing Rigor,<br/>Validation"]:::qa
+        ISMS_DIM["📋 ISMS Controls<br/>Policy Compliance,<br/>Framework Adherence"]:::isms
         
         CENTER --- SEC
         CENTER --- QUAL
@@ -1447,24 +1447,24 @@ Our strategy success measurement framework aligned with [📊 Security Metrics](
 }%%
 flowchart TD
     subgraph STRATEGIC["📊 Security Dashboard"]
-        CIA[🔐 CIA Triad<br/>Confidentiality, Integrity, Availability]
-        SECURITY[🛡️ Security Excellence<br/>Compliance, Incidents, Scores]
-        OPERATIONAL[⚙️ Operational Efficiency<br/>Automation, Response Times]
-        TRANSPARENCY[🌐 Transparency<br/>Evidence, Metrics, Badges]
+        CIA["🔐 CIA Triad<br/>Confidentiality, Integrity, Availability"]
+        SECURITY["🛡️ Security Excellence<br/>Compliance, Incidents, Scores"]
+        OPERATIONAL["⚙️ Operational Efficiency<br/>Automation, Response Times"]
+        TRANSPARENCY["🌐 Transparency<br/>Evidence, Metrics, Badges"]
     end
     
     subgraph REPORTING["📋 Reporting Framework"]
-        REAL_TIME[⚡ Real-time Monitoring<br/>Security Scores, Incidents]
-        MONTHLY[📅 Monthly Reports<br/>KPIs, Control Effectiveness]
-        QUARTERLY[📊 Quarterly Reviews<br/>Strategic Progress, Maturity]
-        ANNUAL[📈 Annual Assessment<br/>Strategy Review, Planning]
+        REAL_TIME["⚡ Real-time Monitoring<br/>Security Scores, Incidents"]
+        MONTHLY["📅 Monthly Reports<br/>KPIs, Control Effectiveness"]
+        QUARTERLY["📊 Quarterly Reviews<br/>Strategic Progress, Maturity"]
+        ANNUAL["📈 Annual Assessment<br/>Strategy Review, Planning"]
     end
     
     subgraph STAKEHOLDERS["👥 Stakeholder Views"]
-        CEO[👨‍💼 CEO Dashboard<br/>Strategic Security KPIs]
-        TECHNICAL[🔧 Technical Team<br/>Operational Metrics]
-        PUBLIC[🌐 Public Transparency<br/>Security Posture]
-        AUDITOR[🏛️ Auditor View<br/>Compliance Status]
+        CEO["👨‍💼 CEO Dashboard<br/>Strategic Security KPIs"]
+        TECHNICAL["🔧 Technical Team<br/>Operational Metrics"]
+        PUBLIC["🌐 Public Transparency<br/>Security Posture"]
+        AUDITOR["🏛️ Auditor View<br/>Compliance Status"]
     end
     
     CIA --> REAL_TIME

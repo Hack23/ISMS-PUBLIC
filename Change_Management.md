@@ -242,34 +242,34 @@ Different projects implement specialized labeling reflecting their business doma
 
 ```mermaid
 graph TD
-    A[🔄 Pull Request Created] --> B{🏷️ Automated Labeling}
+    A["🔄 Pull Request Created"] --> B{"🏷️ Automated Labeling"}
     
-    B --> C[📂 File Path Analysis]
-    B --> D[🌿 Branch Pattern Analysis] 
-    B --> E[📝 Content Analysis]
+    B --> C["📂 File Path Analysis"]
+    B --> D["🌿 Branch Pattern Analysis"] 
+    B --> E["📝 Content Analysis"]
     
-    C --> F{🔍 Security Impact Assessment}
+    C --> F{"🔍 Security Impact Assessment"}
     D --> F
     E --> F
     
-    F -->|🔴 Critical/High| G[🚨 Normal/Emergency Change]
-    F -->|🟡 Medium| H[⚙️ Normal Change]
-    F -->|🟢 Low/Minimal| I[✅ Standard Change]
+    F -->|🔴 Critical/High| G["🚨 Normal/Emergency Change"]
+    F -->|🟡 Medium| H["⚙️ Normal Change"]
+    F -->|🟢 Low/Minimal| I["✅ Standard Change"]
     
-    G --> J[👨‍💻 CEO Review Required]
-    H --> K[👨‍💻 CEO Approval Required] 
-    I --> L[🤖 Pre-Approved Processing]
+    G --> J["👨‍💻 CEO Review Required"]
+    H --> K["👨‍💻 CEO Approval Required"] 
+    I --> L["🤖 Pre-Approved Processing"]
     
-    J --> M[🔒 Enhanced Security Gates]
-    K --> N[🛡️ Standard Security Gates]
-    L --> O[⚡ Basic Security Gates]
+    J --> M["🔒 Enhanced Security Gates"]
+    K --> N["🛡️ Standard Security Gates"]
+    L --> O["⚡ Basic Security Gates"]
     
-    M --> P{✅ All Gates Pass?}
+    M --> P{"✅ All Gates Pass?"}
     N --> P
     O --> P
     
-    P -->|✅ Yes| Q[🚀 Ready for CEO Deployment]
-    P -->|❌ No| R[🚫 Blocked - Remediation Required]
+    P -->|✅ Yes| Q["🚀 Ready for CEO Deployment"]
+    P -->|❌ No| R["🚫 Blocked - Remediation Required"]
     
     classDef critical fill:#D32F2F,stroke:#c62828,stroke-width:2px
     classDef normal fill:#FF9800,stroke:#F57C00,stroke-width:2px

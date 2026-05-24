@@ -52,21 +52,21 @@ This policy establishes cryptographic standards and procedures for Hack23 AB, en
 ```mermaid
 flowchart TD
     subgraph "🔐 Encryption at Rest Requirements"
-        EXTREME[Extreme Data<br/>✅ MUST: HSM Encryption]
-        HIGH[High Data<br/>✅ MUST: AES-256 CMK]
-        STANDARD[Standard Data<br/>✅ MUST: AES-256 Service]
+        EXTREME["Extreme Data<br/>✅ MUST: HSM Encryption"]
+        HIGH["High Data<br/>✅ MUST: AES-256 CMK"]
+        STANDARD["Standard Data<br/>✅ MUST: AES-256 Service"]
     end
     
     subgraph "🔑 Key Management Requirements"
-        KMS[Key Management Service<br/>✅ MUST: Centralized KMS]
-        ROTATION[Key Rotation<br/>✅ MUST: Annual minimum]
-        BACKUP[Key Backup<br/>✅ MUST: Cross-region]
+        KMS["Key Management Service<br/>✅ MUST: Centralized KMS"]
+        ROTATION["Key Rotation<br/>✅ MUST: Annual minimum"]
+        BACKUP["Key Backup<br/>✅ MUST: Cross-region"]
     end
     
     subgraph "📋 Compliance Gates"
-        AUDIT[Audit Logging<br/>✅ MUST: All key operations]
-        ACCESS[Access Control<br/>✅ MUST: Least privilege]
-        MONITORING[Monitoring<br/>✅ MUST: Real-time alerts]
+        AUDIT["Audit Logging<br/>✅ MUST: All key operations"]
+        ACCESS["Access Control<br/>✅ MUST: Least privilege"]
+        MONITORING["Monitoring<br/>✅ MUST: Real-time alerts"]
     end
     
     EXTREME --> KMS
@@ -97,21 +97,21 @@ flowchart TD
 ```mermaid
 graph LR
     subgraph "🌐 Transport Layer Requirements"
-        TLS13[TLS 1.3 Preferred<br/>✅ MUST: Modern protocols]
-        TLS12[TLS 1.2 Minimum<br/>✅ MUST: Legacy support]
-        CIPHERS[Strong Ciphers<br/>✅ MUST: AEAD suites only]
+        TLS13["TLS 1.3 Preferred<br/>✅ MUST: Modern protocols"]
+        TLS12["TLS 1.2 Minimum<br/>✅ MUST: Legacy support"]
+        CIPHERS["Strong Ciphers<br/>✅ MUST: AEAD suites only"]
     end
     
     subgraph "🔒 Protocol Implementation"
-        HTTPS[HTTPS Everywhere<br/>✅ MUST: All web traffic]
-        API[API Security<br/>✅ MUST: TLS + signatures]
-        EMAIL[Email Encryption<br/>✅ MUST: TLS + S/MIME]
+        HTTPS["HTTPS Everywhere<br/>✅ MUST: All web traffic"]
+        API["API Security<br/>✅ MUST: TLS + signatures"]
+        EMAIL["Email Encryption<br/>✅ MUST: TLS + S/MIME"]
     end
     
     subgraph "📊 Validation Requirements"
-        TESTING[Protocol Testing<br/>✅ MUST: Automated validation]
-        GRADING[Security Grading<br/>✅ MUST: SSL Labs A+]
-        MONITORING[Traffic Monitoring<br/>✅ MUST: Weak cipher detection]
+        TESTING["Protocol Testing<br/>✅ MUST: Automated validation"]
+        GRADING["Security Grading<br/>✅ MUST: SSL Labs A+"]
+        MONITORING["Traffic Monitoring<br/>✅ MUST: Weak cipher detection"]
     end
     
     TLS13 --> HTTPS
@@ -316,13 +316,13 @@ Prohibited_Ciphers:
 
 ```mermaid
 flowchart LR
-    ASSESS[🔍 Crypto Assessment] --> IMPLEMENT[🔒 Algorithm Updates]
-    IMPLEMENT --> VALIDATE[✅ Security Validation]
-    VALIDATE --> MONITOR[📊 Performance Monitoring]
+    ASSESS["🔍 Crypto Assessment"] --> IMPLEMENT["🔒 Algorithm Updates"]
+    IMPLEMENT --> VALIDATE["✅ Security Validation"]
+    VALIDATE --> MONITOR["📊 Performance Monitoring"]
     MONITOR --> ASSESS
     
-    ASSESS --> THREAT[🚨 Threat Intelligence]
-    THREAT --> QUANTUM[🔮 Post-Quantum Prep]
+    ASSESS --> THREAT["🚨 Threat Intelligence"]
+    THREAT --> QUANTUM["🔮 Post-Quantum Prep"]
     QUANTUM --> IMPLEMENT
     
     style ASSESS fill:#1565C0

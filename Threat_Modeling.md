@@ -274,28 +274,28 @@ Systematic decomposition of attack goals into achievable sub-goals using AND/OR 
   }
 }%%
 flowchart TD
-    GOAL[🎯 Compromise Hack23 AB<br/>Customer Data]
+    GOAL["🎯 Compromise Hack23 AB<br/>Customer Data"]
     
-    GOAL --> PATH1[🚪 External Attack Path]
-    GOAL --> PATH2[🔒 Insider Threat Path]
-    GOAL --> PATH3[🤝 Supply Chain Path]
+    GOAL --> PATH1["🚪 External Attack Path"]
+    GOAL --> PATH2["🔒 Insider Threat Path"]
+    GOAL --> PATH3["🤝 Supply Chain Path"]
     
-    PATH1 --> EXT1[🌐 Web Application Exploit]
-    PATH1 --> EXT2[📧 Phishing Campaign]
-    PATH1 --> EXT3[☁️ Cloud Service Compromise]
+    PATH1 --> EXT1["🌐 Web Application Exploit"]
+    PATH1 --> EXT2["📧 Phishing Campaign"]
+    PATH1 --> EXT3["☁️ Cloud Service Compromise"]
     
-    EXT1 --> EXT1A[🔍 Vulnerability Discovery]
-    EXT1 --> EXT1B[⚡ Exploit Development]
-    EXT1A --> EXT1A1[🤖 Automated Scanning]
-    EXT1A --> EXT1A2[📝 Manual Code Review]
+    EXT1 --> EXT1A["🔍 Vulnerability Discovery"]
+    EXT1 --> EXT1B["⚡ Exploit Development"]
+    EXT1A --> EXT1A1["🤖 Automated Scanning"]
+    EXT1A --> EXT1A2["📝 Manual Code Review"]
     
-    PATH2 --> INT1[👤 Malicious Employee]
-    PATH2 --> INT2[🎣 Social Engineering]
-    PATH2 --> INT3[💻 Credential Theft]
+    PATH2 --> INT1["👤 Malicious Employee"]
+    PATH2 --> INT2["🎣 Social Engineering"]
+    PATH2 --> INT3["💻 Credential Theft"]
     
-    PATH3 --> SUP1[🔧 Development Tool Compromise]
-    PATH3 --> SUP2[📦 Dependency Poisoning]
-    PATH3 --> SUP3[☁️ SaaS Provider Breach]
+    PATH3 --> SUP1["🔧 Development Tool Compromise"]
+    PATH3 --> SUP2["📦 Dependency Poisoning"]
+    PATH3 --> SUP3["☁️ SaaS Provider Breach"]
     
     style GOAL fill:#D32F2F,color:#fff
     style PATH1 fill:#FF9800,color:#fff
@@ -330,13 +330,13 @@ Network-based attack path analysis showing how attackers could traverse our infr
   }
 }%%
 graph LR
-    INTERNET[🌐 Internet]
-    WAF[🛡️ WAF/CloudFront]
-    ALB[⚖️ Application Load Balancer]
-    WEB[🌐 Web Servers<br/>Public Subnet]
-    APP[📱 Application Servers<br/>Private Subnet]
-    DB[(🗄️ Database<br/>Private Subnet)]
-    ADMIN[👨‍💼 Admin Interface<br/>VPN Only]
+    INTERNET["🌐 Internet"]
+    WAF["🛡️ WAF/CloudFront"]
+    ALB["⚖️ Application Load Balancer"]
+    WEB["🌐 Web Servers<br/>Public Subnet"]
+    APP["📱 Application Servers<br/>Private Subnet"]
+    DB[("🗄️ Database<br/>Private Subnet")]
+    ADMIN["👨‍💼 Admin Interface<br/>VPN Only"]
     
     INTERNET -->|"🎯 Attack Vector 1<br/>Web Exploit"| WAF
     WAF -->|"Bypass WAF"| ALB
@@ -433,28 +433,28 @@ Systematic analysis of how attackers could target each critical asset:
 }%%
 flowchart TB
     subgraph ASSETS["💎 Critical Assets"]
-        CUSTOMER_DB[(🔐 Customer Database)]
-        SOURCE_CODE[🧠 Source Code Repository]
-        AUTH_SYS[🔑 Authentication System]
-        PROD_ENV[🌐 Production Environment]
+        CUSTOMER_DB[("🔐 Customer Database")]
+        SOURCE_CODE["🧠 Source Code Repository"]
+        AUTH_SYS["🔑 Authentication System"]
+        PROD_ENV["🌐 Production Environment"]
     end
     
     subgraph ATTACK_VECTORS["⚔️ Attack Vectors"]
-        SQL_INJ[💉 SQL Injection]
-        CODE_INJ[💻 Code Injection]
+        SQL_INJ["💉 SQL Injection"]
+        CODE_INJ["💻 Code Injection"]
         PRIVESC[⬆️ Privilege Escalation]
         LATERAL[↔️ Lateral Movement]
-        SUPPLY_CHAIN[🔗 Supply Chain]
-        INSIDER[👤 Insider Threat]
-        SOCIAL_ENG[🎭 Social Engineering]
-        CREDENTIAL[🔑 Credential Theft]
+        SUPPLY_CHAIN["🔗 Supply Chain"]
+        INSIDER["👤 Insider Threat"]
+        SOCIAL_ENG["🎭 Social Engineering"]
+        CREDENTIAL["🔑 Credential Theft"]
     end
     
     subgraph THREAT_AGENTS["👥 Threat Agents"]
-        CYBER_CRIME[💰 Cybercriminals]
-        NATION_STATE[🏛️ Nation-States]
-        HACKTIVISTS[🎭 Hacktivists]
-        MALICIOUS_INSIDER[🎯 Malicious Insiders]
+        CYBER_CRIME["💰 Cybercriminals"]
+        NATION_STATE["🏛️ Nation-States"]
+        HACKTIVISTS["🎭 Hacktivists"]
+        MALICIOUS_INSIDER["🎯 Malicious Insiders"]
     end
     
     SQL_INJ --> CUSTOMER_DB
@@ -500,14 +500,14 @@ Tracking how sensitive data moves through systems and where it could be compromi
   }
 }%%
 flowchart LR
-    USER[👤 User Input]
-    CLIENT[💻 Client Application]
-    API[🔌 API Gateway]
-    AUTH[🔑 Authentication Service]
-    APP[📱 Application Logic]
-    DB[(🗄️ Database)]
-    ANALYTICS[📊 Analytics Service]
-    BACKUP[💾 Backup Storage]
+    USER["👤 User Input"]
+    CLIENT["💻 Client Application"]
+    API["🔌 API Gateway"]
+    AUTH["🔑 Authentication Service"]
+    APP["📱 Application Logic"]
+    DB[("🗄️ Database")]
+    ANALYTICS["📊 Analytics Service"]
+    BACKUP["💾 Backup Storage"]
     
     USER -->|🎯 T1: Input Injection| CLIENT
     CLIENT -->|🎯 T2: Man-in-Middle| API
@@ -564,22 +564,22 @@ Systematic application of STRIDE methodology to each architectural component:
 }%%
 flowchart TB
     subgraph TRUST_BOUNDARY_1["🌐 Internet/DMZ Trust Boundary"]
-        USER[👤 User]
-        WAF[🛡️ Web Application Firewall]
-        CDN[🌐 CloudFront CDN]
+        USER["👤 User"]
+        WAF["🛡️ Web Application Firewall"]
+        CDN["🌐 CloudFront CDN"]
     end
     
     subgraph TRUST_BOUNDARY_2["🔒 Application Trust Boundary"]
-        ALB[⚖️ Application Load Balancer]
-        WEB[🌐 Web Server]
-        API[🔌 API Gateway]
+        ALB["⚖️ Application Load Balancer"]
+        WEB["🌐 Web Server"]
+        API["🔌 API Gateway"]
     end
     
     subgraph TRUST_BOUNDARY_3["🔐 Backend Trust Boundary"]
-        AUTH[🔑 Auth Service]
-        APP[📱 Application Logic]
-        CACHE[(💾 Redis Cache)]
-        DB[(🗄️ PostgreSQL)]
+        AUTH["🔑 Auth Service"]
+        APP["📱 Application Logic"]
+        CACHE[("💾 Redis Cache")]
+        DB[("🗄️ PostgreSQL")]
     end
     
     USER -->|🎯 S,T,R,I,D,E| WAF
@@ -655,24 +655,24 @@ Analyzing threats from different attacker personas:
 }%%
 flowchart TD
     subgraph PERSONAS["👥 Attacker Personas"]
-        SCRIPT_KIDDIE[🎮 Script Kiddie<br/>Low Skill, High Volume]
-        INSIDER[👔 Malicious Insider<br/>High Access, Low Detection]
-        CYBERCRIMINAL[💰 Cybercriminal<br/>Medium Skill, Financial Motive]
-        APT[🏛️ APT Group<br/>High Skill, Persistent]
+        SCRIPT_KIDDIE["🎮 Script Kiddie<br/>Low Skill, High Volume"]
+        INSIDER["👔 Malicious Insider<br/>High Access, Low Detection"]
+        CYBERCRIMINAL["💰 Cybercriminal<br/>Medium Skill, Financial Motive"]
+        APT["🏛️ APT Group<br/>High Skill, Persistent"]
     end
     
     subgraph METHODS["⚔️ Attack Methods"]
-        AUTOMATED[🤖 Automated Tools]
-        SOCIAL[🎭 Social Engineering]
-        CUSTOM[🔧 Custom Exploits]
-        ZERO_DAY[🆕 Zero-Day Exploits]
+        AUTOMATED["🤖 Automated Tools"]
+        SOCIAL["🎭 Social Engineering"]
+        CUSTOM["🔧 Custom Exploits"]
+        ZERO_DAY["🆕 Zero-Day Exploits"]
     end
     
     subgraph TARGETS["🎯 Target Selection"]
-        OPPORTUNITY[🎲 Opportunistic]
-        PRIVILEGE[🔑 Privileged Access]
-        HIGH_VALUE[💎 High-Value Data]
-        STRATEGIC[📍 Strategic Assets]
+        OPPORTUNITY["🎲 Opportunistic"]
+        PRIVILEGE["🔑 Privileged Access"]
+        HIGH_VALUE["💎 High-Value Data"]
+        STRATEGIC["📍 Strategic Assets"]
     end
     
     SCRIPT_KIDDIE --> AUTOMATED
@@ -767,24 +767,24 @@ Mapping vulnerabilities to threat scenarios for prioritized remediation:
 }%%
 flowchart TB
     subgraph VULNS["🔍 Identified Vulnerabilities"]
-        VULN1[🌐 Web App: XSS<br/>CVSS: 6.1]
-        VULN2[📦 Dependency: RCE<br/>CVSS: 9.8]
-        VULN3[☁️ Config: Exposure<br/>CVSS: 5.3]
-        VULN4[🔑 Auth: Bypass<br/>CVSS: 8.1]
+        VULN1["🌐 Web App: XSS<br/>CVSS: 6.1"]
+        VULN2["📦 Dependency: RCE<br/>CVSS: 9.8"]
+        VULN3["☁️ Config: Exposure<br/>CVSS: 5.3"]
+        VULN4["🔑 Auth: Bypass<br/>CVSS: 8.1"]
     end
     
     subgraph THREATS["⚔️ Threat Scenarios"]
-        THREAT1[🎯 Data Exfiltration]
-        THREAT2[💥 System Compromise]
-        THREAT3[🔐 Unauthorized Access]
-        THREAT4[🌊 Lateral Movement]
+        THREAT1["🎯 Data Exfiltration"]
+        THREAT2["💥 System Compromise"]
+        THREAT3["🔐 Unauthorized Access"]
+        THREAT4["🌊 Lateral Movement"]
     end
     
     subgraph IMPACT["💥 Business Impact"]
-        IMPACT1[💰 Revenue Loss]
-        IMPACT2[📉 Reputation Damage]
-        IMPACT3[⚖️ Compliance Violation]
-        IMPACT4[🚫 Service Disruption]
+        IMPACT1["💰 Revenue Loss"]
+        IMPACT2["📉 Reputation Damage"]
+        IMPACT3["⚖️ Compliance Violation"]
+        IMPACT4["🚫 Service Disruption"]
     end
     
     VULN1 --> THREAT1
@@ -831,25 +831,25 @@ Combining multiple modeling approaches for complete threat coverage:
   }
 }%%
 flowchart TD
-    START[🚀 Threat Modeling Initiative] --> ASSET[🏗️ Asset-Centric Analysis]
-    START --> ATTACK[🎖️ Attacker-Centric Analysis]
-    START --> ARCH[🏛️ Architecture-Centric Analysis]
-    START --> SCENARIO[🎯 Scenario-Centric Analysis]
-    START --> RISK[⚖️ Risk-Centric Analysis]
+    START["🚀 Threat Modeling Initiative"] --> ASSET["🏗️ Asset-Centric Analysis"]
+    START --> ATTACK["🎖️ Attacker-Centric Analysis"]
+    START --> ARCH["🏛️ Architecture-Centric Analysis"]
+    START --> SCENARIO["🎯 Scenario-Centric Analysis"]
+    START --> RISK["⚖️ Risk-Centric Analysis"]
     
-    ASSET --> SYNTHESIS[🔄 Threat Synthesis]
+    ASSET --> SYNTHESIS["🔄 Threat Synthesis"]
     ATTACK --> SYNTHESIS
     ARCH --> SYNTHESIS
     SCENARIO --> SYNTHESIS
     RISK --> SYNTHESIS
     
-    SYNTHESIS --> PRIORITIZE[📊 Risk Prioritization]
-    PRIORITIZE --> MITIGATE[🛡️ Mitigation Planning]
-    MITIGATE --> IMPLEMENT[🚀 Control Implementation]
-    IMPLEMENT --> VALIDATE[✅ Validation Testing]
-    VALIDATE --> MONITOR[📈 Continuous Monitoring]
+    SYNTHESIS --> PRIORITIZE["📊 Risk Prioritization"]
+    PRIORITIZE --> MITIGATE["🛡️ Mitigation Planning"]
+    MITIGATE --> IMPLEMENT["🚀 Control Implementation"]
+    IMPLEMENT --> VALIDATE["✅ Validation Testing"]
+    VALIDATE --> MONITOR["📈 Continuous Monitoring"]
     
-    MONITOR --> REVIEW{🔄 Periodic Review}
+    MONITOR --> REVIEW{"🔄 Periodic Review"}
     REVIEW -->|Changes Detected| ASSET
     REVIEW -->|New Threats| ATTACK
     REVIEW -->|Architecture Updates| ARCH
@@ -1059,22 +1059,22 @@ Each threat model entry **MUST** include complete attribute documentation aligne
   }
 }%%
 flowchart TD
-    PLAN[📋 Threat Assessment Planning] --> SCOPE[🎯 Scope Definition]
-    SCOPE --> TEAM[👥 Team Assembly]
-    TEAM --> WORKSHOP[🎪 Workshop Execution]
+    PLAN["📋 Threat Assessment Planning"] --> SCOPE["🎯 Scope Definition"]
+    SCOPE --> TEAM["👥 Team Assembly"]
+    TEAM --> WORKSHOP["🎪 Workshop Execution"]
     
-    WORKSHOP --> IDENTIFY[🔍 Threat Identification]
-    IDENTIFY --> ANALYZE[📊 Risk Analysis]
-    ANALYZE --> PRIORITIZE[⚡ Priority Ranking]
-    PRIORITIZE --> MITIGATE[🛡️ Mitigation Planning]
+    WORKSHOP --> IDENTIFY["🔍 Threat Identification"]
+    IDENTIFY --> ANALYZE["📊 Risk Analysis"]
+    ANALYZE --> PRIORITIZE["⚡ Priority Ranking"]
+    PRIORITIZE --> MITIGATE["🛡️ Mitigation Planning"]
     
-    MITIGATE --> IMPLEMENT[🚀 Control Implementation]
-    IMPLEMENT --> MONITOR[📈 Monitoring & Tracking]
-    MONITOR --> REVIEW{🔄 Periodic Review}
+    MITIGATE --> IMPLEMENT["🚀 Control Implementation"]
+    IMPLEMENT --> MONITOR["📈 Monitoring & Tracking"]
+    MONITOR --> REVIEW{"🔄 Periodic Review"}
     
-    REVIEW -->|📅 Scheduled| UPDATE[📝 Assessment Update]
-    REVIEW -->|🚨 Incident| EMERGENCY[⚡ Emergency Assessment]
-    REVIEW -->|🔧 Change| DELTA[🔄 Delta Assessment]
+    REVIEW -->|📅 Scheduled| UPDATE["📝 Assessment Update"]
+    REVIEW -->|🚨 Incident| EMERGENCY["⚡ Emergency Assessment"]
+    REVIEW -->|🔧 Change| DELTA["🔄 Delta Assessment"]
     
     UPDATE --> PLAN
     EMERGENCY --> PLAN

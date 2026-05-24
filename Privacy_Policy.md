@@ -226,12 +226,12 @@ We process personal data only for specified, explicit, and legitimate purposes u
   }
 }%%
 flowchart TD
-    PURPOSE[📊 Data Processing Purpose]
+    PURPOSE["📊 Data Processing Purpose"]
     
-    PURPOSE --> CONTRACT[📝 Contract Performance]
-    PURPOSE --> CONSENT[✅ User Consent]
-    PURPOSE --> LEGAL[⚖️ Legal Obligation]
-    PURPOSE --> LEGIT[🎯 Legitimate Interest]
+    PURPOSE --> CONTRACT["📝 Contract Performance"]
+    PURPOSE --> CONSENT["✅ User Consent"]
+    PURPOSE --> LEGAL["⚖️ Legal Obligation"]
+    PURPOSE --> LEGIT["🎯 Legitimate Interest"]
     
     CONTRACT --> C1[Account Management]
     CONTRACT --> C2[Service Delivery]
@@ -290,21 +290,21 @@ We implement comprehensive technical and organizational measures aligned with ou
 }%%
 flowchart LR
     subgraph DATA["📊 Data Protection Layers"]
-        TRANSIT[🌐 Data in Transit<br/>TLS 1.3]
-        REST[💾 Data at Rest<br/>AES-256]
-        PROCESS[⚙️ Data in Processing<br/>Secure Memory]
+        TRANSIT["🌐 Data in Transit<br/>TLS 1.3"]
+        REST["💾 Data at Rest<br/>AES-256"]
+        PROCESS["⚙️ Data in Processing<br/>Secure Memory"]
     end
     
     subgraph ACCESS["🔑 Access Controls"]
-        MFA[🔐 Multi-Factor Auth]
-        RBAC[👥 Role-Based Access]
-        AUDIT[📋 Audit Logging]
+        MFA["🔐 Multi-Factor Auth"]
+        RBAC["👥 Role-Based Access"]
+        AUDIT["📋 Audit Logging"]
     end
     
     subgraph MONITORING["📊 Security Monitoring"]
-        IDS[🚨 Intrusion Detection]
-        SIEM[📈 Log Analysis]
-        ALERT[⚠️ Real-time Alerts]
+        IDS["🚨 Intrusion Detection"]
+        SIEM["📈 Log Analysis"]
+        ALERT["⚠️ Real-time Alerts"]
     end
     
     DATA --> ACCESS
@@ -376,21 +376,21 @@ We prioritize EU/EEA data residency. When transfers outside EU/EEA are necessary
   }
 }%%
 flowchart TD
-    START[🌍 International Transfer Required?]
-    START --> CHECK{🔍 Adequacy Decision?}
+    START["🌍 International Transfer Required?"]
+    START --> CHECK{"🔍 Adequacy Decision?"}
     
-    CHECK -->|✅ Yes| ADEQUATE[🇪🇺 EU Adequacy Decision<br/>No additional safeguards needed]
-    CHECK -->|❌ No| SAFEGUARDS{🛡️ Appropriate Safeguards?}
+    CHECK -->|✅ Yes| ADEQUATE["🇪🇺 EU Adequacy Decision<br/>No additional safeguards needed"]
+    CHECK -->|❌ No| SAFEGUARDS{"🛡️ Appropriate Safeguards?"}
     
-    SAFEGUARDS --> SCC[📝 Standard Contractual Clauses<br/>EU Commission approved]
-    SAFEGUARDS --> CERT[✅ Certification Schemes<br/>Privacy Shield successor]
-    SAFEGUARDS --> COC[📋 Codes of Conduct<br/>Industry standards]
+    SAFEGUARDS --> SCC["📝 Standard Contractual Clauses<br/>EU Commission approved"]
+    SAFEGUARDS --> CERT["✅ Certification Schemes<br/>Privacy Shield successor"]
+    SAFEGUARDS --> COC["📋 Codes of Conduct<br/>Industry standards"]
     
-    SCC --> ASSESS[🔍 Transfer Impact Assessment]
+    SCC --> ASSESS["🔍 Transfer Impact Assessment"]
     CERT --> ASSESS
     COC --> ASSESS
     
-    ASSESS --> APPROVE[✅ Transfer Approved]
+    ASSESS --> APPROVE["✅ Transfer Approved"]
     ADEQUATE --> APPROVE
     
     classDef startStyle fill:#1565C0,stroke:#0D47A1,color:#fff
@@ -632,15 +632,15 @@ We may update this Privacy Policy to reflect changes in our practices, legal req
   }
 }%%
 flowchart LR
-    CHANGE[📝 Policy Update Required]
-    CHANGE --> REVIEW[👥 Internal Review]
-    REVIEW --> APPROVE[✅ CEO Approval]
-    APPROVE --> PUBLISH[🌐 Publish Updated Policy]
-    PUBLISH --> NOTIFY[📧 User Notification]
+    CHANGE["📝 Policy Update Required"]
+    CHANGE --> REVIEW["👥 Internal Review"]
+    REVIEW --> APPROVE["✅ CEO Approval"]
+    APPROVE --> PUBLISH["🌐 Publish Updated Policy"]
+    PUBLISH --> NOTIFY["📧 User Notification"]
     
-    NOTIFY --> EMAIL[📧 Email to Active Users]
-    NOTIFY --> BANNER[🔔 In-App Notification]
-    NOTIFY --> CHANGELOG[📋 Version History]
+    NOTIFY --> EMAIL["📧 Email to Active Users"]
+    NOTIFY --> BANNER["🔔 In-App Notification"]
+    NOTIFY --> CHANGELOG["📋 Version History"]
     
     classDef changeStyle fill:#2E7D32,stroke:#2E7D32,color:#fff
     classDef processStyle fill:#4CAF50,stroke:#388E3C,color:#fff

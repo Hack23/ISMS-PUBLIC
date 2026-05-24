@@ -104,17 +104,17 @@ Using [🏷️ Classification Framework](./CLASSIFICATION.md) business impact an
   }
 }%%
 flowchart TD
-    INCIDENT[🚨 Security Incident Detected] --> ASSESS[📊 Business Impact Assessment]
+    INCIDENT["🚨 Security Incident Detected"] --> ASSESS["📊 Business Impact Assessment"]
     
-    ASSESS --> CRITICAL{🔴 Critical Impact?<br/>€10K+ daily loss<br/>Complete outage<br/>Criminal liability}
-    ASSESS --> HIGH{🟠 High Impact?<br/>€5-10K daily loss<br/>Major degradation<br/>Significant fines}
-    ASSESS --> MEDIUM{🟡 Medium Impact?<br/>€1-5K daily loss<br/>Partial impact<br/>Minor penalties}
-    ASSESS --> LOW{🟢 Low Impact?<br/><€1K daily loss<br/>Minor inconvenience<br/>No implications}
+    ASSESS --> CRITICAL{"🔴 Critical Impact?<br/>€10K+ daily loss<br/>Complete outage<br/>Criminal liability"}
+    ASSESS --> HIGH{"🟠 High Impact?<br/>€5-10K daily loss<br/>Major degradation<br/>Significant fines"}
+    ASSESS --> MEDIUM{"🟡 Medium Impact?<br/>€1-5K daily loss<br/>Partial impact<br/>Minor penalties"}
+    ASSESS --> LOW{"🟢 Low Impact?<br/><€1K daily loss<br/>Minor inconvenience<br/>No implications"}
     
-    CRITICAL -->|YES| C_RESPONSE[🔴 Critical Response<br/>< 30 min response<br/>< 4 hr resolution<br/>All stakeholders]
-    HIGH -->|YES| H_RESPONSE[🟠 High Response<br/>< 1 hr response<br/>< 24 hr resolution<br/>Key stakeholders]
-    MEDIUM -->|YES| M_RESPONSE[🟡 Medium Response<br/>< 4 hr response<br/>< 72 hr resolution<br/>Internal only]
-    LOW -->|YES| L_RESPONSE[🟢 Low Response<br/>< 24 hr response<br/>< 1 week resolution<br/>Documentation]
+    CRITICAL -->|YES| C_RESPONSE["🔴 Critical Response<br/>< 30 min response<br/>< 4 hr resolution<br/>All stakeholders"]
+    HIGH -->|YES| H_RESPONSE["🟠 High Response<br/>< 1 hr response<br/>< 24 hr resolution<br/>Key stakeholders"]
+    MEDIUM -->|YES| M_RESPONSE["🟡 Medium Response<br/>< 4 hr response<br/>< 72 hr resolution<br/>Internal only"]
+    LOW -->|YES| L_RESPONSE["🟢 Low Response<br/>< 24 hr response<br/>< 1 week resolution<br/>Documentation"]
     
     style INCIDENT fill:#F57C00,color:#fff
     style ASSESS fill:#2196f3,color:#fff
@@ -145,36 +145,36 @@ Hack23's comprehensive incident response process with severity-based escalation 
 
 ```mermaid
 flowchart TD
-    DETECT[🔍 Incident Detected<br/>Monitoring/Alert/Report/Discovery] --> CLASSIFY{🏷️ Classify Severity<br/>Business Impact Assessment}
+    DETECT["🔍 Incident Detected<br/>Monitoring/Alert/Report/Discovery"] --> CLASSIFY{"🏷️ Classify Severity<br/>Business Impact Assessment"}
     
-    CLASSIFY -->|🔴 Critical<br/>S1: >€10K daily loss| IMMEDIATE[⚡ Immediate Response<br/>RTO: 30 min<br/>CEO + External Consultant<br/>All Stakeholders Alert]
-    CLASSIFY -->|🟠 High<br/>S2: €5-10K daily loss| URGENT[🔴 Urgent Response<br/>RTO: 1 hour<br/>CEO + Insurance Provider<br/>Key Stakeholders]
-    CLASSIFY -->|🟡 Medium<br/>S3: €1-5K daily loss| STANDARD[🟡 Standard Response<br/>RTO: 4 hours<br/>CEO Investigation<br/>Internal Only]
-    CLASSIFY -->|🟢 Low<br/>S4: <€1K daily loss| ROUTINE[🟢 Routine Response<br/>RTO: 24 hours<br/>CEO Scheduled Review<br/>Documentation]
+    CLASSIFY -->|🔴 Critical<br/>S1: >€10K daily loss| IMMEDIATE["⚡ Immediate Response<br/>RTO: 30 min<br/>CEO + External Consultant<br/>All Stakeholders Alert"]
+    CLASSIFY -->|🟠 High<br/>S2: €5-10K daily loss| URGENT["🔴 Urgent Response<br/>RTO: 1 hour<br/>CEO + Insurance Provider<br/>Key Stakeholders"]
+    CLASSIFY -->|🟡 Medium<br/>S3: €1-5K daily loss| STANDARD["🟡 Standard Response<br/>RTO: 4 hours<br/>CEO Investigation<br/>Internal Only"]
+    CLASSIFY -->|🟢 Low<br/>S4: <€1K daily loss| ROUTINE["🟢 Routine Response<br/>RTO: 24 hours<br/>CEO Scheduled Review<br/>Documentation"]
     
-    IMMEDIATE --> CONTAIN[🛡️ Containment<br/>Isolate Affected Systems<br/>Preserve Evidence<br/>AWS Detective Analysis]
+    IMMEDIATE --> CONTAIN["🛡️ Containment<br/>Isolate Affected Systems<br/>Preserve Evidence<br/>AWS Detective Analysis"]
     URGENT --> CONTAIN
     STANDARD --> CONTAIN
     ROUTINE --> CONTAIN
     
-    CONTAIN --> INVESTIGATE[🔬 Investigation<br/>Root Cause Analysis<br/>Timeline Construction<br/>Impact Assessment]
+    CONTAIN --> INVESTIGATE["🔬 Investigation<br/>Root Cause Analysis<br/>Timeline Construction<br/>Impact Assessment"]
     
-    INVESTIGATE --> REMEDIATE[🔧 Remediation<br/>Fix Vulnerability<br/>Remove Threat<br/>Restore Security]
+    INVESTIGATE --> REMEDIATE["🔧 Remediation<br/>Fix Vulnerability<br/>Remove Threat<br/>Restore Security"]
     
-    REMEDIATE --> VALIDATE[✅ Validation<br/>Verify Resolution<br/>Security Testing<br/>Control Effectiveness]
+    REMEDIATE --> VALIDATE["✅ Validation<br/>Verify Resolution<br/>Security Testing<br/>Control Effectiveness"]
     
-    VALIDATE --> DOCUMENT[📝 Incident Report<br/>Timeline Documentation<br/>Lessons Learned<br/>Control Updates]
+    VALIDATE --> DOCUMENT["📝 Incident Report<br/>Timeline Documentation<br/>Lessons Learned<br/>Control Updates"]
     
-    DOCUMENT --> IMPROVE[📈 Process Improvement<br/>Update Runbooks<br/>Control Enhancement<br/>Training Update]
+    DOCUMENT --> IMPROVE["📈 Process Improvement<br/>Update Runbooks<br/>Control Enhancement<br/>Training Update"]
     
-    IMPROVE --> EXTERNAL_NOTIFY{📢 External<br/>Notification<br/>Required?}
+    IMPROVE --> EXTERNAL_NOTIFY{"📢 External<br/>Notification<br/>Required?"}
     
-    EXTERNAL_NOTIFY -->|Yes<br/>GDPR/NIS2/Breach| NOTIFY[📢 Notify Authorities<br/>GDPR: 72-hour deadline<br/>NIS2: 24-hour initial<br/>Customer Communication]
-    EXTERNAL_NOTIFY -->|No<br/>Internal Only| CLOSE[✅ Close Incident<br/>Update Risk Register<br/>Archive Evidence<br/>Quarterly Review]
+    EXTERNAL_NOTIFY -->|Yes<br/>GDPR/NIS2/Breach| NOTIFY["📢 Notify Authorities<br/>GDPR: 72-hour deadline<br/>NIS2: 24-hour initial<br/>Customer Communication"]
+    EXTERNAL_NOTIFY -->|No<br/>Internal Only| CLOSE["✅ Close Incident<br/>Update Risk Register<br/>Archive Evidence<br/>Quarterly Review"]
     
     NOTIFY --> CLOSE
     
-    CLOSE --> MONITOR[🔄 Continuous Monitoring<br/>Detect Recurrence<br/>Control Validation<br/>Metrics Tracking]
+    CLOSE --> MONITOR["🔄 Continuous Monitoring<br/>Detect Recurrence<br/>Control Validation<br/>Metrics Tracking"]
     
     style DETECT fill:#2196F3,stroke:#1565C0,stroke-width:3px,color:#fff
     style CLASSIFY fill:#FF9800,stroke:#F57C00,stroke-width:3px,color:#fff
@@ -234,22 +234,22 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    CURATOR[🤖 Curator-Agent<br/>Continuous Monitoring] --> ANOMALY{Security<br/>Anomaly<br/>Detected?}
-    ANOMALY -->|Yes| CLASSIFY[🤖 Task Agent<br/>Severity Classification]
+    CURATOR["🤖 Curator-Agent<br/>Continuous Monitoring"] --> ANOMALY{Security<br/>Anomaly<br/>Detected?}
+    ANOMALY -->|Yes| CLASSIFY["🤖 Task Agent<br/>Severity Classification"]
     ANOMALY -->|No| CURATOR
     
     CLASSIFY --> CRITICAL{Severity<br/>Level}
-    CRITICAL -->|🔴 Critical/High| ALERT_CEO[⚡ Immediate CEO Alert<br/>SMS + Email]
-    CRITICAL -->|🟡 Medium| QUEUE_REVIEW[📋 Queue for Daily Review]
-    CRITICAL -->|🟢 Low| LOG[📝 Log for Weekly Review]
+    CRITICAL -->|🔴 Critical/High| ALERT_CEO["⚡ Immediate CEO Alert<br/>SMS + Email"]
+    CRITICAL -->|🟡 Medium| QUEUE_REVIEW["📋 Queue for Daily Review"]
+    CRITICAL -->|🟢 Low| LOG["📝 Log for Weekly Review"]
     
-    ALERT_CEO --> CEO_REVIEW[👨‍💼 CEO Manual Review]
+    ALERT_CEO --> CEO_REVIEW["👨‍💼 CEO Manual Review"]
     QUEUE_REVIEW --> CEO_REVIEW
     LOG --> CEO_REVIEW
     
     CEO_REVIEW --> INCIDENT{Confirm<br/>Incident?}
-    INCIDENT -->|Yes| IR_ACTIVATION[🚨 Activate IR Procedure]
-    INCIDENT -->|No| FALSE_POS[❌ False Positive<br/>Tune Agent]
+    INCIDENT -->|Yes| IR_ACTIVATION["🚨 Activate IR Procedure"]
+    INCIDENT -->|No| FALSE_POS["❌ False Positive<br/>Tune Agent"]
     
     classDef agent fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     classDef critical fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff
@@ -284,28 +284,28 @@ flowchart TD
   }
 }%%
 flowchart TD
-    DETECT[🔍 Incident Detection] --> DETECTIVE[🕵️ AWS Detective Integration]
+    DETECT["🔍 Incident Detection"] --> DETECTIVE["🕵️ AWS Detective Integration"]
     
-    DETECT --> AWS_NATIVE[☁️ AWS Native Detection]
-    DETECT --> EXTERNAL[🌐 External Detection]
-    DETECT --> MANUAL[👤 Manual Discovery]
-    DETECT --> AI_AGENTS[🤖 AI Agent Detection]
+    DETECT --> AWS_NATIVE["☁️ AWS Native Detection"]
+    DETECT --> EXTERNAL["🌐 External Detection"]
+    DETECT --> MANUAL["👤 Manual Discovery"]
+    DETECT --> AI_AGENTS["🤖 AI Agent Detection"]
     
-    AWS_NATIVE --> SECURITY_HUB[🛡️ Security Hub<br/>Centralized Findings]
-    AWS_NATIVE --> GUARDDUTY[🔍 GuardDuty<br/>Threat Detection]
-    AWS_NATIVE --> CONFIG[📊 Config<br/>Compliance Monitoring]
-    AWS_NATIVE --> CLOUDWATCH[📈 CloudWatch<br/>Performance Alerts]
+    AWS_NATIVE --> SECURITY_HUB["🛡️ Security Hub<br/>Centralized Findings"]
+    AWS_NATIVE --> GUARDDUTY["🔍 GuardDuty<br/>Threat Detection"]
+    AWS_NATIVE --> CONFIG["📊 Config<br/>Compliance Monitoring"]
+    AWS_NATIVE --> CLOUDWATCH["📈 CloudWatch<br/>Performance Alerts"]
     
-    EXTERNAL --> GITHUB[🐙 GitHub Security<br/>Code Vulnerabilities]
-    EXTERNAL --> SONAR[📊 SonarCloud<br/>Quality Gates]
-    EXTERNAL --> SUPPLIER[🤝 Supplier Notifications<br/>Third-party Alerts]
+    EXTERNAL --> GITHUB["🐙 GitHub Security<br/>Code Vulnerabilities"]
+    EXTERNAL --> SONAR["📊 SonarCloud<br/>Quality Gates"]
+    EXTERNAL --> SUPPLIER["🤝 Supplier Notifications<br/>Third-party Alerts"]
     
-    MANUAL --> USER_REPORT[👥 User Reports]
-    MANUAL --> EXTERNAL_INTEL[🌍 External Intelligence]
+    MANUAL --> USER_REPORT["👥 User Reports"]
+    MANUAL --> EXTERNAL_INTEL["🌍 External Intelligence"]
     
-    AI_AGENTS --> CURATOR_MON[🤖 Curator Monitoring<br/>Agent Profile Changes]
-    AI_AGENTS --> MCP_AUDIT[🔐 MCP Config Review<br/>Security Validation]
-    AI_AGENTS --> PERM_CHECK[🛡️ Permission Auditing<br/>Least Privilege]
+    AI_AGENTS --> CURATOR_MON["🤖 Curator Monitoring<br/>Agent Profile Changes"]
+    AI_AGENTS --> MCP_AUDIT["🔐 MCP Config Review<br/>Security Validation"]
+    AI_AGENTS --> PERM_CHECK["🛡️ Permission Auditing<br/>Least Privilege"]
     
     SECURITY_HUB --> DETECTIVE
     GUARDDUTY --> DETECTIVE
@@ -315,7 +315,7 @@ flowchart TD
     MCP_AUDIT --> DETECTIVE
     PERM_CHECK --> DETECTIVE
     
-    DETECTIVE --> ANALYSIS[🔍 Automated Analysis<br/>ML-Powered Investigation]
+    DETECTIVE --> ANALYSIS["🔍 Automated Analysis<br/>ML-Powered Investigation"]
     
     style DETECTIVE fill:#F57C00,color:#fff
     style ANALYSIS fill:#4caf50,color:#fff
@@ -347,12 +347,12 @@ flowchart TD
   }
 }%%
 flowchart TD
-    ALERT[🚨 Security Alert] --> DETECTIVE[🕵️ AWS Detective Analysis]
+    ALERT["🚨 Security Alert"] --> DETECTIVE["🕵️ AWS Detective Analysis"]
     
-    DETECTIVE --> ENTITIES[👤 Entity Analysis]
-    DETECTIVE --> TIMELINE[⏰ Timeline Construction]
-    DETECTIVE --> RELATIONSHIPS[🔗 Relationship Mapping]
-    DETECTIVE --> EVIDENCE[📋 Evidence Collection]
+    DETECTIVE --> ENTITIES["👤 Entity Analysis"]
+    DETECTIVE --> TIMELINE["⏰ Timeline Construction"]
+    DETECTIVE --> RELATIONSHIPS["🔗 Relationship Mapping"]
+    DETECTIVE --> EVIDENCE["📋 Evidence Collection"]
     
     ENTITIES --> E1[User Activity<br/>IP Addresses<br/>AWS Resources<br/>API Calls]
     
@@ -362,12 +362,12 @@ flowchart TD
     
     EVIDENCE --> EV1[CloudTrail Events<br/>VPC Flow Logs<br/>DNS Logs<br/>GuardDuty Findings]
     
-    E1 --> ASSESSMENT[📊 Impact Assessment]
+    E1 --> ASSESSMENT["📊 Impact Assessment"]
     T1 --> ASSESSMENT
     R1 --> ASSESSMENT
     EV1 --> ASSESSMENT
     
-    ASSESSMENT --> RESPONSE[🚀 Response Strategy]
+    ASSESSMENT --> RESPONSE["🚀 Response Strategy"]
     
     style DETECTIVE fill:#F57C00,color:#fff
     style ASSESSMENT fill:#4CAF50
@@ -451,26 +451,26 @@ When an incident is detected, the Task Agent (ISMS) performs automated initial t
   }
 }%%
 flowchart TD
-    INCIDENT_DETECTED[🚨 Incident Detected] --> TASK_AGENT[🤖 Task Agent<br/>Automated Triage]
+    INCIDENT_DETECTED["🚨 Incident Detected"] --> TASK_AGENT["🤖 Task Agent<br/>Automated Triage"]
     
-    TASK_AGENT --> ASSESS_IMPACT[📊 Impact Assessment<br/>Asset + CIA + Risk Scoring]
-    TASK_AGENT --> ID_STAKEHOLDERS[👥 Stakeholder ID<br/>Auto-generate contact list]
-    TASK_AGENT --> GEN_OPTIONS[🛡️ Containment Options<br/>Security Specialist ranking]
+    TASK_AGENT --> ASSESS_IMPACT["📊 Impact Assessment<br/>Asset + CIA + Risk Scoring"]
+    TASK_AGENT --> ID_STAKEHOLDERS["👥 Stakeholder ID<br/>Auto-generate contact list"]
+    TASK_AGENT --> GEN_OPTIONS["🛡️ Containment Options<br/>Security Specialist ranking"]
     
-    ASSESS_IMPACT --> SEVERITY[🏷️ Severity Classification<br/>Critical/High/Medium/Low]
-    ID_STAKEHOLDERS --> COMMS_PLAN[📢 Communications Plan<br/>Business Specialist draft]
-    GEN_OPTIONS --> REMEDIATION[🔧 Remediation Steps<br/>Prioritized action list]
+    ASSESS_IMPACT --> SEVERITY["🏷️ Severity Classification<br/>Critical/High/Medium/Low"]
+    ID_STAKEHOLDERS --> COMMS_PLAN["📢 Communications Plan<br/>Business Specialist draft"]
+    GEN_OPTIONS --> REMEDIATION["🔧 Remediation Steps<br/>Prioritized action list"]
     
-    SEVERITY --> ISMS_NINJA[📝 ISMS Ninja<br/>Draft Incident Report]
+    SEVERITY --> ISMS_NINJA["📝 ISMS Ninja<br/>Draft Incident Report"]
     COMMS_PLAN --> ISMS_NINJA
     REMEDIATION --> ISMS_NINJA
     
-    ISMS_NINJA --> CEO_REVIEW[👨‍💼 CEO Review & Approval]
+    ISMS_NINJA --> CEO_REVIEW["👨‍💼 CEO Review & Approval"]
     
     CEO_REVIEW --> ACCEPT{Accept AI<br/>Triage?}
-    ACCEPT -->|✅ Accept| EXECUTE[🚀 Execute Response Plan]
-    ACCEPT -->|🔄 Adjust| MODIFY[✏️ Modify Classification/Actions]
-    ACCEPT -->|❌ Reject| MANUAL[👤 Manual Triage Override]
+    ACCEPT -->|✅ Accept| EXECUTE["🚀 Execute Response Plan"]
+    ACCEPT -->|🔄 Adjust| MODIFY["✏️ Modify Classification/Actions"]
+    ACCEPT -->|❌ Reject| MANUAL["👤 Manual Triage Override"]
     
     MODIFY --> EXECUTE
     MANUAL --> EXECUTE
@@ -530,30 +530,30 @@ All AI-generated triage outputs are presented to CEO for validation. CEO may:
   }
 }%%
 flowchart TD
-    INCIDENT[🚨 Incident Confirmed] --> SEC_SPEC[🤖 Security Specialist<br/>Containment Analysis]
+    INCIDENT["🚨 Incident Confirmed"] --> SEC_SPEC["🤖 Security Specialist<br/>Containment Analysis"]
     
-    SEC_SPEC --> GEN_OPTIONS[📋 Generate Containment Options]
-    GEN_OPTIONS --> OPT1[🔒 Isolation<br/>Network/System isolation]
-    GEN_OPTIONS --> OPT2[🛡️ Access Revocation<br/>Credential rotation]
-    GEN_OPTIONS --> OPT3[🔄 Rollback<br/>Version/config revert]
-    GEN_OPTIONS --> OPT4[⏸️ Service Pause<br/>Controlled shutdown for forensic preservation]
+    SEC_SPEC --> GEN_OPTIONS["📋 Generate Containment Options"]
+    GEN_OPTIONS --> OPT1["🔒 Isolation<br/>Network/System isolation"]
+    GEN_OPTIONS --> OPT2["🛡️ Access Revocation<br/>Credential rotation"]
+    GEN_OPTIONS --> OPT3["🔄 Rollback<br/>Version/config revert"]
+    GEN_OPTIONS --> OPT4["⏸️ Service Pause<br/>Controlled shutdown for forensic preservation"]
     
-    OPT1 --> RANK[📊 Risk-Ranked Options<br/>Business Impact Analysis]
+    OPT1 --> RANK["📊 Risk-Ranked Options<br/>Business Impact Analysis"]
     OPT2 --> RANK
     OPT3 --> RANK
     OPT4 --> RANK
     
-    RANK --> CEO_REVIEW[👨‍💼 CEO Review & Selection]
+    RANK --> CEO_REVIEW["👨‍💼 CEO Review & Selection"]
     CEO_REVIEW --> APPROVE{Approve<br/>Containment?}
     
-    APPROVE -->|Yes| DEV_SPEC[🤖 Dev Specialist<br/>Generate Scripts]
-    APPROVE -->|Modify| CUSTOM[✏️ Custom Procedure]
+    APPROVE -->|Yes| DEV_SPEC["🤖 Dev Specialist<br/>Generate Scripts"]
+    APPROVE -->|Modify| CUSTOM["✏️ Custom Procedure"]
     
-    DEV_SPEC --> SCRIPTS[📝 Containment Scripts<br/>Automated + Manual]
+    DEV_SPEC --> SCRIPTS["📝 Containment Scripts<br/>Automated + Manual"]
     CUSTOM --> SCRIPTS
     
-    SCRIPTS --> CEO_EXEC[👨‍💼 CEO Execute<br/>Manual Confirmation]
-    CEO_EXEC --> VALIDATE[✅ Validation Check]
+    SCRIPTS --> CEO_EXEC["👨‍💼 CEO Execute<br/>Manual Confirmation"]
+    CEO_EXEC --> VALIDATE["✅ Validation Check"]
     
     style SEC_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style DEV_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
@@ -581,10 +581,10 @@ flowchart TD
   }
 }%%
 flowchart LR
-    DETECTIVE[🕵️ Detective Analysis] --> SCOPE[📏 Determine Scope]
-    SCOPE --> ISOLATE[🔒 Isolate Affected Resources]
-    ISOLATE --> AI_REMEDIATE[🤖 AI-Assisted Remediation]
-    AI_REMEDIATE --> VALIDATE[✅ Validate Cleanup]
+    DETECTIVE["🕵️ Detective Analysis"] --> SCOPE["📏 Determine Scope"]
+    SCOPE --> ISOLATE["🔒 Isolate Affected Resources"]
+    ISOLATE --> AI_REMEDIATE["🤖 AI-Assisted Remediation"]
+    AI_REMEDIATE --> VALIDATE["✅ Validate Cleanup"]
     
     DETECTIVE --> D1[Affected Entities<br/>Attack Vectors<br/>Lateral Movement<br/>Data Impact]
     
@@ -592,7 +592,7 @@ flowchart LR
     
     ISOLATE --> I1[Security Group Updates<br/>IAM Policy Changes<br/>Network ACL Rules<br/>Service Isolation]
     
-    AI_REMEDIATE --> R1[🤖 Security Specialist:<br/>Malware Removal Scripts<br/>Credential Rotation<br/>Configuration Reset<br/>Patch Application]
+    AI_REMEDIATE --> R1["🤖 Security Specialist:<br/>Malware Removal Scripts<br/>Credential Rotation<br/>Configuration Reset<br/>Patch Application"]
     
     VALIDATE --> V1[Detective Re-analysis<br/>Security Scanning<br/>Compliance Verification<br/>Monitoring Setup]
     
@@ -648,29 +648,29 @@ flowchart LR
   }
 }%%
 flowchart TD
-    RECOVERY_START[🔄 Recovery Phase] --> ISMS_NINJA[🤖 ISMS Ninja<br/>Documentation Generation]
+    RECOVERY_START["🔄 Recovery Phase"] --> ISMS_NINJA["🤖 ISMS Ninja<br/>Documentation Generation"]
     
-    ISMS_NINJA --> INCIDENT_REPORT[📝 Incident Report<br/>Complete timeline & analysis]
-    ISMS_NINJA --> LESSONS[📚 Lessons Learned<br/>Root cause analysis]
-    ISMS_NINJA --> POLICY_UPDATES[📋 Policy Recommendations<br/>Process improvements]
+    ISMS_NINJA --> INCIDENT_REPORT["📝 Incident Report<br/>Complete timeline & analysis"]
+    ISMS_NINJA --> LESSONS["📚 Lessons Learned<br/>Root cause analysis"]
+    ISMS_NINJA --> POLICY_UPDATES["📋 Policy Recommendations<br/>Process improvements"]
     
-    INCIDENT_REPORT --> SEC_SPEC[🤖 Security Specialist<br/>Technical Analysis]
-    SEC_SPEC --> ROOT_CAUSE[🔍 Root Cause Identification<br/>MITRE ATT&CK mapping]
-    SEC_SPEC --> SIMILAR[📊 Similar Incident Patterns<br/>Historical analysis]
+    INCIDENT_REPORT --> SEC_SPEC["🤖 Security Specialist<br/>Technical Analysis"]
+    SEC_SPEC --> ROOT_CAUSE["🔍 Root Cause Identification<br/>MITRE ATT&CK mapping"]
+    SEC_SPEC --> SIMILAR["📊 Similar Incident Patterns<br/>Historical analysis"]
     
-    LESSONS --> BIZ_SPEC[🤖 Business Specialist<br/>Stakeholder Communications]
-    BIZ_SPEC --> CLOSURE[📢 Closure Notifications<br/>Customer/partner updates]
-    BIZ_SPEC --> SATISFACTION[📋 Satisfaction Survey<br/>Feedback collection]
+    LESSONS --> BIZ_SPEC["🤖 Business Specialist<br/>Stakeholder Communications"]
+    BIZ_SPEC --> CLOSURE["📢 Closure Notifications<br/>Customer/partner updates"]
+    BIZ_SPEC --> SATISFACTION["📋 Satisfaction Survey<br/>Feedback collection"]
     
-    POLICY_UPDATES --> CEO_REVIEW[👨‍💼 CEO Final Review & Approval]
+    POLICY_UPDATES --> CEO_REVIEW["👨‍💼 CEO Final Review & Approval"]
     ROOT_CAUSE --> CEO_REVIEW
     SIMILAR --> CEO_REVIEW
     CLOSURE --> CEO_REVIEW
     
-    CEO_REVIEW --> IMPLEMENT[🚀 Implement Improvements]
-    IMPLEMENT --> RISK_REG[📊 Update Risk Register]
-    IMPLEMENT --> PROCEDURES[📝 Update Procedures]
-    IMPLEMENT --> TRAINING[🎓 Update Training Materials]
+    CEO_REVIEW --> IMPLEMENT["🚀 Implement Improvements"]
+    IMPLEMENT --> RISK_REG["📊 Update Risk Register"]
+    IMPLEMENT --> PROCEDURES["📝 Update Procedures"]
+    IMPLEMENT --> TRAINING["🎓 Update Training Materials"]
     
     style ISMS_NINJA fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
     style SEC_SPEC fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
@@ -747,27 +747,27 @@ Aligned with [🤝 Third Party Management](./Third_Party_Management.md) supplier
   }
 }%%
 graph TD
-    INCIDENT[🚨 Security Incident] --> ASSESS{📊 Impact Level}
+    INCIDENT["🚨 Security Incident"] --> ASSESS{"📊 Impact Level"}
     
-    ASSESS -->|Critical| CRIT_COMM[🔴 Critical Communication]
-    ASSESS -->|High| HIGH_COMM[🟠 High Communication]  
-    ASSESS -->|Medium| MED_COMM[🟡 Medium Communication]
-    ASSESS -->|Low| LOW_COMM[🟢 Low Communication]
+    ASSESS -->|Critical| CRIT_COMM["🔴 Critical Communication"]
+    ASSESS -->|High| HIGH_COMM["🟠 High Communication"]  
+    ASSESS -->|Medium| MED_COMM["🟡 Medium Communication"]
+    ASSESS -->|Low| LOW_COMM["🟢 Low Communication"]
     
-    CRIT_COMM --> CEO[👨‍💼 CEO: Immediate]
-    CRIT_COMM --> INSURANCE[🛡️ Insurance: <1hr]
-    CRIT_COMM --> LEGAL[⚖️ Legal: <1hr]
-    CRIT_COMM --> CLIENTS[🤝 Clients: <2hrs]
-    CRIT_COMM --> PUBLIC[🌐 Public: <1hr]
+    CRIT_COMM --> CEO["👨‍💼 CEO: Immediate"]
+    CRIT_COMM --> INSURANCE["🛡️ Insurance: <1hr"]
+    CRIT_COMM --> LEGAL["⚖️ Legal: <1hr"]
+    CRIT_COMM --> CLIENTS["🤝 Clients: <2hrs"]
+    CRIT_COMM --> PUBLIC["🌐 Public: <1hr"]
     
-    HIGH_COMM --> CEO2[👨‍💼 CEO: <1hr]
-    HIGH_COMM --> INSURANCE2[🛡️ Insurance: <4hrs]
-    HIGH_COMM --> CLIENTS2[🤝 Clients: <4hrs]
+    HIGH_COMM --> CEO2["👨‍💼 CEO: <1hr"]
+    HIGH_COMM --> INSURANCE2["🛡️ Insurance: <4hrs"]
+    HIGH_COMM --> CLIENTS2["🤝 Clients: <4hrs"]
     
-    MED_COMM --> CEO3[👨‍💼 CEO: <4hrs]
-    MED_COMM --> INTERNAL[🏢 Internal: <24hrs]
+    MED_COMM --> CEO3["👨‍💼 CEO: <4hrs"]
+    MED_COMM --> INTERNAL["🏢 Internal: <24hrs"]
     
-    LOW_COMM --> REPORT[📋 Daily Report]
+    LOW_COMM --> REPORT["📋 Daily Report"]
     
     style CRIT_COMM fill:#D32F2F
     style HIGH_COMM fill:#FF9800
@@ -890,24 +890,24 @@ ISMS Ninja agent can auto-generate closure reports including:
   }
 }%%
 flowchart LR
-    INCIDENT[🚨 Incident Detected] --> ASSESS[📊 Impact Assessment]
+    INCIDENT["🚨 Incident Detected"] --> ASSESS["📊 Impact Assessment"]
     
-    ASSESS --> IMMEDIATE[⚡ Immediate Notifications]
-    ASSESS --> PLANNED[📅 Planned Communications]
-    ASSESS --> ONGOING[🔄 Ongoing Updates]
+    ASSESS --> IMMEDIATE["⚡ Immediate Notifications"]
+    ASSESS --> PLANNED["📅 Planned Communications"]
+    ASSESS --> ONGOING["🔄 Ongoing Updates"]
     
-    IMMEDIATE --> I1[👨‍💼 CEO Self-Assessment<br/>☁️ Critical Suppliers<br/>🛡️ Insurance Provider]
+    IMMEDIATE --> I1["👨‍💼 CEO Self-Assessment<br/>☁️ Critical Suppliers<br/>🛡️ Insurance Provider"]
     
-    PLANNED --> P1[🤝 Client Notifications<br/>⚖️ Legal Consultation<br/>🌐 Public Updates]
+    PLANNED --> P1["🤝 Client Notifications<br/>⚖️ Legal Consultation<br/>🌐 Public Updates"]
     
-    ONGOING --> O1[📊 Status Updates<br/>📈 Progress Reports<br/>📋 Final Summary]
+    ONGOING --> O1["📊 Status Updates<br/>📈 Progress Reports<br/>📋 Final Summary"]
     
-    I1 --> TRACK[📝 Communication Tracking]
+    I1 --> TRACK["📝 Communication Tracking"]
     P1 --> TRACK
     O1 --> TRACK
     
-    TRACK --> FEEDBACK[🤝 Stakeholder Feedback]
-    FEEDBACK --> IMPROVE[📈 Process Improvement]
+    TRACK --> FEEDBACK["🤝 Stakeholder Feedback"]
+    FEEDBACK --> IMPROVE["📈 Process Improvement"]
     
     style IMMEDIATE fill:#D32F2F
     style PLANNED fill:#FF9800
@@ -1043,26 +1043,26 @@ When AI agents are unavailable or degraded (API outage, system failure, security
   }
 }%%
 flowchart TD
-    FALSE_POS[❌ False Positive Identified] --> CATEGORIZE[📊 Categorize Type<br/>Detection/Triage/Classification]
+    FALSE_POS["❌ False Positive Identified"] --> CATEGORIZE["📊 Categorize Type<br/>Detection/Triage/Classification"]
     
     CATEGORIZE --> DETECTION{Detection<br/>False Positive?}
     CATEGORIZE --> TRIAGE{Triage<br/>False Positive?}
     CATEGORIZE --> SEVERITY{Severity<br/>Misclassification?}
     
-    DETECTION -->|Yes| TUNE_CURATOR[🔧 Tune Curator-Agent<br/>Adjust monitoring rules]
-    TRIAGE -->|Yes| TUNE_TASK[🔧 Tune Task Agent<br/>Improve impact assessment]
-    SEVERITY -->|Yes| TUNE_SECURITY[🔧 Tune Security Specialist<br/>Refine severity criteria]
+    DETECTION -->|Yes| TUNE_CURATOR["🔧 Tune Curator-Agent<br/>Adjust monitoring rules"]
+    TRIAGE -->|Yes| TUNE_TASK["🔧 Tune Task Agent<br/>Improve impact assessment"]
+    SEVERITY -->|Yes| TUNE_SECURITY["🔧 Tune Security Specialist<br/>Refine severity criteria"]
     
-    TUNE_CURATOR --> DOCUMENT[📝 Document Learning]
+    TUNE_CURATOR --> DOCUMENT["📝 Document Learning"]
     TUNE_TASK --> DOCUMENT
     TUNE_SECURITY --> DOCUMENT
     
-    DOCUMENT --> TEST[🧪 Test Tuning<br/>Simulated scenarios]
-    TEST --> MONITOR[📊 Monitor Improvement<br/>Next quarter review]
+    DOCUMENT --> TEST["🧪 Test Tuning<br/>Simulated scenarios"]
+    TEST --> MONITOR["📊 Monitor Improvement<br/>Next quarter review"]
     
     MONITOR --> EFFECTIVE{Tuning<br/>Effective?}
-    EFFECTIVE -->|Yes| MAINTAIN[✅ Maintain Configuration]
-    EFFECTIVE -->|No| ESCALATE[⚠️ Escalate to Advanced Tuning]
+    EFFECTIVE -->|Yes| MAINTAIN["✅ Maintain Configuration"]
+    EFFECTIVE -->|No| ESCALATE["⚠️ Escalate to Advanced Tuning"]
     
     style FALSE_POS fill:#D32F2F,stroke:#B71C1C,stroke-width:2px,color:#fff
     style TUNE_CURATOR fill:#7B1FA2,stroke:#4A148C,stroke-width:2px,color:#fff
@@ -1092,9 +1092,9 @@ flowchart TD
   }
 }%%
 graph LR
-    COLLECT[📊 Data Collection] --> ANALYZE[🔍 Analysis]
-    ANALYZE --> TRENDS[📈 Trend Analysis]
-    TRENDS --> REPORT[📋 Monthly Report]
+    COLLECT["📊 Data Collection"] --> ANALYZE["🔍 Analysis"]
+    ANALYZE --> TRENDS["📈 Trend Analysis"]
+    TRENDS --> REPORT["📋 Monthly Report"]
     
     COLLECT --> C1[Incident Count<br/>Response Times<br/>Impact Assessment<br/>Resolution Quality]
     

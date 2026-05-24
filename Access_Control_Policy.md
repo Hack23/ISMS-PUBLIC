@@ -50,24 +50,24 @@ This policy establishes mandatory access controls based on our [🏷️ Classifi
 }%%
 flowchart TD
     subgraph Core["🔐 Core Identity"]
-        PRIMARY[Primary Identity Provider<br/>🔐 MFA Enforced<br/>Central Authentication]
+        PRIMARY["Primary Identity Provider<br/>🔐 MFA Enforced<br/>Central Authentication"]
     end
     
     subgraph CloudOrg["☁️ Cloud Organization"]
-        IDC[Identity Center<br/>🔐 SSO + MFA]
-        MGMT[Multi-Account Management<br/>🛡️ Centralized Policies]
-        ACCTS[Business Accounts<br/>📊 Federated Access]
+        IDC["Identity Center<br/>🔐 SSO + MFA"]
+        MGMT["Multi-Account Management<br/>🛡️ Centralized Policies"]
+        ACCTS["Business Accounts<br/>📊 Federated Access"]
     end
     
     subgraph DevOps["📝 Development Platform"]
-        REPO[Repository Platform<br/>🔐 MFA Required]
-        ORG[Organization Access<br/>🛡️ Team Management]
+        REPO["Repository Platform<br/>🔐 MFA Required"]
+        ORG["Organization Access<br/>🛡️ Team Management"]
     end
     
     subgraph Business["🔗 Business Services"]
-        CRITICAL[Critical Services<br/>🏦 Banking, 💳 Payments, 📊 Accounting]
-        MARKETING[Marketing Tools<br/>📱 Social, 🎵 Content, 📈 Analytics]
-        SECURITY[Security Tools<br/>🛡️ Code Analysis, ⚖️ Compliance]
+        CRITICAL["Critical Services<br/>🏦 Banking, 💳 Payments, 📊 Accounting"]
+        MARKETING["Marketing Tools<br/>📱 Social, 🎵 Content, 📈 Analytics"]
+        SECURITY["Security Tools<br/>🛡️ Code Analysis, ⚖️ Compliance"]
     end
     
     PRIMARY --> IDC
@@ -187,19 +187,19 @@ Integration with cloud organization structure:
 }%%
 flowchart LR
     subgraph Standard["📅 Standard Access"]
-        READ[ReadOnly<br/>📊 Monitoring]
-        POWER[PowerUser<br/>⚙️ Operations]
+        READ["ReadOnly<br/>📊 Monitoring"]
+        POWER["PowerUser<br/>⚙️ Operations"]
     end
     
     subgraph Elevated["🔴 Elevated Access"]
-        ADMIN[Administrator<br/>🚨 Emergency]
-        CATALOG[Service Manager<br/>🚀 Provisioning]
+        ADMIN["Administrator<br/>🚨 Emergency"]
+        CATALOG["Service Manager<br/>🚀 Provisioning"]
     end
     
     subgraph Controls["🛡️ Access Controls"]
-        TIME[Time-based<br/>⏰ Session Limits]
-        JUST[Just-in-time<br/>🎯 Request-based]
-        AUDIT[Continuous Audit<br/>📈 Monitoring]
+        TIME["Time-based<br/>⏰ Session Limits"]
+        JUST["Just-in-time<br/>🎯 Request-based"]
+        AUDIT["Continuous Audit<br/>📈 Monitoring"]
     end
     
     READ --> TIME
@@ -263,22 +263,22 @@ Based on business impact and security metrics:
 }%%
 graph TD
     subgraph Capture["📊 Event Capture"]
-        CLOUD_AUDIT[Cloud Platform Audit<br/>🔍 API Calls & Access]
-        DEV_AUDIT[Development Audit<br/>📝 Repository & Pipeline Access]
-        IDENTITY_LOG[Identity Provider<br/>📧 Authentication Events]
-        BUSINESS_LOG[Business Systems<br/>💳 Financial & Operations]
+        CLOUD_AUDIT["Cloud Platform Audit<br/>🔍 API Calls & Access"]
+        DEV_AUDIT["Development Audit<br/>📝 Repository & Pipeline Access"]
+        IDENTITY_LOG["Identity Provider<br/>📧 Authentication Events"]
+        BUSINESS_LOG["Business Systems<br/>💳 Financial & Operations"]
     end
     
     subgraph Analysis["🧪 Analysis Engine"]
-        SIEM[Security Hub<br/>🛡️ Event Correlation]
-        DETECT[Behavior Analysis<br/>🔍 Anomaly Detection]
-        COMPLIANCE[Compliance Monitor<br/>📋 Policy Validation]
+        SIEM["Security Hub<br/>🛡️ Event Correlation"]
+        DETECT["Behavior Analysis<br/>🔍 Anomaly Detection"]
+        COMPLIANCE["Compliance Monitor<br/>📋 Policy Validation"]
     end
     
     subgraph Response["🚨 Response Actions"]
-        ALERT[Real-time Alerts<br/>📱 Security Notifications]
-        BLOCK[Automatic Blocking<br/>🚫 Threat Response]
-        REPORT[Compliance Reports<br/>📊 Evidence Generation]
+        ALERT["Real-time Alerts<br/>📱 Security Notifications"]
+        BLOCK["Automatic Blocking<br/>🚫 Threat Response"]
+        REPORT["Compliance Reports<br/>📊 Evidence Generation"]
     end
     
     CLOUD_AUDIT --> SIEM
