@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--20-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.iso.org/standard/81230.html"><img src="https://img.shields.io/badge/📋_ISO/IEC_42001-2023_Aligned-green?style=for-the-badge&logo=iso&logoColor=white" alt="ISO/IEC 42001:2023"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-06-05
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-06-20 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-09-20
 
 ---
 
@@ -103,6 +103,23 @@ This policy applies to all LLM-based systems and AI applications at Hack23 AB:
 | **💬 Content Generation (OpenAI GPT)** | [![Confidentiality: Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Minimal Risk](https://img.shields.io/badge/Risk-Minimal-lightgreen?style=flat-square)](./AI_Policy.md) |
 | **🏛️ Political OSINT Analysis** | [![Confidentiality: Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
 | **🧠 Knowledge Base (AWS Bedrock)** | [![Confidentiality: Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | All 10 vulnerabilities | [![Limited Risk](https://img.shields.io/badge/Risk-Limited-yellow?style=flat-square)](./AI_Policy.md) |
+
+### 🏢 **Hack23 Product LLM Attack Surface**
+
+LLM-based capabilities span the **Hack23 AB** product portfolio. OWASP LLM Top 10 controls apply per product based on its LLM surface; each product documents implementation in its own `SECURITY_ARCHITECTURE.md`:
+
+| 🏢 Hack23 Product | 🔗 Repository | 🤖 LLM Surface | 🎯 Primary OWASP Focus | 🛡️ Security Architecture |
+|-------------------|---------------|----------------|------------------------|--------------------------|
+| 🏛️ **Citizen Intelligence Agency (CIA)** | [GitHub](https://github.com/Hack23/cia) | Political OSINT analysis, Copilot dev | LLM01, LLM02, LLM09 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) |
+| 📊 **CIA Compliance Manager** | [GitHub](https://github.com/Hack23/cia-compliance-manager) | Content generation, Copilot dev | LLM01, LLM05, LLM06 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY_ARCHITECTURE.md) |
+| 🎮 **Black Trigram** | [GitHub](https://github.com/Hack23/blacktrigram) | Creative AI assets, Copilot dev | LLM03, LLM05 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🌐 **European Parliament MCP Server** | [GitHub](https://github.com/Hack23/European-Parliament-MCP-Server) | MCP data integration, OSINT analysis | LLM01, LLM02, LLM06, LLM08 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) |
+| 🇪🇺 **EU Parliament Monitor** | [GitHub](https://github.com/Hack23/euparliamentmonitor) | Political OSINT analysis, Copilot dev | LLM01, LLM02, LLM09 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🗳️ **Riksdagsmonitor** | [GitHub](https://github.com/Hack23/riksdagsmonitor) | Political OSINT analysis, Copilot dev | LLM01, LLM02, LLM09 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🏠 **Homepage** | [GitHub](https://github.com/Hack23/homepage) | Creative AI marketing content, Copilot dev | LLM05, LLM09 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/homepage/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🎯 **Game Template** | [GitHub](https://github.com/Hack23/game) | Creative AI assets, Copilot dev | LLM03, LLM05 | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-darkred?style=flat-square)](https://github.com/Hack23/game/blob/main/SECURITY_ARCHITECTURE.md) |
+
+> **Universal control:** All products use **GitHub Copilot** as a development-time LLM. This shared surface brings every repository into scope for the development-time subset of the OWASP LLM Top 10 — primarily LLM01 (Prompt Injection), LLM02 (Sensitive Information Disclosure), and LLM05 (Improper Output Handling). The remaining categories apply per product based on its runtime LLM surface, as mapped in the table above. Product portfolio classification and AI governance are defined in the [🤖 AI Governance Policy](./AI_Policy.md#-hack23-product-ai-integration).
 
 ### 📋 **Regulatory Context**
 
@@ -1629,11 +1646,11 @@ graph TB
 
 | Review Type | Frequency | Responsibility | Next Review |
 |-------------|-----------|----------------|-------------|
-| **Quarterly Review** | Every 3 months | CEO/Security Lead | 2026-01-09 |
-| **Control Effectiveness** | Quarterly | Security Team | 2026-01-09 |
-| **Implementation Progress** | Monthly | CEO | 2025-11-09 |
-| **Threat Landscape** | Monthly | Security Team | 2025-11-09 |
-| **Annual Comprehensive** | Annually | CEO | 2026-10-09 |
+| **Quarterly Review** | Every 3 months | CEO/Security Lead | 2026-09-20 |
+| **Control Effectiveness** | Quarterly | Security Team | 2026-09-20 |
+| **Implementation Progress** | Monthly | CEO | 2026-07-20 |
+| **Threat Landscape** | Monthly | Security Team | 2026-07-20 |
+| **Annual Comprehensive** | Annually | CEO | 2027-06-20 |
 
 ### 🎯 **Update Triggers**
 
@@ -1661,18 +1678,18 @@ This policy will be reviewed and updated when:
 
 ## 📈 **AI Model Evolution — LLM Security Perspective (2026–2037)**
 
-**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
+**Assumptions:** AI model upgrades occur multiple times per year (2026 observed: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families — seven releases February–June, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
 
 ### 🔐 LLM Security Evolution Through Model Advancement
 
 | Year | AI Model | LLM Security Impact |
 |------|----------|---------------------|
-| **2026** | Opus 4.6–4.9 | 🟢 Improved prompt injection resistance, enhanced output validation, stronger guardrails for agentic workflows |
-| **2027** | Opus 5.x | 🔵 Predictive jailbreak detection, autonomous prompt security monitoring, reduced hallucination rates |
-| **2028** | Opus 6.x | 🟣 Multi-modal input validation (text + code + image), automated OWASP LLM compliance verification |
-| **2029** | Opus 7.x | 🟠 Autonomous LLM security orchestration, self-healing prompt pipelines, real-time training data integrity |
-| **2030** | Opus 8.x | 🔴 Near-expert LLM security posture, autonomous threat detection for model-level attacks |
-| **2031–2033** | Opus 9–10.x / Pre-AGI | ⚪ Autonomous LLM governance with predictive regulatory compliance |
+| **2026** | Opus 4.6–4.8 (4.8 current; 4.9/4.x expected H2 2026), Sonnet 4.6, Fable 5, Mythos 5 (preview) | 🟢 Improved prompt injection resistance, enhanced output validation, stronger guardrails for agentic workflows |
+| **2027** | Opus 5.x–6.x | 🔵 Predictive jailbreak detection, autonomous prompt security monitoring, reduced hallucination rates |
+| **2028** | Opus 6.x–7.x | 🟣 Multi-modal input validation (text + code + image), automated OWASP LLM compliance verification |
+| **2029** | Opus 7.x–8.x | 🟠 Autonomous LLM security orchestration, self-healing prompt pipelines, real-time training data integrity |
+| **2030** | Opus 8.x–9.x | 🔴 Near-expert LLM security posture, autonomous threat detection for model-level attacks |
+| **2031–2033** | Opus 10.x+ / Pre-AGI | ⚪ Autonomous LLM governance with predictive regulatory compliance |
 | **2034–2037** | AGI / Post-AGI | ⭐ Transformative AI security requiring new governance paradigms |
 
 ### 🛡️ OWASP LLM Top 10 Defense Evolution
@@ -1723,8 +1740,8 @@ This policy will be reviewed and updated when:
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-03-05  
-**⏰ Next Review:** 2026-06-05  
+**📅 Effective Date:** 2026-06-20  
+**⏰ Next Review:** 2026-09-20  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![OWASP LLM Top 10](https://img.shields.io/badge/OWASP_LLM-2025_Aligned-darkred?style=flat-square&logo=owasp&logoColor=white)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 <p align="center">

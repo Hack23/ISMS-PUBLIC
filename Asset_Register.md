@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--02-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-05
+**📋 Document Owner:** CEO | **📄 Version:** 2.4 | **📅 Last Updated:** 2026-06-02 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-02
 
 
 ---
@@ -216,17 +216,18 @@ flowchart LR
 | blacktrigram.com | Route 53 | Enabled | [DNSViz](https://dnsviz.net/d/blacktrigram.com/dnssec/) • [Internet.nl](https://internet.nl/site/blacktrigram.com/) • [MXToolbox](https://mxtoolbox.com/SuperTool.aspx?action=mx%3ablacktrigram.com) | Registrar lock on; alerts configured |
 | ciacompliancemanager.com | Route 53 | Enabled | [DNSViz](https://dnsviz.net/d/ciacompliancemanager.com/dnssec/) • [Internet.nl](https://internet.nl/site/ciacompliancemanager.com/) • [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=ciacompliancemanager.com) | Product domain; alerts configured |
 | riksdagsmonitor.com | Route 53 | Enabled | [DNSViz](https://dnsviz.net/d/riksdagsmonitor.com/dnssec/) • [Internet.nl](https://internet.nl/site/riksdagsmonitor.com/) • [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=riksdagsmonitor.com) | Political transparency domain; alerts configured |
+| euparliamentmonitor.com | Route 53 | Enabled | [DNSViz](https://dnsviz.net/d/euparliamentmonitor.com/dnssec/) • [Internet.nl](https://internet.nl/site/euparliamentmonitor.com/) • [SSL Labs](https://www.ssllabs.com/ssltest/analyze.html?d=euparliamentmonitor.com) | EU political intelligence domain; alerts configured |
 
 #### 🔐 Domain Security Evidence Summary
 
-| Security Check | Tool | hack23.com | blacktrigram.com | ciacompliancemanager.com | riksdagsmonitor.com |
-|----------------|------|------------|------------------|--------------------------|---------------------|
-| **DNSSEC** | DNSViz | ✅ Signed | ✅ Signed | ✅ Signed | ✅ Signed |
-| **SPF** | MXToolbox | ✅ Valid | ✅ Valid | ✅ Valid | ✅ Valid |
-| **DKIM** | MXToolbox | ✅ Valid | ✅ Valid | N/A | N/A |
-| **DMARC** | MXToolbox | ✅ Valid | ✅ Valid | ✅ Valid | ✅ Valid |
-| **CAA** | DNS Lookup | ✅ Set | ✅ Set | ✅ Set | ✅ Set |
-| **HTTPS** | SSL Labs | ✅ A+ | ✅ A+ | ✅ A+ | ✅ A+ |
+| Security Check | Tool | hack23.com | blacktrigram.com | ciacompliancemanager.com | riksdagsmonitor.com | euparliamentmonitor.com |
+|----------------|------|------------|------------------|--------------------------|---------------------|-------------------------|
+| **DNSSEC** | DNSViz | ✅ Signed | ✅ Signed | ✅ Signed | ✅ Signed | ✅ Signed |
+| **SPF** | MXToolbox | ✅ Valid | ✅ Valid | ✅ Valid | ✅ Valid | ✅ Valid |
+| **DKIM** | MXToolbox | ✅ Valid | ✅ Valid | N/A | N/A | N/A |
+| **DMARC** | MXToolbox | ✅ Valid | ✅ Valid | ✅ Valid | ✅ Valid | ✅ Valid |
+| **CAA** | DNS Lookup | ✅ Set | ✅ Set | ✅ Set | ✅ Set | ✅ Set |
+| **HTTPS** | SSL Labs | ✅ A+ | ✅ A+ | ✅ A+ | ✅ A+ | ✅ A+ |
 
 ### 3.5 AWS Services in Use (27 Active Services)
 
@@ -252,7 +253,7 @@ flowchart LR
 | S3 | Static website hosting, backups, logs | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
 | VPC | Network isolation for Lambda/RDS | [![Integrity High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
 | Glacier | Long-term backup storage | [![Availability Standard](https://img.shields.io/badge/A-Standard-lightgreen?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
-| CloudFront | CDN for hack23.com and blacktrigram.com | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
+| CloudFront | CDN for hack23.com, blacktrigram.com, riksdagsmonitor.com, euparliamentmonitor.com, and ciacompliancemanager.com (5 distributions, 19.6M requests/mo combined) | [![Availability High](https://img.shields.io/badge/A-High-orange?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
 | Lambda | Serverless functions for APIs | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
 | Control Tower | Multi-account governance | [![Integrity Critical](https://img.shields.io/badge/I-Critical-red?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
 | Identity Center | SSO and permission management | [![Confidentiality Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](./CLASSIFICATION.md) | ✅ Active |
@@ -517,11 +518,12 @@ mindmap
       Auto-renewal configured
       Expiry alerts CloudWatch
     IP Protection
-      7 active repositories
+      10 active repositories
       Open source licensing
       Copyright CEO owned
       FOSSA compliance scan
       SonarCloud quality gate
+      MCP directory listings
 ```
 
 ### 6.2 SWOT — Comprehensive Asset Management
@@ -722,6 +724,7 @@ graph LR
 ## 7) Change Log
 | Date (UTC) | Change |
 |------------|--------|
+| 2026-06-02 | **v2.4:** Updated CloudFront to reflect 5 distributions (19.6M requests/mo combined); Added euparliamentmonitor.com to DNS security evidence table; Updated IP asset count to 10 active repos; Added MCP directory listings to controls mindmap; Updated traffic metrics |
 | 2026-03-05 | **v2.3:** Added euparliamentmonitor.com domain (D-005); Updated EU Parliament Monitor website URL; Updated all mindmaps and security posture diagrams to reflect 5 domains and 10 IP assets |
 | 2026-02-26 | **v2.2:** Added European Parliament MCP Server, EU Parliament Monitor (euparliamentmonitor), and Riksdagsmonitor to IP assets; Updated mindmaps and security evidence tables; Total 10 IP assets registered |
 | 2026-01-25 | **v2.0:** Added domains D-003 (ciacompliancemanager.com) and D-004 (riksdagsmonitor.com); Added Game Template to IP; Added comprehensive domain security evidence links (DNSSEC, SPF/DKIM/DMARC, SSL); Marked Sonar CloudFormation Plugin as archived; Updated for ISMS-PUBLIC publication |
@@ -791,6 +794,6 @@ graph LR
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** CEO, Insurance Company, Legal Counsel    
 **🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-03-05  
-**⏰ Next Review:** 2027-03-05  
+**📅 Effective Date:** 2026-06-02  
+**⏰ Next Review:** 2027-09-02  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![AWS Well-Architected](https://img.shields.io/badge/AWS-Well_Architected-orange?style=flat-square&logo=amazon-aws&logoColor=white)](./CLASSIFICATION.md)

@@ -11,8 +11,8 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge&logo=shield&logoColor=white" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.2-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge&logo=git&logoColor=white" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--20-success?style=for-the-badge&logo=calendar&logoColor=white" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge&logo=refresh&logoColor=white" alt="Review Cycle"/></a>
 </p>
 
@@ -22,8 +22,8 @@
   <a href="https://www.nist.gov/itl/ai-risk-management-framework"><img src="https://img.shields.io/badge/🎯_NIST_AI_RMF-1.0_Aligned-purple?style=for-the-badge&logo=nist&logoColor=white" alt="NIST AI RMF"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.2 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-06-05
+**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-06-20 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-09-20
 
 ---
 
@@ -130,6 +130,23 @@ graph TD
 | **🎨 Creative AI** | [![Moderate](https://img.shields.io/badge/Criticality-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md) | [![Minimal](https://img.shields.io/badge/AI_Risk-Minimal-lightgreen?style=flat-square)](./CLASSIFICATION.md) | IP verification, content review | [🤝 Third Party Management](./Third_Party_Management.md) |
 | **📊 Analysis AI** | [![High](https://img.shields.io/badge/Criticality-High-orange?style=flat-square)](./CLASSIFICATION.md) | [![Limited](https://img.shields.io/badge/AI_Risk-Limited-yellow?style=flat-square)](./CLASSIFICATION.md) | Transparency, bias monitoring | [CIA Platform](https://cia.hack23.org/) |
 | **🧠 Knowledge AI** | [![Critical](https://img.shields.io/badge/Criticality-Critical-red?style=flat-square)](./CLASSIFICATION.md) | [![Limited](https://img.shields.io/badge/AI_Risk-Limited-yellow?style=flat-square)](./CLASSIFICATION.md) | Full governance, monitoring | Planned deployment |
+
+### 🏢 **Hack23 Product AI Integration**
+
+AI capabilities are applied across the full **Hack23 AB** product portfolio. Each product maintains its own `SECURITY_ARCHITECTURE.md` documenting AI-specific controls, demonstrating our [🌐 transparency principle](./ISMS_Transparency_Plan.md):
+
+| 🏢 Hack23 Product | 🔗 Live / Repository | 🤖 AI Capabilities Applied | 🛡️ Security Architecture |
+|-------------------|----------------------|----------------------------|--------------------------|
+| 🏛️ **Citizen Intelligence Agency (CIA)** | [cia.hack23.org](https://cia.hack23.org/) · [GitHub](https://github.com/Hack23/cia) | Political OSINT analysis, GitHub Copilot development | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) |
+| 📊 **CIA Compliance Manager** | [ciacompliancemanager.com](https://www.ciacompliancemanager.com/) · [GitHub](https://github.com/Hack23/cia-compliance-manager) | GitHub Copilot development, content generation | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/SECURITY_ARCHITECTURE.md) |
+| 🎮 **Black Trigram** | [blacktrigram.com](https://blacktrigram.com/) · [GitHub](https://github.com/Hack23/blacktrigram) | Creative AI (Stability AI, ElevenLabs, Suno), GitHub Copilot | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🌐 **European Parliament MCP Server** | [GitHub](https://github.com/Hack23/European-Parliament-MCP-Server) | MCP data integration, OSINT analysis | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) |
+| 🇪🇺 **EU Parliament Monitor** | [euparliamentmonitor.com](https://euparliamentmonitor.com/) · [GitHub](https://github.com/Hack23/euparliamentmonitor) | Political OSINT analysis, GitHub Copilot | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🗳️ **Riksdagsmonitor** | [riksdagsmonitor.com](https://riksdagsmonitor.com/) · [GitHub](https://github.com/Hack23/riksdagsmonitor) | Political OSINT analysis, GitHub Copilot | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🏠 **Homepage** | [hack23.com](https://hack23.com/) · [GitHub](https://github.com/Hack23/homepage) | Creative AI marketing content, GitHub Copilot | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/homepage/blob/master/SECURITY_ARCHITECTURE.md) |
+| 🎯 **Game Template** | [GitHub](https://github.com/Hack23/game) | Creative AI assets, GitHub Copilot development | [![Security](https://img.shields.io/badge/🛡️_Security-Architecture-blue?style=flat-square)](https://github.com/Hack23/game/blob/main/SECURITY_ARCHITECTURE.md) |
+
+> **Cross-cutting controls:** All products apply [GitHub Agentic Workflows](https://github.github.com/gh-aw/) (Continuous AI) under the agent governance model below, with human-in-the-loop oversight and CEO approval on all AI-generated pull requests. LLM-specific security controls are detailed in the [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md).
 
 ---
 
@@ -498,18 +515,32 @@ flowchart TD
 
 **Purpose:** Ensure Hack23 AB maintains optimal AI capabilities through systematic evaluation of model advancements while managing security risks and maintaining governance compliance.
 
-**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, Anthropic, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing, federated AI).
+**Assumptions:** AI model upgrades occur multiple times per year (rapid cadence observed in 2026 — seven releases February–June: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, Anthropic, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing, federated AI).
+
+#### Observed 2026 Model Releases
+
+| Release | Date | Status |
+|---------|------|--------|
+| **Claude Opus 4.6** | 2026-02-05 | Production |
+| **Claude Sonnet 4.6** | 2026-02-17 | Production |
+| **Claude Mythos** | 2026-04-07 | Preview |
+| **Claude Opus 4.7** | 2026-04-16 | Production |
+| **Claude Opus 4.8** | 2026-05-28 | Production (current) |
+| **Claude Fable 5** | 2026-06-09 | Production |
+| **Claude Mythos 5** | 2026-06-09 | Preview |
+
+> **Note:** The table above reflects releases observed through **June 2026** only; Opus 4.8 is the current production model. The year is in progress — further Opus 4.9/4.x point releases and additional model-family updates are expected in H2 2026, so the 2026 roadmap row below is a partial-year projection rather than a complete list.
 
 #### Projected AI Model Roadmap
 
 | Year | Projected Workflow Definitions | AI Model | Key Capability |
 |------|-------------------------------|----------|----------------|
-| **2026** | 44–50 | Opus 4.6–4.9 | 🟢 Agentic news generation |
-| **2027** | 50–55 | Opus 5.x | 🔵 Predictive analytics |
-| **2028** | 55–65 | Opus 6.x | 🟣 Multi-modal content |
-| **2029** | 65–75 | Opus 7.x | 🟠 Autonomous pipeline |
-| **2030** | 75–85 | Opus 8.x | 🔴 Near-expert analysis |
-| **2031–2033** | 85–100 | Opus 9–10.x / Pre-AGI | ⚪ Global coverage |
+| **2026** | 44–50 | Opus 4.6–4.8 (4.8 current; 4.9/4.x expected H2 2026), Sonnet 4.6, Fable 5, Mythos 5 (preview) | 🟢 Agentic news generation |
+| **2027** | 50–55 | Opus 5.x–6.x | 🔵 Predictive analytics |
+| **2028** | 55–65 | Opus 6.x–7.x | 🟣 Multi-modal content |
+| **2029** | 65–75 | Opus 7.x–8.x | 🟠 Autonomous pipeline |
+| **2030** | 75–85 | Opus 8.x–9.x | 🔴 Near-expert analysis |
+| **2031–2033** | 85–100 | Opus 10.x+ / Pre-AGI | ⚪ Global coverage |
 | **2034–2037** | 100–120+ | AGI / Post-AGI | ⭐ Transformative platform |
 
 #### Annual Model Evaluation Criteria
@@ -673,8 +704,8 @@ flowchart LR
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square&logo=unlock&logoColor=black)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2026-04-25  
+**📅 Effective Date:** 2026-06-20  
+**⏰ Next Review:** 2026-09-20  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
 
 <p align="center">

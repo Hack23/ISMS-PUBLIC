@@ -1273,7 +1273,7 @@ pie title Risk Treatment Strategies
 
 ## 📈 **AI Model Evolution — Risk Perspective (2026–2037)**
 
-**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
+**Assumptions:** AI model upgrades occur multiple times per year (2026 observed: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families — seven releases February–June, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
 
 ### ⚠️ AI Evolution Risk Impact Matrix
 

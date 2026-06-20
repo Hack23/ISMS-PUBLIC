@@ -1241,16 +1241,16 @@ Each control objective requires specific implementation evidence linked in secur
 
 ## 📈 **AI Model Evolution — DevSecOps & Development Perspective (2026–2037)**
 
-**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy. Governance per [AI Policy](./AI_Policy.md).
+**Assumptions:** AI model upgrades occur multiple times per year (2026 observed: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families — seven releases February–June, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy. Governance per [AI Policy](./AI_Policy.md).
 
 | Year | AI Model | DevSecOps Capability Evolution |
 |------|----------|-------------------------------|
-| **2026** | Opus 4.6–4.9 | 🟢 AI-assisted code review, automated test generation, agentic CI/CD workflows |
-| **2027** | Opus 5.x | 🔵 Predictive vulnerability detection, intelligent dependency management |
-| **2028** | Opus 6.x | 🟣 Multi-modal security analysis (code + architecture + runtime), automated threat modeling |
-| **2029** | Opus 7.x | 🟠 Autonomous security pipeline orchestration, self-healing build systems |
-| **2030** | Opus 8.x | 🔴 Near-expert automated security review, AI-driven architecture validation |
-| **2031–2033** | Opus 9–10.x / Pre-AGI | ⚪ Autonomous secure development lifecycle management |
+| **2026** | Opus 4.6–4.8 (4.8 current; 4.9/4.x expected H2 2026), Sonnet 4.6, Fable 5, Mythos 5 (preview) | 🟢 AI-assisted code review, automated test generation, agentic CI/CD workflows |
+| **2027** | Opus 5.x–6.x | 🔵 Predictive vulnerability detection, intelligent dependency management |
+| **2028** | Opus 6.x–7.x | 🟣 Multi-modal security analysis (code + architecture + runtime), automated threat modeling |
+| **2029** | Opus 7.x–8.x | 🟠 Autonomous security pipeline orchestration, self-healing build systems |
+| **2030** | Opus 8.x–9.x | 🔴 Near-expert automated security review, AI-driven architecture validation |
+| **2031–2033** | Opus 10.x+ / Pre-AGI | ⚪ Autonomous secure development lifecycle management |
 | **2034–2037** | AGI / Post-AGI | ⭐ Transformative software engineering with built-in security assurance |
 
 ### 🔧 Development Tooling Evolution Roadmap

@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-4.5-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--05--02-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.6-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--02-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 4.5 | **📅 Last Updated:** 2026-05-02 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-05-02
+**📋 Document Owner:** CEO | **📄 Version:** 4.6 | **📅 Last Updated:** 2026-06-02 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-02
 
 ---
 
@@ -104,6 +104,28 @@ Hack23 AB produces **automated political intelligence** through open-source plat
 > *"Democratising access to political intelligence — structured OSINT applied to parliamentary open data at scale."*
 
 The portfolio is **non-partisan, fully open-source (Apache-2.0)**, operated under the [Hack23 ISMS](https://github.com/Hack23/ISMS-PUBLIC) with full ISO 27001:2022 / NIST CSF 2.0 / CIS Controls v8.1 alignment, GDPR-by-design, and architecturally engineered so it cannot be weaponised for partisan influence: equal treatment of all political groups, public-data only, no user accounts, no ads, no tracking.
+
+#### 📊 **Platform Operational Scale (Validated June 2026)**
+
+The security architecture is validated at production scale through continuous operation:
+
+| Platform | Monthly Requests | Security Controls | Data Classification | Threat Surface |
+|----------|:----------------:|-------------------|--------------------:|----------------|
+| **euparliamentmonitor.com** | 11.3M | WAF + CloudFront + S3 static | Public | DDoS, content injection |
+| **riksdagsmonitor.com** | 6.6M | WAF + CloudFront + S3 static | Public | DDoS, content injection, SEO manipulation |
+| **hack23.com** | 639K | WAF + CloudFront + S3 + Lambda | Public/Internal | API abuse, credential stuffing |
+| **blacktrigram.com** | 283K | CloudFront + S3 static | Public | DDoS, game state manipulation |
+| **ciacompliancemanager.com** | 110K | CloudFront + S3 static | Public | XSS (client-only), supply chain |
+| **hack23.github.io** | 20K | GitHub Pages CDN | Public | Repository compromise |
+| **Total ecosystem** | **19.6M** | **5 CloudFront distributions, WAF, DNSSEC** | **Public** | **Scale validated** |
+
+**Security Implications of Scale:**
+- **19.6M requests/month** validates defense-in-depth architecture under sustained load
+- **Zero security incidents** during 150x traffic growth (Jan→Jun 2026)
+- **19,332 backlinks** from 50+ domains creates external dependency monitoring requirement
+- **6 domains** with full DNSSEC, SPF/DKIM/DMARC, CAA, and SSL Labs A+ ratings
+- **No user data collected** across any platform — GDPR-by-design validated at scale
+- **Swedish Election 2026 preparation** requires heightened monitoring for information integrity threats
 
 ---
 
@@ -596,18 +618,18 @@ Achieve security excellence characterized by:
 
 ### 📈 **AI Model Evolution Strategy — Future Outlook (2026–2037)**
 
-**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). All AI usage governed by [AI Policy](./AI_Policy.md), [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md), and [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689).
+**Assumptions:** AI model upgrades occur multiple times per year (2026 observed: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families — seven releases February–June, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). All AI usage governed by [AI Policy](./AI_Policy.md), [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md), and [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32024R1689).
 
 Projected workflow counts below include all CI/CD and agentic `.yml` workflow definitions across the platform. The 2026 baseline (~50) reflects the current organization-wide total of 30+ deployed workflows (Riksdagsmonitor 11, EU Parliament Monitor 8, CIA 9, plus standard CI/CD across remaining repos) with planned security, localization, and data-pipeline additions.
 
 | Year | Projected Workflow Definitions | AI Model | Key Capability |
 |------|-------------------------------|----------|----------------|
-| **2026** | 50–60 | Opus 4.7 (current) | ✅ Agentic news generation + predictive analytics operational — 19 workflows, 14 languages, 1,700+ daily artifacts, 62 MCP tools, week/month/season-ahead forecasting |
-| **2027** | 60–70 | Opus 5.x | 🔵 Multi-modal political intelligence (video, audio briefings) |
-| **2028** | 70–80 | Opus 6.x | 🟣 Autonomous global coverage expansion |
-| **2029** | 80–90 | Opus 7.x | 🟠 Near-expert autonomous analysis |
-| **2030** | 90–100 | Opus 8.x | 🔴 Self-improving intelligence pipelines |
-| **2031–2033** | 100–120 | Opus 9–10.x / Pre-AGI | ⚪ Global parliamentary coverage |
+| **2026** | 50–60 | Opus 4.6–4.8 (4.8 current; 4.9/4.x expected H2 2026), Sonnet 4.6, Fable 5, Mythos 5 (preview) | ✅ Agentic news generation + predictive analytics operational — 19 workflows, 14 languages, 1,700+ daily artifacts, 62 MCP tools, week/month/season-ahead forecasting |
+| **2027** | 60–70 | Opus 5.x–6.x | 🔵 Multi-modal political intelligence (video, audio briefings) |
+| **2028** | 70–80 | Opus 6.x–7.x | 🟣 Autonomous global coverage expansion |
+| **2029** | 80–90 | Opus 7.x–8.x | 🟠 Near-expert autonomous analysis |
+| **2030** | 90–100 | Opus 8.x–9.x | 🔴 Self-improving intelligence pipelines |
+| **2031–2033** | 100–120 | Opus 10.x+ / Pre-AGI | ⚪ Global parliamentary coverage |
 | **2034–2037** | 120–150+ | AGI / Post-AGI | ⭐ Transformative platform |
 
 #### 🔐 Security Perspective — AI Advancement Impact
@@ -1667,6 +1689,6 @@ This Information Security Strategy will evolve continuously based on threat inte
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
 **🔒 Rationale:** Strategic security framework demonstrating methodology and approach; no proprietary tactics, financial details, or operational vulnerabilities disclosed. Transparency serves as competitive differentiator and client trust accelerator.  
-**📅 Effective Date:** 2026-05-02  
-**⏰ Next Review:** 2027-05-02   
+**📅 Effective Date:** 2026-06-02  
+**⏰ Next Review:** 2027-06-02   
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)

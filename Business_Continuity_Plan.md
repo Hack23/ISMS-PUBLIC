@@ -836,16 +836,16 @@ This adaptation maintains control objectives of **ISO 22301 (Business Continuity
 
 ## 📈 **AI Model Evolution — Business Continuity & Operational Resilience Perspective (2026–2037)**
 
-**Assumptions:** Major AI model upgrades annually; competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
+**Assumptions:** AI model upgrades occur multiple times per year (2026 observed: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families — seven releases February–June, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Architecture accommodates potential paradigm shifts (quantum AI, neuromorphic computing). Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
 
 | Year | AI Model | Continuity & Resilience Capability |
 |------|----------|------------------------------------|
-| **2026** | Opus 4.6–4.9 | 🟢 AI-assisted incident triage, automated backup verification, agentic recovery scripts |
-| **2027** | Opus 5.x | 🔵 Predictive failure detection, intelligent failover recommendations |
-| **2028** | Opus 6.x | 🟣 Multi-modal incident analysis (logs + metrics + architecture), automated impact assessment |
-| **2029** | Opus 7.x | 🟠 Autonomous incident response orchestration, self-healing infrastructure |
-| **2030** | Opus 8.x | 🔴 Near-expert continuity management, AI-driven disaster recovery optimization |
-| **2031–2033** | Opus 9–10.x / Pre-AGI | ⚪ Autonomous business continuity with predictive disruption avoidance |
+| **2026** | Opus 4.6–4.8 (4.8 current; 4.9/4.x expected H2 2026), Sonnet 4.6, Fable 5, Mythos 5 (preview) | 🟢 AI-assisted incident triage, automated backup verification, agentic recovery scripts |
+| **2027** | Opus 5.x–6.x | 🔵 Predictive failure detection, intelligent failover recommendations |
+| **2028** | Opus 6.x–7.x | 🟣 Multi-modal incident analysis (logs + metrics + architecture), automated impact assessment |
+| **2029** | Opus 7.x–8.x | 🟠 Autonomous incident response orchestration, self-healing infrastructure |
+| **2030** | Opus 8.x–9.x | 🔴 Near-expert continuity management, AI-driven disaster recovery optimization |
+| **2031–2033** | Opus 10.x+ / Pre-AGI | ⚪ Autonomous business continuity with predictive disruption avoidance |
 | **2034–2037** | AGI / Post-AGI | ⭐ Transformative resilience platform with near-zero RTO/RPO for all services |
 
 ### 🔄 Operational Resilience AI Evolution

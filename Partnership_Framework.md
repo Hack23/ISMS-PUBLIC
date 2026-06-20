@@ -925,7 +925,7 @@ Centralized partner information management for efficient capacity planning and p
 ### 📋 Basic Information
 - **Partner Name**: [Full legal name]
 - **Partnership Tier**: [Tier 1/2/3/4]
-- **Status**: [Active / Inactive / Suspended]
+- **Status**: [Active / Inactive]
 - **Partnership Start Date**: YYYY-MM-DD
 - **Last Review Date**: YYYY-MM-DD
 - **Next Review Date**: YYYY-MM-DD
