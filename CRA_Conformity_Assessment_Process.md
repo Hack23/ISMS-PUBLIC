@@ -1,5 +1,3 @@
-<!-- Replaced verbose prior version with concise ISMS‑style template -->
-
 <p align="center">
   <img src="https://hack23.com/icon-192.png" alt="Hack23 Logo" width="192" height="192">
 </p>
@@ -13,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.4-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--27-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-1.5-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--28-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
   <a href="#"><img src="https://img.shields.io/badge/📋_TEMPLATE-Copy_for_Projects-blueviolet?style=for-the-badge" alt="Template Document"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.4 | **📅 Last Updated:** 2026-03-27 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-06-27
+**📋 Document Owner:** CEO | **📄 Version:** 1.5 | **📅 Last Updated:** 2026-06-28 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-28
 
 ---
 
@@ -41,6 +39,16 @@ Our commitment to transparency means our conformity assessment practices become 
 This process provides a concise, repeatable CRA Conformity Assessment format (pre‑market & ongoing) for all six Hack23 AB products (CIA, Black Trigram, CIA Compliance Manager, European Parliament MCP Server, EU Parliament Monitor, Riksdagsmonitor). Aligns with CRA Annex I & V, Hack23 classification, secure development, and transparency policies.
 
 **Scope:** All products within [Asset Register](./Asset_Register.md) requiring EU market placement.
+
+### 📅 **CRA Regulatory Timeline**
+
+The Cyber Resilience Act (**Regulation (EU) 2024/2847**) entered into force on **10 December 2024**, with a phased application schedule that shapes Hack23 AB's readiness milestones:
+
+| 📆 Application Date | 📋 Obligation Taking Effect | 🎯 Hack23 AB Readiness |
+|--------------------|----------------------------|------------------------|
+| **11 June 2026** | Provisions on notifying authorities & conformity assessment bodies | ✅ Standard self-assessment route confirmed for all six products |
+| **11 September 2026** | Reporting obligations for actively exploited vulnerabilities & severe incidents (to ENISA/CSIRT) | 🔄 Procedures prepared per [🚨 Incident Response Plan](./Incident_Response_Plan.md) — see Section 7 |
+| **11 December 2027** | Full application — all essential requirements & CE marking obligations | 🔄 Self-assessment evidence maintained continuously via this process |
 
 ---
 
@@ -564,7 +572,7 @@ flowchart TD
 
 > **📝 Complete when placing product on EU market**
 
-**🏢 Manufacturer:** Hack23 AB, Stockholm, Sweden  
+**🏢 Manufacturer:** Hack23 AB, Göteborg, Sweden  
 **📦 Product:** {{PROJECT_NAME}} {{CURRENT_VERSION}}  
 **📋 CRA Compliance:** Self-assessment documentation supporting CRA essential cybersecurity requirements evaluation  
 **🔍 Assessment:** {{Self-assessment documentation per Article 24 / Notified body per Article 25}}  
@@ -638,7 +646,7 @@ CRA assessment updated only when changes constitute "substantial modification" u
 
 ### 🎯 Strategic & Governance
 - [🎯 Information Security Strategy](./Information_Security_Strategy.md) - AI-first operations, Pentagon framework, and strategic CRA direction
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework with AI-First Operations Governance
+- [🔐 Information Security Policy](./Information_Security_Policy.md) - Overall security governance framework with AI Agent Governance & Curated Automation
 - [🤖 AI Policy](./AI_Policy.md) - EU AI Act compliance and transparency obligations for AI systems
 - [✅ Compliance Checklist](./Compliance_Checklist.md) - Multi-framework regulatory compliance tracking
 - [🏷️ Classification Framework](./CLASSIFICATION.md) - Data and asset classification methodology
@@ -717,6 +725,6 @@ CRA assessment updated only when changes constitute "substantial modification" u
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-03-27  
-**⏰ Next Review:** 2026-06-27  
+**📅 Effective Date:** 2026-06-28  
+**⏰ Next Review:** 2027-06-28  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
