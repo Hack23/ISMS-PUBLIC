@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.8-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-3.9-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--28-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Quarterly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 3.8 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-06-05
+**📋 Document Owner:** CEO | **📄 Version:** 3.9 | **📅 Last Updated:** 2026-06-28 (UTC)  
+**🔄 Review Cycle:** Quarterly | **⏰ Next Review:** 2026-09-28
 
 
 ---
@@ -38,20 +38,20 @@ This register documents all identified risks affecting Hack23 AB operations, app
 
 ## 📊 **Risk Analytics Dashboard**
 
-**Next Review:** 2026-06-05
+**Next Review:** 2026-09-28
 
 ### 🎯 **Executive Risk Summary**
 
 | **Risk Portfolio Overview** | **Value** | **Trend** | **Target** |
 |---------------------------|-----------|-----------|------------|
-| **Total Active Risks** | 22 | ↑ | 18 |
+| **Total Active Risks** | 26 | ↑ | 18 |
 | **Critical Risks** | 2 | → | 1 |
-| **High Risks** | 6 | → | 4 |
-| **Medium Risks** | 9 | ↑ | 6 |
-| **Low Risks** | 4 | ↑ | 4 |
+| **High Risks** | 7 | ↑ | 4 |
+| **Medium Risks** | 12 | ↑ | 6 |
+| **Low Risks** | 4 | → | 4 |
 | **Minimal Risks** | 1 | → | 0 |
-| **Average Risk Score** | 187 | ↑ | <150 |
-| **Total ALE** | €240K | ↑ | <€100K |
+| **Average Risk Score** | 185 | ↓ | <150 |
+| **Total ALE** | €258K | ↑ | <€100K |
 
 ### 📈 **Updated Risk Heat Matrix**
 
@@ -67,11 +67,11 @@ graph TB
             B5["R-CASH-001<br/>(320)<br/>R-CONCENTRATION-001<br/>(320)"]
         end
         subgraph "4 - High"
-            B4["R-AWS-001<br/>(240)<br/>R-CYBER-001<br/>(240)<br/>R-AI-LIABILITY-001<br/>(240)<br/>R-CREDIT-001<br/>(240)"]
+            B4["R-AWS-001<br/>(240)<br/>R-CYBER-001<br/>(240)<br/>R-AI-LIABILITY-001<br/>(240)<br/>R-CREDIT-001<br/>(240)<br/>R-DISINFO-001<br/>(240)"]
         end
         subgraph "3 - Moderate"
-            B3["R-SUPPLIER-001<br/>(180)<br/>R-INCIDENT-001<br/>(180)<br/>R-LEGAL-001<br/>(180)"]
-            C3["R-IP-001<br/>(160)<br/>R-PROF-LIABILITY-001<br/>(160)<br/>R-PROCESS-001<br/>(120)<br/>R-AGENT-002<br/>(120)<br/>R-TAX-001<br/>(120)<br/>R-GDPR-001<br/>(100)"]
+            B3["R-SUPPLIER-001<br/>(180)<br/>R-INCIDENT-001<br/>(180)<br/>R-LEGAL-001<br/>(180)<br/>R-MCP-001<br/>(180)"]
+            C3["R-IP-001<br/>(160)<br/>R-PROF-LIABILITY-001<br/>(160)<br/>R-SUPPLYCHAIN-001<br/>(160)<br/>R-PROCESS-001<br/>(120)<br/>R-AGENT-002<br/>(120)<br/>R-TAX-001<br/>(120)<br/>R-DDOS-001<br/>(120)<br/>R-GDPR-001<br/>(100)"]
         end
         subgraph "2 - Low"
             D2["R-COMP-001<br/>(80)<br/>R-ACCESS-001<br/>(80)<br/>R-AGENT-001<br/>(80)<br/>R-TECH-001<br/>(60)"]
@@ -94,17 +94,18 @@ graph TB
     class B1 minimal
 ```
 
-### 🏆 **Top 7 Strategic Risks (Q1 2026 Review)**
+### 🏆 **Top Strategic Risks (Q2 2026 Review)**
 
 | **Risk ID** | **Risk Title** | **Score** | **Category** | **Owner** | **Due Date** |
 |-------------|---------------|-----------|--------------|-----------|--------------|
-| R-FOUNDER-001 | Founder Burnout/Incapacitation | 480 | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-27 |
-| R-MARKET-001 | Market Validation Failure | 400 | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-27 |
-| R-CASH-001 | Cash Flow Depletion | 320 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-14 |
-| R-CONCENTRATION-001 | Client Concentration Risk | 320 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-27 |
-| R-AWS-001 | AWS Service Disruption | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-27 |
-| R-CYBER-001 | Security Breach | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-27 |
-| R-AI-LIABILITY-001 | AI-Generated Content Liability | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-02-27 |
+| R-FOUNDER-001 | Founder Burnout/Incapacitation | 480 | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-MARKET-001 | Market Validation Failure | 400 | [![Critical](https://img.shields.io/badge/Critical-red?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-CASH-001 | Cash Flow Depletion | 320 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-CONCENTRATION-001 | Client Concentration Risk | 320 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-AWS-001 | AWS Service Disruption | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-CYBER-001 | Security Breach | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-AI-LIABILITY-001 | AI-Generated Content Liability | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
+| R-DISINFO-001 | Information Integrity & Election Interference | 240 | [![High](https://img.shields.io/badge/High-orange?style=flat-square)](./Risk_Register.md) | CEO | 2026-09-28 |
 
 ### 🏆 **Pentagon Dimension Distribution**
 
@@ -112,7 +113,7 @@ Risk portfolio organized by Pentagon of Continuous Improvement dimensions:
 
 | Pentagon Dimension | Risk Count | Example Risks | Avg Score | Priority Multiplier |
 |--------------------|-----------|---------------|-----------|-------------------|
-| **🔒 Security** | 6 | R-CYBER-001, R-AWS-001, R-AI-LIABILITY-001, R-SUPPLIER-001, R-INCIDENT-001, R-PHYS-001 | 183 | 2.0× |
+| **🔒 Security** | 10 | R-CYBER-001, R-AWS-001, R-AI-LIABILITY-001, R-DISINFO-001, R-MCP-001, R-SUPPLYCHAIN-001, R-DDOS-001, R-SUPPLIER-001, R-INCIDENT-001, R-PHYS-001 | 180 | 2.0× |
 | **📋 ISMS Controls** | 6 | R-FOUNDER-001, R-GDPR-001, R-ACCESS-001, R-AGENT-001, R-AGENT-002, R-TAX-001 | 163 | 2.0× |
 | **🚀 Functionality** | 4 | R-MARKET-001, R-CASH-001, R-CREDIT-001, R-CONCENTRATION-001 | 320 | 1.8× |
 | **✨ Quality** | 5 | R-TECH-001, R-PROCESS-001, R-IP-001, R-LEGAL-001, R-PROF-LIABILITY-001 | 136 | 1.5× |
@@ -130,17 +131,17 @@ Automated risk monitoring through curated agent ecosystem:
 
 | Metric | Current Status | Target | Status |
 |--------|---------------|--------|--------|
-| **Total Risks Monitored** | 22/22 (100%) | 100% | ✅ Complete |
-| **Continuous Monitoring (Weekly)** | 8 Critical/High risks | All Critical/High | ✅ Achieved |
-| **Periodic Monitoring (Bi-weekly/Monthly)** | 14 Medium/Low/Minimal risks | All Medium/Low | ✅ Achieved |
-| **Automated Evidence Links** | 18/22 (82%) | >80% | ✅ Achieved |
+| **Total Risks Monitored** | 26/26 (100%) | 100% | ✅ Complete |
+| **Continuous Monitoring (Weekly)** | 9 Critical/High risks | All Critical/High | ✅ Achieved |
+| **Periodic Monitoring (Bi-weekly/Monthly)** | 17 Medium/Low/Minimal risks | All Medium/Low | ✅ Achieved |
+| **Automated Evidence Links** | 22/26 (85%) | >80% | ✅ Achieved |
 | **Agent Triage Accuracy** | 94% (validated vs human) | >85% | ✅ Exceeded |
-| **Pentagon Coverage** | 22/22 (100%) | 100% | ✅ Complete |
+| **Pentagon Coverage** | 26/26 (100%) | 100% | ✅ Complete |
 
 **Agent Assignments by Risk Level:**
 - **Critical Risks (2):** ISMS Ninja + Security Architect + Business Dev Specialist (weekly)
-- **High Risks (6):** Specialist agents per Pentagon dimension (weekly)
-- **Medium Risks (9):** Specialist agents per Pentagon dimension (bi-weekly/monthly)
+- **High Risks (7):** Specialist agents per Pentagon dimension (weekly)
+- **Medium Risks (12):** Specialist agents per Pentagon dimension (bi-weekly/monthly)
 - **Low/Minimal Risks (5):** Test Specialist + periodic monitoring (quarterly)
 
 **Evidence Automation Sources:**
@@ -307,12 +308,15 @@ Controls implemented across multiple risks (referenced in individual risk entrie
 | **C-MONITOR-001** | Security Monitoring | R-CYBER-001, R-AWS-001, R-ACCESS-001, R-INCIDENT-001 | Daily alerts review, weekly vulnerability scanning |
 | **C-COMP-001** | Compliance Framework | R-GDPR-001, R-TAX-001, R-LEGAL-001 | Privacy Policy, Data Classification, Access Control policies |
 | **C-INS-001** | Insurance Coverage | R-FOUNDER-001, R-PROF-LIABILITY-001, R-IP-001 | Professional indemnity, cyber insurance evaluation |
+| **C-SEC-004** | Edge & Availability Protection | R-DDOS-001, R-DISINFO-001, R-AWS-001 | AWS WAF, 5 CloudFront distributions, S3 static hosting, AWS Shield Standard, DNSSEC on 6 domains |
+| **C-SUPPLY-001** | Supply Chain Integrity | R-SUPPLYCHAIN-001, R-CYBER-001, R-TECH-001 | SLSA Level 3 provenance, signed SBOM (SPDX/CycloneDX), npm package provenance, pinned dependencies |
+| **C-AI-001** | AI Output Governance | R-MCP-001, R-DISINFO-001, R-AI-LIABILITY-001, R-AGENT-002 | Mandatory human-in-the-loop review, OWASP LLM controls, ISMS context loading, CEO PR approval |
 
 ### 🎯 **Risk Treatment Summary**
 
 | Treatment Strategy | Risk Count | Risk IDs | Implementation Status |
 |--------------------|-----------|----------|---------------------|
-| **Mitigate with Controls** | 22 | R-AWS-001, R-CYBER-001, R-GDPR-001, R-SUPPLIER-001, R-IP-001, R-PROCESS-001, R-INCIDENT-001, R-TAX-001, R-TECH-001, R-ACCESS-001, R-AGENT-001, R-AGENT-002, R-PHYS-001, R-CASH-001, R-CREDIT-001, R-CONCENTRATION-001, R-AI-LIABILITY-001, R-COMP-001, R-FOUNDER-001, R-MARKET-001, R-LEGAL-001, R-PROF-LIABILITY-001 | Technical + procedural controls active |
+| **Mitigate with Controls** | 26 | R-AWS-001, R-CYBER-001, R-GDPR-001, R-SUPPLIER-001, R-IP-001, R-PROCESS-001, R-INCIDENT-001, R-TAX-001, R-TECH-001, R-ACCESS-001, R-AGENT-001, R-AGENT-002, R-PHYS-001, R-CASH-001, R-CREDIT-001, R-CONCENTRATION-001, R-AI-LIABILITY-001, R-COMP-001, R-FOUNDER-001, R-MARKET-001, R-LEGAL-001, R-PROF-LIABILITY-001, R-DISINFO-001, R-MCP-001, R-SUPPLYCHAIN-001, R-DDOS-001 | Technical + procedural controls active |
 | **Accept with Mitigation** | 7 | R-FOUNDER-001, R-MARKET-001, R-LEGAL-001, R-PROCESS-001, R-INCIDENT-001, R-ACCESS-001, R-AGENT-001 | Risk accepted with compensating controls |
 | **Transfer (Insurance)** | 1 | R-PROF-LIABILITY-001 | Professional indemnity coverage active |
 
@@ -322,9 +326,9 @@ Common classification patterns across risks (reduces repetition in individual en
 
 | Classification Type | High Impact Risks | Moderate Impact Risks | Low Impact Risks |
 |--------------------|------------------|---------------------|------------------|
-| **Confidentiality** | R-FOUNDER-001 (Extreme), R-CYBER-001 (High), R-IP-001 (High) | R-AWS-001 (Moderate), R-ACCESS-001 (Moderate) | R-PHYS-001 (Low), R-TECH-001 (Low) |
-| **Integrity** | R-FOUNDER-001 (Critical), R-CYBER-001 (High), R-GDPR-001 (High) | R-AWS-001 (Moderate), R-AGENT-002 (Moderate) | R-COMP-001 (Low), R-PHYS-001 (Minimal) |
-| **Availability** | R-FOUNDER-001 (Mission Critical), R-AWS-001 (High), R-CASH-001 (High) | R-CYBER-001 (Moderate), R-SUPPLIER-001 (Moderate) | R-TECH-001 (Low), R-PHYS-001 (Best Effort) |
+| **Confidentiality** | R-FOUNDER-001 (Extreme), R-CYBER-001 (High), R-IP-001 (High) | R-AWS-001 (Moderate), R-ACCESS-001 (Moderate) | R-PHYS-001 (Low), R-TECH-001 (Low), R-DISINFO-001 (Public) |
+| **Integrity** | R-FOUNDER-001 (Critical), R-CYBER-001 (High), R-GDPR-001 (High), R-DISINFO-001 (High), R-SUPPLYCHAIN-001 (High) | R-AWS-001 (Moderate), R-AGENT-002 (Moderate), R-MCP-001 (Moderate) | R-COMP-001 (Low), R-PHYS-001 (Minimal) |
+| **Availability** | R-FOUNDER-001 (Mission Critical), R-AWS-001 (High), R-CASH-001 (High) | R-CYBER-001 (Moderate), R-SUPPLIER-001 (Moderate), R-DDOS-001 (Moderate) | R-TECH-001 (Low), R-PHYS-001 (Best Effort) |
 
 ### 🔴 **Critical Risks (Score: 400-600)**
 
@@ -341,7 +345,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Maintain knowledge transfer (quarterly) | Priority 2: Onboard 2-3 Tier 1 partners | Priority 3: Business continuation insurance | Priority 4: Semi-annual drills
 
-**🤖 Monitoring:** ISMS Ninja + Security Architect (weekly) | Next Review: 2026-02-14 | Owner: CEO
+**🤖 Monitoring:** ISMS Ninja + Security Architect (weekly) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -358,7 +362,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Customer development and validation | Priority 2: MVP testing with users | Priority 3: Pivot strategy if needed
 
-**🤖 Monitoring:** Business Dev Specialist (weekly market analysis) | Next Review: 2026-02-14 | Owner: CEO
+**🤖 Monitoring:** Business Dev Specialist (weekly market analysis) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -375,7 +379,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Maintain multi-region architecture | Priority 2: Regular disaster recovery testing | Priority 3: Monitor AWS service health
 
-**🤖 Monitoring:** Security Architect (weekly) | Next Review: 2026-02-27 | Owner: CEO
+**🤖 Monitoring:** Security Architect (weekly) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -390,7 +394,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Aggressive customer acquisition | Priority 2: Cost reduction | Priority 3: Alternative revenue streams
 
-**🤖 Monitoring:** Business Dev Specialist (weekly financial analysis) | Next Review: 2026-02-14 | Owner: CEO
+**🤖 Monitoring:** Business Dev Specialist (weekly financial analysis) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -405,7 +409,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Maintain security posture | Priority 2: Regular security assessment | Priority 3: Incident response planning
 
-**🤖 Monitoring:** Security Architect (daily alerts, weekly scans) | Next Review: 2026-02-27 | Owner: CEO
+**🤖 Monitoring:** Security Architect (daily alerts, weekly scans) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -420,7 +424,24 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Secure AI liability insurance | Priority 2: AI output validation procedures | Priority 3: EU AI Act compliance
 
-**🤖 Monitoring:** Security Architect (weekly AI governance) | Next Review: 2026-02-27 | Owner: CEO
+**🤖 Monitoring:** Security Architect (weekly AI governance) | Next Review: 2026-09-28 | Owner: CEO
+
+---
+
+#### **R-DISINFO-001: Information Integrity & Election Interference**
+**Risk:** Manipulation, poisoning, or weaponization of AI-generated political intelligence (coalition analysis, voting-pattern decoding, risk heat maps) published across Riksdagsmonitor and EU Parliament Monitor — heightened during the Swedish Election 2026 window — via source-data poisoning, SEO/backlink manipulation, deepfake attribution/impersonation, or coordinated misattribution undermining non-partisan credibility | **Category:** [![Information Integrity](https://img.shields.io/badge/Category-Information_Integrity-purple?style=for-the-badge&logo=robot&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) | **Pentagon:** [![Security](https://img.shields.io/badge/Pentagon-Security-red?style=for-the-badge&logo=shield-alt&logoColor=white)](./Information_Security_Strategy.md#pentagon-of-continuous-improvement)
+
+**📊 Risk Metrics:** Probability 3/5 [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) | Impact 4/5 [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Assessment_Methodology.md) | **Score: 240** [![High](https://img.shields.io/badge/Risk-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Register.md)
+
+**💰 Financial:** SLE €30K | ARO 0.3 | ALE €9K | VaR €45K (95% CI, 12mo)
+
+**🔒 CIA Impact:** Confidentiality [![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels) | Integrity [![High](https://img.shields.io/badge/I-High-orange?style=flat-square)](./CLASSIFICATION.md#integrity-levels) | Availability [![Moderate](https://img.shields.io/badge/A-Moderate-yellow?style=flat-square)](./CLASSIFICATION.md#availability-levels)
+
+**🛡️ Controls:** C-SEC-004, C-AI-001 | Public-data-only architecture with equal treatment of all political groups (non-weaponization by design per [Information_Security_Strategy.md](./Information_Security_Strategy.md)) | Human-in-the-loop editorial review | Source provenance validation | DNSSEC + SPF/DKIM/DMARC | [Threat_Modeling.md](./Threat_Modeling.md)
+
+**📈 Treatment:** Priority 1: Swedish Election 2026 information-integrity monitoring playbook | Priority 2: Source-feed integrity validation + anomaly detection | Priority 3: Public transparency/corrections process and backlink monitoring
+
+**🤖 Monitoring:** Security Architect + ISMS Ninja (weekly; daily during election window) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -435,7 +456,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Enforce upfront payment strictly | Priority 2: Factoring/invoice financing for large projects | Priority 3: Client diversification
 
-**🤖 Monitoring:** Business Dev Specialist (weekly payment tracking) | Next Review: 2026-02-27 | Owner: CEO
+**🤖 Monitoring:** Business Dev Specialist (weekly payment tracking) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -483,7 +504,7 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🛡️ Current Controls:** 
   - Active client diversification strategy per [Business Strategy](./Hack23AB/Business_Strategy.md)
   - Target: No client >40% of revenue by Q4 2026
-  - Portfolio of 4 business lines reducing dependency
+  - Portfolio of 5 business lines reducing dependency
   - Strong client relationships and proactive communication
   - Continuous pipeline development
 
@@ -494,11 +515,56 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Business Development Specialist weekly concentration analysis | Monthly revenue concentration analysis, quarterly client relationship health checks (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-27
+- **📅 Next Review:** 2026-09-28
 
 ---
 
 ### 🟡 **Medium Risks (Score: 100-199)**
+
+#### **R-MCP-001: AI Prompt Injection & Agentic Manipulation**
+**Risk:** Indirect prompt injection or tool/data poisoning (OWASP LLM01/LLM05/LLM08) via external parliamentary data ingested by the European Parliament MCP Server and agentic newsroom pipelines, manipulating AI-generated outputs, agent behavior, or causing sensitive-context disclosure (LLM02) | **Category:** [![AI & Automation](https://img.shields.io/badge/Category-AI_&_Automation-purple?style=for-the-badge&logo=robot&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) | **Pentagon:** [![Security](https://img.shields.io/badge/Pentagon-Security-red?style=for-the-badge&logo=shield-alt&logoColor=white)](./Information_Security_Strategy.md#pentagon-of-continuous-improvement)
+
+**📊 Risk Metrics:** Probability 3/5 [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) | Impact 3/5 [![Moderate](https://img.shields.io/badge/Impact-Moderate-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Assessment_Methodology.md) | **Score: 180** [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
+
+**💰 Financial:** SLE €10K | ARO 0.2 | ALE €2K | VaR €15K (95% CI, 12mo)
+
+**🛡️ Controls:** C-AI-001 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) LLM01/LLM02/LLM05/LLM08 controls | Read-only public data sources | Output validation + mandatory human review | MCP least-privilege per [AI_Policy.md](./AI_Policy.md) | MCP server development security standards
+
+**📈 Treatment:** Priority 1: Input/output guardrails on MCP and newsroom pipelines | Priority 2: Prompt-injection test cases in CI | Priority 3: Context isolation and source allow-listing
+
+**🤖 Monitoring:** Security Architect (weekly) | Next Review: 2026-09-28 | Owner: CEO
+
+---
+
+#### **R-SUPPLYCHAIN-001: Software Supply Chain Compromise**
+**Risk:** Compromise of build pipeline, third-party dependencies, or published artifacts (including the cia-compliance-manager npm library; 47 open non-critical Dependabot alerts across 9 repositories) leading to malicious code distribution to downstream consumers | **Category:** [![Supply Chain](https://img.shields.io/badge/Category-Supply_Chain-orange?style=for-the-badge&logo=truck&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) | **Pentagon:** [![Security](https://img.shields.io/badge/Pentagon-Security-red?style=for-the-badge&logo=shield-alt&logoColor=white)](./Information_Security_Strategy.md#pentagon-of-continuous-improvement)
+
+**📊 Risk Metrics:** Probability 2/5 [![Unlikely](https://img.shields.io/badge/Likelihood-Unlikely-lightgreen?style=for-the-badge&logo=shield&logoColor=white)](./Risk_Assessment_Methodology.md) | Impact 4/5 [![High](https://img.shields.io/badge/Impact-High-orange?style=for-the-badge&logo=warning&logoColor=white)](./Risk_Assessment_Methodology.md) | **Score: 160** [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
+
+**💰 Financial:** SLE €40K | ARO 0.15 | ALE €6K | VaR €60K (95% CI, 12mo)
+
+**🛡️ Controls:** C-SUPPLY-001, C-SEC-003 | SLSA Level 3 provenance + signed SBOM (SPDX/CycloneDX) | npm package provenance | Dependabot + FOSSA + OpenSSF Scorecard | Pinned dependencies | [Open_Source_Policy.md](./Open_Source_Policy.md), [Vulnerability_Management.md](./Vulnerability_Management.md)
+
+**📈 Treatment:** Priority 1: Maintain SLSA Level 3 + signed releases | Priority 2: Triage 47 open Dependabot alerts (<30 target) | Priority 3: Dependency-review gates on all PRs
+
+**🤖 Monitoring:** Security Architect + Code Quality Engineer (weekly) | Next Review: 2026-09-28 | Owner: CEO
+
+---
+
+#### **R-DDOS-001: DDoS / Availability Attack on Public Platforms**
+**Risk:** Volumetric or application-layer DDoS targeting the public platform ecosystem (~19.6M requests/month across 6 domains, 5 CloudFront distributions), particularly politically-motivated attacks during the Swedish Election 2026 window | **Category:** [![Infrastructure](https://img.shields.io/badge/Category-Infrastructure-blue?style=for-the-badge&logo=server&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) | **Pentagon:** [![Security](https://img.shields.io/badge/Pentagon-Security-red?style=for-the-badge&logo=shield-alt&logoColor=white)](./Information_Security_Strategy.md#pentagon-of-continuous-improvement)
+
+**📊 Risk Metrics:** Probability 3/5 [![Possible](https://img.shields.io/badge/Likelihood-Possible-yellow?style=for-the-badge&logo=balance-scale&logoColor=black)](./Risk_Assessment_Methodology.md) | Impact 2/5 [![Low](https://img.shields.io/badge/Impact-Low-lightgreen?style=for-the-badge&logo=check-circle&logoColor=white)](./Risk_Assessment_Methodology.md) | **Score: 120** [![Medium](https://img.shields.io/badge/Risk-Medium-yellow?style=for-the-badge&logo=info-circle&logoColor=black)](./Risk_Register.md)
+
+**💰 Financial:** SLE €5K | ARO 0.3 | ALE €1.5K | VaR €7.5K (95% CI, 12mo)
+
+**🛡️ Controls:** C-SEC-004, C-SEC-001 | CloudFront edge caching + S3 static hosting (absorbs volumetric load) | AWS WAF rate-based rules | AWS Shield Standard | Route 53 health checks | Static architecture minimizes origin exposure
+
+**📈 Treatment:** Priority 1: Tune WAF rate-based rules | Priority 2: Election-period capacity and monitoring readiness | Priority 3: Evaluate AWS Shield Advanced for the election window
+
+**🤖 Monitoring:** Security Architect (weekly; daily during election window) | Next Review: 2026-09-28 | Owner: CEO
+
+---
 
 #### **R-GDPR-001: GDPR Compliance Breach (Future Risk)**
 **Risk:** Future GDPR non-compliance when processing customer data (activates upon first customer) | **Category:** [![Legal & Regulatory](https://img.shields.io/badge/Category-Legal_&_Regulatory-maroon?style=for-the-badge&logo=balance-scale&logoColor=white)](./Risk_Assessment_Methodology.md#risk-category-classifications) [![Future Risk](https://img.shields.io/badge/Status-Future_Risk-blue?style=flat-square&logo=calendar&logoColor=white)](./Risk_Assessment_Methodology.md) | **Pentagon:** [![ISMS Controls](https://img.shields.io/badge/Pentagon-ISMS_Controls-orange?style=for-the-badge&logo=shield&logoColor=white)](./Information_Security_Strategy.md#pentagon-of-continuous-improvement)
@@ -511,7 +577,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 **📈 Treatment:** Priority 1: Activate GDPR program upon first customer | Priority 2: DPIA before onboarding | Priority 3: Annual audit post-revenue
 
-**🤖 Monitoring:** ISMS Ninja (weekly readiness, daily post-customer) | Activation: First customer (target Q1 2026) | Next Review: 2026-02-27 | Owner: CEO
+**🤖 Monitoring:** ISMS Ninja (weekly readiness, daily post-customer) | Activation: First customer (target Q1 2026) | Next Review: 2026-09-28 | Owner: CEO
 
 ---
 
@@ -556,7 +622,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Security Architect bi-weekly supplier analysis | Weekly supplier status review (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-14
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -602,7 +668,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Code Quality Engineer bi-weekly IP analysis | Quarterly IP landscape review (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-14
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -664,7 +730,7 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🔗 Related Policy:** [Change_Management.md](./Change_Management.md) - Single-Person Company Adaptation section
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Code Quality Engineer bi-weekly change process analysis | Quarterly change management retrospective, external audit validation (agent-coordinated)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-24
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -726,7 +792,7 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🔗 Related Policy:** [Incident_Response_Plan.md](./Incident_Response_Plan.md) - Single-Person Company Adaptation section
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Security Architect bi-weekly incident readiness analysis | Monthly KPI review (MTTD, MTTR), quarterly incident analysis, annual tabletop exercise (agent-coordinated)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-24
+- **📅 Next Review:** 2026-09-28
 
 ---
 #### **R-LEGAL-001: Contract Disputes/Enforcement**
@@ -778,7 +844,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Business Dev Specialist monthly contract analysis | Quarterly contract review, legal consultation as needed (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-27
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -832,7 +898,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Business Dev Specialist monthly professional standards analysis | Quarterly insurance coverage review, annual policy renewal (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-27
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -885,7 +951,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** ISMS Ninja monthly tax compliance analysis | Quarterly tax compliance review, annual external audit (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-27
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -932,7 +998,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Test Specialist monthly competitive analysis | Monthly competitive landscape review (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-14
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -978,7 +1044,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Code Quality Engineer bi-weekly technology analysis | Quarterly technology assessment (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-14
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -1041,7 +1107,7 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🔗 Related Policy:** [Access_Control_Policy.md](./Access_Control_Policy.md) - Single-Person Company Adaptation section
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** ISMS Ninja weekly access control analysis | Real-time IAM Access Analyzer findings, quarterly CEO review, annual external audit (agent-coordinated)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-24
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -1102,7 +1168,7 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🔗 Related Policy:** [AI_Policy.md](./AI_Policy.md) - AI Agent Ecosystem & Curator Governance section
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** ISMS Ninja weekly agent configuration analysis | Automated CI validation, CEO approval tracking, quarterly agent review, PR metrics (agent-coordinated)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-24
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -1148,7 +1214,7 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🔗 Related Policy:** [AI_Policy.md](./AI_Policy.md) - AI Agent Ecosystem & Curator Governance section, [Change_Management.md](./Change_Management.md) - AI Agent Configuration Governance
 - **🔍 Monitoring:** Policy change review, quarterly compliance validation, agent output quality assessment
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-24
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -1176,8 +1242,8 @@ Common classification patterns across risks (reduces repetition in individual en
 - **🤖 Agent Monitoring:**
   - **Primary Agent:** Security Architect (quarterly physical security monitoring)
   - **Monitoring Frequency:** Quarterly physical security and equipment status review
-  - **Last Agent Check:** 2026-03-05
-  - **Next Scheduled Check:** 2026-06-05
+  - **Last Agent Check:** 2026-06-28
+  - **Next Scheduled Check:** 2026-09-28
 
 - **📊 Automated Evidence:**
   - **Device Encryption:** Full disk encryption status validation
@@ -1196,7 +1262,7 @@ Common classification patterns across risks (reduces repetition in individual en
 
 - **🔍 Monitoring:** **Agent-Driven Continuous Monitoring:** Security Architect quarterly physical security analysis | Annual security review (agent-tracked)
 - **👤 Risk Owner:** CEO
-- **📅 Next Review:** 2026-02-14
+- **📅 Next Review:** 2026-09-28
 
 ---
 
@@ -1207,9 +1273,9 @@ Common classification patterns across risks (reduces repetition in individual en
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'pie1': '#D32F2F', 'pie2': '#4CAF50', 'pie3': '#2196F3', 'pie4': '#FF9800'}}}%%
 pie title Risk Treatment Strategies
-    "Mitigate (100%)" : 22
-    "Accept w/Controls (32%)" : 7
-    "Transfer (5%)" : 1
+    "Mitigate (69%)" : 18
+    "Accept w/Controls (27%)" : 7
+    "Transfer (4%)" : 1
     "Avoid (0%)" : 0
 ```
 
@@ -1218,11 +1284,11 @@ pie title Risk Treatment Strategies
 | **Priority** | **Total** | **Completed** | **In Progress** | **Planning** | **Overdue** |
 |--------------|-----------|---------------|----------------|--------------|-------------|
 | **Critical** | 2 | 0 | 2 | 0 | 0 |
-| **High** | 6 | 1 | 4 | 1 | 0 |
-| **Medium** | 9 | 2 | 5 | 2 | 0 |
+| **High** | 7 | 1 | 5 | 1 | 0 |
+| **Medium** | 12 | 2 | 8 | 2 | 0 |
 | **Low** | 4 | 2 | 2 | 0 | 0 |
 | **Minimal** | 1 | 1 | 0 | 0 | 0 |
-| **TOTAL** | **22** | **6** | **13** | **3** | **0** |
+| **TOTAL** | **26** | **6** | **17** | **3** | **0** |
 
 ### 📈 **Risk Treatment Effectiveness Metrics**
 
@@ -1241,9 +1307,9 @@ pie title Risk Treatment Strategies
 
 | **Review Type** | **Frequency** | **Next Due** | **Participants** |
 |----------------|---------------|--------------|------------------|
-| **Executive Risk Review** | Monthly | 2026-04-05 | CEO |
-| **Quarterly Risk Assessment** | Quarterly | 2026-06-05 | CEO |
-| **Annual Risk Strategy** | Annual | 2027-03-05 | CEO |
+| **Executive Risk Review** | Monthly | 2026-07-28 | CEO |
+| **Quarterly Risk Assessment** | Quarterly | 2026-09-28 | CEO |
+| **Annual Risk Strategy** | Annual | 2027-06-28 | CEO |
 | **Incident-Based Review** | As needed | N/A | CEO |
 
 ### 📊 **Key Risk Indicators (KRIs)**
@@ -1291,9 +1357,9 @@ pie title Risk Treatment Strategies
 | Current Risk | AI Impact on Treatment | Projected Score Change |
 |-------------|----------------------|----------------------|
 | **R-FOUNDER-001** (Single-person dependency, Score: 480) | AI agents progressively automate critical functions, reducing human dependency | 480 → 300 (2027) → 200 (2030) → 120 (2033) |
-| **R-MARKET-001** (Large competitor entry, Score: 300) | AI enables enterprise-grade delivery from sole proprietor, maintaining differentiation | 300 → 250 (2027) → 200 (2030) as AI amplifies capabilities |
-| **R-CASH-001** (Cash flow, Score: 288) | AI-driven revenue acceleration across all 5 business lines | 288 → 200 (2027) → 120 (2030) with scaling revenue |
-| **R-CYBER-001** (Security incident, Score: 200) | AI-enhanced threat detection and automated response reduces incident probability | 200 → 150 (2027) → 100 (2030) with autonomous security operations |
+| **R-MARKET-001** (Large competitor entry, Score: 400) | AI enables enterprise-grade delivery from sole proprietor, maintaining differentiation | 400 → 320 (2027) → 250 (2030) as AI amplifies capabilities |
+| **R-CASH-001** (Cash flow, Score: 320) | AI-driven revenue acceleration across all 5 business lines | 320 → 220 (2027) → 130 (2030) with scaling revenue |
+| **R-CYBER-001** (Security incident, Score: 240) | AI-enhanced threat detection and automated response reduces incident probability | 240 → 180 (2027) → 120 (2030) with autonomous security operations |
 
 **Governance:** AI risk assessment integrated into quarterly review cycle. Annual AI model evaluation cadence per [AI Policy](./AI_Policy.md) § AI Model Evolution Evaluation Framework.
 
@@ -1333,6 +1399,6 @@ pie title Risk Treatment Strategies
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** CEO, External Risk Advisor, Insurance Company  
 **🏷️ Classification:** [![Confidentiality: High](https://img.shields.io/badge/C-High-blue?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-03-05  
-**⏰ Next Review:** 2026-06-05  
+**📅 Effective Date:** 2026-06-28  
+**⏰ Next Review:** 2026-09-28  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
