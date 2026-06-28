@@ -13,11 +13,11 @@
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Version-2.6-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--28-success?style=for-the-badge" alt="Effective Date"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Review-Annualy-orange?style=for-the-badge" alt="Review Cycle"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 **📋 Document Owner:** CEO | **📄 Version:** 2.6 | **📅 Last Updated:** 2026-06-28 (UTC)  
-**🔄 Review Cycle:** Annualy | **⏰ Next Review:** 2027-06-28
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-28
 
 ---
 
