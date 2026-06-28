@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.3-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--03--05-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.4-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--28-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.3 | **📅 Last Updated:** 2026-03-05 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-03-05
+**📋 Document Owner:** CEO | **📄 Version:** 2.4 | **📅 Last Updated:** 2026-06-28 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-28
 
 ---
 
@@ -171,6 +171,20 @@ All projects must maintain comprehensive unit testing plan with public coverage 
 [![E2E Tests](https://img.shields.io/badge/E2E%20Tests-23%20Passing-brightgreen?style=flat-square&logo=playwright)](https://hack23.github.io/European-Parliament-MCP-Server/e2e-results/)
 [![API Docs](https://img.shields.io/badge/API%20Docs-TypeDoc-blue?style=flat-square&logo=typescript)](https://hack23.github.io/European-Parliament-MCP-Server/api/)
 
+**🇪🇺 EU Parliament Monitor:**
+[![Coverage](https://img.shields.io/badge/Test%20Coverage-82%25%2B-brightgreen?style=flat-square&logo=vitest)](https://euparliamentmonitor.com/docs/coverage/)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Live%20Results-success?style=flat-square&logo=vitest)](https://euparliamentmonitor.com/docs/test-results/)
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Playwright%20Results-brightgreen?style=flat-square&logo=playwright)](https://euparliamentmonitor.com/docs/playwright-report/)
+[![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/UnitTestPlan.md)
+[![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/E2ETestPlan.md)
+
+**🗳️ Riksdagsmonitor:**
+[![Coverage](https://img.shields.io/badge/Coverage-Live%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://riksdagsmonitor.com/docs/coverage/)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-Vitest%20Results-success?style=flat-square&logo=vitest&logoColor=white)](https://riksdagsmonitor.com/docs/test-results/html/)
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://riksdagsmonitor.com/docs/cypress/)
+[![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/TESTING.md)
+
+
 ### **🌐 End-to-End Testing Strategy**
 
 #### **🎯 E2E Testing Requirements**
@@ -208,6 +222,12 @@ Comprehensive E2E testing ensures **🔄 operational excellence** across all use
 **🇪🇺 European Parliament MCP Server:**
 [![E2E Tests](https://img.shields.io/badge/E2E%20Tests-23%20Passing-brightgreen?style=flat-square&logo=playwright)](https://hack23.github.io/European-Parliament-MCP-Server/e2e-results/) [![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://hack23.github.io/European-Parliament-MCP-Server/)
 
+**🇪🇺 EU Parliament Monitor:**
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Playwright%20Results-brightgreen?style=flat-square&logo=playwright)](https://euparliamentmonitor.com/docs/playwright-report/) [![E2E Plan](https://img.shields.io/badge/E2E%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/E2ETestPlan.md) [![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://euparliamentmonitor.com/docs/)
+
+**🗳️ Riksdagsmonitor:**
+[![E2E Tests](https://img.shields.io/badge/E2E%20Tests-Cypress%20Results-brightgreen?style=flat-square&logo=cypress)](https://riksdagsmonitor.com/docs/cypress/) [![Test Plan](https://img.shields.io/badge/Test%20Plan-Documentation-blue?style=flat-square&logo=markdown&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/TESTING.md) [![Documentation](https://img.shields.io/badge/📚%20Documentation-Portal-blue?style=flat-square)](https://riksdagsmonitor.com/docs/)
+
 ---
 
 ## 🕷️ **Advanced Security Testing Framework**
@@ -243,33 +263,33 @@ Demonstrating our **🌟 transparency principle** through publicly accessible th
 #### **🏛️ Reference Implementation Evidence**
 
 **🏛️ Citizen Intelligence Agency - Democratic Transparency Platform:**
-[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#stride-threat-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#attack-tree-analysis)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-stride-per-element-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-attack-tree-analysis)
 
 **📊 CIA Compliance Manager - Security Assessment Platform:**
-[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) [![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#quantitative-risk-assessment) [![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#security-control-mapping)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) [![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-quantitative-risk-assessment) [![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-stride--control-mapping)
 
 **🎮 Black Trigram - Educational Gaming Platform:**
-[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) [![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#gaming-specific-threats) [![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#cultural-sensitivity-analysis)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) [![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-educational-gaming-specific-threats) [![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-cultural-sensitivity-threat-analysis)
 
 **🇪🇺 European Parliament MCP Server - Political Intelligence Platform:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) [![Future Security](https://img.shields.io/badge/Future_Security-Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SECURITY_ARCHITECTURE.md) [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-stride-threat-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-attack-tree-analysis)
 
 **🇪🇺 EU Parliament Monitor - Automated Intelligence Platform:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) [![Future Security](https://img.shields.io/badge/Future_Security-Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md) [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-stride-per-element-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-attack-tree-analysis)
 
 **🗳️ Riksdagsmonitor - Swedish Parliament Intelligence Platform:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) [![Future Security](https://img.shields.io/badge/Future_Security-Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-stride-per-dfd-element-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-attack-tree-analysis)
 
 #### **📈 Threat Modeling Maturity Evidence**
 
 | Application | STRIDE Coverage | Attack Trees | Risk Quantification | Control Mapping | Public Documentation |
 |-------------|-----------------|--------------|-------------------|-----------------|-------------------|
-| **🏛️ CIA** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
-| **📊 CIA Compliance** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
-| **🎮 Black Trigram** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) |
-| **🇪🇺 EP MCP Server** | [![Architecture](https://img.shields.io/badge/Security-Architecture-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [![Architecture](https://img.shields.io/badge/Trees-Architecture-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [![SLSA](https://img.shields.io/badge/SLSA-Level_3-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) |
-| **🇪🇺 EU Parliament Monitor** | [![Architecture](https://img.shields.io/badge/Security-Architecture-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Architecture](https://img.shields.io/badge/Trees-Architecture-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![SLSA](https://img.shields.io/badge/SLSA-Level_3-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/attestations) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
-| **🗳️ Riksdagsmonitor** | [![Architecture](https://img.shields.io/badge/Security-Architecture-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Architecture](https://img.shields.io/badge/Trees-Architecture-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Scorecard](https://img.shields.io/badge/Supply_Chain-Scorecard-success?style=flat-square)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) |
+| **🏛️ CIA** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-stride-per-element-analysis) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-attack-tree-analysis) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-political-impact-quantification) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-stride--control-mapping) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) |
+| **📊 CIA Compliance** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-stride-per-element-analysis) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-attack-tree-analysis) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-quantitative-risk-assessment) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-stride--control-mapping) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) |
+| **🎮 Black Trigram** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-stride-per-element-analysis) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-attack-tree-analysis) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-educational-gaming-specific-threats) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-stride--control-mapping) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) |
+| **🇪🇺 EP MCP Server** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-stride-threat-analysis) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-attack-tree-analysis) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-quantitative-risk-assessment) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#security-controls-matrix) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md) |
+| **🇪🇺 EU Parliament Monitor** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-stride-per-element-analysis) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-attack-tree-analysis) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-risk-scoring-methodology) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-stride--control-mapping) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md) |
+| **🗳️ Riksdagsmonitor** | [![Complete](https://img.shields.io/badge/STRIDE-Complete-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-stride-per-dfd-element-analysis) | [![Documented](https://img.shields.io/badge/Trees-Documented-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-attack-tree-analysis) | [![Quantified](https://img.shields.io/badge/Risk-Quantified-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#quantitative-risk-matrix) | [![Mapped](https://img.shields.io/badge/Controls-Mapped-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-stride--control-mapping) | [![Public](https://img.shields.io/badge/Docs-Public-success?style=flat-square)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md) |
 
 ### **🛡️ OWASP ZAP Security Scanning Requirements**
 All projects **MUST** implement comprehensive dynamic security testing:
@@ -357,7 +377,7 @@ All projects **MUST** implement comprehensive dynamic security testing:
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12067/badge)](https://bestpractices.coreinfrastructure.org/projects/12067)
-[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE.md)
 - **Attestations:** [Build Provenance & SBOM](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
 - **Supply Chain:** [OpenSSF Scorecard Details](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
 
@@ -442,22 +462,22 @@ All projects must maintain comprehensive workflow documentation demonstrating **
 ### **📊 Reference Implementation**
 
 **🏛️ Citizen Intelligence Agency:**
-[![Workflows](https://img.shields.io/badge/Workflows-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md) [![CI/CD](https://github.com/Hack23/cia/workflows/Maven%20CI%20Build/badge.svg)](https://github.com/Hack23/cia/actions)
+[![Workflows](https://img.shields.io/badge/Workflows-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia/blob/master/WORKFLOWS.md) [![CI/CD](https://github.com/Hack23/cia/actions/workflows/release.yml/badge.svg)](https://github.com/Hack23/cia/actions/workflows/release.yml)
 
 **🎮 Black Trigram:**
-[![Workflows](https://img.shields.io/badge/Workflows-Documentation-blue?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/WORKFLOWS.md) [![CI/CD](https://github.com/Hack23/blacktrigram/workflows/CI/badge.svg)](https://github.com/Hack23/blacktrigram/actions)
+[![Workflows](https://img.shields.io/badge/Workflows-Documentation-blue?style=flat-square)](https://github.com/Hack23/blacktrigram/blob/main/WORKFLOWS.md) [![CI/CD](https://github.com/Hack23/blacktrigram/actions/workflows/test-and-report.yml/badge.svg)](https://github.com/Hack23/blacktrigram/actions/workflows/test-and-report.yml)
 
 **📊 CIA Compliance Manager:**
-[![Workflows](https://img.shields.io/badge/Workflows-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/WORKFLOWS.md) [![CI/CD](https://github.com/Hack23/cia-compliance-manager/workflows/CI/badge.svg)](https://github.com/Hack23/cia-compliance-manager/actions)
+[![Workflows](https://img.shields.io/badge/Workflows-Documentation-blue?style=flat-square)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/WORKFLOWS.md) [![CI/CD](https://github.com/Hack23/cia-compliance-manager/actions/workflows/test-and-report.yml/badge.svg)](https://github.com/Hack23/cia-compliance-manager/actions/workflows/test-and-report.yml)
 
 **🇪🇺 European Parliament MCP Server:**
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-success?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/actions) [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
 
 **🇪🇺 EU Parliament Monitor:**
-[![News Generation](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml) [![Test & Report](https://github.com/Hack23/euparliamentmonitor/actions/workflows/test-and-report.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/test-and-report.yml)
+[![Test & Report](https://github.com/Hack23/euparliamentmonitor/actions/workflows/test-and-report.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/test-and-report.yml) [![E2E](https://github.com/Hack23/euparliamentmonitor/actions/workflows/e2e.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/e2e.yml) [![CodeQL](https://github.com/Hack23/euparliamentmonitor/actions/workflows/codeql.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/codeql.yml) [![Release](https://github.com/Hack23/euparliamentmonitor/actions/workflows/release.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/release.yml)
 
 **🗳️ Riksdagsmonitor:**
-[![Quality Checks](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml) [![Dependency Review](https://github.com/Hack23/riksdagsmonitor/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/dependency-review.yml)
+[![Quality Checks](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml) [![JavaScript Testing](https://github.com/Hack23/riksdagsmonitor/actions/workflows/javascript-testing.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/javascript-testing.yml) [![Dependency Review](https://github.com/Hack23/riksdagsmonitor/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/dependency-review.yml) [![CodeQL](https://github.com/Hack23/riksdagsmonitor/actions/workflows/codeql.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/codeql.yml)
 
 ---
 
@@ -485,8 +505,8 @@ All projects must maintain comprehensive workflow documentation demonstrating **
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHack23%2Fcia.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FHack23%2Fcia?ref=badge_shield)
 [![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md)
-[![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#stride-threat-analysis)
-[![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#attack-tree-analysis)
+[![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-stride-per-element-analysis)
+[![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-attack-tree-analysis)
 
 **🎮 Black Trigram:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) 
@@ -497,8 +517,8 @@ All projects must maintain comprehensive workflow documentation demonstrating **
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
 [![License](https://img.shields.io/github/license/Hack23/blacktrigram.svg)](https://github.com/Hack23/blacktrigram/blob/main/LICENSE)
 [![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md)
-[![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#gaming-specific-threats)
-[![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#cultural-sensitivity-analysis)
+[![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-educational-gaming-specific-threats)
+[![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-cultural-sensitivity-threat-analysis)
 
 **📊 CIA Compliance Manager:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) 
@@ -509,25 +529,25 @@ All projects must maintain comprehensive workflow documentation demonstrating **
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia-compliance-manager&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Hack23_cia-compliance-manager)
 [![License](https://img.shields.io/github/license/Hack23/cia-compliance-manager.svg)](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE)
 [![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md)
-[![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#quantitative-risk-assessment)
-[![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#security-control-mapping)
+[![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-quantitative-risk-assessment)
+[![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-stride--control-mapping)
 
 **🇪🇺 European Parliament MCP Server:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
-[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE.md)
 [![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md)
 
 **🇪🇺 EU Parliament Monitor:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
 [![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/SECURITY_ARCHITECTURE.md)
 
 **🗳️ Riksdagsmonitor:**
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
 [![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/SECURITY_ARCHITECTURE.md)
 
 ### **📊 Threat Modeling Evidence Portfolio**
 
@@ -536,22 +556,22 @@ Demonstrating our **🌟 transparency principle** through publicly accessible th
 #### **🏛️ Reference Implementation Evidence**
 
 **🏛️ Citizen Intelligence Agency - Democratic Transparency Platform:**
-[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#stride-threat-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#attack-tree-analysis)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-stride-per-element-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/cia/blob/master/THREAT_MODEL.md#-attack-tree-analysis)
 
 **📊 CIA Compliance Manager - Security Assessment Platform:**
-[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) [![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#quantitative-risk-assessment) [![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#security-control-mapping)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md) [![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-Quantified-purple?style=flat-square&logo=calculator&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-quantitative-risk-assessment) [![Mitigations](https://img.shields.io/badge/Mitigations-Mapped-darkgreen?style=flat-square&logo=shield&logoColor=white)](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/THREAT_MODEL.md#-stride--control-mapping)
 
 **🎮 Black Trigram - Educational Gaming Platform:**
-[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) [![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#gaming-specific-threats) [![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#cultural-sensitivity-analysis)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md) [![Gaming Security](https://img.shields.io/badge/Gaming_Security-Specialized_Analysis-red?style=flat-square&logo=gamepad&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-educational-gaming-specific-threats) [![Cultural Heritage](https://img.shields.io/badge/Cultural_Heritage-Protection_Focus-gold?style=flat-square&logo=museum&logoColor=white)](https://github.com/Hack23/blacktrigram/blob/main/THREAT_MODEL.md#-cultural-sensitivity-threat-analysis)
 
 **🇪🇺 European Parliament MCP Server - Political Intelligence Platform:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) [![Future Security](https://img.shields.io/badge/Future_Security-Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-stride-threat-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/THREAT_MODEL.md#-attack-tree-analysis)
 
 **🇪🇺 EU Parliament Monitor - Automated Intelligence Platform:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) [![Future Security](https://img.shields.io/badge/Future_Security-Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-stride-per-element-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/THREAT_MODEL.md#-attack-tree-analysis)
 
 **🗳️ Riksdagsmonitor - Swedish Parliament Intelligence Platform:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) [![Future Security](https://img.shields.io/badge/Future_Security-Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+[![Threat Model](https://img.shields.io/badge/Threat_Model-Public_Documentation-blue?style=flat-square&logo=github&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md) [![STRIDE Analysis](https://img.shields.io/badge/STRIDE-Complete_Analysis-green?style=flat-square&logo=security&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-stride-per-dfd-element-analysis) [![Attack Trees](https://img.shields.io/badge/Attack_Trees-Documented-orange?style=flat-square&logo=tree&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/THREAT_MODEL.md#-attack-tree-analysis)
 
 ---
 
@@ -627,16 +647,16 @@ Every Hack23 AB repository **MUST** maintain comprehensive architectural documen
 - **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
 
 **🇪🇺 EU Parliament Monitor Security Architecture:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Current_Implementation-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md)
-[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Planned_Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
-- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md)
-- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Current_Implementation-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/SECURITY_ARCHITECTURE.md)
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Planned_Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/main/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
 
 **🗳️ Riksdagsmonitor Security Architecture:**
-[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Current_Implementation-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md)
-[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Planned_Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
-- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md)
-- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
+[![Security Architecture](https://img.shields.io/badge/Security_Architecture-Current_Implementation-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/SECURITY_ARCHITECTURE.md)
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Planned_Roadmap-green?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/main/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
 
 **📚 ISMS Documentation Repository Security Architecture:**
 [![Security Architecture](https://img.shields.io/badge/Security_Architecture-Documentation_System-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/ISMS/blob/main/SECURITY_ARCHITECTURE.md)
@@ -785,6 +805,102 @@ All Hack23 AB projects **MUST** maintain complete C4 architecture models demonst
 - **[💼 SWOT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SWOT.md)** — Compliance market analysis
 - **[💼 FUTURE_SWOT.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SWOT.md)** — Future market positioning
 
+#### **📚 Reference Implementation: European Parliament MCP Server**
+
+**Current Architecture:**
+[![Architecture](https://img.shields.io/badge/Architecture-C4_Model-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/ARCHITECTURE.md)
+[![Data Model](https://img.shields.io/badge/Data_Model-Documented-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/DATA_MODEL.md)
+[![Flowchart](https://img.shields.io/badge/Flowcharts-Process_Flows-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FLOWCHART.md)
+[![State Diagram](https://img.shields.io/badge/State_Diagram-Lifecycle-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/STATEDIAGRAM.md)
+[![Mindmap](https://img.shields.io/badge/Mindmap-System_Concepts-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/MINDMAP.md)
+[![SWOT](https://img.shields.io/badge/SWOT-Strategic_Analysis-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SWOT.md)
+
+**Future Architecture:**
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Roadmap-blue?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_ARCHITECTURE.md)
+[![Future Data Model](https://img.shields.io/badge/Future_Data_Model-Enhanced-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_DATA_MODEL.md)
+[![Future Flowchart](https://img.shields.io/badge/Future_Flowcharts-Enhanced-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_FLOWCHART.md)
+[![Future State Diagram](https://img.shields.io/badge/Future_State_Diagram-Advanced-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_STATEDIAGRAM.md)
+[![Future Mindmap](https://img.shields.io/badge/Future_Mindmap-Expansion-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_MINDMAP.md)
+[![Future SWOT](https://img.shields.io/badge/Future_SWOT-Opportunities-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SWOT.md)
+
+**Complete Architecture Portfolio:**
+- **[🏛️ ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/ARCHITECTURE.md)** — MCP server C4 model for parliamentary data integration
+- **[🚀 FUTURE_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_ARCHITECTURE.md)** — Enhanced MCP integration vision
+- **[📊 DATA_MODEL.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/DATA_MODEL.md)** — Parliamentary data entities and relationships
+- **[📊 FUTURE_DATA_MODEL.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_DATA_MODEL.md)** — Enhanced data architecture
+- **[🔄 FLOWCHART.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FLOWCHART.md)** — MCP data processing workflows
+- **[🔄 FUTURE_FLOWCHART.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_FLOWCHART.md)** — Advanced integration flows
+- **[📈 STATEDIAGRAM.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/STATEDIAGRAM.md)** — Server state transitions
+- **[📈 FUTURE_STATEDIAGRAM.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_STATEDIAGRAM.md)** — Advanced state management
+- **[🧠 MINDMAP.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/MINDMAP.md)** — System concept relationships
+- **[🧠 FUTURE_MINDMAP.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_MINDMAP.md)** — Capability expansion roadmap
+- **[💼 SWOT.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SWOT.md)** — Current strategic assessment
+- **[💼 FUTURE_SWOT.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SWOT.md)** — Future opportunity analysis
+
+#### **📚 Reference Implementation: EU Parliament Monitor**
+
+**Current Architecture:**
+[![Architecture](https://img.shields.io/badge/Architecture-C4_Model-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/ARCHITECTURE.md)
+[![Data Model](https://img.shields.io/badge/Data_Model-Documented-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/DATA_MODEL.md)
+[![Flowchart](https://img.shields.io/badge/Flowcharts-Process_Flows-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FLOWCHART.md)
+[![State Diagram](https://img.shields.io/badge/State_Diagram-Lifecycle-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/STATEDIAGRAM.md)
+[![Mindmap](https://img.shields.io/badge/Mindmap-System_Concepts-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/MINDMAP.md)
+[![SWOT](https://img.shields.io/badge/SWOT-Strategic_Analysis-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/SWOT.md)
+
+**Future Architecture:**
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Roadmap-blue?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_ARCHITECTURE.md)
+[![Future Data Model](https://img.shields.io/badge/Future_Data_Model-Enhanced-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_DATA_MODEL.md)
+[![Future Flowchart](https://img.shields.io/badge/Future_Flowcharts-Enhanced-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_FLOWCHART.md)
+[![Future State Diagram](https://img.shields.io/badge/Future_State_Diagram-Advanced-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_STATEDIAGRAM.md)
+[![Future Mindmap](https://img.shields.io/badge/Future_Mindmap-Expansion-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_MINDMAP.md)
+[![Future SWOT](https://img.shields.io/badge/Future_SWOT-Opportunities-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_SWOT.md)
+
+**Complete Architecture Portfolio:**
+- **[🏛️ ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/main/ARCHITECTURE.md)** — C4 model for European Parliament monitoring
+- **[🚀 FUTURE_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_ARCHITECTURE.md)** — Enhanced monitoring platform vision
+- **[📊 DATA_MODEL.md](https://github.com/Hack23/euparliamentmonitor/blob/main/DATA_MODEL.md)** — Parliamentary monitoring data entities
+- **[📊 FUTURE_DATA_MODEL.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_DATA_MODEL.md)** — Enhanced data architecture
+- **[🔄 FLOWCHART.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FLOWCHART.md)** — Monitoring data processing workflows
+- **[🔄 FUTURE_FLOWCHART.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_FLOWCHART.md)** — Advanced monitoring flows
+- **[📈 STATEDIAGRAM.md](https://github.com/Hack23/euparliamentmonitor/blob/main/STATEDIAGRAM.md)** — System state transitions
+- **[📈 FUTURE_STATEDIAGRAM.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_STATEDIAGRAM.md)** — Advanced state management
+- **[🧠 MINDMAP.md](https://github.com/Hack23/euparliamentmonitor/blob/main/MINDMAP.md)** — System concept relationships
+- **[🧠 FUTURE_MINDMAP.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_MINDMAP.md)** — Capability expansion roadmap
+- **[💼 SWOT.md](https://github.com/Hack23/euparliamentmonitor/blob/main/SWOT.md)** — Current strategic assessment
+- **[💼 FUTURE_SWOT.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_SWOT.md)** — Future opportunity analysis
+
+#### **📚 Reference Implementation: Riksdagsmonitor**
+
+**Current Architecture:**
+[![Architecture](https://img.shields.io/badge/Architecture-C4_Model-blue?style=flat-square&logo=architecture&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/ARCHITECTURE.md)
+[![Data Model](https://img.shields.io/badge/Data_Model-Documented-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/DATA_MODEL.md)
+[![Flowchart](https://img.shields.io/badge/Flowcharts-Process_Flows-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FLOWCHART.md)
+[![State Diagram](https://img.shields.io/badge/State_Diagram-Lifecycle-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/STATEDIAGRAM.md)
+[![Mindmap](https://img.shields.io/badge/Mindmap-System_Concepts-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/MINDMAP.md)
+[![SWOT](https://img.shields.io/badge/SWOT-Strategic_Analysis-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/SWOT.md)
+
+**Future Architecture:**
+[![Future Architecture](https://img.shields.io/badge/Future_Architecture-Roadmap-blue?style=flat-square&logo=roadmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_ARCHITECTURE.md)
+[![Future Data Model](https://img.shields.io/badge/Future_Data_Model-Enhanced-green?style=flat-square&logo=database&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_DATA_MODEL.md)
+[![Future Flowchart](https://img.shields.io/badge/Future_Flowcharts-Enhanced-orange?style=flat-square&logo=flow&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_FLOWCHART.md)
+[![Future State Diagram](https://img.shields.io/badge/Future_State_Diagram-Advanced-purple?style=flat-square&logo=state-machine&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_STATEDIAGRAM.md)
+[![Future Mindmap](https://img.shields.io/badge/Future_Mindmap-Expansion-teal?style=flat-square&logo=mindmap&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_MINDMAP.md)
+[![Future SWOT](https://img.shields.io/badge/Future_SWOT-Opportunities-indigo?style=flat-square&logo=strategy&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_SWOT.md)
+
+**Complete Architecture Portfolio:**
+- **[🏛️ ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/main/ARCHITECTURE.md)** — C4 model for Swedish Parliament monitoring
+- **[🚀 FUTURE_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_ARCHITECTURE.md)** — Enhanced monitoring platform vision
+- **[📊 DATA_MODEL.md](https://github.com/Hack23/riksdagsmonitor/blob/main/DATA_MODEL.md)** — Parliamentary monitoring data entities
+- **[📊 FUTURE_DATA_MODEL.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_DATA_MODEL.md)** — Enhanced data architecture
+- **[🔄 FLOWCHART.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FLOWCHART.md)** — Monitoring data processing workflows
+- **[🔄 FUTURE_FLOWCHART.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_FLOWCHART.md)** — Advanced monitoring flows
+- **[📈 STATEDIAGRAM.md](https://github.com/Hack23/riksdagsmonitor/blob/main/STATEDIAGRAM.md)** — System state transitions
+- **[📈 FUTURE_STATEDIAGRAM.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_STATEDIAGRAM.md)** — Advanced state management
+- **[🧠 MINDMAP.md](https://github.com/Hack23/riksdagsmonitor/blob/main/MINDMAP.md)** — System concept relationships
+- **[🧠 FUTURE_MINDMAP.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_MINDMAP.md)** — Capability expansion roadmap
+- **[💼 SWOT.md](https://github.com/Hack23/riksdagsmonitor/blob/main/SWOT.md)** — Current strategic assessment
+- **[💼 FUTURE_SWOT.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_SWOT.md)** — Future opportunity analysis
+
 ---
 
 ## 🔄 **Business Continuity & Lifecycle Documentation**
@@ -826,6 +942,30 @@ All projects **MUST** maintain comprehensive business continuity and lifecycle d
 - **[📋 BCPPlan.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/BCPPlan.md)** — Compliance platform continuity  
 - **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/End-of-Life-Strategy.md)** — React/TypeScript lifecycle management
 - **[💰 FinancialSecurityPlan.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/FinancialSecurityPlan.md)** — GitHub Pages deployment planning
+
+#### **📚 Reference Implementation: European Parliament MCP Server**
+
+[![BCP Plan](https://img.shields.io/badge/BCP_Plan-Documented-blue?style=flat-square&logo=resilience&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/BCPPlan.md)
+[![End-of-Life](https://img.shields.io/badge/End_of_Life-Strategy-orange?style=flat-square&logo=lifecycle&logoColor=white)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/End-of-Life-Strategy.md)
+
+- **[📋 BCPPlan.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/BCPPlan.md)** — MCP server continuity strategy
+- **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/End-of-Life-Strategy.md)** — TypeScript/MCP lifecycle planning
+
+#### **📚 Reference Implementation: EU Parliament Monitor**
+
+[![BCP Plan](https://img.shields.io/badge/BCP_Plan-Documented-blue?style=flat-square&logo=resilience&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/BCPPlan.md)
+[![End-of-Life](https://img.shields.io/badge/End_of_Life-Strategy-orange?style=flat-square&logo=lifecycle&logoColor=white)](https://github.com/Hack23/euparliamentmonitor/blob/main/End-of-Life-Strategy.md)
+
+- **[📋 BCPPlan.md](https://github.com/Hack23/euparliamentmonitor/blob/main/BCPPlan.md)** — European Parliament monitoring continuity
+- **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/euparliamentmonitor/blob/main/End-of-Life-Strategy.md)** — Monitoring platform lifecycle planning
+
+#### **📚 Reference Implementation: Riksdagsmonitor**
+
+[![BCP Plan](https://img.shields.io/badge/BCP_Plan-Documented-blue?style=flat-square&logo=resilience&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/BCPPlan.md)
+[![End-of-Life](https://img.shields.io/badge/End_of_Life-Strategy-orange?style=flat-square&logo=lifecycle&logoColor=white)](https://github.com/Hack23/riksdagsmonitor/blob/main/End-of-Life-Strategy.md)
+
+- **[📋 BCPPlan.md](https://github.com/Hack23/riksdagsmonitor/blob/main/BCPPlan.md)** — Swedish Parliament monitoring continuity
+- **[📅 End-of-Life-Strategy.md](https://github.com/Hack23/riksdagsmonitor/blob/main/End-of-Life-Strategy.md)** — Monitoring platform lifecycle planning
 
 
 ## 🔑 **Authentication & Identity Architecture**
@@ -1077,13 +1217,24 @@ Strategic AWS architecture example: [Lambda in Private VPC](https://github.com/H
 - **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia/blob/master/FUTURE_SECURITY_ARCHITECTURE.md)
 
 **🎮 Black Trigram Security Architecture:**
-(https://bestpractices.coreinfrastructure.org/projects/10777)
 - **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
 - **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/blacktrigram/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
 
 **📊 CIA Compliance Manager Security Architecture:**
 - **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
 - **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/FUTURE_SECURITY_ARCHITECTURE.md)
+
+**🇪🇺 European Parliament MCP Server Security Architecture:**
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+
+**🇪🇺 EU Parliament Monitor Security Architecture:**
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/main/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/euparliamentmonitor/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
+
+**🗳️ Riksdagsmonitor Security Architecture:**
+- **Current Architecture:** [SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/main/SECURITY_ARCHITECTURE.md)
+- **Future Architecture:** [FUTURE_SECURITY_ARCHITECTURE.md](https://github.com/Hack23/riksdagsmonitor/blob/main/FUTURE_SECURITY_ARCHITECTURE.md)
 
 
 #### **📋 Complete Architecture Documentation Set**
@@ -1155,6 +1306,9 @@ Aligned with [ISMS Transparency Plan](./ISMS_Transparency_Plan.md), each project
 - **🏛️ Citizen Intelligence Agency:** [cia-docs.html](https://www.hack23.com/cia-docs.html) - Democratic transparency tools
 - **📊 CIA Compliance Manager:** [cia-compliance-manager-docs.html](https://www.hack23.com/cia-compliance-manager-docs.html) - Open-source compliance assessment platform
 - **🎮 Black Trigram:** [black-trigram-docs.html](https://www.hack23.com/black-trigram-docs.html) - Educational gaming security
+- **🇪🇺 European Parliament MCP Server:** [european-parliament-mcp-docs.html](https://www.hack23.com/european-parliament-mcp-docs.html) - MCP data integration for EU Parliament transparency
+- **🇪🇺 EU Parliament Monitor:** [euparliamentmonitor-docs.html](https://www.hack23.com/euparliamentmonitor-docs.html) - Automated European Parliament intelligence platform
+- **🗳️ Riksdagsmonitor:** [riksdagsmonitor-docs.html](https://www.hack23.com/riksdagsmonitor-docs.html) - Swedish Parliament intelligence platform
 
 ---
 
@@ -1343,6 +1497,6 @@ Based on our **⚖️ Business Value Focus** principle, security investments pri
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public    
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)    
-**📅 Effective Date:** 2026-03-05  
-**⏰ Next Review:** 2027-03-05  
+**📅 Effective Date:** 2026-06-28  
+**⏰ Next Review:** 2027-06-28  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
