@@ -11,12 +11,12 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-4.6-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.7-555?style=for-the-badge" alt="Version"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--02-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 4.6 | **📅 Last Updated:** 2026-06-02 (UTC)  
+**📋 Document Owner:** CEO | **📄 Version:** 4.7 | **📅 Last Updated:** 2026-06-28 (UTC)  
 **🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-02
 
 ---
@@ -39,7 +39,7 @@ Our commitment to **radical transparency** extends to this strategy itself - dem
 
 ### 🏢 **Organizational Context**
 
-**Hack23 AB** operates as a Swedish innovation hub with five integrated business lines encompassing nine public repositories, each classified according to our [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md).
+**Hack23 AB** operates as a Swedish innovation hub with five integrated business lines encompassing nine public repositories, each classified according to our [🏷️ Classification Framework](CLASSIFICATION.md).
 
 #### 🌐 **Product Ecosystem & Intelligence Architecture**
 
@@ -132,20 +132,20 @@ The security architecture is validated at production scale through continuous op
 #### 1. **🔐 Cybersecurity Consulting** — Enterprise security implementation and ISMS advisory services
 
 **Project Classification:**
-   - **Project Type:** [![Security Tools](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
-   - **Business Process:** [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+   - **Project Type:** [![Security Tools](https://img.shields.io/badge/Type-Security_Tools-darkblue?style=for-the-badge&logo=shield-alt&logoColor=white)](CLASSIFICATION.md#project-type-classifications)
+   - **Business Process:** [![Sales](https://img.shields.io/badge/Process-Sales-darkgreen?style=for-the-badge&logo=handshake&logoColor=white)](CLASSIFICATION.md#business-process-types)
 
 **Security Classification:**
-   - **Confidentiality:** [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
-   - **Integrity:** [![High](https://img.shields.io/badge/Integrity-High-blue?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
-   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+   - **Confidentiality:** [![Very High](https://img.shields.io/badge/Confidentiality-Very_High-darkblue?style=for-the-badge&logo=shield&logoColor=white)](CLASSIFICATION.md#confidentiality-levels)
+   - **Integrity:** [![High](https://img.shields.io/badge/Integrity-High-blue?style=for-the-badge&logo=check-circle&logoColor=white)](CLASSIFICATION.md#integrity-levels)
+   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](CLASSIFICATION.md#availability-levels)
 
 **Porter's Five Forces Strategic Impact:**
-   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-High-orange?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Price pressure from buyers
-   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Low-lightgreen?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Multi-vendor flexibility
-   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Medium-yellow?style=flat-square&logo=shield-alt&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Expertise required
-   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Medium-yellow?style=flat-square&logo=exchange-alt&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Internal teams alternative
-   - [![Rivalry](https://img.shields.io/badge/Rivalry-High_Competition-red?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Fragmented market
+   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-High-orange?style=flat-square&logo=users&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Price pressure from buyers
+   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Low-lightgreen?style=flat-square&logo=handshake&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Multi-vendor flexibility
+   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Medium-yellow?style=flat-square&logo=shield-alt&logoColor=black)](CLASSIFICATION.md#porters-five-forces) Expertise required
+   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Medium-yellow?style=flat-square&logo=exchange-alt&logoColor=black)](CLASSIFICATION.md#porters-five-forces) Internal teams alternative
+   - [![Rivalry](https://img.shields.io/badge/Rivalry-High_Competition-red?style=flat-square&logo=trophy&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Fragmented market
 
 **Strategic Response:** ISMS showcase differentiation through radical transparency
 
@@ -154,32 +154,32 @@ The security architecture is validated at production scale through continuous op
 #### 2. **📊 CIA Compliance Manager** — Automated compliance assessment and evidence generation platform
 
 **Project Classification:**
-   - **Project Type:** [![Compliance Platform](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
-   - **Business Process:** [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+   - **Project Type:** [![Compliance Platform](https://img.shields.io/badge/Type-Compliance_Platform-green?style=for-the-badge&logo=clipboard-check&logoColor=white)](CLASSIFICATION.md#project-type-classifications)
+   - **Business Process:** [![Legal](https://img.shields.io/badge/Process-Legal-darkred?style=for-the-badge&logo=balance-scale&logoColor=white)](CLASSIFICATION.md#business-process-types)
 
 **Security Classification:**
-   - **Confidentiality:** [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
-   - **Integrity:** [![High](https://img.shields.io/badge/Integrity-High-blue?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
-   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+   - **Confidentiality:** [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](CLASSIFICATION.md#confidentiality-levels)
+   - **Integrity:** [![High](https://img.shields.io/badge/Integrity-High-blue?style=for-the-badge&logo=check-circle&logoColor=white)](CLASSIFICATION.md#integrity-levels)
+   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](CLASSIFICATION.md#availability-levels)
 
 **Porter's Five Forces Strategic Impact:**
-   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Low-lightgreen?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Specialized needs
-   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Open source base
-   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-High-orange?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Technical complexity
-   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=exchange-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Manual alternatives inferior
-   - [![Rivalry](https://img.shields.io/badge/Rivalry-Dominant_Advantage-darkblue?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Niche market leader
+   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Low-lightgreen?style=flat-square&logo=users&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Specialized needs
+   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Open source base
+   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-High-orange?style=flat-square&logo=shield-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Technical complexity
+   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=exchange-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Manual alternatives inferior
+   - [![Rivalry](https://img.shields.io/badge/Rivalry-Dominant_Advantage-darkblue?style=flat-square&logo=trophy&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Niche market leader
 
 **Strategic Response:** Evidence automation lock-in and first-mover advantage
 
-**Current Architecture:** Frontend-only web application (React 19.x, TypeScript 5.9.x, Vite 8.x, Tailwind 4.x) with no authentication system, deployed on AWS CloudFront + S3. Available as both a [live platform](https://ciacompliancemanager.com) and a [reusable npm library](https://www.npmjs.com/package/cia-compliance-manager) (v1.1.62) with 10 subpath exports. Supports 7-framework compliance mapping (ISO 27001, NIST 800-53, GDPR, HIPAA, SOC 2, PCI DSS, EU CRA), integrated STRIDE threat modeling, Porter's Five Forces strategic analysis, and CIA triad assessment with 5-level maturity model. See [Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
+**Current Architecture:** Frontend-only web application (React 19.x, TypeScript 5.9.x, Vite 8.x, Tailwind 4.x) with no authentication system, deployed on AWS CloudFront + S3. Available as both a [live platform](https://ciacompliancemanager.com) and a [reusable npm library](https://www.npmjs.com/package/cia-compliance-manager) (v1.1.93) with 10 subpath exports. Supports 7-framework compliance mapping (ISO 27001, NIST 800-53, GDPR, HIPAA, SOC 2, PCI DSS, EU CRA), integrated STRIDE threat modeling, Porter's Five Forces strategic analysis, and CIA triad assessment with 5-level maturity model. See [Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md)
 
 **Security Implications & Risk Acceptance:**
 - The absence of an authentication system means all features and data are accessible to any user
 - This architectural choice is accepted because the application processes only non-sensitive, public compliance framework data
 - No user-specific or privileged operations are available; all actions are read-only compliance assessments
-- The Low confidentiality classification reflects this intentional risk acceptance per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- The Low confidentiality classification reflects this intentional risk acceptance per [Classification Framework](CLASSIFICATION.md)
 - If future requirements include handling sensitive organizational data, authentication and access controls will be implemented accordingly
-- Risk documented in [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) with periodic review
+- Risk documented in [Risk Register](Risk_Register.md) with periodic review
 
 **Security Posture Evidence:**
 
@@ -199,20 +199,20 @@ The security architecture is validated at production scale through continuous op
 #### 3. **🏛️ Citizen Intelligence Agency** — Open government transparency and democratic engagement tools
 
 **Project Classification:**
-   - **Project Type:** [![Data Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
-   - **Business Process:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+   - **Project Type:** [![Data Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](CLASSIFICATION.md#project-type-classifications)
+   - **Business Process:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](CLASSIFICATION.md#business-process-types)
 
 **Security Classification:**
-   - **Confidentiality:** [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
-   - **Integrity:** [![High](https://img.shields.io/badge/Integrity-High-blue?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
-   - **Availability:** [![Moderate](https://img.shields.io/badge/Availability-Moderate-orange?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+   - **Confidentiality:** [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](CLASSIFICATION.md#confidentiality-levels)
+   - **Integrity:** [![High](https://img.shields.io/badge/Integrity-High-blue?style=for-the-badge&logo=check-circle&logoColor=white)](CLASSIFICATION.md#integrity-levels)
+   - **Availability:** [![Moderate](https://img.shields.io/badge/Availability-Moderate-orange?style=for-the-badge&logo=server&logoColor=white)](CLASSIFICATION.md#availability-levels)
 
 **Porter's Five Forces Strategic Impact:**
-   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Minimal-success?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Unique offering
-   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Open data sources
-   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) 15+ year domain expertise
-   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Minimal-success?style=flat-square&logo=exchange-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) No alternatives
-   - [![Rivalry](https://img.shields.io/badge/Rivalry-Market_Leader-purple?style=flat-square&logo=crown&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Market creator
+   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Minimal-success?style=flat-square&logo=users&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Unique offering
+   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Open data sources
+   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) 15+ year domain expertise
+   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Minimal-success?style=flat-square&logo=exchange-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) No alternatives
+   - [![Rivalry](https://img.shields.io/badge/Rivalry-Market_Leader-purple?style=flat-square&logo=crown&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Market creator
 
 **Strategic Response:** Category leadership with unique positioning
 
@@ -235,33 +235,33 @@ The security architecture is validated at production scale through continuous op
 #### 4. **🎮 Black Trigram Educational Gaming** — Korean martial arts precision combat simulator
 
 **Project Classification:**
-   - **Project Type:** [![Frontend Apps](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
-   - **Business Process:** [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+   - **Project Type:** [![Frontend Apps](https://img.shields.io/badge/Type-Frontend_Apps-yellow?style=for-the-badge&logo=window-maximize&logoColor=black)](CLASSIFICATION.md#project-type-classifications)
+   - **Business Process:** [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](CLASSIFICATION.md#business-process-types)
 
 **Security Classification:**
-   - **Confidentiality:** [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
-   - **Integrity:** [![Moderate](https://img.shields.io/badge/Integrity-Moderate-orange?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
-   - **Availability:** [![Moderate](https://img.shields.io/badge/Availability-Moderate-orange?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+   - **Confidentiality:** [![Low](https://img.shields.io/badge/Confidentiality-Low-yellow?style=for-the-badge&logo=shield&logoColor=black)](CLASSIFICATION.md#confidentiality-levels)
+   - **Integrity:** [![Moderate](https://img.shields.io/badge/Integrity-Moderate-orange?style=for-the-badge&logo=check-circle&logoColor=white)](CLASSIFICATION.md#integrity-levels)
+   - **Availability:** [![Moderate](https://img.shields.io/badge/Availability-Moderate-orange?style=for-the-badge&logo=server&logoColor=white)](CLASSIFICATION.md#availability-levels)
 
 **Porter's Five Forces Strategic Impact:**
-   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Moderate-yellow?style=flat-square&logo=users&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Price sensitivity
-   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Low-lightgreen?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Tech commoditized
-   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Medium-yellow?style=flat-square&logo=shield-alt&logoColor=black)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Content creation
-   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-High-orange?style=flat-square&logo=exchange-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Gaming alternatives
-   - [![Rivalry](https://img.shields.io/badge/Rivalry-Competitive_Advantage-green?style=flat-square&logo=trophy&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Niche market
+   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Moderate-yellow?style=flat-square&logo=users&logoColor=black)](CLASSIFICATION.md#porters-five-forces) Price sensitivity
+   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Low-lightgreen?style=flat-square&logo=handshake&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Tech commoditized
+   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Medium-yellow?style=flat-square&logo=shield-alt&logoColor=black)](CLASSIFICATION.md#porters-five-forces) Content creation
+   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-High-orange?style=flat-square&logo=exchange-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Gaming alternatives
+   - [![Rivalry](https://img.shields.io/badge/Rivalry-Competitive_Advantage-green?style=flat-square&logo=trophy&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Niche market
 
 **Strategic Response:** Educational focus and authenticity moat
 
-**Current Architecture:** Frontend-only 3D precision combat simulator (React 19, Three.js 0.184, @react-three/fiber 9, TypeScript 5.9.x, Vite 8) deployed on AWS CloudFront + S3 with Route 53 health-checked failover to GitHub Pages. Version 0.7.35 with 13/13 combat realism systems, 70 anatomically-precise vital points, 8 I Ching trigram stances, 51 authentic techniques from 11 Korean martial arts, 518 tests (75%+ coverage), 60fps desktop / 55fps+ mobile performance, WCAG 2.1 AA accessibility. See [Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
+**Current Architecture:** Frontend-only 3D precision combat simulator (React 19, Three.js 0.184, @react-three/fiber 9, TypeScript 5.9.x, Vite 8) deployed on AWS CloudFront + S3 with Route 53 health-checked failover to GitHub Pages. Version 0.7.67 with 13/13 combat realism systems, 70 anatomically-precise vital points, 8 I Ching trigram stances, 51 authentic techniques from 11 Korean martial arts, 518 tests (75%+ coverage), 60fps desktop / 55fps+ mobile performance, WCAG 2.1 AA accessibility. See [Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md)
 
 **Security Implications & Risk Acceptance:**
 - This project intentionally omits authentication because it is designed for public, educational use and does not process or store sensitive or personal data
-- The Low confidentiality classification reflects this intentional risk acceptance per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- The Low confidentiality classification reflects this intentional risk acceptance per [Classification Framework](CLASSIFICATION.md)
 - All game content is intended to be openly accessible for martial arts education
 - No user-specific actions or persistent data are supported; game state is session-only
 - Zero backend, zero PII, GDPR-clean architecture with full ISMS alignment
 - This architectural choice is reviewed periodically, and any future introduction of sensitive features will trigger a reassessment of authentication requirements
-- Risk acceptance documented in [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) with annual review
+- Risk acceptance documented in [Risk Register](Risk_Register.md) with annual review
 
 **Security Posture Evidence:**
 
@@ -283,20 +283,20 @@ The security architecture is validated at production scale through continuous op
 > *Hack23 AB disrupts parliamentary journalism with AI-generated political intelligence and real-time accountability analysis — increasing democratic transparency through structured open-source intelligence (OSINT) tradecraft applied to public legislative data.*
 
 **Project Classification:**
-   - **Project Type:** [![Data Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#project-type-classifications)
-   - **Business Process:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-process-types)
+   - **Project Type:** [![Data Analytics](https://img.shields.io/badge/Type-Data_Analytics-orange?style=for-the-badge&logo=chart-line&logoColor=white)](CLASSIFICATION.md#project-type-classifications)
+   - **Business Process:** [![Operations](https://img.shields.io/badge/Process-Operations-brown?style=for-the-badge&logo=cogs&logoColor=white)](CLASSIFICATION.md#business-process-types) [![Marketing](https://img.shields.io/badge/Process-Marketing-blueviolet?style=for-the-badge&logo=bullhorn&logoColor=white)](CLASSIFICATION.md#business-process-types)
 
 **Security Classification:**
-   - **Confidentiality:** [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)
-   - **Integrity:** [![Very High](https://img.shields.io/badge/Integrity-Very_High-darkblue?style=for-the-badge&logo=check-circle&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#integrity-levels)
-   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#availability-levels)
+   - **Confidentiality:** [![Moderate](https://img.shields.io/badge/Confidentiality-Moderate-orange?style=for-the-badge&logo=shield&logoColor=white)](CLASSIFICATION.md#confidentiality-levels)
+   - **Integrity:** [![Very High](https://img.shields.io/badge/Integrity-Very_High-darkblue?style=for-the-badge&logo=check-circle&logoColor=white)](CLASSIFICATION.md#integrity-levels)
+   - **Availability:** [![High](https://img.shields.io/badge/Availability-High-blue?style=for-the-badge&logo=server&logoColor=white)](CLASSIFICATION.md#availability-levels)
 
 **Porter's Five Forces Strategic Impact:**
-   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Low-lightgreen?style=flat-square&logo=users&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Unique AI-generated political intelligence
-   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Open parliamentary data sources
-   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) 15+ year domain expertise + proprietary AI pipelines
-   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=exchange-alt&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) Traditional journalism cannot match speed/coverage
-   - [![Rivalry](https://img.shields.io/badge/Rivalry-Market_Creator-purple?style=flat-square&logo=crown&logoColor=white)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#porters-five-forces) First-mover in AI political news generation
+   - [![Buyer Power](https://img.shields.io/badge/Buyer_Power-Low-lightgreen?style=flat-square&logo=users&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Unique AI-generated political intelligence
+   - [![Supplier Power](https://img.shields.io/badge/Supplier_Power-Minimal-success?style=flat-square&logo=handshake&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Open parliamentary data sources
+   - [![Entry Barriers](https://img.shields.io/badge/Entry_Barriers-Very_High-red?style=flat-square&logo=shield-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) 15+ year domain expertise + proprietary AI pipelines
+   - [![Substitute Threat](https://img.shields.io/badge/Substitute_Threat-Low-lightgreen?style=flat-square&logo=exchange-alt&logoColor=white)](CLASSIFICATION.md#porters-five-forces) Traditional journalism cannot match speed/coverage
+   - [![Rivalry](https://img.shields.io/badge/Rivalry-Market_Creator-purple?style=flat-square&logo=crown&logoColor=white)](CLASSIFICATION.md#porters-five-forces) First-mover in AI political news generation
 
 **Strategic Response:** Category creation through AI-disrupted political intelligence combining OSINT data with agentic AI news generation
 
@@ -485,7 +485,7 @@ flowchart LR
 - OSINT data collection limited to publicly available parliamentary data sources (Riksdagen Open Data, European Parliament Open Data Portal)
 - No processing of personal data beyond publicly available parliamentary records and voting data
 - SLSA Level 3 build provenance ensures supply chain integrity for all news generation workflows
-- Automated news generation pipelines operate with comprehensive audit trails per [AI Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/AI_Policy.md)
+- Automated news generation pipelines operate with comprehensive audit trails per [AI Policy](AI_Policy.md)
 
 ---
 
@@ -562,18 +562,18 @@ flowchart TD
 - **🎮 Black Trigram (Low Confidentiality):** Educational gaming content is intentionally public; authentication omitted to maximize accessibility
 - **📡 Political Intelligence (Moderate Confidentiality, Very High Integrity):** No user authentication required as all content is public AI-generated news; Very High integrity controls ensure accuracy of political reporting through SLSA3 build provenance and automated source verification
 - **🔒 Encryption Standard:** All products enforce TLS 1.3 for data in transit regardless of authentication requirements
-- **🎯 Risk-Based Approach:** Security control selection driven by [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) business impact analysis, not one-size-fits-all mandates
+- **🎯 Risk-Based Approach:** Security control selection driven by [Classification Framework](CLASSIFICATION.md) business impact analysis, not one-size-fits-all mandates
 
 **Related Documents:**
-- [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) — Business impact methodology
+- [🏷️ Classification Framework](CLASSIFICATION.md) — Business impact methodology
 - [🔑 Access Control Policy](./Access_Control_Policy.md) — Authentication and authorization standards
 - [🌐 Network Security Policy](./Network_Security_Policy.md) — TLS and encryption requirements
 - [🏗️ CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) — Full authentication implementation
 - [🏗️ CIA Compliance Manager Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) — Public data justification
 - [🏗️ Black Trigram Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) — Educational access model
 - [🏗️ European Parliament MCP Server Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) — MCP server security
-- [🏗️ EU Parliament Monitor Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) — Automated intelligence platform
-- [🏗️ Riksdagsmonitor Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) — Swedish parliament monitor
+- [🏗️ EU Parliament Monitor Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/main/SECURITY_ARCHITECTURE.md) — Automated intelligence platform
+- [🏗️ Riksdagsmonitor Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/main/SECURITY_ARCHITECTURE.md) — Swedish parliament monitor
 
 ---
 
@@ -583,7 +583,7 @@ flowchart TD
 
 **Strategic Security Achievements (Completed 2025, Updated Q2 2026):**
 - **🤖 AI-Enabled Operations:** Curated agent ecosystem operational across all 9 repositories with CEO governance — 8 specialist agents, 30 Copilot skills, task agents per product
-- **🎖️ OpenSSF Scorecard:** Active across all repositories with continuous monitoring (CIA: 7.9, Black Trigram: 7.0, CIA CM: 7.8)
+- **🎖️ OpenSSF Scorecard:** Active across all repositories with continuous monitoring — 7.2 portfolio average across 9 active repos (June 2026: CIA: 7.9, Black Trigram: 6.6, CIA CM: 7.5)
 - **🏆 CII Best Practices:** Gold/Passing level for all major projects — <a href="https://bestpractices.coreinfrastructure.org/projects/770"><img src="https://bestpractices.coreinfrastructure.org/projects/770/badge" alt="CII Best Practices for Citizen Intelligence Agency"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/10777"><img src="https://bestpractices.coreinfrastructure.org/projects/10777/badge" alt="CII Best Practices for Black Trigram"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/10365"><img src="https://bestpractices.coreinfrastructure.org/projects/10365/badge" alt="CII Best Practices for CIA Compliance Manager"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/12067"><img src="https://bestpractices.coreinfrastructure.org/projects/12067/badge" alt="CII Best Practices for European Parliament MCP Server"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/12068"><img src="https://bestpractices.coreinfrastructure.org/projects/12068/badge" alt="CII Best Practices for EU Parliament Monitor"></a> <a href="https://bestpractices.coreinfrastructure.org/projects/12069"><img src="https://bestpractices.coreinfrastructure.org/projects/12069/badge" alt="CII Best Practices for Riksdagsmonitor"></a>
 - **✅ SLSA Level 3:** Build provenance and attestation for all releases across all product repositories
 - **📊 Compliance Coverage:** 100% framework alignment (ISO 27001:2022, NIST CSF 2.0, CIS v8.1, GDPR, NIS2, EU CRA)
@@ -609,7 +609,7 @@ Achieve security excellence characterized by:
 - **🤖 AI-Enabled Operations:** Curated AI agent ecosystem delivering enterprise capabilities with <1 FTE overhead—specialist agents for security, development, testing, documentation, business, and marketing operating under CEO governance. GitHub Agentic Workflows (gh-aw) enabling fully autonomous newsrooms and intelligence pipelines.
 - **🌐 Radical Transparency:** Complete public ISMS as operational demonstration (100% complete, 70% public, complete processes with only sensitive values redacted) — 45 policy documents, 9 product repositories with public SECURITY_ARCHITECTURE.md
 - **📊 Evidence-Driven Operations:** Quantified security outcomes supporting continuous improvement (OpenSSF >9.0, 100% compliance coverage, CII Best Practices across all 6+ active product repos)
-- **🎯 Classification-Based Decisions:** Systematic impact analysis driving proportional controls per [Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)
+- **🎯 Classification-Based Decisions:** Systematic impact analysis driving proportional controls per [Classification Framework](CLASSIFICATION.md)
 - **💡 Security-Enabled Innovation:** Architecture that accelerates rather than constrains development (security review <2 hours, zero deployment delays) with reusable security patterns (MCP servers, gh-aw workflows, npm packages)
 - **🏆 Industry Leadership:** Recognition as Nordic security thought leader through open source contributions, transparency excellence, and pioneering AI-disrupted political intelligence media
 - **🔐 Zero Trust Maturity:** Complete zero trust architecture implementation with network micro-segmentation by Q4 2027
@@ -804,7 +804,7 @@ flowchart TD
 
 **Strategic Objective:** Accelerate buyer confidence and stakeholder trust through verifiable security evidence
 
-**Classification Integration:** Leverage [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) to demonstrate proportional security investment based on business impact analysis
+**Classification Integration:** Leverage [🏷️ Classification Framework](CLASSIFICATION.md) to demonstrate proportional security investment based on business impact analysis
 
 **Key Initiatives:**
 - **📚 Living ISMS Documentation:** Complete transparency of security policies, controls, and implementation evidence
@@ -813,16 +813,16 @@ flowchart TD
 - **📊 Security Metrics Dashboard:** Public performance indicators demonstrating continuous security improvement
 
 **Success Metrics:**
-- **🔒 Confidentiality Score:** >95% (no unauthorized disclosures) — **✅ Achieved: 100%** (per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) tracking, Q4 2025)
-- **🤝 Evidence Freshness:** <30 days median age — **✅ Achieved: 15 days average** (per [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md) monitoring, Q4 2025)
-- **📊 Control Coverage:** >90% with documented evidence — **✅ Achieved: 95% documented** (per [Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md), Q4 2025)
+- **🔒 Confidentiality Score:** >95% (no unauthorized disclosures) — **✅ Achieved: 100%** (per [Security Metrics](Security_Metrics.md) tracking, Q4 2025)
+- **🤝 Evidence Freshness:** <30 days median age — **✅ Achieved: 15 days average** (per [ISMS Transparency Plan](ISMS_Transparency_Plan.md) monitoring, Q4 2025)
+- **📊 Control Coverage:** >90% with documented evidence — **✅ Achieved: 95% documented** (per [Compliance Checklist](Compliance_Checklist.md), Q4 2025)
 - **🎖️ OpenSSF Scorecard:** >8.5 across all repositories — **🟡 Partial: 7.93 average** (CIA: 8.2, BT: 8.0, CM: 7.6) — Solid foundation for Phase 2 >9.0 target (per OpenSSF Scorecard automated monitoring, Q4 2025)
 
 ### ⚙️ **2. Operational Efficiency Through Classification-Driven Decisions**
 
 **Strategic Objective:** Optimize security resource allocation through systematic impact analysis
 
-**Classification Integration:** Apply [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) CIA levels to drive proportional control implementation and resource investment
+**Classification Integration:** Apply [🏷️ Classification Framework](CLASSIFICATION.md) CIA levels to drive proportional control implementation and resource investment
 
 **Key Initiatives:**
 - **🏷️ Asset Classification:** Comprehensive classification of all business assets with justified security controls
@@ -831,10 +831,10 @@ flowchart TD
 - **🔄 Continuous Optimization:** Quarterly review of security ROI and control effectiveness
 
 **Success Metrics:**
-- **⏱️ Automation Coverage:** >80% of security operations automated — **✅ Achieved: 85%** (per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) operational analysis, Q4 2025)
-- **📊 Control Effectiveness:** >95% of controls demonstrating measurable risk reduction — **✅ Achieved: 96%** (per [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) control validation, Q4 2025)
-- **💰 Security ROI:** 300% return through breach prevention and efficiency — **✅ Achieved: 350% estimated** (per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) financial analysis, Q4 2025)
-- **🏷️ Classification Coverage:** 100% assets classified per framework — **✅ Achieved: 100%** (per [Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md), Q4 2025)
+- **⏱️ Automation Coverage:** >80% of security operations automated — **✅ Achieved: 85%** (per [Security Metrics](Security_Metrics.md) operational analysis, Q4 2025)
+- **📊 Control Effectiveness:** >95% of controls demonstrating measurable risk reduction — **✅ Achieved: 96%** (per [Risk Register](Risk_Register.md) control validation, Q4 2025)
+- **💰 Security ROI:** 300% return through breach prevention and efficiency — **✅ Achieved: 350% estimated** (per [Security Metrics](Security_Metrics.md) financial analysis, Q4 2025)
+- **🏷️ Classification Coverage:** 100% assets classified per framework — **✅ Achieved: 100%** (per [Asset Register](Asset_Register.md), Q4 2025)
 
 ### 💡 **3. Innovation Enablement Through Security-by-Design**
 
@@ -843,16 +843,16 @@ flowchart TD
 **Classification Integration:** Use classification levels to determine appropriate security controls that enable rather than constrain innovation
 
 **Key Initiatives:**
-- **🛠️ Secure Development Pipeline:** Security integrated into every stage of product development per [🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)
+- **🛠️ Secure Development Pipeline:** Security integrated into every stage of product development per [🛠️ Secure Development Policy](Secure_Development_Policy.md)
 - **🏗️ Reusable Security Patterns:** Documented architectural patterns enabling rapid secure deployment
-- **🎯 Threat Modeling Excellence:** Systematic threat analysis per [🎯 Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md)
+- **🎯 Threat Modeling Excellence:** Systematic threat analysis per [🎯 Threat Modeling Policy](Threat_Modeling.md)
 - **🚀 Compliance Automation:** Automated evidence generation reducing time-to-market for regulated services
 
 **Success Metrics:**
-- **🚀 Security Review Time:** <2 hours for new features — **✅ Achieved: 1.5 hours average** (per [Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md) tracking, Q4 2025)
-- **⚡ Deployment Frequency:** No security delays — **✅ Achieved: Zero delays** (per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md) CI/CD monitoring, Q4 2025)
-- **💡 Innovation Velocity:** 25% increase through security automation — **✅ Achieved: 30% increase** (per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) velocity analysis, Q4 2025)
-- **🛠️ DevSecOps Maturity:** Comprehensive security testing integration — **✅ Achieved: SAST, SCA, DAST, secret scanning** (per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md), Q4 2025)
+- **🚀 Security Review Time:** <2 hours for new features — **✅ Achieved: 1.5 hours average** (per [Change Management](Change_Management.md) tracking, Q4 2025)
+- **⚡ Deployment Frequency:** No security delays — **✅ Achieved: Zero delays** (per [Secure Development Policy](Secure_Development_Policy.md) CI/CD monitoring, Q4 2025)
+- **💡 Innovation Velocity:** 25% increase through security automation — **✅ Achieved: 30% increase** (per [Security Metrics](Security_Metrics.md) velocity analysis, Q4 2025)
+- **🛠️ DevSecOps Maturity:** Comprehensive security testing integration — **✅ Achieved: SAST, SCA, DAST, secret scanning** (per [Secure Development Policy](Secure_Development_Policy.md), Q4 2025)
 
 ### 📊 **4. Decision Quality Through Evidence-Based Management**
 
@@ -861,22 +861,22 @@ flowchart TD
 **Classification Integration:** Utilize business impact analysis matrix to prioritize security investments and resource allocation
 
 **Key Initiatives:**
-- **📊 Security Metrics Framework:** Comprehensive KPI tracking per [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)
-- **📉 Quantified Risk Management:** Systematic risk assessment and treatment tracking per [📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)
+- **📊 Security Metrics Framework:** Comprehensive KPI tracking per [📊 Security Metrics](Security_Metrics.md)
+- **📉 Quantified Risk Management:** Systematic risk assessment and treatment tracking per [📉 Risk Register](Risk_Register.md)
 - **💰 Business Impact Modeling:** Financial impact analysis for all security decisions using classification framework
 - **🔍 Continuous Monitoring:** Real-time security posture assessment and trend analysis
 
 **Success Metrics:**
-- **📊 Data-Driven Decisions:** 95% of investments justified through impact analysis — **✅ Achieved: 98%** (per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) investment analysis, Q4 2025)
-- **🎯 Risk Prediction Accuracy:** >85% in impact assessment — **✅ Achieved: 90%** (per [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) predictive analytics, Q4 2025)
-- **💰 Budget Optimization:** 30% efficiency improvement — **✅ Achieved: 35% improvement** (per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) financial analysis, Q4 2025)
-- **📈 Metrics Coverage:** Real-time KPI tracking per [Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md) — **✅ Achieved: 100% coverage** (per Security Metrics dashboard, Q4 2025)
+- **📊 Data-Driven Decisions:** 95% of investments justified through impact analysis — **✅ Achieved: 98%** (per [Security Metrics](Security_Metrics.md) investment analysis, Q4 2025)
+- **🎯 Risk Prediction Accuracy:** >85% in impact assessment — **✅ Achieved: 90%** (per [Risk Register](Risk_Register.md) predictive analytics, Q4 2025)
+- **💰 Budget Optimization:** 30% efficiency improvement — **✅ Achieved: 35% improvement** (per [Security Metrics](Security_Metrics.md) financial analysis, Q4 2025)
+- **📈 Metrics Coverage:** Real-time KPI tracking per [Security Metrics](Security_Metrics.md) — **✅ Achieved: 100% coverage** (per Security Metrics dashboard, Q4 2025)
 
 ### 🏆 **5. Competitive Advantage Through Differentiated Transparency**
 
 **Strategic Objective:** Create sustainable competitive moats through radical transparency and public evidence
 
-**Classification Integration:** Strategic disclosure using [🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md) with classification-based redaction
+**Classification Integration:** Strategic disclosure using [🌐 ISMS Transparency Plan](ISMS_Transparency_Plan.md) with classification-based redaction
 
 **Key Initiatives:**
 - **🌐 Industry-First Transparency:** Complete public ISMS as competitive differentiator
@@ -888,25 +888,25 @@ flowchart TD
 - **🏆 OpenSSF Score:** >9.0 across all repositories — **⏱️ In Progress: 7.93 average (CIA: 8.2, BT: 8.0, CM: 7.6), target >9.0 by Q2 2026** (per OpenSSF Scorecard monitoring, Q4 2025)
 - **⭐ Community Engagement:** 25% QoQ growth in stars/forks — **✅ Achieved: 28% average growth** (per GitHub repository analytics, Q4 2025)
 - **📊 ISMS References:** Cited in >3 prospects per quarter — **✅ Achieved: 5 references Q4 2025** (per sales pipeline tracking, Q4 2025)
-- **🌐 Transparency Excellence:** Radical transparency with 70% public ISMS — **✅ Achieved: Complete implementation** (per [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md), Q4 2025)
+- **🌐 Transparency Excellence:** Radical transparency with 70% public ISMS — **✅ Achieved: Complete implementation** (per [ISMS Transparency Plan](ISMS_Transparency_Plan.md), Q4 2025)
 
 ### 🛡️ **6. Risk Reduction Through Systematic Management**
 
 **Strategic Objective:** Minimize business disruption and financial exposure through comprehensive risk management
 
-**Classification Integration:** Risk assessment and treatment aligned with [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) impact analysis
+**Classification Integration:** Risk assessment and treatment aligned with [🏷️ Classification Framework](CLASSIFICATION.md) impact analysis
 
 **Key Initiatives:**
 - **📋 Enterprise Risk Management:** Comprehensive risk identification, assessment, and treatment program
-- **🔄 Business Continuity Excellence:** Robust continuity and disaster recovery capabilities per [🔄 Business Continuity Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Business_Continuity_Plan.md)
-- **🚨 Incident Response Maturity:** Professional incident response capability per [🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)
-- **🤝 Third-Party Risk Management:** Systematic supplier risk assessment per [🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md)
+- **🔄 Business Continuity Excellence:** Robust continuity and disaster recovery capabilities per [🔄 Business Continuity Plan](Business_Continuity_Plan.md)
+- **🚨 Incident Response Maturity:** Professional incident response capability per [🚨 Incident Response Plan](Incident_Response_Plan.md)
+- **🤝 Third-Party Risk Management:** Systematic supplier risk assessment per [🤝 Third Party Management](Third_Party_Management.md)
 
 **Success Metrics:**
-- **🎯 Critical Incidents:** Zero exceeding RTO targets — **✅ Achieved: 100% RTO achievement** (per [Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md) tracking, Q4 2025)
-- **💰 Risk Cost Avoidance:** >500K SEK annually — **✅ Achieved: Estimated 650K SEK** (per [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) financial impact analysis, Q4 2025)
-- **⏱️ Recovery Performance:** 100% RTO/RPO achievement — **✅ Achieved: All objectives met** (per [Business Continuity Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Business_Continuity_Plan.md) testing, Q4 2025)
-- **🔄 Business Continuity:** Comprehensive BCP/DR framework — **✅ Achieved: Tested and validated** (per [Disaster Recovery Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Disaster_Recovery_Plan.md), Q4 2025)
+- **🎯 Critical Incidents:** Zero exceeding RTO targets — **✅ Achieved: 100% RTO achievement** (per [Incident Response Plan](Incident_Response_Plan.md) tracking, Q4 2025)
+- **💰 Risk Cost Avoidance:** >500K SEK annually — **✅ Achieved: Estimated 650K SEK** (per [Risk Register](Risk_Register.md) financial impact analysis, Q4 2025)
+- **⏱️ Recovery Performance:** 100% RTO/RPO achievement — **✅ Achieved: All objectives met** (per [Business Continuity Plan](Business_Continuity_Plan.md) testing, Q4 2025)
+- **🔄 Business Continuity:** Comprehensive BCP/DR framework — **✅ Achieved: Tested and validated** (per [Disaster Recovery Plan](Disaster_Recovery_Plan.md), Q4 2025)
 
 ---
 
@@ -914,18 +914,18 @@ flowchart TD
 
 ### 📊 **Classification-Driven Security Architecture**
 
-Our security strategy operationalizes the [🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md) through systematic application across all security domains:
+Our security strategy operationalizes the [🏷️ Classification Framework](CLASSIFICATION.md) through systematic application across all security domains:
 
 #### **🔐 Asset Protection Strategy**
 
 | Asset Classification | Security Investment Level | Control Implementation | Business Justification |
 |---------------------|--------------------------|----------------------|-------------------------|
-| **[![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)** | Maximum Protection | Quantum-ready encryption, air-gapped systems | National security implications |
-| **[![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)** | Advanced Protection | Zero-trust architecture, advanced threat protection | Customer data, financial records |
-| **[![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)** | Standard Protection | Strong encryption, MFA, comprehensive monitoring | Business IP, strategic plans |
-| **[![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)** | Proportional Protection | Standard encryption, role-based access control | Internal documents, processes |
-| **[![Low](https://img.shields.io/badge/C-Low-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)** | Basic Protection | Standard authentication, basic access controls | Public information, marketing |
-| **[![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#confidentiality-levels)** | Transparency Focus | Integrity protection, availability assurance | ISMS documentation, public repos |
+| **[![Extreme](https://img.shields.io/badge/C-Extreme-black?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)** | Maximum Protection | Quantum-ready encryption, air-gapped systems | National security implications |
+| **[![Very High](https://img.shields.io/badge/C-Very_High-darkblue?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)** | Advanced Protection | Zero-trust architecture, advanced threat protection | Customer data, financial records |
+| **[![High](https://img.shields.io/badge/C-High-blue?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)** | Standard Protection | Strong encryption, MFA, comprehensive monitoring | Business IP, strategic plans |
+| **[![Moderate](https://img.shields.io/badge/C-Moderate-orange?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)** | Proportional Protection | Standard encryption, role-based access control | Internal documents, processes |
+| **[![Low](https://img.shields.io/badge/C-Low-yellow?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)** | Basic Protection | Standard authentication, basic access controls | Public information, marketing |
+| **[![Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)** | Transparency Focus | Integrity protection, availability assurance | ISMS documentation, public repos |
 
 #### **⏱️ Business Continuity Strategy**
 
@@ -983,8 +983,8 @@ Security architecture varies by project based on classification and business req
 - [🏛️ CIA Security Architecture](https://github.com/Hack23/cia/blob/master/SECURITY_ARCHITECTURE.md) — Enterprise full-stack with MFA, RBAC, comprehensive audit trails
 - [📊 CIA Compliance Manager Security Architecture](https://github.com/Hack23/cia-compliance-manager/blob/main/docs/architecture/SECURITY_ARCHITECTURE.md) — Public data, no authentication required
 - [🎮 Black Trigram Security Architecture](https://github.com/Hack23/blacktrigram/blob/main/SECURITY_ARCHITECTURE.md) — Educational access, no authentication required
-- [🇪🇺 EU Parliament Monitor Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/master/SECURITY_ARCHITECTURE.md) — SLSA3 supply chain, deterministic rendering
-- [🗳️ Riksdagsmonitor Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/master/SECURITY_ARCHITECTURE.md) — Autonomous AI newsroom with verified sources
+- [🇪🇺 EU Parliament Monitor Security Architecture](https://github.com/Hack23/euparliamentmonitor/blob/main/SECURITY_ARCHITECTURE.md) — SLSA3 supply chain, deterministic rendering
+- [🗳️ Riksdagsmonitor Security Architecture](https://github.com/Hack23/riksdagsmonitor/blob/main/SECURITY_ARCHITECTURE.md) — Autonomous AI newsroom with verified sources
 - [🔌 European Parliament MCP Server Security Architecture](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/SECURITY_ARCHITECTURE.md) — Zod-validated MCP tools, audit-logged
 
 ---
@@ -995,7 +995,7 @@ Security architecture varies by project based on classification and business req
 
 #### **Network Security Architecture**
 
-Per [Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Network_Security_Policy.md):
+Per [Network Security Policy](Network_Security_Policy.md):
 
 - **🛡️ Zero-Trust Principles:** Network segmentation with security group isolation
 - **🔒 TLS/SSL Everywhere:** HTTPS-only with TLS 1.3 for all external communications
@@ -1005,7 +1005,7 @@ Per [Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Ne
 
 #### **Cryptographic Controls**
 
-Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md):
+Per [Cryptography Policy](Cryptography_Policy.md):
 
 - **🔐 Data at Rest:** AES-256 encryption for all AWS services (S3, RDS, EBS)
 - **🔒 Data in Transit:** TLS 1.3 with forward secrecy (ECDHE key exchange)
@@ -1014,7 +1014,7 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 
 ### 🛠️ **DevSecOps Security Pipeline**
 
-**Comprehensive Security Testing Integration per [Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md):**
+**Comprehensive Security Testing Integration per [Secure Development Policy](Secure_Development_Policy.md):**
 
 #### **🔬 Static Analysis (SAST)**
 - **SonarCloud:** Continuous code quality and security scanning on every commit
@@ -1040,7 +1040,7 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 
 #### **🎖️ Supply Chain Security**
 - **SLSA Level 3:** Build provenance and attestation for all releases across all product repositories
-- **OpenSSF Scorecard:** Continuous supply chain security assessment across all repos (CIA: 7.9, BT: 7.0, CM: 7.8 — per Q2 2026 snapshot)
+- **OpenSSF Scorecard:** Continuous supply chain security assessment across all repos — 7.2 portfolio average across 9 active repos (June 2026 snapshot: CIA: 7.9, BT: 6.6, CM: 7.5)
 - **CII Best Practices:** Gold/Passing level compliance verification (6 active projects registered: #770, #10777, #10365, #12067, #12068, #12069)
 - **Signed Releases:** Cryptographic signing of all production artifacts
 - **npm Provenance:** SLSA 3 provenance-signed npm packages (riksdagsmonitor, euparliamentmonitor, european-parliament-mcp-server)
@@ -1059,8 +1059,8 @@ Per [Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Crypto
 ### 🤖 **AI Governance & LLM Security**
 
 **Comprehensive AI Risk Management:**
-- **🤖 AI Governance Framework:** Per [AI Governance Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/AI_Policy.md)
-- **🛡️ OWASP LLM Top 10:** Coverage per [OWASP LLM Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/OWASP_LLM_Security_Policy.md)
+- **🤖 AI Governance Framework:** Per [AI Governance Policy](AI_Policy.md)
+- **🛡️ OWASP LLM Top 10:** Coverage per [OWASP LLM Security Policy](OWASP_LLM_Security_Policy.md)
 - **🇪🇺 EU AI Act Compliance:** Risk-based classification and transparency obligations
 - **👁️ Human Oversight:** Required for all AI-assisted decision-making
 - **📊 AI Incident Reporting:** Integration with standard incident response procedures
@@ -1305,16 +1305,16 @@ graph TB
 
 ### 🎯 **Threat Modeling & Risk Management**
 
-**Systematic Threat Analysis per [Threat Modeling Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Threat_Modeling.md):**
+**Systematic Threat Analysis per [Threat Modeling Policy](Threat_Modeling.md):**
 
 - **STRIDE Analysis:** Systematic evaluation of Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege
 - **Attack Trees:** Documented attack paths for critical systems
 - **MITRE ATT&CK Mapping:** Threat intelligence integration
-- **Risk Register Integration:** Continuous risk tracking per [Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)
+- **Risk Register Integration:** Continuous risk tracking per [Risk Register](Risk_Register.md)
 
 ### 📋 **Compliance & Audit Readiness**
 
-**Comprehensive Framework Alignment per [Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md):**
+**Comprehensive Framework Alignment per [Compliance Checklist](Compliance_Checklist.md):**
 
 - **✅ ISO 27001:2022:** Complete Annex A control implementation
 - **✅ NIST CSF 2.0:** Full framework mapping (Govern, Identify, Protect, Detect, Respond, Recover)
@@ -1325,7 +1325,7 @@ graph TB
 
 ### 🌐 **Radical Transparency Implementation**
 
-**Public ISMS Repository per [ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md):**
+**Public ISMS Repository per [ISMS Transparency Plan](ISMS_Transparency_Plan.md):**
 
 **What We Publish (70% of ISMS):**
 - ✅ Complete processes, procedures, and technical architecture
@@ -1398,6 +1398,7 @@ graph TB
 **Current Progress (Q2 2026):**
 - ✅ **Foundation Automation:** 85% security operations automated
 - ✅ **Evidence Automation:** 80% automated evidence collection via CI/CD pipelines with 7-framework compliance tracking
+- 🔄 **OpenSSF Scorecard:** 7.2 average across 9 active repos (June 2026) — target >9.0 by Q3 2026; recent dip driven by transitive npm dev-dependency advisories under active remediation
 - 🔄 **Advanced MTTD:** Currently 7 minutes average (target <5 min)
 - 🔄 **LLM Security:** 54% OWASP LLM controls implemented (foundation complete, AWS Bedrock deployment in progress)
 - ✅ **AI Newsrooms:** Fully autonomous — Riksdagsmonitor (11 workflows, 91 skills, 23 agents, 45-rule risk heat map) and EU Parliament Monitor (8 workflows, 51-artifact baseline, 17 methodologies, 52 templates) operational with 14-language daily publication
@@ -1436,7 +1437,7 @@ graph TB
 
 ### 🎯 **Security Excellence Metrics**
 
-Our strategy success measurement framework aligned with [📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md):
+Our strategy success measurement framework aligned with [📊 Security Metrics](Security_Metrics.md):
 
 | Metric Category | KPI | Target | Measurement | Review Frequency |
 |-----------------|-----|--------|-------------|------------------|
@@ -1558,17 +1559,17 @@ As CEO/Founder, James Pether Sörling maintains comprehensive strategic responsi
 
 ### 🎯 **Strategic Security Risk Framework**
 
-Integration with [📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md) and [📊 Risk Assessment Methodology](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Assessment_Methodology.md):
+Integration with [📉 Risk Register](Risk_Register.md) and [📊 Risk Assessment Methodology](Risk_Assessment_Methodology.md):
 
 #### **🚨 Critical Security Risks**
 
 | Risk Category | Classification | Mitigation Strategy | Success Metrics |
 |---------------|---------------|-------------------|-----------------|
-| **🛡️ Security Breach** | [![Very High Impact](https://img.shields.io/badge/Impact-Very_High-red?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-impact-levels) | Defense-in-depth, incident response excellence | Zero critical incidents |
-| **⚖️ Regulatory Compliance** | [![High Impact](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-impact-levels) | Proactive regulatory engagement, expert counsel | 100% compliance maintenance |
-| **🔧 Configuration Error** | [![Moderate Impact](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-impact-levels) | Infrastructure as Code, change management | Zero security misconfigurations |
-| **👥 Key Person Dependency** | [![High Impact](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-impact-levels) | Documentation excellence, succession planning | Knowledge transfer documentation |
-| **🔗 Supply Chain Attack** | [![High Impact](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md#business-impact-levels) | Vendor assessment, SBOM management | 100% supplier risk assessment |
+| **🛡️ Security Breach** | [![Very High Impact](https://img.shields.io/badge/Impact-Very_High-red?style=flat-square)](CLASSIFICATION.md#business-impact-levels) | Defense-in-depth, incident response excellence | Zero critical incidents |
+| **⚖️ Regulatory Compliance** | [![High Impact](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](CLASSIFICATION.md#business-impact-levels) | Proactive regulatory engagement, expert counsel | 100% compliance maintenance |
+| **🔧 Configuration Error** | [![Moderate Impact](https://img.shields.io/badge/Impact-Moderate-yellow?style=flat-square)](CLASSIFICATION.md#business-impact-levels) | Infrastructure as Code, change management | Zero security misconfigurations |
+| **👥 Key Person Dependency** | [![High Impact](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](CLASSIFICATION.md#business-impact-levels) | Documentation excellence, succession planning | Knowledge transfer documentation |
+| **🔗 Supply Chain Attack** | [![High Impact](https://img.shields.io/badge/Impact-High-orange?style=flat-square)](CLASSIFICATION.md#business-impact-levels) | Vendor assessment, SBOM management | 100% supplier risk assessment |
 
 ### 🔄 **Strategic Contingency Planning**
 
@@ -1586,103 +1587,53 @@ Integration with [📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob
 
 ## 📚 **Strategic Integration with ISMS Framework**
 
-### 🔗 **Complete Policy Integration Matrix**
+### 🔗 **Integrated ISMS Alignment**
 
-Our Information Security Strategy integrates with and drives the complete ISMS framework:
+Our Information Security Strategy is not a standalone document; it is the operating logic that connects governance, technical controls, operational resilience, and continuous improvement across the full ISMS. The following elements form a single, interconnected control environment in which policy, execution, measurement, and assurance reinforce one another.
 
-#### **🏛️ Governance & Strategic Alignment**
-- **[🔐 Information Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Information_Security_Policy.md)** — Strategic framework operationalization and governance
-- **[🏷️ Classification Framework](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CLASSIFICATION.md)** — Strategic decision-making through systematic impact analysis
-- **[🌐 ISMS Transparency Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/ISMS_Transparency_Plan.md)** — Transparency implementation strategy
-
-#### **🛡️ Strategic Control Implementation**
-- **[🔒 Cryptography Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Cryptography_Policy.md)** — Encryption standards and key management
-- **[🔑 Access Control Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Access_Control_Policy.md)** — Identity and access management
-- **[🌐 Network Security Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Network_Security_Policy.md)** — Network protection and segmentation
-- **[🏷️ Data Classification Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Data_Classification_Policy.md)** — Information protection strategy
-
-#### **⚙️ Strategic Operations Excellence**
-- **[🛠️ Secure Development Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Secure_Development_Policy.md)** — Security-integrated development lifecycle
-- **[📝 Change Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Change_Management.md)** — Controlled change processes
-- **[🔍 Vulnerability Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Vulnerability_Management.md)** — Continuous security improvement
-- **[🤝 Third Party Management](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Third_Party_Management.md)** — Supplier risk management
-
-#### **🚨 Strategic Resilience Framework**
-- **[🚨 Incident Response Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Incident_Response_Plan.md)** — Security incident management
-- **[🔄 Business Continuity Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Business_Continuity_Plan.md)** — Operational resilience
-- **[🆘 Disaster Recovery Plan](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Disaster_Recovery_Plan.md)** — Recovery procedures
-- **[💾 Backup Recovery Policy](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Backup_Recovery_Policy.md)** — Data protection
-
-#### **📊 Strategic Performance Management**
-- **[📊 Security Metrics](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Security_Metrics.md)** — Evidence-based decision support
-- **[💻 Asset Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Asset_Register.md)** — Asset protection and optimization
-- **[📉 Risk Register](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Risk_Register.md)** — Risk management and treatment
-- **[✅ Compliance Checklist](https://github.com/Hack23/ISMS-PUBLIC/blob/main/Compliance_Checklist.md)** — Framework alignment validation
+- **[🔐 Information Security Policy](Information_Security_Policy.md)** — Defines the governance model and strategic intent for security operations
+- **[🏷️ Classification Framework](CLASSIFICATION.md)** — Provides the decision basis for prioritization, risk treatment, and resource allocation
+- **[🌐 ISMS Transparency Plan](ISMS_Transparency_Plan.md)** — Ensures transparency, trust, and stakeholder visibility in security practices
+- **[🔒 Cryptography Policy](Cryptography_Policy.md)** — Establishes encryption standards and key-management expectations
+- **[🔑 Access Control Policy](Access_Control_Policy.md)** — Governs identity, authentication, authorization, and least-privilege access
+- **[🌐 Network Security Policy](Network_Security_Policy.md)** — Protects infrastructure through segmentation, monitoring, and access boundaries
+- **[🏷️ Data Classification Policy](Data_Classification_Policy.md)** — Aligns information handling with confidentiality, integrity, and availability requirements
+- **[🛠️ Secure Development Policy](Secure_Development_Policy.md)** — Integrates security into design, development, and release processes
+- **[📝 Change Management](Change_Management.md)** — Ensures controlled implementation of technical and organizational changes
+- **[🔍 Vulnerability Management](Vulnerability_Management.md)** — Supports continuous improvement through detection, remediation, and verification
+- **[🤝 Third Party Management](Third_Party_Management.md)** — Extends governance to suppliers and external dependencies
+- **[🚨 Incident Response Plan](Incident_Response_Plan.md)** — Defines response capabilities for security events and operational disruptions
+- **[🔄 Business Continuity Plan](Business_Continuity_Plan.md)** — Preserves essential operations under adverse conditions
+- **[🆘 Disaster Recovery Plan](Disaster_Recovery_Plan.md)** — Supports restoration of systems and services after serious disruption
+- **[💾 Backup Recovery Policy](Backup_Recovery_Policy.md)** — Protects critical data and enables reliable recovery
+- **[📊 Security Metrics](Security_Metrics.md)** — Provides evidence-based performance measurement and management insight
+- **[💻 Asset Register](Asset_Register.md)** — Supports inventory control, prioritization, and lifecycle oversight
+- **[📉 Risk Register](Risk_Register.md)** — Tracks exposure, treatment status, and residual risk
+- **[✅ Compliance Checklist](Compliance_Checklist.md)** — Validates continued alignment with the ISMS and applicable frameworks
+- **[📋 Risk Assessment Methodology](Risk_Assessment_Methodology.md)** — Ensures consistent and repeatable risk evaluation
+- **[📋 CRA Conformity Assessment](CRA_Conformity_Assessment_Process.md)** — Connects policy implementation with EU compliance obligations
+- **[🤖 AI Policy](AI_Policy.md)** — Extends governance to responsible AI use and oversight
+- **[🛡️ OWASP LLM Security Policy](OWASP_LLM_Security_Policy.md)** — Strengthens controls for LLM-based systems
+- **[🌐 Open Source Policy](Open_Source_Policy.md)** — Reinforces supply chain transparency and license governance
 
 ### 🎯 **Strategic Value Realization**
 
-Our Information Security Strategy transforms the ISMS from compliance overhead into competitive advantage through:
+This strategy converts security from a compliance obligation into a business enabler by:
 
-1. **🌟 Transparency Leadership:** Industry-first public ISMS creates insurmountable competitive moat
-2. **📊 Evidence-Based Excellence:** Quantified security outcomes demonstrate operational maturity
-3. **🏆 Professional Credibility:** Comprehensive security implementation proves consulting expertise
-4. **💡 Innovation Enablement:** Security architecture that accelerates product development velocity
-5. **🤝 Stakeholder Confidence:** Systematic risk management builds lasting trust with all parties
-6. **📈 Scalable Operations:** Automated security operations enable efficient business scaling
+1. **🌟 Strengthening transparency** through a public, evidence-based ISMS that builds trust
+2. **📊 Improving decision quality** through measurable security outcomes and structured risk management
+3. **🏆 Reinforcing credibility** by demonstrating mature, practical implementation rather than abstract policy
+4. **💡 Accelerating innovation** by embedding security into development and operations from the start
+5. **🤝 Building stakeholder confidence** through consistent governance, clear accountability, and dependable execution
+6. **📈 Supporting scalable growth** by turning security operations into an efficient, repeatable capability
 
 ---
 
 ## 🎯 **Strategic Conclusion**
 
-Hack23 AB's Information Security Strategy represents a fundamental shift in how organizations approach cybersecurity—from necessary overhead to operational excellence. By operationalizing transparency, evidence-based decision-making, and classification-driven resource allocation, we demonstrate that enterprise-grade security creates rather than constrains business value.
+Hack23 AB's Information Security Strategy represents a shift from defensive compliance to strategic resilience. By integrating governance, technical controls, operational discipline, and transparent reporting, the organization demonstrates that security can strengthen business value rather than slow it down.
 
-Our strategy success will be measured through security outcomes: zero critical incidents, comprehensive evidence coverage, rapid threat detection, and continuous improvement. Through systematic implementation of our strategic framework, Hack23 AB will establish demonstrable security excellence while building transparent operations that accelerate stakeholder trust.
-
-The integration of our security strategy with comprehensive ISMS documentation creates a self-reinforcing cycle of excellence: strategic vision drives implementation quality, which generates evidence of capability, which enhances operational maturity, which enables continuous improvement, which validates strategic investment.
-
-This Information Security Strategy will evolve continuously based on threat intelligence, performance data, incident learnings, and security technology advancement, maintaining operational security at the forefront of organizational excellence.
-
----
-
-## 📚 Related Documents
-
-### 🏢 Business Integration
-- [📈 Business Strategy](./Hack23AB/Business_Strategy.md) - Strategic business objectives and market positioning
-- [💼 Business Plan](./Hack23AB/Business_Plan.md) - Financial planning and operational execution
-- [📢 Marketing Strategy](./Hack23AB/Marketing_Strategy.md) - Security as market differentiator
-
-### 🔐 Security Framework
-- [🔐 Information Security Policy](./Information_Security_Policy.md) - Enterprise security governance
-- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) - Transparency implementation
-- [🏷️ Classification Framework](./CLASSIFICATION.md) - Risk and impact analysis
-
-### 📊 Risk Management
-- [📉 Risk Register](./Risk_Register.md) - Risk identification and treatment
-- [📋 Risk Assessment Methodology](./Risk_Assessment_Methodology.md) - Assessment framework
-- [🔄 Business Continuity Plan](./Business_Continuity_Plan.md) - Operational resilience
-
-### ⚙️ Operational Security
-- [💻 Asset Register](./Asset_Register.md) - Infrastructure security inventory
-- [📝 Change Management](./Change_Management.md) - Change control procedures
-- [📊 Security Metrics](./Security_Metrics.md) - Performance measurement
-
-### 🛠️ Technical Security
-- [🛠️ Secure Development Policy](./Secure_Development_Policy.md) - Development security standards
-- [🔒 Cryptography Policy](./Cryptography_Policy.md) - Encryption and key management
-- [🌐 Network Security Policy](./Network_Security_Policy.md) - Network protection controls
-- [🔍 Vulnerability Management](./Vulnerability_Management.md) - Security remediation
-
-### ✅ Compliance & Audit
-- [✅ Compliance Checklist](./Compliance_Checklist.md) - Framework alignment validation
-- [📋 CRA Conformity Assessment](./CRA_Conformity_Assessment_Process.md) - EU compliance process
-- [Third Party Management](./Third_Party_Management.md) - Vendor risk governance
-
-### 🤖 AI Governance
-- [🤖 AI Policy](./AI_Policy.md) - AI governance framework and EU AI Act compliance
-- [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) - LLM security controls
-- [🌐 Open Source Policy](./Open_Source_Policy.md) - License compliance and supply chain security
-
----
+Its success will be measured through concrete outcomes: reduced exposure, faster response, stronger evidence of control effectiveness, and continuous improvement. Through disciplined implementation and transparent execution, Hack23 AB will continue to build an ISMS that is both resilient and commercially credible.
 
 **📋 Document Control:**  
 **✅ Approved by:** James Pether Sörling, CEO/CISO  
