@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-2.0-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--01--25-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--28-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Annual-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 2.0 | **📅 Last Updated:** 2026-01-25 (UTC)  
-**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-01-25
+**📋 Document Owner:** CEO | **📄 Version:** 2.1 | **📅 Last Updated:** 2026-06-28 (UTC)  
+**🔄 Review Cycle:** Annual | **⏰ Next Review:** 2027-06-28
 
 ---
 
@@ -36,7 +36,7 @@ Our commitment to transparency extends to this policy itself - demonstrating tha
 ## 🔍 **Purpose & Scope**
 
 ### Purpose
-This policy establishes the information security framework for Hack23 AB, ensuring the confidentiality, integrity, and availability of all information assets while supporting our dual mission of secure product development and cybersecurity consulting excellence.
+This policy establishes the information security framework for Hack23 AB, ensuring the confidentiality, integrity, and availability of all information assets while supporting our mission of secure product development, AI-augmented political intelligence, and cybersecurity consulting excellence.
 
 ### Scope
 This policy applies to:
@@ -49,13 +49,14 @@ This policy applies to:
 
 ## 🏢 **Organizational Context**
 
-Hack23 AB is a Swedish innovation hub with **four strategic business lines**:
-- **🔐 Cybersecurity Consulting:** Enterprise-grade security advisory and implementation services
-- **📋 CIA Compliance Manager:** Automated compliance tracking and ISMS management platform
-- **🏛️ Citizen Intelligence Agency:** Open-source political transparency and democratic accountability tools
+Hack23 AB is a Swedish innovation hub operating **five integrated business lines** across **nine public repositories**, each classified per the [Classification Framework](./CLASSIFICATION.md):
+- **🔐 Cybersecurity Consulting:** Enterprise-grade security advisory and ISMS implementation services
+- **📊 CIA Compliance Manager:** Automated compliance assessment and evidence-generation platform, also published as a reusable npm library
+- **🏛️ Citizen Intelligence Agency:** Open-source political transparency and democratic accountability platform
 - **🎮 Black Trigram:** Immersive Korean martial arts educational gaming experience
+- **📡 Political Intelligence & AI News Media:** AI-disrupted political intelligence and autonomous news generation — Riksdagsmonitor, EU Parliament Monitor, and the European Parliament MCP Server
 
-Our security approach reflects our business model: demonstrating security excellence through transparent implementation.
+Hack23 operates as an **AI-augmented company**, where a curated ecosystem of specialist AI agents operates under CEO oversight per the [🤖 AI-First Operations Governance](#-ai-first-operations-governance) section below. Our security approach reflects our business model: demonstrating security excellence through transparent implementation.
 
 ---
 
@@ -141,7 +142,7 @@ While Hack23 AB operates as a single-person company, certain specialized respons
 
 ## 🤖 **AI-First Operations Governance**
 
-Hack23 AB operates an AI-first operating model where GitHub Copilot custom agents are core strategic enablers for enterprise-grade delivery. This section establishes governance requirements; detailed architecture and workflows are documented in [Information Security Strategy](./Information_Security_Strategy.md#-ai-first-operations-strategy).
+Hack23 AB operates an AI-first operating model where GitHub Copilot custom agents are core strategic enablers for enterprise-grade delivery. This section establishes governance requirements; detailed architecture and workflows are documented in [Information Security Strategy](./Information_Security_Strategy.md#-ai-agent-governance--curated-automation).
 
 ### Governance Principles
 
@@ -416,7 +417,6 @@ This Information Security Policy integrates with and references the complete ISM
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-01-25  
-**⏰ Next Review:** 2027-01-25  
+**📅 Effective Date:** 2026-06-28  
+**⏰ Next Review:** 2027-06-28  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
-
