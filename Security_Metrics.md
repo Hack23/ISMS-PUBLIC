@@ -11,13 +11,13 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.7-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--06--20-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-3.8-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--07--01-success?style=for-the-badge" alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Monthly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 3.7 | **📅 Last Updated:** 2026-06-20 (UTC)  
-**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2026-07-20
+**📋 Document Owner:** CEO | **📄 Version:** 3.8 | **📅 Last Updated:** 2026-07-01 (UTC)  
+**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2026-08-01
 
 ---
 
@@ -77,13 +77,13 @@ By maintaining **🌐 live security dashboards** with **📊 public accountabili
 
 **Key Insights:** Phase 2 targets (+1.07 OpenSSF points to >9.0, +20% evidence automation to 95%) are achievable based on Q3-Q4 velocity.
 
-### **🔍 Evidence Validation (Last Updated: 2026-06-20)**
+### **🔍 Evidence Validation (Last Updated: 2026-07-01)**
 
 | Metric | Value | Evidence | Frequency | Automation |
 |--------|-------|----------|-----------|------------|
-| **OpenSSF Scorecard** | 7.2 avg (9 active repos) — see [June 2026 snapshot](#-june-2026-live-scorecard-snapshot-2026-06-20) | [scorecard.dev](https://api.securityscorecards.dev) | Weekly | ✅ Automated |
+| **OpenSSF Scorecard** | 7.5 avg (9 active repos) — see [July 2026 snapshot](#-july-2026-live-scorecard-snapshot-2026-07-01) | [scorecard.dev](https://api.securityscorecards.dev) | Weekly | ✅ Automated |
 | **CII Best Practices** | Gold (CIA) + 5 Passing | [CII Portal](https://bestpractices.coreinfrastructure.org) | Monthly | ⚠️ Manual |
-| **Critical Vulnerabilities** | 0 critical open (all repos); 47 open non-critical Dependabot alerts (mostly dev-scope npm: undici/vite/qs/uuid/serialize-javascript) | [Dependabot](https://github.com/orgs/Hack23/security/overview) | Daily | ✅ Automated |
+| **Critical Vulnerabilities** | 0 critical open (all repos); Dependabot backlog cleared — OpenSSF Vulnerabilities check recovered to **10/10 on all 9 active repos** (was 6.2 avg in June) | [Dependabot](https://github.com/orgs/Hack23/security/overview) | Daily | ✅ Automated |
 | **Control Coverage** | 95% | [Compliance Checklist](./Compliance_Checklist.md) | Quarterly | ⚠️ Manual |
 | **Automation Coverage** | 85% | [Segregation of Duties (SoD) Policy](./Segregation_of_Duties_Policy.md) | Quarterly | ⚠️ Manual |
 | **Availability** | 99.8% | [CloudWatch](https://console.aws.amazon.com/cloudwatch) | Continuous | ✅ Automated |
@@ -92,9 +92,9 @@ By maintaining **🌐 live security dashboards** with **📊 public accountabili
 
 ---
 
-## 📡 **June 2026 Live Scorecard Snapshot (2026-06-20)**
+## 📡 **July 2026 Live Scorecard Snapshot (2026-07-01)**
 
-Monthly review checkpoint capturing current OpenSSF Scorecard, release cadence, and activity across **all 11 Hack23 repositories tracked** (**9 active products** scored by OpenSSF + 1 docs-only ISMS-PUBLIC mirror + 1 archived Sonar-CloudFormation-Plugin shown for completeness). All subsequent averages, aggregates, and remediation targets in this section are computed over the **9 active repos only**. Data pulled directly from `api.securityscorecards.dev` and GitHub REST API as of 2026-06-20 (UTC); OpenSSF scans dated 2026-06-19 except Lambda-VPC (2026-04-30) and Homepage (2025-12-16) where the weekly workflow has not refreshed.
+Monthly review checkpoint capturing current OpenSSF Scorecard, release cadence, and activity across **all 11 Hack23 repositories tracked** (**9 active products** scored by OpenSSF + 1 docs-only ISMS-PUBLIC mirror + 1 archived Sonar-CloudFormation-Plugin shown for completeness). All subsequent averages, aggregates, and remediation targets in this section are computed over the **9 active repos only**. Data pulled directly from `api.securityscorecards.dev` and GitHub REST API as of 2026-07-01 (UTC); OpenSSF scans dated 2026-06-30 except Lambda-VPC (2026-04-30) and Homepage (2025-12-16) where the weekly workflow has not refreshed.
 
 > **📌 Repository topology note:** The internal `Hack23/ISMS` repo (private — governance, asset register, supplier records, business strategy) is mirrored to the public `Hack23/ISMS-PUBLIC` repo (47 stars) for transparency. Both are documentation-only and excluded from OpenSSF scoring aggregates.
 
@@ -102,67 +102,67 @@ Monthly review checkpoint capturing current OpenSSF Scorecard, release cadence, 
 
 The table below lists all **11 tracked Hack23 repositories** (9 scored active products + ISMS-PUBLIC docs-only + archived Sonar-CloudFormation-Plugin). The ISMS-PUBLIC and archived rows are shown for completeness and are **excluded from every aggregate, average, and remediation target** computed in this section.
 
-| # | Project | Score | Trend vs. May 2026 | Scorecard Date | Latest Release | CII Level |
+| # | Project | Score | Trend vs. June 2026 | Scorecard Date | Latest Release | CII Level |
 |---|---------|-------|--------------------|----------------|----------------|-----------|
-| 1 | 🏛️ **CIA** (Citizen Intelligence Agency) | **7.9** | 🔴 −0.7 ⬇️ | 2026-06-19 | [2026.6.19](https://github.com/Hack23/cia/releases) | 🥇 Gold ([#770](https://bestpractices.coreinfrastructure.org/projects/770)) |
-| 2 | 📡 **Lambda in Private VPC** | **7.6** | 🟢 Stable | 2026-04-30 | [v0.0.24](https://github.com/Hack23/lambda-in-private-vpc/releases) | ⚪ Not enrolled |
-| 3 | 📊 **CIA Compliance Manager** | **7.5** | 🟡 −0.3 | 2026-06-19 | [v1.1.93](https://github.com/Hack23/cia-compliance-manager/releases) | ✅ Passing ([#10365](https://bestpractices.coreinfrastructure.org/projects/10365)) |
-| 4 | 🇪🇺 **EU Parliament Monitor** | **7.3** | 🟢 +0.8 ⬆️ | 2026-06-19 | [v1.0.15](https://github.com/Hack23/euparliamentmonitor/releases) | ✅ Passing ([#12068](https://bestpractices.coreinfrastructure.org/projects/12068)) |
-| 5 | 🌐 **Homepage** | **7.2** | 🟡 Stale scan (2025-12-16) | 2025-12-16 | [v1.0.22](https://github.com/Hack23/homepage/releases) | ⚪ Not enrolled |
-| 6 | 🎮 **Game Template** | **7.0** | 🟡 −0.2 | 2026-06-19 | [v1.2.82](https://github.com/Hack23/game/releases) | ⚪ Not enrolled |
-| 7 | 🗳️ **Riksdagsmonitor** | **6.8** | 🟡 −0.2 | 2026-06-19 | [v1.0.18](https://github.com/Hack23/riksdagsmonitor/releases) | ✅ Passing ([#12069](https://bestpractices.coreinfrastructure.org/projects/12069)) |
-| 8 | 🇪🇺 **European Parliament MCP Server** | **6.8** | 🟢 +0.3 ⬆️ | 2026-06-19 | [v1.3.25](https://github.com/Hack23/European-Parliament-MCP-Server/releases) | ✅ Passing ([#12067](https://bestpractices.coreinfrastructure.org/projects/12067)) |
-| 9 | 🎮 **Black Trigram** | **6.6** | 🔴 −0.4 | 2026-06-19 | [v0.7.67](https://github.com/Hack23/blacktrigram/releases) | ✅ Passing ([#10777](https://bestpractices.coreinfrastructure.org/projects/10777)) |
+| 1 | 📊 **CIA Compliance Manager** | **8.0** | 🟢 +0.5 ⬆️ | 2026-06-30 | [v1.1.100](https://github.com/Hack23/cia-compliance-manager/releases) | ✅ Passing ([#10365](https://bestpractices.coreinfrastructure.org/projects/10365)) |
+| 2 | 🏛️ **CIA** (Citizen Intelligence Agency) | **7.9** | 🟢 Stable | 2026-06-30 | [2026.6.30](https://github.com/Hack23/cia/releases) | 🥇 Gold ([#770](https://bestpractices.coreinfrastructure.org/projects/770)) |
+| 3 | 📡 **Lambda in Private VPC** | **7.6** | 🟢 Stable (stale scan) | 2026-04-30 | [v0.0.24](https://github.com/Hack23/lambda-in-private-vpc/releases) | ⚪ Not enrolled |
+| 4 | 🗳️ **Riksdagsmonitor** | **7.4** | 🟢 +0.6 ⬆️ | 2026-06-30 | [v1.0.26](https://github.com/Hack23/riksdagsmonitor/releases) | ✅ Passing ([#12069](https://bestpractices.coreinfrastructure.org/projects/12069)) |
+| 5 | 🎮 **Black Trigram** | **7.3** | 🟢 +0.7 ⬆️ | 2026-06-30 | [v0.7.75](https://github.com/Hack23/blacktrigram/releases) | ✅ Passing ([#10777](https://bestpractices.coreinfrastructure.org/projects/10777)) |
+| 6 | 🇪🇺 **European Parliament MCP Server** | **7.3** | 🟢 +0.5 ⬆️ | 2026-06-30 | [v1.3.32](https://github.com/Hack23/European-Parliament-MCP-Server/releases) | ✅ Passing ([#12067](https://bestpractices.coreinfrastructure.org/projects/12067)) |
+| 7 | 🇪🇺 **EU Parliament Monitor** | **7.3** | 🟢 Stable | 2026-06-30 | [v1.0.23](https://github.com/Hack23/euparliamentmonitor/releases) | ✅ Passing ([#12068](https://bestpractices.coreinfrastructure.org/projects/12068)) |
+| 8 | 🌐 **Homepage** | **7.2** | 🟡 Stale scan (2025-12-16) | 2025-12-16 | [v1.0.24](https://github.com/Hack23/homepage/releases) | ⚪ Not enrolled |
+| 9 | 🎮 **Game Template** | **7.2** | 🟢 +0.2 ⬆️ | 2026-06-30 | [v1.2.90](https://github.com/Hack23/game/releases) | ⚪ Not enrolled |
 | — | 📋 **ISMS-PUBLIC** _(docs-only — not scored, 47★)_ | N/A | — | — | — | ⚪ Not applicable |
 | — | 🔧 **Sonar-CloudFormation-Plugin** ⚠️ _(archived — read-only)_ | Archived | — | — | Archived | ✅ Passing ([#4545](https://bestpractices.coreinfrastructure.org/projects/4545)) |
 
-**📊 Aggregate (rows 1–9 only, excludes ISMS-PUBLIC and archived):** Average **7.2** · Min **6.6** · Max **7.9** · Phase 2 target ≥ **9.0 avg, ≥8.8 min**.
+**📊 Aggregate (rows 1–9 only, excludes ISMS-PUBLIC and archived):** Average **7.5** · Min **7.2** · Max **8.0** · Phase 2 target ≥ **9.0 avg, ≥8.8 min**.
 
-**🚀 Headline movement:** **A portfolio-wide Vulnerabilities-check regression (8.4 → 6.2 avg) dragged the org average down 7.3 → 7.2 (−0.1).** A wave of npm dev-dependency advisories (qs, serialize-javascript, uuid, undici, vite, js-yaml, ip-address, @babel/core) hit every JS/TS repo in late May–June. **CIA fell 8.6 → 7.9 (−0.7)** as its CII-Best-Practices check now reads `5` (in-progress) rather than Gold-equivalent `10`, despite retaining its Gold badge ([#770](https://bestpractices.coreinfrastructure.org/projects/770)) and a clean Vulnerabilities check (10). **EU Parliament Monitor was the top mover (+0.8 → 7.3)** after clearing the Maintained heuristic and adding Packaging; **EP-MCP rose +0.3 → 6.8**. **Black Trigram is the new portfolio floor at 6.6 (−0.4)** on its Vulnerabilities check dropping to 1.
+**🚀 Headline movement:** **The portfolio-wide Vulnerabilities-check regression has fully recovered — all 9 active repos now score 10/10 (was 6.2 avg in June), lifting the org average 7.2 → 7.5 (+0.3).** The late-May/June npm dev-dependency advisory sweep (qs, serialize-javascript, uuid, undici, vite, js-yaml, ip-address, @babel/core) was cleared by batch-merging the Dependabot backlog across every JS/TS repo. **CIA Compliance Manager is the new portfolio leader at 8.0 (+0.5)** with its Vulnerabilities check restored 3 → 10. **Black Trigram was the top mover (+0.7 → 7.3)** (Vulnerabilities 1 → 10), followed by **Riksdagsmonitor (+0.6 → 7.4)** (2 → 10) and **EP-MCP (+0.5 → 7.3)** (3 → 10). **CIA held steady at 7.9** (clean Vulnerabilities check throughout; CII-Best-Practices check still reads `5` despite its Gold badge, capping further gains). **The new portfolio floor is 7.2 (Homepage — stale 2025-12-16 scan — and Game Template).** With Vulnerabilities resolved, **Token-Permissions (avg 3.0) and Branch-Protection (avg 2.9) are now the dominant remaining blockers** to the ≥9.0 target.
 
 ### **🔬 Per-Check Gap Analysis (average across 9 active repos)**
 
 | OpenSSF Check | Avg Score | Status | Primary Blocker | Phase 2 Remediation |
 |---------------|-----------|--------|-----------------|---------------------|
-| **Maintained** | 10 | ✅ Perfect | All 9 repos now score 10 — EP-MCP & EPM cleared the commit-frequency heuristic (was 0 in May) | Sustain ≥1 commit/week cadence |
-| **CI-Tests** | 10 | ✅ Perfect | RM restored to 10 (was 8) | Maintain CI workflow coverage |
+| **Maintained** | 10 | ✅ Perfect | All 9 repos score 10 | Sustain ≥1 commit/week cadence |
+| **CI-Tests** | 10 | ✅ Perfect | — | Maintain CI workflow coverage |
 | **Dependency-Update-Tool** | 10 | ✅ Perfect | — | Maintain Dependabot coverage |
 | **Dangerous-Workflow** | 10 | ✅ Perfect | — | Maintain pinned + least-privilege workflows |
 | **Security-Policy** | 10 | ✅ Perfect | — | Keep `SECURITY.md` current per [Secure Development Policy](./Secure_Development_Policy.md) |
 | **Signed-Releases** | 10 | ✅ Perfect (where applicable) | Lambda-VPC & Homepage `-1` (N/A — releases exist, but signed-release provenance is not yet verified) | Maintain cosign/SLSA provenance |
+| **Vulnerabilities** | 10 | ✅ **Recovered** | Full recovery from 6.2 avg (June) — all 9 repos now 10 after clearing the npm dev-dependency Dependabot backlog | **Sustain 0-alert posture** via Dependabot auto-merge per [Vulnerability Management Policy](./Vulnerability_Management.md) |
 | **Packaging** | 10 (where measured) | ✅ Strong | Several repos `-1` (N/A) | No action; correct for doc/site repos |
 | **Binary-Artifacts** | 9.9 | 🟢 Strong | CIA @ 9 | Remove remaining binaries from CIA release assets |
-| **SAST** | 9.7 | 🟢 Strong | RM @ 8, EPM @ 9 | Expand SonarCloud + CodeQL coverage |
+| **SAST** | 9.8 | 🟢 Strong | EPM & RM @ 9 | Expand SonarCloud + CodeQL coverage |
 | **License** | 8.9 | 🟢 Strong | Game repo missing SPDX header (scored 0) | Add SPDX to Game LICENSE |
 | **Pinned-Dependencies** | 8.6 | 🟡 Improving | Transitive action SHAs (most repos @ 8–9; Lambda-VPC @ 10) | Pin all GHAs to SHA org-wide |
-| **Contributors** | 7.8 | 🟡 Fair | Solo maintainer; 5 repos scored 6 (< 2 orgs) | Invite community contributors in Q3 2026 |
-| **Vulnerabilities** | 6.2 | 🔴 **Regression** | Portfolio-wide drop from 8.4 (May). BT @ 1, RM @ 2, CM @ 3, EP-MCP @ 3, Game @ 7 — npm dev-dependency advisory sweep (qs, serialize-javascript, uuid, undici, vite, js-yaml, ip-address) | **Q2 2026 priority:** batch-merge Dependabot PRs; drive open alerts to 0 |
+| **Contributors** | 7.8 | 🟡 Fair | Solo maintainer; 4 repos scored 6 (< 2 orgs) | Invite community contributors in Q3 2026 |
 | **CII-Best-Practices** | 3.3 | 🟡 Gap | 3 repos @ 0 (Homepage, Game, Lambda-VPC not enrolled); 6 enrolled @ 5 (incl. CIA, whose check reads `5` despite Gold badge) | Enrol remaining 3 repos + drive enrolled repos 5 → 10 by Q3 2026 |
-| **Token-Permissions** | 3.0 | 🔴 **Gap** | 6 of 9 repos score `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC — default `write-all` inherited). CIA, CM & Game now at 9 ✅ | **Q2 2026 priority:** org-wide `permissions: read-all` default + per-job minimal scopes |
-| **Branch-Protection** | 2.9 | 🔴 **Gap** | Solo maintainer — admin bypass inflates risk (Homepage `-1` / N/A excluded). CIA & Lambda-VPC @ 4 ✅; Game @ 0 | Replicate CIA model org-wide: required reviews, signed commits, linear history |
-| **Code-Review** | 0.0 | 🔴 Structural | Solo-maintainer model — all 9 repos now @ 0 | Document compensating controls in [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md); formalise AI-agent + temporal-separation review |
+| **Token-Permissions** | 3.0 | 🔴 **Top Gap** | 6 of 9 repos score `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC — default `write-all` inherited). CIA, CM & Game now at 9 ✅ | **Q3 2026 priority:** org-wide `permissions: read-all` default + per-job minimal scopes |
+| **Branch-Protection** | 2.9 | 🔴 **Top Gap** | Solo maintainer — admin bypass inflates risk (Homepage `-1` / N/A excluded). CIA & Lambda-VPC @ 4 ✅; Game @ 0 | Replicate CIA model org-wide: required reviews, signed commits, linear history |
+| **Code-Review** | 0.0 | 🔴 Structural | Solo-maintainer model — all 9 repos @ 0 | Document compensating controls in [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md); formalise AI-agent + temporal-separation review |
 | **Fuzzing** | 0 | 🔴 Structural | Not yet implemented | Q3 2026: OSS-Fuzz enrolment for CIA (Java) + libFuzzer for EP-MCP |
 
-### **🚨 Top 3 Organization-Wide Actions (Q2 2026)**
+### **🚨 Top 3 Organization-Wide Actions (Q3 2026)**
 
-1. **🔴 Vulnerabilities-check remediation (new top priority)** — Batch-merge the **47 open Dependabot alerts** (0 critical; 27 high concentrated in CIA's dev-scope `httpclient5`, 2 high in EP-MCP `undici`/`vite`) across BT (4), EP-MCP (6), RM (3), CM (3), Game (1), CIA (30). Expected lift: **+2.2 pts avg Vulnerabilities check** (6.2 → ~8.4), recovering the May regression. Track per [Vulnerability Management Policy](./Vulnerability_Management.md).
-2. **🔴 Token-Permissions hardening** — Enforce `permissions: read-all` org default + per-job `permissions:` blocks on the 6 repos scoring `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC). CIA, CM & Game prove the pattern at 9. Expected lift: **+1.7 pts avg score**.
-3. **🔴 Branch-Protection uplift — replicate the CIA pattern** — CIA & Lambda-VPC at 4 ✅. Apply CODEOWNERS review + signed commits + linear history to the 6 remaining active repos (and lift Game from 0). Expected lift: **+0.4 pts avg score**.
+1. **🔴 Token-Permissions hardening (new top priority)** — Enforce `permissions: read-all` org default + per-job `permissions:` blocks on the 6 repos scoring `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC). CIA, CM & Game prove the pattern at 9. Expected lift: **+1.7 pts avg score**. Track per [Secure Development Policy](./Secure_Development_Policy.md).
+2. **🔴 Branch-Protection uplift — replicate the CIA pattern** — CIA & Lambda-VPC at 4 ✅. Apply CODEOWNERS review + signed commits + linear history to the 6 remaining active repos (and lift Game from 0). Expected lift: **+0.4 pts avg score**.
+3. **🟡 CII-Best-Practices closure** — Enrol the 3 unenrolled repos (Homepage, Game, Lambda-VPC) and drive the 6 enrolled repos from `5` → `10`. Re-validate the CIA Gold submission so its check reads `10` (not `5`), unlocking CIA's path above 8.0. Expected lift: **+1.5 pts avg CII check**.
 
-**🚨 Regression watch:** **Black Trigram Vulnerabilities check fell to 1** and **Riksdagsmonitor to 2** (from 6 and 4 respectively) — both from the npm dev-dependency advisory sweep. **CIA scorecard dropped 8.6 → 7.9** primarily because its CII-Best-Practices check now reads `5`; re-validate the CII Gold submission to restore the check to 10.
+**✅ Recovery win:** **All 9 active repos restored their Vulnerabilities check to 10/10** (portfolio avg 6.2 → 10.0) after batch-merging the npm dev-dependency Dependabot backlog — Black Trigram (1 → 10), Riksdagsmonitor (2 → 10), CM & EP-MCP (3 → 10). This recovered the June regression and lifted the org average 7.2 → 7.5. **Watch item:** CIA's CII-Best-Practices check still reads `5` despite its Gold badge; re-validate the CII submission to restore the check to 10.
 
-### **📈 Phase 2 Milestone Status (as of 2026-06-20)**
+### **📈 Phase 2 Milestone Status (as of 2026-07-01)**
 
 | Phase 2 Q1–Q2 Target | Current | Status | Notes |
 |----------------------|---------|--------|-------|
-| OpenSSF ≥ 8.5 avg by end Q2 | 7.2 avg (no repo currently @ 8.5) | 🔴 Behind | Vulnerabilities regression + Token-Permissions + Branch-Protection blocking at portfolio level |
+| OpenSSF ≥ 8.5 avg by end Q2 | 7.5 avg (CM highest @ 8.0) | 🔴 Missed Q2 | Vulnerabilities recovered (+0.3); Token-Permissions + Branch-Protection now the blockers — rolled to Q3 |
 | Branch protection enforcement | CIA & Lambda-VPC at 4 ✅; 7 repos pending | 🟡 In Progress | Replicate CIA pattern across remaining repos |
-| Evidence automation ≥ 85% | ~80% | 🟡 On track | CII + control-coverage remain manual |
+| Evidence automation ≥ 85% | ~82% | 🟡 On track | CII + control-coverage remain manual |
 | MTTD < 6 min | ~7 min avg | 🟡 Close | GuardDuty + CloudWatch tuning continuing |
 | OWASP LLM coverage ≥ 70% | 56% | 🟡 On track | Policy expansion per [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) |
-| Vulnerability SLA 100% critical < 3 days | 100% (0 critical open) | ✅ Met | Dependabot auto-merge pipeline; non-critical backlog actively tracked |
+| Vulnerability SLA 100% critical < 3 days | 100% (0 critical open; backlog cleared) | ✅ Met | Dependabot auto-merge pipeline; Vulnerabilities check restored to 10/10 org-wide |
 
-**🎯 Revised Q2 2026 exit criteria:** Reach OpenSSF avg ≥ **8.5** by 2026-06-30 via the three org-wide actions above — clearing the Dependabot backlog is now the largest single lever; maintain 0 critical vulns, 100% signed releases, and 99.8%+ availability.
+**🎯 Revised Q3 2026 exit criteria:** Reach OpenSSF avg ≥ **8.5** by 2026-09-30 via the three org-wide actions above — Token-Permissions hardening is now the largest single lever; sustain the recovered 0-alert Vulnerabilities posture, 100% signed releases, and 99.8%+ availability.
 
 ---
 
@@ -724,38 +724,38 @@ Our metrics directly support business value creation:
 
 ## 🏆 **OpenSSF Scorecard Alignment Matrix**
 
-### **📊 Current OpenSSF Performance (2026-06-20)**
+### **📊 Current OpenSSF Performance (2026-07-01)**
 
-> 📡 For full per-check breakdown, gap analysis, and organization-wide remediation plan see the [June 2026 Live Scorecard Snapshot](#-june-2026-live-scorecard-snapshot-2026-06-20) above.
+> 📡 For full per-check breakdown, gap analysis, and organization-wide remediation plan see the [July 2026 Live Scorecard Snapshot](#-july-2026-live-scorecard-snapshot-2026-07-01) above.
 
-#### **🏛️ Citizen Intelligence Agency** — **7.9 / 10** ⚠️ *−0.7 vs May 2026 — CII-Best-Practices check dropped to 5 despite Gold badge*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) | **Target: 9.5+** | Gap: Code-Review (0 solo-maintainer), CII-Best-Practices (5 — re-validate Gold), Fuzzing (0); Branch-Protection (4) ✅, Vulnerabilities (10) ✅
+#### **📊 CIA Compliance Manager** — **8.0 / 10** 🚀 *+0.5 vs June 2026 — new portfolio leader; Vulnerabilities check recovered 3 → 10*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | **Target: 9.5+** | Gap: Code-Review (0), Branch-Protection (3), CII (5), Fuzzing (0); Token-Permissions (9) ✅, Vulnerabilities (10) ✅
 
-#### **📡 Lambda in Private VPC** — **7.6 / 10**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0 – enrol pending); Branch-Protection (4) ✅
+#### **🏛️ Citizen Intelligence Agency** — **7.9 / 10** *Stable vs June 2026*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) | **Target: 9.5+** | Gap: Code-Review (0 solo-maintainer), CII-Best-Practices (5 — re-validate Gold), Fuzzing (0), Binary-Artifacts (9); Branch-Protection (4) ✅, Token-Permissions (9) ✅, Vulnerabilities (10) ✅
 
-#### **📊 CIA Compliance Manager** — **7.5 / 10**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | **Target: 9.5+** | Gap: Code-Review (0), Branch-Protection (3), **Vulnerabilities (3)** ← Dependabot backlog, Fuzzing (0); Token-Permissions (9) ✅
+#### **📡 Lambda in Private VPC** — **7.6 / 10** *Stable (stale scan 2026-04-30)*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0 – enrol pending), Fuzzing (0); Branch-Protection (4) ✅, Pinned-Dependencies (10) ✅, Vulnerabilities (10) ✅
 
-#### **🇪🇺 EU Parliament Monitor** — **7.3 / 10** 🚀 *+0.8 vs May 2026 — top mover*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), SAST (9); Maintained now 10 ✅, Vulnerabilities (10) ✅
+#### **🗳️ Riksdagsmonitor** — **7.4 / 10** 🚀 *+0.6 vs June 2026 — Vulnerabilities check recovered 2 → 10*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), SAST (9), CII (5); Vulnerabilities (10) ✅, Contributors (10) ✅
+
+#### **🎮 Black Trigram** — **7.3 / 10** 🚀 *+0.7 vs June 2026 — top mover; Vulnerabilities check recovered 1 → 10*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) | **Target: 9.5+** | Gap: Token-Permissions (0), Branch-Protection (3), CII (5), Contributors (6); Vulnerabilities (10) ✅
+
+#### **🇪🇺 European Parliament MCP Server** — **7.3 / 10** 🚀 *+0.5 vs June 2026 — Vulnerabilities check recovered 3 → 10*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), CII (5), Contributors (6); Pinned-Dependencies (9) ✅, Vulnerabilities (10) ✅
+
+#### **🇪🇺 EU Parliament Monitor** — **7.3 / 10** *Stable vs June 2026*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), SAST (9), Contributors (6); Vulnerabilities (10) ✅
 
 #### **🌐 Homepage** — **7.2 / 10** ⚠️ *Scan stale (2025-12-16)*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0), Scorecard workflow needs refresh
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0), Scorecard workflow needs refresh; Vulnerabilities (10) ✅
 
-#### **🎮 Game Template** — **7.0 / 10**
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) | **Target: 9.0+** | Gap: License (0 – missing SPDX), Branch-Protection (0), CII (0), Vulnerabilities (7); Token-Permissions (9) ✅
+#### **🎮 Game Template** — **7.2 / 10** *+0.2 vs June 2026*
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) | **Target: 9.0+** | Gap: License (0 – missing SPDX), Branch-Protection (0), CII (0); Token-Permissions (9) ✅, Vulnerabilities (10) ✅
 
-#### **🗳️ Riksdagsmonitor** — **6.8 / 10** ⚠️ *Vulnerabilities check regressed to 2*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), **Vulnerabilities (2)** ← active triage, SAST (8)
-
-#### **🇪🇺 European Parliament MCP Server** — **6.8 / 10** *+0.3 vs May 2026*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), **Vulnerabilities (3)** ← undici/vite highs; Maintained now 10 ✅
-
-#### **🎮 Black Trigram** — **6.6 / 10** ⚠️ *−0.4 vs May 2026 — Vulnerabilities check dropped to 1*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) | **Target: 9.5+** | Gap: Token-Permissions (0), Branch-Protection (3), **Vulnerabilities (1)** ← 4 open dev-scope npm alerts
-
-**Data source:** `api.securityscorecards.dev` snapshotted 2026-06-19/-20 · Values refresh weekly · For check descriptions see [OpenSSF Scorecard Documentation](https://github.com/ossf/scorecard#scorecard-checks)
+**Data source:** `api.securityscorecards.dev` snapshotted 2026-06-30 (Lambda-VPC 2026-04-30, Homepage 2025-12-16) · Values refresh weekly · For check descriptions see [OpenSSF Scorecard Documentation](https://github.com/ossf/scorecard#scorecard-checks)
 
 ---
 
@@ -1288,6 +1288,6 @@ flowchart TD
 **✅ Approved by:** James Pether Sörling, CEO  
 **📤 Distribution:** Public  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-06-20  
-**⏰ Next Review:** 2026-07-20    
+**📅 Effective Date:** 2026-07-01  
+**⏰ Next Review:** 2026-08-01    
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![OpenSSF](https://img.shields.io/badge/OpenSSF-Aligned-purple?style=flat-square&logo=openssf&logoColor=white)](./CLASSIFICATION.md)
