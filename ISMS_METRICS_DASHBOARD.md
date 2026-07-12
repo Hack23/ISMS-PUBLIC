@@ -16,7 +16,7 @@
   <a href="#"><img src="https://img.shields.io/badge/Update-Weekly-orange?style=for-the-badge" alt="Update Frequency"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **🤖 Last Generated:** 2026-07-11 06:55 UTC  
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **🤖 Last Generated:** 2026-07-12 13:33 UTC  
 **🔄 Update Frequency:** Weekly (Automated) | **📊 Data Source:** All ISMS *.md files
 
 ---
@@ -35,7 +35,7 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 ## 🚦 **Review Status Summary**
 
-**Current Status as of 2026-07-11:**
+**Current Status as of 2026-07-12:**
 
 | Status | Count | Description |
 |--------|-------|-------------|
@@ -47,7 +47,7 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 ### 🚨 **Overdue Policy Reviews - Action Required**
 
-- **[FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md)** - 36 days overdue (Due: 2026-06-05)
+- **[FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md)** - 37 days overdue (Due: 2026-06-05)
 
 ---
 
@@ -58,7 +58,7 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 | Document | Current Size | Status | Recommendation |
 |----------|-------------|--------|----------------|
 | [Compliance_Checklist.md](./Compliance_Checklist.md) | 243 KB | 🔴 Oversized | Split into focused sub-documents |
-| [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 137 KB | 🔴 Oversized | Split into focused sub-documents |
+| [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 142 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Information_Security_Strategy.md](./Information_Security_Strategy.md) | 122 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Risk_Register.md](./Risk_Register.md) | 107 KB | 🔴 Oversized | Split into focused sub-documents |
 | [SUPPLIER.md](./SUPPLIER.md) | 100 KB | 🔴 Oversized | Split into focused sub-documents |
@@ -68,11 +68,11 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 79 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | 77 KB | 🔴 Oversized | Split into focused sub-documents |
 | [ISO_5230_Self_Certification.md](./ISO_5230_Self_Certification.md) | 69 KB | 🔴 Oversized | Split into focused sub-documents |
+| [Open_Source_Policy.md](./Open_Source_Policy.md) | 68 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Asset_Register.md](./Asset_Register.md) | 68 KB | 🔴 Oversized | Split into focused sub-documents |
 | [CLASSIFICATION.md](./CLASSIFICATION.md) | 62 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Data_Classification_Policy.md](./Data_Classification_Policy.md) | 61 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Partnership_Framework.md](./Partnership_Framework.md) | 60 KB | 🔴 Oversized | Split into focused sub-documents |
-| [Open_Source_Policy.md](./Open_Source_Policy.md) | 57 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Business_Continuity_Plan.md](./Business_Continuity_Plan.md) | 53 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Risk_Assessment_Methodology.md](./Risk_Assessment_Methodology.md) | 52 KB | 🔴 Oversized | Split into focused sub-documents |
 | [Network_Security_Policy.md](./Network_Security_Policy.md) | 51 KB | 🔴 Oversized | Split into focused sub-documents |
@@ -98,18 +98,18 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 | Review Date | Document | Review Cycle | Days Until Due | Status |
 |-------------|----------|--------------|----------------|--------|
-| 2026-07-25 | [Backup_Recovery_Policy.md](./Backup_Recovery_Policy.md) | Semi-Annual | 13 | 🟡 Due Soon |
-| 2026-07-25 | [Disaster_Recovery_Plan.md](./Disaster_Recovery_Plan.md) | Semi-Annual | 13 | 🟡 Due Soon |
-| 2026-07-25 | [Mobile_Device_Management_Policy.md](./Mobile_Device_Management_Policy.md) | Semi-Annual | 13 | 🟡 Due Soon |
-| 2026-07-25 | [Access_Control_Policy.md](./Access_Control_Policy.md) | Semi-Annual | 13 | 🟡 Due Soon |
-| 2026-07-25 | [External_Stakeholder_Registry.md](./External_Stakeholder_Registry.md) | Semi-Annual | 13 | 🟡 Due Soon |
-| 2026-08-01 | [Security_Metrics.md](./Security_Metrics.md) | Monthly | 20 | 🟡 Due Soon |
-| 2026-09-05 | [SWOT.md](./SWOT.md) | Semi-Annual | 55 | 🟢 Current |
-| 2026-09-05 | [Business_Continuity_Plan.md](./Business_Continuity_Plan.md) | Semi-Annual | 55 | 🟢 Current |
-| 2026-09-13 | [Vulnerability_Management.md](./Vulnerability_Management.md) | Quarterly | 63 | 🟢 Current |
-| 2026-09-20 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | Quarterly | 70 | 🟢 Current |
-| 2026-09-20 | [AI_Policy.md](./AI_Policy.md) | Quarterly | 70 | 🟢 Current |
-| 2026-09-28 | [Risk_Register.md](./Risk_Register.md) | Quarterly | 78 | 🟢 Current |
+| 2026-07-25 | [Backup_Recovery_Policy.md](./Backup_Recovery_Policy.md) | Semi-Annual | 12 | 🟡 Due Soon |
+| 2026-07-25 | [Disaster_Recovery_Plan.md](./Disaster_Recovery_Plan.md) | Semi-Annual | 12 | 🟡 Due Soon |
+| 2026-07-25 | [Mobile_Device_Management_Policy.md](./Mobile_Device_Management_Policy.md) | Semi-Annual | 12 | 🟡 Due Soon |
+| 2026-07-25 | [Access_Control_Policy.md](./Access_Control_Policy.md) | Semi-Annual | 12 | 🟡 Due Soon |
+| 2026-07-25 | [External_Stakeholder_Registry.md](./External_Stakeholder_Registry.md) | Semi-Annual | 12 | 🟡 Due Soon |
+| 2026-08-01 | [Security_Metrics.md](./Security_Metrics.md) | Monthly | 19 | 🟡 Due Soon |
+| 2026-09-05 | [SWOT.md](./SWOT.md) | Semi-Annual | 54 | 🟢 Current |
+| 2026-09-05 | [Business_Continuity_Plan.md](./Business_Continuity_Plan.md) | Semi-Annual | 54 | 🟢 Current |
+| 2026-09-13 | [Vulnerability_Management.md](./Vulnerability_Management.md) | Quarterly | 62 | 🟢 Current |
+| 2026-09-20 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | Quarterly | 69 | 🟢 Current |
+| 2026-09-20 | [AI_Policy.md](./AI_Policy.md) | Quarterly | 69 | 🟢 Current |
+| 2026-09-28 | [Risk_Register.md](./Risk_Register.md) | Quarterly | 77 | 🟢 Current |
 
 ---
 
@@ -156,11 +156,11 @@ Complete status of all ISMS documentation:
 | [Asset_Register.md](./Asset_Register.md) | 2.4 | 2026-06-02 | 2027-06-02 | Annual | 🟢 Current | ISO NIST CIS |
 | [WORKFLOWS.md](./WORKFLOWS.md) | 1.2 | 2026-06-13 | 2027-06-13 | Annual | 🟢 Current | ISO NIST CIS |
 | [End-of-Life-Strategy.md](./End-of-Life-Strategy.md) | 1.0 | 2026-06-13 | 2027-06-13 | Annual | 🟢 Current | ISO NIST CIS |
-| [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 2.4 | 2026-06-28 | 2027-06-28 | Annual | 🟢 Current | ISO NIST CIS |
 | [Information_Security_Policy.md](./Information_Security_Policy.md) | 2.1 | 2026-06-28 | 2027-06-28 | Annual | 🟢 Current | ISO NIST CIS |
 | [CRA_Conformity_Assessment_Process.md](./CRA_Conformity_Assessment_Process.md) | 1.5 | 2026-06-28 | 2027-06-28 | Annual | 🟢 Current | ISO NIST CIS |
-| [Open_Source_Policy.md](./Open_Source_Policy.md) | 2.6 | 2026-06-28 | 2027-06-28 | Annual | 🟢 Current | ISO NIST CIS |
 | [Threat_Modeling.md](./Threat_Modeling.md) | 1.6 | 2026-06-28 | 2027-06-28 | Annual | 🟢 Current | ISO NIST CIS |
+| [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 2.5 | 2026-07-12 | 2027-07-12 | Annual | 🟢 Current | ISO NIST CIS |
+| [Open_Source_Policy.md](./Open_Source_Policy.md) | 2.7 | 2026-07-12 | 2027-07-12 | Annual | 🟢 Current | ISO NIST CIS |
 
 ---
 
@@ -201,7 +201,7 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 | Document | Size (KB) | Size Status | Review Status | Last Updated |
 |----------|-----------|-------------|---------------|--------------|
 | [Compliance_Checklist.md](./Compliance_Checklist.md) | 243 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
-| [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 137 | 🔴 Oversized | 🟢 Current | 2026-06-28 |
+| [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 142 | 🔴 Oversized | 🟢 Current | 2026-07-12 |
 | [Information_Security_Strategy.md](./Information_Security_Strategy.md) | 122 | 🔴 Oversized | 🟢 Current | 2026-06-28 |
 | [Risk_Register.md](./Risk_Register.md) | 107 | 🔴 Oversized | 🟢 Current | 2026-06-28 |
 | [SUPPLIER.md](./SUPPLIER.md) | 100 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
@@ -211,11 +211,11 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 79 | 🔴 Oversized | 🟢 Current | 2026-06-20 |
 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | 77 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [ISO_5230_Self_Certification.md](./ISO_5230_Self_Certification.md) | 69 | 🔴 Oversized | 🟢 Current | 2026-04-10 |
+| [Open_Source_Policy.md](./Open_Source_Policy.md) | 68 | 🔴 Oversized | 🟢 Current | 2026-07-12 |
 | [Asset_Register.md](./Asset_Register.md) | 68 | 🔴 Oversized | 🟢 Current | 2026-06-02 |
 | [CLASSIFICATION.md](./CLASSIFICATION.md) | 62 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [Data_Classification_Policy.md](./Data_Classification_Policy.md) | 61 | 🔴 Oversized | 🟢 Current | 2026-01-25 |
 | [Partnership_Framework.md](./Partnership_Framework.md) | 60 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
-| [Open_Source_Policy.md](./Open_Source_Policy.md) | 57 | 🔴 Oversized | 🟢 Current | 2026-06-28 |
 | [Business_Continuity_Plan.md](./Business_Continuity_Plan.md) | 53 | 🔴 Oversized | 🟢 Current | 2026-03-05 |
 | [Risk_Assessment_Methodology.md](./Risk_Assessment_Methodology.md) | 52 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [Network_Security_Policy.md](./Network_Security_Policy.md) | 51 | 🔴 Oversized | 🟢 Current | 2026-01-25 |
@@ -327,6 +327,6 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 **✅ Generated by:** Automated GitHub Actions Workflow  
 **📤 Distribution:** Public (GitHub Repository)  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-green?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)  
-**📅 Last Generated:** 2026-07-11 06:55 UTC  
+**📅 Last Generated:** 2026-07-12 13:33 UTC  
 **⏰ Next Update:** Weekly (Automated)  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](CLASSIFICATION.md)
