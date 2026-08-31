@@ -11,1283 +11,513 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Owner-CEO-0A66C2?style=for-the-badge" alt="Owner"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-3.8-555?style=for-the-badge" alt="Version"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--07--01-success?style=for-the-badge" alt="Effective Date"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-4.0-555?style=for-the-badge" alt="Version"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Effective-2026--08--31-success?style=for-the-badge"
+  alt="Effective Date"/></a>
   <a href="#"><img src="https://img.shields.io/badge/Review-Monthly-orange?style=for-the-badge" alt="Review Cycle"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 3.8 | **📅 Last Updated:** 2026-07-01 (UTC)  
-**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2026-08-01
+**📋 Document Owner:** CEO | **📄 Version:** 4.0 | **📅 Last Updated:** 2026-08-31 (UTC)  
+**🔄 Review Cycle:** Monthly | **⏰ Next Review:** 2026-09-30
+
+---
+
+> **📌 August 2026 executive update:** The OpenSSF portfolio average is **7.8 / 10** (median 7.7, range 7.2–8.5) across
+> the nine active product repositories, measured on fresh scans dated 2026-08-06 – 2026-08-27. That is **+0.3 vs. the
+> 2026-07-01 baseline (7.5)** and **−0.1 vs. the 2026-08-02 checkpoint (7.9)** as the newly published Scorecard
+> Vulnerabilities findings (supply-chain advisory sweep) partially offset earlier gains. Four of nine products score
+> ≥8.0; CIA leads at 8.5. The Q3 exit target remains **≥8.5 average by 2026-09-30**. The dominant measured gaps are
+> **Code-Review (0.0), Fuzzing (0.0), CII Best Practices (3.3), Token-Permissions (6.0), Branch-Protection (7.2)**, and
+> **Vulnerabilities (7.1)**.
 
 ---
 
 ## 🎯 **Purpose Statement**
 
-**Hack23 AB's** security metrics embody our core principle: **🌟 transparency creates trust and demonstrates expertise**. Every metric displayed publicly serves as both operational monitoring and marketing demonstration of our cybersecurity consulting capabilities.
+**Hack23 AB's** security metrics embody our core principle: **🌟 transparency creates trust and demonstrates expertise**.
+Every publicly displayed metric supports operational monitoring while demonstrating the measurable DevSecOps excellence
+delivered to our consulting clients.
 
-Our comprehensive metrics framework integrates **OpenSSF Scorecard best practices**, **GitHub Advanced Security insights**, and **AWS security services** to provide real-time visibility into our security posture. This transparency showcases our **🏆 competitive advantage** through measurable security excellence while enabling **💡 innovation enablement** through data-driven security decisions.
+Our metrics framework integrates **OpenSSF Scorecard best practices**, **GitHub Advanced Security insights**, and **AWS
+security services** to provide evidence-led visibility into our security posture. This transparency supports our **🏆
+competitive advantage** through measurable security excellence and enables **💡 innovation** through data-driven
+decisions.
 
-By maintaining **🌐 live security dashboards** with **📊 public accountability**, we demonstrate the very DevSecOps excellence we deliver to our consulting clients.
+_— James Pether Sörling, CEO/Founder_
 
-*— James Pether Sörling, CEO/Founder*
+### 📌 **Scope, Methodology & Data-Quality Rules**
 
----
+**Scope.** The portfolio measure covers nine active, publicly scored product repositories: CIA Compliance Manager, CIA,
+Lambda in Private VPC, Riksdagsmonitor, Black Trigram, European Parliament MCP Server, EU Parliament Monitor, Homepage,
+and Game. `ISMS-PUBLIC` is documentation-only and `sonar-cloudformation-plugin` is archived (2026-07-27); neither is
+included in aggregates, targets, or trends.
 
-## 🏆 **Phase 1 Foundation Excellence — Achievement Summary (2025)**
+**Method.** Scores and individual checks were retrieved directly from
+`https://api.securityscorecards.dev/projects/github.com/Hack23/<repository>` on 2026-08-31 (UTC). Immutable collection
+copies are retained in [`evidence/openssf-scorecard-2026-08-31/`](./evidence/openssf-scorecard-2026-08-31/). A check
+value of `-1` means **not applicable**, not zero; it is excluded from check averages. Scorecard is a supply-chain
+signal, not a substitute for GitHub alert triage, AWS findings review, or risk acceptance.
 
-**Completion Status:** ✅ Phase 1 core milestones achieved (November 2025) with OpenSSF scorecard baseline established for Phase 2 improvement
+### ✨ **Report Quality Improvements Applied in This Revision (v4.0)**
 
-**Strategic Context:** Phase 1 (Q3-Q4 2025) established industry-leading ISMS foundation and public transparency, setting the stage for Phase 2 security maturity advancements in 2026.
-
-### **📊 Phase 1 Achievement Table**
-
-| Metric | Target (2025) | Actual (Dec 2025) | Variance | Status | Evidence |
-|--------|---------------|-------------------|----------|--------|----------|
-| **OpenSSF Scorecard (Avg)** | >8.5 | See live badges below | — | 🟡 Solid Foundation | [![CIA](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) [![BT](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) [![CM](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) [![EP](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) [![EPM](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) [![RM](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) |
-| **CII Best Practices** | Gold/Passing | Achieved | 100% | ✅ Achieved | [CIA: Gold](https://bestpractices.coreinfrastructure.org/projects/770), [CM: Passing](https://bestpractices.coreinfrastructure.org/projects/10365), [BT: Passing](https://bestpractices.coreinfrastructure.org/projects/10777), [EP MCP: Passing](https://bestpractices.coreinfrastructure.org/projects/12067), [EPM: Passing](https://bestpractices.coreinfrastructure.org/projects/12068), [RM: Passing](https://bestpractices.coreinfrastructure.org/projects/12069) |
-| **Critical Vulnerabilities >7d** | 0 | 0 | 100% | ✅ Maintained | [Dependabot Monitoring](https://github.com/orgs/Hack23/security/overview) |
-| **ISMS Documentation** | 100% | 100% (70% public) | 100% | ✅ Achieved | [Public ISMS Repository](https://github.com/Hack23/ISMS) |
-| **Evidence Freshness** | <30 days | 15 days avg | 200% fresher | ✅ Exceeded | Git commit history |
-| **Control Coverage** | >90% | 95% | 105.6% | ✅ Exceeded | [Compliance Checklist](./Compliance_Checklist.md) |
-| **Automation Coverage** | 70% | 85% | 121.4% | ✅ Exceeded | [CI/CD Pipelines](https://github.com/Hack23/cia/actions), [AWS Config](https://console.aws.amazon.com/config) |
-| **Zero Critical Incidents** | Target | Zero | 100% | ✅ Achieved | [Incident Response Plan](./Incident_Response_Plan.md) tracking |
-| **Availability** | >99.5% | 99.8% | 100.3% | ✅ Exceeded | [CloudWatch Metrics](https://console.aws.amazon.com/cloudwatch) |
-
-**Note on OpenSSF Scorecard:** Phase 1 established a solid foundation for Phase 2 improvement to >9.0 by Q2 2026. Gap primarily attributed to branch protection settings, dependency update automation optimization, and binary artifacts in releases requiring SLSA provenance enhancement. See [live scorecard data](https://scorecard.dev/viewer/?uri=github.com/Hack23) for current values.
-
-### **🎯 Key Success Factors**
-
-- **🏗️ Focused Investment:** 750 hours in Q3-Q4 2025 created permanent competitive advantage
-- **🤖 Automation-First:** 85% automation enables sustainable lean operations
-- **🌐 Transparency:** 70% public ISMS attracts clients and demonstrates expertise
-- **📊 Evidence-Based:** Real-time metrics drive data-driven improvements
-- **🎯 Classification-Driven:** [Classification Framework](./CLASSIFICATION.md) enabled risk-based resource allocation
-- **🛡️ DevSecOps Integration:** Comprehensive security pipeline prevents security debt
-
-### **📈 Historical Metrics Progression (Q2-Q4 2025)**
-
-| Metric | Q2 2025 (Jun) | Q3 2025 (Sep) | Q4 2025 (Dec) | Change |
-|--------|---------------|---------------|---------------|--------|
-| **OpenSSF Scorecard (Avg)** | N/A | Baseline | [See live badges](https://scorecard.dev/viewer/?uri=github.com/Hack23) | ⬆️ Improving |
-| **ISMS Documentation %** | 0% | 60% | 100% | ⬆️ +100% |
-| **Critical Vulnerabilities** | - | 2 | 0 | ⬇️ -100% |
-| **Automation Coverage** | 40% | 70% | 85% | ⬆️ +45% |
-| **Control Documentation** | 0% | 80% | 95% | ⬆️ +95% |
-| **Evidence Freshness (days)** | - | 25 | 15 | ⬆️ +40% |
-
-**Key Insights:** Phase 2 targets (+1.07 OpenSSF points to >9.0, +20% evidence automation to 95%) are achievable based on Q3-Q4 velocity.
-
-### **🔍 Evidence Validation (Last Updated: 2026-07-01)**
-
-| Metric | Value | Evidence | Frequency | Automation |
-|--------|-------|----------|-----------|------------|
-| **OpenSSF Scorecard** | 7.5 avg (9 active repos) — see [July 2026 snapshot](#-july-2026-live-scorecard-snapshot-2026-07-01) | [scorecard.dev](https://api.securityscorecards.dev) | Weekly | ✅ Automated |
-| **CII Best Practices** | Gold (CIA) + 5 Passing | [CII Portal](https://bestpractices.coreinfrastructure.org) | Monthly | ⚠️ Manual |
-| **Critical Vulnerabilities** | 0 critical open (all repos); Dependabot backlog cleared — OpenSSF Vulnerabilities check recovered to **10/10 on all 9 active repos** (was 6.2 avg in June) | [Dependabot](https://github.com/orgs/Hack23/security/overview) | Daily | ✅ Automated |
-| **Control Coverage** | 95% | [Compliance Checklist](./Compliance_Checklist.md) | Quarterly | ⚠️ Manual |
-| **Automation Coverage** | 85% | [Segregation of Duties (SoD) Policy](./Segregation_of_Duties_Policy.md) | Quarterly | ⚠️ Manual |
-| **Availability** | 99.8% | [CloudWatch](https://console.aws.amazon.com/cloudwatch) | Continuous | ✅ Automated |
-
-**Phase 2 Automation Opportunities:** CII API integration, automated control validation scripts, self-assessment tooling.
+- Integrates the 2026-08-02 interim draft (previously a separate file) into this canonical monthly report; the
+  temporary file is removed.
+- Adds a **three-month trend table** (2026-06-30 → 2026-07-01 → 2026-08-02 → 2026-08-31) per repository and per check.
+- Every active repository now has a fresh API result (≤25 days old); no stale-scan caveats remain.
+- Separates **Scorecard Vulnerabilities check findings** from GitHub Advanced Security alert state; severity and
+  open-alert counts are validated against Dependabot exports before publication.
+- Consolidates previously duplicated OpenSSF sections (snapshot, alignment matrix, per-repo gap lists) into one
+  authoritative snapshot plus one gap analysis.
+- Removes outdated historical narrative sections (Phase 1 retrospective detail, 2025 quarterly progression) superseded
+  by the trend table; key facts are preserved in condensed form.
 
 ---
 
-## 📡 **July 2026 Live Scorecard Snapshot (2026-07-01)**
+## 🏆 **August 2026 Live OpenSSF Scorecard Snapshot (2026-08-31)**
 
-Monthly review checkpoint capturing current OpenSSF Scorecard, release cadence, and activity across **all 11 Hack23 repositories tracked** (**9 active products** scored by OpenSSF + 1 docs-only ISMS-PUBLIC mirror + 1 archived Sonar-CloudFormation-Plugin shown for completeness). All subsequent averages, aggregates, and remediation targets in this section are computed over the **9 active repos only**. Data pulled directly from `api.securityscorecards.dev` and GitHub REST API as of 2026-07-01 (UTC); OpenSSF scans dated 2026-06-30 except Lambda-VPC (2026-04-30) and Homepage (2025-12-16) where the weekly workflow has not refreshed.
+**Collection timestamp:** 2026-08-31 UTC • **Active repositories:** 9 • **Average:** **7.8** (exact 7.80) • **Median:**
+7.7 • **Range:** 7.2–8.5 • **≥8.0:** 4/9 • **≥8.5:** 1/9
 
-> **📌 Repository topology note:** The internal `Hack23/ISMS` repo (private — governance, asset register, supplier records, business strategy) is mirrored to the public `Hack23/ISMS-PUBLIC` repo (47 stars) for transparency. Both are documentation-only and excluded from OpenSSF scoring aggregates.
+| # | 🗂️ **Repository** | 🏆 **Score** | 📈 **Δ vs. 2026-08-02** | 📈 **Δ vs. 2026-07-01** | 🕒 **Scorecard Scan (UTC)** | 📦 **Latest Release** | 🔗 **Evidence** |
+| ---: | --- | ---: | ---: | ---: | --- | --- | --- |
+| 1 | 🏛️ CIA | **8.5** | −0.1 | **+0.6** | 2026-08-21 | [2026.8.30](https://github.com/Hack23/cia/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/cia) |
+| 2 | 🎮 Black Trigram | **8.3** | −0.1 | **+1.0** | 2026-08-27 | [v0.7.118](https://github.com/Hack23/blacktrigram/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram) |
+| 3 | 📊 CIA Compliance Manager | **8.2** | −0.2 | **+0.2** | 2026-08-20 | [v1.1.141](https://github.com/Hack23/cia-compliance-manager/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager) |
+| 4 | 🇪🇺 European Parliament MCP Server | **8.1** | −0.1 | **+0.8** | 2026-08-18 | [v1.4.31](https://github.com/Hack23/European-Parliament-MCP-Server/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server) |
+| 5 | 🌐 Homepage | **7.7** | 0.0 | **+0.5** | 2026-08-24 | [v1.0.47](https://github.com/Hack23/homepage/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage) |
+| 6 | 🗳️ Riksdagsmonitor | **7.5** | −0.1 | +0.1 | 2026-08-27 | [v1.0.72](https://github.com/Hack23/riksdagsmonitor/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor) |
+| 7 | 🇪🇺 EU Parliament Monitor | **7.4** | −0.2 | +0.1 | 2026-08-21 | [v1.0.70](https://github.com/Hack23/euparliamentmonitor/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor) |
+| 8 | 📡 Lambda in Private VPC | **7.3** | 0.0 | −0.3 | 2026-08-06 | [v0.0.24](https://github.com/Hack23/lambda-in-private-vpc/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc) |
+| 9 | 🎮 Game | **7.2** | 0.0 | 0.0 | 2026-08-20 | [v1.2.121](https://github.com/Hack23/game/releases) | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) · [API](https://api.securityscorecards.dev/projects/github.com/Hack23/game) |
+| — | 📋 ISMS-PUBLIC | N/A | excluded | excluded | documentation-only | — | [repository](https://github.com/Hack23/ISMS-PUBLIC) |
+| — | 🔧 Sonar CloudFormation Plugin | 5.6 | excluded | excluded | archived (2026-07-27) | archived | [viewer](https://scorecard.dev/viewer/?uri=github.com/Hack23/sonar-cloudformation-plugin) |
 
-### **🏆 OpenSSF Scorecard — All Hack23 Repositories**
+### 📈 **Trend — Portfolio Average & Distribution (3-Month View)**
 
-The table below lists all **11 tracked Hack23 repositories** (9 scored active products + ISMS-PUBLIC docs-only + archived Sonar-CloudFormation-Plugin). The ISMS-PUBLIC and archived rows are shown for completeness and are **excluded from every aggregate, average, and remediation target** computed in this section.
+| 📅 **Checkpoint** | 🏆 **Avg** | **Median** | **Min** | **Max** | **≥8.0** | **Key Driver** |
+| --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 2026-07-01 | 7.5 | 7.4 | 7.2 | 8.0 | 1/9 | Vulnerabilities check recovered to 10/10 org-wide after Dependabot backlog clearance |
+| 2026-08-02 | 7.9 | 7.7 | 7.2 | 8.6 | 4/9 | Fresh scans + Token-Permissions/Branch-Protection gains (BT +1.1, EP-MCP +0.9, CIA +0.7 MoM) |
+| 2026-08-31 | **7.8** | **7.7** | **7.2** | **8.5** | **4/9** | New Vulnerabilities findings published (avg 10.0 → 7.1) partially offset by Token-Permissions gains (3.0 → 6.0) |
 
-| # | Project | Score | Trend vs. June 2026 | Scorecard Date | Latest Release | CII Level |
-|---|---------|-------|--------------------|----------------|----------------|-----------|
-| 1 | 📊 **CIA Compliance Manager** | **8.0** | 🟢 +0.5 ⬆️ | 2026-06-30 | [v1.1.100](https://github.com/Hack23/cia-compliance-manager/releases) | ✅ Passing ([#10365](https://bestpractices.coreinfrastructure.org/projects/10365)) |
-| 2 | 🏛️ **CIA** (Citizen Intelligence Agency) | **7.9** | 🟢 Stable | 2026-06-30 | [2026.6.30](https://github.com/Hack23/cia/releases) | 🥇 Gold ([#770](https://bestpractices.coreinfrastructure.org/projects/770)) |
-| 3 | 📡 **Lambda in Private VPC** | **7.6** | 🟢 Stable (stale scan) | 2026-04-30 | [v0.0.24](https://github.com/Hack23/lambda-in-private-vpc/releases) | ⚪ Not enrolled |
-| 4 | 🗳️ **Riksdagsmonitor** | **7.4** | 🟢 +0.6 ⬆️ | 2026-06-30 | [v1.0.26](https://github.com/Hack23/riksdagsmonitor/releases) | ✅ Passing ([#12069](https://bestpractices.coreinfrastructure.org/projects/12069)) |
-| 5 | 🎮 **Black Trigram** | **7.3** | 🟢 +0.7 ⬆️ | 2026-06-30 | [v0.7.75](https://github.com/Hack23/blacktrigram/releases) | ✅ Passing ([#10777](https://bestpractices.coreinfrastructure.org/projects/10777)) |
-| 6 | 🇪🇺 **European Parliament MCP Server** | **7.3** | 🟢 +0.5 ⬆️ | 2026-06-30 | [v1.3.32](https://github.com/Hack23/European-Parliament-MCP-Server/releases) | ✅ Passing ([#12067](https://bestpractices.coreinfrastructure.org/projects/12067)) |
-| 7 | 🇪🇺 **EU Parliament Monitor** | **7.3** | 🟢 Stable | 2026-06-30 | [v1.0.23](https://github.com/Hack23/euparliamentmonitor/releases) | ✅ Passing ([#12068](https://bestpractices.coreinfrastructure.org/projects/12068)) |
-| 8 | 🌐 **Homepage** | **7.2** | 🟡 Stale scan (2025-12-16) | 2025-12-16 | [v1.0.24](https://github.com/Hack23/homepage/releases) | ⚪ Not enrolled |
-| 9 | 🎮 **Game Template** | **7.2** | 🟢 +0.2 ⬆️ | 2026-06-30 | [v1.2.90](https://github.com/Hack23/game/releases) | ⚪ Not enrolled |
-| — | 📋 **ISMS-PUBLIC** _(docs-only — not scored, 47★)_ | N/A | — | — | — | ⚪ Not applicable |
-| — | 🔧 **Sonar-CloudFormation-Plugin** ⚠️ _(archived — read-only)_ | Archived | — | — | Archived | ✅ Passing ([#4545](https://bestpractices.coreinfrastructure.org/projects/4545)) |
-
-**📊 Aggregate (rows 1–9 only, excludes ISMS-PUBLIC and archived):** Average **7.5** · Min **7.2** · Max **8.0** · Phase 2 target ≥ **9.0 avg, ≥8.8 min**.
-
-**🚀 Headline movement:** **The portfolio-wide Vulnerabilities-check regression has fully recovered — all 9 active repos now score 10/10 (was 6.2 avg in June), lifting the org average 7.2 → 7.5 (+0.3).** The late-May/June npm dev-dependency advisory sweep (qs, serialize-javascript, uuid, undici, vite, js-yaml, ip-address, @babel/core) was cleared by batch-merging the Dependabot backlog across every JS/TS repo. **CIA Compliance Manager is the new portfolio leader at 8.0 (+0.5)** with its Vulnerabilities check restored 3 → 10. **Black Trigram was the top mover (+0.7 → 7.3)** (Vulnerabilities 1 → 10), followed by **Riksdagsmonitor (+0.6 → 7.4)** (2 → 10) and **EP-MCP (+0.5 → 7.3)** (3 → 10). **CIA held steady at 7.9** (clean Vulnerabilities check throughout; CII-Best-Practices check still reads `5` despite its Gold badge, capping further gains). **The new portfolio floor is 7.2 (Homepage — stale 2025-12-16 scan — and Game Template).** With Vulnerabilities resolved, **Token-Permissions (avg 3.0) and Branch-Protection (avg 2.9) are now the dominant remaining blockers** to the ≥9.0 target.
-
-### **🔬 Per-Check Gap Analysis (average across 9 active repos)**
-
-| OpenSSF Check | Avg Score | Status | Primary Blocker | Phase 2 Remediation |
-|---------------|-----------|--------|-----------------|---------------------|
-| **Maintained** | 10 | ✅ Perfect | All 9 repos score 10 | Sustain ≥1 commit/week cadence |
-| **CI-Tests** | 10 | ✅ Perfect | — | Maintain CI workflow coverage |
-| **Dependency-Update-Tool** | 10 | ✅ Perfect | — | Maintain Dependabot coverage |
-| **Dangerous-Workflow** | 10 | ✅ Perfect | — | Maintain pinned + least-privilege workflows |
-| **Security-Policy** | 10 | ✅ Perfect | — | Keep `SECURITY.md` current per [Secure Development Policy](./Secure_Development_Policy.md) |
-| **Signed-Releases** | 10 | ✅ Perfect (where applicable) | Lambda-VPC & Homepage `-1` (N/A — releases exist, but signed-release provenance is not yet verified) | Maintain cosign/SLSA provenance |
-| **Vulnerabilities** | 10 | ✅ **Recovered** | Full recovery from 6.2 avg (June) — all 9 repos now 10 after clearing the npm dev-dependency Dependabot backlog | **Sustain 0-alert posture** via Dependabot auto-merge per [Vulnerability Management Policy](./Vulnerability_Management.md) |
-| **Packaging** | 10 (where measured) | ✅ Strong | Several repos `-1` (N/A) | No action; correct for doc/site repos |
-| **Binary-Artifacts** | 9.9 | 🟢 Strong | CIA @ 9 | Remove remaining binaries from CIA release assets |
-| **SAST** | 9.8 | 🟢 Strong | EPM & RM @ 9 | Expand SonarCloud + CodeQL coverage |
-| **License** | 8.9 | 🟢 Strong | Game repo missing SPDX header (scored 0) | Add SPDX to Game LICENSE |
-| **Pinned-Dependencies** | 8.6 | 🟡 Improving | Transitive action SHAs (most repos @ 8–9; Lambda-VPC @ 10) | Pin all GHAs to SHA org-wide |
-| **Contributors** | 7.8 | 🟡 Fair | Solo maintainer; 4 repos scored 6 (< 2 orgs) | Invite community contributors in Q3 2026 |
-| **CII-Best-Practices** | 3.3 | 🟡 Gap | 3 repos @ 0 (Homepage, Game, Lambda-VPC not enrolled); 6 enrolled @ 5 (incl. CIA, whose check reads `5` despite Gold badge) | Enrol remaining 3 repos + drive enrolled repos 5 → 10 by Q3 2026 |
-| **Token-Permissions** | 3.0 | 🔴 **Top Gap** | 6 of 9 repos score `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC — default `write-all` inherited). CIA, CM & Game now at 9 ✅ | **Q3 2026 priority:** org-wide `permissions: read-all` default + per-job minimal scopes |
-| **Branch-Protection** | 2.9 | 🔴 **Top Gap** | Solo maintainer — admin bypass inflates risk (Homepage `-1` / N/A excluded). CIA & Lambda-VPC @ 4 ✅; Game @ 0 | Replicate CIA model org-wide: required reviews, signed commits, linear history |
-| **Code-Review** | 0.0 | 🔴 Structural | Solo-maintainer model — all 9 repos @ 0 | Document compensating controls in [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md); formalise AI-agent + temporal-separation review |
-| **Fuzzing** | 0 | 🔴 Structural | Not yet implemented | Q3 2026: OSS-Fuzz enrolment for CIA (Java) + libFuzzer for EP-MCP |
-
-### **🚨 Top 3 Organization-Wide Actions (Q3 2026)**
-
-1. **🔴 Token-Permissions hardening (new top priority)** — Enforce `permissions: read-all` org default + per-job `permissions:` blocks on the 6 repos scoring `0` (BT, EP-MCP, EPM, RM, Homepage, Lambda-VPC). CIA, CM & Game prove the pattern at 9. Expected lift: **+1.7 pts avg score**. Track per [Secure Development Policy](./Secure_Development_Policy.md).
-2. **🔴 Branch-Protection uplift — replicate the CIA pattern** — CIA & Lambda-VPC at 4 ✅. Apply CODEOWNERS review + signed commits + linear history to the 6 remaining active repos (and lift Game from 0). Expected lift: **+0.4 pts avg score**.
-3. **🟡 CII-Best-Practices closure** — Enrol the 3 unenrolled repos (Homepage, Game, Lambda-VPC) and drive the 6 enrolled repos from `5` → `10`. Re-validate the CIA Gold submission so its check reads `10` (not `5`), unlocking CIA's path above 8.0. Expected lift: **+1.5 pts avg CII check**.
-
-**✅ Recovery win:** **All 9 active repos restored their Vulnerabilities check to 10/10** (portfolio avg 6.2 → 10.0) after batch-merging the npm dev-dependency Dependabot backlog — Black Trigram (1 → 10), Riksdagsmonitor (2 → 10), CM & EP-MCP (3 → 10). This recovered the June regression and lifted the org average 7.2 → 7.5. **Watch item:** CIA's CII-Best-Practices check still reads `5` despite its Gold badge; re-validate the CII submission to restore the check to 10.
-
-### **📈 Phase 2 Milestone Status (as of 2026-07-01)**
-
-| Phase 2 Q1–Q2 Target | Current | Status | Notes |
-|----------------------|---------|--------|-------|
-| OpenSSF ≥ 8.5 avg by end Q2 | 7.5 avg (CM highest @ 8.0) | 🔴 Missed Q2 | Vulnerabilities recovered (+0.3); Token-Permissions + Branch-Protection now the blockers — rolled to Q3 |
-| Branch protection enforcement | CIA & Lambda-VPC at 4 ✅; 7 repos pending | 🟡 In Progress | Replicate CIA pattern across remaining repos |
-| Evidence automation ≥ 85% | ~82% | 🟡 On track | CII + control-coverage remain manual |
-| MTTD < 6 min | ~7 min avg | 🟡 Close | GuardDuty + CloudWatch tuning continuing |
-| OWASP LLM coverage ≥ 70% | 56% | 🟡 On track | Policy expansion per [OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) |
-| Vulnerability SLA 100% critical < 3 days | 100% (0 critical open; backlog cleared) | ✅ Met | Dependabot auto-merge pipeline; Vulnerabilities check restored to 10/10 org-wide |
-
-**🎯 Revised Q3 2026 exit criteria:** Reach OpenSSF avg ≥ **8.5** by 2026-09-30 via the three org-wide actions above — Token-Permissions hardening is now the largest single lever; sustain the recovered 0-alert Vulnerabilities posture, 100% signed releases, and 99.8%+ availability.
+**Trend interpretation.** Net three-month movement is **+0.3 average** with the portfolio floor stable at 7.2 and four
+products now ≥8.0. The August dip is attributable to the Scorecard Vulnerabilities check reflecting newly published
+advisories (see triage table below) — not a control regression. Black Trigram is the standout three-month mover (+1.0),
+reaching 8.3 with Token-Permissions now at 10/10. Lambda in Private VPC is the only product below its July baseline
+(−0.3); its scan is the oldest in the portfolio (2026-08-06) and it carries zero Token-Permissions and CII enrollment —
+both scheduled in the Q3 remediation plan.
 
 ---
 
-## 🤖 **AI Agent Contribution Metrics (Q4 2025)**
+## 🔬 **Per-Check Gap Analysis & Trend (9 active repos)**
 
-**Agent Ecosystem Maturity:** ✅ Curator + 10 specialist agents operational per [AI Policy](./AI_Policy.md) and [Information Security Strategy](./Information_Security_Strategy.md#ai-agent-governance--curated-automation)
+Averages exclude N/A (`-1`) results. Δ compares against the 2026-07-01 baseline.
 
-### 📊 **Automation Impact Analysis**
+| 🔍 **OpenSSF Check** | 📊 **Avg (08-31)** | 📈 **Δ vs 07-01** | 🎯 **Status** | 📋 **Evidence-Based Interpretation** | 🔧 **Next Control Action** |
+| --- | ---: | ---: | --- | --- | --- |
+| Maintained | 10.0 | 0.0 | ✅ | All nine score 10. | Sustain maintenance cadence. |
+| CI-Tests | 10.0 | 0.0 | ✅ | All nine score 10. | Preserve required CI checks. |
+| Dependency-Update-Tool | 10.0 | 0.0 | ✅ | All nine score 10. | Keep Dependabot configuration monitored. |
+| Dangerous-Workflow | 10.0 | 0.0 | ✅ | All nine score 10. | Maintain SHA pinning and least privilege. |
+| Security-Policy | 10.0 | 0.0 | ✅ | All nine score 10. | Review `SECURITY.md` with the monthly cycle. |
+| Binary-Artifacts | 10.0 | +0.1 | ✅ | All nine score 10 (CIA recovered 9 → 10). | Maintain release hygiene. |
+| Signed-Releases | 10.0* | 0.0 | ✅ | Eight applicable repositories score 10; Lambda-VPC N/A (no releases). | Retain provenance verification. |
+| Packaging | 10.0* | 0.0 | ✅ | Five applicable repositories score 10; four N/A. | No action for non-package repositories. |
+| SAST | 9.7 | −0.1 | 🟢 | EP-MCP, RM and EUPM score 9; remaining six score 10. | Review scanner coverage/configuration for the three 9s. |
+| License | 8.9 | 0.0 | 🟡 | Game scores 0 ("license file not detected"); the other eight score 10. | Add and verify a repository-root SPDX-compatible `LICENSE` in Game. |
+| Pinned-Dependencies | 8.6 | 0.0 | 🟡 | Range 7–10; Homepage lowest at 7; EP-MCP and Lambda-VPC at 10. | Pin remaining GitHub Actions to full commit SHAs; re-run Scorecard. |
+| Contributors | 7.8 | 0.0 | 🟡 | CIA, CM, Homepage, RM score 10; five repos score 6 (limited independent contributor diversity). | Structural metric; document compensating review controls. |
+| Vulnerabilities | 7.1 | **−2.9** | 🔴 | New findings: CIA 6, Homepage 5, EUPM 4, EP-MCP 3, RM 3, CM 2, Game 2; BT 1; Lambda-VPC 0. | Triage against GitHub alerts; remediate or record risk acceptance. See triage table below. |
+| Branch-Protection | 7.2 | **+4.3** | 🟡 | Eight repositories score 8; Game scores 1. | Prioritise Game, then close non-maximal protections on the other eight. |
+| Token-Permissions | 6.0 | **+3.0** | 🟠 | BT 10; CIA, CM, EP-MCP, Game 9; Homepage 8; RM, EUPM, Lambda-VPC 0. | Set workflow default `permissions: read-all`, then explicit job-level scopes on the three 0s. |
+| CII-Best-Practices | 3.3 | 0.0 | 🟠 | Six enrolled repos score 5; Homepage, Game, Lambda-VPC score 0 (not enrolled). | Enrol the three absent projects; drive enrolled projects 5 → 10. |
+| Code-Review | 0.0 | 0.0 | 🔴 | All applicable repositories score 0 (solo-maintainer model). | Implement independently verifiable PR review / temporal-separation evidence per [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md). |
+| Fuzzing | 0.0 | 0.0 | 🔴 | All nine score 0. | Risk-based feasibility assessment; pilot only where parsers or high-risk input handling justify it. |
 
-AI agents have transformed ISMS operations from labor-intensive manual processes to streamlined, data-driven workflows with measurable time savings and improved consistency.
+\*Average excludes N/A (`-1`) results.
 
-| Metric | Before AI Agents (Q2 2025) | After AI Agents (Q4 2025) | Improvement | Time Saved/Week |
-|--------|---------------------------|--------------------------|-------------|----------------|
-| **ISMS Documentation Maintenance** | 8 hours/week (manual updates) | 3 hours/week (automated triage + CEO review) | 62% reduction | 5 hours |
-| **Issue Creation & Triage** | 2-4 hours (manual analysis) | 15 minutes (automated with CEO approval) | 88% reduction | ~3.5 hours |
-| **Vulnerability Triage** | 4 hours/week (manual review) | 1 hour/week (AI-assisted prioritization) | 75% reduction | 3 hours |
-| **Policy Cross-Reference Validation** | 3 hours/quarter (manual checking) | 5 minutes/quarter (automated link validation) | 97% reduction | ~3 hours/quarter |
-| **Compliance Evidence Collection** | 6 hours/quarter (manual aggregation) | Automated (GitHub Actions) | ~100% reduction | ~6 hours/quarter |
+### 🚨 **Scorecard Vulnerability Findings Requiring Triage (2026-08-31)**
 
-**📊 Total Time Savings:** Approximately **12-15 hours per week** enabling strategic focus over operational overhead
+The Scorecard Vulnerabilities check regressed this month because newly published advisories now affect portfolio
+dependencies. Findings below are counts from the Scorecard check — **not** severity ratings. GitHub Dependabot
+validation on 2026-08-31 confirms CIA's open alerts are **medium severity** (CVE-2026-64607, dev-scope httpclient5);
+remaining repositories require the same triage before 2026-09-06.
 
-**💰 Value Impact:** At CEO opportunity cost of 1,500 SEK/hour, AI automation delivers **18,000-22,500 SEK/week** (0.94-1.17M SEK/year) in productivity gains, enabling focus on high-value consulting and strategic planning activities
-
-### 🎯 **Agent-Generated Issue Metrics**
-
-Tracking the evolution from manual issue creation to AI-driven ISMS improvement workflow:
-
-| Quarter | Manual Issues Created | Agent-Generated Issues | Agent Contribution % | Quality Score (CEO Rating) |
-|---------|---------------------|----------------------|---------------------|---------------------------|
-| **Q2 2025** | 10 | 0 | 0% | N/A (pre-agent baseline) |
-| **Q3 2025** | 8 | 5 | 38% | 3.8/5 (learning phase) |
-| **Q4 2025** | 3 | 12 | 80% | 4.5/5 (mature operation) |
-
-**Trend Analysis:**
-- **📈 Issue Creation Velocity:** 80% of ISMS improvements now AI-driven with CEO oversight
-- **✨ Quality Improvement:** Agent issue quality increased from 3.8/5 to 4.5/5 showing learning curve
-- **⚡ CEO Efficiency:** Manual issue creation reduced 70% (10→3 per quarter) freeing strategic time
-
-### 🚀 **Phase 2 AI Agent Targets (2026)**
-
-Building on Q4 2025 success, Phase 2 aims to optimize agent operations and expand automation coverage:
-
-| Target Area | Current (Q4 2025) | Phase 2 Target (2026) | Success Metric |
-|-------------|------------------|---------------------|----------------|
-| **Curator-Agent Optimization** | 3 hours/week maintenance | 2 hours/week (30% reduction) | Streamlined agent coordination |
-| **Automated Issue Creation** | 80% agent-generated | 90% agent-generated | CEO focus on strategic validation |
-| **Vulnerability Triage Accuracy** | ~85% triage accuracy | >95% AI triage accuracy | Human validation overhead reduced |
-| **Policy Update Automation** | Manual policy updates | 50% draft-automated | Agents propose policy improvements |
-| **Evidence Automation Rate** | 75% (current baseline) | 95% (Phase 2 target) | Near-complete automation |
-| **Agent Learning Effectiveness** | Issue quality 4.5/5 | Issue quality >4.7/5 | Continuous improvement |
-
-**Strategic Value:**
-- **🎯 CEO Time Liberation:** Additional 5-8 hours/week for client engagement and strategic planning
-- **🔄 Continuous Improvement:** Agents proactively identify ISMS gaps and improvement opportunities
-- **📊 Data-Driven Decisions:** Real-time metrics enable evidence-based resource allocation
-- **🏆 Competitive Advantage:** Automated ISMS operations demonstrate advanced security maturity
-
-**Integration with Security Metrics:**
-- AI agent performance metrics tracked in [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md)
-- Agent issue quality feeds into Pentagon framework quality dimension
-- Automation coverage directly impacts operational efficiency KPIs
+| Repository | Vulnerabilities check | API-reported findings | GitHub validation | Required action |
+| --- | ---: | ---: | --- | --- |
+| CIA | 4 | 6 | ✅ Medium-severity only (dev-scope) | Merge Dependabot PRs; confirm no critical/high. |
+| Homepage | 5 | 5 | 🔎 Pending | Confirm severity, reachability, and alert state. |
+| EU Parliament Monitor | 6 | 4 | 🔎 Pending | Confirm severity and remediation/acceptance decision. |
+| EP MCP Server | 7 | 3 | 🔎 Pending | Confirm severity and remediation/acceptance decision. |
+| Riksdagsmonitor | 7 | 3 | 🔎 Pending | Confirm severity and remediation/acceptance decision. |
+| CIA Compliance Manager | 8 | 2 | 🔎 Pending | Confirm severity and remediation/acceptance decision. |
+| Game | 8 | 2 | 🔎 Pending | Confirm severity and remediation/acceptance decision. |
+| Black Trigram | 9 | 1 | 🔎 Pending | Confirm severity and remediation/acceptance decision. |
+| Lambda in Private VPC | 10 | 0 | ✅ Clean | Maintain alert monitoring. |
 
 ---
 
-## 📚 **Lessons Learned from Phase 1 (2025)**
+## 🚀 **Q3 2026 Remediation Plan & Measurable Targets**
 
-### 🎯 **What Worked Well**
+| 🎯 **Priority** | 🔧 **Action** | 👤 **Scope / Owner** | 📅 **Due** | 📄 **Completion Evidence** | 📈 **Expected Scorecard Effect** | 🔄 **Status (08-31)** |
+| --- | --- | --- | --- | --- | --- | --- |
+| P0 | Triage Scorecard-reported vulnerability findings; fix, update dependencies, or record a time-bound risk acceptance. | CIA, Homepage, EUPM, EP-MCP, RM, CM, Game, BT / CEO | 2026-09-06 | GitHub alert export, PR/release, or approved risk record. | Restores Vulnerabilities check where remediable. | 🟡 CIA validated (medium only); 7 repos pending |
+| P0 | Harden workflow tokens. Set `permissions: read-all` globally and narrowly grant required job scopes. | RM, EUPM, Lambda-VPC / CEO | 2026-09-13 | Workflow diff, successful CI runs, API rescan. | Addresses the three remaining 0/10 Token-Permissions repos. | 🟡 6 of 9 repos now 8–10 (was 3 of 9) |
+| P0 | Raise Game branch protection from 1; ensure review, status checks, signed commits, and linear history are enforced where technically supported. | Game / CEO | 2026-09-13 | Branch-rule screenshot/API evidence and fresh Scorecard. | Largest single branch-protection gap. | 🔴 Open |
+| P1 | Close residual branch-protection gaps (8 → 10). | Remaining eight products / CEO | 2026-09-30 | Rule-set evidence and re-scan. | Moves 8/10 values toward maximum. | 🟡 In progress |
+| P1 | Fix Game license detection and pin residual GitHub Actions (Homepage first). | Game, Homepage / CEO | 2026-09-20 | SPDX/license validation and SHA-pinned workflow diffs. | Removes License 0; lifts Pinned-Dependencies floor. | 🔴 Open |
+| P1 | Enrol the three absent CII projects and validate badges for enrolled projects (incl. CIA Gold re-validation). | Homepage, Game, Lambda-VPC / CEO | 2026-09-30 | Public CII project pages and Scorecard results. | Raises CII-Best-Practices coverage (3.3 → target 8+). | 🔴 Open |
+| P2 | Establish evidence-based independent review / temporal separation for the solo-maintainer model. | All products / CEO | 2026-09-30 | SoD procedure, PR evidence, and quarterly validation. | May improve Code-Review where Scorecard criteria are met. | 🟡 Documented in SoD policy |
+| P2 | Produce a fuzzing decision record and pilot high-value targets. | CIA and input-parsing services / CEO | 2026-09-30 | Threat model, test workflow, and results. | Risk-based rather than blanket adoption. | 🟡 Scoped |
 
-| Success Area | Application to Phase 2 |
-|--------------|------------------------|
-| **🏗️ Foundation-First** | Continue strategic security infrastructure investment |
-| **🤖 Automation Priority** | Target 90%+ automation through AI agent optimization |
-| **🌐 Radical Transparency** | Maintain transparency with multi-region expansion |
-| **📊 Evidence-Based Management** | Expand metrics to <5min MTTD, 95% evidence automation |
-| **🏷️ Classification Framework** | Apply classification to all Phase 2 initiatives |
-| **🛡️ DevSecOps Integration** | Extend to DAST automation and shift-left testing |
+### 🎯 **Q3 Exit Criteria**
 
-_Detailed key learnings for each success area are documented in the Phase 1 retrospective (internal ISMS documentation)._
+**Q3 success measures:** portfolio average **≥8.5**; no active product below **8.0**; 100% of Scorecard Vulnerabilities
+findings triaged with evidence; Token-Permissions **≥9 average**; Game Branch-Protection **≥8**; and all metric claims
+traceable to a dated source.
 
-### ⚠️ **Challenges & Mitigation Strategies**
+---
 
-| Challenge | Mitigation | Future Prevention |
-|-----------|------------|------------------|
-| **OpenSSF Target** | Solid Phase 2 foundation | Q1 2026: branch protection, signed commits, SLSA |
-| **Time Investment** (750h, 900K SEK) | Strategic long-term advantage | AI agents reduce Phase 2 to <3h/week |
-| **Manual Evidence** (25% vs 95% target) | GitHub Actions automation | Automate remaining controls Q1-Q2 2026 |
-| **Single-Person Bottleneck** | Temporal separation + validation | Expand agent autonomy with guardrails |
-| **Scope Creep Risk** | Classification-driven prioritization | Continue risk-based approach |
+## 🏆 **Phase 1 Foundation — Condensed Achievement Record (2025)**
 
-### 💡 **Strategic Insights**
+**Completion Status:** ✅ Phase 1 core milestones achieved (November 2025), establishing the ISMS foundation and the
+OpenSSF baseline for Phase 2 improvement.
 
-- **OpenSSF Complexity** – Some checks require GitHub org-level settings → Q1 2026 systematic org-wide policy enforcement  
-- **Automation Diminishing Returns** – Last 5% evidence automation may not justify effort → Target pragmatic 95% vs 100%  
-- **AI Agent Learning** – Agent quality improved 3.8→4.5/5 over Q3-Q4 → Invest in training for >4.7/5  
-- **Transparency Advantage** – Public ISMS generated 45% increase in security inquiries → Amplify via conferences  
-- **Classification Efficiency** – Risk-based prioritization prevented wasted effort → Apply to all Phase 2 initiatives
+| **Metric** | **2025 Target** | **Result** | **Status** | **Evidence** |
+| --- | ---: | ---: | --- | --- |
+| 🏆 OpenSSF Scorecard | >8.5 | Baseline established; current value in snapshot above | 🟡 Phase 2 improvement active | [Live organization view](https://scorecard.dev/viewer/?uri=github.com/Hack23) |
+| 📚 ISMS Documentation | 100% | 100% documented; public transparency maintained | ✅ Achieved | [Public ISMS repository](https://github.com/Hack23/ISMS-PUBLIC) |
+| 🤖 Automation Coverage | 70% | 85% | ✅ Exceeded | CI/CD and ISMS evidence workflows |
+| 🔴 Critical Vulnerabilities >7d | 0 | 0 at 2025 checkpoint | ✅ Achieved | [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) |
+| 📊 Control Coverage | >90% | 95% | ✅ Exceeded | [Compliance Checklist](./Compliance_Checklist.md) |
+| ☁️ Availability | >99.5% | 99.8% | ✅ Exceeded | CloudWatch metrics |
+| 🏅 CII Best Practices | Gold/Passing | CIA Gold + 5 Passing | ✅ Achieved | [CII Portal](https://bestpractices.coreinfrastructure.org/) |
 
-### 📈 **Performance vs Expectations**
-
-| Metric | Target | Actual | Assessment |
-|--------|--------|--------|------------|
-| **ISMS Completion** | Q4 2025 | ✅ Q4 2025 | On target |
-| **OpenSSF Score** | >8.5 | 🟡 [See badges](https://scorecard.dev/viewer/?uri=github.com/Hack23) | Foundation solid for Phase 2 |
-| **Automation** | 70% | ✅ 85% | Exceeded +15% |
-| **Evidence Automation** | 95% | 🟡 75% | Phase 2 focus needed |
-
-**Overall:** Achieved 5/6 objectives. OpenSSF and evidence automation require Phase 2 focus.
+**Key success factors carried into Phase 2:** foundation-first investment, automation-first operations, radical
+transparency, and evidence-based management with dated sources and defined denominators.
 
 ---
 
 ## 🚀 **Phase 2 Security Maturity Targets (2026)**
 
-**Phase Duration:** January 2026 - December 2026  
-**Strategic Focus:** Advanced automation, enhanced monitoring, operational excellence, security recognition
+**Phase Duration:** January 2026 – December 2026
+**Strategic Focus:** Advanced automation, enhanced monitoring, operational excellence, and transparent security
+recognition.
 
 ### 🎯 **Core Security Objectives**
 
-| Category | Phase 1 Baseline (Dec 2025) | Phase 2 Target (2026) | Measurement Method | Priority |
-|----------|---------------------------|---------------------|-------------------|----------|
-| **🏆 OpenSSF Scorecard** | [See live badges](https://scorecard.dev/viewer/?uri=github.com/Hack23) | >9.0 average (all repos >8.8 minimum) | Weekly automated scorecard checks | 🔴 Critical |
-| **🤖 Security Automation** | 85% coverage | 90% coverage | Automated operations percentage | 🟠 High |
-| **⏱️ Mean Time to Detect (MTTD)** | 8 minutes average | <5 minutes | Critical incident detection time | 🔴 Critical |
-| **📊 Evidence Automation** | 75% automated | 95% automated | GitHub Actions + CI/CD evidence | 🟠 High |
-| **🔒 Vulnerability SLA** | 100% critical <7 days | 100% critical <3 days | Faster remediation targets | 🟡 Medium |
-| **🤖 AI Agent Optimization** | 80% issue creation | 90% issue creation | Agent-generated improvements | 🟡 Medium |
-| **🌍 Multi-Region DR** | Single region (eu-north-1) | Multi-region (active-passive) | Geographic redundancy | 🟢 Low |
-| **🔐 LLM Security Coverage** | 44% OWASP LLM Top 10 | 100% OWASP LLM Top 10 | Complete policy implementation | 🟠 High |
-| **🎖️ SLSA Provenance** | Level 3 (basic) | Level 3+ (enhanced) | Signed releases with full attestation | 🟡 Medium |
-| **🔐 Branch Protection** | Partial enforcement | 100% enforced + signed commits | Organization-wide policy | 🔴 Critical |
+| **Category** | **Phase 1 Baseline** | **2026 Target** | **August 2026 Status** | **Priority** |
+| --- | --- | --- | --- | --- |
+| 🏆 OpenSSF Scorecard | 7.5 avg (2026-07-01) | >9.0 average; all active repos >8.8 | **7.8 avg** / 7.2 min | 🔴 Critical |
+| 🤖 Security Automation | 85% coverage | ≥90% coverage | 🔎 Revalidate against workflow inventory | 🟠 High |
+| ⏱️ Mean Time to Detect | 8 min historic baseline | <5 min | 🔎 Requires measurement-window evidence | 🔴 Critical |
+| 📊 Evidence Automation | 75% historic baseline | 95% | 🔎 Requires numerator/denominator validation | 🟠 High |
+| 🔒 Vulnerability SLA | Critical <7 days | Critical <3 days | 🟡 25 Scorecard findings in triage; 0 confirmed critical | 🟡 Medium |
+| 🔐 Branch Protection | Partial enforcement | 100% + signed commits | 🟡 Eight repos 8/10; Game 1/10 | 🔴 Critical |
+| 🎖️ SLSA Provenance | Level 3 basic | Level 3+ enhanced | ✅ Signed releases 10/10 on all applicable repos | 🟡 Medium |
 
-### 📅 **2026 Quarterly Milestones**
+### 📅 **Phase 2 Quarterly Milestones**
 
-| Quarter | Key Objectives | Success Metrics |
-|---------|---------------|-----------------|
-| **Q1** | Branch protection enforcement, OpenSSF >8.5, Evidence automation >85%, MTTD <6min | Organization-wide security policy, automated evidence, enhanced monitoring |
-| **Q2** | OpenSSF >9.0, OWASP LLM 100%, Multi-region DR, Evidence automation 90% | SLSA provenance, complete LLM policy, active-passive DR |
-| **Q3** | MTTD <5min, 90% automation, Vuln SLA <3 days, AI quality >4.7 | AI-powered detection, enhanced triage, <5min MTTD |
-| **Q4** | Evidence automation 95%, Industry recognition, Zero trust, ISO 27001 ready | Conference speaking, network segmentation, audit-ready |
-
-_Note: For operational clarity in this single-person company context, the accountable owner for all 2026 quarterly milestones and success metrics is the **CEO**._
-
-### 🎯 **Strategic Focus Areas**
-
-1. **Advanced Threat Detection:** MTTD 8min→<5min via AI-powered monitoring, enhanced GuardDuty, automated correlation
-2. **Compliance Automation:** 75%→95% evidence automation via GitHub Actions, AWS Config, continuous monitoring
-3. **Zero Trust Architecture:** Network micro-segmentation, identity-based access, continuous verification
-4. **AI-Powered Security:** Agent optimization, automated triage, anomaly detection
-5. **Security Excellence Recognition:** Conference speaking, industry awards, thought leadership
-
-### 💰 **Investment & ROI**
-
-| Investment Area | Effort | Timeline | Expected ROI |
-|----------------|--------|----------|--------------|
-| **OpenSSF Improvement** | 80h | Q1-Q2 2026 | Enhanced client trust, competitive differentiation |
-| **Evidence Automation** | 120h | Q1-Q4 2026 | 6h/quarter saved, audit readiness |
-| **Multi-Region DR** | 60h | Q2 2026 | Business continuity, enterprise readiness |
-| **Zero Trust** | 100h | Q3-Q4 2026 | Advanced security posture, compliance |
-| **AI Agent Optimization** | 40h | Q1-Q3 2026 | 5-8h/week CEO time liberation |
-
-**Total Phase 2:** 400 hours (600K SEK) | **Expected Savings:** 300h/year operational time + enhanced client acquisition
-
-### 🎯 **2026 Scenarios**
-
-| Scenario | Probability | OpenSSF | Evidence Auto | MTTD | Impact |
-|----------|-------------|---------|---------------|------|--------|
-| **🟡 Conservative** | 40% | 8.9 | 90% | 6min | Maintains differentiation, steady improvement |
-| **✅ Base Case** | 35% | 9.1 | 95% | 5min | Validates model, client consultation reference |
-| **🚀 Optimistic** | 25% | 9.4 | 98% | 3min | Market leadership, premium positioning |
-
-### 🔍 **Specific Improvements**
-
-**OpenSSF Scorecard:** All repos targeting >9.0 (fuzzing, CI depth, tests, review, scanning) - [see live badges](https://scorecard.dev/viewer/?uri=github.com/Hack23)  
-**LLM Security:** 44%→100% | Q1-Q2: Supply chain, prompt injection, output handling, vector security | Q2-Q3: Data poisoning, excessive agency, misinformation
-
-### 📊 **Success Criteria**
-
-Phase 2 success requires:
-- [ ] OpenSSF >9.0 average score
-- [ ] MTTD <5 min
-- [ ] ≥95% evidence collection automated
-- [ ] ≥90% security operations automated
-- [ ] Critical vulnerabilities remediated within <3 days SLA
-- [ ] Multi-region disaster recovery in place and tested
-- [ ] 100% coverage of OWASP LLM security controls
-- [ ] External industry recognition for security posture
-- [ ] ISO 27001 readiness achieved
-- [ ] Zero production-impacting security incidents
+| **Quarter** | **Key Objectives** | **August 2026 Position** |
+| --- | --- | --- |
+| Q1–Q2 | Branch protection, OpenSSF ≥8.5, automated evidence, monitoring uplift | 🔴 OpenSSF target missed; remediation rolled into Q3 |
+| Q3 | OpenSSF ≥8.5, MTTD <5 min, token hardening, vulnerability triage | 🟡 Active: concrete actions in remediation plan above |
+| Q4 | Evidence automation 95%, ISO 27001 readiness, zero-trust maturity | ⏳ Planned |
 
 ---
 
-## 📊 **ISMS Governance Metrics**
+## 🛡️ **Security Operations Metrics — Reporting Discipline**
 
-**📈 [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md)** provides automated monitoring of our Information Security Management System health:
+The following metrics remain strategically important but were **not re-collected from authenticated systems in this
+public update**. They are shown as _verification required_, rather than carrying forward unsupported numeric claims.
 
-- **🚦 Policy Review Status:** Real-time tracking of 32 ISMS documents
-- **📅 Review Calendar:** Upcoming reviews for proactive planning
-- **📋 Document Health Matrix:** Complete metadata and compliance alignment
-- **🔄 Weekly Updates:** Automated generation via GitHub Actions
+| 📊 **Metric** | 🎯 **Target** | 🔗 **Authoritative Evidence** | 📅 **August Status** |
+| --- | --- | --- | --- |
+| Critical / high GitHub alerts | Critical: 0 open; high: within policy SLA | [GitHub organization security overview](https://github.com/orgs/Hack23/security/overview) | 🟡 CIA validated medium-only; full org export pending |
+| Vulnerability remediation SLA | Critical <3 days | GitHub alert timestamps and risk register | 🔎 Calculate from closed/open alert export |
+| AWS Security Hub / GuardDuty / Inspector findings | No unaccepted critical/high production findings | AWS consoles in the operating region(s) per [Asset Register](./Asset_Register.md) | 🔎 Verify region against asset register |
+| MTTD / MTTR | MTTD <5 min; remediation per severity | Incident and monitoring event timestamps | 🔎 Publish only from a defined measurement window |
+| Evidence automation | ≥95% by Q4 | Workflow inventory and control-evidence register | 🔎 Recalculate from documented numerator/denominator |
+| Availability | ≥99.8% | CloudWatch SLO period and source query | 🔎 State service scope and reporting period |
+| ISO / NIST / CIS coverage | Per approved compliance plan | [Compliance Checklist](./Compliance_Checklist.md) revision | 🔎 Reconcile control denominators before reporting |
 
-This application-level security metrics document complements the ISMS Metrics Dashboard by focusing on technical security controls, vulnerability management, and OpenSSF Scorecard performance.
+This approach prevents a Scorecard scan from being misrepresented as proof of operational alert status, cloud posture,
+or compliance certification.
 
 ---
 
-## 🤖 **AI Agent-Driven Metrics Collection**
+## 🤖 **AI Agent Contribution Metrics**
 
-Hack23 AB's curated agent ecosystem (per [Information Security Strategy](./Information_Security_Strategy.md#-ai-agent-governance--curated-automation)) provides real-time metrics collection with automated KPI tracking and threshold monitoring.
+**Agent Ecosystem Maturity:** ✅ Curator + specialist agents operational per [AI Policy](./AI_Policy.md) and [Information
+Security Strategy](./Information_Security_Strategy.md#ai-agent-governance--curated-automation).
 
-### 📋 **Automated KPI Collection Architecture**
+### 📊 **Automation Impact (Q4 2025 baseline, still current)**
 
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#1565C0',
-      'primaryTextColor': '#0d47a1',
-      'lineColor': '#1565C0',
-      'secondaryColor': '#4CAF50',
-      'tertiaryColor': '#FF9800'
-    }
-  }
-}%%
-flowchart TD
-    subgraph SOURCES["📊 Metrics Sources"]
-        OPENSSF["🎖️ OpenSSF Scorecard<br/>Supply Chain Security"]
-        SONAR["📊 SonarCloud<br/>Code Quality"]
-        GITHUB["🔒 GitHub Security<br/>Vulnerabilities & Secrets"]
-        AWS["☁️ AWS CloudWatch<br/>Infrastructure Metrics"]
-        FOSSA["📜 FOSSA<br/>License Compliance"]
-    end
-    
-    subgraph AGENTS["🤖 Task Agents<br/>Automated Collection"]
-        SEC_AGENT["🛡️ Security Architect<br/>Hourly OpenSSF Scan"]
-        QUAL_AGENT["✨ Code Quality Engineer<br/>Daily SonarCloud Check"]
-        ISMS_AGENT["📋 ISMS Ninja<br/>Weekly Policy Compliance"]
-        TEST_AGENT["🧪 Test Specialist<br/>Per-Build Coverage"]
-    end
-    
-    subgraph PROCESSING["📊 Metrics Processing"]
-        PENTAGON["🏆 Pentagon Mapping<br/>5-Dimension Classification"]
-        THRESHOLD{"⚠️ Threshold<br/>Breach Detection"}
-    end
-    
-    subgraph OUTPUTS["📈 Outputs"]
-        DASHBOARD["📊 ISMS Metrics Dashboard<br/>Security_Metrics.md"]
-        ALERT["🚨 CEO Notification<br/>Escalation Workflow"]
-        STORE["💾 Historical Storage<br/>Trend Analysis"]
-        REMEDIATE["🔧 Automated<br/>Remediation Issues"]
-    end
-    
-    OPENSSF --> SEC_AGENT
-    SONAR --> QUAL_AGENT
-    GITHUB --> SEC_AGENT
-    AWS --> SEC_AGENT
-    FOSSA --> SEC_AGENT
-    
-    SEC_AGENT --> PENTAGON
-    QUAL_AGENT --> PENTAGON
-    ISMS_AGENT --> PENTAGON
-    TEST_AGENT --> PENTAGON
-    
-    PENTAGON --> THRESHOLD
-    
-    THRESHOLD -->|Yes| ALERT
-    THRESHOLD -->|No| STORE
-    
-    ALERT --> REMEDIATE
-    STORE --> DASHBOARD
-    REMEDIATE --> DASHBOARD
-    
-    style SOURCES fill:#4CAF50,color:#fff
-    style AGENTS fill:#1565C0,color:#fff
-    style PROCESSING fill:#FF9800,color:#fff
-    style OUTPUTS fill:#7B1FA2,color:#fff
-```
+| Metric | Before AI Agents (Q2 2025) | After AI Agents (Q4 2025) | Improvement |
+| -------- | --------------------------- | -------------------------- | ------------- |
+| ISMS Documentation Maintenance | 8 hours/week manual | 3 hours/week (automated triage + CEO review) | 62% reduction |
+| Issue Creation & Triage | 2–4 hours manual | 15 minutes (automated with CEO approval) | 88% reduction |
+| Vulnerability Triage | 4 hours/week manual | 1 hour/week AI-assisted | 75% reduction |
+| Compliance Evidence Collection | 6 hours/quarter manual | Automated (GitHub Actions) | ~100% reduction |
 
-### 🔄 **Agent Data Collection Schedule**
+**📊 Total:** ~12–15 hours/week saved — **18,000–22,500 SEK/week** (≈0.94–1.17M SEK/year) at CEO opportunity cost of
+1,500 SEK/hour.
 
-| Agent Role | Data Sources | Collection Frequency | Output | Dashboard Integration |
-|------------|--------------|---------------------|--------|----------------------|
-| **🛡️ Security Architect** | OpenSSF Scorecard API, GitHub Security, AWS Security Hub | Hourly | Security dimension KPIs | Real-time push |
-| **✨ Code Quality Engineer** | SonarCloud API, Coverage Reports | Daily | Quality dimension KPIs | Daily sync |
-| **🧪 Test Specialist** | CI/CD Pipeline, Test Reports | Per build | QA dimension KPIs | Immediate push |
-| **💼 Business Dev Specialist** | Deployment Logs, Feature Tracking | Weekly | Functionality dimension KPIs | Weekly report |
-| **📋 ISMS Ninja** | Policy Review Status, Compliance Checklist | Weekly | ISMS Controls dimension KPIs | Weekly dashboard update |
+### 🎯 **Agent-Generated Issue Trend**
 
-### 🔗 **Integration Points**
+| Quarter | Manual Issues | Agent-Generated | Agent Contribution % | Quality Score (CEO Rating) |
+| --------- | -------------- | ----------------- | --------------------- | --------------------------- |
+| Q2 2025 | 10 | 0 | 0% | N/A (pre-agent baseline) |
+| Q3 2025 | 8 | 5 | 38% | 3.8/5 (learning phase) |
+| Q4 2025 | 3 | 12 | 80% | 4.5/5 (mature operation) |
 
-**Agent-to-Dashboard Data Flow:**
-- **📤 Push Mechanism:** Critical metrics (security alerts, threshold breaches) pushed immediately
-- **📥 Pull Mechanism:** Standard metrics collected on schedule and synced to dashboard
-- **🔄 Bidirectional:** Dashboard status informs agent prioritization for next collection cycle
-
-**Evidence Chain:**
-- All agent-collected metrics include timestamp, source verification, and audit trail
-- Historical data retained for trend analysis (minimum 2 years per ISMS retention policy)
-- Evidence links maintained for compliance audit readiness
+**2026 targets:** 90% agent-generated issues, >95% AI triage accuracy, 95% evidence automation, issue quality >4.7/5.
+Agent performance is tracked in the [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md).
 
 ---
 
 ## 🏆 **Pentagon Framework KPI Mapping**
 
-Security metrics mapped to the Pentagon dimensions (per [Information Security Strategy](./Information_Security_Strategy.md#pentagon-of-continuous-improvement)) for systematic improvement tracking and balanced performance assessment.
-
-### 📊 **Pentagon Dimension Overview**
+Security metrics mapped to the Pentagon dimensions (per [Information Security
+Strategy](./Information_Security_Strategy.md)) for systematic improvement tracking and balanced performance assessment.
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#1565C0', 'primaryTextColor': '#ffffff', 'lineColor': '#1565C0'}}}%%
 graph TB
-    subgraph "⭐ Pentagon of Importance - Security Metrics"
-        CENTER["🎯 ISMS Alignment<br/>Central Goal"]
-        
-        SEC["🔒 Security<br/>OpenSSF: Live<br/>MTTR: 18h<br/>Incidents: 0"]
-        QUAL["✨ Quality<br/>SonarCloud: Pass<br/>Coverage: 85%<br/>Tech Debt: 3.2%"]
-        FUNC["🚀 Functionality<br/>Velocity: 4.2/sprint<br/>Deploy Freq: 1.8/wk<br/>Success: 97%"]
-        QA["🧪 Quality Assurance<br/>Test Success: 97.5%<br/>Automation: 82%<br/>Bug Escape: 1.3%"]
-        ISMS_DIM["📋 ISMS Controls<br/>Compliance: 95%<br/>Evidence Auto: 75%<br/>Framework: 100%"]
-        
-        CENTER --- SEC
-        CENTER --- QUAL
-        CENTER --- FUNC
-        CENTER --- QA
-        CENTER --- ISMS_DIM
-    end
-    
+    CENTER["🎯 ISMS Alignment
+Transparent, evidence-led improvement"]
+    SEC["🔒 Security
+OpenSSF 7.8 avg • findings in triage • incidents 0"]
+    QUAL["✨ Quality
+SAST 9.7 • quality gates pass"]
+    FUNC["🚀 Functionality
+Release cadence weekly • all repos maintained 10/10"]
+    QA["🧪 Quality Assurance
+CI-Tests 10/10 • coverage gates"]
+    ISMSDIM["📋 ISMS Controls
+Evidence • policy currency • compliance"]
+    CENTER --- SEC
+    CENTER --- QUAL
+    CENTER --- FUNC
+    CENTER --- QA
+    CENTER --- ISMSDIM
     classDef center fill:#FFC107,stroke:#F57C00,stroke-width:4px,color:#000,font-weight:bold
-    classDef security fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff,font-weight:bold
-    classDef quality fill:#1976D2,stroke:#0D47A1,stroke-width:3px,color:#fff,font-weight:bold
-    classDef functionality fill:#388E3C,stroke:#2E7D32,stroke-width:3px,color:#fff,font-weight:bold
-    classDef qa fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff,font-weight:bold
-    classDef isms fill:#F57C00,stroke:#F57C00,stroke-width:3px,color:#fff,font-weight:bold
-    
+    classDef security fill:#D32F2F,stroke:#B71C1C,stroke-width:3px,color:#fff
+    classDef quality fill:#1976D2,stroke:#0D47A1,stroke-width:3px,color:#fff
+    classDef functionality fill:#388E3C,stroke:#2E7D32,stroke-width:3px,color:#fff
+    classDef qa fill:#7B1FA2,stroke:#4A148C,stroke-width:3px,color:#fff
+    classDef isms fill:#F57C00,stroke:#F57C00,stroke-width:3px,color:#fff
     class CENTER center
     class SEC security
     class QUAL quality
     class FUNC functionality
     class QA qa
-    class ISMS_DIM isms
+    class ISMSDIM isms
 ```
 
 ### 📋 **Pentagon KPI Matrix**
 
-| Dimension | KPI | Target | Current | Agent | Alert |
-|-----------|-----|--------|---------|-------|-------|
-| **🔒 Security** | OpenSSF Avg | >9.0 | [See badges](https://scorecard.dev/viewer/?uri=github.com/Hack23) | Security Architect (hourly) | <7.0 |
-| **🔒 Security** | MTTR Critical | <24h | 18h | Security Architect (continuous) | >48h |
-| **🔒 Security** | Security Incidents | 0 | 0 | Security Architect (real-time) | >0 |
-| **✨ Quality** | Quality Gate | Pass | Pass | Code Quality Engineer (daily) | Fail |
-| **✨ Quality** | Coverage | >80% | 85% | Code Quality Engineer (daily) | <70% |
-| **✨ Quality** | Tech Debt | <5% | 3.2% | Code Quality Engineer (weekly) | >10% |
-| **🚀 Functionality** | Velocity | 5/sprint | 4.2/sprint | Business Dev (weekly) | <3 |
-| **🚀 Functionality** | Deploy Freq | 2/week | 1.8/week | Business Dev (weekly) | <1 |
-| **🚀 Functionality** | Success Rate | >95% | 97% | Business Dev (per deploy) | <90% |
-| **🧪 QA** | Test Success | >98% | 97.5% | Test Specialist (per build) | <95% |
-| **🧪 QA** | Automation | >80% | 82% | Test Specialist (weekly) | <70% |
-| **🧪 QA** | Bug Escape | <2% | 1.3% | Test Specialist (monthly) | >5% |
-| **📋 ISMS** | Policy Compliance | 100% | 95% | ISMS Ninja (weekly) | <90% |
-| **📋 ISMS** | Evidence Auto | >80% | 75% | ISMS Ninja (weekly) | <60% |
-| **📋 ISMS** | Framework Align | 100% | 100% | ISMS Ninja (quarterly) | <95% |
+| Dimension | KPI | Target | Current (2026-08-31) | Alert Threshold |
+| ----------- | ----- | -------- | ---------------------- | ----------------- |
+| 🔒 Security | OpenSSF Avg | >9.0 | **7.8** ([live](https://scorecard.dev/viewer/?uri=github.com/Hack23)) | <7.0 |
+| 🔒 Security | Security Incidents | 0 | 0 | >0 |
+| ✨ Quality | SAST (OpenSSF) | 10 | 9.7 | <9.0 |
+| ✨ Quality | SonarCloud Quality Gate | Pass | Pass | Fail |
+| 🚀 Functionality | Maintained (OpenSSF) | 10 | 10.0 | <8.0 |
+| 🚀 Functionality | Signed Releases | 10 | 10.0 (applicable repos) | <10 |
+| 🧪 QA | CI-Tests (OpenSSF) | 10 | 10.0 | <9.0 |
+| 🧪 QA | Test Automation | >80% | 82% | <70% |
+| 📋 ISMS | Policy Compliance | 100% | 95% | <90% |
+| 📋 ISMS | Evidence Automation | >80% | 75% | <60% |
+| 📋 ISMS | Framework Alignment | 100% | 100% | <95% |
 
-**Table note:** *Agent* column uses the format `Role (collection frequency)`. *Alert* column values represent breach thresholds that trigger immediate corrective action and escalation to the accountable owner, including CEO visibility for red conditions in line with the [Incident Response Plan](./Incident_Response_Plan.md).
-
-**Composite Pentagon Score:** 88.3/100 | **2026 Target:** >92/100
-
-_Note: The composite score is calculated as a weighted average across all Pentagon dimensions. See Pentagon Dimension Weights section below for detailed weighting methodology._
-
-### 🎯 **Pentagon Dimension Weights**
-
-Balanced scoring ensures no single dimension dominates improvement priorities:
-
-| Dimension | Weight | Rationale |
-|-----------|--------|-----------|
-| **🔒 Security** | 25% | Core business differentiator and consulting credibility |
-| **✨ Quality** | 20% | Product excellence and maintainability |
-| **🚀 Functionality** | 20% | Business value delivery and market responsiveness |
-| **🧪 QA** | 15% | Release confidence and customer satisfaction |
-| **📋 ISMS Controls** | 20% | Compliance readiness and governance maturity |
-
-**Composite Pentagon Score:** Weighted average across all dimensions  
-**Current Score:** 88.3/100 | **Target (2026):** >92/100
+**Dimension weights:** Security 25% • Quality 20% • Functionality 20% • QA 15% • ISMS Controls 20%. Composite score and
+methodology are maintained in the [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md).
 
 ---
 
-## 📊 **Real-Time Metrics Dashboard Architecture**
+## ⚙️ **Metric Governance & Evidence Management**
 
-### 🏗️ **ISMS Metrics Dashboard**
+### 📋 **Collection Cadence & Evidence Retention**
 
-The [ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) serves as the central metrics dashboard with real-time Pentagon dimension visualization. Note that while the [CIA Compliance Manager](https://github.com/Hack23/cia-compliance-manager) is an open-source compliance assessment tool, it is NOT used as a centralized evidence dashboard for ISMS operations.
+| Data family | Collection frequency | System of record | Retention / integrity control |
+| --- | --- | --- | --- |
+| OpenSSF Scorecard | Weekly; monthly report snapshot | Scorecard API + repository JSON evidence | Preserve raw API response, retrieval UTC time, repository list, and calculation formula in `evidence/` |
+| GitHub code, secret, and dependency alerts | Daily; immediately for critical | GitHub Advanced Security | Export alert ID, severity, state, timestamps, repository, and disposition |
+| AWS findings | Continuous / daily review | Security Hub, GuardDuty, Inspector, Config | Record account, region, finding ID, severity, and risk-acceptance link |
+| ISMS control evidence | Weekly / monthly per control | ISMS evidence register | Link evidence to control, owner, validity period, and review result |
+| Incidents and response | Per event; monthly aggregation | Incident register | Fixed definitions for detection, containment, and remediation timestamps |
 
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#2E7D32',
-      'primaryTextColor': '#2E7D32',
-      'lineColor': '#4CAF50',
-      'secondaryColor': '#1565C0'
-    }
-  }
-}%%
-flowchart LR
-    subgraph COLLECTION["📥 Data Collection Layer"]
-        API["🔌 API Integrations<br/>OpenSSF, SonarCloud, GitHub"]
-        AGENTS["🤖 Agent Reports<br/>Automated Collection"]
-        MANUAL["📝 Manual Entry<br/>Quarterly Assessments"]
-    end
-    
-    subgraph PROCESSING["⚙️ Processing Layer"]
-        VALIDATE["✅ Data Validation<br/>Schema Compliance"]
-        TRANSFORM["🔄 Transformation<br/>Pentagon Mapping"]
-        AGGREGATE["📊 Aggregation<br/>Trend Calculation"]
-    end
-    
-    subgraph STORAGE["💾 Storage Layer"]
-        CURRENT["📈 Current State<br/>Real-Time Metrics"]
-        HISTORY["📚 Historical Data<br/>Trend Analysis"]
-        CACHE["⚡ Cache Layer<br/>Dashboard Performance"]
-    end
-    
-    subgraph PRESENTATION["📺 Presentation Layer"]
-        PENTAGON_VIEW["🏆 Pentagon View<br/>Dimension Scores"]
-        TREND_VIEW["📈 Trend Analysis<br/>Historical Graphs"]
-        ALERT_VIEW["🚨 Alert Summary<br/>Threshold Breaches"]
-        EVIDENCE_VIEW["📄 Evidence Links<br/>Audit Trail"]
-    end
-    
-    API --> VALIDATE
-    AGENTS --> VALIDATE
-    MANUAL --> VALIDATE
-    
-    VALIDATE --> TRANSFORM
-    TRANSFORM --> AGGREGATE
-    
-    AGGREGATE --> CURRENT
-    AGGREGATE --> HISTORY
-    CURRENT --> CACHE
-    
-    CACHE --> PENTAGON_VIEW
-    CACHE --> TREND_VIEW
-    CACHE --> ALERT_VIEW
-    HISTORY --> EVIDENCE_VIEW
-    
-    style COLLECTION fill:#4CAF50,color:#fff
-    style PROCESSING fill:#1565C0,color:#fff
-    style STORAGE fill:#FF9800,color:#fff
-    style PRESENTATION fill:#7B1FA2,color:#fff
-```
+### 🔑 **Evidence Key & Definitions**
 
-### 📈 **Dashboard Views**
+- **OpenSSF portfolio average:** arithmetic mean of the nine active repository `score` values; archived and
+  documentation-only repositories excluded.
+- **Fresh scan:** API `date` no more than seven calendar days before report publication (all scans in this report are
+  ≤25 days; Lambda-VPC refresh scheduled with the September cycle).
+- **Scorecard vulnerability finding:** the count reported in the Scorecard check reason. It is **not** a severity rating
+  or GitHub alert count.
+- **Metric status:** ✅ measured and evidenced; 🔎 requires source-system validation; ⚠️ stale/ambiguous; ❌ below target.
+- **Risk acceptance:** must identify owner, rationale, compensating controls, expiry, and review date per
+  [Risk Register](./Risk_Register.md).
 
-| View | Purpose | Refresh Frequency | Primary Users |
-|------|---------|-------------------|---------------|
-| **🏆 Pentagon Dimension View** | KPIs grouped by Pentagon dimension with radar chart | Real-time (critical), Hourly (standard) | CEO, Auditors |
-| **📈 Trend Analysis** | Historical graphs showing improvement over time | Daily aggregation | CEO, Planning |
-| **🚨 Alert Summary** | Real-time threshold breach notifications | Immediate | CEO, Agents |
-| **📄 Evidence Links** | Automated evidence generation for each metric | Per collection cycle | Auditors, Compliance |
-| **🎯 Target Tracking** | Progress toward Phase 2 2026 targets | Weekly rollup | CEO, Strategy |
-
-### 🔄 **Refresh Frequency by Criticality**
-
-| Metric Category | Refresh Rate | Justification |
-|-----------------|--------------|---------------|
-| **🔴 Critical Security** | Real-time (< 5 min) | Security incidents require immediate visibility |
-| **🟠 High Priority** | Hourly | OpenSSF scores, vulnerability counts affect posture |
-| **🟡 Standard Operations** | Daily | Code quality, coverage stable over short periods |
-| **🟢 Strategic Metrics** | Weekly | Policy compliance, framework alignment slower-moving |
-
----
-
-## 🎯 **Agent Threshold Monitoring & Alerting**
-
-### 🚨 **Alert Trigger Framework**
-
-Automated threshold monitoring ensures proactive security posture management with escalation to CEO for critical issues.
-
-| Severity | Trigger Conditions | Response Time | Notification Method | Escalation Path |
-|----------|-------------------|---------------|---------------------|-----------------|
-| **🔴 Critical** | OpenSSF <7.0, Critical Vulnerability >7 days, Any Incident | Immediate | CEO SMS + Email + Dashboard Alert | Immediate CEO action |
-| **🟠 High** | Quality Gate Fail, Test Success <95%, Incident Count >0 | <1 hour | CEO Email + Dashboard Summary | CEO daily summary |
-| **🟡 Medium** | Coverage <75%, Deploy Freq <1/week, Compliance <90% | <24 hours | Dashboard Flag + Weekly Report | CEO weekly review |
-| **🟢 Low** | Minor threshold breaches (<5% variance) | <1 week | Dashboard tracking only | Agent automated remediation |
-
-### 🔄 **Automated Remediation Workflows**
-
-Agents automatically create remediation issues for threshold breaches:
+### 🔄 **Measured Remediation & Verification Workflow**
 
 ```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#D32F2F',
-      'lineColor': '#B71C1C'
-    }
-  }
-}%%
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#D32F2F', 'primaryTextColor': '#ffffff', 'lineColor': '#B71C1C', 'secondaryColor': '#FF9800', 'tertiaryColor': '#4CAF50'}}}%%
 flowchart TD
-    DETECT["🔍 Threshold Breach<br/>Detected by Agent"] --> CLASSIFY{"🏷️ Severity<br/>Classification"}
-    
-    CLASSIFY -->|🔴 Critical| CRITICAL_PATH["⚡ Critical Path<br/>CEO Immediate Notification"]
-    CLASSIFY -->|🟠 High| HIGH_PATH["📧 High Path<br/>CEO Daily Summary"]
-    CLASSIFY -->|🟡 Medium| MEDIUM_PATH["📊 Medium Path<br/>Dashboard Flag"]
-    CLASSIFY -->|🟢 Low| LOW_PATH["🔧 Low Path<br/>Auto-Remediation"]
-    
-    CRITICAL_PATH --> CEO_ACTION["👔 CEO Action<br/>Manual Intervention"]
-    HIGH_PATH --> CEO_REVIEW["👔 CEO Review<br/>Prioritization"]
-    MEDIUM_PATH --> WEEKLY_REVIEW["📅 Weekly Review<br/>Planning Session"]
-    LOW_PATH --> AUTO_ISSUE["🤖 Auto-Create Issue<br/>Agent Assignment"]
-    
-    CEO_ACTION --> RESOLVE["✅ Resolution<br/>Metric Restored"]
-    CEO_REVIEW --> RESOLVE
-    WEEKLY_REVIEW --> RESOLVE
-    AUTO_ISSUE --> SPECIALIST["👷 Specialist Agent<br/>Implementation"]
-    SPECIALIST --> RESOLVE
-    
-    RESOLVE --> VERIFY["🔍 Verification<br/>Threshold Check"]
-    VERIFY -->|Pass| CLOSE["📋 Close Alert<br/>Update Dashboard"]
-    VERIFY -->|Fail| DETECT
-    
-    style CRITICAL_PATH fill:#D32F2F,color:#fff
-    style HIGH_PATH fill:#FF9800,color:#fff
-    style MEDIUM_PATH fill:#FFC107,color:#000
-    style LOW_PATH fill:#4CAF50,color:#fff
+    DETECT["🔍 Scorecard / dashboard finding"] --> TRIAGE{"🏷️ Validate source and severity"}
+    TRIAGE -->|Critical or policy breach| ESCALATE["🚨 CEO immediate notification"]
+    TRIAGE -->|Remediable gap| ISSUE["📋 Create tracked remediation issue"]
+    TRIAGE -->|Accepted risk| RISK["📉 Time-bound risk acceptance"]
+    ESCALATE --> FIX["🔧 Corrective action"]
+    ISSUE --> FIX
+    RISK --> REVIEW["📅 Scheduled review"]
+    FIX --> VERIFY{"✅ Fresh API / system evidence passes?"}
+    VERIFY -->|Yes| CLOSE["✅ Close issue & retain evidence"]
+    VERIFY -->|No| ISSUE
+    REVIEW --> TRIAGE
+
+    style DETECT fill:#1565C0,color:#fff
+    style ESCALATE fill:#D32F2F,color:#fff
+    style ISSUE fill:#FF9800,color:#000
+    style FIX fill:#4CAF50,color:#fff
+    style CLOSE fill:#4CAF50,color:#fff
 ```
-
-### 🤖 **Agent-Driven Remediation Actions**
-
-| Threshold Breach | Responsible Agent | Automated Action | CEO Involvement |
-|------------------|-------------------|------------------|-----------------|
-| **OpenSSF Score <8.0** | Security Architect | Create issues for specific scorecard check improvements | Review proposed improvements |
-| **Coverage Drop >5%** | Test Specialist | Create test coverage improvement PR with target modules | Approve PR merge |
-| **Quality Gate Fail** | Code Quality Engineer | Create tech debt reduction issues with priority ranking | Daily summary review |
-| **Deployment Freq Low** | Business Dev Specialist | Create CI/CD optimization issues | Weekly planning inclusion |
-| **Policy Compliance <95%** | ISMS Ninja | Create policy update issues with gap analysis | Immediate review for critical |
-
-### 📊 **Alerting Metrics**
-
-| Metric | Current | Target | Trend |
-|--------|---------|--------|-------|
-| **Mean Time to Alert (MTTA)** | 8 min | <5 min | 📈 Improving |
-| **Alert-to-Remediation Time** | 18 hours | <12 hours | 📈 Improving |
-| **False Positive Rate** | 5% | <3% | 📈 Improving |
-| **Auto-Remediation Success** | 72% | >85% | 📈 Improving |
-
----
-
-## 📈 **Security Metrics Framework**
-
-### **🎯 Strategic Security Objectives**
-Our metrics directly support business value creation:
-
-- **🏆 Competitive Advantage:** Demonstrable security excellence differentiated from competitors
-- **🤝 Customer Trust:** Transparent security posture building client confidence  
-- **💰 Revenue Protection:** Operational resilience maintaining service availability
-- **📋 Compliance Posture:** Regulatory alignment reducing legal and business risk
-- **⚙️ Operational Efficiency:** Automated security operations reducing manual overhead
-
----
-
-## 🏆 **OpenSSF Scorecard Alignment Matrix**
-
-### **📊 Current OpenSSF Performance (2026-07-01)**
-
-> 📡 For full per-check breakdown, gap analysis, and organization-wide remediation plan see the [July 2026 Live Scorecard Snapshot](#-july-2026-live-scorecard-snapshot-2026-07-01) above.
-
-#### **📊 CIA Compliance Manager** — **8.0 / 10** 🚀 *+0.5 vs June 2026 — new portfolio leader; Vulnerabilities check recovered 3 → 10*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager) | **Target: 9.5+** | Gap: Code-Review (0), Branch-Protection (3), CII (5), Fuzzing (0); Token-Permissions (9) ✅, Vulnerabilities (10) ✅
-
-#### **🏛️ Citizen Intelligence Agency** — **7.9 / 10** *Stable vs June 2026*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia) | **Target: 9.5+** | Gap: Code-Review (0 solo-maintainer), CII-Best-Practices (5 — re-validate Gold), Fuzzing (0), Binary-Artifacts (9); Branch-Protection (4) ✅, Token-Permissions (9) ✅, Vulnerabilities (10) ✅
-
-#### **📡 Lambda in Private VPC** — **7.6 / 10** *Stable (stale scan 2026-04-30)*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0 – enrol pending), Fuzzing (0); Branch-Protection (4) ✅, Pinned-Dependencies (10) ✅, Vulnerabilities (10) ✅
-
-#### **🗳️ Riksdagsmonitor** — **7.4 / 10** 🚀 *+0.6 vs June 2026 — Vulnerabilities check recovered 2 → 10*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), SAST (9), CII (5); Vulnerabilities (10) ✅, Contributors (10) ✅
-
-#### **🎮 Black Trigram** — **7.3 / 10** 🚀 *+0.7 vs June 2026 — top mover; Vulnerabilities check recovered 1 → 10*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram) | **Target: 9.5+** | Gap: Token-Permissions (0), Branch-Protection (3), CII (5), Contributors (6); Vulnerabilities (10) ✅
-
-#### **🇪🇺 European Parliament MCP Server** — **7.3 / 10** 🚀 *+0.5 vs June 2026 — Vulnerabilities check recovered 3 → 10*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), CII (5), Contributors (6); Pinned-Dependencies (9) ✅, Vulnerabilities (10) ✅
-
-#### **🇪🇺 EU Parliament Monitor** — **7.3 / 10** *Stable vs June 2026*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor) | **Target: 9.0+** | Gap: Token-Permissions (0), Branch-Protection (3), SAST (9), Contributors (6); Vulnerabilities (10) ✅
-
-#### **🌐 Homepage** — **7.2 / 10** ⚠️ *Scan stale (2025-12-16)*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage) | **Target: 9.0+** | Gap: Token-Permissions (0), CII (0), Scorecard workflow needs refresh; Vulnerabilities (10) ✅
-
-#### **🎮 Game Template** — **7.2 / 10** *+0.2 vs June 2026*
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game) | **Target: 9.0+** | Gap: License (0 – missing SPDX), Branch-Protection (0), CII (0); Token-Permissions (9) ✅, Vulnerabilities (10) ✅
-
-**Data source:** `api.securityscorecards.dev` snapshotted 2026-06-30 (Lambda-VPC 2026-04-30, Homepage 2025-12-16) · Values refresh weekly · For check descriptions see [OpenSSF Scorecard Documentation](https://github.com/ossf/scorecard#scorecard-checks)
-
----
-
-## 🔍 **Vulnerability Management Metrics**
-
-### **⏱️ SLA Compliance Tracking**
-Aligned with [Vulnerability Management Policy](./Vulnerability_Management.md) requirements:
-
-| Severity | SLA Target | Current Performance | Trend | Business Impact |
-|----------|------------|-------------------|-------|----------------|
-| **🔴 Critical** | 24 hours | View live in GitHub Security | ✅ | 💰 Revenue Protection |
-| **🟠 High** | 7 days | View live in GitHub Security | ✅ | 🛡️ Risk Reduction |  
-| **🟡 Medium** | 30 days | View live in GitHub Security | ✅ | ⚙️ Operational Efficiency |
-| **🟢 Low** | 90 days | View live in GitHub Security | ✅ | 📋 Compliance Posture |
-
-### **🔄 Vulnerability Detection Sources**
-- **📊 SAST Results:** SonarCloud quality gates on every commit
-- **📦 SCA Scanning:** GitHub Dependabot automated dependency updates
-- **🔐 Secret Scanning:** GitHub secret detection with public repository coverage
-- **☁️ Infrastructure:** AWS Inspector container and EC2 vulnerability assessment
-- **🌐 Web Application:** OWASP ZAP security scanning in CI/CD pipelines
 
 ---
 
 ## 🌐 **Public Transparency Badges**
 
-### **🏛️ Citizen Intelligence Agency**
-[![Release](https://img.shields.io/github/v/release/Hack23/cia)](https://github.com/Hack23/cia/releases)
+### 🏛️ **Citizen Intelligence Agency — 8.5 / 10**
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev/spec/v1.0/levels)
-[![Verify & Deploy](https://github.com/Hack23/cia/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/Hack23/cia/actions/workflows/release.yml)
+[![Release](https://img.shields.io/github/v/release/Hack23/cia)](https://github.com/Hack23/cia/releases)
 [![Scorecards](https://github.com/Hack23/cia/actions/workflows/scorecards.yml/badge.svg?branch=master)](https://github.com/Hack23/cia/actions/workflows/scorecards.yml)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_cia&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_cia)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/770/badge)](https://bestpractices.coreinfrastructure.org/projects/770)
 
-### **🎮 Black Trigram**
-[![Release](https://img.shields.io/github/v/release/Hack23/blacktrigram)](https://github.com/Hack23/blacktrigram/releases)
-[![License](https://img.shields.io/github/license/Hack23/blacktrigram.svg)](https://github.com/Hack23/blacktrigram/blob/main/LICENSE)
+### 🎮 **Black Trigram — 8.3 / 10**
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/blacktrigram/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/blacktrigram)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/blacktrigram/attestations)
+[![Release](https://img.shields.io/github/v/release/Hack23/blacktrigram)](https://github.com/Hack23/blacktrigram/releases)
 [![Scorecards](https://github.com/Hack23/blacktrigram/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/blacktrigram/actions/workflows/scorecards.yml)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Hack23_blacktrigram&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Hack23_blacktrigram)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10777/badge)](https://bestpractices.coreinfrastructure.org/projects/10777)
 
-### **📊 CIA Compliance Manager**
-[![Release](https://img.shields.io/github/v/release/Hack23/cia-compliance-manager)](https://github.com/Hack23/cia-compliance-manager/releases)
-[![License](https://img.shields.io/github/license/Hack23/cia-compliance-manager.svg)](https://github.com/Hack23/cia-compliance-manager/blob/main/LICENSE)
+### 📊 **CIA Compliance Manager — 8.2 / 10**
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/cia-compliance-manager/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/cia-compliance-manager)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/cia-compliance-manager/attestations)
-[![Release CI](https://github.com/Hack23/cia-compliance-manager/actions/workflows/release.yml/badge.svg)](https://github.com/Hack23/cia-compliance-manager/actions/workflows/release.yml)
+[![Release](https://img.shields.io/github/v/release/Hack23/cia-compliance-manager)](https://github.com/Hack23/cia-compliance-manager/releases)
 [![Scorecards](https://github.com/Hack23/cia-compliance-manager/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/cia-compliance-manager/actions/workflows/scorecards.yml)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/10365/badge)](https://bestpractices.coreinfrastructure.org/projects/10365)
 
-### **🇪🇺 European Parliament MCP Server**
-[![License](https://img.shields.io/github/license/Hack23/European-Parliament-MCP-Server.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/blob/main/LICENSE)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12067/badge)](https://bestpractices.coreinfrastructure.org/projects/12067)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/attestations)
-[![CI](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml/badge.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml)
+### 🇪🇺 **European Parliament MCP Server — 8.1 / 10**
 
-### **🇪🇺 EU Parliament Monitor**
-[![License](https://img.shields.io/github/license/Hack23/euparliamentmonitor.svg)](https://github.com/Hack23/euparliamentmonitor/blob/main/LICENSE)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/European-Parliament-MCP-Server/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/European-Parliament-MCP-Server)
+[![CI](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml/badge.svg)](https://github.com/Hack23/European-Parliament-MCP-Server/actions/workflows/ci.yml)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12067/badge)](https://bestpractices.coreinfrastructure.org/projects/12067)
+
+### 🌐 **Homepage — 7.7 / 10**
+
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage)
+[![Scorecards](https://github.com/Hack23/homepage/actions/workflows/scorecards.yml/badge.svg?branch=master)](https://github.com/Hack23/homepage/actions/workflows/scorecards.yml)
+
+### 🗳️ **Riksdagsmonitor — 7.5 / 10**
+
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
+[![Quality Checks](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12069/badge)](https://bestpractices.coreinfrastructure.org/projects/12069)
+
+### 🇪🇺 **EU Parliament Monitor — 7.4 / 10**
+
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/euparliamentmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/euparliamentmonitor)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12068/badge)](https://bestpractices.coreinfrastructure.org/projects/12068)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/euparliamentmonitor/attestations)
-[![News Generation](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml/badge.svg)](https://github.com/Hack23/euparliamentmonitor/actions/workflows/news-generation.yml)
 
-### **🗳️ Riksdagsmonitor**
-[![License](https://img.shields.io/github/license/Hack23/riksdagsmonitor.svg)](https://github.com/Hack23/riksdagsmonitor/blob/main/LICENSE)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/riksdagsmonitor/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/riksdagsmonitor)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/12069/badge)](https://bestpractices.coreinfrastructure.org/projects/12069)
-[![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://github.com/Hack23/riksdagsmonitor/attestations)
-[![Quality Checks](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml/badge.svg)](https://github.com/Hack23/riksdagsmonitor/actions/workflows/quality-checks.yml)
+### 📡 **Lambda in Private VPC — 7.3 / 10**
 
-### **🔧 Sonar-CloudFormation-Plugin** ⚠️ *Archived - No Longer Maintained*
-[![License](https://img.shields.io/github/license/Hack23/sonar-cloudformation-plugin.svg)](https://github.com/Hack23/sonar-cloudformation-plugin/raw/master/LICENSE.txt)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/sonar-cloudformation-plugin/badge)](https://api.securityscorecards.dev/projects/github.com/Hack23/sonar-cloudformation-plugin)
-[![Maven Central](https://img.shields.io/maven-central/v/com.hack23.sonar/sonar-cloudformation-plugin.svg)](https://mvnrepository.com/artifact/com.hack23.sonar/sonar-cloudformation-plugin)
-[![Archived](https://img.shields.io/badge/Status-Archived-lightgrey?logo=archive&logoColor=white)](https://github.com/Hack23/sonar-cloudformation-plugin)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4545/badge)](https://bestpractices.coreinfrastructure.org/projects/4545)
-
-### **📡 Lambda in Private VPC**
-[![License](https://img.shields.io/github/license/Hack23/lambda-in-private-vpc.svg)](https://github.com/Hack23/lambda-in-private-vpc/blob/main/LICENSE.md)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/lambda-in-private-vpc/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/lambda-in-private-vpc)
-[![Main CI](https://github.com/Hack23/lambda-in-private-vpc/actions/workflows/main.yml/badge.svg)](https://github.com/Hack23/lambda-in-private-vpc/actions/workflows/main.yml)
 [![Scorecard CI](https://github.com/Hack23/lambda-in-private-vpc/actions/workflows/scorecard.yml/badge.svg?branch=main)](https://github.com/Hack23/lambda-in-private-vpc/actions/workflows/scorecard.yml)
 
-### **🌐 Homepage**
-[![License](https://img.shields.io/github/license/Hack23/homepage)](https://github.com/Hack23/homepage/blob/master/LICENSE)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/homepage/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/homepage)
-[![Scorecard supply-chain security](https://github.com/Hack23/homepage/actions/workflows/scorecards.yml/badge.svg?branch=master)](https://github.com/Hack23/homepage/actions/workflows/scorecards.yml)
-[![Verify & Deploy](https://github.com/Hack23/homepage/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/Hack23/homepage/actions/workflows/main.yml)
+### 🎮 **Game — 7.2 / 10**
 
-### **🎮 Game**
-[![License](https://img.shields.io/github/license/Hack23/game)](https://github.com/Hack23/game/blob/main/LICENSE)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Hack23/game/badge)](https://scorecard.dev/viewer/?uri=github.com/Hack23/game)
 [![Scorecards](https://github.com/Hack23/game/actions/workflows/scorecards.yml/badge.svg?branch=main)](https://github.com/Hack23/game/actions/workflows/scorecards.yml)
 
-### **📋 ISMS Repository**
-[![Documentation CI](https://github.com/Hack23/ISMS/actions/workflows/ci.yml/badge.svg)](https://github.com/Hack23/ISMS/actions/workflows/ci.yml)
-[![Link Validation](https://github.com/Hack23/ISMS/actions/workflows/link-validation.yml/badge.svg)](https://github.com/Hack23/ISMS/actions/workflows/link-validation.yml)
+> **📌 Badge note:** Badges are live external indicators. The dated API snapshot and the numeric table above remain the
+> authoritative evidence for this report revision.
 
 ---
 
-## 🐙 **GitHub Advanced Security — Live Dashboards**
-
-**Note:** Requires access to the Hack23 GitHub organization.
-
-### **🔍 Security Overview Dashboards**
-- **🏛️ CIA:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/cia/security/code-scanning) • [Secrets](https://github.com/Hack23/cia/security/secret-scanning) • [Dependabot](https://github.com/Hack23/cia/security/dependabot)
-- **🎮 Black Trigram:** [Overview](https://github.com/Hack23/blacktrigram/security/overview) • [Code Scanning](https://github.com/Hack23/blacktrigram/security/code-scanning) • [Secrets](https://github.com/Hack23/blacktrigram/security/secret-scanning) • [Dependabot](https://github.com/Hack23/blacktrigram/security/dependabot)
-- **📊 CIA Compliance Manager:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/cia-compliance-manager/security/code-scanning) • [Secrets](https://github.com/Hack23/cia-compliance-manager/security/secret-scanning) • [Dependabot](https://github.com/Hack23/cia-compliance-manager/security/dependabot)
-- **🇪🇺 EP MCP Server:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/European-Parliament-MCP-Server/security/code-scanning) • [Secrets](https://github.com/Hack23/European-Parliament-MCP-Server/security/secret-scanning) • [Dependabot](https://github.com/Hack23/European-Parliament-MCP-Server/security/dependabot)
-- **🇪🇺 EU Parliament Monitor:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Dependabot](https://github.com/Hack23/euparliamentmonitor/security/dependabot)
-- **🗳️ Riksdagsmonitor:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Dependabot](https://github.com/Hack23/riksdagsmonitor/security/dependabot)
-- **🎮 Game:** [Overview](https://github.com/Hack23/game/security/overview) • [Code Scanning](https://github.com/Hack23/game/security/code-scanning) • [Secrets](https://github.com/Hack23/game/security/secret-scanning) • [Dependabot](https://github.com/Hack23/game/security/dependabot)
-- **🔧 Sonar-CloudFormation-Plugin:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/sonar-cloudformation-plugin/security/code-scanning) • [Secrets](https://github.com/Hack23/sonar-cloudformation-plugin/security/secret-scanning) • [Dependabot](https://github.com/Hack23/sonar-cloudformation-plugin/security/dependabot)
-- **📡 Lambda in Private VPC:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/lambda-in-private-vpc/security/code-scanning) • [Secrets](https://github.com/Hack23/lambda-in-private-vpc/security/secret-scanning) • [Dependabot](https://github.com/Hack23/lambda-in-private-vpc/security/dependabot)
-- **🌐 Homepage:** [Overview](https://github.com/orgs/Hack23/security/overview) • [Code Scanning](https://github.com/Hack23/homepage/security/code-scanning) • [Secrets](https://github.com/Hack23/homepage/security/secret-scanning) • [Dependabot](https://github.com/Hack23/homepage/security/dependabot)
-- **📋 ISMS:** [Overview](https://github.com/Hack23/ISMS/security/overview) • [Code Scanning](https://github.com/Hack23/ISMS/security/code-scanning) • [Secrets](https://github.com/Hack23/ISMS/security/secret-scanning) • [Dependabot](https://github.com/Hack23/ISMS/security/dependabot)
-
----
-
-## ☁️ **AWS Security Services — Live Consoles**
-
-**Region:** eu-west-1 (switch in console as needed)
-
-### **🛡️ Security Service Dashboards**
-- **🛡️ Security Hub:** [Central Dashboard](https://eu-west-1.console.aws.amazon.com/securityhub/home?region=eu-west-1) — Aggregated security findings and compliance status
-- **🧰 Amazon Inspector:** [Vulnerability Assessment](https://eu-west-1.console.aws.amazon.com/inspector/v2/home?region=eu-west-1) — Container and EC2 vulnerability scanning
-- **🛰️ Amazon GuardDuty:** [Threat Detection](https://eu-west-1.console.aws.amazon.com/guardduty/home?region=eu-west-1) — Intelligent threat detection and analysis
-- **📊 AWS Config:** [Compliance Dashboard](https://eu-west-1.console.aws.amazon.com/config/home?region=eu-west-1) — Configuration compliance monitoring
-
-### **🔍 Additional Security Services**
-- **🔐 AWS Secrets Manager:** [Secret Management](https://eu-west-1.console.aws.amazon.com/secretsmanager/home?region=eu-west-1) — Credential lifecycle management
-- **🗝️ AWS KMS:** [Key Management](https://eu-west-1.console.aws.amazon.com/kms/home?region=eu-west-1) — Encryption key administration
-- **📜 CloudTrail:** [Audit Logs](https://eu-west-1.console.aws.amazon.com/cloudtrail/home?region=eu-west-1) — API activity monitoring
-- **☁️ CloudWatch:** [Security Metrics](https://eu-west-1.console.aws.amazon.com/cloudwatch/home?region=eu-west-1) — Performance and security monitoring
-
----
-
-## ✅ **Release Security Gates**
-
-### **🚦 Automated Quality Gates**
-Implemented per [Secure Development Policy](./Secure_Development_Policy.md):
-
-#### **🐙 GitHub Security Requirements** 
-- **🔴 Critical Block:** No Critical code scanning alerts on release branches
-- **🔐 Secret Protection:** No exposed secrets in secret scanning  
-- **📦 Dependency Safety:** No Critical Dependabot security alerts
-- **🎖️ Quality Standards:** SonarCloud Quality Gate must pass
-- **📝 Documentation:** Security architecture must be updated
-
-#### **☁️ AWS Security Requirements**
-- **🛡️ Security Hub:** No Critical/High findings in production unless risk-accepted in [Risk Register](./Risk_Register.md)
-- **🧰 Inspector:** No Critical container/EC2 vulnerabilities in active workloads  
-- **🛰️ GuardDuty:** No unresolved High/Critical threat detections
-- **📊 Config:** All mandatory compliance rules must be compliant
-
-### **📋 Manual Review Gates**
-For changes affecting authentication, data handling, or network access:
-- **👥 Security-focused code review** required per [Change Management](./Change_Management.md)
-- **📊 Risk assessment** and [Risk Register](./Risk_Register.md) updates when applicable
-- **🏗️ Security architecture documentation** must reflect changes
-
----
-
-## 📊 **Key Performance Indicators (KPIs)**
-
-### **🎯 Security Excellence Metrics**
-| KPI Category | Target | Measurement | Business Value |
-|--------------|--------|-------------|----------------|
-| **🏆 OpenSSF Scorecard** | 9.5+/10 across all repos | Monthly automated assessment | 🤝 Customer Trust |
-| **⏱️ Critical Vuln MTTR** | <7 days | GitHub Security tracking | 💰 Revenue Protection |
-| **🔄 Security Automation** | 95%+ automated gates | CI/CD pipeline metrics | ⚙️ Operational Efficiency |
-| **📋 Compliance Coverage** | 100% control implementation | Manual quarterly review | 📋 Compliance Posture |
-| **🛡️ Zero Critical Prod** | 0 critical issues in prod | Real-time AWS/GitHub monitoring | 🛡️ Risk Reduction |
-| **🔍 SoD Control Effectiveness** | ≥95% pass rate | [Quarterly validation checklist](./templates/SoD_Compensating_Controls_Validation_Checklist.md) | 🛡️ Risk Reduction |
-| **✅ SoD Validation Completion** | 100% quarterly | [Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) | 📋 Compliance Posture |
-
-### **📈 Trending Metrics**
-- **🔍 Vulnerability Discovery Rate:** Early detection through automated scanning
-- **📦 Dependency Update Frequency:** Proactive supply chain security management  
-- **🔐 Secret Scanning Coverage:** Comprehensive credential protection across repositories
-- **🎖️ Security Badge Status:** Public demonstration of security posture maintenance
-- **📊 Incident Response Time:** Mean time to detection and resolution of security events
-
-
-## 🔄 **Continuous Improvement Framework**
-
-### **📊 Monthly Security Review Process**
-1. **📈 Metrics Collection:** Automated gathering of security KPIs and trends
-2. **🔍 Gap Analysis:** Identification of areas below target thresholds  
-3. **📋 Action Planning:** Prioritized improvement initiatives with business impact assessment
-4. **🤝 Stakeholder Communication:** Transparent reporting to support business decision-making
-
-### **🎯 Annual Security Strategy Review**
-- **📊 Business Value Assessment:** ROI analysis of security investments per [Classification Framework](./CLASSIFICATION.md)
-- **🔮 Threat Landscape Evolution:** Adaptation to emerging security challenges and opportunities
-- **💰 Security Investment Prioritization:** Budget allocation aligned with business objectives  
-- **🏆 Competitive Positioning:** Security capability benchmarking against industry standards
-
-### **🌟 Innovation Integration**
-- **🚀 Emerging Technology Assessment:** Security implications of new development tools and platforms
-- **🔬 Research & Development:** Investigation of advanced security techniques and automation
-- **🤝 Community Engagement:** Contribution to open source security tools and best practices
-- **📚 Knowledge Sharing:** Publication of security insights and lessons learned
-
----
-
-
-## 🔑 **Evidence Key & Methodology**
-
-**📊 Evidence Types:**  
-📄 **Policy/Procedure** — Documented controls and processes  
-🛠️ **Tool/Automation** — System-generated data and automated monitoring  
-📊 **Live Metrics** — Real-time dashboards with current performance data  
-⏳ **Pending Implementation** — Controls requiring additional enablement  
-
-**🎯 Status Categories:**  
-[![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() **Fully operational with evidence**  
-[![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() **Functional but incomplete coverage**  
-[![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() **Not implemented or insufficient**  
-
-**📈 Priority Framework:**  
-Metrics ordered by business impact per [🏷️ Classification Framework](./CLASSIFICATION.md) — Critical controls first, supporting functions second.
-
-**🔗 Live Dashboard Integration:**  
-GitHub Security Organization Overview provides real-time vulnerability management metrics: [Security Dashboard](https://github.com/orgs/Hack23/security/overview)
-
----
-
-
-<a id="metric-taxonomy"></a>
-## 📊 **Comprehensive Metric Taxonomy**
-
-### 🔴 **Tier 1: Critical Business Protection Metrics**
-*Direct revenue impact, regulatory compliance, or operational continuity*
-
-| 🏛️ **Domain** | 📊 **Metric** | 🎯 **Status** | 📋 **Evidence Source** | 💼 **Business Value** |
-|---------------|---------------|---------------|------------------------|----------------------|
-| **💰 Asset Security** | Asset Inventory Accuracy | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Asset Register](./Asset_Register.md) | Revenue protection through comprehensive asset visibility |
-| **💰 Asset Security** | SaaS Dependency Monitoring | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Asset Register § SaaS](./Asset_Register.md#2-saas-and-platforms-summary) | Cost optimization and vendor concentration risk |
-| **🔐 Identity & Access** | MFA Coverage | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Access Control § MFA](./Access_Control_Policy.md#-multi-factor-authentication-strategy) | Breach prevention and regulatory compliance |
-| **📝 Change Management** | Change Success Rate | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Change Management](./Change_Management.md) | Service availability and operational excellence |
-| **📝 Change Management** | Emergency Change Ratio | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Change Management](./Change_Management.md) | Planned vs reactive operations indicator |
-| **💾 Backup & Recovery** | Backup Success Rate | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Backup Policy](./Backup_Recovery_Policy.md) | Business continuity and data protection |
-| **🔄 Business Continuity** | RTO Achievement Rate | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Business Continuity Plan](./Business_Continuity_Plan.md) | Service restoration and revenue protection |
-| **✅ Compliance** | Control Implementation Coverage | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📄 [Compliance Checklist](./Compliance_Checklist.md) | Regulatory compliance and audit readiness |
-| **📦 Supply Chain** | License Policy Violations | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 🛠️ FOSSA Platform | Legal risk mitigation and IP protection |
-| **🔍 Vulnerability Management** | Mean Time To Remediate | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Current: 8 days MTTR with 228 closed alerts |
-| **🔍 Vulnerability Management** | Alert Resolution Rate | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Current: 800% net resolve rate |
-
-### 🟠 **Tier 2: Operational Excellence Metrics**
-*Service quality, development efficiency, and risk management*
-
-| 🏛️ **Domain** | 📊 **Metric** | 🎯 **Status** | 📋 **Evidence Source** | 💼 **Business Value** |
-|---------------|---------------|---------------|------------------------|----------------------|
-| **🏛️ Governance** | Policy Coverage | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📄 [Compliance Checklist](./Compliance_Checklist.md) | Framework completeness and governance maturity |
-| **💾 Backup & Recovery** | Verified Restore Frequency | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📄 [Backup Policy](./Backup_Recovery_Policy.md) | Recovery confidence and business continuity validation |
-| **🔄 Business Continuity** | Critical Function Testing | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📄 [Business Continuity Plan](./Business_Continuity_Plan.md) | Operational resilience verification |
-| **🔧 Development** | Build Success Rate | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 🛠️ GitHub Actions / SonarCloud | Development velocity and quality gates |
-| **🌐 Privacy & GDPR** | Records Processing Completeness | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📄 [Asset Register](./Asset_Register.md) | GDPR compliance and data mapping |
-| **📦 Supply Chain** | SBOM Freshness | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📄 [Open Source Policy](./Open_Source_Policy.md) | Supply chain transparency and vulnerability management |
-| **🛡️ Product Security** | CRA Conformity Artifact Freshness | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📄 [CRA Process](./CRA_Conformity_Assessment_Process.md) | EU Cyber Resilience Act compliance |
-| **🔍 Vulnerability Management** | Scanner Coverage Ratio | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Repository coverage with automated scanning |
-| **🔍 Vulnerability Management** | Secret Detection Coverage | [![Implemented](https://img.shields.io/badge/Implemented-success?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Current: 0 secrets bypassed (100% blocked) |
-
-### 🟡 **Tier 3: Security Enhancement Metrics**
-*Advanced security capabilities and proactive risk management*
-
-| 🏛️ **Domain** | 📊 **Metric** | 🎯 **Status** | 📋 **Evidence Source** | 💼 **Business Value** |
-|---------------|---------------|---------------|------------------------|----------------------|
-| **🏛️ Governance** | Risk Treatment Progress | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Risk Register](./Risk_Register.md) ⏳ | Risk management effectiveness and treatment tracking |
-| **🔐 Identity & Access** | Privileged Session Monitoring | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ CloudTrail / GitHub Audit | Advanced threat detection and insider risk |
-| **🔐 Identity & Access** | Dormant Access Detection | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ IdP / SaaS Exports | Access hygiene and attack surface reduction |
-| **🔧 Development** | Dependency Aging | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Open Source Policy](./Open_Source_Policy.md) ⏳ | Supply chain risk and technical debt management |
-| **🔧 Development** | Critical Vulnerability Introduction | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Alert trends show vulnerability introduction patterns |
-| **🔍 Vulnerability Management** | Alert Age Optimization | [![Partial](https://img.shields.io/badge/Partial-yellow?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Current: 29 days average age needs improvement |
-| **🔍 Vulnerability Management** | Autofix Adoption Rate | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📊 [GitHub Security Overview](https://github.com/orgs/Hack23/security/overview) | Current: 0 autofix usage, opportunity for automation |
-
-### 🔵 **Tier 4: Advanced Monitoring & Intelligence**
-*Comprehensive security operations and strategic capabilities*
-
-| 🏛️ **Domain** | 📊 **Metric** | 🎯 **Status** | 📋 **Evidence Source** | 💼 **Business Value** |
-|---------------|---------------|---------------|------------------------|----------------------|
-| **📡 Monitoring** | Log Coverage (Critical Systems) | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ CloudWatch Asset Mapping | Security visibility and incident response capability |
-| **📡 Monitoring** | Alert Fidelity (True Positive %) | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Incident Response Plan](./Incident_Response_Plan.md) ⏳ | SOC efficiency and noise reduction |
-| **🚨 Incident Response** | Mean Time To Detection (MTTD) | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Incident Response Plan](./Incident_Response_Plan.md) ⏳ | Threat response speed and impact minimization |
-| **🚨 Incident Response** | Mean Time To Remediation | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Incident Response Plan](./Incident_Response_Plan.md) ⏳ | Recovery effectiveness and business impact |
-| **🚨 Incident Response** | Lessons Learned Adoption | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 IR Action Register ⏳ | Continuous improvement and organizational learning |
-| **🔨 Resilience** | Chaos Engineering Experiments | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ AWS Fault Injection Service | Resilience validation and failure preparedness |
-| **🔨 Resilience** | Resilience Hub Policy Compliance | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ AWS Resilience Hub | Infrastructure resilience and disaster recovery |
-
-### 🟣 **Tier 5: Strategic & Specialized Metrics**
-*Long-term capability building and specialized compliance*
-
-| 🏛️ **Domain** | 📊 **Metric** | 🎯 **Status** | 📋 **Evidence Source** | 💼 **Business Value** |
-|---------------|---------------|---------------|------------------------|----------------------|
-| **🤝 Supplier Management** | Tier 1 SLA Compliance | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [SUPPLIER](./SUPPLIER.md) ⏳ | Vendor performance and risk management |
-| **🤝 Supplier Management** | Assessment Currency | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Third Party Management](./Third_Party_Management.md) ⏳ | Third-party risk management effectiveness |
-| **🤝 Supplier Management** | Critical Supplier Concentration | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Asset Register](./Asset_Register.md) | Supply chain resilience and dependency risk |
-| **🔒 Cryptography** | Key Rotation Timeliness | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Cryptography Policy](./Cryptography_Policy.md) ⏳ | Cryptographic hygiene and compliance |
-| **🔒 Cryptography** | Deprecated Cipher Usage | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Network Security Policy](./Network_Security_Policy.md) ⏳ | Cryptographic modernization and security |
-| **🏷️ Data Protection** | Classified Data Coverage | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Data Classification Policy](./Data_Classification_Policy.md) ⏳ | Information governance and protection |
-| **🏷️ Data Protection** | Policy Handling Violations | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ Incident Log Integration | Data handling compliance and training effectiveness |
-| **🌐 Privacy & GDPR** | Breach Assessment Timeliness | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 IR Legal Workflow ⏳ | GDPR compliance and regulatory response |
-| **📦 Supply Chain** | Unpinned Dependency Ratio | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ Repository Scanning | Supply chain security and reproducible builds |
-| **🛡️ Product Security** | Coordinated Disclosure Response | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Vulnerability Management](./Vulnerability_Management.md) ⏳ | Responsible disclosure and security coordination |
-| **👥 Human Security** | Role-Based Training Completion | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 Training Framework ⏳ | Security awareness and human risk reduction |
-| **👥 Human Security** | Phishing Simulation Performance | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 Future Implementation | Social engineering resilience |
-| **✅ Audit & Compliance** | External Review Currency | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 Audit Log ⏳ | Independent validation and compliance assurance |
-| **💰 Cost & Efficiency** | Security Tool Utilization | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 📄 [Asset Register](./Asset_Register.md) | Investment optimization and capability utilization |
-| **💰 Cost & Efficiency** | Prevented Incident Cost | [![Gap](https://img.shields.io/badge/Gap-red?style=flat-square)]() | 🛠️ Risk Correlation Model ⏳ | Security ROI demonstration and value measurement |
-
----
-
-### 📊 **Metric Implementation Priority Matrix**
-
-| 🎯 **Priority** | 📈 **Business Impact** | ⏰ **Implementation Timeline** | 💰 **Resource Investment** | 📊 **Live Data Available** |
-|----------------|------------------------|-------------------------------|--------------------------|---------------------------|
-| **🔴 Tier 1** | Revenue/Compliance Critical | Immediate (0-30 days) | High - Direct business protection | ✅ GitHub Security Dashboard |
-| **🟠 Tier 2** | Operational Excellence | Short-term (30-90 days) | Medium - Quality improvement | ✅ Partial GitHub Integration |
-| **🟡 Tier 3** | Security Enhancement | Medium-term (90-180 days) | Medium - Risk reduction | ⚠️ Limited Live Data |
-| **🔵 Tier 4** | Advanced Monitoring | Long-term (180-365 days) | Low-Medium - Capability building | ❌ Implementation Required |
-| **🟣 Tier 5** | Strategic Capabilities | Ongoing (365+ days) | Low - Specialized compliance | ❌ Implementation Required |
-
-
-
----
-
-## 📊 **Compliance Monitoring Metrics**
-
-Implementation of ISO 27001 A.5.36 (Policy and standard compliance monitoring) with systematic measurement and continuous improvement:
-
-### 🎯 **Compliance Monitoring Framework**
-
-```mermaid
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#4CAF50',
-      'primaryTextColor': '#2e7d32',
-      'lineColor': '#4CAF50',
-      'secondaryColor': '#1565C0',
-      'tertiaryColor': '#FF9800'
-    }
-  }
-}%%
-flowchart TD
-    subgraph REQUIREMENTS["📋 Compliance Requirements"]
-        ISO[ISO 27001:2022<br/>Control Implementation]
-        NIST[NIST CSF 2.0<br/>Function Alignment]
-        CIS[CIS Controls v8.1<br/>Safeguard Mapping]
-        REGULATORY[Regulatory<br/>GDPR, NIS2, CRA]
-    end
-    
-    subgraph MONITORING["🔍 Continuous Monitoring"]
-        AUTO[Automated Scanning<br/>Daily/Continuous]
-        MANUAL[Manual Reviews<br/>Quarterly/Annual]
-        EVIDENCE[Evidence Collection<br/>Real-time Documentation]
-        METRICS[KPI Tracking<br/>Performance Measurement]
-    end
-    
-    subgraph REPORTING["📊 Compliance Reporting"]
-        DASHBOARD[Compliance Dashboard<br/>Real-time Status]
-        GAPS[Gap Analysis<br/>Improvement Planning]
-        TREND[Trend Analysis<br/>Maturity Tracking]
-        EXECUTIVE[Executive Reports<br/>Board/Stakeholders]
-    end
-    
-    subgraph IMPROVEMENT["🔄 Continuous Improvement"]
-        REMEDIATION[Remediation Actions<br/>Gap Closure]
-        ENHANCEMENT[Control Enhancement<br/>Maturity Growth]
-        VALIDATION[Validation Testing<br/>Effectiveness Verification]
-        LESSONS[Lessons Learned<br/>Knowledge Integration]
-    end
-    
-    ISO --> AUTO
-    NIST --> AUTO
-    CIS --> AUTO
-    REGULATORY --> MANUAL
-    
-    AUTO --> DASHBOARD
-    MANUAL --> GAPS
-    EVIDENCE --> TREND
-    METRICS --> EXECUTIVE
-    
-    DASHBOARD --> REMEDIATION
-    GAPS --> ENHANCEMENT
-    TREND --> VALIDATION
-    EXECUTIVE --> LESSONS
-    
-    REMEDIATION --> ISO
-    ENHANCEMENT --> NIST
-    VALIDATION --> CIS
-    LESSONS --> REGULATORY
-    
-    style REQUIREMENTS fill:#4CAF50
-    style MONITORING fill:#1565C0
-    style REPORTING fill:#FF9800
-    style IMPROVEMENT fill:#7B1FA2
-```
-
-### 📈 **Compliance KPIs and Targets**
-
-**ISO 27001:2022:** 76% coverage (77/102 controls) | Target: 90% by 2026 | [Compliance Checklist](./Compliance_Checklist.md)
-
-| Domain | Coverage | Target | Status |
-|--------|----------|--------|--------|
-| A.5 Organizational | 95% (36/38) | 100% Q2 2026 | 🟢 |
-| A.6 People | 13% (1/8) | 75% Q3 2026 | 🔴 |
-| A.7 Physical | 100% (5/5 applicable) | 100% | ✅ |
-| A.8 Technological | 80% (28/35) | 90% Q4 2026 | 🟡 |
-| A.5.AI Governance | 100% (7/7) | 100% | ✅ |
-
-**NIST CSF 2.0 Function Alignment:**
-
-| Function | Maturity | Status |
-|----------|----------|--------|
-| GOVERN | 75% | 🟡 |
-| IDENTIFY | 85% | 🟢 |
-| PROTECT | 80% | 🟡 |
-| DETECT | 90% | 🟢 |
-| RESPOND | 95% | 🟢 |
-| RECOVER | 85% | 🟢 |
-
-**CIS Controls v8.1:** IG1 91% (45/56) ✅ | IG2 81% (52/74) 🟡 | IG3 65% (85/153) 🟠 | Target: 95% IG1, 90% IG2, 75% IG3 by 2026-12-31
-
-### 🔍 **Automated Compliance Monitoring**
-
-**Continuous Scanning:** Code security (GitHub, every commit) | Infrastructure (AWS Config, continuous) | Vulnerabilities (Inspector/SonarCloud, daily) | Secrets (GitHub, real-time) | License (FOSSA, every commit) | Security posture (OpenSSF, weekly)
-
-**Policy Reviews:** All core policies reviewed Q4 2025, next reviews Q1-Q2 2026 per [Compliance Checklist](./Compliance_Checklist.md)
-
-### 📊 **Compliance Metrics Dashboard**
-
-| Metric | Current | Target | Status |
-|--------|---------|--------|--------|
-| ISO 27001 Coverage | 76% | 90% | 📈 +5% QoQ |
-| OpenSSF Avg | [Live](https://scorecard.dev/viewer/?uri=github.com/Hack23) | 9.5 | 📈 Improving |
-| Vuln MTTR | 8 days | 7 days | 📈 Improving |
-| MFA Coverage | 100% | 100% | ✅ Stable |
-| Backup Success | 99.7% | 99.5% | ✅ Exceeds |
-| License Violations | 0 | 0 | ✅ Compliant |
-| Secret Exposure | 0 | 0 | ✅ All blocked |
-| Critical Prod Vulns | 0 | 0 | ✅ Zero tolerance |
-
-**Q4 2025 Trends:** Control implementation 60%→63% | Policy reviews 95%→100% | Incident response 22min→18min | Audit findings 85%→92% closed
-
-### 🎯 **Compliance Improvement Roadmap**
-
-**2026 Q1-Q2 Priorities:** Operating procedures (A.5.37), Capacity mgmt (A.8.6), Config baselines (A.8.9), Clock sync (A.8.17), Privileged tools (A.8.18), Software policy (A.8.19)
-
-**Maturity Evolution:** Q4 2025: 63% Developing | Q1 2026: 70% Developing | Q2 2026: 78% Managed | Q3 2026: 82% Managed | Q4 2026: 85% Optimized (ISO 27001 ready)
-
-### 🔄 **Compliance Review Cadence**
-
-**Reviews:** Control status (monthly) | Policy currency (quarterly) | Gap remediation (quarterly) | External audit prep (semi-annual) | Stakeholder reports (quarterly) | Framework alignment (annual)
-
-### 📋 **Compliance Evidence Management**
-
-**Repository:** ISMS policies (public), AWS CloudTrail (3y), GitHub/SonarCloud results, Identity Center logs, Incident records (5y), Training records (5y) | CEO maintains with quarterly backup verification
-
-**Risk Integration:** Control gaps→risks | Compliance metrics→risk treatment validation | Audit findings→risk reassessment | Remediation→treatment actions | Quarterly [Risk Register](./Risk_Register.md) updates
-
----
-
-## 📈 **AI Model Evolution — Security Metrics Perspective (2026–2037)**
-
-**Assumptions:** AI model upgrades occur multiple times per year (2026 observed: Opus 4.6→4.7→4.8, Sonnet 4.6, plus the new Mythos and Fable 5 model families — seven releases February–June, with further Opus 4.9/4.x and model-family updates expected in H2 2026); competitors (OpenAI, Google, Meta, EU sovereign AI) evaluated at each release. Full cross-perspective analysis in [Information Security Strategy](./Information_Security_Strategy.md) § AI Model Evolution Strategy.
-
-### 📊 AI-Driven Metrics Evolution Roadmap
-
-| Metrics Domain | 2026–2027 (Agentic AI) | 2028–2030 (Autonomous AI) | 2031–2037 (Pre-AGI/AGI) |
-|---------------|------------------------|--------------------------|-------------------------|
-| **Collection** | AI-automated badge generation, metric dashboards, agentic evidence gathering | Autonomous cross-repository metric correlation, predictive trend analysis | Self-evolving metric frameworks with autonomous indicator discovery |
-| **Analysis** | AI-assisted KPI interpretation, automated anomaly flagging | Predictive security posture scoring, autonomous root cause analysis | Near-expert autonomous security analytics with strategic recommendations |
-| **Reporting** | AI-generated executive summaries, automated compliance reports | Autonomous multi-audience report generation, predictive stakeholder alerts | Self-maintaining compliance reporting with zero manual intervention |
-| **Compliance Monitoring** | AI-powered gap detection, automated control testing (framework alignment: ISO 27001, NIST CSF, CIS v8.1) | Continuous autonomous compliance monitoring, predictive audit readiness | Self-healing compliance posture with autonomous regulatory adaptation |
-
-### 📈 AI-Enhanced KPI Targets
-
-| KPI Category | 2026 Target | 2028 Target | 2030 Target | AI Enablement |
-|-------------|-------------|-------------|-------------|---------------|
-| **OpenSSF Scorecard** | ≥9.0 average | ≥9.5 average | ≥9.8 average | AI-automated dependency management, security testing |
-| **Vulnerability MTTR** | <48 hours (critical) | <24 hours (critical) | <4 hours (critical) | AI-prioritized triage → autonomous remediation |
-| **Compliance Coverage** | 100% framework alignment | 100% + predictive gap closure | 100% + autonomous regulatory adaptation | AI compliance monitoring → autonomous evidence generation |
-| **Incident Response Time** | <4 hours detection | <1 hour detection | <15 min detection + response | AI anomaly detection → autonomous incident containment |
-| **ISMS Documentation Currency** | 95% up-to-date | 99% up-to-date | 100% living documentation | AI-assisted updates → autonomous document maintenance |
-
-**Projected Workflow Growth:** Metrics automation workflows scale from 44–50 (2026) → 100–120+ (2034+) definitions. See [FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md) for detailed projections.
-
-**Governance:** Metrics framework evolution governed by annual AI model evaluation cadence per [AI Policy](./AI_Policy.md) § AI Model Evolution Evaluation Framework.
+## 📡 **Live Dashboards & Related Controls**
+
+- [OpenSSF organization view](https://scorecard.dev/viewer/?uri=github.com/Hack23)
+- [GitHub organization security overview](https://github.com/orgs/Hack23/security/overview) _(authenticated access
+  required)_
+- [AWS Security Hub](https://console.aws.amazon.com/securityhub/home) ·
+  [Amazon Inspector](https://console.aws.amazon.com/inspector/v2/home) ·
+  [Amazon GuardDuty](https://console.aws.amazon.com/guardduty/home) ·
+  [AWS Config](https://console.aws.amazon.com/config/home) _(select the operating region in the
+  [Asset Register](./Asset_Register.md))_
+- [OpenSSF Scorecard documentation](https://github.com/ossf/scorecard/blob/main/docs/checks.md)
+- [CII Best Practices](https://bestpractices.coreinfrastructure.org/)
+
+**Control alignment:** [Secure Development Policy](./Secure_Development_Policy.md) •
+[Vulnerability Management](./Vulnerability_Management.md) •
+[Segregation of Duties Policy](./Segregation_of_Duties_Policy.md) •
+[Incident Response Plan](./Incident_Response_Plan.md) • [Risk Register](./Risk_Register.md) •
+[Compliance Checklist](./Compliance_Checklist.md).
+
+### ✅ **Release Security Gates (unchanged policy)**
+
+- **🐙 GitHub:** no Critical code-scanning alerts on release branches; no exposed secrets; no Critical Dependabot
+  alerts; SonarCloud Quality Gate pass; security architecture updated.
+- **☁️ AWS:** no Critical/High Security Hub findings in production unless risk-accepted in the
+  [Risk Register](./Risk_Register.md); no Critical Inspector findings in active workloads; no unresolved GuardDuty
+  High/Critical detections; mandatory Config rules compliant.
 
 ---
 
 ## 📚 **Related Documents**
 
 ### **🎯 Strategic Framework**
-- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — Pentagon framework, AI-first operations, and strategic roadmap
+
+- [🎯 Information Security Strategy](./Information_Security_Strategy.md) — Pentagon framework, AI-first operations,
+  and strategic roadmap
 - [🤖 AI Policy](./AI_Policy.md) — AI governance and automation requirements
 - [🛡️ OWASP LLM Security Policy](./OWASP_LLM_Security_Policy.md) — LLM-specific security controls
 
 ### **🛡️ Core Security Framework**
-- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance and AI-First Operations Governance
+
+- [🔐 Information Security Policy](./Information_Security_Policy.md) — Overall security governance
 - [🛠️ Secure Development Policy](./Secure_Development_Policy.md) — Security-integrated development lifecycle
 - [🔍 Vulnerability Management](./Vulnerability_Management.md) — Systematic security testing and remediation
-- [🔒 Cryptography Policy](./Cryptography_Policy.md) — Encryption standards and key management
-- [🌐 Network Security Policy](./Network_Security_Policy.md) — Network protection and segmentation
-
-### **⚙️ Operational Integration**
-- [📝 Change Management](./Change_Management.md) — Controlled modification procedures with security gates  
 - [🚨 Incident Response Plan](./Incident_Response_Plan.md) — Security event detection and response
-- [💻 Asset Register](./Asset_Register.md) — Information asset inventory and classification
 - [📉 Risk Register](./Risk_Register.md) — Risk identification, assessment, and treatment tracking
 - [📈 ISMS Metrics Dashboard](./ISMS_METRICS_DASHBOARD.md) — Policy health and review tracking
 
 ### **📋 Compliance and Governance**
+
 - [🏷️ Classification Framework](./CLASSIFICATION.md) — Business impact and data classification methodology
-- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) — Public disclosure strategy and implementation
 - [✅ Compliance Checklist](./Compliance_Checklist.md) — Multi-framework regulatory requirement tracking
-- [🤝 Third Party Management](./Third_Party_Management.md) — Supplier security risk management
-- [🔗 Supplier Security Posture](./SUPPLIER.md) — Third-party security assessments
+- [🌐 ISMS Transparency Plan](./ISMS_Transparency_Plan.md) — Public disclosure strategy and implementation
 
 ---
 
 **📋 Document Control:**  
+
 **✅ Approved by:** James Pether Sörling, CEO  
+
 **📤 Distribution:** Public  
-**🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)  
-**📅 Effective Date:** 2026-07-01  
-**⏰ Next Review:** 2026-08-01    
-**🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md) [![OpenSSF](https://img.shields.io/badge/OpenSSF-Aligned-purple?style=flat-square&logo=openssf&logoColor=white)](./CLASSIFICATION.md)
+
+**🏷️ Classification:** [![Confidentiality:
+Public](https://img.shields.io/badge/C-Public-lightgrey?style=flat-square)](./CLASSIFICATION.md#confidentiality-levels)
+
+**📅 Effective Date:** 2026-08-31  
+
+**⏰ Next Review:** 2026-09-30  
+
+**🎯 Framework Compliance:** [![ISO
+27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](./CLASSIFICATION.md)
+[![NIST CSF
+2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](./CLASSIFICATION.md)
+[![CIS
+Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](./CLASSIFICATION.md)
+[![OpenSSF](https://img.shields.io/badge/OpenSSF-Aligned-purple?style=flat-square&logo=openssf&logoColor=white)](https://scorecard.dev/viewer/?uri=github.com/Hack23)
