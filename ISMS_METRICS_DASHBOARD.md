@@ -16,7 +16,7 @@
   <a href="#"><img src="https://img.shields.io/badge/Update-Weekly-orange?style=for-the-badge" alt="Update Frequency"/></a>
 </p>
 
-**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **🤖 Last Generated:** 2026-09-18 09:43 UTC  
+**📋 Document Owner:** CEO | **📄 Version:** 1.1 | **🤖 Last Generated:** 2026-09-29 06:16 UTC  
 **🔄 Update Frequency:** Weekly (Automated) | **📊 Data Source:** All ISMS *.md files
 
 ---
@@ -35,27 +35,30 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 ## 🚦 **Review Status Summary**
 
-**Current Status as of 2026-09-18:**
+**Current Status as of 2026-09-29:**
 
 | Status | Count | Description |
 |--------|-------|-------------|
-| 🔴 **Overdue** | 9 | Policy reviews past their due date - immediate action required |
-| 🟡 **Due Soon (< 30 days)** | 4 | Policy reviews approaching deadline - plan review activities |
+| 🔴 **Overdue** | 12 | Policy reviews past their due date - immediate action required |
+| 🟡 **Due Soon (< 30 days)** | 1 | Policy reviews approaching deadline - plan review activities |
 | 🟢 **Current** | 29 | Policy reviews on schedule - no immediate action needed |
 | **📊 Total Documents** | 42 | Total active ISMS policy documents |
 
 
 ### 🚨 **Overdue Policy Reviews - Action Required**
 
-- **[FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md)** - 105 days overdue (Due: 2026-06-05)
-- **[Backup_Recovery_Policy.md](./Backup_Recovery_Policy.md)** - 55 days overdue (Due: 2026-07-25)
-- **[Disaster_Recovery_Plan.md](./Disaster_Recovery_Plan.md)** - 55 days overdue (Due: 2026-07-25)
-- **[Mobile_Device_Management_Policy.md](./Mobile_Device_Management_Policy.md)** - 55 days overdue (Due: 2026-07-25)
-- **[Access_Control_Policy.md](./Access_Control_Policy.md)** - 55 days overdue (Due: 2026-07-25)
-- **[External_Stakeholder_Registry.md](./External_Stakeholder_Registry.md)** - 55 days overdue (Due: 2026-07-25)
-- **[SWOT.md](./SWOT.md)** - 13 days overdue (Due: 2026-09-05)
-- **[Business_Continuity_Plan.md](./Business_Continuity_Plan.md)** - 13 days overdue (Due: 2026-09-05)
-- **[Vulnerability_Management.md](./Vulnerability_Management.md)** - 5 days overdue (Due: 2026-09-13)
+- **[FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md)** - 116 days overdue (Due: 2026-06-05)
+- **[Backup_Recovery_Policy.md](./Backup_Recovery_Policy.md)** - 66 days overdue (Due: 2026-07-25)
+- **[Disaster_Recovery_Plan.md](./Disaster_Recovery_Plan.md)** - 66 days overdue (Due: 2026-07-25)
+- **[Mobile_Device_Management_Policy.md](./Mobile_Device_Management_Policy.md)** - 66 days overdue (Due: 2026-07-25)
+- **[Access_Control_Policy.md](./Access_Control_Policy.md)** - 66 days overdue (Due: 2026-07-25)
+- **[External_Stakeholder_Registry.md](./External_Stakeholder_Registry.md)** - 66 days overdue (Due: 2026-07-25)
+- **[SWOT.md](./SWOT.md)** - 24 days overdue (Due: 2026-09-05)
+- **[Business_Continuity_Plan.md](./Business_Continuity_Plan.md)** - 24 days overdue (Due: 2026-09-05)
+- **[Vulnerability_Management.md](./Vulnerability_Management.md)** - 16 days overdue (Due: 2026-09-13)
+- **[OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md)** - 9 days overdue (Due: 2026-09-20)
+- **[AI_Policy.md](./AI_Policy.md)** - 9 days overdue (Due: 2026-09-20)
+- **[Risk_Register.md](./Risk_Register.md)** - 1 days overdue (Due: 2026-09-28)
 
 ---
 
@@ -105,16 +108,13 @@ By maintaining **📊 live ISMS monitoring** with **⚡ automated weekly updates
 
 | Review Date | Document | Review Cycle | Days Until Due | Status |
 |-------------|----------|--------------|----------------|--------|
-| 2026-09-20 | [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | Quarterly | 1 | 🟡 Due Soon |
-| 2026-09-20 | [AI_Policy.md](./AI_Policy.md) | Quarterly | 1 | 🟡 Due Soon |
-| 2026-09-28 | [Risk_Register.md](./Risk_Register.md) | Quarterly | 9 | 🟡 Due Soon |
-| 2026-09-30 | [Security_Metrics.md](./Security_Metrics.md) | Monthly | 11 | 🟡 Due Soon |
-| 2026-11-10 | [SUPPLIER.md](./SUPPLIER.md) | Semi-Annual | 52 | 🟢 Current |
-| 2026-11-10 | [Compliance_Checklist.md](./Compliance_Checklist.md) | Semi-Annual | 52 | 🟢 Current |
-| 2026-11-10 | [NIS2_Compliance_Service.md](./NIS2_Compliance_Service.md) | Semi-Annual | 52 | 🟢 Current |
-| 2026-11-10 | [SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) | Semi-Annual | 52 | 🟢 Current |
-| 2026-11-10 | [Third_Party_Management.md](./Third_Party_Management.md) | Semi-Annual | 52 | 🟢 Current |
-| 2026-11-10 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | Semi-Annual | 52 | 🟢 Current |
+| 2026-09-30 | [Security_Metrics.md](./Security_Metrics.md) | Monthly | 0 | 🟡 Due Soon |
+| 2026-11-10 | [SUPPLIER.md](./SUPPLIER.md) | Semi-Annual | 41 | 🟢 Current |
+| 2026-11-10 | [Compliance_Checklist.md](./Compliance_Checklist.md) | Semi-Annual | 41 | 🟢 Current |
+| 2026-11-10 | [NIS2_Compliance_Service.md](./NIS2_Compliance_Service.md) | Semi-Annual | 41 | 🟢 Current |
+| 2026-11-10 | [SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) | Semi-Annual | 41 | 🟢 Current |
+| 2026-11-10 | [Third_Party_Management.md](./Third_Party_Management.md) | Semi-Annual | 41 | 🟢 Current |
+| 2026-11-10 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | Semi-Annual | 41 | 🟢 Current |
 
 ---
 
@@ -133,9 +133,9 @@ Complete status of all ISMS documentation:
 | [SWOT.md](./SWOT.md) | 1.3 | 2026-03-05 | 2026-09-05 | Semi-Annual | 🔴 Overdue | ISO NIST CIS |
 | [Business_Continuity_Plan.md](./Business_Continuity_Plan.md) | 1.4 | 2026-03-05 | 2026-09-05 | Semi-Annual | 🔴 Overdue | ISO NIST CIS |
 | [Vulnerability_Management.md](./Vulnerability_Management.md) | 3.1 | 2026-06-13 | 2026-09-13 | Quarterly | 🔴 Overdue | ISO NIST CIS |
-| [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 1.5 | 2026-06-20 | 2026-09-20 | Quarterly | 🟡 Due Soon | ISO |
-| [AI_Policy.md](./AI_Policy.md) | 2.3 | 2026-06-20 | 2026-09-20 | Quarterly | 🟡 Due Soon | ISO NIST CIS |
-| [Risk_Register.md](./Risk_Register.md) | 3.9 | 2026-06-28 | 2026-09-28 | Quarterly | 🟡 Due Soon | ISO NIST CIS |
+| [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 1.5 | 2026-06-20 | 2026-09-20 | Quarterly | 🔴 Overdue | ISO |
+| [AI_Policy.md](./AI_Policy.md) | 2.3 | 2026-06-20 | 2026-09-20 | Quarterly | 🔴 Overdue | ISO NIST CIS |
+| [Risk_Register.md](./Risk_Register.md) | 3.9 | 2026-06-28 | 2026-09-28 | Quarterly | 🔴 Overdue | ISO NIST CIS |
 | [Security_Metrics.md](./Security_Metrics.md) | 4.0 | 2026-08-31 | 2026-09-30 | Monthly | 🟡 Due Soon | ISO NIST CIS |
 | [SUPPLIER.md](./SUPPLIER.md) | 1.5 | 2026-05-10 | 2026-11-10 | Semi-Annual | 🟢 Current | ISO NIST CIS |
 | [Compliance_Checklist.md](./Compliance_Checklist.md) | 2.6 | 2026-05-10 | 2026-11-10 | Semi-Annual | 🟢 Current | ISO NIST CIS |
@@ -208,11 +208,11 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 | [Compliance_Checklist.md](./Compliance_Checklist.md) | 243 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [Secure_Development_Policy.md](./Secure_Development_Policy.md) | 142 | 🔴 Oversized | 🟢 Current | 2026-07-12 |
 | [Information_Security_Strategy.md](./Information_Security_Strategy.md) | 122 | 🔴 Oversized | 🟢 Current | 2026-06-28 |
-| [Risk_Register.md](./Risk_Register.md) | 107 | 🔴 Oversized | 🟡 Due Soon | 2026-06-28 |
+| [Risk_Register.md](./Risk_Register.md) | 107 | 🔴 Oversized | 🔴 Overdue | 2026-06-28 |
 | [SUPPLIER.md](./SUPPLIER.md) | 100 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [Vulnerability_Management.md](./Vulnerability_Management.md) | 82 | 🔴 Oversized | 🔴 Overdue | 2026-06-13 |
 | [Threat_Modeling.md](./Threat_Modeling.md) | 79 | 🔴 Oversized | 🟢 Current | 2026-06-28 |
-| [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 79 | 🔴 Oversized | 🟡 Due Soon | 2026-06-20 |
+| [OWASP_LLM_Security_Policy.md](./OWASP_LLM_Security_Policy.md) | 79 | 🔴 Oversized | 🔴 Overdue | 2026-06-20 |
 | [Incident_Response_Plan.md](./Incident_Response_Plan.md) | 77 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [ISO_5230_Self_Certification.md](./ISO_5230_Self_Certification.md) | 69 | 🔴 Oversized | 🟢 Current | 2026-04-10 |
 | [Open_Source_Policy.md](./Open_Source_Policy.md) | 68 | 🔴 Oversized | 🟢 Current | 2026-07-12 |
@@ -229,7 +229,7 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 | [SECURITY_ARCHITECTURE.md](./SECURITY_ARCHITECTURE.md) | 45 | 🔴 Oversized | 🟢 Current | 2026-05-10 |
 | [External_Stakeholder_Registry.md](./External_Stakeholder_Registry.md) | 42 | 🔴 Oversized | 🔴 Overdue | 2026-01-25 |
 | [FUTURE_WORKFLOWS.md](./FUTURE_WORKFLOWS.md) | 39 | 🟡 Large | 🔴 Overdue | 2026-03-05 |
-| [AI_Policy.md](./AI_Policy.md) | 38 | 🟡 Large | 🟡 Due Soon | 2026-06-20 |
+| [AI_Policy.md](./AI_Policy.md) | 38 | 🟡 Large | 🔴 Overdue | 2026-06-20 |
 | [Segregation_of_Duties_Policy.md](./Segregation_of_Duties_Policy.md) | 37 | 🟡 Large | 🟢 Current | 2026-01-25 |
 | [Security_Metrics.md](./Security_Metrics.md) | 37 | 🟡 Large | 🟡 Due Soon | 2026-08-31 |
 | [Change_Management.md](./Change_Management.md) | 37 | 🟡 Large | 🟢 Current | 2026-01-25 |
@@ -332,6 +332,6 @@ Monitor document sizes to identify consolidation opportunities and maintain opti
 **✅ Generated by:** Automated GitHub Actions Workflow  
 **📤 Distribution:** Public (GitHub Repository)  
 **🏷️ Classification:** [![Confidentiality: Public](https://img.shields.io/badge/C-Public-green?style=flat-square)](CLASSIFICATION.md#confidentiality-levels)  
-**📅 Last Generated:** 2026-09-18 09:43 UTC  
+**📅 Last Generated:** 2026-09-29 06:16 UTC  
 **⏰ Next Update:** Weekly (Automated)  
 **🎯 Framework Compliance:** [![ISO 27001](https://img.shields.io/badge/ISO_27001-2022_Aligned-blue?style=flat-square&logo=iso&logoColor=white)](CLASSIFICATION.md) [![NIST CSF 2.0](https://img.shields.io/badge/NIST_CSF-2.0_Aligned-green?style=flat-square&logo=nist&logoColor=white)](CLASSIFICATION.md) [![CIS Controls](https://img.shields.io/badge/CIS_Controls-v8.1_Aligned-orange?style=flat-square&logo=cisecurity&logoColor=white)](CLASSIFICATION.md)
